@@ -7,4 +7,4 @@ As of 2026-11-10, **0 exact public ARTEX/CyberStrikeAI indicators were verified 
 - [Eight behavioral hunt hypotheses](behavioral-hunts.csv): grounded in the public advisory; not static IOCs or validated production rules.
 - [Source-scoped campaign facts](campaign_context.json) and [rejected attributions](rejected_india_attributions.json).
 
-An IP's hosting country, an India-based publisher, a shared tool or mention in an Indian advisory is insufficient to label an IOC India-specific. Korea/FortiGate indicators and the locally analyzed sample have not been attributed to CRAFTY FALCON. Unrelated India malware campaigns were not mixed into this framework-focused repository.
+An IP's hosting country, an India-based publisher, a shared tool or mention in an Indian advisory is insufficient to label an IOC India-specific. Korea/FortiGate indicators and the locally analyzed sample have not been attributed to CRAFTY FALCON. Additional AI-assisted India campaigns are now documented separately in the [India campaign supplement](additional-ai-campaigns/README.md), with their own source lists and static-analysis provenance. They are not attributed to these frameworks.

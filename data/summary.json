@@ -2,7 +2,7 @@
   "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
   "date_user_timezone": "2026-11-10 Asia/Calcutta",
   "categorized_records": 9053,
-  "master_distinct_type_value": 14809,
+  "master_distinct_type_value": 15019,
   "new_native_patterns": 10,
   "analyst_derived_records": 333,
   "main_artex_records": 18,
@@ -15,5 +15,15 @@
   "report_folders": 20,
   "normalizations": "Deduplicated two separator/display variants of one compound account reference; no hash/IP value changed.",
   "censys_calls_this_preparation": 0,
-  "project_title": "AI Attacker Threat Research"
+  "project_title": "AI Attacker Threat Research",
+  "supplementary_india_records": 214,
+  "supplementary_india_sourced_ioc_records": 171,
+  "supplementary_india_analyst_derived_records": 5,
+  "supplementary_india_report_artifact_records": 32,
+  "supplementary_india_context_records": 6,
+  "all_categorized_records_including_supplement": 9267,
+  "framework_report_folders": 20,
+  "supplementary_report_folders": 4,
+  "report_folders_total": 24,
+  "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement."
 }

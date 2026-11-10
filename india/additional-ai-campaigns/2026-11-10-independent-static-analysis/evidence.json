@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "reviewed_utc": "2026-11-10T16:58:11.631750+00:00",
+  "purpose": "Sanitized, reproducible byte and managed-method provenance for a supplementary India-targeted campaign. No sample bytes or raw provider export included.",
+  "sources": {
+    "primary_vendor_report": {
+      "url": "https://www.bitdefender.com/en-us/blog/businessinsights/apt36-nightmare-vibeware",
+      "source_date": "2026-03-05",
+      "scope": "Campaign targeting and AI-assistance claims are Bitdefender assessments, not independently proven by this helper."
+    },
+    "primary_vendor_seed": {
+      "url": "https://github.com/bitdefender/malware-ioc/blob/5a4f9b09091d530ab99dabad044bd542c2bd5e12/2026_03_05-apt36-iocs.csv",
+      "git_commit": "5a4f9b09091d530ab99dabad044bd542c2bd5e12",
+      "source_date": "2026-03-05",
+      "csv_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "line": 43,
+      "row": {
+        "indicator_type": "file",
+        "data": "3e9b3306644b1a4d8c3ac23c7e0d4c7b",
+        "additional_data": "",
+        "description": "filecopyU"
+      }
+    },
+    "secondary_hash_corroboration": {
+      "url": "https://tria.ge/260728-n7esxswanf",
+      "scope": "General-table file hashes only. Sandbox tags and other sample labels are not adopted."
+    }
+  },
+  "acquisition": {
+    "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-07-28.zip",
+    "member": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309.exe",
+    "retrieved_at": "2026-11-10T16:51:52.117598+00:00",
+    "http_status": 206,
+    "range": "bytes 322397039-322448191/767110154",
+    "bytes": 70424,
+    "md5": "3e9b3306644b1a4d8c3ac23c7e0d4c7b",
+    "sha1": "795981d6a13880fecb05adaa8503e72c9524ba11",
+    "sha256": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309",
+    "vendor_seed_component": "filecopyU",
+    "vendor_seed_source": "https://github.com/bitdefender/malware-ioc/blob/5a4f9b09091d530ab99dabad044bd542c2bd5e12/2026_03_05-apt36-iocs.csv",
+    "campaign_report": "https://www.bitdefender.com/en-us/blog/businessinsights/apt36-nightmare-vibeware",
+    "vendor_report_date": "2026-03-05",
+    "targeting_claim": "Indian government and diplomatic entities, per Bitdefender campaign report; no specific individual victim inferred from bytes.",
+    "ai_claim": "AI-assisted/vibeware assessment by Bitdefender; not independently proven from this single sample.",
+    "ARTEX_CyberStrikeAI_link": "none established",
+    "executed": false
+  },
+  "static_evidence": {
+    "cli_file_offset": 520,
+    "cli_metadata_root_rva": 8296,
+    "cli_metadata_root_file_offset": 616,
+    "streams": {
+      "#~": {
+        "offset": 724,
+        "size": 464
+      },
+      "#Strings": {
+        "offset": 1188,
+        "size": 620
+      },
+      "#US": {
+        "offset": 1808,
+        "size": 64
+      },
+      "#GUID": {
+        "offset": 1872,
+        "size": 16
+      },
+      "#Blob": {
+        "offset": 1888,
+        "size": 272
+      }
+    },
+    "entry_method_token": "0x06000001",
+    "main_method": {
+      "qualified_name": "FileCopy.Program.Main(System.String[])",
+      "rva": 8272,
+      "method_header_file_offset": 592,
+      "header_format": "tiny",
+      "il_file_offset": 593,
+      "il_size": 12,
+      "il_sha256": "e0fab27b062bc6212fe7416605d6dc7506208d33fffc761a9605f9547ded4321",
+      "instruction_sequence": [
+        "ldstr 0x70000001",
+        "call 0x0a00000f",
+        "pop",
+        "ret"
+      ],
+      "fully_decoded": true
+    },
+    "user_string": {
+      "token": "0x70000001",
+      "heap_offset": 1,
+      "record_file_offset": 1809,
+      "length_prefix_bytes": 1,
+      "length_prefix_value": 61,
+      "utf16le_file_offset": 1810,
+      "utf16le_byte_length": 60,
+      "value": "C:\\Users\\Public\\Documents\\Temp"
+    },
+    "directory_call": {
+      "memberref_token": "0x0a00000f",
+      "memberref_row_file_offset": 1048,
+      "parent_typeref_token": "0x01000011",
+      "typeref_row_file_offset": 890,
+      "typeref_full_name": "System.IO.Directory",
+      "name": "CreateDirectory",
+      "source": "Independent CLI metadata stream and IL token resolution; cross-checked with REA static member provider"
+    },
+    "module_guid": {
+      "name": "MVID",
+      "value": "087cb194-0b40-4a2b-98d2-9ea27c02a5cb",
+      "file_offset": 1872,
+      "byte_length": 16
+    }
+  },
+  "provider_corroboration": {
+    "inspect_managed_artifact_evidence_id": "ev_978b716c77fe3e92136c34860509df8eab486de8b220e929872c3c16375169a9",
+    "inspect_managed_members_evidence_id": "ev_d5f356bfe9a42f6e5d9ad45299801f197fd771b3adec75cdc93ca04817d0abbc",
+    "provider": "rea-dotnet-static v1",
+    "methods_present": 2,
+    "methods_fully_decoded": 2,
+    "main_il_instructions": 4,
+    "constructor_il_instructions": 3,
+    "managed_resource_rva": 0,
+    "managed_resource_size": 0,
+    "analysis_mode": "Static file-backed CLI metadata and CIL decoding; assembly never loaded/executed."
+  },
+  "bounded_acquisition_search": {
+    "vendor_seed_hashes_searched": 42,
+    "public_triage_exact_hash_matches": 6,
+    "public_bazaar_daily_archives_checked": 9,
+    "public_bazaar_archive_entries_examined": 4260,
+    "public_bazaar_match_count": 1,
+    "circl_md5_lookups": 5,
+    "circl_successes": 0,
+    "scope": "Search and central-directory membership are bounded checks, not proof that other public samples do not exist."
+  },
+  "excluded": {
+    "new_c2_iocs": 0,
+    "certificate_urls": "Certificate OCSP/CRL/CA URLs omitted as nonindicative third-party infrastructure.",
+    "version_resource_claims": "Resource company/product names and certificate subjects not treated as proof of publisher identity or campaign association.",
+    "raw_artifacts": "Raw binaries, complete native/provider exports, local source path and certificate/signing details omitted."
+  },
+  "limitations": [
+    "Only this exact vendor-listed helper was acquired and inspected.",
+    "The admitted managed implementation contains Main and constructor only; Main requests directory creation. File-copy or network behavior is not present in those two fully decoded method bodies.",
+    "No sample execution, victim telemetry, controller access, infrastructure probing or Censys query was performed.",
+    "Neither ARTEX nor CyberStrikeAI linkage is established.",
+    "No global novelty claim; locally derived hashes were also publicly available as secondary metadata."
+  ]
+}

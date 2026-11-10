@@ -1,6 +1,6 @@
 # AI Attacker Threat Research
 
-Research into the abuse of AI offensive frameworks, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **10 November 2026**.
+Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **10 November 2026**.
 
 ## Our findings
 
@@ -12,6 +12,8 @@ We derived or verified **333 records**, including byte/native-backed configurati
 
 The sample's exact operator, named campaign, India targeting and current live C2 remain unknown. Static capability does not prove execution on a victim.
 
+Additional independently verified India-campaign observations are in [our separate static analysis](india/additional-ai-campaigns/2026-11-10-independent-static-analysis/README.md) and [own-observation CSV](india/additional-ai-campaigns/analyst-derived.csv): **5 records**, with vendor-reported campaign context and our byte/method evidence kept distinct.
+
 ## Sourced IOCs
 
 The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** indicators reported by external sources. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
@@ -19,17 +21,23 @@ The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-as
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 14,809 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,019 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
-CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ARTEX/CyberStrikeAI among the tools, but keeps the detailed IOC set restricted. **No publicly verified exact India-specific IOC was established in this collection.** We do not substitute Korea/FortiGate addresses or generic software sightings for that set.
+CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ARTEX/CyberStrikeAI among the tools, but keeps the detailed IOC set restricted. **No publicly verified exact ARTEX/CyberStrikeAI IOC specific to the Indian campaign was established in this collection.** We do not substitute Korea/FortiGate addresses or generic software sightings for that set.
 
 - [India assessment and primary sources](india/README.md)
 - [Nine multi-country context observables](india/campaign-scope-observables.csv): the operator's target prompts included India; this does not prove an Indian compromise
 - [Eight India-focused behavioral hunt hypotheses](india/behavioral-hunts.csv): guidance, not static IOCs or validated production rules
 
+The separate [India AI campaign supplement](india/additional-ai-campaigns/README.md) adds **171 externally sourced IOC records** from APT36 vibeware, Sheet Attack and Gopher Strike, plus **5 independently verified/derived observations**. These campaigns have primary-source India targeting evidence and vendor-assessed AI involvement; no ARTEX/CyberStrikeAI link is established. [Sourced IOCs](india/additional-ai-campaigns/sourced-iocs.csv), [our observations](india/additional-ai-campaigns/analyst-derived.csv), [report artifacts](india/additional-ai-campaigns/report-artifacts.csv), and [supporting context](india/additional-ai-campaigns/supporting-context.csv) remain separate.
+
 ## Browse dated reports
+
+### 2026-11-10
+
+- [Our analysis — India campaign sample identity and static behavior](india/additional-ai-campaigns/2026-11-10-independent-static-analysis/README.md).
 
 ### 2026-11-09
 
@@ -88,6 +96,10 @@ CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ART
 
 - [PLURA — ARTEX research](reports/2026/2026-10-03-deep-plura/README.md) — 5 report-associated observables.
 
+### 2026-03-05
+
+- [Bitdefender — APT36 vibeware targeting India](india/additional-ai-campaigns/2026-03-05-apt36-vibeware/README.md).
+
 ### 2026-03-02
 
 - [Team Cymru — CyberStrikeAI infrastructure](reports/2026/2026-03-02-cyberstrikeai-fortigate-context/README.md) — 1 report-associated observable.
@@ -96,3 +108,11 @@ CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ART
 
 - [AWS — FortiGate campaign context](reports/2026/2026-02-20-aws-fortigate-campaign-context/README.md) — 2 report-associated observables.
 
+
+### 2026-01-27
+
+- [Zscaler — Sheet Attack targeting Indian government](india/additional-ai-campaigns/2026-01-27-sheet-attack/README.md).
+
+### 2026-01-26
+
+- [Zscaler — Gopher Strike targeting Indian government](india/additional-ai-campaigns/2026-01-26-gopher-strike/README.md).

@@ -1,0 +1,26 @@
+{
+  "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
+  "records": 214,
+  "distinct_type_value": 210,
+  "categories": {
+    "sourced-iocs": 171,
+    "supporting-context": 5,
+    "report-host-network-artifacts": 32,
+    "legitimate-service-context": 1,
+    "analyst-derived": 3,
+    "analyst-software-fingerprint": 2
+  },
+  "campaigns": {
+    "APT36-vibeware": 68,
+    "Gopher Strike": 61,
+    "Sheet Attack": 85
+  },
+  "analyst_derived_records": 5,
+  "original_framework_catalog_records_unchanged": 9053,
+  "exact_public_ARTEX_CyberStrikeAI_India_specific_IOCs": 0,
+  "india_targeting_scope": "Separate primary-reported campaigns; not exclusively Indian victim attribution per indicator.",
+  "new_global_discovery_claimed": false,
+  "censys_calls": 0,
+  "target_requests": 0,
+  "sample_execution": false
+}

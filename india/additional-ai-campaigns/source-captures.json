@@ -1,0 +1,72 @@
+{
+  "bitdefender": {
+    "retrieved_at_utc": "2026-11-10T16:50:06.348785+00:00",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/bitdefender/malware-ioc/master/2026_03_05-apt36-iocs.csv",
+        "sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+        "bytes": 3789
+      },
+      {
+        "url": "https://www.bitdefender.com/en-us/blog/businessinsights/apt36-nightmare-vibeware",
+        "sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+        "bytes": 316920
+      }
+    ]
+  },
+  "zscaler": [
+    {
+      "source_id": "sheet_attack",
+      "url": "https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-sheetcreep-firepower-and",
+      "final_url": "https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-sheetcreep-firepower-and",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-11-10T16:48:25.784609+00:00",
+      "html_sha256": "192fb40213b1d4fb48607c636f9cdc2008ecdeffc8398700221e64ed5d0301d3",
+      "visible_text_sha256": "115a5c26c9a0a66eb06d0e11261a66b51177240a60fa075d007cc384480ba969",
+      "title": "SHEETCREEP, FIREPOWER & MAILCREEP: APT Backdoors Targeting India",
+      "links": [],
+      "published_date": "2026-01-27",
+      "visible_text_hash_normalization": "UTF-8 encoding after universal-newline normalization to LF; source-literal offsets are Unicode character offsets in this normalized text.",
+      "visible_text_capture_bytes_sha256": "4bb0a84ba4663ca233e627b71164cdeb1df3080c686525d3725791e1961fa8dc",
+      "scope": "Separate India-targeting AI-assisted campaign; no ARTEX/CyberStrikeAI/CRAFTY FALCON association established."
+    },
+    {
+      "source_id": "csk_blackmoon",
+      "url": "https://www.csk.gov.in/alerts/Blackmoon-malware.html",
+      "final_url": "https://www.csk.gov.in/alerts/Blackmoon-malware.html",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-11-10T16:48:23.483613+00:00",
+      "html_sha256": "2d60cede59728a99be4ff265b2bd92b313b4283c442fac2b5ddb702bdd4a684a",
+      "visible_text_sha256": "057112b10a3f5d58bc8da9c53a79eec1b6cc2238d2a4c65bbb19116893f0359f",
+      "title": "Cyber Swachhta Kendra: SyncFuture Espionage Targeted Campaign (Blackmoon Malware)",
+      "links": [
+        [
+          "https://github.com/eSentire/iocs/blob/main/SyncFuture%20Espi",
+          "https://github.com/eSentire/iocs/blob/main/SyncFuture%20Espionage%20Campaign/SyncFuture_Espionage_Campaign_IOCS_Jan2026.txt"
+        ],
+        [
+          "https://www.esentire.com/blog/weaponized-in-china-deployed-i",
+          "https://www.esentire.com/blog/weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign"
+        ]
+      ],
+      "published_date": "2026-02-06",
+      "visible_text_hash_normalization": "UTF-8 encoding after universal-newline normalization to LF; source-literal offsets are Unicode character offsets in this normalized text.",
+      "visible_text_capture_bytes_sha256": "057112b10a3f5d58bc8da9c53a79eec1b6cc2238d2a4c65bbb19116893f0359f",
+      "scope": "India-targeting non-AI research lead only; excluded from normalized AI-campaign records."
+    },
+    {
+      "source_id": "gopher_strike",
+      "url": "https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-gogitter-gitshellpad-and-goshell",
+      "final_url": "https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-gogitter-gitshellpad-and-goshell",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-11-10T16:50:00.074349+00:00",
+      "html_sha256": "729a3c7f455a336f0dd264615ff3f0d409db3c8965b373f83fd22e8dbdc0002d",
+      "visible_text_sha256": "621a1b63605f4166db43b8fc2d238f96ec997ae4cdd127b839f63975e5c5ee80",
+      "published_date": "2026-01-26",
+      "title": "Gopher Strike APT: Golang GitHub C2 & Cobalt Strike vs. India",
+      "visible_text_hash_normalization": "UTF-8 encoding after universal-newline normalization to LF; source-literal offsets are Unicode character offsets in this normalized text.",
+      "visible_text_capture_bytes_sha256": "2b71245f1334632ce6011f89c2131981c7d335fd9f501dcaba0c4d148a7a218b",
+      "scope": "Separate India-targeting AI-assisted campaign; no ARTEX/CyberStrikeAI/CRAFTY FALCON association established."
+    }
+  ]
+}

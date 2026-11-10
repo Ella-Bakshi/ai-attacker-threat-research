@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Attacker Threat Research India supplement record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "campaign",
+    "framework",
+    "publication_category",
+    "indicator_type",
+    "indicator",
+    "role",
+    "confidence",
+    "confidence_scope",
+    "verification_status",
+    "origin",
+    "primary_source_url",
+    "source_published_date",
+    "reviewed_at_utc",
+    "india_targeting_scope",
+    "india_evidence_url",
+    "ai_association",
+    "artex_cyberstrikeai_link_established",
+    "global_novelty_claimed"
+  ],
+  "properties": {
+    "framework": {
+      "const": "OtherAIThreatResearch"
+    },
+    "confidence": {
+      "enum": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    "artex_cyberstrikeai_link_established": {
+      "const": false
+    },
+    "global_novelty_claimed": {
+      "const": false
+    },
+    "india_targeting_scope": {
+      "enum": [
+        "campaign",
+        "not_established",
+        "context_only"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
