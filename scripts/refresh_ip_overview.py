@@ -3,7 +3,7 @@
 Only reads local datasets. No IP targets, DNS resolvers or paid APIs are contacted.
 """
 import argparse,collections,csv,datetime as dt,hashlib,ipaddress,json,math,pathlib,sys,urllib.parse
-from ip_enrichment import IP_TYPES,extract_ip,is_public,lookup_asn_sorted,confidence_for_records,latest_reported_timestamp
+from ip_enrichment import IP_TYPES,extract_ip,is_public,lookup_asn_sorted,confidence_for_records,latest_reported_timestamp,primary_reported_c2
 
 def load(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def write(p,obj):p.parent.mkdir(parents=True,exist_ok=True);temp=p.with_suffix(p.suffix+'.tmp');temp.write_bytes((json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'\n').encode());temp.replace(p)
@@ -109,7 +109,7 @@ def main():
             cats=sorted({r['publication_category'] for r in rr}) or ['unverified-manual-submission'];role_values=sorted({r['role'] for r in rr});nroles=set()
             for r in rr:
                 rid=r['record_id'];cat=r['publication_category']
-                if rid in c2:nroles.add('c2')
+                if rid in c2 or primary_reported_c2(r):nroles.add('c2')
                 if rid in delivery:nroles.add('delivery')
                 if rid in config:nroles.add('c2_configuration')
                 if cat=='deployment-leads':nroles.add('deployment_lead')

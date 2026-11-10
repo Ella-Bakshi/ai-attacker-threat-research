@@ -3,6 +3,10 @@ import bisect,csv,datetime as dt,gzip,ipaddress,re,urllib.parse
 
 IP_TYPES={'ipv4','ipv6','ipv4_port','network_endpoint','deployment_endpoint','deployment_host','url','url_prefix','url_template'}
 
+def primary_reported_c2(record):
+    """Global incident-role classification; conveys no India-targeting assertion."""
+    return record.get('publication_category')=='main-iocs' and record.get('origin')=='external_report' and bool(re.search(r'\bc2\b',record.get('role',''),re.I))
+
 def extract_ip(value,kind):
     if kind not in IP_TYPES:return None
     try:return str(ipaddress.ip_address(value)),None
