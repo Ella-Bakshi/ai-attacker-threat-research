@@ -12,6 +12,7 @@ on:
       - scripts/refresh_ip_overview.py
       - scripts/download_enrichment_data.py
       - scripts/render_ip_map.py
+      - scripts/map-ui/**
       - maps/assets/**
       - requirements-enrichment.txt
       - .github/workflows/refresh-ip-map.yml
@@ -47,6 +48,8 @@ jobs:
         run: python -B scripts/render_ip_map.py --root .
       - name: Check source, confidence, IPv6 and range boundaries
         run: python -B -m unittest discover -s tests -p 'test_*.py'
+      - name: Check map camera and interaction math
+        run: node --test tests/test_map_math.js
       - name: Update integrity manifest and validate offline
         run: |
           python -B scripts/update_manifest.py
