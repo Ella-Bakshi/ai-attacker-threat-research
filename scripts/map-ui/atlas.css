@@ -182,3 +182,5 @@ body{font-variant-numeric:tabular-nums}button,input,select{font:inherit;color:va
 .map-topline .eyebrow,.map-topline .map-count,.map-feedback,.map-nav-footer span{color:#526479}
 
 .command .pinned-record{margin-top:0;font-size:.65rem;max-width:235px;min-height:28px}
+
+.evidence-list{list-style:none;margin:7px 0 0;padding:0}.evidence-list li{padding:9px 0;border-bottom:1px solid var(--border)}.evidence-list li:last-child{border-bottom:0}.evidence-record-id{display:block;font:9px var(--mono);color:var(--light);overflow-wrap:anywhere}.evidence-context{font-size:.74rem;line-height:1.6;color:var(--text);margin:3px 0;overflow-wrap:anywhere}@media(max-width:768px){.facet.country-facet{display:flex}}

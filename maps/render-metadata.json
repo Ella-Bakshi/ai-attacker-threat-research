@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "renderer": "scripts/render_ip_map.py",
-  "rendered_at_utc": "2026-11-10T20:13:04.103341+00:00",
+  "rendered_at_utc": "2026-11-10T20:33:15.552613+00:00",
   "input": "data/ip-overview.json",
   "input_sha256": "452220704115ac8ab2582ade64d994777d4d352bb534bc5b6cec48562f571bc0",
   "geometry_source": "Natural Earth public-domain data via AshKyd/geojson-regions India POV; see maps/assets geometry provenance",
