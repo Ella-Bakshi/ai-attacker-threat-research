@@ -34,7 +34,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install the MMDB reader
-        run: python -m pip install --only-binary=:all: -r requirements-enrichment.txt
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-enrichment.txt
       - name: Download open bulk enrichment snapshots
         run: python -B scripts/download_enrichment_data.py --db-dir "$RUNNER_TEMP/open-enrichment"
       - name: Enrich the authoritative IP CSV
