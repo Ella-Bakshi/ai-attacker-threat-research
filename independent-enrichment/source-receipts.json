@@ -1,0 +1,146 @@
+[
+  {
+    "name": "urlscan_media_fastcdn",
+    "url": "https://urlscan.io/api/v1/search/?q=domain%3Amedia.fastcdn.bar&size=100",
+    "final_url": "https://urlscan.io/api/v1/search/?q=domain%3Amedia.fastcdn.bar&size=100",
+    "http_status": 200,
+    "bytes": 3552,
+    "sha256": "722288fa4a357ef721c9154a0d62946b1229beba3fdbd27971bb0ab586c477da",
+    "retrieved_at_utc": "2026-11-10T18:28:31.952860+00:00",
+    "shape": [
+      "results",
+      "total",
+      "took",
+      "has_more",
+      "search_date_limit_days"
+    ],
+    "count": 2
+  },
+  {
+    "name": "urlscan_fastcdn",
+    "url": "https://urlscan.io/api/v1/search/?q=domain%3Afastcdn.bar&size=100",
+    "final_url": "https://urlscan.io/api/v1/search/?q=domain%3Afastcdn.bar&size=100",
+    "http_status": 200,
+    "bytes": 3552,
+    "sha256": "64f0ebab93675cb01432cabfead57da6fc7cb506a35be379a6eca4d07eeb4904",
+    "retrieved_at_utc": "2026-11-10T18:28:31.986603+00:00",
+    "shape": [
+      "results",
+      "total",
+      "took",
+      "has_more",
+      "search_date_limit_days"
+    ],
+    "count": 2
+  },
+  {
+    "name": "crt_fastcdn",
+    "url": "https://crt.sh/?q=%25.fastcdn.bar&output=json",
+    "final_url": "https://crt.sh/?q=%25.fastcdn.bar&output=json",
+    "http_status": 200,
+    "bytes": 2098,
+    "sha256": "45706b13e5aa8340f97b67cd82010255dfbaf3fb9945a2ccdd6358301187fbcb",
+    "retrieved_at_utc": "2026-11-10T18:28:46.978325+00:00",
+    "shape": "list",
+    "count": 7
+  },
+  {
+    "name": "urlscan_result_01a1a1d8-45af-7391-8182-5b21703cb093",
+    "url": "https://urlscan.io/api/v1/result/01a1a1d8-45af-7391-8182-5b21703cb093/",
+    "status": 403,
+    "bytes": 40,
+    "sha256": "86e91e6c8ac39ebad1fa2b5ad4b38073fbd5b832891acf93cedf409adc2e0a5d",
+    "retrieved_at_utc": "2026-11-10T18:29:34.691458+00:00",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "name": "urlscan_result_01a19ea4-e380-754a-ae0e-14740b1f73cd",
+    "url": "https://urlscan.io/api/v1/result/01a19ea4-e380-754a-ae0e-14740b1f73cd/",
+    "status": 403,
+    "bytes": 40,
+    "sha256": "86e91e6c8ac39ebad1fa2b5ad4b38073fbd5b832891acf93cedf409adc2e0a5d",
+    "retrieved_at_utc": "2026-11-10T18:29:34.564580+00:00",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "name": "crt_certificate_29635812593",
+    "url": "https://crt.sh/?d=29635812593",
+    "status": 200,
+    "bytes": 1298,
+    "sha256": "fd53b84b580b5d01d1c6eff99c8dd6bab48e3a963a8a730657809b90029a7e76",
+    "retrieved_at_utc": "2026-11-10T18:29:46.787008+00:00",
+    "content_type": "application/pkix-cert"
+  },
+  {
+    "name": "crt_certificate_29486410014",
+    "url": "https://crt.sh/?d=29486410014",
+    "status": 200,
+    "bytes": 1302,
+    "sha256": "d4050f07dad77311c5aab68e6736d0e0081ad9ec7aba27313830cdb1893c4058",
+    "retrieved_at_utc": "2026-11-10T18:29:52.069355+00:00",
+    "content_type": "application/pkix-cert"
+  },
+  {
+    "name": "crt_certificate_29269224366",
+    "url": "https://crt.sh/?d=29269224366",
+    "status": 200,
+    "bytes": 1038,
+    "sha256": "fe2285e292c51bee765fc543c877a186627fc07e9b3c1fbbb46b81b54add7c3e",
+    "retrieved_at_utc": "2026-11-10T18:29:55.626616+00:00",
+    "content_type": "application/pkix-cert"
+  },
+  {
+    "name": "crt_certificate_29636991649",
+    "url": "https://crt.sh/?d=29636991649",
+    "status": 200,
+    "bytes": 1294,
+    "sha256": "eca0c6625e7a061e04f82b7d486822adcefaa692268d96b7079e8d9fd8a86692",
+    "retrieved_at_utc": "2026-11-10T18:30:00.175348+00:00",
+    "content_type": "application/pkix-cert"
+  },
+  {
+    "name": "crt_certificate_29235210382",
+    "url": "https://crt.sh/?d=29235210382",
+    "status": 502,
+    "bytes": 150,
+    "sha256": "61b30d408583991fd69f3dec694e154cb652471e663328ad9c8482c9021ab5db",
+    "retrieved_at_utc": "2026-11-10T18:29:53.036062+00:00",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.cloudflare.com/ips-v4",
+    "retrieved_at_utc": "2026-11-10T18:26:18.826710+00:00",
+    "http_status": 200,
+    "sha256": "f02c6d83bc01ab0ae8577160e036d700c7455359bce054df884e5d7d9e4e9e7b"
+  },
+  {
+    "url": "https://www.cloudflare.com/ips-v6",
+    "retrieved_at_utc": "2026-11-10T18:26:19.114944+00:00",
+    "http_status": 200,
+    "sha256": "9e9d39e3e83bad00c4decafd53c63fa62029f3d95db68de937d2be28234ca0a9"
+  },
+  {
+    "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+    "bytes": 245001,
+    "sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+    "scope": "Public HTML capture; local receipt/path kept privately. Task submission time is in sanitized evidence."
+  },
+  {
+    "url": "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+    "bytes": 259975,
+    "sha256": "e31bd7085319c126cb227ad2a4fd430bf28da97c450803ba8af094928a246c32",
+    "scope": "Public HTML capture; local receipt/path kept privately. Task submission time is in sanitized evidence."
+  },
+  {
+    "url": "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+    "bytes": 259595,
+    "sha256": "d2230abd874017a181a25a4c42cd2f8e312ba9b9fa176c1ab9806fbde0de0ed4",
+    "scope": "Public HTML capture; local receipt/path kept privately. Task submission time is in sanitized evidence."
+  },
+  {
+    "url": "https://tria.ge/261107-yeacvaex6v/behavioral1",
+    "bytes": 260228,
+    "sha256": "ee44e50acac94029ddac1e5117de708d2b644fb04a856553a286c604aeb8492a",
+    "scope": "Public HTML capture; local receipt/path kept privately. Task submission time is in sanitized evidence."
+  }
+]

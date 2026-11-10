@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - data/ip-overview.csv
+      - data/index.json
+      - independent-enrichment/**
+      - research/first-party/**
       - scripts/ip_enrichment.py
       - scripts/refresh_ip_overview.py
       - scripts/download_enrichment_data.py

@@ -1,0 +1,21 @@
+{
+  "prepared_at_utc": "2026-11-10T18:39:06.829685+00:00",
+  "records": 16,
+  "categories": {
+    "analyst-derived": 6,
+    "analyst-software-fingerprint": 2,
+    "unverified-findings": 2,
+    "shared-services-and-generic-markers": 6
+  },
+  "public_sandbox_reports": 4,
+  "exact_vendor_beacon_tls_flows": 6,
+  "cbf_public_checkin_attempts": 80,
+  "shared_cdn_ips": 6,
+  "ct_certificates_parsed": 4,
+  "ct_sibling_hypotheses": 2,
+  "india_associations_established": 0,
+  "successful_registrations_established": 0,
+  "global_novelty_claims": 0,
+  "target_requests": 0,
+  "local_execution": false
+}

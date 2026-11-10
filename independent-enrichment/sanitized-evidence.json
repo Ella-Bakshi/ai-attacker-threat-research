@@ -1,0 +1,3546 @@
+{
+  "reviewed_at_utc": "2026-11-10T18:38:57.411865+00:00",
+  "captures": [
+    {
+      "report_id": "261027-qmb8eaes6q",
+      "source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+      "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+      "general_table_hashes": {
+        "sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+        "md5": "805b9e4ae74c903787416800999b8418",
+        "sha1": "acc5cab873f6f687657f79083dd91f494718217a"
+      },
+      "primary_vendor_md5_bridge": "805b9e4ae74c903787416800999b8418",
+      "html_bytes": 245001,
+      "html_sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+      "network_json_locator": {
+        "json_file_byte_offset": 231932,
+        "json_byte_length": 9183,
+        "json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864"
+      },
+      "sample_submitted_at_utc": "2026-10-27T13:22:16Z",
+      "flow_times_scope": "milliseconds relative to sandbox run; not victim observation timestamps",
+      "total_capture_flows": 19,
+      "selected_flows": [
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "1.1.1.1:53",
+          "first_seen": 1573,
+          "id": 1,
+          "last_seen": 1644,
+          "proto": "udp",
+          "protocols": [
+            "dns"
+          ],
+          "rx_bytes": 130,
+          "rx_packets": 1,
+          "tx_bytes": 74,
+          "tx_packets": 1,
+          "source_locator": {
+            "json_pointer": "/network/flows/0",
+            "flow_id": 1,
+            "literal_byte_offset": 231942,
+            "literal_bytes": 210,
+            "literal_sha256": "e24935b306d1b75a2a308b97a391ac2424fb87388f7d6d56bd16b454117974c0"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "1.1.1.1:53",
+          "first_seen": 1573,
+          "id": 2,
+          "last_seen": 1641,
+          "proto": "udp",
+          "protocols": [
+            "dns"
+          ],
+          "rx_bytes": 106,
+          "rx_packets": 1,
+          "tx_bytes": 74,
+          "tx_packets": 1,
+          "source_locator": {
+            "json_pointer": "/network/flows/1",
+            "flow_id": 2,
+            "literal_byte_offset": 232153,
+            "literal_bytes": 210,
+            "literal_sha256": "0dd018d744cba24977bc42a9f83acb14631698c1662f8b65dee25b045b1b032b"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "104.21.48.8:2083",
+          "first_seen": 1645,
+          "id": 4,
+          "last_seen": 2206,
+          "proto": "tcp",
+          "protocols": [
+            "tls"
+          ],
+          "rx_bytes": 5349,
+          "rx_packets": 11,
+          "tls_ja3": "20b279993ae2e137e62b9647c6d768fb",
+          "tls_ja3s": "eb1d94daa7e0344597e756a1fb6e7054",
+          "tls_sni": "media.fastcdn.bar",
+          "tx_bytes": 4766,
+          "tx_packets": 12,
+          "source_locator": {
+            "json_pointer": "/network/flows/3",
+            "flow_id": 4,
+            "literal_byte_offset": 232532,
+            "literal_bytes": 342,
+            "literal_sha256": "59676ebf047bd9dba1047ecdb3b672705c953e97fc843bbd2b1c7d3b3f69e001"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "172.67.175.42:2083",
+          "first_seen": 29185,
+          "id": 15,
+          "last_seen": 29735,
+          "proto": "tcp",
+          "protocols": [
+            "tls"
+          ],
+          "rx_bytes": 5356,
+          "rx_packets": 11,
+          "tls_ja3": "20b279993ae2e137e62b9647c6d768fb",
+          "tls_ja3s": "eb1d94daa7e0344597e756a1fb6e7054",
+          "tls_sni": "media.fastcdn.bar",
+          "tx_bytes": 4766,
+          "tx_packets": 12,
+          "source_locator": {
+            "json_pointer": "/network/flows/14",
+            "flow_id": 15,
+            "literal_byte_offset": 235406,
+            "literal_bytes": 347,
+            "literal_sha256": "7f823923c86d61423b5eade9ef4f77e5a3f01a0748f752e1753626a3f3a62cfd"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "172.67.175.42:2083",
+          "first_seen": 65693,
+          "id": 16,
+          "last_seen": 66215,
+          "proto": "tcp",
+          "protocols": [
+            "tls"
+          ],
+          "rx_bytes": 5188,
+          "rx_packets": 8,
+          "tls_ja3": "20b279993ae2e137e62b9647c6d768fb",
+          "tls_ja3s": "eb1d94daa7e0344597e756a1fb6e7054",
+          "tls_sni": "media.fastcdn.bar",
+          "tx_bytes": 3157,
+          "tx_packets": 10,
+          "source_locator": {
+            "json_pointer": "/network/flows/15",
+            "flow_id": 16,
+            "literal_byte_offset": 235754,
+            "literal_bytes": 346,
+            "literal_sha256": "14d083f43e336c87c99db07870dd42d8b327f714acdf705cdc52fac815bad397"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "172.67.175.42:2083",
+          "first_seen": 90216,
+          "id": 17,
+          "last_seen": 90772,
+          "proto": "tcp",
+          "protocols": [
+            "tls"
+          ],
+          "rx_bytes": 5345,
+          "rx_packets": 11,
+          "tls_ja3": "20b279993ae2e137e62b9647c6d768fb",
+          "tls_ja3s": "eb1d94daa7e0344597e756a1fb6e7054",
+          "tls_sni": "media.fastcdn.bar",
+          "tx_bytes": 3209,
+          "tx_packets": 11,
+          "source_locator": {
+            "json_pointer": "/network/flows/16",
+            "flow_id": 17,
+            "literal_byte_offset": 236101,
+            "literal_bytes": 347,
+            "literal_sha256": "e86c46a18c63283ccfce69c7dbe907d52edd987f26315347378ef337ae77d4f2"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "172.67.175.42:2083",
+          "first_seen": 121729,
+          "id": 18,
+          "last_seen": 122258,
+          "proto": "tcp",
+          "protocols": [
+            "tls"
+          ],
+          "rx_bytes": 5286,
+          "rx_packets": 10,
+          "tls_ja3": "20b279993ae2e137e62b9647c6d768fb",
+          "tls_ja3s": "eb1d94daa7e0344597e756a1fb6e7054",
+          "tls_sni": "media.fastcdn.bar",
+          "tx_bytes": 3157,
+          "tx_packets": 10,
+          "source_locator": {
+            "json_pointer": "/network/flows/17",
+            "flow_id": 18,
+            "literal_byte_offset": 236449,
+            "literal_bytes": 349,
+            "literal_sha256": "0fa920dc97ba224bd6470074fb5f13c97486090a650a6d328acb73ebc32e02cb"
+          }
+        },
+        {
+          "domain": "media.fastcdn.bar",
+          "dst": "172.67.175.42:2083",
+          "first_seen": 144216,
+          "id": 19,
+          "last_seen": 144587,
+          "proto": "tcp",
+          "protocols": [
+            "tls"
+          ],
+          "rx_bytes": 5283,
+          "rx_packets": 10,
+          "tls_ja3": "20b279993ae2e137e62b9647c6d768fb",
+          "tls_ja3s": "eb1d94daa7e0344597e756a1fb6e7054",
+          "tls_sni": "media.fastcdn.bar",
+          "tx_bytes": 3157,
+          "tx_packets": 10,
+          "source_locator": {
+            "json_pointer": "/network/flows/18",
+            "flow_id": 19,
+            "literal_byte_offset": 236799,
+            "literal_bytes": 349,
+            "literal_sha256": "fb2f310f65b9e8f8d0c32cc3a8a4f19865d2c30756de9671378d454a34ddb56f"
+          }
+        }
+      ],
+      "selected_http_requests": [],
+      "selected_dns_answers": [
+        {
+          "name": "media.fastcdn.bar",
+          "type": "IN AAAA",
+          "value": "2606:4700:3035::ac43:af2a",
+          "source_json_pointer": "/network/requests/1/dns_response/answers"
+        },
+        {
+          "name": "media.fastcdn.bar",
+          "type": "IN AAAA",
+          "value": "2606:4700:3037::6815:3008",
+          "source_json_pointer": "/network/requests/1/dns_response/answers"
+        },
+        {
+          "name": "media.fastcdn.bar",
+          "type": "IN A",
+          "value": "104.21.48.8",
+          "source_json_pointer": "/network/requests/3/dns_response/answers"
+        },
+        {
+          "name": "media.fastcdn.bar",
+          "type": "IN A",
+          "value": "172.67.175.42",
+          "source_json_pointer": "/network/requests/3/dns_response/answers"
+        }
+      ],
+      "http_response_codes": [],
+      "registration_success_established": false,
+      "network_simulation_flags": "Not disclosed in the admitted embedded network object; absence of simulation is not established.",
+      "pid_attribution": "Network observations are scoped to the public sandbox task; these flow objects do not attribute a PID.",
+      "completion_to_next_start_ms": {
+        "count": 5,
+        "minimum": 21958,
+        "median": 26979,
+        "maximum": 35958
+      }
+    },
+    {
+      "report_id": "261106-kvkxmaat3v",
+      "source_url": "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+      "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+      "general_table_hashes": {
+        "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "md5": "ebd36581ed085413ba909a0625efe1c0",
+        "sha1": "2cd2f7bd1bb328cd0d889e645f205ad159a956b8"
+      },
+      "primary_vendor_md5_bridge": null,
+      "html_bytes": 259975,
+      "html_sha256": "e31bd7085319c126cb227ad2a4fd430bf28da97c450803ba8af094928a246c32",
+      "network_json_locator": {
+        "json_file_byte_offset": 231249,
+        "json_byte_length": 24840,
+        "json_sha256": "db53d991db1e6caf4cfc7e2682dbf3fe8f5af0261d94539d511b6256fb91d922"
+      },
+      "sample_submitted_at_utc": "2026-11-06T08:55:18Z",
+      "flow_times_scope": "milliseconds relative to sandbox run; not victim observation timestamps",
+      "total_capture_flows": 41,
+      "selected_flows": [
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 1127,
+          "id": 1,
+          "last_seen": 1621,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/0",
+            "flow_id": 1,
+            "literal_byte_offset": 231259,
+            "literal_bytes": 218,
+            "literal_sha256": "b9fa24cf99aa100ccac69cfc498baf4a6e4d8d4f132dfa7b2d6746d42af7b0f9"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 6622,
+          "id": 16,
+          "last_seen": 7538,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/15",
+            "flow_id": 16,
+            "literal_byte_offset": 234832,
+            "literal_bytes": 219,
+            "literal_sha256": "5e68918cdf44decb4c6be20bb5d1a0b34f265a785c54a2c5f03f118ca4f5d77b"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 12539,
+          "id": 17,
+          "last_seen": 13022,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/16",
+            "flow_id": 17,
+            "literal_byte_offset": 235052,
+            "literal_bytes": 221,
+            "literal_sha256": "c4270c40c7a1f3c0a69f96293c3b428d22e790805f169fa0fa1636f1f9dbc4fa"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 18023,
+          "id": 18,
+          "last_seen": 18798,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/17",
+            "flow_id": 18,
+            "literal_byte_offset": 235274,
+            "literal_bytes": 221,
+            "literal_sha256": "316998984e2ca4108863805814a3ce5791b9d12b504c8800e1f4454b4696a527"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 23799,
+          "id": 19,
+          "last_seen": 24286,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/18",
+            "flow_id": 19,
+            "literal_byte_offset": 235496,
+            "literal_bytes": 221,
+            "literal_sha256": "235da7b80f7af0bf86a1ca5ac7ce171e88c45849c0b30711ad6281a850f368d3"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 29288,
+          "id": 20,
+          "last_seen": 29777,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/19",
+            "flow_id": 20,
+            "literal_byte_offset": 235718,
+            "literal_bytes": 221,
+            "literal_sha256": "214fe664deba2e51ef68d88e5099e9421e575116b777a9db313da45c8fad4627"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 34778,
+          "id": 21,
+          "last_seen": 35272,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/20",
+            "flow_id": 21,
+            "literal_byte_offset": 235940,
+            "literal_bytes": 221,
+            "literal_sha256": "fb01c950adc90038837138b77a1a807e8db0392fcb313536586db9d38d173be0"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 40273,
+          "id": 22,
+          "last_seen": 40761,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/21",
+            "flow_id": 22,
+            "literal_byte_offset": 236162,
+            "literal_bytes": 221,
+            "literal_sha256": "77701ea94cf8694b93ade93d9d5625203b7d81a65b35afe945f26861b2f6bcfa"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 45762,
+          "id": 23,
+          "last_seen": 46247,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/22",
+            "flow_id": 23,
+            "literal_byte_offset": 236384,
+            "literal_bytes": 221,
+            "literal_sha256": "1952c52e749dc82f2b5857006d0f29f0f68b3c5860707144338a56e1234cfd4f"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 51249,
+          "id": 24,
+          "last_seen": 51738,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/23",
+            "flow_id": 24,
+            "literal_byte_offset": 236606,
+            "literal_bytes": 221,
+            "literal_sha256": "390e3909b457a9b4bb2be9e260a5b3dfe104bf41d96dd6dde2d54fc558646f87"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 56739,
+          "id": 25,
+          "last_seen": 57229,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/24",
+            "flow_id": 25,
+            "literal_byte_offset": 236828,
+            "literal_bytes": 221,
+            "literal_sha256": "96bdc623bed71f22aa96d809a513e9229e0be2069b90fff6170704b5dc3b2213"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 62230,
+          "id": 26,
+          "last_seen": 62724,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/25",
+            "flow_id": 26,
+            "literal_byte_offset": 237050,
+            "literal_bytes": 221,
+            "literal_sha256": "659eeb1fe63e382260d409012cc42703cadc365a82a1d274b8fb4bbbb8dba167"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 67725,
+          "id": 27,
+          "last_seen": 68220,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/26",
+            "flow_id": 27,
+            "literal_byte_offset": 237272,
+            "literal_bytes": 221,
+            "literal_sha256": "f984b83cbfcd6a7cc774a01030c9e8d43f55eded5a19420ebe354da200c33714"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 73221,
+          "id": 28,
+          "last_seen": 73710,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/27",
+            "flow_id": 28,
+            "literal_byte_offset": 237494,
+            "literal_bytes": 221,
+            "literal_sha256": "d5894317de79774a82354f75f1c0f5a0f0bd492b750f7cde2ed90b18ca6b2bfa"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 78711,
+          "id": 29,
+          "last_seen": 79239,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/28",
+            "flow_id": 29,
+            "literal_byte_offset": 237716,
+            "literal_bytes": 221,
+            "literal_sha256": "46acd60f86d1a133c40cdf9d66148d523d015d3eb41ba5a51b9b83cd70a5891d"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 84240,
+          "id": 30,
+          "last_seen": 84751,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/29",
+            "flow_id": 30,
+            "literal_byte_offset": 237938,
+            "literal_bytes": 221,
+            "literal_sha256": "9760efc370e129554b2088a74540a8791e3efdfb3b024750f19ee9d64cce2447"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 89753,
+          "id": 31,
+          "last_seen": 90242,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/30",
+            "flow_id": 31,
+            "literal_byte_offset": 238160,
+            "literal_bytes": 221,
+            "literal_sha256": "e90fb3aafec43263cbae1d8806030fe9ee5cad087ea671b4fea35c656542819b"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 95243,
+          "id": 32,
+          "last_seen": 95740,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/31",
+            "flow_id": 32,
+            "literal_byte_offset": 238382,
+            "literal_bytes": 221,
+            "literal_sha256": "d6ab730c814c864abc5dac91dc6e644519b34db755254551e6eac49e325317d0"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 100741,
+          "id": 33,
+          "last_seen": 101234,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/32",
+            "flow_id": 33,
+            "literal_byte_offset": 238604,
+            "literal_bytes": 223,
+            "literal_sha256": "870c2cf85098c6daae23ad8df87ed62607a182db3e694f177226efeacb3b715b"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 106235,
+          "id": 34,
+          "last_seen": 106732,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/33",
+            "flow_id": 34,
+            "literal_byte_offset": 238828,
+            "literal_bytes": 223,
+            "literal_sha256": "5d0ab3bfa89e792132d96ecd24b6fea37a7e7047bac07cc885747f4cf705f32e"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 111732,
+          "id": 35,
+          "last_seen": 112225,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/34",
+            "flow_id": 35,
+            "literal_byte_offset": 239052,
+            "literal_bytes": 223,
+            "literal_sha256": "85a1e85ff13ba53e586c41f0f0435090094982e1d019d7d68c2e9cd7123532e2"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 117226,
+          "id": 36,
+          "last_seen": 118031,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/35",
+            "flow_id": 36,
+            "literal_byte_offset": 239276,
+            "literal_bytes": 223,
+            "literal_sha256": "1cc87c4ed1c498035cfafbc34d2a58874807d9abf149fbd2993dcb82d1d88177"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 123031,
+          "id": 37,
+          "last_seen": 123522,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/36",
+            "flow_id": 37,
+            "literal_byte_offset": 239500,
+            "literal_bytes": 223,
+            "literal_sha256": "0159057ca5735edc0e45eb740ce4d6608c639d172755090c6001ab7ef86c7a35"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 128523,
+          "id": 38,
+          "last_seen": 129004,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/37",
+            "flow_id": 38,
+            "literal_byte_offset": 239724,
+            "literal_bytes": 223,
+            "literal_sha256": "50429fe68916ed2d62c7fc317f85045533f4eb72fee53385946594bd9507669b"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 134005,
+          "id": 39,
+          "last_seen": 134953,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/38",
+            "flow_id": 39,
+            "literal_byte_offset": 239948,
+            "literal_bytes": 223,
+            "literal_sha256": "41140445e8c6991c86c8c2158f3ebf0847ba558936c54cf9e7aad3071ecf9539"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 139954,
+          "id": 40,
+          "last_seen": 140457,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/39",
+            "flow_id": 40,
+            "literal_byte_offset": 240172,
+            "literal_bytes": 223,
+            "literal_sha256": "cf3c12c0317835364a48ba706022f10dbf4bed5dd4e4b6714baad1daa9163aed"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 145457,
+          "id": 41,
+          "last_seen": 145941,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1074,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/40",
+            "flow_id": 41,
+            "literal_byte_offset": 240396,
+            "literal_bytes": 223,
+            "literal_sha256": "392597c5cd5870b826d7f2ed2d5817af1a5bdd69f9eb4abe355582b08489d4af"
+          }
+        }
+      ],
+      "selected_http_requests": [
+        {
+          "flow": 1,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/0/http_request"
+        },
+        {
+          "flow": 16,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/11/http_request"
+        },
+        {
+          "flow": 17,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/12/http_request"
+        },
+        {
+          "flow": 18,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/13/http_request"
+        },
+        {
+          "flow": 19,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/14/http_request"
+        },
+        {
+          "flow": 20,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/15/http_request"
+        },
+        {
+          "flow": 21,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/16/http_request"
+        },
+        {
+          "flow": 22,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/17/http_request"
+        },
+        {
+          "flow": 23,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/18/http_request"
+        },
+        {
+          "flow": 24,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/19/http_request"
+        },
+        {
+          "flow": 25,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/20/http_request"
+        },
+        {
+          "flow": 26,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/21/http_request"
+        },
+        {
+          "flow": 27,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/22/http_request"
+        },
+        {
+          "flow": 28,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/23/http_request"
+        },
+        {
+          "flow": 29,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/24/http_request"
+        },
+        {
+          "flow": 30,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/25/http_request"
+        },
+        {
+          "flow": 31,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/26/http_request"
+        },
+        {
+          "flow": 32,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/27/http_request"
+        },
+        {
+          "flow": 33,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/28/http_request"
+        },
+        {
+          "flow": 34,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/29/http_request"
+        },
+        {
+          "flow": 35,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/30/http_request"
+        },
+        {
+          "flow": 36,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/31/http_request"
+        },
+        {
+          "flow": 37,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/32/http_request"
+        },
+        {
+          "flow": 38,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/33/http_request"
+        },
+        {
+          "flow": 39,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/34/http_request"
+        },
+        {
+          "flow": 40,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/35/http_request"
+        },
+        {
+          "flow": 41,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/36/http_request"
+        }
+      ],
+      "selected_dns_answers": [],
+      "http_response_codes": [],
+      "registration_success_established": false,
+      "network_simulation_flags": "Not disclosed in the admitted embedded network object; absence of simulation is not established.",
+      "pid_attribution": "Network observations are scoped to the public sandbox task; these flow objects do not attribute a PID.",
+      "completion_to_next_start_ms": {
+        "count": 26,
+        "minimum": 5000,
+        "median": 5001.0,
+        "maximum": 5002
+      }
+    },
+    {
+      "report_id": "261106-wzxb1a11bs",
+      "source_url": "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+      "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+      "general_table_hashes": {
+        "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "md5": "ebd36581ed085413ba909a0625efe1c0",
+        "sha1": "2cd2f7bd1bb328cd0d889e645f205ad159a956b8"
+      },
+      "primary_vendor_md5_bridge": null,
+      "html_bytes": 259595,
+      "html_sha256": "d2230abd874017a181a25a4c42cd2f8e312ba9b9fa176c1ab9806fbde0de0ed4",
+      "network_json_locator": {
+        "json_file_byte_offset": 230995,
+        "json_byte_length": 24698,
+        "json_sha256": "ae5a5a94e9d358193a0e3f5c52acbad44fff241e095e7016245baef515c4a09d"
+      },
+      "sample_submitted_at_utc": "2026-11-06T18:22:06Z",
+      "flow_times_scope": "milliseconds relative to sandbox run; not victim observation timestamps",
+      "total_capture_flows": 41,
+      "selected_flows": [
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 2155,
+          "id": 2,
+          "last_seen": 2667,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/1",
+            "flow_id": 2,
+            "literal_byte_offset": 231173,
+            "literal_bytes": 217,
+            "literal_sha256": "173d00bf304f9a6186ff8d5f7573f977b5c02d4221e3fa93fd3b7a06f1216846"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 7669,
+          "id": 16,
+          "last_seen": 8178,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/15",
+            "flow_id": 16,
+            "literal_byte_offset": 234510,
+            "literal_bytes": 218,
+            "literal_sha256": "5ab24093a3cb1afff0dec4b937e9f1d3866d4cca115cadd1adae14fb407a4ca9"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 13181,
+          "id": 17,
+          "last_seen": 13696,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/16",
+            "flow_id": 17,
+            "literal_byte_offset": 234729,
+            "literal_bytes": 220,
+            "literal_sha256": "da6d83a27304f359d763cbfbd187fbd54461cf42e82cfcfde8f02f32fe12db1c"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 18699,
+          "id": 18,
+          "last_seen": 19205,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/17",
+            "flow_id": 18,
+            "literal_byte_offset": 234950,
+            "literal_bytes": 220,
+            "literal_sha256": "4ab748c7117f122374ae4dd05e11a85cd3dc90ef51ffff6b347ee1713b7486b1"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 24208,
+          "id": 19,
+          "last_seen": 24722,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/18",
+            "flow_id": 19,
+            "literal_byte_offset": 235171,
+            "literal_bytes": 220,
+            "literal_sha256": "2229c37b31cdd97af93b785dc56f6e6d7bb8c8610f3b4725f2d2e9455b7ef41a"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 29724,
+          "id": 20,
+          "last_seen": 30248,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/19",
+            "flow_id": 20,
+            "literal_byte_offset": 235392,
+            "literal_bytes": 220,
+            "literal_sha256": "60431ecb6985f3d1c620c822d95d7cbefc4886490a7220a261500692942bce31"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 35251,
+          "id": 21,
+          "last_seen": 35769,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/20",
+            "flow_id": 21,
+            "literal_byte_offset": 235613,
+            "literal_bytes": 220,
+            "literal_sha256": "bb3a8fdcbe1f298aac3b970d83d2bfeabe75a1b17999d006a287c51ef7588553"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 40772,
+          "id": 22,
+          "last_seen": 41290,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/21",
+            "flow_id": 22,
+            "literal_byte_offset": 235834,
+            "literal_bytes": 220,
+            "literal_sha256": "69b10620e8e8da2f69810d6bf239a34833b3c75d908dee14a9641879aa816294"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 46293,
+          "id": 23,
+          "last_seen": 46798,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/22",
+            "flow_id": 23,
+            "literal_byte_offset": 236055,
+            "literal_bytes": 220,
+            "literal_sha256": "fa78b7cb56436827fe90bf1d30451d5f8427b025f17807a110c65ac19f00a03a"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 51801,
+          "id": 24,
+          "last_seen": 52318,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/23",
+            "flow_id": 24,
+            "literal_byte_offset": 236276,
+            "literal_bytes": 220,
+            "literal_sha256": "ebc957575d255b7220e6b07f95133a76d321e2f9ba29a5740d5454f147b86691"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 57321,
+          "id": 25,
+          "last_seen": 57832,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/24",
+            "flow_id": 25,
+            "literal_byte_offset": 236497,
+            "literal_bytes": 220,
+            "literal_sha256": "b9cb459c3ac3a38837207feae0c6b6ee6bae745abc3291cf736fd5851f355015"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 62834,
+          "id": 26,
+          "last_seen": 63349,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/25",
+            "flow_id": 26,
+            "literal_byte_offset": 236718,
+            "literal_bytes": 220,
+            "literal_sha256": "8b22b8a3013d660e8521696dbf6e16308102c26a8141184861edd6c5a8efb3d5"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 68351,
+          "id": 27,
+          "last_seen": 68862,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/26",
+            "flow_id": 27,
+            "literal_byte_offset": 236939,
+            "literal_bytes": 220,
+            "literal_sha256": "c66ca49b5f4be0359d372d15ebdbd2254478d5775d1d92e14a2342a43ecbb0c7"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 73865,
+          "id": 28,
+          "last_seen": 74384,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/27",
+            "flow_id": 28,
+            "literal_byte_offset": 237160,
+            "literal_bytes": 220,
+            "literal_sha256": "f5465d02ca20286536a83f580d6b423eaab11a09cd7930def19bbcd5564deff4"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 79385,
+          "id": 29,
+          "last_seen": 81943,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 284,
+          "rx_packets": 5,
+          "tx_bytes": 1182,
+          "tx_packets": 5,
+          "source_locator": {
+            "json_pointer": "/network/flows/28",
+            "flow_id": 29,
+            "literal_byte_offset": 237381,
+            "literal_bytes": 220,
+            "literal_sha256": "65713276ad6a0608eebd995355ff9e58b99b6a9ff12ec7a2d755223ec03ebbf8"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 86945,
+          "id": 30,
+          "last_seen": 87461,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/29",
+            "flow_id": 30,
+            "literal_byte_offset": 237602,
+            "literal_bytes": 220,
+            "literal_sha256": "35fe3b828529258574b6a4c89783602edade3a48a1983ce406be5cb2e31532b5"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 92464,
+          "id": 31,
+          "last_seen": 92979,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/30",
+            "flow_id": 31,
+            "literal_byte_offset": 237823,
+            "literal_bytes": 220,
+            "literal_sha256": "5feb9db6a39956ebb18356871406048a6e63bf12fd9f4ee0006bb3111743261c"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 97982,
+          "id": 32,
+          "last_seen": 98492,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/31",
+            "flow_id": 32,
+            "literal_byte_offset": 238044,
+            "literal_bytes": 220,
+            "literal_sha256": "400db3b2802c6d9f06937925aee4e028ae0cec8881110cd8f5ee59875914a330"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 103495,
+          "id": 33,
+          "last_seen": 104386,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/32",
+            "flow_id": 33,
+            "literal_byte_offset": 238265,
+            "literal_bytes": 222,
+            "literal_sha256": "bed15a3723889a0a30af1a6cc89e0279d44eb34df4cef5ae54d50824fbd65611"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 109388,
+          "id": 34,
+          "last_seen": 109914,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/33",
+            "flow_id": 34,
+            "literal_byte_offset": 238488,
+            "literal_bytes": 222,
+            "literal_sha256": "4d156f0b12a0d844dd85e2b55982db1a90977c251abebb20ec96fe47e53d0695"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 114916,
+          "id": 35,
+          "last_seen": 115436,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/34",
+            "flow_id": 35,
+            "literal_byte_offset": 238711,
+            "literal_bytes": 222,
+            "literal_sha256": "5d1aa33eb7dd413b3c09f45c5584f85a53eef0c6da7871a6500caa2aa71b0c16"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 120437,
+          "id": 36,
+          "last_seen": 121237,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/35",
+            "flow_id": 36,
+            "literal_byte_offset": 238934,
+            "literal_bytes": 222,
+            "literal_sha256": "6181c5054f348fe2645af2e05770e95f5c9db35f3e3067de13f5e237fb10eb50"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 126238,
+          "id": 37,
+          "last_seen": 126742,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/36",
+            "flow_id": 37,
+            "literal_byte_offset": 239157,
+            "literal_bytes": 222,
+            "literal_sha256": "8851bc06d6f9912985d5f188d29c1186ee1fd5095bdb7f8cedf35dd24fc770cc"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 131745,
+          "id": 38,
+          "last_seen": 132264,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/37",
+            "flow_id": 38,
+            "literal_byte_offset": 239380,
+            "literal_bytes": 222,
+            "literal_sha256": "58fd8f23738b4f65de1443e772f446e1ae595ad34e4448ee45d5d01814753059"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 137267,
+          "id": 39,
+          "last_seen": 137792,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/38",
+            "flow_id": 39,
+            "literal_byte_offset": 239603,
+            "literal_bytes": 222,
+            "literal_sha256": "9c92660e5174c57d966c0fd0d4d8ee7e3c39c261ce47b907bb13a77a23e6dc4f"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 142795,
+          "id": 40,
+          "last_seen": 143318,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/39",
+            "flow_id": 40,
+            "literal_byte_offset": 239826,
+            "literal_bytes": 222,
+            "literal_sha256": "7ff8a6fc84133279c892a9cc36592ab165481aa70ed11c630ee2d831aa457c58"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 148319,
+          "id": 41,
+          "last_seen": 148831,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1070,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/40",
+            "flow_id": 41,
+            "literal_byte_offset": 240049,
+            "literal_bytes": 222,
+            "literal_sha256": "46bf52fdec7d97f3c8e7cb00b24fe45c98133a83a1ab47cdbbf4cb668cfa183c"
+          }
+        }
+      ],
+      "selected_http_requests": [
+        {
+          "flow": 2,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/0/http_request"
+        },
+        {
+          "flow": 16,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/11/http_request"
+        },
+        {
+          "flow": 17,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/12/http_request"
+        },
+        {
+          "flow": 18,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/13/http_request"
+        },
+        {
+          "flow": 19,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/14/http_request"
+        },
+        {
+          "flow": 20,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/15/http_request"
+        },
+        {
+          "flow": 21,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/16/http_request"
+        },
+        {
+          "flow": 22,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/17/http_request"
+        },
+        {
+          "flow": 23,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/18/http_request"
+        },
+        {
+          "flow": 24,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/19/http_request"
+        },
+        {
+          "flow": 25,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/20/http_request"
+        },
+        {
+          "flow": 26,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/21/http_request"
+        },
+        {
+          "flow": 27,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/22/http_request"
+        },
+        {
+          "flow": 28,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/23/http_request"
+        },
+        {
+          "flow": 29,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/24/http_request"
+        },
+        {
+          "flow": 30,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/25/http_request"
+        },
+        {
+          "flow": 31,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/26/http_request"
+        },
+        {
+          "flow": 32,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/27/http_request"
+        },
+        {
+          "flow": 33,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/28/http_request"
+        },
+        {
+          "flow": 34,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/29/http_request"
+        },
+        {
+          "flow": 35,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/30/http_request"
+        },
+        {
+          "flow": 36,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/31/http_request"
+        },
+        {
+          "flow": 37,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/32/http_request"
+        },
+        {
+          "flow": 38,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/33/http_request"
+        },
+        {
+          "flow": 39,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/34/http_request"
+        },
+        {
+          "flow": 40,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/35/http_request"
+        },
+        {
+          "flow": 41,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/36/http_request"
+        }
+      ],
+      "selected_dns_answers": [],
+      "http_response_codes": [],
+      "registration_success_established": false,
+      "network_simulation_flags": "Not disclosed in the admitted embedded network object; absence of simulation is not established.",
+      "pid_attribution": "Network observations are scoped to the public sandbox task; these flow objects do not attribute a PID.",
+      "completion_to_next_start_ms": {
+        "count": 26,
+        "minimum": 5001,
+        "median": 5003.0,
+        "maximum": 5003
+      }
+    },
+    {
+      "report_id": "261107-yeacvaex6v",
+      "source_url": "https://tria.ge/261107-yeacvaex6v/behavioral1",
+      "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+      "general_table_hashes": {
+        "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "md5": "ebd36581ed085413ba909a0625efe1c0",
+        "sha1": "2cd2f7bd1bb328cd0d889e645f205ad159a956b8"
+      },
+      "primary_vendor_md5_bridge": null,
+      "html_bytes": 260228,
+      "html_sha256": "ee44e50acac94029ddac1e5117de708d2b644fb04a856553a286c604aeb8492a",
+      "network_json_locator": {
+        "json_file_byte_offset": 232174,
+        "json_byte_length": 24168,
+        "json_sha256": "342f975c367ef0d16adf21434a146c2454c88a86005f0905b7c89da951916299"
+      },
+      "sample_submitted_at_utc": "2026-11-07T19:41:24Z",
+      "flow_times_scope": "milliseconds relative to sandbox run; not victim observation timestamps",
+      "total_capture_flows": 40,
+      "selected_flows": [
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 1624,
+          "id": 2,
+          "last_seen": 2196,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/1",
+            "flow_id": 2,
+            "literal_byte_offset": 232353,
+            "literal_bytes": 218,
+            "literal_sha256": "3fc1f82d26d03c654afd1dbc2d6aee7cc47dc503390cf06f2c936c76a4d0cd1d"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 7198,
+          "id": 16,
+          "last_seen": 7772,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/15",
+            "flow_id": 16,
+            "literal_byte_offset": 235749,
+            "literal_bytes": 219,
+            "literal_sha256": "5a795db94aa82f7de0294782379383606040e5aa79dfef68cc4253b304461e13"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 12774,
+          "id": 17,
+          "last_seen": 13359,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/16",
+            "flow_id": 17,
+            "literal_byte_offset": 235969,
+            "literal_bytes": 221,
+            "literal_sha256": "97bd1a20cbf124ad03fb3dc2d1b7a74510087f6ad04f89af0cfa7da684e742fb"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 18360,
+          "id": 18,
+          "last_seen": 18934,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/17",
+            "flow_id": 18,
+            "literal_byte_offset": 236191,
+            "literal_bytes": 221,
+            "literal_sha256": "b39f131dc7fdd86d1318e34ba11cfd169401e7be3cc4457079ac702434af4939"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 23937,
+          "id": 19,
+          "last_seen": 24510,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/18",
+            "flow_id": 19,
+            "literal_byte_offset": 236413,
+            "literal_bytes": 221,
+            "literal_sha256": "9de7f6ad86c5a4d64ee8eeb01bd9d80c918814017ffd0fdebb87fb3053b8e2cf"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 29513,
+          "id": 20,
+          "last_seen": 30087,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/19",
+            "flow_id": 20,
+            "literal_byte_offset": 236635,
+            "literal_bytes": 221,
+            "literal_sha256": "1194b0ee089bfb7620d0cf5d1dde068207d17156024eef15e309cd32ffc35e26"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 35090,
+          "id": 21,
+          "last_seen": 35670,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/20",
+            "flow_id": 21,
+            "literal_byte_offset": 236857,
+            "literal_bytes": 221,
+            "literal_sha256": "6990bf6eea55bc8642f413fdae5001c770aa61f63730b34b53e0dd9c608d7814"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 40672,
+          "id": 22,
+          "last_seen": 41246,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/21",
+            "flow_id": 22,
+            "literal_byte_offset": 237079,
+            "literal_bytes": 221,
+            "literal_sha256": "29eac5f189987144ecf328b29bb6237a830aef14355f2765795eb3e8cee9a700"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 46247,
+          "id": 23,
+          "last_seen": 46840,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/22",
+            "flow_id": 23,
+            "literal_byte_offset": 237301,
+            "literal_bytes": 221,
+            "literal_sha256": "1584b0282dd020794b252524310593f6e5c05942bf08bdef6849e9cc1ffb48ce"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 51842,
+          "id": 24,
+          "last_seen": 52413,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/23",
+            "flow_id": 24,
+            "literal_byte_offset": 237523,
+            "literal_bytes": 221,
+            "literal_sha256": "bfa17439699a3b835982677946a1396c9e0f295bcec45a5b367a1f2379f7e0ef"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 57416,
+          "id": 25,
+          "last_seen": 57996,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/24",
+            "flow_id": 25,
+            "literal_byte_offset": 237745,
+            "literal_bytes": 221,
+            "literal_sha256": "6d63c4a5fbbfdf7706cc506c856b6ba38ac0542206f0a21ba30c8e5540f933c9"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 62999,
+          "id": 26,
+          "last_seen": 63575,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/25",
+            "flow_id": 26,
+            "literal_byte_offset": 237967,
+            "literal_bytes": 221,
+            "literal_sha256": "a9bc17960c7889dea961f24b3db5a03a0ca014f0d719d013f7bc82e3473674e1"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 68577,
+          "id": 27,
+          "last_seen": 69152,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/26",
+            "flow_id": 27,
+            "literal_byte_offset": 238189,
+            "literal_bytes": 221,
+            "literal_sha256": "2b679f2f8f5453946fa79c3d1ea4f40de10e21f5990b4d94c675c0e85c0b99e0"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 74154,
+          "id": 28,
+          "last_seen": 74735,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/27",
+            "flow_id": 28,
+            "literal_byte_offset": 238411,
+            "literal_bytes": 221,
+            "literal_sha256": "c47ad85b964d5ce1f41755222021332ba6b5b975f09542003da37b89272bf450"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 79738,
+          "id": 29,
+          "last_seen": 80312,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/28",
+            "flow_id": 29,
+            "literal_byte_offset": 238633,
+            "literal_bytes": 221,
+            "literal_sha256": "2063895eac1fe1821d9342b19acc708776bd8f40ffdadf7bf4edfbe6be6938db"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 85316,
+          "id": 30,
+          "last_seen": 85893,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/29",
+            "flow_id": 30,
+            "literal_byte_offset": 238855,
+            "literal_bytes": 221,
+            "literal_sha256": "e7320a49164a368ce7412315a6624614ed38db209f525b82f05e4de933383c58"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 90896,
+          "id": 31,
+          "last_seen": 91472,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/30",
+            "flow_id": 31,
+            "literal_byte_offset": 239077,
+            "literal_bytes": 221,
+            "literal_sha256": "313823188cb399ef7fcdb9da07d8a3b588fbbffd81d23e7f4e6d63282cd5dd6b"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 96474,
+          "id": 32,
+          "last_seen": 102110,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1282,
+          "tx_packets": 5,
+          "source_locator": {
+            "json_pointer": "/network/flows/31",
+            "flow_id": 32,
+            "literal_byte_offset": 239299,
+            "literal_bytes": 222,
+            "literal_sha256": "9dd3c18e017d0acf7ff33222b0dfe7fed4865330a56794b84dbb1425f96b06c0"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 107113,
+          "id": 33,
+          "last_seen": 107687,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/32",
+            "flow_id": 33,
+            "literal_byte_offset": 239522,
+            "literal_bytes": 223,
+            "literal_sha256": "b832487239d0aa0990562eb9314b713f23dc2d784a5ca2c08ffde8a5e6a57a7d"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 112693,
+          "id": 34,
+          "last_seen": 113270,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/33",
+            "flow_id": 34,
+            "literal_byte_offset": 239746,
+            "literal_bytes": 223,
+            "literal_sha256": "7d57cc1136b7f242a31e3a276d6b9488bdd47752202ff3fb1e44480bcd36c354"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 118273,
+          "id": 35,
+          "last_seen": 118857,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/34",
+            "flow_id": 35,
+            "literal_byte_offset": 239970,
+            "literal_bytes": 223,
+            "literal_sha256": "a47529a1aac7539ced210d4856246129da50d48cced12a2446f876bbed38e663"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 123859,
+          "id": 36,
+          "last_seen": 124435,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/35",
+            "flow_id": 36,
+            "literal_byte_offset": 240194,
+            "literal_bytes": 223,
+            "literal_sha256": "2bba842f512cb6d69a57e6e24cf2c7f328062a9f82507baefb753dd3d75ec7f2"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 129437,
+          "id": 37,
+          "last_seen": 130013,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/36",
+            "flow_id": 37,
+            "literal_byte_offset": 240418,
+            "literal_bytes": 223,
+            "literal_sha256": "63883021ba5531b86409fcd093b6d1b057d737e94c9253c655e1ff1313c6b9cc"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 135016,
+          "id": 38,
+          "last_seen": 135588,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/37",
+            "flow_id": 38,
+            "literal_byte_offset": 240642,
+            "literal_bytes": 223,
+            "literal_sha256": "4b20fcd7f6f0d6a5741fd131db654c86f6b0d0fd9aeaf6f113b6831ecaab5c64"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 140591,
+          "id": 39,
+          "last_seen": 141168,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/38",
+            "flow_id": 39,
+            "literal_byte_offset": 240866,
+            "literal_bytes": 223,
+            "literal_sha256": "3b62ef401162bbc9770d2894824a17ed1d0ac704813f58b796681a754d2127df"
+          }
+        },
+        {
+          "domain": "23.254.195.48",
+          "dst": "23.254.195.48:8443",
+          "first_seen": 146171,
+          "id": 40,
+          "last_seen": 146742,
+          "proto": "tcp",
+          "protocols": [
+            "http"
+          ],
+          "rx_bytes": 164,
+          "rx_packets": 3,
+          "tx_bytes": 1162,
+          "tx_packets": 3,
+          "source_locator": {
+            "json_pointer": "/network/flows/39",
+            "flow_id": 40,
+            "literal_byte_offset": 241090,
+            "literal_bytes": 223,
+            "literal_sha256": "9d7977640303153ca2647da28243ced9e751976cb4d1f2f563bae77389ba3d26"
+          }
+        }
+      ],
+      "selected_http_requests": [
+        {
+          "flow": 2,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/0/http_request"
+        },
+        {
+          "flow": 16,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/11/http_request"
+        },
+        {
+          "flow": 17,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/12/http_request"
+        },
+        {
+          "flow": 18,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/13/http_request"
+        },
+        {
+          "flow": 19,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/14/http_request"
+        },
+        {
+          "flow": 20,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/15/http_request"
+        },
+        {
+          "flow": 21,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/16/http_request"
+        },
+        {
+          "flow": 22,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/17/http_request"
+        },
+        {
+          "flow": 23,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/18/http_request"
+        },
+        {
+          "flow": 24,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/19/http_request"
+        },
+        {
+          "flow": 25,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/20/http_request"
+        },
+        {
+          "flow": 26,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/21/http_request"
+        },
+        {
+          "flow": 27,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/22/http_request"
+        },
+        {
+          "flow": 28,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/23/http_request"
+        },
+        {
+          "flow": 29,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/24/http_request"
+        },
+        {
+          "flow": 30,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/25/http_request"
+        },
+        {
+          "flow": 31,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/26/http_request"
+        },
+        {
+          "flow": 32,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/27/http_request"
+        },
+        {
+          "flow": 33,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/28/http_request"
+        },
+        {
+          "flow": 34,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/29/http_request"
+        },
+        {
+          "flow": 35,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/30/http_request"
+        },
+        {
+          "flow": 36,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/31/http_request"
+        },
+        {
+          "flow": 37,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/32/http_request"
+        },
+        {
+          "flow": 38,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/33/http_request"
+        },
+        {
+          "flow": 39,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/34/http_request"
+        },
+        {
+          "flow": 40,
+          "method": "POST",
+          "url": "http://23.254.195.48:8443/check_in",
+          "header_names": [
+            "Accept-Encoding",
+            "Connection",
+            "Content-Length",
+            "Host",
+            "User-Agent",
+            "X-Implant-Token",
+            "X-Session-Token"
+          ],
+          "implant_token_header_present": true,
+          "source_json_pointer": "/network/requests/35/http_request"
+        }
+      ],
+      "selected_dns_answers": [],
+      "http_response_codes": [],
+      "registration_success_established": false,
+      "network_simulation_flags": "Not disclosed in the admitted embedded network object; absence of simulation is not established.",
+      "pid_attribution": "Network observations are scoped to the public sandbox task; these flow objects do not attribute a PID.",
+      "completion_to_next_start_ms": {
+        "count": 25,
+        "minimum": 5001,
+        "median": 5003,
+        "maximum": 5006
+      }
+    }
+  ],
+  "ct_certificates": [
+    {
+      "crt_sh_id": 29269224366,
+      "source_url": "https://crt.sh/?id=29269224366",
+      "download_url": "https://crt.sh/?d=29269224366",
+      "download_file_sha256": "fe2285e292c51bee765fc543c877a186627fc07e9b3c1fbbb46b81b54add7c3e",
+      "der_sha256": "7a52c6aab96e9cb99fcbc506f30b1e2901eb0fd7920243846726457417a3bc46",
+      "der_bytes": 725,
+      "subject": "CN=fastcdn.bar",
+      "issuer": "CN=Cloudflare TLS Issuing ECC CA 4,O=SSL Corporation,C=US",
+      "dns_san": [
+        "fastcdn.bar",
+        "*.fastcdn.bar"
+      ],
+      "not_before": "2026-09-05T02:18:54+00:00",
+      "not_after": "2026-12-01T19:53:07+00:00",
+      "serial_hex": "795ee6e43df1d1ade14c4f05beb431a6",
+      "precertificate": true
+    },
+    {
+      "crt_sh_id": 29486410014,
+      "source_url": "https://crt.sh/?id=29486410014",
+      "download_url": "https://crt.sh/?d=29486410014",
+      "download_file_sha256": "d4050f07dad77311c5aab68e6736d0e0081ad9ec7aba27313830cdb1893c4058",
+      "der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
+      "der_bytes": 920,
+      "subject": "CN=static.fastcdn.bar",
+      "issuer": "CN=YE1,O=Let's Encrypt,C=US",
+      "dns_san": [
+        "static.fastcdn.bar"
+      ],
+      "not_before": "2026-09-17T06:21:11+00:00",
+      "not_after": "2026-12-16T06:21:10+00:00",
+      "serial_hex": "5eb8182ef915b19ca1c9394fcea3ea602bb",
+      "precertificate": false
+    },
+    {
+      "crt_sh_id": 29635812593,
+      "source_url": "https://crt.sh/?id=29635812593",
+      "download_url": "https://crt.sh/?d=29635812593",
+      "download_file_sha256": "fd53b84b580b5d01d1c6eff99c8dd6bab48e3a963a8a730657809b90029a7e76",
+      "der_sha256": "6b03dfb3dbd4c42441bbd916ab6ebdac5a205dab1f219f95c6151e0549d8f298",
+      "der_bytes": 917,
+      "subject": "CN=media.fastcdn.bar",
+      "issuer": "CN=YE1,O=Let's Encrypt,C=US",
+      "dns_san": [
+        "media.fastcdn.bar"
+      ],
+      "not_before": "2026-09-26T15:49:55+00:00",
+      "not_after": "2026-12-25T15:49:54+00:00",
+      "serial_hex": "52fe3a38174f71b3e1e31048be7de2e7942",
+      "precertificate": false
+    },
+    {
+      "crt_sh_id": 29636991649,
+      "source_url": "https://crt.sh/?id=29636991649",
+      "download_url": "https://crt.sh/?d=29636991649",
+      "download_file_sha256": "eca0c6625e7a061e04f82b7d486822adcefaa692268d96b7079e8d9fd8a86692",
+      "der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
+      "der_bytes": 914,
+      "subject": "CN=www.fastcdn.bar",
+      "issuer": "CN=YE1,O=Let's Encrypt,C=US",
+      "dns_san": [
+        "www.fastcdn.bar"
+      ],
+      "not_before": "2026-09-02T19:03:19+00:00",
+      "not_after": "2026-12-01T19:03:18+00:00",
+      "serial_hex": "54cf02de522d5e593a0aeed1380f216246d",
+      "precertificate": false
+    }
+  ],
+  "urlscan_observations": [
+    {
+      "source_url": "https://urlscan.io/result/01a1a1d8-45af-7391-8182-5b21703cb093/",
+      "task_time_utc": "2026-11-03T14:37:57.572Z",
+      "url": "https://media.fastcdn.bar/",
+      "page_ip": "2a06:98c1:3120::3",
+      "http_status": "521",
+      "server": "cloudflare",
+      "title": "fastcdn.bar | 521: Web server is down",
+      "tls_issuer": "WE1",
+      "tls_valid_from": "2026-11-01T03:39:41.000Z",
+      "scope": "Historical public search metadata only; result-detail API returned403 during this collection. Not current C2 status or successful implant registration."
+    },
+    {
+      "source_url": "https://urlscan.io/result/01a19ea4-e380-754a-ae0e-14740b1f73cd/",
+      "task_time_utc": "2026-11-02T23:42:55.894Z",
+      "url": "https://media.fastcdn.bar/",
+      "page_ip": "188.114.96.3",
+      "http_status": "523",
+      "server": "cloudflare",
+      "title": "fastcdn.bar | 523: Origin is unreachable",
+      "tls_issuer": "WE1",
+      "tls_valid_from": "2026-11-01T03:39:41.000Z",
+      "scope": "Historical public search metadata only; result-detail API returned403 during this collection. Not current C2 status or successful implant registration."
+    }
+  ],
+  "urlscan_search_window_days": 30,
+  "shared_cdn_context": [
+    {
+      "ip": "104.21.48.8",
+      "in_current_cloudflare_published_ranges": true,
+      "scope": "Shared CDN historical task/DNS context only; not attacker-owned origin or standalone block IOC."
+    },
+    {
+      "ip": "172.67.175.42",
+      "in_current_cloudflare_published_ranges": true,
+      "scope": "Shared CDN historical task/DNS context only; not attacker-owned origin or standalone block IOC."
+    },
+    {
+      "ip": "188.114.96.3",
+      "in_current_cloudflare_published_ranges": true,
+      "scope": "Shared CDN historical task/DNS context only; not attacker-owned origin or standalone block IOC."
+    },
+    {
+      "ip": "2606:4700:3035::ac43:af2a",
+      "in_current_cloudflare_published_ranges": true,
+      "scope": "Shared CDN historical task/DNS context only; not attacker-owned origin or standalone block IOC."
+    },
+    {
+      "ip": "2606:4700:3037::6815:3008",
+      "in_current_cloudflare_published_ranges": true,
+      "scope": "Shared CDN historical task/DNS context only; not attacker-owned origin or standalone block IOC."
+    },
+    {
+      "ip": "2a06:98c1:3120::3",
+      "in_current_cloudflare_published_ranges": true,
+      "scope": "Shared CDN historical task/DNS context only; not attacker-owned origin or standalone block IOC."
+    }
+  ],
+  "limits": [
+    "No local execution, PCAP acquisition, authentication bypass, scan submission, actor/victim endpoint requests or Censys queries.",
+    "No raw HTTP requests, header values, token values, keys, cookies or binary malware are included.",
+    "No India targeting or victim-compromise association established for these artifacts.",
+    "The exact Kaspersky sample association comes from its published MD5 and public sandbox hash mapping; that sample binary was not acquired.",
+    "The cbf1045 sample is independently verified CyberStrikeAI lineage; the Kaspersky incident, operator and India links remain unestablished.",
+    "CT validity/issuance is not proof of deployment or attack timing; a precertificate hash is not a live TLS leaf fingerprint.",
+    "Cloudflare shared-edge addresses and CT siblings are context/leads, not malicious infrastructure assertions."
+  ]
+}

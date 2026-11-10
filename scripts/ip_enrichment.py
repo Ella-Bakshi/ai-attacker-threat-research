@@ -38,9 +38,15 @@ def confidence_for_records(records):
     """Ordinal evidence rubric, never a maliciousness probability or GeoIP score."""
     scores=[]
     for r in records:
-        cat=r.get('publication_category','');origin=r.get('origin','');role=r.get('role','').lower()
+        cat=r.get('publication_category','');origin=r.get('origin','');role=r.get('role','').lower();locator=r.get('source_locator') or {}
         if cat in {'legitimate-service-context','supporting-context','shared-services-and-generic-markers'}:
             score,basis=0,'Generic/shared service or nonindicative supporting context; no compromise confidence assigned.'
+        elif r.get('record_id','').startswith('OWNCTI-') and origin=='analyst_public_sandbox_derivation' and cat=='analyst-derived' and r.get('indicator_type') in {'ipv4','domain_port','network_pattern','http_request_pattern'} and re.fullmatch('[0-9a-f]{64}',locator.get('sample_sha256','')) and (locator.get('tls_flow_ids') or locator.get('sandbox_runs') or locator.get('public_runs')):
+            score,basis=60,'Exact-sample public sandbox network relationship independently extracted; capture-level attempts only, with execution environment, operator, live C2 success and India association unestablished.'
+        elif r.get('record_id','').startswith('OWNCTI-') and origin=='analyst_ct_certificate_derivation' and cat=='analyst-derived' and r.get('indicator_type')=='tls_certificate_sha256' and locator.get('dns_san') and locator.get('der_bytes') and not locator.get('precertificate'):
+            score,basis=40,'Public CT certificate DER identity and domain verified locally; issuance is not proof of deployment, a live TLS leaf or actor ownership.'
+        elif r.get('record_id','').startswith('OWNCTI-'):
+            score,basis=0,'Contextual fingerprint, generic timing pattern or unverified certificate sibling; no standalone maliciousness confidence assigned.'
         elif cat=='sample-derived-observables' and origin.startswith('analyst_'):
             score,basis=60,'Exact sample configuration examined statically; execution, operator and individual victim unverified.'
         elif cat in {'main-iocs','sourced-iocs'} and (cat=='main-iocs' or re.search(r'\bc2\b',role)):

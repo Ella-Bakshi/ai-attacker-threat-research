@@ -1,5 +1,7 @@
 # Maintaining the IP overview and map
 
+For our artifact collection, independent analysis and two direct measurements, see [our enrichment workflow](our-enrichment-workflow.md). This page documents the metadata/map automation; those are distinct layers.
+
 The main file is [data/ip-overview.csv](../data/ip-overview.csv). Its first five columns are **ip, timestamp, asn, hosting, location**. [JSON](../data/ip-overview.json) preserves lists and types; [source snapshots](../data/enrichment/sources.json) preserve dataset URLs, hashes, retrieval times and data-effective headers. [Coverage](../data/enrichment/summary.json) reports matched and unmatched values.
 
 The [live map](https://ella-bakshi.github.io/ai-attacker-threat-research/) and [standalone map](../maps/index.html) include every selected IP, with filters for evidence class, framework, India campaign scope, C2 and our derivations. Domain-only C2 remains in the [separate C2 list](../india/C2-INFRASTRUCTURE.md); no current DNS result is silently converted into a historical campaign IP.

@@ -17,6 +17,20 @@ def source_dates(records,field):
         out.update(vals(r.get(field)))
         if field=='source_published_date':out.update(x['published_date'] for x in r.get('source_references',[]) if x.get('published_date'))
     return sorted(out)
+
+def artifact_date_context(records):
+    """Preserve artifact times without turning submission/validity into attack time."""
+    out=set()
+    keys={'submitted_at_utc':'sandbox submission','sample_submitted_at_utc':'sandbox submission','sandbox_submitted_at_utc':'sandbox submission','urlscan_task_time_utc':'public scan','not_before':'certificate validity start','not_after':'certificate validity end'}
+    def visit(node,rid):
+        if isinstance(node,dict):
+            for key,value in node.items():
+                if key in keys and isinstance(value,str):out.add(rid+' | '+keys[key]+' | '+value)
+                elif isinstance(value,(list,dict)):visit(value,rid)
+        elif isinstance(node,list):
+            for item in node:visit(item,rid)
+    for r in records:visit(r.get('source_locator',{}),r['record_id'])
+    return sorted(out)
 def read_csv(path):
     if not path.exists():return []
     with path.open(encoding='utf-8-sig',newline='') as f:
@@ -57,6 +71,8 @@ def main():
     infile=args.input_csv or root/'data/ip-overview.csv';existing=read_csv(infile);submitted={}
     prior_output={r['ip']:r for r in load(root/'data/ip-overview.json')} if (root/'data/ip-overview.json').exists() else {}
     cross_checks={r['ip']:r for r in load(root/'data/enrichment/ipinfo-cross-checks.json')} if (root/'data/enrichment/ipinfo-cross-checks.json').exists() else {}
+    first_party_path=root/'research/first-party/observations.json'
+    first_party=load(first_party_path)['observations'] if first_party_path.exists() else []
     for r in existing:
         ip=str(ipaddress.ip_address(r['ip'].strip()))
         if ip in submitted:raise ValueError('Duplicate input CSV IP: '+ip)
@@ -100,8 +116,20 @@ def main():
                 if cat=='master-only-passive-lead':nroles.add('master_only_passive_lead')
                 if cat=='sample-derived-observables':nroles.add('sample_static_configuration')
                 if cat=='legitimate-service-context':nroles.add('legitimate_service')
+                if cat=='shared-services-and-generic-markers':nroles.add('shared_service_context')
+                if r.get('origin')=='analyst_public_sandbox_derivation' and r.get('record_id','').startswith('OWNCTI-'):nroles.add('sandbox_network_observation')
             row={'ip':ip,'timestamp':timestamp,'asn':('AS'+str(asn['asn'])) if asn.get('asn') else '','hosting':asn.get('asn_org','') if asn.get('asn') else '', 'location':place,'latitude':lat,'longitude':lon,'confidence_score':score,'confidence_basis':basis,'timestamp_basis':basis_time,'enriched_at_utc':now,'asn_org':asn.get('asn_org',''),'hosting_basis':'ASN network description from IPtoASN; reseller/tenant and hosting-service classification are not inferred.','ip_version':version,'asn_country_code':asn.get('asn_country_code',''),'country_code':cc,'country_name':country.get('names',{}).get('en',''),'region':region,'city':city,'geo_status':'matched_approximate' if valid else ('not_public' if not public else 'unmatched'),'coordinate_basis':'DB-IP City Lite approximate coordinates' if valid else 'unknown','enrichment_status':'complete' if asn.get('asn') and valid else ('not_public' if not public else 'partial_or_unmatched'),'asn_range_start':str(ipaddress.IPv6Address(asn['range_start']) if version==6 else ipaddress.IPv4Address(asn['range_start'])) if asn else '', 'asn_range_end':str(ipaddress.IPv6Address(asn['range_end']) if version==6 else ipaddress.IPv4Address(asn['range_end'])) if asn else '','asn_source':'https://iptoasn.com/','geo_source':'https://db-ip.com/db/download/ip-to-city-lite','asn_dataset_last_modified':snapby['ip2asn-v4-u32.tsv.gz' if version==4 else 'ip2asn-v6.tsv.gz'].get('last_modified_header',''),'geo_dataset_build_utc':geo_build,'first_seen_values':source_dates(rr,'first_seen'),'last_seen_values':source_dates(rr,'last_seen'),'source_publication_dates':source_dates(rr,'source_published_date'),'record_ids':sorted({r['record_id'] for r in rr}),'frameworks':sorted({v for r in rr for v in vals(r['framework'])}),'campaigns':sorted({r['campaign'] for r in rr if r.get('campaign')}),'publication_categories':cats,'roles':role_values,'network_roles':sorted(nroles),'india_targeting_scopes':sorted({r.get('india_targeting_scope',r.get('india_relevance','unestablished')) for r in rr}) or ['unestablished'],'india_campaign_c2_supported':any(r['record_id'] in c2 and r.get('india_targeting_scope')=='campaign' and r.get('india_evidence_url') for r in rr),'self_derived':any(r.get('origin','').startswith('analyst_') for r in rr),'confidence_method':method,'confidence_record_ids':score_ids,'confidence_is_probability':False,'source_urls':sorted({u for r in rr for u in r.get('primary_source_url','').split('; ') if u}),'input_origin':'master_only' if ip in master_only else ('catalog' if rr else 'manual_csv'),'manual_score':manual_score,'manual_confidence_basis':manual_basis}
             check=cross_checks.get(ip,{})
+            row.update(evidence_date_context=artifact_date_context(rr),source_timestamp_scopes=sorted({r['timestamp_scope'] for r in rr if r.get('timestamp_scope')}))
+            measurements=[]
+            for observation in first_party:
+                dns=observation.get('dns',{})
+                connected=ip==observation.get('connected_peer_ip')
+                if connected or ip in dns.get('answers',[]):
+                    relation='connected peer' if connected else 'DNS answer only; not connected'
+                    code=(observation.get('http') or {}).get('status_code') if connected else None
+                    measurements.append(observation['seed_id']+' | '+observation['observation_started_at_utc']+' | '+relation+(' | HTTP '+str(code) if code else '')+' | no C2 success or India attribution')
+            row['first_party_observations']=measurements
             row.update(ipinfo_source_url=check.get('url',''),ipinfo_company=check.get('company',''),ipinfo_asn=check.get('asn',''),ipinfo_location=', '.join(v for v in [check.get('city'),check.get('country_code')] if v),ipinfo_evidence_date=(check.get('provider_measurement') or {}).get('date',''),ipinfo_reviewed_at_utc=check.get('reviewed_at_utc',''))
             result.append(row)
     output=root/'data';write(output/'ip-overview.json',result);write_csv(output/'ip-overview.csv',result)

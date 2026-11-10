@@ -1,6 +1,6 @@
 # AI Attacker Threat Research
 
-Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **10 November 2026**.
+Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **11 November 2026**.
 
 ## IP overview and map
 
@@ -22,6 +22,10 @@ The sample's exact operator, named campaign, India targeting and current live C2
 
 Additional independently verified India-campaign observations are in [our separate static analysis](india/additional-ai-campaigns/2026-11-10-independent-static-analysis/README.md) and [own-observation CSV](india/additional-ai-campaigns/analyst-derived.csv): **5 records**, with vendor-reported campaign context and our byte/method evidence kept distinct.
 
+The [independent enrichment supplement](independent-enrichment/README.md) adds **16 separately scoped records** from public sandbox, certificate and historical scan artifacts: six derived facts, two TLS fingerprints, two unverified sibling domains and six shared-CDN contexts. It corroborates 80 check-in attempts to an existing configured IP; it does not add a verified India-specific C2. [Own observations CSV](independent-enrichment/observations.csv).
+
+We also performed [two first-party endpoint observations](research/first-party/README.md): one root GET per existing seed, with DNS/TLS/HTTP evidence. HTTP 521 and 404 are point-in-time responses, not functioning-C2 proof. These measurements remain separate from provider data and the incident lists. [How our collection works](docs/our-enrichment-workflow.md) · [Hunt's public methods and supported private exports](docs/hunt-and-independent-methods.md).
+
 ## Sourced IOCs
 
 The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** indicators reported by external sources. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
@@ -29,7 +33,7 @@ The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-as
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,019 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,034 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -44,6 +48,12 @@ CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ART
 The separate [India AI campaign supplement](india/additional-ai-campaigns/README.md) adds **171 externally sourced IOC records** from APT36 vibeware, Sheet Attack and Gopher Strike, plus **5 independently verified/derived observations**. These campaigns have primary-source India targeting evidence and vendor-assessed AI involvement; no ARTEX/CyberStrikeAI link is established. [Sourced IOCs](india/additional-ai-campaigns/sourced-iocs.csv), [our observations](india/additional-ai-campaigns/analyst-derived.csv), [report artifacts](india/additional-ai-campaigns/report-artifacts.csv), and [supporting context](india/additional-ai-campaigns/supporting-context.csv) remain separate.
 
 ## Browse dated reports
+
+### 2026-11-11
+
+- [Our analysis — public artifacts and certificate relationships](independent-enrichment/README.md).
+- [Our measurements — bounded DNS, TLS and HTTP seed observations](research/first-party/README.md).
+- [Fresh India-targeting source review](india/2026-11-11-source-review.md).
 
 ### 2026-11-10
 

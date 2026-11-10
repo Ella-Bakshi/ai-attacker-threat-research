@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sanitized bounded first-party seed observations",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at_utc",
+    "observation_count",
+    "observations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "generated_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "observation_count": {
+      "const": 2
+    },
+    "scope": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "curation_note": {
+      "type": "string"
+    },
+    "published_collector_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "observations": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "seed_id": {
+            "enum": [
+              "CSAI-TLS-2083",
+              "CSAI-ELF-HTTP-8443"
+            ]
+          },
+          "endpoint": {
+            "enum": [
+              "https://media.fastcdn.bar:2083/",
+              "http://23.254.195.48:8443/"
+            ]
+          },
+          "origin": {
+            "const": "analyst_first_party_bounded_network_observation"
+          },
+          "publication_category": {
+            "const": "first-party-observations"
+          },
+          "observation_started_at_utc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_urls": {},
+          "source_basis": {},
+          "india_targeting_established": {
+            "const": false
+          },
+          "actor_activity_established": {
+            "const": false
+          },
+          "current_c2_success_established": {
+            "const": false
+          },
+          "origin_server_identified": {
+            "const": false
+          },
+          "global_novelty_claimed": {
+            "const": false
+          },
+          "http_requests_sent": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "redirects_followed": {
+            "const": 0
+          },
+          "body_capture_limit_bytes": {
+            "const": 16384
+          },
+          "dns": {},
+          "tls": {},
+          "http": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "status_code": {
+                "type": "integer",
+                "minimum": 100,
+                "maximum": 599
+              },
+              "observed_at_utc": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "title": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 160
+              },
+              "captured_body_bytes": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 16384
+              },
+              "captured_body_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "body_hash_scope": {
+                "type": "string"
+              },
+              "body_limit_reached": {
+                "type": "boolean"
+              }
+            }
+          },
+          "status": {
+            "type": "string"
+          },
+          "connected_address_candidate": {},
+          "connected_peer_ip": {},
+          "observation_finished_at_utc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "elapsed_seconds": {},
+          "limit_note": {},
+          "error_type": {},
+          "error_errno": {}
+        },
+        "required": [
+          "seed_id",
+          "endpoint",
+          "origin",
+          "publication_category",
+          "status",
+          "http_requests_sent",
+          "observation_finished_at_utc"
+        ]
+      }
+    }
+  }
+}

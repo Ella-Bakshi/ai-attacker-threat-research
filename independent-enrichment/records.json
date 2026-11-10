@@ -1,0 +1,999 @@
+[
+  {
+    "record_id": "OWNCTI-B7335E1E62E0B639",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-derived",
+    "indicator_type": "domain_port",
+    "indicator": "media.fastcdn.bar:2083",
+    "role": "Historical sandbox task TLS destination matched to exact vendor-reported Linux beacon and C2 domain",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the public task flow/domain/port relationship; no PID attribution, successful registration, live status or India targeting claim.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Kaspersky CyberStrikeAI educational-sector campaign (2026-11-02)",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "relationship": "published exact hash/domain seed; 2026-11-02"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+      "submitted_at_utc": "2026-10-27T13:22:16Z",
+      "tls_flow_ids": [
+        4,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "network_json_locator": {
+        "json_file_byte_offset": 231932,
+        "json_byte_length": 9183,
+        "json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864"
+      }
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "2026-11-02",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 60
+  },
+  {
+    "record_id": "OWNCTI-53FB713ADFCF842D",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-software-fingerprint",
+    "indicator_type": "ja3_md5",
+    "indicator": "20b279993ae2e137e62b9647c6d768fb",
+    "role": "TLS handshake fingerprint observed with media.fastcdn.bar:2083; use only in compound context",
+    "confidence": "Medium",
+    "confidence_scope": "Exact public task fingerprint value; standalone detection specificity and cross-tool uniqueness are not established.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Kaspersky CyberStrikeAI educational-sector campaign (2026-11-02)",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "relationship": "published exact hash/domain seed; 2026-11-02"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+      "tls_flow_ids": [
+        4,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "field": "tls_ja3"
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "2026-11-02",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-400ABB1D9DD1FB8B",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-software-fingerprint",
+    "indicator_type": "ja3s_md5",
+    "indicator": "eb1d94daa7e0344597e756a1fb6e7054",
+    "role": "TLS handshake fingerprint observed with media.fastcdn.bar:2083; use only in compound context",
+    "confidence": "Medium",
+    "confidence_scope": "Exact public task fingerprint value; standalone detection specificity and cross-tool uniqueness are not established.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Kaspersky CyberStrikeAI educational-sector campaign (2026-11-02)",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "relationship": "published exact hash/domain seed; 2026-11-02"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+      "tls_flow_ids": [
+        4,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "field": "tls_ja3s"
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "2026-11-02",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-98C31B81BA22AB2D",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-derived",
+    "indicator_type": "network_pattern",
+    "indicator": "tls.sni=media.fastcdn.bar AND dst.port=2083 AND ja3=20b279993ae2e137e62b9647c6d768fb AND ja3s=eb1d94daa7e0344597e756a1fb6e7054",
+    "role": "Compound historical TLS hunting relationship from six exact-domain task flows",
+    "confidence": "High",
+    "confidence_scope": "Observed conjunction in six task-capture flows. A hunt hypothesis requiring environment validation; no production rule or accuracy claim.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Kaspersky CyberStrikeAI educational-sector campaign (2026-11-02)",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "relationship": "published exact hash/domain seed; 2026-11-02"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+      "flows": 6,
+      "tls_flow_ids": [
+        4,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_literal_byte_offsets": [
+        232532,
+        235406,
+        235754,
+        236101,
+        236449,
+        236799
+      ]
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "2026-11-02",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 60
+  },
+  {
+    "record_id": "OWNCTI-1E706397567DDEDD",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-derived",
+    "indicator_type": "http_request_pattern",
+    "indicator": "POST http://23.254.195.48:8443/check_in",
+    "role": "80 repeated outbound check-in attempts recorded in three public runs of the exact independently acquired CyberStrikeAI-lineage sample",
+    "confidence": "High",
+    "confidence_scope": "Exact-sample task-capture attempts corroborate the static configuration. No response codes were admitted; registration, command execution, operator and campaign association remain unknown.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261106-kvkxmaat3v/behavioral1; https://tria.ge/261106-wzxb1a11bs/behavioral1; https://tria.ge/261107-yeacvaex6v/behavioral1",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Unattributed CyberStrikeAI-lineage sample cbf1045",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://tria.ge/261107-yeacvaex6v/behavioral1",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+      "public_runs": [
+        {
+          "report_id": "261106-kvkxmaat3v",
+          "submitted_at_utc": "2026-11-06T08:55:18Z",
+          "request_count": 27,
+          "html_sha256": "e31bd7085319c126cb227ad2a4fd430bf28da97c450803ba8af094928a246c32"
+        },
+        {
+          "report_id": "261106-wzxb1a11bs",
+          "submitted_at_utc": "2026-11-06T18:22:06Z",
+          "request_count": 27,
+          "html_sha256": "d2230abd874017a181a25a4c42cd2f8e312ba9b9fa176c1ab9806fbde0de0ed4"
+        },
+        {
+          "report_id": "261107-yeacvaex6v",
+          "submitted_at_utc": "2026-11-07T19:41:24Z",
+          "request_count": 26,
+          "html_sha256": "ee44e50acac94029ddac1e5117de708d2b644fb04a856553a286c604aeb8492a"
+        }
+      ],
+      "response_status_codes_provided": false
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 60
+  },
+  {
+    "record_id": "OWNCTI-D7FF6274635E1CDC",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-derived",
+    "indicator_type": "ipv4",
+    "indicator": "23.254.195.48",
+    "role": "Historical outbound check-in destination independently corroborated by 80 public sandbox attempts for the exact acquired sample",
+    "confidence": "High",
+    "confidence_scope": "Exact task-capture destination relationship; no successful registration, current liveness, operator ownership, victim or India association established.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261106-kvkxmaat3v/behavioral1; https://tria.ge/261106-wzxb1a11bs/behavioral1; https://tria.ge/261107-yeacvaex6v/behavioral1",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Unattributed CyberStrikeAI-lineage sample cbf1045",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://tria.ge/261107-yeacvaex6v/behavioral1",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+      "sandbox_runs": [
+        {
+          "report_id": "261106-kvkxmaat3v",
+          "sample_submitted_at_utc": "2026-11-06T08:55:18Z",
+          "matching_flow_ids": [
+            1,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "relative_first_seen_ms": 1127,
+          "relative_last_seen_ms": 145941
+        },
+        {
+          "report_id": "261106-wzxb1a11bs",
+          "sample_submitted_at_utc": "2026-11-06T18:22:06Z",
+          "matching_flow_ids": [
+            2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "relative_first_seen_ms": 2155,
+          "relative_last_seen_ms": 148831
+        },
+        {
+          "report_id": "261107-yeacvaex6v",
+          "sample_submitted_at_utc": "2026-11-07T19:41:24Z",
+          "matching_flow_ids": [
+            2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "relative_first_seen_ms": 1624,
+          "relative_last_seen_ms": 146742
+        }
+      ],
+      "destination_port": 8443,
+      "method": "POST",
+      "uri_path": "/check_in",
+      "request_count": 80
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 60
+  },
+  {
+    "record_id": "OWNCTI-84ECACE2D8F420A2",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-derived",
+    "indicator_type": "behavior_pattern",
+    "indicator": "HTTP POST /check_in retry: approximately 5000 ms after previous matching flow completion",
+    "role": "Measured retry timing corroborated with a five-second initial poll interval in the exact ELF sample",
+    "confidence": "Medium",
+    "confidence_scope": "High confidence in the measurements/default byte value, low standalone specificity. Runtime server-provided settings and jitter may change timing; not an independent maliciousness signal.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_sandbox_derivation",
+    "primary_source_url": "https://tria.ge/261106-kvkxmaat3v/behavioral1; https://tria.ge/261106-wzxb1a11bs/behavioral1; https://tria.ge/261107-yeacvaex6v/behavioral1",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Unattributed CyberStrikeAI-lineage sample cbf1045",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://tria.ge/261107-yeacvaex6v/behavioral1",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+      "completion_to_next_start_ms": [
+        {
+          "report_id": "261106-kvkxmaat3v",
+          "count": 26,
+          "minimum": 5000,
+          "median": 5001.0,
+          "maximum": 5002
+        },
+        {
+          "report_id": "261106-wzxb1a11bs",
+          "count": 26,
+          "minimum": 5001,
+          "median": 5003.0,
+          "maximum": 5003
+        },
+        {
+          "report_id": "261107-yeacvaex6v",
+          "count": 25,
+          "minimum": 5001,
+          "median": 5003,
+          "maximum": 5006
+        }
+      ],
+      "native_evidence": "native-timing-evidence.json; interval global VA0x98b2f8 fileoffset5812984 uint64=5; main.applyJitter converts seconds to nanoseconds"
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-CCB595C1F9202607",
+    "framework": "CyberStrikeAI",
+    "publication_category": "analyst-derived",
+    "indicator_type": "tls_certificate_sha256",
+    "indicator": "6b03dfb3dbd4c42441bbd916ab6ebdac5a205dab1f219f95c6151e0549d8f298",
+    "role": "Historical public CT X.509 certificate naming the exact vendor-reported C2 domain; not an observed controller TLS leaf",
+    "confidence": "High",
+    "confidence_scope": "DER fingerprint, SAN and validity verified locally. Certificate issuance does not prove service deployment, actor control or a live TLS fingerprint match. PEM download hash is distinct.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_ct_certificate_derivation",
+    "primary_source_url": "https://crt.sh/?id=29635812593; https://crt.sh/?d=29635812593; https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Kaspersky CyberStrikeAI educational-sector campaign (2026-11-02)",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://crt.sh/?id=29635812593",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://crt.sh/?d=29635812593",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "relationship": "published exact hash/domain seed; 2026-11-02"
+      }
+    ],
+    "source_locator": {
+      "dns_san": [
+        "media.fastcdn.bar"
+      ],
+      "not_before": "2026-09-26T15:49:55+00:00",
+      "not_after": "2026-12-25T15:49:54+00:00",
+      "precertificate": false,
+      "der_bytes": 917,
+      "download_file_sha256": "fd53b84b580b5d01d1c6eff99c8dd6bab48e3a963a8a730657809b90029a7e76"
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "2026-11-02",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 40
+  },
+  {
+    "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
+    "framework": "CyberStrikeAI",
+    "publication_category": "unverified-findings",
+    "indicator_type": "domain",
+    "indicator": "static.fastcdn.bar",
+    "role": "Unverified sibling-domain lead discovered in certificate transparency under the same apex as a reported C2 domain",
+    "confidence": "Low",
+    "confidence_scope": "Certificate existence and shared parent are verified; no sample, malicious behavior, C2 role, operator or India association is established.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://crt.sh/?id=29486410014; https://crt.sh/?q=%25.fastcdn.bar&output=json",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Unverified fastcdn.bar CT sibling lead",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://crt.sh/?id=29486410014",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://crt.sh/?q=%25.fastcdn.bar&output=json",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "ct_certificate_der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
+      "dns_san": [
+        "static.fastcdn.bar"
+      ],
+      "not_before": "2026-09-17T06:21:11+00:00",
+      "not_after": "2026-12-16T06:21:10+00:00"
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-AAB562EB200FA015",
+    "framework": "CyberStrikeAI",
+    "publication_category": "unverified-findings",
+    "indicator_type": "domain",
+    "indicator": "www.fastcdn.bar",
+    "role": "Unverified sibling-domain lead discovered in certificate transparency under the same apex as a reported C2 domain",
+    "confidence": "Low",
+    "confidence_scope": "Certificate existence and shared parent are verified; no sample, malicious behavior, C2 role, operator or India association is established.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://crt.sh/?id=29636991649; https://crt.sh/?q=%25.fastcdn.bar&output=json",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Unverified fastcdn.bar CT sibling lead",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://crt.sh/?id=29636991649",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://crt.sh/?q=%25.fastcdn.bar&output=json",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "ct_certificate_der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
+      "dns_san": [
+        "www.fastcdn.bar"
+      ],
+      "not_before": "2026-09-02T19:03:19+00:00",
+      "not_after": "2026-12-01T19:03:18+00:00"
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-16AFADCBBEFE2E24",
+    "framework": "CyberStrikeAI",
+    "publication_category": "shared-services-and-generic-markers",
+    "indicator_type": "ipv4",
+    "indicator": "104.21.48.8",
+    "role": "Historical shared Cloudflare edge associated with reported domain in DNS/task/search metadata; context only",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the historical provider-record relationship; malicious ownership and standalone IP blocking value are explicitly unestablished. Shared CDN edge is not an origin server.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Shared CDN context for media.fastcdn.bar",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v4",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v6",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "observations": [
+        {
+          "dns_name": "media.fastcdn.bar",
+          "type": "IN A",
+          "json_pointer": "/network/requests/3/dns_response/answers",
+          "sandbox_submitted_at_utc": "2026-10-27T13:22:16Z"
+        }
+      ],
+      "within_published_cloudflare_ranges": true
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-FDC46A1A793D7A92",
+    "framework": "CyberStrikeAI",
+    "publication_category": "shared-services-and-generic-markers",
+    "indicator_type": "ipv4",
+    "indicator": "172.67.175.42",
+    "role": "Historical shared Cloudflare edge associated with reported domain in DNS/task/search metadata; context only",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the historical provider-record relationship; malicious ownership and standalone IP blocking value are explicitly unestablished. Shared CDN edge is not an origin server.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Shared CDN context for media.fastcdn.bar",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v4",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v6",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "observations": [
+        {
+          "dns_name": "media.fastcdn.bar",
+          "type": "IN A",
+          "json_pointer": "/network/requests/3/dns_response/answers",
+          "sandbox_submitted_at_utc": "2026-10-27T13:22:16Z"
+        }
+      ],
+      "within_published_cloudflare_ranges": true
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-8328F08D886CE6C6",
+    "framework": "CyberStrikeAI",
+    "publication_category": "shared-services-and-generic-markers",
+    "indicator_type": "ipv4",
+    "indicator": "188.114.96.3",
+    "role": "Historical shared Cloudflare edge associated with reported domain in DNS/task/search metadata; context only",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the historical provider-record relationship; malicious ownership and standalone IP blocking value are explicitly unestablished. Shared CDN edge is not an origin server.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://urlscan.io/result/01a19ea4-e380-754a-ae0e-14740b1f73cd/; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+    "source_published_date": "",
+    "first_seen": "2026-11-02T23:42:55.894Z",
+    "last_seen": "2026-11-02T23:42:55.894Z",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Shared CDN context for media.fastcdn.bar",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://urlscan.io/result/01a19ea4-e380-754a-ae0e-14740b1f73cd/",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v4",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v6",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "observations": [
+        {
+          "urlscan_task_time_utc": "2026-11-02T23:42:55.894Z",
+          "http_status": "523",
+          "url": "https://media.fastcdn.bar/"
+        }
+      ],
+      "within_published_cloudflare_ranges": true
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank. These first/last times are URLscan scan times, not victim activity times.",
+    "evidence_score_hint": 0,
+    "timestamp_scope": "source_scan"
+  },
+  {
+    "record_id": "OWNCTI-79434A9F4E4AB3CB",
+    "framework": "CyberStrikeAI",
+    "publication_category": "shared-services-and-generic-markers",
+    "indicator_type": "ipv6",
+    "indicator": "2606:4700:3035::ac43:af2a",
+    "role": "Historical shared Cloudflare edge associated with reported domain in DNS/task/search metadata; context only",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the historical provider-record relationship; malicious ownership and standalone IP blocking value are explicitly unestablished. Shared CDN edge is not an origin server.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Shared CDN context for media.fastcdn.bar",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v4",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v6",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "observations": [
+        {
+          "dns_name": "media.fastcdn.bar",
+          "type": "IN AAAA",
+          "json_pointer": "/network/requests/1/dns_response/answers",
+          "sandbox_submitted_at_utc": "2026-10-27T13:22:16Z"
+        }
+      ],
+      "within_published_cloudflare_ranges": true
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-3A4DEDFBED14271D",
+    "framework": "CyberStrikeAI",
+    "publication_category": "shared-services-and-generic-markers",
+    "indicator_type": "ipv6",
+    "indicator": "2606:4700:3037::6815:3008",
+    "role": "Historical shared Cloudflare edge associated with reported domain in DNS/task/search metadata; context only",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the historical provider-record relationship; malicious ownership and standalone IP blocking value are explicitly unestablished. Shared CDN edge is not an origin server.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Shared CDN context for media.fastcdn.bar",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v4",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v6",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "observations": [
+        {
+          "dns_name": "media.fastcdn.bar",
+          "type": "IN AAAA",
+          "json_pointer": "/network/requests/1/dns_response/answers",
+          "sandbox_submitted_at_utc": "2026-10-27T13:22:16Z"
+        }
+      ],
+      "within_published_cloudflare_ranges": true
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
+    "evidence_score_hint": 0
+  },
+  {
+    "record_id": "OWNCTI-74852746E9831C71",
+    "framework": "CyberStrikeAI",
+    "publication_category": "shared-services-and-generic-markers",
+    "indicator_type": "ipv6",
+    "indicator": "2a06:98c1:3120::3",
+    "role": "Historical shared Cloudflare edge associated with reported domain in DNS/task/search metadata; context only",
+    "confidence": "High",
+    "confidence_scope": "High confidence in the historical provider-record relationship; malicious ownership and standalone IP blocking value are explicitly unestablished. Shared CDN edge is not an origin server.",
+    "verification_status": "independently_extracted_public_artifact",
+    "origin": "analyst_public_context_pivot",
+    "primary_source_url": "https://urlscan.io/result/01a1a1d8-45af-7391-8182-5b21703cb093/; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+    "source_published_date": "",
+    "first_seen": "2026-11-03T14:37:57.572Z",
+    "last_seen": "2026-11-03T14:37:57.572Z",
+    "reviewed_at_utc": "2026-11-10T18:39:06.829685+00:00",
+    "campaign": "Shared CDN context for media.fastcdn.bar",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "global_novelty_claimed": false,
+    "source_references": [
+      {
+        "url": "https://urlscan.io/result/01a1a1d8-45af-7391-8182-5b21703cb093/",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v4",
+        "relationship": "artifact evidence"
+      },
+      {
+        "url": "https://www.cloudflare.com/ips-v6",
+        "relationship": "artifact evidence"
+      }
+    ],
+    "source_locator": {
+      "observations": [
+        {
+          "urlscan_task_time_utc": "2026-11-03T14:37:57.572Z",
+          "http_status": "521",
+          "url": "https://media.fastcdn.bar/"
+        }
+      ],
+      "within_published_cloudflare_ranges": true
+    },
+    "confidence_is_probability": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "target_requests": false,
+    "local_sample_execution": false,
+    "related_vendor_report_published_date": "",
+    "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank. These first/last times are URLscan scan times, not victim activity times.",
+    "evidence_score_hint": 0,
+    "timestamp_scope": "source_scan"
+  }
+]

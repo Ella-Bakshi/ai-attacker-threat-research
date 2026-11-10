@@ -1,0 +1,41 @@
+{
+  "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+  "method": "Static ELF64 program-header mapping, x86-64 relative CALL resolution and narrow literal validation; no execution.",
+  "interval_global_va": "0x98b2f8",
+  "interval_global_file_offset": 5812984,
+  "interval_global_uint64": 5,
+  "interval_units": "seconds before time.Duration conversion",
+  "jitter_global_va": "0x9f7b00",
+  "jitter_zero_initialized_at_load": true,
+  "instruction_evidence": [
+    {
+      "va": "0x65708b",
+      "file_offset": 2453643,
+      "instruction_bytes": 5,
+      "instruction_sha256": "4fa3c25b2bc64e9dd76b93ce40c0657727c278b9d5eea83a4607a90a2b74ba7b",
+      "call_target_va": "0x658900"
+    },
+    {
+      "va": "0x657090",
+      "file_offset": 2453648,
+      "instruction_bytes": 5,
+      "instruction_sha256": "96f8024f7b23b3baab3dfed2ea08052fa867f0946c863a191ab756c5da31a948",
+      "call_target_va": "0x479880"
+    },
+    {
+      "va": "0x657095",
+      "file_offset": 2453653,
+      "instruction_bytes": 5,
+      "instruction_sha256": "74ea2c02f1e182f6ac046814d50968e0808e8fa80128012e45a191526de6a8c5",
+      "call_target_va": "0x6589e0"
+    },
+    {
+      "va": "0x658925",
+      "file_offset": 2459941,
+      "instruction_bytes": 7,
+      "instruction_sha256": "cbd9533436fe8c4d95f0fc35f3284f3a34352a456c88be57eb62d541883fce8d",
+      "operation": "Multiply the zero-jitter seconds interval by1000000000"
+    }
+  ],
+  "runtime_limit": "Server responses may change interval/jitter; five-second behavior is generic and not a standalone compromise indicator."
+}

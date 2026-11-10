@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-10T18:41:01.450688Z",
+  "observation_count": 2,
+  "scope": "Two fixed source-backed seeds; one GET / maximum per endpoint; no retries, redirects, credentials or exploitation.",
+  "limitations": "Point-in-time endpoint responses/DNS/certificates are not proof of C2 activity, actor identity, origin ownership or India targeting. Negative results are observations, not new IOCs.",
+  "observations": [
+    {
+      "seed_id": "CSAI-TLS-2083",
+      "endpoint": "https://media.fastcdn.bar:2083/",
+      "origin": "analyst_first_party_bounded_network_observation",
+      "publication_category": "first-party-observations",
+      "observation_started_at_utc": "2026-11-10T18:40:59.757384Z",
+      "source_urls": [
+        "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+      ],
+      "source_basis": "Exact domain/port from public sandbox task, matched to vendor-reported sample/domain.",
+      "india_targeting_established": false,
+      "actor_activity_established": false,
+      "current_c2_success_established": false,
+      "origin_server_identified": false,
+      "global_novelty_claimed": false,
+      "http_requests_sent": 1,
+      "redirects_followed": 0,
+      "body_capture_limit_bytes": 16384,
+      "dns": {
+        "performed": true,
+        "resolver_scope": "OS-configured system resolver via getaddrinfo; results may be cached; recursive resolver identity not established.",
+        "queried_name": "media.fastcdn.bar",
+        "observed_at_utc": "2026-11-10T18:40:59.757429Z",
+        "answers": [
+          "104.21.48.8",
+          "172.67.175.42"
+        ]
+      },
+      "tls": {
+        "attempted": true,
+        "server_name": "media.fastcdn.bar",
+        "validation_policy": "Default system trust and hostname verification; failures not bypassed.",
+        "validated": true,
+        "leaf_der_sha256": "e162a97e2912879e1117c777a002dd35a00e317eb3dd2a021310798360e07e1a",
+        "subject_alt_names": [
+          {
+            "type": "DNS",
+            "value": "fastcdn.bar"
+          },
+          {
+            "type": "DNS",
+            "value": "*.fastcdn.bar"
+          }
+        ],
+        "not_before_utc": "2026-11-01T03:39:41Z",
+        "not_after_utc": "2027-01-30T04:39:38Z",
+        "observed_at_utc": "2026-11-10T18:41:00.080795Z",
+        "scope_note": "Certificate identifies the presented TLS endpoint; a CDN/shared certificate does not establish origin IP, operator ownership or maliciousness."
+      },
+      "http": {
+        "status_code": 521,
+        "observed_at_utc": "2026-11-10T18:41:00.447138Z",
+        "title": null,
+        "captured_body_bytes": 16,
+        "captured_body_sha256": "4558ae09802e147610ebdb88e4472fe625c897af9a18b04d47dfcdb6b563a138",
+        "body_hash_scope": "Only the first up to 16384 body bytes; not necessarily the full response.",
+        "body_limit_reached": false
+      },
+      "status": "http_response_observed",
+      "connected_address_candidate": "104.21.48.8",
+      "connected_peer_ip": "104.21.48.8",
+      "observation_finished_at_utc": "2026-11-10T18:41:00.447454Z",
+      "elapsed_seconds": 0.69
+    },
+    {
+      "seed_id": "CSAI-ELF-HTTP-8443",
+      "endpoint": "http://23.254.195.48:8443/",
+      "origin": "analyst_first_party_bounded_network_observation",
+      "publication_category": "first-party-observations",
+      "observation_started_at_utc": "2026-11-10T18:41:00.626950Z",
+      "source_urls": [
+        "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-06.zip"
+      ],
+      "source_basis": "Previously locally verified static CyberStrikeAI ELF configuration; source record CS-0FFC40CB2339 and provenance/new-candidate-evidence.json. Archive URL is acquisition provenance, not proof of campaign targeting.",
+      "india_targeting_established": false,
+      "actor_activity_established": false,
+      "current_c2_success_established": false,
+      "origin_server_identified": false,
+      "global_novelty_claimed": false,
+      "http_requests_sent": 1,
+      "redirects_followed": 0,
+      "body_capture_limit_bytes": 16384,
+      "dns": {
+        "performed": false,
+        "resolver_scope": "No DNS: seed is an IP literal."
+      },
+      "tls": {
+        "attempted": false
+      },
+      "http": {
+        "status_code": 404,
+        "observed_at_utc": "2026-11-10T18:41:01.447551Z",
+        "title": null,
+        "captured_body_bytes": 19,
+        "captured_body_sha256": "b16e15764b8bc06c5c3f9f19bc8b99fa48e7894aa5a6ccdad65da49bbf564793",
+        "body_hash_scope": "Only the first up to 16384 body bytes; not necessarily the full response.",
+        "body_limit_reached": false
+      },
+      "status": "http_response_observed",
+      "connected_address_candidate": "23.254.195.48",
+      "connected_peer_ip": "23.254.195.48",
+      "observation_finished_at_utc": "2026-11-10T18:41:01.447891Z",
+      "elapsed_seconds": 0.821
+    }
+  ],
+  "curation_note": "Source provenance augmented offline after the two observations; no network retries. Published collector adds progress recording before sendall to preserve attempted-request count on a future hard timeout.",
+  "published_collector_sha256": "b6303b6c74a3256fe8962dcd23e897bae32a7e6aa4162569e4504769ffbbfb7f"
+}
