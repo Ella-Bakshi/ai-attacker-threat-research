@@ -1,0 +1,60 @@
+[
+  {
+    "ip": "23.152.0.81",
+    "url": "https://ipinfo.io/23.152.0.81",
+    "asn": "AS199959",
+    "asn_org": "GWY IT PTY LTD",
+    "company": "Crowncloud US LLC",
+    "country_code": "US",
+    "city": "Los Angeles",
+    "latitude": 34.0559,
+    "longitude": -118.2666,
+    "provider_measurement": {
+      "date": "2026-11-03",
+      "probe_location": "Los Angeles, California, US",
+      "protocol": "ICMP",
+      "latency_ms": 0.538
+    },
+    "network_role": "source-reported Havoc C2",
+    "reviewed_at_utc": "2026-11-10T17:32:24.816Z",
+    "method": "Read-only IPinfo profile review and existing provider measurements; no new probe or account/token data.",
+    "purpose": "Finite analyst cross-check, not a bulk IPinfo data export or maliciousness verdict"
+  },
+  {
+    "ip": "45.56.162.170",
+    "url": "https://ipinfo.io/45.56.162.170",
+    "asn": "AS199959",
+    "asn_org": "GWY IT PTY LTD",
+    "company": "Crowncloud US LLC",
+    "country_code": "US",
+    "city": "Los Angeles",
+    "latitude": 34.0559,
+    "longitude": -118.2666,
+    "provider_measurement": {
+      "date": "2026-11-03",
+      "probe_location": "Los Angeles, California, US",
+      "protocol": "ICMP",
+      "latency_ms": 0.517
+    },
+    "network_role": "source-reported delivery endpoint and Cobalt Strike C2 association; 8000 listener role unverified",
+    "reviewed_at_utc": "2026-11-10T17:32:24.817Z",
+    "method": "Read-only IPinfo profile review and existing provider measurements; no new probe or account/token data.",
+    "purpose": "Finite analyst cross-check, not a bulk IPinfo data export or maliciousness verdict"
+  },
+  {
+    "ip": "15.207.85.170",
+    "url": "https://ipinfo.io/15.207.85.170",
+    "asn": "AS16509",
+    "asn_org": "Amazon.com, Inc.",
+    "company": "Amazon Data Services India",
+    "country_code": "IN",
+    "city": "Mumbai",
+    "latitude": 19.0728,
+    "longitude": 72.8826,
+    "provider_measurement": null,
+    "network_role": "source-reported payload delivery; not promoted to C2",
+    "reviewed_at_utc": "2026-11-10T17:32:24.817Z",
+    "method": "Read-only IPinfo profile review and existing provider measurements; no new probe or account/token data.",
+    "purpose": "Finite analyst cross-check, not a bulk IPinfo data export or maliciousness verdict"
+  }
+]

@@ -1,6 +1,6 @@
 # India targeting: ARTEX and CyberStrikeAI
 
-Research date: 10 November 2026. **No public exact network/hash IOC was verified as specific to the Indian campaign in this pass.** This is a deliberate empty confirmed list, not a claim that attacks lack indicators.
+Research date: 10 November 2026. **No public exact network/hash IOC was verified for the ARTEX/CyberStrikeAI-linked CRAFTY FALCON campaign in this framework-specific pass.** This is a deliberate empty confirmed list, not a claim that attacks lack indicators.
 
 CERT-In/CSIRT-Fin's [CIAD-2026-0058](https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058), published 4 November 2026, describes CRAFTY FALCON attacks against financial-sector entities and names ARTEX, CyberStrikeAI, PentAGI and Cairn. It updates [CIAD-2026-0046](https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0046), published 9 October 2026. The public advisory says the complete IOCs, fingerprints and detection rules were distributed through restricted channels. Those values were not guessed or replaced with unrelated campaigns.
 
@@ -24,4 +24,4 @@ The separate BadByte trojanized ARTEX-image report was not linked to CRAFTY FALC
 - `rejected_india_attributions.json`: disputed or unsupported geographic relationships.
 - `sources.json`: capture URLs, retrieval dates and hashes. HTML/text captures are intermediates; do not publish them as source article bodies.
 
-The bounded search included CERT-In, Indian vendors (Seqrite/QuickHeal, CloudSEK, Cyble, K7), Zscaler and iZOOlogic, plus original incident reporting and public compilations. No other primary ARTEX/CyberStrikeAI India-specific exact IOC set was found. Unrelated APT36/SideCopy/SHEETCREEP campaigns were kept outside scope. No Censys queries, direct deployment requests, authentication attempts or sample execution occurred.
+The bounded search included CERT-In, Indian vendors (Seqrite/QuickHeal, CloudSEK, Cyble, K7), Zscaler and iZOOlogic, plus original incident reporting and public compilations. No other primary ARTEX/CyberStrikeAI India-specific exact IOC set was found. Separate APT36/Gopher Strike/Sheet Attack campaigns are outside this framework-specific assessment and are now covered in the [India campaign supplement](additional-ai-campaigns/README.md) and [dedicated C2 infrastructure view](C2-INFRASTRUCTURE.md). Their campaign-level India targeting evidence does not depend on hosting country or a named victim per endpoint. No Censys queries, direct deployment requests, authentication attempts or sample execution occurred.

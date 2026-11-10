@@ -12,3 +12,8 @@ __pycache__/
 *.rep/
 *.zip
 work/
+.venv/
+.cache/
+*.mmdb
+*.tsv.gz
+*.mmdb.gz

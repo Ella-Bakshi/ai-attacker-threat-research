@@ -14,3 +14,5 @@ There are **171 externally sourced IOC records**, **32 additional report artifac
 India targeting is supported at campaign scope. Every record separately states whether a particular Indian victim's compromise is confirmed; none is inferred. The exact restricted CERT-In CRAFTY FALCON IOC set remains unavailable. Tenant/resource URLs are narrower than shared cloud provider domains. Certificate validation URLs and ordinary DNS resolvers are excluded from malicious network IOC claims. Dates are publication/review dates; blank first/last-seen values mean unknown.
 
 [Independent sample analysis](2026-11-10-independent-static-analysis/README.md)
+
+For C2 specifically, use the [dedicated role view](../C2-INFRASTRUCTURE.md). Infrastructure hosting location is not the targeting criterion.

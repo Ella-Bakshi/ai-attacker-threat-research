@@ -2,6 +2,14 @@
 
 Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **10 November 2026**.
 
+## IP overview and map
+
+[**Live interactive map**](https://ella-bakshi.github.io/ai-attacker-threat-research/) · [**Main IP CSV**](data/ip-overview.csv) · [JSON](data/ip-overview.json) · [Enrichment and automatic updates](docs/enrichment-and-map.md)
+
+The main CSV contains IP, source-observation timestamp, ASN, hosting/network organization, location and a documented confidence score. The map separates passive deployment leads, campaign infrastructure and our derivations. Hosting geography is separate from India targeting; scores express evidence strength, not a maliciousness probability. The [coverage snapshot](data/enrichment/summary.json) records matched and unmatched enrichment.
+
+[![IP infrastructure map](maps/world.svg)](https://ella-bakshi.github.io/ai-attacker-threat-research/)
+
 ## Our findings
 
 We derived or verified **333 records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
@@ -24,6 +32,8 @@ The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-as
 - [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,019 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
+
+“Targeting India” refers to the victims or campaign target selection, regardless of infrastructure hosting country. The [dedicated C2 infrastructure view](india/C2-INFRASTRUCTURE.md) contains **17 source-reported C2 records**, with [delivery infrastructure](india/delivery-infrastructure-targeting-india.csv) and [backup configuration resources](india/c2-configuration-resources-targeting-india.csv) kept separate. Campaign-level targeting evidence is sufficient for these scoped associations; a named individual victim is not required for each endpoint.
 
 CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ARTEX/CyberStrikeAI among the tools, but keeps the detailed IOC set restricted. **No publicly verified exact ARTEX/CyberStrikeAI IOC specific to the Indian campaign was established in this collection.** We do not substitute Korea/FortiGate addresses or generic software sightings for that set.
 

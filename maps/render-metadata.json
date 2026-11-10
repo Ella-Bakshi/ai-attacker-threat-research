@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "renderer": "scripts/render_ip_map.py",
+  "rendered_at_utc": "2026-11-10T17:51:38.047668+00:00",
+  "input": "data/ip-overview.json",
+  "input_sha256": "bb237d0624486d1f7d0337292c8ff5967f5ce4a9940845ea45b39aaddfe91cd6",
+  "geometry_source": "Natural Earth public-domain data via AshKyd/geojson-regions India POV; see maps/assets geometry provenance",
+  "geometry_asset": "maps/assets/world-india-view.geojson",
+  "geometry_sha256": "f16fb034333f7c07f0821cc63eeb7dd3f0818f656f0ba31ed0adcfae2c6240c8",
+  "geometry_display": {
+    "features": 248,
+    "rings": 4270,
+    "original_vertices": 51270,
+    "displayed_vertices": 51270,
+    "simplification_degrees": 0
+  },
+  "input_unique_ips": 5878,
+  "mapped_unique_ips": 5878,
+  "unmapped_unique_ips": 0,
+  "all_categories_default": true,
+  "external_runtime_requests_required": false,
+  "target_requests": false,
+  "score_interpretation": "Evidence rubric, not maliciousness probability",
+  "geography_interpretation": "Approximate provider hosting estimate at database snapshot; not targeting or historical attack-time attribution"
+}

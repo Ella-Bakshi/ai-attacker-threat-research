@@ -1,0 +1,78 @@
+name: Refresh IP overview and publish map
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/ip-overview.csv
+      - scripts/ip_enrichment.py
+      - scripts/refresh_ip_overview.py
+      - scripts/download_enrichment_data.py
+      - scripts/render_ip_map.py
+      - maps/assets/**
+      - requirements-enrichment.txt
+      - .github/workflows/refresh-ip-map.yml
+  workflow_dispatch:
+
+concurrency:
+  group: ip-map-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install the MMDB reader
+        run: python -m pip install --only-binary=:all: -r requirements-enrichment.txt
+      - name: Download open bulk enrichment snapshots
+        run: python -B scripts/download_enrichment_data.py --db-dir "$RUNNER_TEMP/open-enrichment"
+      - name: Enrich the authoritative IP CSV
+        run: python -B scripts/refresh_ip_overview.py --db-dir "$RUNNER_TEMP/open-enrichment"
+      - name: Generate the map and preview
+        run: python -B scripts/render_ip_map.py --root .
+      - name: Check source, confidence, IPv6 and range boundaries
+        run: python -B -m unittest discover -s tests -p 'test_*.py'
+      - name: Update integrity manifest and validate offline
+        run: |
+          python -B scripts/update_manifest.py
+          python -B scripts/validate.py
+      - name: Commit generated enrichment and maps
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ip-overview.csv data/ip-overview.json data/enrichment/sources.json data/enrichment/summary.json maps/index.html maps/world.svg maps/render-metadata.json SHA256-MANIFEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh IP enrichment and generated map'
+            git push origin HEAD:main
+          fi
+      - name: Package the standalone map
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: maps
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Publish the generated map
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

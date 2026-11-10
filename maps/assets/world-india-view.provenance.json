@@ -1,0 +1,173 @@
+{
+  "download_url": "https://raw.githubusercontent.com/AshKyd/geojson-regions/cb0234d2e0a0bf392b79f742a6c2c8d9ca35e488/static/countries/pov/ind/10m/all.geojson.br",
+  "source_commit": "cb0234d2e0a0bf392b79f742a6c2c8d9ca35e488",
+  "retrieved_at_utc": "2026-11-10T17:32:37.328546+00:00",
+  "compressed_bytes": 4328303,
+  "compressed_sha256": "75e967ca289c471dd9a10694d9baefedd0f08f8b62a71eb5a23e6aab5011037b",
+  "http_headers": {
+    "Connection": "close",
+    "Content-Length": "4328303",
+    "Cache-Control": "max-age=300",
+    "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "Content-Type": "application/octet-stream",
+    "ETag": "\"e143e3bf0d1979effa5c53a4b5ef4b27d40da70515f790abe4f4cac3c9212923\"",
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "X-GitHub-Request-Id": "532C:3F2B84:24368:3165A:6AF35589",
+    "x-github-edge-region": "centralindia",
+    "Accept-Ranges": "bytes",
+    "Date": "Tue, 10 Nov 2026 17:34:01 GMT",
+    "Via": "1.1 varnish",
+    "X-Served-By": "cache-del-vibw2260037-DEL",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "X-Timer": "S1794332041.206773,VS0,VE614",
+    "Vary": "Authorization,Accept-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "X-Fastly-Request-ID": "4b8a4a6fdf7ef34fb6c4661b079d2a8ceecca6f6",
+    "Expires": "Tue, 10 Nov 2026 17:39:01 GMT",
+    "Source-Age": "0"
+  },
+  "github_blob_sha1": "ca8054dacc95b0f4cf4d180883c8427ef8b3b24a",
+  "uncompressed_bytes": 22335459,
+  "uncompressed_sha256": "f2c1d74df3020e2783bd7ff75bb0a31b57e20c5969876584e820dc302c80eb91",
+  "type": "FeatureCollection",
+  "feature_count": 248,
+  "license": "Natural Earth public domain; AshKyd software Unlicense",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "source_ui": "https://geojson-maps.kyd.au/countries/IND/ind",
+  "source_repository": "https://github.com/AshKyd/geojson-regions",
+  "source_path": "static/countries/pov/ind/10m/all.geojson.br",
+  "upstream_ne_download_grounded_in_pinned_sources_ts": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_0_countries_ind.zip",
+  "boundary_policy_url": "https://www.naturalearthdata.com/about/disputed-boundaries-policy/",
+  "source_geometry_sha256": "f2c1d74df3020e2783bd7ff75bb0a31b57e20c5969876584e820dc302c80eb91",
+  "source_geometry_bytes": 22335459,
+  "source_feature_count": 248,
+  "geometry_pov": "Natural Earth India point of view, admin0_a3_in grouping",
+  "scale": "1:10 million, not10-metre precision",
+  "not_survey_of_india_certified": true,
+  "official_comparison_reference": "https://surveyofindia.gov.in/pages/political-map-of-india",
+  "official_claims_reference": "https://www.mea.gov.in/Images/CPV/RTI-02-05-03-2023-Das.pdf",
+  "derived_geometry_file": "world-india-view-simplified.geojson",
+  "derived_geometry_sha256": "f16fb034333f7c07f0821cc63eeb7dd3f0818f656f0ba31ed0adcfae2c6240c8",
+  "derived_geometry_bytes": 2094395,
+  "derived_feature_count": 248,
+  "changes": [
+    "Removed unused descriptive properties.",
+    "Applied Shapely topology-preserving simplification to each feature:0.075degrees normally,0.02degrees for India.",
+    "Retained original geometry if simplified result invalid or empty.",
+    "No country affiliation or claim attributes changed."
+  ],
+  "simplification_notes": [
+    {
+      "country": "Egypt",
+      "simplification_status": "original_retained",
+      "reason": "Ring Self-intersection[35.6210871060001 23.1392929140001]"
+    }
+  ],
+  "india_territory_point_checks": {
+    "Muzaffarabad_AJK": {
+      "longitude": 73.47,
+      "latitude": 34.37,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Gilgit": {
+      "longitude": 74.31,
+      "latitude": 35.92,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Skardu": {
+      "longitude": 75.63,
+      "latitude": 35.3,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Aksai_Chin_interior": {
+      "longitude": 79.0,
+      "latitude": 35.0,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Shaksgam_GeoNames_reference": {
+      "longitude": 76.41987,
+      "latitude": 36.11126,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Shaksgam_Tract_reference": {
+      "longitude": 76.64611,
+      "latitude": 36.02583,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Shaksgam_Valley_reference": {
+      "longitude": 76.65,
+      "latitude": 36.10833,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Itanagar": {
+      "longitude": 93.62,
+      "latitude": 27.1,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    },
+    "Tawang": {
+      "longitude": 91.86,
+      "latitude": 27.59,
+      "source_inside_india": true,
+      "simplified_inside_india": true
+    }
+  },
+  "created_at_utc": "2026-11-10T17:35:09.173304+00:00",
+  "recognition_limits": {
+    "checked_at_utc": "2026-11-10T17:37:45.195208+00:00",
+    "geometry_source_commit": "cb0234d2e0a0bf392b79f742a6c2c8d9ca35e488",
+    "point_checks": [
+      {
+        "place": "Pristina",
+        "longitude": 21.1662,
+        "latitude": 42.6629,
+        "source_feature_names": [
+          "Serbia"
+        ]
+      },
+      {
+        "place": "Taipei",
+        "longitude": 121.5654,
+        "latitude": 25.033,
+        "source_feature_names": [
+          "Taiwan"
+        ]
+      },
+      {
+        "place": "GazaCity",
+        "longitude": 34.4668,
+        "latitude": 31.5018,
+        "source_feature_names": [
+          "Palestine"
+        ]
+      },
+      {
+        "place": "Simferopol",
+        "longitude": 34.1024,
+        "latitude": 44.9521,
+        "source_feature_names": [
+          "Ukraine"
+        ]
+      }
+    ],
+    "kosovo_feature_present": false,
+    "taiwan_separate_feature": true,
+    "taiwan_raw_type": "Sovereign country",
+    "palestine_raw_sovereignt": "Israel",
+    "conclusion": "Use provider India POV and countries/territories terminology. Not an exhaustive official Indian recognition list; no manual recognition merge made.",
+    "official_serbia_reference": "https://www.mea.gov.in/Portal/ForeignRelation/India-Serbia-Mar-2025.pdf",
+    "official_taiwan_reference": "https://www.mea.gov.in/Images/CPV/RTI_22020.pdf"
+  }
+}

@@ -1,5 +1,7 @@
 # India targeting evidence
 
+**The scope is infrastructure used against Indian targets, wherever that infrastructure is hosted.** See [C2 infrastructure targeting India](C2-INFRASTRUCTURE.md) for 17 source-reported C2 records, with delivery and configuration resources separated. Campaign-level targeting evidence is accepted; a named Indian victim is not required for each endpoint. The framework-specific gap below does not mean there is no publicly documented C2 targeting India.
+
 As of 2026-11-10, **0 exact public ARTEX/CyberStrikeAI indicators were verified as specific to the Indian campaign in this collection**. CERT-In confirms CRAFTY FALCON targeting of India's BFSI sector and names the frameworks, but restricts the detailed IOC/fingerprint/rule set. [Evidence assessment](evidence-assessment.md).
 
 - [Targeting-supported IOC CSV](targeting-supported-iocs.csv): intentionally header-only; no hidden values guessed.

@@ -2,6 +2,10 @@
 
 ## 2026-11-10
 
+- Added a complete IP overview, open-dataset enrichment with source and lookup times, ordinal confidence labels, an India-view interactive map, and automatic CSV-triggered refresh/publication.
+
+- Clarified India targeting as campaign victimology, regardless of infrastructure hosting country; added separate 17-record C2, 22-record delivery and two-record backup-configuration views of existing evidence.
+
 - Published the repository publicly; initial exact-commit GitHub Actions validation succeeded.
 - Added 171 source-reported indicators for three separate India-targeted AI-assisted campaigns, 32 report artifacts, 6 supporting/context rows and 5 independently verified/derived static observations. Kept the restricted ARTEX/CyberStrikeAI India set empty and preserved provenance.
 
