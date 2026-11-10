@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "izoologic_nbfc_rendered",
+    "source_url": "https://izoologic.com/threat-advisory/ai-assisted-payment-api-fraud-campaign-against-indian-nbfcs/",
+    "capture_format": "public_web_tool_rendered_facts; separate_from_requests403_challenge",
+    "reviewed_at": "2026-11-10T15:25:59.433726+00:00",
+    "facts": {
+      "India_specific_IOCs_published": false,
+      "related_Korea_and_FortiGate_addresses_are_pivots_only": true,
+      "no_shared_indicator_linking_Korea_actor_to_India_published": true
+    }
+  },
+  {
+    "source_id": "reuters_syndicated",
+    "source_url": "https://www.marketscreener.com/news/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms-ce785fdcda81f42d",
+    "published_date": "2026-11-05",
+    "capture_format": "public_web_tool_original_reporting_syndicated_by_MarketScreener",
+    "reviewed_at": "2026-11-10T15:25:59.433735+00:00",
+    "facts": {
+      "explicit_target_country": "India",
+      "target_sectors": [
+        "non-bank lenders",
+        "fintech",
+        "cryptocurrency exchanges"
+      ],
+      "CERT_In_did_not_identify_actor_location": true,
+      "CERT_In_did_not_link_specific_named_company_incidents_to_campaign": true
+    }
+  }
+]

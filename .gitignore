@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.key
+*.pem
+*.exe
+*.dll
+*.elf
+*.bin
+*.gpr
+*.rep/
+*.zip
+work/

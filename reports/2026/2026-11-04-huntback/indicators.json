@@ -1,0 +1,60 @@
+[
+  {
+    "record_id": "AR-DD38828B69D6",
+    "framework": "ARTEX",
+    "publication_category": "software-fingerprints",
+    "indicator_type": "path",
+    "indicator": "artex-ymh-probe/HONEYPOT-DETECTION-DESIGN.md",
+    "indicator_defanged": "artex-ymh-probe/HONEYPOT-DETECTION-DESIGN.md",
+    "role": "ARTEX-ymh fork working copy marker",
+    "component": "ARTEX",
+    "association_scope": "software_or_build_identification_only",
+    "confidence": "Low",
+    "confidence_scope": "Contextual software identification; uniqueness and maliciousness unestablished.",
+    "evidence_confidence": "High",
+    "verification_status": "Source-reported marker; not evidence of compromise.",
+    "origin": "external_report",
+    "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
+    "global_novelty_claimed": false,
+    "source_published_date": "2026-11-04",
+    "first_seen": "",
+    "last_seen": "",
+    "observation_date_basis": "Source-provided dates only; blank means not provided.",
+    "reviewed_at_utc": "2026-11-10T08:40:35.684942+00:00",
+    "primary_source_id": "huntback",
+    "primary_source_url": "https://huntback.io/blog/artex-fork-learns-to-spot-honeypots",
+    "all_source_urls": "https://huntback.io/blog/artex-fork-learns-to-spot-honeypots; https://huntback.io/blog/ioc/artex-fork-learns-to-spot-honeypots.csv",
+    "source_published_dates": "huntback:2026-11-04",
+    "source_retrieved_at_utc": "2026-11-10T08:26:42.076729+00:00",
+    "source_references": [
+      {
+        "source_id": "huntback",
+        "url": "https://huntback.io/blog/artex-fork-learns-to-spot-honeypots",
+        "published_date": "2026-11-04",
+        "published_date_basis": "publisher displayed article date",
+        "retrieved_at_utc": "2026-11-10T08:26:42.076729+00:00",
+        "document_sha256": "2bf8b3ffff8229975ae0106da4a7a8f6c7091e284ba0065507b22074b2aa8d7c",
+        "source_role": "primary_public_report",
+        "reported_role": "ARTEX-ymh fork working copy marker",
+        "first_seen": "",
+        "last_seen": "",
+        "verification": "literal_rechecked_in_primary_reference",
+        "literal_proof": {
+          "capture": "fresh_author_linked_csv",
+          "normalized_character_offset": 764,
+          "matched_literal": "artex-ymh-probe/HONEYPOT-DETECTION-DESIGN.md",
+          "document_sha256": "462c606630070804ed676e179d9bff75b533684ea1c2d4e62965ed6b7398d7cd",
+          "actual_source_id": "huntback_iocs"
+        },
+        "additional_literal_source_url": "https://huntback.io/blog/ioc/artex-fork-learns-to-spot-honeypots.csv"
+      }
+    ],
+    "limitations": "Huntback states it saw no real-organization attack evidence and no request to its own decoy. Actor workspace, not confirmed hostile infrastructure.",
+    "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
+    "evidence_reference": "provenance/source-literal-proofs.json",
+    "india_relevance": "unestablished",
+    "india_evidence_url": "",
+    "india_evidence_basis": "No per-indicator India targeting evidence established.",
+    "per_indicator_india_targeting_confirmed": false
+  }
+]

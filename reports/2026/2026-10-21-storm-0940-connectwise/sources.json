@@ -1,0 +1,242 @@
+[
+  {
+    "source_id": "microsoft_storm0940",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077037+00:00",
+    "document_sha256": "964e94dd1d475c3aa6ccb32fe2f2eb71d808f666d4e5aa29eb759279aa9e35bd",
+    "source_role": "primary_public_report",
+    "reported_role": "Storm-0940 service-principal sign-ins and Graph API activity",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 20518,
+      "matched_literal": "144.172.64.128",
+      "document_sha256": "af3ca11287158a3b9bec5049be110c938b13f70e3082085dbc29a418fd94e2c8",
+      "actual_source_id": "microsoft_storm0940"
+    }
+  },
+  {
+    "source_id": "wiz",
+    "url": "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+    "published_date": "2026-10-22",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.076359+00:00",
+    "document_sha256": "026fdabe729335a4b6f88ac735f70b3f8fa3106fbeaa90f1c209703101e382c0",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated source / Storm-0940 overlap",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9650,
+      "matched_literal": "144.172.64.128",
+      "document_sha256": "3c3beca7e405b506cba86e0e85943472d7c96cd52974ce7a974feea23c3c8400",
+      "actual_source_id": "wiz"
+    }
+  },
+  {
+    "source_id": "censys",
+    "url": "https://censys.com/blog/artex-agentic-asbestos",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.463957+00:00",
+    "document_sha256": "00cbdaae06ff2fbb64c837f9d775ace5bab10a115dde142e31193f35e0d29420",
+    "source_role": "secondary_repetition_of_original_report",
+    "reported_role": "Storm-0940 infrastructure (Microsoft)",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 16248,
+      "matched_literal": "144.172.64.128",
+      "document_sha256": "6109900c02248c5c53777f7b0f166c1391515bb6d0118c3462945129a78eca21",
+      "actual_source_id": "censys"
+    }
+  },
+  {
+    "source_id": "microsoft_storm0940",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077037+00:00",
+    "document_sha256": "964e94dd1d475c3aa6ccb32fe2f2eb71d808f666d4e5aa29eb759279aa9e35bd",
+    "source_role": "primary_public_report",
+    "reported_role": "Storm-0940 service-principal sign-ins and Graph API activity",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 20662,
+      "matched_literal": "144.172.64.60",
+      "document_sha256": "af3ca11287158a3b9bec5049be110c938b13f70e3082085dbc29a418fd94e2c8",
+      "actual_source_id": "microsoft_storm0940"
+    }
+  },
+  {
+    "source_id": "wiz",
+    "url": "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+    "published_date": "2026-10-22",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.076359+00:00",
+    "document_sha256": "026fdabe729335a4b6f88ac735f70b3f8fa3106fbeaa90f1c209703101e382c0",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated source / Storm-0940 overlap",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9526,
+      "matched_literal": "144.172.64.60",
+      "document_sha256": "3c3beca7e405b506cba86e0e85943472d7c96cd52974ce7a974feea23c3c8400",
+      "actual_source_id": "wiz"
+    }
+  },
+  {
+    "source_id": "censys",
+    "url": "https://censys.com/blog/artex-agentic-asbestos",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.463957+00:00",
+    "document_sha256": "00cbdaae06ff2fbb64c837f9d775ace5bab10a115dde142e31193f35e0d29420",
+    "source_role": "secondary_repetition_of_original_report",
+    "reported_role": "Storm-0940 infrastructure (Microsoft)",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 16220,
+      "matched_literal": "144.172.64.60",
+      "document_sha256": "6109900c02248c5c53777f7b0f166c1391515bb6d0118c3462945129a78eca21",
+      "actual_source_id": "censys"
+    }
+  },
+  {
+    "source_id": "microsoft_storm0940",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077037+00:00",
+    "document_sha256": "964e94dd1d475c3aa6ccb32fe2f2eb71d808f666d4e5aa29eb759279aa9e35bd",
+    "source_role": "primary_public_report",
+    "reported_role": "Storm-0940 service-principal sign-ins and Graph API activity",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 8584,
+      "matched_literal": "144.172.64.99",
+      "document_sha256": "af3ca11287158a3b9bec5049be110c938b13f70e3082085dbc29a418fd94e2c8",
+      "actual_source_id": "microsoft_storm0940"
+    }
+  },
+  {
+    "source_id": "wiz",
+    "url": "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+    "published_date": "2026-10-22",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.076359+00:00",
+    "document_sha256": "026fdabe729335a4b6f88ac735f70b3f8fa3106fbeaa90f1c209703101e382c0",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated source / Storm-0940 overlap",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9588,
+      "matched_literal": "144.172.64.99",
+      "document_sha256": "3c3beca7e405b506cba86e0e85943472d7c96cd52974ce7a974feea23c3c8400",
+      "actual_source_id": "wiz"
+    }
+  },
+  {
+    "source_id": "censys",
+    "url": "https://censys.com/blog/artex-agentic-asbestos",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.463957+00:00",
+    "document_sha256": "00cbdaae06ff2fbb64c837f9d775ace5bab10a115dde142e31193f35e0d29420",
+    "source_role": "secondary_repetition_of_original_report",
+    "reported_role": "Storm-0940 infrastructure (Microsoft)",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 16234,
+      "matched_literal": "144.172.64.99",
+      "document_sha256": "6109900c02248c5c53777f7b0f166c1391515bb6d0118c3462945129a78eca21",
+      "actual_source_id": "censys"
+    }
+  },
+  {
+    "source_id": "microsoft_storm0940",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077037+00:00",
+    "document_sha256": "964e94dd1d475c3aa6ccb32fe2f2eb71d808f666d4e5aa29eb759279aa9e35bd",
+    "source_role": "primary_public_report",
+    "reported_role": "Transient VPN source in compromised-app activity",
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-16",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 20679,
+      "matched_literal": "187.15.88.186",
+      "document_sha256": "af3ca11287158a3b9bec5049be110c938b13f70e3082085dbc29a418fd94e2c8",
+      "actual_source_id": "microsoft_storm0940"
+    }
+  },
+  {
+    "source_id": "microsoft_storm0940",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077037+00:00",
+    "document_sha256": "964e94dd1d475c3aa6ccb32fe2f2eb71d808f666d4e5aa29eb759279aa9e35bd",
+    "source_role": "primary_public_report",
+    "reported_role": "Transient VPN source in compromised-app activity",
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-16",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 20707,
+      "matched_literal": "187.15.89.186",
+      "document_sha256": "af3ca11287158a3b9bec5049be110c938b13f70e3082085dbc29a418fd94e2c8",
+      "actual_source_id": "microsoft_storm0940"
+    }
+  },
+  {
+    "source_id": "microsoft_storm0940",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077037+00:00",
+    "document_sha256": "964e94dd1d475c3aa6ccb32fe2f2eb71d808f666d4e5aa29eb759279aa9e35bd",
+    "source_role": "primary_public_report",
+    "reported_role": "Transient VPN source in compromised-app activity",
+    "first_seen": "2026-10-15",
+    "last_seen": "2026-10-16",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 20693,
+      "matched_literal": "187.15.90.217",
+      "document_sha256": "af3ca11287158a3b9bec5049be110c938b13f70e3082085dbc29a418fd94e2c8",
+      "actual_source_id": "microsoft_storm0940"
+    }
+  }
+]

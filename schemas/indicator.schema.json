@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Attacker Threat Research indicator record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "framework",
+    "publication_category",
+    "indicator_type",
+    "indicator",
+    "role",
+    "confidence",
+    "confidence_scope",
+    "verification_status",
+    "origin",
+    "primary_source_url",
+    "reviewed_at_utc",
+    "india_relevance",
+    "per_indicator_india_targeting_confirmed"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "indicator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "confidence": {
+      "enum": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    "india_relevance": {
+      "enum": [
+        "targeting_supported",
+        "campaign_scope_only",
+        "advisory_context_only",
+        "geolocation_only",
+        "unestablished"
+      ]
+    },
+    "per_indicator_india_targeting_confirmed": {
+      "type": "boolean"
+    },
+    "global_novelty_claimed": {
+      "const": false
+    },
+    "source_references": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

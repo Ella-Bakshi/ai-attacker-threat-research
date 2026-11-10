@@ -1,0 +1,59 @@
+[
+  {
+    "record_id": "AR-6E8EF14B2BF7",
+    "framework": "ARTEX",
+    "publication_category": "software-fingerprints",
+    "indicator_type": "string",
+    "indicator": "ArtexProbe",
+    "indicator_defanged": "ArtexProbe",
+    "role": "Observed naming component in accounts created during attack activity",
+    "component": "ARTEX",
+    "association_scope": "software_or_build_identification_only",
+    "confidence": "Low",
+    "confidence_scope": "Contextual software identification; uniqueness and maliciousness unestablished.",
+    "evidence_confidence": "High",
+    "verification_status": "Source-reported marker; not evidence of compromise.",
+    "origin": "external_report",
+    "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
+    "global_novelty_claimed": false,
+    "source_published_date": "2026-10-31",
+    "first_seen": "",
+    "last_seen": "",
+    "observation_date_basis": "Source-provided dates only; blank means not provided.",
+    "reviewed_at_utc": "2026-11-10T08:40:35.684942+00:00",
+    "primary_source_id": "google",
+    "primary_source_url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+    "all_source_urls": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+    "source_published_dates": "google:2026-10-31",
+    "source_retrieved_at_utc": "2026-11-10T08:26:42.077261+00:00",
+    "source_references": [
+      {
+        "source_id": "google",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+        "published_date": "2026-10-31",
+        "published_date_basis": "publisher displayed article date",
+        "retrieved_at_utc": "2026-11-10T08:26:42.077261+00:00",
+        "document_sha256": "d3b3b928b42ee68ff341b3ed39cd66d3c311ee70e32f2f06640c9d1ebc74d3c0",
+        "source_role": "primary_public_report",
+        "reported_role": "Observed naming component in accounts created during attack activity",
+        "first_seen": "",
+        "last_seen": "",
+        "verification": "literal_rechecked_in_primary_reference",
+        "literal_proof": {
+          "capture": "fresh_visible_text",
+          "normalized_character_offset": 13822,
+          "matched_literal": "ArtexProbe",
+          "document_sha256": "ecf19d0ae94f1e88e8c91cff80d5a09db66ae7eb2f411c15f832e39f87e540fb",
+          "actual_source_id": "google"
+        }
+      }
+    ],
+    "limitations": "Substring/naming clue only; no account credentials included.",
+    "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
+    "evidence_reference": "provenance/source-literal-proofs.json",
+    "india_relevance": "unestablished",
+    "india_evidence_url": "",
+    "india_evidence_basis": "No per-indicator India targeting evidence established.",
+    "per_indicator_india_targeting_confirmed": false
+  }
+]

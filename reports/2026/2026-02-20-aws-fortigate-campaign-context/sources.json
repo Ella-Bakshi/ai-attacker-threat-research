@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "aws_fortigate",
+    "url": "https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/",
+    "published_date": "2026-02-20",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Threat operations infrastructure in AWS FortiGate campaign",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "185.196.11.225",
+      "normalized_character_offset": 16490,
+      "capture_file": "aws_fortigate.txt",
+      "capture_sha256": "3a924e642d52b895bd91b57642bcb1a415f67181beb6f36cbfafcf256898a330",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "20f78982eece852c2b7d8c9ff2c37fb7d414c1e2156b25dad3f33a977120f9cf"
+    }
+  },
+  {
+    "source_id": "aws_fortigate",
+    "url": "https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/",
+    "published_date": "2026-02-20",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Scanning/exploitation infrastructure in AWS FortiGate campaign; separate CyberStrikeAI banner observation by Team Cymru",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "212.11.64.250",
+      "normalized_character_offset": 16377,
+      "capture_file": "aws_fortigate.txt",
+      "capture_sha256": "3a924e642d52b895bd91b57642bcb1a415f67181beb6f36cbfafcf256898a330",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "20f78982eece852c2b7d8c9ff2c37fb7d414c1e2156b25dad3f33a977120f9cf"
+    }
+  }
+]

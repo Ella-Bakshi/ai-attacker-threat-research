@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "wiz",
+    "url": "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+    "published_date": "2026-10-22",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.076359+00:00",
+    "document_sha256": "026fdabe729335a4b6f88ac735f70b3f8fa3106fbeaa90f1c209703101e382c0",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated source / Storm-0940 overlap",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9500,
+      "matched_literal": "104.194.150.21",
+      "document_sha256": "3c3beca7e405b506cba86e0e85943472d7c96cd52974ce7a974feea23c3c8400",
+      "actual_source_id": "wiz"
+    }
+  },
+  {
+    "source_id": "wiz",
+    "url": "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+    "published_date": "2026-10-22",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.076359+00:00",
+    "document_sha256": "026fdabe729335a4b6f88ac735f70b3f8fa3106fbeaa90f1c209703101e382c0",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated source / Storm-0940 overlap",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9713,
+      "matched_literal": "167.88.172.97",
+      "document_sha256": "3c3beca7e405b506cba86e0e85943472d7c96cd52974ce7a974feea23c3c8400",
+      "actual_source_id": "wiz"
+    }
+  }
+]

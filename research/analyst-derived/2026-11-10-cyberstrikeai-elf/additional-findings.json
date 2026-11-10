@@ -1,0 +1,744 @@
+[
+  {
+    "framework": "CyberStrikeAI",
+    "type": "persistence_artifact_pattern",
+    "value": "crontab @reboot <self_executable> &",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Conditional self-path cron startup entry",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1275",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x746415",
+        "file_offset": 3433493,
+        "byte_length": 13,
+        "literal": "@reboot %s &\n",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Format argument in main.persistLinux; executable path is supplied dynamically."
+      },
+      {
+        "virtual_address": "0x7582d3",
+        "file_offset": 3506899,
+        "byte_length": 57,
+        "literal": "(crontab -l 2>/dev/null; echo '%s') | sort -u | crontab -",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Cron-install command format is passed to main.runWithTimeout with ten-second timeout."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1275",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 1275,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "cronEntry := fmt.Sprintf(\"@reboot %s &\\n\", exe)",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "Only the persist task with method auto/cron can attempt this branch; cron command failure can lead to bashrc fallback. No cron installation observed. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "persistence_artifact_pattern",
+    "value": "<current_user_home>/.bashrc append: (nohup <self_executable> &>/dev/null &) # cs",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Conditional bashrc startup-line pattern",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1285",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x74e616",
+        "file_offset": 3466774,
+        "byte_length": 31,
+        "literal": "\n(nohup %s &>/dev/null &) # cs\n",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Line format in optional bashrc branch; joined user-home path then opened append/write/create,0644."
+      },
+      {
+        "virtual_address": "0x744714",
+        "file_offset": 3426068,
+        "byte_length": 7,
+        "literal": ".bashrc",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "os.UserHomeDir plus this basename is passed through filepath.Join."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1285",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 1285,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "filepath.Join(home, \".bashrc\")",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "User-home path is runtime-dependent; do not assume /root. Branch is selected by auto/bashrc, with file-write permissions and prior outcomes affecting success. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "process_command_pattern",
+    "value": "/bin/sh -c with crontab -l 2>/dev/null AND sort -u | crontab -",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Cron merging/install shell-process pattern",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L738",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x7582d3",
+        "file_offset": 3506899,
+        "byte_length": 57,
+        "literal": "(crontab -l 2>/dev/null; echo '%s') | sort -u | crontab -",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Cron-install command format is passed to main.runWithTimeout with ten-second timeout."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L738",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 738,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "func runWithTimeout(",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      },
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1276",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 1276,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "(crontab -l 2>/dev/null; echo",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "The command structure is also legitimate administrative behavior; require the executable lineage, parent/hash or other campaign evidence. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "host_path",
+    "value": "/tmp/.cs_ss.png",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Conditional temporary screenshot staging path",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L993",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x75bae7",
+        "file_offset": 3521255,
+        "byte_length": 98,
+        "literal": "import -window root /tmp/.cs_ss.png 2>/dev/null && base64 /tmp/.cs_ss.png && rm -f /tmp/.cs_ss.png",
+        "function_entry": "0x65cce0",
+        "pseudocode_sha256": "3649e422f14b1e3c3b9df2d579cbbd2f9506cc26a209a00ddea631093c62a938",
+        "disassembly_sha256": "b90f238d7ea6b9e030fc41e60600e2cb04389a915c454c140fb462f22c1fffc9",
+        "use": "Linux screenshot command passed to main.runWithTimeout with30-second timeout; not executed in analysis."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L993",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 993,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "import -window root /tmp/.cs_ss.png",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "The task may fail if ImageMagick/X-display dependencies are unavailable. The file is deleted on a successful chain; static capability is not proof the file existed. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "process_command_pattern",
+    "value": "ImageMagick import -window root + /tmp/.cs_ss.png + base64 + rm -f",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Conditional screenshot/capture/base64/delete shell-process sequence",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L986",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x75bae7",
+        "file_offset": 3521255,
+        "byte_length": 98,
+        "literal": "import -window root /tmp/.cs_ss.png 2>/dev/null && base64 /tmp/.cs_ss.png && rm -f /tmp/.cs_ss.png",
+        "function_entry": "0x65cce0",
+        "pseudocode_sha256": "3649e422f14b1e3c3b9df2d579cbbd2f9506cc26a209a00ddea631093c62a938",
+        "disassembly_sha256": "b90f238d7ea6b9e030fc41e60600e2cb04389a915c454c140fb462f22c1fffc9",
+        "use": "Linux screenshot command passed to main.runWithTimeout with30-second timeout; not executed in analysis."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L986",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 986,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "func taskScreenshot()",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "Associated command runs only if the screenshot task is requested. The process chain is a behavioral hunt, not a static malicious-file identity. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "decrypted_checkin_identity_pattern",
+    "value": "uuid=<hostname>-<hardware_address_without_colons>-<pid>; fallback hardware_address=000000000000",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Generated implant UUID construction",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L405",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x744b16",
+        "file_offset": 3427094,
+        "byte_length": 8,
+        "literal": "%s-%s-%d",
+        "function_entry": "0x6582a0",
+        "pseudocode_sha256": "292a9ceb4bdf0eb32453f828ee93302bb44139b7773b061dfc507934ce6b6e53",
+        "disassembly_sha256": "33e32a7142a62fb1be609ec1ee9fa091cb63fba6808eb38b6869b738082a74b4",
+        "use": "fmt.Sprintf receives os.Hostname, firstMACAddr and syscall-derived PID."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L405",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 405,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "return fmt.Sprintf(\"%s-%s-%d\", host, mac, os.Getpid())",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      },
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L417",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 417,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "return strings.ReplaceAll(i.HardwareAddr.String(), \":\", \"\")",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "Selected hardware address is the first non-loopback interface with a nonempty hardware address, not guaranteed to be exactly six bytes. Hostnames/MACs/PIDs are runtime values. Use only in authorized decrypted/log/memory analysis. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "decrypted_json_structure",
+    "value": "checkin request: uuid,hostname,username,os,arch,pid,process_name,is_admin,internal_ip,user_agent,sleep_seconds,jitter_percent,metadata{transport,cwd}",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Outgoing check-in JSON shape before encryption",
+    "confidence": "Medium",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L493",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x744006",
+        "file_offset": 3424262,
+        "byte_length": 4,
+        "literal": "uuid",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x744af6",
+        "file_offset": 3427062,
+        "byte_length": 8,
+        "literal": "hostname",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x744afe",
+        "file_offset": 3427070,
+        "byte_length": 8,
+        "literal": "username",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x743e23",
+        "file_offset": 3423779,
+        "byte_length": 2,
+        "literal": "os",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x74400a",
+        "file_offset": 3424266,
+        "byte_length": 4,
+        "literal": "arch",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x743ec8",
+        "file_offset": 3423944,
+        "byte_length": 3,
+        "literal": "pid",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x745e36",
+        "file_offset": 3431990,
+        "byte_length": 12,
+        "literal": "process_name",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x744b06",
+        "file_offset": 3427078,
+        "byte_length": 8,
+        "literal": "is_admin",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x745903",
+        "file_offset": 3430659,
+        "byte_length": 11,
+        "literal": "internal_ip",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x7453d0",
+        "file_offset": 3429328,
+        "byte_length": 10,
+        "literal": "user_agent",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x7463fb",
+        "file_offset": 3433467,
+        "byte_length": 13,
+        "literal": "sleep_seconds",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x7469c5",
+        "file_offset": 3434949,
+        "byte_length": 14,
+        "literal": "jitter_percent",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x744eae",
+        "file_offset": 3428014,
+        "byte_length": 9,
+        "literal": "transport",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x743ecb",
+        "file_offset": 3423947,
+        "byte_length": 3,
+        "literal": "cwd",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      },
+      {
+        "virtual_address": "0x744b0e",
+        "file_offset": 3427086,
+        "byte_length": 8,
+        "literal": "metadata",
+        "function_entry": "0x6589e0",
+        "pseudocode_sha256": "030f765a9dec024a2d2f0d78741b877f8033faabb06fff0016bc063d16e374bc",
+        "disassembly_sha256": "4c8576333c1eec95e89b8340f2498854960f50b32f1aae53119260514ba28351",
+        "use": "Outgoing check-in map key before JSON marshal and GCM encryption."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L493",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 493,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "func checkIn()",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "This JSON is encrypted by the sample; not a plaintext-wire signature. Field names alone are not globally unique. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "decrypted_file_transfer_structure",
+    "value": "upload task payload{remote_path,file_id} -> decrypted reply{file_data:base64} -> requested file path",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Controller-to-beacon file-transfer shape",
+    "confidence": "Medium",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L954",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x745924",
+        "file_offset": 3430692,
+        "byte_length": 11,
+        "literal": "remote_path",
+        "function_entry": "0x65c8e0",
+        "pseudocode_sha256": "71320e5f9c071dba4ea9d9b99a884dcb80a2eadebcf3b3ee6e5d5f296110cabb",
+        "disassembly_sha256": "226a3528fcbba4581558b37972d2e6a6616b06fd263a1847e61cfab4384a84b9",
+        "use": "Map key consumed by main.taskUpload before fetching file bytes and os.WriteFile0644."
+      },
+      {
+        "virtual_address": "0x7446ea",
+        "file_offset": 3426026,
+        "byte_length": 7,
+        "literal": "file_id",
+        "function_entry": "0x65c8e0",
+        "pseudocode_sha256": "71320e5f9c071dba4ea9d9b99a884dcb80a2eadebcf3b3ee6e5d5f296110cabb",
+        "disassembly_sha256": "226a3528fcbba4581558b37972d2e6a6616b06fd263a1847e61cfab4384a84b9",
+        "use": "Map key passed to main.fetchC2FileByID; empty path/ID branch fails."
+      },
+      {
+        "virtual_address": "0x74a591",
+        "file_offset": 3450257,
+        "byte_length": 23,
+        "literal": "uploaded %d bytes to %s",
+        "function_entry": "0x65c8e0",
+        "pseudocode_sha256": "71320e5f9c071dba4ea9d9b99a884dcb80a2eadebcf3b3ee6e5d5f296110cabb",
+        "disassembly_sha256": "226a3528fcbba4581558b37972d2e6a6616b06fd263a1847e61cfab4384a84b9",
+        "use": "Successful upload return-string format, not an observed log or transfer."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L954",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 954,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "func taskUpload(",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      },
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L359",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 359,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "FileData string `json:\"file_data\"`",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "ReadFile/WriteFile actions and destinations depend on a requested task; no file transfer or written file observed. The exact configured file URL was already exported in prior sample analysis. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "decrypted_task_result_pattern",
+    "value": "downloaded <n> bytes from <runtime_path> with file bytes in result blob_b64 and path suffix in blob_suffix",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Beacon-to-controller file-result transfer shape",
+    "confidence": "Low",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L971",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x74c3af",
+        "file_offset": 3457967,
+        "byte_length": 27,
+        "literal": "downloaded %d bytes from %s",
+        "function_entry": "0x65cb00",
+        "pseudocode_sha256": "9cb3e280675755faab75901b5b725907b889ac352d5e3253b5b6d4f2a1a1844b",
+        "disassembly_sha256": "0ee47755b247cac99564bfc1350678efc67589fb250dae908e0b0847d2d41023",
+        "use": "Successful download return-string format; native ReadFile then EncodeToString."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L971",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 971,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "func taskDownload(",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      },
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L983",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 983,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "return fmt.Sprintf(\"downloaded %d bytes from %s\", len(data), remotePath), b64, suffix, \"\"",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "The result is sent through the encrypted standard result channel. The byte count and file path are dynamic, not fixed indicators. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  },
+  {
+    "framework": "CyberStrikeAI",
+    "type": "software_signature",
+    "value": "ELF + generated cyberstrike-ai payload build path + main.persistLinux + cron merge format + bashrc nohup # cs format",
+    "publication_category": "software-fingerprints",
+    "category": "analyst_native_conditional_host_or_protocol_pattern",
+    "role": "Locally authored native persistence-implementation YARA conjunction",
+    "confidence": "Medium",
+    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
+    "evidence_type": "acquired_sample_static_native_analysis_with_pinned_source_corroboration",
+    "origin": "analyst_native_capability_derivation",
+    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "maliciousness": "not_established",
+    "source_id": "local_cbf104_native_followup_20261110",
+    "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1273",
+    "source_published": "",
+    "first_seen": "",
+    "last_seen": "",
+    "retrieved_at": "2026-11-10T15:27:14.261125+00:00",
+    "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+    "artifact_bytes": 6115476,
+    "artifact_class": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
+    "native_evidence": [
+      {
+        "virtual_address": "0x746415",
+        "file_offset": 3433493,
+        "byte_length": 13,
+        "literal": "@reboot %s &\n",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Format argument in main.persistLinux; executable path is supplied dynamically."
+      },
+      {
+        "virtual_address": "0x7582d3",
+        "file_offset": 3506899,
+        "byte_length": 57,
+        "literal": "(crontab -l 2>/dev/null; echo '%s') | sort -u | crontab -",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Cron-install command format is passed to main.runWithTimeout with ten-second timeout."
+      },
+      {
+        "virtual_address": "0x74e616",
+        "file_offset": 3466774,
+        "byte_length": 31,
+        "literal": "\n(nohup %s &>/dev/null &) # cs\n",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "Line format in optional bashrc branch; joined user-home path then opened append/write/create,0644."
+      },
+      {
+        "virtual_address": "0x744714",
+        "file_offset": 3426068,
+        "byte_length": 7,
+        "literal": ".bashrc",
+        "function_entry": "0x65f760",
+        "pseudocode_sha256": "c7d2c35a5c5ad8afa1558da2bd4d3fc9e9beebcd32cd86bd3d6619d52f76c236",
+        "disassembly_sha256": "f5cd92ea2afaed88793f27af2e7636d6051028d2ce861f78d2bdadd6ef2dae9b",
+        "use": "os.UserHomeDir plus this basename is passed through filepath.Join."
+      }
+    ],
+    "source_evidence": [
+      {
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1273",
+        "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+        "line": 1273,
+        "source_file_sha256": "1439bd7f1a92d6d6035be8b1bd968336bd75fb479295be783d2d4c492ecc774c",
+        "literal": "func persistLinux(",
+        "role": "Pinned source corroboration; exact sample template revision not established."
+      }
+    ],
+    "india_targeting": "not established",
+    "global_novelty_claimed": false,
+    "notes": "Matches implementation capability even if the persist task was never invoked. It is a separate conditional-capability fingerprint, not a new confirmed malicious file or campaign. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "new_to_previous_master_type_value": true
+  }
+]

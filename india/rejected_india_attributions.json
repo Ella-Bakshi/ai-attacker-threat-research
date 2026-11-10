@@ -1,0 +1,30 @@
+[
+  {
+    "type": "ipv4",
+    "value": "38.244.50.120",
+    "claimed_context": "Public Threadlinqs CRAFTY FALCON sample indicator",
+    "decision": "CrowdStrike associates this host with the Korean campaign; Zscaler also lists it in multi-country operator infrastructure whose target prompts include India. This does not establish individual Indian compromise or a CRAFTY FALCON link.",
+    "primary_source": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+    "secondary_source": "https://intel.threadlinqs.com/threat/TL-2026-5362",
+    "india_targeting_link_verified": false,
+    "additional_context_source": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign"
+  },
+  {
+    "type": "domain",
+    "value": "xcai.pro",
+    "claimed_context": "Public Threadlinqs CRAFTY FALCON sample indicator",
+    "decision": "Shared LLM API proxy/reseller in CrowdStrike case; not proof of malicious ownership or Indian attacks",
+    "primary_source": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+    "secondary_source": "https://intel.threadlinqs.com/threat/TL-2026-5362",
+    "india_targeting_link_verified": false
+  },
+  {
+    "type": "relationship_claim",
+    "value": "CRAFTY FALCON = trojanized ARTEX Docker image operator",
+    "claimed_context": "Coincident early-November advisories",
+    "decision": "No primary evidence linking the actor to the separate trojanized image distribution",
+    "primary_source": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+    "secondary_source": "https://badbyte.io/artex-backdoor-docker-image/",
+    "india_targeting_link_verified": false
+  }
+]

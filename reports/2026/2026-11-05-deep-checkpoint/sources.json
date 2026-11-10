@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "deep_checkpoint",
+    "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+    "published_date": "2026-11-05",
+    "retrieved_at_utc": "2026-11-10T12:55:58.904788+00:00",
+    "document_sha256": "335c8e11fd3bdbddf969df44852f6f1768552ed87dd10dd0518439594cca73fb",
+    "source_role": "external_public_source",
+    "reported_role": "Observed synchronized ARTEX build/version marker",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "0.3.15-pro",
+    "normalized_literal_offset": 19658
+  },
+  {
+    "source_id": "deep_checkpoint",
+    "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+    "published_date": "2026-11-05",
+    "retrieved_at_utc": "2026-11-10T12:55:58.904788+00:00",
+    "document_sha256": "335c8e11fd3bdbddf969df44852f6f1768552ed87dd10dd0518439594cca73fb",
+    "source_role": "external_public_source",
+    "reported_role": "Observed synchronized ARTEX build/version marker",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "dev-db-resilience-20261031",
+    "normalized_literal_offset": 19454
+  },
+  {
+    "source_id": "deep_checkpoint",
+    "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+    "published_date": "2026-11-05",
+    "retrieved_at_utc": "2026-11-10T12:55:58.904788+00:00",
+    "document_sha256": "335c8e11fd3bdbddf969df44852f6f1768552ed87dd10dd0518439594cca73fb",
+    "source_role": "external_public_source",
+    "reported_role": "Observed synchronized ARTEX build/version marker",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "sco-fix2",
+    "normalized_literal_offset": 19346
+  }
+]

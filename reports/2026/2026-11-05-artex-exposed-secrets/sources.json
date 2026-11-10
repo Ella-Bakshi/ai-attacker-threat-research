@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "microsoft_secrets",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.589246+00:00",
+    "document_sha256": "394bb4d515216a187c5ea36d256f682603e9aae11e0ff03cc4dca578f92555da",
+    "source_role": "primary_public_report",
+    "reported_role": "Reconnaissance against victim Azure AI workloads",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 4636,
+      "matched_literal": "157.22.126.128",
+      "document_sha256": "014f600089dfe80d497995ea20af1d36b92e4db5065a0a79d66e5ce56f419d37",
+      "actual_source_id": "microsoft_secrets"
+    }
+  },
+  {
+    "source_id": "microsoft_secrets",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.589246+00:00",
+    "document_sha256": "394bb4d515216a187c5ea36d256f682603e9aae11e0ff03cc4dca578f92555da",
+    "source_role": "primary_public_report",
+    "reported_role": "Sign-ins using leaked/stolen application credentials; Tor exit node",
+    "first_seen": "2026-10-28",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 7922,
+      "matched_literal": "199.19.77.18",
+      "document_sha256": "014f600089dfe80d497995ea20af1d36b92e4db5065a0a79d66e5ce56f419d37",
+      "actual_source_id": "microsoft_secrets"
+    }
+  },
+  {
+    "source_id": "microsoft_secrets",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.589246+00:00",
+    "document_sha256": "394bb4d515216a187c5ea36d256f682603e9aae11e0ff03cc4dca578f92555da",
+    "source_role": "primary_public_report",
+    "reported_role": "Successful service-principal sign-ins and follow-on cloud operations",
+    "first_seen": "2026-10-28",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 3664,
+      "matched_literal": "199.19.77.84",
+      "document_sha256": "014f600089dfe80d497995ea20af1d36b92e4db5065a0a79d66e5ce56f419d37",
+      "actual_source_id": "microsoft_secrets"
+    }
+  },
+  {
+    "source_id": "microsoft_secrets",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "published_date": "2026-11-05",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.589246+00:00",
+    "document_sha256": "394bb4d515216a187c5ea36d256f682603e9aae11e0ff03cc4dca578f92555da",
+    "source_role": "primary_public_report",
+    "reported_role": "Malicious requests, embedded shell commands in UA, attempts to obtain App Service tokens",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 4326,
+      "matched_literal": "65.87.223.26",
+      "document_sha256": "014f600089dfe80d497995ea20af1d36b92e4db5065a0a79d66e5ce56f419d37",
+      "actual_source_id": "microsoft_secrets"
+    }
+  }
+]

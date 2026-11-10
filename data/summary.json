@@ -1,0 +1,19 @@
+{
+  "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
+  "date_user_timezone": "2026-11-10 Asia/Calcutta",
+  "categorized_records": 9053,
+  "master_distinct_type_value": 14809,
+  "new_native_patterns": 10,
+  "analyst_derived_records": 333,
+  "main_artex_records": 18,
+  "main_cyberstrikeai_records": 9,
+  "india_exact_public_IOCs": 0,
+  "india_campaign_scope_observables": 9,
+  "india_behavioral_hunts": 8,
+  "yara_rules": 12,
+  "experimental_sigma_rules": 1,
+  "report_folders": 20,
+  "normalizations": "Deduplicated two separator/display variants of one compound account reference; no hash/IP value changed.",
+  "censys_calls_this_preparation": 0,
+  "project_title": "AI Attacker Threat Research"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Upstream SOCKS proxy host",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17422,
+      "matched_literal": "161.8.161.140",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Proxy pool API",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17349,
+      "matched_literal": "154.201.79.246:443",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Upstream SOCKS proxy",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17422,
+      "matched_literal": "161.8.161.140:11005",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Upstream SOCKS proxy",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17383,
+      "matched_literal": "205.214.59.31:443",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Work server",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17188,
+      "matched_literal": "23.248.226.250",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Work server",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17215,
+      "matched_literal": "23.248.226.251",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Work server",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17242,
+      "matched_literal": "23.248.226.252",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Work server",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17269,
+      "matched_literal": "23.248.226.253",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  },
+  {
+    "source_id": "zscaler_global_ai_campaign",
+    "url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
+    "published_date": "2026-10-21",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:45.240267+00:00",
+    "document_sha256": "e70375de76f7b8280a2e96b695fa7c517ee2db51930a18ab372b022d85257396",
+    "source_role": "primary_public_report",
+    "reported_role": "Work server",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 17296,
+      "matched_literal": "23.248.226.254",
+      "document_sha256": "74ee3a92db58ff264732ac34aab92c2b223fb9019b0c20fb93f36ba1fccd6f9e",
+      "actual_source_id": "zscaler_global_ai_campaign"
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12053,
+      "matched_literal": "102.216.154.102",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12269,
+      "matched_literal": "103.54.154.32",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 6762,
+      "matched_literal": "103.54.154.40",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 11952,
+      "matched_literal": "154.36.136.197",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12003,
+      "matched_literal": "154.36.136.23",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 7626,
+      "matched_literal": "154.64.252.77",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 11843,
+      "matched_literal": "169.128.55.214",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12321,
+      "matched_literal": "45.145.228.25",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12111,
+      "matched_literal": "82.158.88.233",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Incident-associated traffic source",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12158,
+      "matched_literal": "88.229.22.232",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12728,
+      "matched_literal": "ARTEX-worker/1.0",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12559,
+      "matched_literal": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ARTeX-authorized-pentest",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12637,
+      "matched_literal": "Mozilla/5.0 (X11; Linux x86_64) artex-verify/1.0",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 7719,
+      "matched_literal": "Mozilla/5.0 ARTeX",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12450,
+      "matched_literal": "artex-audit/1.0",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12697,
+      "matched_literal": "artex-i21861-canary",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12421,
+      "matched_literal": "artex-pentest/1.0",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12391,
+      "matched_literal": "artex-readonly/1.0",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12506,
+      "matched_literal": "artex-spawn/1",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  },
+  {
+    "source_id": "datadog",
+    "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
+    "published_date": "2026-11-09",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.077437+00:00",
+    "document_sha256": "aec12d9ce1ab427fd085890bb8ba45e77437870ff9ba12c45baaefd4dfb8b14d",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed ARTEX-related UA",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 12531,
+      "matched_literal": "artex-verify/1.0",
+      "document_sha256": "b804ebfc84f74f0c189a791c8a0ab5b0cba11e3ff010a8d43b0d92d034091268",
+      "actual_source_id": "datadog"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+# Evidence and confidence methodology
+
+`data/catalog.csv` is the compact view; `data/index.json` enumerates full record JSON shards. Canonical machine values are not defanged; report tables defang network values. Each record retains original sources and their roles, publication/activity/index/retrieval dates, confidence with explicit scope, verification status and origin. A publication/build/export date is not silently used as an attack sighting date. Blank dates mean unknown.
+
+High can mean exact source-reported or locally verified file identity. It does not mean a known malicious operator, current live C2 or measured production detection efficacy. Medium network confidence means historical association/context. Routes, default assets, common filenames, import/fuzzy hashes and legitimate tools require correlation. The main incident export is narrower than the global research inventory.
+
+Own source/native derivations remain separate from external incident associations. Static configured endpoints prove what code was configured to use, not an observed connection or ownership. Conditional persistence, screenshot and task code does not show a victim event occurred. Copied certificates do not establish actor identity; another port's certificate is not inherited by a C2 service. No global novelty is claimed.
+
+India labels require target/victim evidence. `campaign_scope_only` means the report includes India in broad targeting; `targeting_supported` additionally needs evidence tying the individual indicator to Indian targeting. This collection currently has no public exact indicator meeting that latter bar. Geolocation, vendor nationality and CERT-In naming a tool are insufficient. The detailed restricted CERT-In set was not accessed or reconstructed.
+
+No target login, exploit, deployment request or sample execution was performed. No Censys credits were used in the GitHub/India preparation pass. Prior provider observations retain their original dates. Raw articles, credentials, sample binaries and raw native projects/C/ASM are not included.

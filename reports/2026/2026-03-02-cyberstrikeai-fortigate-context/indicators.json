@@ -1,0 +1,59 @@
+[
+  {
+    "record_id": "CS-B223CBBC115D",
+    "framework": "CyberStrikeAI",
+    "publication_category": "main-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "212.11.64.250",
+    "indicator_defanged": "212[.]11[.]64[.]250",
+    "role": "CyberStrikeAI server observed targeting FortiGate devices",
+    "component": "CyberStrikeAI",
+    "association_scope": "reported_CyberStrikeAI_server_with_FortiGate_targeting_context",
+    "confidence": "Medium",
+    "confidence_scope": "Source-reported historical association with the described campaign/role; present-day maliciousness unestablished.",
+    "evidence_confidence": "High",
+    "verification_status": "Source-reported incident indicator; exact value rechecked in primary report. No local malicious sample/deployment validation.",
+    "origin": "external_report",
+    "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
+    "global_novelty_claimed": false,
+    "source_published_date": "2026-03-02",
+    "first_seen": "",
+    "last_seen": "2026-01-30",
+    "observation_date_basis": "Source-provided dates only; blank means not provided.",
+    "reviewed_at_utc": "2026-11-10T08:40:35.684942+00:00",
+    "primary_source_id": "cymru",
+    "primary_source_url": "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage",
+    "all_source_urls": "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage",
+    "source_published_dates": "cymru:2026-03-02",
+    "source_retrieved_at_utc": "2026-11-10T08:26:43.878603+00:00",
+    "source_references": [
+      {
+        "source_id": "cymru",
+        "url": "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage",
+        "published_date": "2026-03-02",
+        "published_date_basis": "publisher displayed article date",
+        "retrieved_at_utc": "2026-11-10T08:26:43.878603+00:00",
+        "document_sha256": "def753b2969030fbc246fcc2dce835784b1bcd35d6653ce9c2747ac76d33cec6",
+        "source_role": "primary_public_report",
+        "reported_role": "CyberStrikeAI server observed targeting FortiGate devices",
+        "first_seen": "",
+        "last_seen": "2026-01-30",
+        "verification": "literal_rechecked_in_primary_reference",
+        "literal_proof": {
+          "capture": "fresh_visible_text",
+          "normalized_character_offset": 1297,
+          "matched_literal": "212.11.64.250",
+          "document_sha256": "0b48f88e73ded70939356908d595da89c5ac375edad555f210a9f89059cb74a6",
+          "actual_source_id": "cymru"
+        }
+      }
+    ],
+    "limitations": "ASN 42624; SWISSNETWORK02, SC; GeoIP CH. Observation of software is not proof of malicious use.",
+    "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
+    "evidence_reference": "provenance/source-literal-proofs.json",
+    "india_relevance": "unestablished",
+    "india_evidence_url": "",
+    "india_evidence_basis": "No per-indicator India targeting evidence established.",
+    "per_indicator_india_targeting_confirmed": false
+  }
+]

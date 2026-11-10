@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "deep_srm",
+    "url": "https://www.s-rminform.com/latest-thinking/artex-in-the-wild-lessons-from-responding-to-agentic-ai-attacks",
+    "published_date": "2026-11-04",
+    "retrieved_at_utc": "2026-11-10T12:55:58.904291+00:00",
+    "document_sha256": "083047144392a6a51221dc94e631c63694c47c5a55eaf270c424502953ce4504",
+    "source_role": "external_public_source",
+    "reported_role": "Reported incident-source Next.js console title",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "ARTEX – Autonomous pentest console",
+    "normalized_literal_offset": 3506
+  },
+  {
+    "source_id": "deep_srm",
+    "url": "https://www.s-rminform.com/latest-thinking/artex-in-the-wild-lessons-from-responding-to-agentic-ai-attacks",
+    "published_date": "2026-11-04",
+    "retrieved_at_utc": "2026-11-10T12:55:58.904291+00:00",
+    "document_sha256": "083047144392a6a51221dc94e631c63694c47c5a55eaf270c424502953ce4504",
+    "source_role": "external_public_source",
+    "reported_role": "Agent working-folder template correlated by S-RM",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "tasks/<taskID>/i<intentID>/",
+    "normalized_literal_offset": 3309
+  },
+  {
+    "source_id": "deep_srm",
+    "url": "https://www.s-rminform.com/latest-thinking/artex-in-the-wild-lessons-from-responding-to-agentic-ai-attacks",
+    "published_date": "2026-11-04",
+    "retrieved_at_utc": "2026-11-10T12:55:58.904291+00:00",
+    "document_sha256": "083047144392a6a51221dc94e631c63694c47c5a55eaf270c424502953ce4504",
+    "source_role": "external_public_source",
+    "reported_role": "SQL probe marker in incident response cases",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "ARTEX' UNION SELECT 1—",
+    "normalized_literal_offset": 3731
+  }
+]

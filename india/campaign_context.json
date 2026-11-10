@@ -1,0 +1,72 @@
+[
+  {
+    "id": "INDIA-CAMPAIGN-001",
+    "kind": "campaign_context_not_IOC",
+    "campaign": "CRAFTY FALCON",
+    "frameworks": [
+      "ARTEX",
+      "CyberStrikeAI",
+      "PentAGI",
+      "Cairn"
+    ],
+    "target_country": "India",
+    "target_country_confidence": "High",
+    "tool_role_confidence": "Source-reported pooled campaign; individual operations not attributed independently",
+    "source_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+    "source_published": "2026-11-04",
+    "first_seen": "",
+    "last_seen": "",
+    "evidence": {
+      "source_id": "certin_58",
+      "source_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+      "source_published": "2026-11-04",
+      "retrieved_at": "2026-11-10T15:21:38.049583+00:00",
+      "source_document_sha256": "67751934b92bec2dcd091fed76b799af29cb0204a4c30b7a7cc1a62390fffe47",
+      "capture_text_sha256": "c9daf86038fca6c72ea48e399840fe1f26e8a9d6c9086ef027a257d44b176f1c",
+      "normalized_character_offset": 1280,
+      "source_literal": "CRAFTY FALCON",
+      "capture_format": "public_advisory_visible_text"
+    },
+    "notes": "CERT-In/CSIRT-Fin advisory for domestic BFSI constituency; original reporting also explicitly describes Indian victims. No operator nationality, state sponsorship, individual victim list or per-tool event mapping is established."
+  },
+  {
+    "id": "INDIA-RESTRICTION-001",
+    "kind": "publication_scope_gap",
+    "public_exact_IOCs_verified": 0,
+    "source_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+    "evidence": {
+      "source_id": "certin_58",
+      "source_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+      "source_published": "2026-11-04",
+      "retrieved_at": "2026-11-10T15:21:38.049583+00:00",
+      "source_document_sha256": "67751934b92bec2dcd091fed76b799af29cb0204a4c30b7a7cc1a62390fffe47",
+      "capture_text_sha256": "c9daf86038fca6c72ea48e399840fe1f26e8a9d6c9086ef027a257d44b176f1c",
+      "normalized_character_offset": 2417,
+      "source_literal": "restricted",
+      "capture_format": "public_advisory_visible_text"
+    },
+    "notes": "Full IOC/fingerprint/rule set distributed at appropriate TLP; do not reconstruct, guess, or substitute other campaigns. Public fields are behaviors and campaign context."
+  },
+  {
+    "id": "INDIA-TIMELINE-001",
+    "kind": "advisory_timeline_not_attack_first_seen",
+    "initial_advisory": "CIAD-2026-0046",
+    "initial_publication": "2026-10-09",
+    "updated_advisory": "CIAD-2026-0058",
+    "updated_publication": "2026-11-04",
+    "first_seen": "",
+    "last_seen": "",
+    "evidence": {
+      "source_id": "certin_58",
+      "source_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+      "source_published": "2026-11-04",
+      "retrieved_at": "2026-11-10T15:21:38.049583+00:00",
+      "source_document_sha256": "67751934b92bec2dcd091fed76b799af29cb0204a4c30b7a7cc1a62390fffe47",
+      "capture_text_sha256": "c9daf86038fca6c72ea48e399840fe1f26e8a9d6c9086ef027a257d44b176f1c",
+      "normalized_character_offset": 1438,
+      "source_literal": "09 October 2026",
+      "capture_format": "public_advisory_visible_text"
+    },
+    "notes": "Publication dates are not exact first or last malicious activity timestamps."
+  }
+]

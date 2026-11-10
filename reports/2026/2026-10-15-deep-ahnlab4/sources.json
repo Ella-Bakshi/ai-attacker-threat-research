@@ -1,0 +1,110 @@
+[
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Repackaged REAPER skill archive",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "bob-research-skills-en.Zip",
+    "normalized_literal_offset": 3053
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Repackaged skill collection archive",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "skills-translated-en.Zip",
+    "normalized_literal_offset": 3022
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Localization directory marker",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "artex-ko",
+    "normalized_literal_offset": 1009
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Rebranded ARTEX project directory/name",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "reaper-full",
+    "normalized_literal_offset": 1343
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "REAPER follow-on PHP payload name",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "cache.Php",
+    "normalized_literal_offset": 2221
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "REAPER persistence/IRC control implant name",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "irc.Php",
+    "normalized_literal_offset": 2275
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Reported channel used by REAPER follow-on IRC implant",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "#mg_master",
+    "normalized_literal_offset": 2420
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Reported IRC implant command marker",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "!Cmd@",
+    "normalized_literal_offset": 2580
+  },
+  {
+    "source_id": "deep_ahnlab4",
+    "url": "https://asec.ahnlab.com/en/95875/",
+    "published_date": "2026-10-15",
+    "retrieved_at_utc": "2026-11-10T12:55:58.905358+00:00",
+    "document_sha256": "afdbd1a8408360d6e1c358b7d776bbc3e48b1b17f9532311c7b6caed3e136176",
+    "source_role": "external_public_source",
+    "reported_role": "Reported IRC implant broadcast command marker",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "!Cmd@all",
+    "normalized_literal_offset": 2590
+  }
+]

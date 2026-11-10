@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "huntback",
+    "url": "https://huntback.io/blog/artex-fork-learns-to-spot-honeypots",
+    "published_date": "2026-11-04",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:42.076729+00:00",
+    "document_sha256": "2bf8b3ffff8229975ae0106da4a7a8f6c7091e284ba0065507b22074b2aa8d7c",
+    "source_role": "primary_public_report",
+    "reported_role": "ARTEX-ymh fork working copy marker",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_author_linked_csv",
+      "normalized_character_offset": 764,
+      "matched_literal": "artex-ymh-probe/HONEYPOT-DETECTION-DESIGN.md",
+      "document_sha256": "462c606630070804ed676e179d9bff75b533684ea1c2d4e62965ed6b7398d7cd",
+      "actual_source_id": "huntback_iocs"
+    },
+    "additional_literal_source_url": "https://huntback.io/blog/ioc/artex-fork-learns-to-spot-honeypots.csv"
+  }
+]

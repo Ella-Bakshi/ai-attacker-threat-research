@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "deep_plura",
+    "url": "https://blog.plura.io/ko/respond/financial-sector-hacking-ioc-artex-1st-report/",
+    "published_date": "2026-10-03",
+    "retrieved_at_utc": "2026-11-10T12:59:02.316090+00:00",
+    "document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+    "source_role": "external_public_source",
+    "reported_role": "Publisher-listed official ARTEXv0.3.14 ZIP distribution reference hash",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "5b45c239f24c5cb8002a996963f80d7b50cacee4a00e13c0f08a3f694064d81f",
+    "normalized_literal_offset": 6672
+  },
+  {
+    "source_id": "deep_plura",
+    "url": "https://blog.plura.io/ko/respond/financial-sector-hacking-ioc-artex-1st-report/",
+    "published_date": "2026-10-03",
+    "retrieved_at_utc": "2026-11-10T12:59:02.316090+00:00",
+    "document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+    "source_role": "external_public_source",
+    "reported_role": "Publisher-listed official ARTEXv0.3.14 ZIP distribution reference hash",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "8a746590771e17146860c39fda44ed46d89b1749c90d8965f84acadf36613e0c",
+    "normalized_literal_offset": 6767
+  },
+  {
+    "source_id": "deep_plura",
+    "url": "https://blog.plura.io/ko/respond/financial-sector-hacking-ioc-artex-1st-report/",
+    "published_date": "2026-10-03",
+    "retrieved_at_utc": "2026-11-10T12:59:02.316090+00:00",
+    "document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+    "source_role": "external_public_source",
+    "reported_role": "Publisher-listed official ARTEXv0.3.14 ZIP distribution reference hash",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "d168ec58b836d6c58a7249f51894644da998f063271acd41af3545917f529c4b",
+    "normalized_literal_offset": 6387
+  },
+  {
+    "source_id": "deep_plura",
+    "url": "https://blog.plura.io/ko/respond/financial-sector-hacking-ioc-artex-1st-report/",
+    "published_date": "2026-10-03",
+    "retrieved_at_utc": "2026-11-10T12:59:02.316090+00:00",
+    "document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+    "source_role": "external_public_source",
+    "reported_role": "Publisher-listed official ARTEXv0.3.14 ZIP distribution reference hash",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "dde132714981bd6af672ce7a09bcd8010da5d106f7f9d64f4672adfb283ab252",
+    "normalized_literal_offset": 6577
+  },
+  {
+    "source_id": "deep_plura",
+    "url": "https://blog.plura.io/ko/respond/financial-sector-hacking-ioc-artex-1st-report/",
+    "published_date": "2026-10-03",
+    "retrieved_at_utc": "2026-11-10T12:59:02.316090+00:00",
+    "document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+    "source_role": "external_public_source",
+    "reported_role": "Publisher-listed official ARTEXv0.3.14 ZIP distribution reference hash",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal": "fff3f501db2ec8e2f424eabd33f009c6aff82ae3332a7b3118ad4038b11275af",
+    "normalized_literal_offset": 6481
+  }
+]

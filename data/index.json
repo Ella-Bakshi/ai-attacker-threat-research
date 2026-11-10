@@ -1,0 +1,20 @@
+{
+  "record_files": [
+    "data/records/0001.json",
+    "data/records/0002.json",
+    "data/records/0003.json",
+    "data/records/0004.json",
+    "data/records/0005.json",
+    "data/records/0006.json",
+    "data/records/0007.json",
+    "data/records/0008.json",
+    "data/records/0009.json",
+    "data/records/0010.json",
+    "data/records/0011.json",
+    "data/records/0012.json",
+    "data/records/0013.json"
+  ],
+  "generated_at_utc": "2026-11-10T16:41:21.558809+00:00",
+  "format": "Arrays of record objects; CSV is the compact catalog view.",
+  "scope": "Mixed evidence classes, not a malicious block list."
+}

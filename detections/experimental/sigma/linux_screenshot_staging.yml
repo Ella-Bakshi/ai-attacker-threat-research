@@ -1,0 +1,27 @@
+title: Possible CyberStrikeAI Style ImageMagick Screenshot Staging
+id: 42c5487d-f0e0-42a8-a8ef-6bd9d91dce1b
+status: experimental
+description: Hunt for the sample-backed shell sequence that captures the root window
+  into .cs_ss.png, base64 encodes it and deletes it. This detects a behavior/template,
+  not campaign attribution.
+references:
+- https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl
+- https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/
+author: Local static IOC research
+date: '2026-11-10'
+logsource:
+  product: linux
+  category: process_creation
+detection:
+  selection:
+    Image|endswith: /sh
+    CommandLine|contains|all:
+    - import -window root
+    - /tmp/.cs_ss.png
+    - base64
+    - rm -f
+  condition: selection
+falsepositives:
+- Authorized penetration tests, malware analysis, or another tool using the same screenshot
+  command/template.
+level: medium

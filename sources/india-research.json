@@ -1,0 +1,61 @@
+[
+  {
+    "source_id": "certin_58",
+    "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+    "final_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058",
+    "status": 200,
+    "retrieved_at": "2026-11-10T15:21:38.049583+00:00",
+    "sha256": "67751934b92bec2dcd091fed76b799af29cb0204a4c30b7a7cc1a62390fffe47",
+    "text_sha256": "c9daf86038fca6c72ea48e399840fe1f26e8a9d6c9086ef027a257d44b176f1c",
+    "title": "Advisories",
+    "published_date": "2026-11-04",
+    "source_role": "primary_national_CERT_advisory"
+  },
+  {
+    "source_id": "certin_46",
+    "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0046",
+    "final_url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0046",
+    "status": 200,
+    "retrieved_at": "2026-11-10T15:21:38.070379+00:00",
+    "sha256": "40b29ce9de74cb0890a469ec5c734067316d6bad24365871d7190f4c0d76d5cc",
+    "text_sha256": "ae168035e2c9d5069fccc780e5f6228c3ad9fde2319e4c594dfc61bc9d35f9c7",
+    "title": "Advisories",
+    "published_date": "2026-10-09",
+    "source_role": "primary_national_CERT_advisory"
+  },
+  {
+    "source_id": "izoologic_nbfc",
+    "url": "https://izoologic.com/threat-advisory/ai-assisted-payment-api-fraud-campaign-against-indian-nbfcs/",
+    "final_url": "https://izoologic.com/threat-advisory/ai-assisted-payment-api-fraud-campaign-against-indian-nbfcs/",
+    "status": 403,
+    "retrieved_at": "2026-11-10T15:21:38.013792+00:00",
+    "sha256": "b19ff6c15ad197990b94115c03b102497c303fc801f77126bb4a3a6a304f5ca3",
+    "text_sha256": "550a7bbaaadaf4ee3c29af2413de90486aa6b7e4d25952b34271c9261df2890c",
+    "title": "iZOOlogic"
+  },
+  {
+    "source_id": "threadlinqs_secondary",
+    "url": "https://intel.threadlinqs.com/threat/TL-2026-5362",
+    "published_date": "2026-11-06",
+    "retrieved_at": "2026-11-10T15:25:26.349494+00:00",
+    "status": 200,
+    "sha256": "b332a9293a9ff87f346d9650a60dcef434c7c3ba71124e37fd5089fecd64af63",
+    "text_sha256": "dbc017a0ce46d60f002a32268af25c57502268d3bbd9088544c4e8cf4b788643",
+    "source_role": "secondary_commercial_compilation_not_accepted_as_India_IOC_proof"
+  },
+  {
+    "source_id": "izoologic_nbfc_rendered",
+    "source_url": "https://izoologic.com/threat-advisory/ai-assisted-payment-api-fraud-campaign-against-indian-nbfcs/",
+    "capture_format": "public_web_tool_rendered_facts; separate_from_requests403_challenge",
+    "reviewed_at": "2026-11-10T15:25:59.433726+00:00",
+    "rendered_facts_sha256": "bee646843c81b5993dc8ffa0c4070ee558186c6fd4c3ec47d03221f006c98387"
+  },
+  {
+    "source_id": "reuters_syndicated",
+    "source_url": "https://www.marketscreener.com/news/india-flags-chinese-linked-ai-tools-in-hacking-campaign-against-financial-firms-ce785fdcda81f42d",
+    "published_date": "2026-11-05",
+    "capture_format": "public_web_tool_original_reporting_syndicated_by_MarketScreener",
+    "reviewed_at": "2026-11-10T15:25:59.433735+00:00",
+    "rendered_facts_sha256": "e6caec5b8c002eb468fcd7534ac9d60f98f72239bc8cd06bc7e4b2bb606d5679"
+  }
+]

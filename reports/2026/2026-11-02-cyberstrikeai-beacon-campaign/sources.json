@@ -1,0 +1,470 @@
+[
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Script-fragment staging filename observed in described intrusion",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "d3.b64",
+      "normalized_character_offset": 10298,
+      "capture_file": "securelist.txt",
+      "capture_sha256": "d1710ebc09746a5fc42f74d8e2f8c020c09500a14cceefe0165dd6728ecd1175",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "45494856daca6c719ca981c8423ea95d551368d76ffa1e58fdb879237d413722"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "DSN/DPAPI credential-related staging path described by Kaspersky",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "C:\\ProgramData\\dsn_line.txt",
+      "normalized_character_offset": 10565,
+      "capture_file": "securelist.txt",
+      "capture_sha256": "d1710ebc09746a5fc42f74d8e2f8c020c09500a14cceefe0165dd6728ecd1175",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "45494856daca6c719ca981c8423ea95d551368d76ffa1e58fdb879237d413722"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "C2 for Windows Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30891,
+      "matched_literal": "fastcdn.bar",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "C2 for Linux Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30925,
+      "matched_literal": "media.fastcdn.bar",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "C2 for Payload Delivery + Linux Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30963,
+      "matched_literal": "104.234.26.163",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "C2 for Windows Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9504,
+      "matched_literal": "185.186.245.144",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "CyberStrikeAI Linux Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30544,
+      "matched_literal": "09e1da2afa1216ecc55648ec8e122d2a",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svcmon32.exe c:\\programdata\\svcmon32.exe",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30427,
+      "matched_literal": "2770562d104391b92b42671c270079bb",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "CyberStrikeAI Linux Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30577,
+      "matched_literal": "805b9e4ae74c903787416800999b8418",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svchosts.exe",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30365,
+      "matched_literal": "d726a8b4886c636f76ca6d30ef6a6ff4",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed CyberStrikeAI Windows Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30489,
+      "matched_literal": "c:\\programdata\\svcmon32.exe",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed CyberStrikeAI Windows Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30398,
+      "matched_literal": "c:\\windows\\temp\\svchosts.exe",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed CyberStrikeAI Windows Beacon",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30460,
+      "matched_literal": "c:\\windows\\temp\\svcmon32.exe",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Linux shell-startup pattern described from implementation",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "(nohup <path_to_beacon> &>/dev/null &)",
+      "normalized_character_offset": 11719,
+      "capture_file": "securelist.txt",
+      "capture_sha256": "d1710ebc09746a5fc42f74d8e2f8c020c09500a14cceefe0165dd6728ecd1175",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "45494856daca6c719ca981c8423ea95d551368d76ffa1e58fdb879237d413722"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Linux crontab startup pattern described from implementation",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "@reboot <path_to_beacon> &",
+      "normalized_character_offset": 11596,
+      "capture_file": "securelist.txt",
+      "capture_sha256": "d1710ebc09746a5fc42f74d8e2f8c020c09500a14cceefe0165dd6728ecd1175",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "45494856daca6c719ca981c8423ea95d551368d76ffa1e58fdb879237d413722"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Alternative source-implementation Run-value name",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "SystemUpdate",
+      "normalized_character_offset": 11167,
+      "capture_file": "securelist.txt",
+      "capture_sha256": "d1710ebc09746a5fc42f74d8e2f8c020c09500a14cceefe0165dd6728ecd1175",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "45494856daca6c719ca981c8423ea95d551368d76ffa1e58fdb879237d413722"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "retrieved_at_utc": "2026-11-10T13:02:03.778972+00:00",
+    "document_sha256": "",
+    "source_role": "external_public_source",
+    "reported_role": "Kaspersky NDR verdict for characteristic CyberStrikeAI communications",
+    "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "source_literal_proof": {
+      "literal": "Backdoor.CyberStrikeAI.HTTP.C&C",
+      "normalized_character_offset": 26749,
+      "capture_file": "securelist.txt",
+      "capture_sha256": "d1710ebc09746a5fc42f74d8e2f8c020c09500a14cceefe0165dd6728ecd1175",
+      "capture_format": "downloaded_public_report_visible_text",
+      "source_document_sha256": "45494856daca6c719ca981c8423ea95d551368d76ffa1e58fdb879237d413722"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Tools & Scripts / c:\\ProgramData\\p1.ps1 (reverse shell PS script)",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30752,
+      "matched_literal": "0bbd08af95f877f1d568b03de2eb76b4",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Tools & Scripts / C:\\Windows\\Temp\\wdiag2.exe (mimikatz)",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30626,
+      "matched_literal": "29efd64dd3c7fe1e2b022b7ad73a1ba5",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Tools & Scripts / c:\\rwx\\RogueWinRM.exe",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30697,
+      "matched_literal": "74f57b3e897a4960dcdd5b7e8a54f9df",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Reverse-shell PS payload callback endpoint",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 9504,
+      "matched_literal": "185.186.245.144:5501",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed Tools & Scripts",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30659,
+      "matched_literal": "C:\\Windows\\Temp\\wdiag2.exe",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed Tools & Scripts",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30785,
+      "matched_literal": "c:\\ProgramData\\p1.ps1",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  },
+  {
+    "source_id": "securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "published_date_basis": "publisher displayed article date",
+    "retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
+    "document_sha256": "502116532ac1139eee2afbad048010e72a52018683960e0ab26bc6f1fa9d7973",
+    "source_role": "primary_public_report",
+    "reported_role": "Observed Tools & Scripts",
+    "first_seen": "",
+    "last_seen": "",
+    "verification": "literal_rechecked_in_primary_reference",
+    "literal_proof": {
+      "capture": "fresh_visible_text",
+      "normalized_character_offset": 30730,
+      "matched_literal": "c:\\rwx\\RogueWinRM.exe",
+      "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
+      "actual_source_id": "securelist"
+    }
+  }
+]
