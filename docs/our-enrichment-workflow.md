@@ -43,13 +43,10 @@ After accepting records, update the master/index and follow the [bulk enrichment
 ```powershell
 python -B scripts/refresh_ip_overview.py --db-dir work/enrichment-data --seed-from-catalog
 python -B scripts/render_ip_map.py --root .
-python -B -m unittest discover -s tests -p "test_*.py"
-python -B scripts/update_manifest.py
-python -B scripts/validate.py
 ```
 
-Updating the CSV on `main` makes the existing workflow refresh open metadata, regenerate and validate the map, and deploy GitHub Pages. It does not automatically promote discoveries, infer India targeting or poll commercial accounts. Current responses do not overwrite historical evidence.
+Updating the CSV on `main` makes the existing workflow refresh open metadata and regenerate the map in a build job with read-only repository access. Separate jobs commit the generated inventory/map files and deploy GitHub Pages. The CSV remains authoritative: routine refreshes do not add catalog-only addresses or automatically promote discoveries, infer India targeting or poll commercial accounts. Current responses do not overwrite historical evidence.
 
 ## Commercial sources
 
-IPinfo and Hunt observations belong to their providers. Browser sign-in is not an API credential. Hunt account-only review remains private; restricted hosts/previews were not bypassed, and no completed export was observed. The public repository contains no account-only Hunt data or private rules. [Hunt's public methods and supported exports](hunt-and-independent-methods.md) explain its larger collection model. No new Censys calls were made during this update.
+IPinfo and Hunt observations belong to their providers. Browser sign-in is not an API credential. Private Hunt listing exports remain outside this public repository; restricted hosts/previews were not bypassed. The public repository contains no account-only Hunt data or private rules. [Hunt's public methods and supported exports](hunt-and-independent-methods.md) explain its larger collection model. No new Censys calls were made during this update.

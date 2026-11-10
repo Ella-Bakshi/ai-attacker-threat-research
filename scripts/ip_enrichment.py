@@ -25,9 +25,16 @@ def lookup_asn_sorted(target_ints,gzipfile,ipv6=False):
     """Inclusive, family-specific interval join; only retain the requested addresses."""
     targets=sorted(set(target_ints));out={};previous_end=-1
     if not targets:return out
-    with gzip.open(gzipfile,'rt',encoding='utf-8',newline='') as f:
-        for row in csv.reader(f,delimiter='\t'):
+    def bounded_lines(stream):
+        total=0
+        while line:=stream.readline(16385):
+            total+=len(line)
+            if len(line)>16384 or total>512_000_000:raise ValueError('ASN dataset exceeds decompressed size or line bound')
+            yield line.decode('utf-8')
+    with gzip.open(gzipfile,'rb') as f:
+        for row in csv.reader(bounded_lines(f),delimiter='\t'):
             if not row:continue
+            if len(row)!=5:raise ValueError('ASN dataset row must contain five fields')
             start,end=(int(ipaddress.IPv6Address(row[0])),int(ipaddress.IPv6Address(row[1]))) if ipv6 else (int(row[0]),int(row[1]))
             if end<start or start<=previous_end:raise ValueError('ASN ranges must be sorted and non-overlapping')
             previous_end=end

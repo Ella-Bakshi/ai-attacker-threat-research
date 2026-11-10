@@ -8,7 +8,7 @@ The [live map](https://ella-bakshi.github.io/ai-attacker-threat-research/) and [
 
 ## Automatic service
 
-The [refresh workflow](../.github/workflows/refresh-ip-map.yml) runs when `data/ip-overview.csv` changes on `main`, or through **Actions → Refresh IP overview and publish map → Run workflow**. It downloads open snapshots, fills ASN and location fields, renders HTML/SVG, runs tests, updates integrity hashes, commits generated files and deploys GitHub Pages. No Censys, Shodan or IPinfo key is required. Indicator IPs are not contacted.
+The [refresh workflow](../.github/workflows/refresh-ip-map.yml) runs when the IP CSV or its configured source/rendering inputs change on `main`, or through **Actions → Refresh IP overview and publish map → Run workflow**. A build job with read-only repository access downloads open snapshots, fills ASN and location fields, and renders HTML/SVG. A separate job commits only the generated inventory and map files; the deployment job publishes the map to GitHub Pages. No Censys, Shodan or IPinfo key is required. Indicator IPs are not contacted.
 
 To add an IP, append a row to the CSV. You may leave ASN, hosting and location blank; enrichment fills those output fields. Preserve the header. For example, the shape of a minimal import is:
 
@@ -19,11 +19,11 @@ YOUR_PUBLIC_IP,YOUR_OBSERVATION_TIMESTAMP,,,
 
 Replace both placeholders with real evidence. The literal placeholders are not accepted as addresses. Use an ISO timestamp with an explicit offset when you know one; otherwise preserve the source precision and explain it. Blank observation time means unknown. `enriched_at_utc` is a separate lookup time and never substitutes for an attack observation.
 
-New CSV-only addresses enter as **unreviewed, confidence 0** with no inferred campaign or India association. An analyst may supply optional `manual_score` and `manual_confidence_basis` columns after review; the score is labeled contributor review, not independent validation. A score without a basis fails validation. Update the underlying source-attributed catalog to establish a verified campaign relationship.
+New CSV-only addresses enter as **unreviewed, confidence 0** with no inferred campaign or India association. An analyst may supply optional `manual_score` and `manual_confidence_basis` columns after review; the score is labeled contributor review and requires a written evidence basis. Update the underlying source-attributed catalog to establish a verified campaign relationship.
 
 The CSV is authoritative for the routine refresh: removing a row removes it from the next map. To add newly researched catalog addresses in bulk while preserving existing CSV rows, run the seed command below. The seed also includes historical IP literals found only in the full master, separately labeled `master-only-passive-lead`, with score 10; it does not promote shared CDN addresses or old software sightings to C2.
 
-Repository updates use the workflow's scoped GitHub token; no personal access token is embedded. The refresh runs on trusted `main` pushes and manual dispatch, never on an external pull request with write access. A failed refresh leaves the prior published map available. Concurrent work uses ordinary fast-forward pushes; no force push is used.
+Repository updates use the commit job's scoped GitHub token; no personal access token is embedded. The refresh runs on trusted `main` pushes and manual dispatch. Source processing has read-only repository access, and Pages permissions belong to the deployment job. A failed refresh leaves the prior published map available. Concurrent work uses ordinary fast-forward pushes; no force push is used.
 
 ## Run it yourself
 
@@ -36,9 +36,6 @@ python -m pip install -r requirements-enrichment.txt
 python -B scripts/download_enrichment_data.py --db-dir work/enrichment-data
 python -B scripts/refresh_ip_overview.py --db-dir work/enrichment-data
 python -B scripts/render_ip_map.py --root .
-python -B -m unittest discover -s tests -p "test_*.py"
-python -B scripts/update_manifest.py
-python -B scripts/validate.py
 ```
 
 For a first catalog-derived inventory, add `--seed-from-catalog` to the refresh command. To import a separate five-column CSV, add `--input-csv path/to/input.csv`; the output remains `data/ip-overview.csv` and JSON. `download_enrichment_data.py --reuse` verifies and reuses an existing snapshot; `--month YYYY-MM` selects a documented DB-IP release. Download failures stop the job instead of substituting fabricated metadata.
@@ -80,6 +77,6 @@ Manual reviewed scores are separately labeled and require a written basis. A reb
 - [IPtoASN](https://iptoasn.com/): open bulk range-to-AS mappings, licensed [PDDL 1.0](https://opendatacommons.org/licenses/pddl/1-0/). The website describes hourly updates; the actual retrieved file's `Last-Modified` header is retained rather than assuming the dump is current to the lookup second.
 - [IP Geolocation by DB-IP](https://db-ip.com): [City Lite](https://db-ip.com/db/download/ip-to-city-lite), monthly, reduced coverage/accuracy, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This repository publishes a transformed matched subset and English labels, with attribution. Approximate hosting locations are not victim locations or attack-time locations.
 - [Finite IPinfo cross-checks](../data/enrichment/ipinfo-cross-checks.json): read-only profile review, including existing provider measurements on two reported C2 addresses. No new measurement was initiated. Provider measurement dates and review times remain separate; they do not confirm that a historical C2 address is still malicious.
-- [Boundary provenance and limitations](../maps/assets/BOUNDARY-NOTE.md): Natural Earth India point of view, pinned and tested. Country/territory labels from IP data are not a blanket statement of diplomatic recognition. The asset is not Survey of India certification.
+- [Boundary provenance and limitations](../maps/assets/BOUNDARY-NOTE.md): Natural Earth India point of view, preserved in a pinned local asset. Country/territory labels from IP data are not a blanket statement of diplomatic recognition. The asset is not Survey of India certification.
 
 For optional IPinfo automation, its [official Lite API documentation](https://ipinfo.io/developers/lite-api) describes basic ASN and country/continent data; Lite does not provide city coordinates or logged-in ProbeNet evidence. Use your own token in a local environment variable or GitHub Actions secret and check your plan's use/redistribution terms. Browser sign-in is not an API token and is never scraped by this pipeline. This repository's default bulk pipeline works without that optional service.

@@ -17,7 +17,6 @@ Run only when another measurement of these same seeds is intended:
 
 ```powershell
 python -B scripts/observe_two_seeds.py --observe --output first-party-observations-new.json
-python -B -m unittest discover -s tests -p "test_observe_two_seeds.py"
 ```
 
-Without `--observe`, no network action occurs. The optional `--raw-cert-dir` stores a leaf DER certificate locally; keep that directory outside publication. Tests use mocks and make no network requests. No additional scan, retry, redirect, TLS bypass, successful C2 exchange, attacker activity, India targeting or global novelty is claimed. A negative/error response remains an observation, not a new IOC.
+Without `--observe`, no network action occurs. The optional `--raw-cert-dir` stores a leaf DER certificate locally; keep that directory outside publication. No additional scan, retry, redirect, TLS bypass, successful C2 exchange, attacker activity, India targeting or global novelty is claimed. A negative/error response remains an observation, not a new IOC.

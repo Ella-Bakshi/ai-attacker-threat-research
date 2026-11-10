@@ -12,6 +12,6 @@ The five publication records comprise two verified file cross-hashes, one condit
 
 Acquisition search was bounded: 42 exact vendor seed hashes were searched in public Triage; six yielded public cross-hash metadata. Nine public MalwareBazaar daily archive directories totaling **4,260 entries** produced this one exact sample. Five other MD5 lookups in CIRCL returned 404. This does not establish that other samples are unavailable elsewhere.
 
-[Sanitized evidence](evidence.json) preserves the sanitized acquisition, hashes, offsets, stream locations, provider evidence identifiers and limits. [Validation](validation.json) records local validation. No raw executable, certificate infrastructure, signing details, sensitive values, actor-host traffic or production detection rule is included.
+[Sanitized evidence](evidence.json) preserves the sanitized acquisition, hashes, offsets, stream locations, provider evidence identifiers and limits. No raw executable, certificate infrastructure, signing details, sensitive values, actor-host traffic or production detection rule is included.
 
 [Own records CSV](indicators.csv) · [Own records JSON](indicators.json) · [Supplement overview](../README.md)

@@ -16,7 +16,7 @@ We derived or verified **333 records**, including byte/native-backed configurati
 
 - [Our derived observations](research/analyst-derived/all-derived-observables.csv)
 - [Acquired beacon analysis and evidence](research/analyst-derived/2026-11-10-cyberstrikeai-elf/README.md)
-- [Detection rules](detections/README.md): 12 compiled YARA rules and one explicitly experimental Sigma rule
+- [Detection rules](detections/README.md): 12 YARA rules and one explicitly experimental Sigma rule
 
 The sample's exact operator, named campaign, India targeting and current live C2 remain unknown. Static capability does not prove execution on a victim.
 

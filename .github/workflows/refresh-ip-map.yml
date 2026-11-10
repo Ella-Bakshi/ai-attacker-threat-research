@@ -4,9 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - data/ip-overview.csv
-      - data/index.json
+      - data/**
       - independent-enrichment/**
+      - india/additional-ai-campaigns/records.json
       - research/first-party/**
       - scripts/ip_enrichment.py
       - scripts/refresh_ip_overview.py
@@ -25,52 +25,101 @@ concurrency:
 permissions:
   contents: read
 
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
 jobs:
   build:
+    if: github.repository == 'Ella-Bakshi/ai-attacker-threat-research' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    outputs:
+      source-sha: ${{ steps.source.outputs.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+      - id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install the approved MMDB reader wheel
+        run: |
+          python -m pip install --only-binary=:all: --require-hashes -r requirements-enrichment.txt
+      - name: Download open enrichment snapshots
+        run: python -B scripts/download_enrichment_data.py --db-dir "$RUNNER_TEMP/open-enrichment"
+      - name: Enrich the authoritative IP CSV
+        run: python -B scripts/refresh_ip_overview.py --db-dir "$RUNNER_TEMP/open-enrichment"
+      - name: Generate the map
+        run: python -B scripts/render_ip_map.py --root .
+      - name: Stage generated files only
+        run: |
+          mkdir -p "$RUNNER_TEMP/generated/data/enrichment" "$RUNNER_TEMP/generated/maps"
+          for file in data/ip-overview.csv data/ip-overview.json data/enrichment/sources.json data/enrichment/summary.json maps/index.html maps/world.svg maps/render-metadata.json; do
+            cp -- "$file" "$RUNNER_TEMP/generated/$file"
+          done
+      - name: Save generated files for the isolated commit job
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: generated-ip-map
+          path: ${{ runner.temp }}/generated
+          if-no-files-found: error
+          retention-days: 1
+      - name: Package the standalone map
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: maps
+
+  save-generated:
+    needs: build
+    if: github.repository == 'Ella-Bakshi/ai-attacker-threat-research' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: main
-      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+          persist-credentials: false
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
-          python-version: '3.12'
-      - name: Install the MMDB reader
+          name: generated-ip-map
+          path: ${{ runner.temp }}/generated
+      - name: Copy the fixed generated-file allowlist
+        env:
+          SOURCE_SHA: ${{ needs.build.outputs.source-sha }}
         run: |
-          python -m pip install --only-binary=:all: -r requirements-enrichment.txt
-      - name: Download open bulk enrichment snapshots
-        run: python -B scripts/download_enrichment_data.py --db-dir "$RUNNER_TEMP/open-enrichment"
-      - name: Enrich the authoritative IP CSV
-        run: python -B scripts/refresh_ip_overview.py --db-dir "$RUNNER_TEMP/open-enrichment"
-      - name: Generate the map and preview
-        run: python -B scripts/render_ip_map.py --root .
-      - name: Check source, confidence, IPv6 and range boundaries
-        run: python -B -m unittest discover -s tests -p 'test_*.py'
-      - name: Check map camera and interaction math
-        run: node --test tests/test_map_math.js
-      - name: Update integrity manifest and validate offline
+          test "$(git rev-parse HEAD)" = "$SOURCE_SHA" || { echo 'Main changed during the build; leaving newer data untouched.'; exit 1; }
+          test "$(find "$RUNNER_TEMP/generated" -type f | wc -l)" -eq 7
+          for file in data/ip-overview.csv data/ip-overview.json data/enrichment/sources.json data/enrichment/summary.json maps/index.html maps/world.svg maps/render-metadata.json; do
+            test -f "$RUNNER_TEMP/generated/$file" && test ! -L "$RUNNER_TEMP/generated/$file"
+            cp -- "$RUNNER_TEMP/generated/$file" "$file"
+            git add -- "$file"
+          done
+      - name: Commit generated data with a step-scoped credential
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          python -B scripts/update_manifest.py
-          python -B scripts/validate.py
-      - name: Commit generated enrichment and maps
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ip-overview.csv data/ip-overview.json data/enrichment/sources.json data/enrichment/summary.json maps/index.html maps/world.svg maps/render-metadata.json SHA256-MANIFEST.json
           if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git commit -m 'Refresh IP enrichment and generated map'
-            git push origin HEAD:main
+            auth="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+            echo "::add-mask::$auth"
+            git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin HEAD:main
           fi
-      - name: Package the standalone map
-        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
-        with:
-          path: maps
 
   deploy:
-    needs: build
+    needs: [build, save-generated]
+    if: github.repository == 'Ella-Bakshi/ai-attacker-threat-research' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       pages: write
       id-token: write

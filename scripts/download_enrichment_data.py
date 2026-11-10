@@ -1,5 +1,16 @@
 """Download the documented open bulk datasets; never contact indicator IPs."""
 import argparse,datetime as dt,gzip,hashlib,json,pathlib,re,shutil,urllib.request
+from urllib.parse import urlsplit
+
+def allowed_download(url):
+    parsed=urlsplit(url)
+    return (parsed.scheme=='https' and parsed.hostname in {'iptoasn.com','download.db-ip.com'}
+            and parsed.port in {None,443} and not parsed.username and not parsed.password)
+
+class DatasetRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self,req,fp,code,msg,headers,newurl):
+        if not allowed_download(newurl):raise ValueError('Dataset redirect outside approved HTTPS providers')
+        return super().redirect_request(req,fp,code,msg,headers,newurl)
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--db-dir',type=pathlib.Path,default=pathlib.Path('work/enrichment-data'));p.add_argument('--month',default=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m'));p.add_argument('--reuse',action='store_true');a=p.parse_args()
@@ -11,8 +22,9 @@ def main():
         target=out/name;old=prior.get(name)
         if a.reuse and old and target.exists() and hashlib.file_digest(target.open('rb'),'sha256').hexdigest()==old['sha256'] and (not name.endswith('.mmdb.gz') or (out/old['uncompressed_file']).exists()):result.append(old);continue
         print('Downloading '+name,flush=True);temp=target.with_suffix(target.suffix+'.partial');digest=hashlib.sha256();n=0
-        with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'AI-Attacker-Threat-Research-enrichment/1.0'}),timeout=120) as response,temp.open('wb') as stream:
-            if not response.geturl().startswith(('https://iptoasn.com/','https://download.db-ip.com/')):raise ValueError('Unexpected download redirect')
+        opener=urllib.request.build_opener(DatasetRedirectHandler())
+        with opener.open(urllib.request.Request(url,headers={'User-Agent':'AI-Attacker-Threat-Research-enrichment/1.0'}),timeout=120) as response,temp.open('wb') as stream:
+            if not allowed_download(response.geturl()):raise ValueError('Unexpected download redirect')
             headers=response.headers
             while chunk:=response.read(1024*1024):
                 n+=len(chunk)
