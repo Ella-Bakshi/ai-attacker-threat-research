@@ -19,7 +19,8 @@
   "scope": "Mixed evidence classes, not a malicious block list.",
   "supplementary_record_files": [
     "india/additional-ai-campaigns/records.json",
-    "independent-enrichment/records.json"
+    "independent-enrichment/records.json",
+    "reports/2026/2026-11-11-global-ai-tooling/records.json"
   ],
-  "supplementary_scope": "Separate India AI-campaign and independent public-artifact research corpora; categories and attribution remain distinct."
+  "supplementary_scope": "Separate India AI-campaign, independent public-artifact, and dated global AI-tool/campaign research; evidence classes and attribution remain distinct."
 }

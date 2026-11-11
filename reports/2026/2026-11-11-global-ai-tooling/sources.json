@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://socradar.io/blog/cyberxero-ai-iab-ukraine-critical-infrastructure/",
+    "retrieved_at_utc": "2026-11-11T08:28:59.197743+00:00",
+    "source_publication_date": "2026-10-06",
+    "bytes": 252819,
+    "sha256": "96b9c43cd8a731e619c6e030d117d7f1ecf05e000f5b4ad7dac1f2ee4692b9a7"
+  },
+  {
+    "url": "https://socradar.io/blog/dark-web-profile-cyberxero/",
+    "retrieved_at_utc": "2026-11-11T08:28:59.197743+00:00",
+    "source_publication_date": "2026-11-10",
+    "bytes": 255602,
+    "sha256": "45e0e5cbe27a34c5c9f755152b5788106a73f1b84a7a3e4b92cfaaf890e659d2"
+  },
+  {
+    "url": "https://hunt.io/blog/papercut-attacker-ai-toolkit-exploit-code-second-rce",
+    "retrieved_at_utc": "2026-11-11T08:28:59.197743+00:00",
+    "source_publication_date": "2026-10-15",
+    "bytes": 925552,
+    "sha256": "dc30bf86d1fe231c2370a4329ec567e0a7d5270c7248f7e549fecf050e627124"
+  },
+  {
+    "url": "https://cert.europa.eu/blog/from-penetration-testing-to-cyber-threat-beware-of-artex",
+    "retrieved_at_utc": "2026-11-11T08:28:59.197743+00:00",
+    "source_publication_date": "2026-11-05",
+    "bytes": 24479,
+    "sha256": "904774f7fda0857df934c0e7a512b94d883dd1a57cd58051e37d1247bbf014cb"
+  },
+  {
+    "url": "https://censys.com/blog/artex-agentic-asbestos",
+    "retrieved_at_utc": "2026-11-11T08:28:59.197743+00:00",
+    "source_publication_date": "2026-11-05",
+    "bytes": 181740,
+    "sha256": "7a7fa09db0e02023fff87c4a8978ffaf277843bab1e1dc6911cea8eb36f5e3a6"
+  }
+]

@@ -2,9 +2,9 @@
   "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
   "date_user_timezone": "2026-11-11 Asia/Calcutta",
   "categorized_records": 9053,
-  "master_distinct_type_value": 15034,
+  "master_distinct_type_value": 15078,
   "new_native_patterns": 10,
-  "analyst_derived_records": 333,
+  "analyst_derived_records": 342,
   "main_artex_records": 18,
   "main_cyberstrikeai_records": 9,
   "india_exact_public_IOCs": 0,
@@ -21,10 +21,10 @@
   "supplementary_india_analyst_derived_records": 5,
   "supplementary_india_report_artifact_records": 32,
   "supplementary_india_context_records": 6,
-  "all_categorized_records_including_supplement": 9283,
+  "all_categorized_records_including_supplement": 9327,
   "framework_report_folders": 20,
-  "supplementary_report_folders": 4,
-  "report_folders_total": 24,
+  "supplementary_report_folders": 5,
+  "report_folders_total": 25,
   "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement.",
   "independent_public_artifact_records": 16,
   "independent_public_artifact_derived_facts": 6,
@@ -33,5 +33,15 @@
   "independent_public_artifact_shared_contexts": 6,
   "latest_review_date": "2026-11-11",
   "first_party_seed_observations": 2,
-  "first_party_http_requests": 2
+  "first_party_http_requests": 2,
+  "compact_catalog_records": 9097,
+  "daily_global_records": 44,
+  "daily_global_own_source_fingerprints": 9,
+  "daily_global_source_campaign_observables": 27,
+  "daily_global_record_classes": {
+    "sourced-iocs": 27,
+    "software-fingerprints": 14,
+    "deployment-leads": 1,
+    "supporting-context": 2
+  }
 }

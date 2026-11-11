@@ -10,9 +10,11 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 [![IP infrastructure map](maps/world.svg)](https://ella-bakshi.github.io/ai-attacker-threat-research/)
 
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country.
+
 ## Our findings
 
-We derived or verified **333 records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
+We derived or verified **342 records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
 
 - [Our derived observations](research/analyst-derived/all-derived-observables.csv)
 - [Acquired beacon analysis and evidence](research/analyst-derived/2026-11-10-cyberstrikeai-elf/README.md)
@@ -33,7 +35,7 @@ The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-as
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,034 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,078 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -50,6 +52,8 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 ## Browse dated reports
 
 ### 2026-11-11
+
+- [Global AI tooling and campaign research](reports/2026/2026-11-11-global-ai-tooling/README.md): 44 additions, including nine own source fingerprints and ten new IPs; sourced IOCs, service leads and context remain separate.
 
 - [Our analysis — public artifacts and certificate relationships](independent-enrichment/README.md).
 - [Our measurements — bounded DNS, TLS and HTTP seed observations](research/first-party/README.md).

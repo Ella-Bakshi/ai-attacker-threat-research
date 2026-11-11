@@ -1,0 +1,35 @@
+[
+  {
+    "tool": "Strix",
+    "official_repository": "https://github.com/usestrix/strix",
+    "revision": "685bbc8138d35fc9fe378ac37ec0d9198b9c46a3",
+    "revision_time_utc": "2026-11-10T21:12:11Z",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "license_note": "Apache License 2.0",
+    "maliciousness": "unestablished; legitimate security tooling may be abused",
+    "new_candidates": 5
+  },
+  {
+    "tool": "PentestGPT",
+    "official_repository": "https://github.com/GreyDGL/PentestGPT",
+    "revision": "e8b1bb77d1ac00329675cec3b060aba971ec1ac8",
+    "revision_time_utc": "2026-07-14T12:58:30Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "license_note": "MIT License",
+    "maliciousness": "unestablished; legitimate security tooling may be abused",
+    "new_candidates": 2
+  },
+  {
+    "tool": "CAI",
+    "official_repository": "https://github.com/aliasrobotics/cai",
+    "revision": "6dc79257777f5f1c9500b4d2319935d34a47412e",
+    "revision_time_utc": "2026-08-22T13:02:17Z",
+    "archived": true,
+    "license_spdx": "NOASSERTION",
+    "license_note": "Mixed MIT-derived/research-use proprietary source; not wholly OSI-open-source.",
+    "maliciousness": "unestablished; legitimate security tooling may be abused",
+    "new_candidates": 2
+  }
+]
