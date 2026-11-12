@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "secflow",
+    "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+    "bytes": 967221,
+    "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+  },
+  {
+    "source_id": "norforge-cairn",
+    "url": "https://norforge.com/blog/inside_cairn",
+    "retrieved_at_utc": "2026-11-12T02:34:11.000376+00:00",
+    "bytes": 63702,
+    "sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69"
+  },
+  {
+    "source_id": "unit42-nov12",
+    "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
+    "retrieved_at_utc": "2026-11-12T02:34:13.138323+00:00",
+    "bytes": 231495,
+    "sha256": "98991a43b5f09734fa036cb99ae13f428d779ff0fe37234a50a9fc7c079ffa9d"
+  },
+  {
+    "source_id": "cairn-readme",
+    "url": "https://raw.githubusercontent.com/oritera/Cairn/8e7e0ea67552383851dfcabfba0c4e9c8d007878/README.md",
+    "retrieved_at_utc": "2026-11-12T02:34:13.444763+00:00",
+    "bytes": 10734,
+    "sha256": "e8b302969405935bdb4a1f523a8b50f7f217204644a96e86490ca1a1c00600e1"
+  }
+]

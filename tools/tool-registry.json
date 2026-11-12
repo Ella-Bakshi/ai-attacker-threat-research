@@ -1,0 +1,2056 @@
+[
+  {
+    "name": "ARTEX",
+    "aliases": [
+      "BaaRai ARTEX",
+      "ARTEX English fork"
+    ],
+    "category": "ai-pentesting-and-c2-framework",
+    "what_it_does_reported": "Go/Next.js multi-agent penetration-testing platform with planning, tool execution and optional offensive workflows.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/BaaRai/ARTEX",
+    "repository_full_name": "BaaRai/ARTEX",
+    "upstream_identity_qualification": "User-designated English-language copy. Pinned README line 8 calls it a fork of Autumn-27 ARTEX even though GitHub currently reports fork=false; not the original author repository.",
+    "pinned_revision": "ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8",
+    "last_activity_utc": "2026-11-12T00:22:00Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-12T00:30:18Z",
+    "repository_created_at_utc": "2026-10-08T21:14:39Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/BaaRai/ARTEX/blob/ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8/LICENSE",
+    "latest_release": {
+      "name": "v0.6.0",
+      "tag_name": "v0.6.0",
+      "published_at": "2026-11-11T23:19:53Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/BaaRai/ARTEX/releases/tag/v0.6.0"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and public release list. BaaRai ARTEX is a public English fork/continuation, separate from original upstream closure.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/BaaRai/ARTEX"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/BaaRai/ARTEX/blob/ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/BaaRai/ARTEX/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/BaaRai/ARTEX/blob/ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8/README.md",
+        "git_blob_sha": "232b76153722349092f87b9a5ef297cd1e245d46",
+        "sha256": "ced5edb8accb14a9bd7e95dbc83457ad56bff4194b2a493da47bddc90b7924fd",
+        "bytes": 29385,
+        "anchor_line": 8,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/research/software-fingerprints/ARTEX.csv"
+    ],
+    "observed_abuse": "yes-reported-at-framework-level",
+    "observed_abuse_basis": "GTIG reports threat-actor abuse of the named framework. This does not establish maliciousness of this source revision or every deployment.",
+    "observed_abuse_primary_sources": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/BaaRai/ARTEX/blob/ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8/README.md",
+      "https://github.com/BaaRai/ARTEX/tree/ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8",
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "baarai--artex",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "CyberStrikeAI",
+    "aliases": [
+      "CyberStrike AI"
+    ],
+    "category": "ai-security-testing-and-c2-framework",
+    "what_it_does_reported": "Security automation workspace combining agent planning, MCP tools, human oversight, evidence, workflows and optional C2 capabilities.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/AIPentest/CyberStrikeAI",
+    "repository_full_name": "AIPentest/CyberStrikeAI",
+    "upstream_identity_qualification": "Owning repository verified from named project source, security policy and existing pinned source evidence.",
+    "pinned_revision": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+    "last_activity_utc": "2026-11-08T09:35:27Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-08T09:35:27Z",
+    "repository_created_at_utc": "2025-11-08T10:41:23Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/LICENSE",
+    "latest_release": {
+      "name": "",
+      "tag_name": "v1.7.24",
+      "published_at": "2026-10-16T05:51:58Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.7.24"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/AIPentest/CyberStrikeAI"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/releases"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/docs/en-US/README.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/docs/en-US/security-hardening.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/docs/en-US/security-model.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/docs/en-US/security-hardening.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/docs/en-US/tool-call-guard.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/README.md",
+        "git_blob_sha": "e63dcb1213382973cf8b48a1c16f53a1f84492dd",
+        "sha256": "740184626cadc9ec37e13a329e5611dce8ebbbaa9b028b383a6bb50973275fe3",
+        "bytes": 21855,
+        "anchor_line": 12,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/research/software-fingerprints/CyberStrikeAI.csv"
+    ],
+    "observed_abuse": "yes-reported-at-framework-level",
+    "observed_abuse_basis": "Existing source-reported incident corpus links CyberStrikeAI-lineage artifacts/infrastructure; source revision, current operator and every deployment remain separate claims.",
+    "observed_abuse_primary_sources": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+      "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/README.md",
+      "https://github.com/AIPentest/CyberStrikeAI/tree/b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+      "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "aipentest--cyberstrikeai",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "PentAGI",
+    "aliases": [],
+    "category": "ai-agent-led-pentesting",
+    "what_it_does_reported": "Self-hosted multi-agent penetration-testing system using LLMs and conventional security tools.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/vxcontrol/pentagi",
+    "repository_full_name": "vxcontrol/pentagi",
+    "upstream_identity_qualification": "Owning upstream and pentagi.com project homepage verified; source presence is distinct from hostile deployment evidence.",
+    "pinned_revision": "cffed9485aa1cca70762cd08a57ac62a80406258",
+    "last_activity_utc": "2026-10-22T23:20:46Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-10-22T23:26:13Z",
+    "repository_created_at_utc": "2025-01-06T22:22:48Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/LICENSE",
+    "latest_release": {
+      "name": "2.2.0",
+      "tag_name": "v2.2.0",
+      "published_at": "2026-10-05T06:59:50Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/vxcontrol/pentagi/releases/tag/v2.2.0"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/vxcontrol/pentagi"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/vxcontrol/pentagi/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://pentagi.com"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/backend/docs/installer/installer-troubleshooting.md#macos-reports-the-installer-as-malware"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/backend/docs/docker.md#worker-docker-access"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/backend/docs/config.md#multi-instance-deployment-tenant_id"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://www.apollographql.com/docs/ios"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/README.md",
+        "git_blob_sha": "fc90f6e11e5de1b3bbbcff34b5bd548e53c68cf7",
+        "sha256": "b184808b1e84df1dc806e3a4216f84f70dc0330a122d757bae342cde71268147",
+        "bytes": 254513,
+        "anchor_line": 60,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "yes-reported-at-framework-level",
+    "observed_abuse_basis": "GTIG reports threat-actor abuse of the named framework. This does not establish maliciousness of this source revision or every deployment.",
+    "observed_abuse_primary_sources": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/README.md",
+      "https://github.com/vxcontrol/pentagi/tree/cffed9485aa1cca70762cd08a57ac62a80406258",
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "vxcontrol--pentagi",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "AutoCVE",
+    "aliases": [],
+    "category": "ai-source-code-auditing",
+    "what_it_does_reported": "Multi-agent source auditing and vulnerability verification/reporting platform with sandboxed tool workflows.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/larlarua/AutoCVE",
+    "repository_full_name": "larlarua/AutoCVE",
+    "upstream_identity_qualification": "Named larlarua project verified by repository README and user guide; same-name projects exist. A provider family label does not independently bind every sighting to this revision.",
+    "pinned_revision": "b26025f27199ba2d93145e4a08fc9015e8d846e4",
+    "last_activity_utc": "2026-09-03T02:27:29Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-10-01T05:08:03Z",
+    "repository_created_at_utc": "2026-06-15T14:50:47Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/LICENSE",
+    "latest_release": {
+      "name": "Release v1.0.5",
+      "tag_name": "v1.0.5",
+      "published_at": "2026-07-12T09:21:26Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/larlarua/AutoCVE/releases/tag/v1.0.5"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/larlarua/AutoCVE"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/larlarua/AutoCVE/releases"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/docs/USER_GUIDE.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/docs/ARCHITECTURE_DESIGN.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/docs/API_DOCUMENTATION.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/README.md",
+        "git_blob_sha": "f3a56c805205ea0fb8fa0dcaaa7182ad87e0143c",
+        "sha256": "76bfe068a947bbd67be946615febf5cc81bfe4cdeae9ea68a349ccb26304caac",
+        "bytes": 18374,
+        "anchor_line": 3,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion added by this bounded metadata refresh.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/larlarua/AutoCVE/blob/b26025f27199ba2d93145e4a08fc9015e8d846e4/README.md",
+      "https://github.com/larlarua/AutoCVE/tree/b26025f27199ba2d93145e4a08fc9015e8d846e4"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "larlarua--autocve",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "HexStrike AI",
+    "aliases": [
+      "HexStrike",
+      "Hexstrike"
+    ],
+    "category": "ai-mcp-security-tool-framework",
+    "what_it_does_reported": "MCP-oriented security automation framework exposing conventional assessment tools to AI clients.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/0x4m4/hexstrike-ai",
+    "repository_full_name": "0x4m4/hexstrike-ai",
+    "upstream_identity_qualification": "Owning repository and hexstrike.com project homepage verified. A shared tool banner does not establish a malicious operator.",
+    "pinned_revision": "d689933ff579d839c676c82b231f8e98326c5f04",
+    "last_activity_utc": "2026-08-03T14:33:01Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-08-03T14:33:09Z",
+    "repository_created_at_utc": "2025-07-10T17:53:18Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "public source; no GitHub release found in queried list",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/0x4m4/hexstrike-ai"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/0x4m4/hexstrike-ai/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://www.hexstrike.com/"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/docs/"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/README.md",
+        "git_blob_sha": "eeb3b3e8585051339189cdf10f49e5cdcd60c8ac",
+        "sha256": "362d1d09f5d454d8d77eb08d42f9306afe84c48bc46f99a93fd29796a5787fa1",
+        "bytes": 31084,
+        "anchor_line": 17,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "yes-reported-at-framework-level",
+    "observed_abuse_basis": "GTIG reports threat-actor abuse of the named framework. This does not establish maliciousness of this source revision or every deployment.",
+    "observed_abuse_primary_sources": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/README.md",
+      "https://github.com/0x4m4/hexstrike-ai/tree/d689933ff579d839c676c82b231f8e98326c5f04",
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "0x4m4--hexstrike-ai",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "Strix",
+    "aliases": [],
+    "category": "ai-web-api-pentesting",
+    "what_it_does_reported": "Autonomous application-testing agents described as combining runtime assessment and vulnerability verification.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/usestrix/strix",
+    "repository_full_name": "usestrix/strix",
+    "upstream_identity_qualification": "Owning repository, project website and pinned previous reference fingerprints verified; current revision differs from the 11 November fingerprint snapshot.",
+    "pinned_revision": "01119158f8f50027591cbae73f37cf0a2fea644d",
+    "last_activity_utc": "2026-11-11T21:14:38Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-11T21:14:39Z",
+    "repository_created_at_utc": "2025-08-05T21:28:30Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/usestrix/strix/blob/01119158f8f50027591cbae73f37cf0a2fea644d/LICENSE",
+    "latest_release": {
+      "name": "v1.7.1",
+      "tag_name": "v1.7.1",
+      "published_at": "2026-11-10T21:24:38Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/usestrix/strix/releases/tag/v1.7.1"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/usestrix/strix/blob/01119158f8f50027591cbae73f37cf0a2fea644d/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/usestrix/strix/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://strix.ai"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://docs.strix.ai/llm-providers/overview"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://docs.strix.ai/quickstart"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://docs.strix.ai/llms.txt"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://docs.strix.ai/usage/viewer"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/usestrix/strix/blob/01119158f8f50027591cbae73f37cf0a2fea644d/README.md",
+        "git_blob_sha": "2cabdb1c9aa0f5d2c42955935f0bca0ed175dd5c",
+        "sha256": "0baa29969c46e021c61d56e1c1f72b461628eb454b36988efc81d98b4c6d1690",
+        "bytes": 18622,
+        "anchor_line": 46,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-11-global-ai-tooling/our-source-fingerprints.csv"
+    ],
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion added by this bounded metadata refresh.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/usestrix/strix/blob/01119158f8f50027591cbae73f37cf0a2fea644d/README.md",
+      "https://github.com/usestrix/strix/tree/01119158f8f50027591cbae73f37cf0a2fea644d"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "usestrix--strix",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "PentestGPT",
+    "aliases": [],
+    "category": "ai-agent-led-pentesting",
+    "what_it_does_reported": "LLM-driven penetration-testing research/tooling with separate legacy and autonomous agent interfaces.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/GreyDGL/PentestGPT",
+    "repository_full_name": "GreyDGL/PentestGPT",
+    "upstream_identity_qualification": "Owning upstream verified; root package, legacy CLI and agent subproject are distinct identities.",
+    "pinned_revision": "e8b1bb77d1ac00329675cec3b060aba971ec1ac8",
+    "last_activity_utc": "2026-07-14T12:58:30Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-07-14T12:58:31Z",
+    "repository_created_at_utc": "2023-02-27T06:01:53Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
+    "license_source_url": "https://github.com/GreyDGL/PentestGPT/blob/e8b1bb77d1ac00329675cec3b060aba971ec1ac8/LICENSE.md",
+    "latest_release": {
+      "name": "",
+      "tag_name": "v1.0.0",
+      "published_at": "2025-12-24T17:25:30Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/GreyDGL/PentestGPT/releases/tag/v1.0.0"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/GreyDGL/PentestGPT"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/GreyDGL/PentestGPT/blob/e8b1bb77d1ac00329675cec3b060aba971ec1ac8/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/GreyDGL/PentestGPT/releases"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://docs.anthropic.com/en/docs/claude-code"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/GreyDGL/PentestGPT/blob/e8b1bb77d1ac00329675cec3b060aba971ec1ac8/docs/docker-dev-plan.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/GreyDGL/PentestGPT/blob/e8b1bb77d1ac00329675cec3b060aba971ec1ac8/README.md",
+        "git_blob_sha": "2dbba1201c4d135926c2f6fef4e751926a8a0cd9",
+        "sha256": "b34dc3723a713b89e005c1db302a90f8a2557818353a75187351f3071cb0cd19",
+        "bytes": 12085,
+        "anchor_line": 19,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-11-global-ai-tooling/our-source-fingerprints.csv"
+    ],
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion added by this bounded metadata refresh.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/GreyDGL/PentestGPT/blob/e8b1bb77d1ac00329675cec3b060aba971ec1ac8/README.md",
+      "https://github.com/GreyDGL/PentestGPT/tree/e8b1bb77d1ac00329675cec3b060aba971ec1ac8"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "greydgl--pentestgpt",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "CAI",
+    "aliases": [
+      "Cybersecurity AI"
+    ],
+    "category": "ai-security-agent-framework-archived",
+    "what_it_does_reported": "Archived framework for building specialized AI security-testing agents.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/agent functionality described in pinned upstream documentation; no new execution claim.",
+    "official_repository": "https://github.com/aliasrobotics/cai",
+    "repository_full_name": "aliasrobotics/cai",
+    "upstream_identity_qualification": "CAI is Cybersecurity AI by Alias Robotics, not Cairn. Preserve the archived mixed-license qualification.",
+    "pinned_revision": "6dc79257777f5f1c9500b4d2319935d34a47412e",
+    "last_activity_utc": "2026-08-22T13:02:17Z",
+    "last_activity_meaning": "Default-branch latest commit committer time, not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-08-22T13:05:58Z",
+    "repository_created_at_utc": "2025-03-31T08:56:05Z",
+    "archived": true,
+    "license": "Mixed MIT-derived + proprietary research-use",
+    "license_qualification": "Pinned LICENSE independently reviewed on 11 November: MIT-derived portions plus proprietary research-only additions. The entire repository is not OSI-open-source.",
+    "license_source_url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "archived / unmaintained reference source",
+    "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-or-user-designated-repository",
+        "url": "https://github.com/aliasrobotics/cai"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/aliasrobotics/cai/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://aliasrobotics.com/cybersecuritysuperintelligence.php"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/docs/"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/docs/"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/docs/cai_installation.md"
+      },
+      {
+        "kind": "readme-linked-resource",
+        "url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/docs/cai_quickstart.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/README.md",
+        "git_blob_sha": "0f267eecad3e5e59c84b3a5ebcefdd4a9f8ba263",
+        "sha256": "9b8abf6d98f5d0323f6db1e30d1b2ccb75da144d6b9cd4d15beb0f38aa81d554",
+        "bytes": 44187,
+        "anchor_line": 23,
+        "anchor_scope": "Pinned documentation supporting project/capability identity; not a runtime detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
+    "existing_fingerprint_resources": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-11-global-ai-tooling/our-source-fingerprints.csv"
+    ],
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion added by this bounded metadata refresh.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/aliasrobotics/cai/blob/6dc79257777f5f1c9500b4d2319935d34a47412e/README.md",
+      "https://github.com/aliasrobotics/cai/tree/6dc79257777f5f1c9500b4d2319935d34a47412e"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": true,
+    "tool_id": "aliasrobotics--cai",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "ARL community backup",
+    "aliases": [
+      "Asset Reconnaissance Lighthouse",
+      "ARL"
+    ],
+    "category": "traditional-recon-asm",
+    "what_it_does_reported": "Asset enumeration, service identification and exposure inventory in a community copy of the original ARL project.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "No LLM or agent feature verified in the inspected README; traditional scanner, not inherently an AI tool.",
+    "official_repository": "https://github.com/Aabyss-Team/ARL",
+    "repository_full_name": "Aabyss-Team/ARL",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "8404734491790214f206d438bd887d7a2c094524",
+    "last_activity_utc": "2025-07-16T02:31:17Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2025-07-16T02:31:17Z",
+    "repository_created_at_utc": "2024-05-13T09:43:52Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/Aabyss-Team/ARL",
+    "latest_release": {
+      "name": "V2.6.3",
+      "tag_name": "2.6.3",
+      "published_at": "2025-03-04T09:31:24Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Aabyss-Team/ARL/releases/tag/2.6.3"
+    },
+    "lifecycle_stage": "community backup/continuation of removed upstream",
+    "lifecycle_basis": "Pinned README line 9 explicitly says original TophantTechnology repository was removed and this is a backup; original API endpoint unavailable.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Aabyss-Team/ARL"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Aabyss-Team/ARL/blob/8404734491790214f206d438bd887d7a2c094524/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Aabyss-Team/ARL/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Aabyss-Team/ARL/blob/8404734491790214f206d438bd887d7a2c094524/README.md",
+        "git_blob_sha": "fed4536d7bee3178d3f37540abae8b868dad307b",
+        "sha256": "d8af8605cf63aaf1d7d159e19d5c9a4754b65e806ccb93d820caefbf874adb8a",
+        "bytes": 12567,
+        "anchor_line": 9,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/Aabyss-Team/ARL/blob/8404734491790214f206d438bd887d7a2c094524/README.md",
+      "https://github.com/Aabyss-Team/ARL/tree/8404734491790214f206d438bd887d7a2c094524",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "aabyss-team--arl",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "ARL-Next",
+    "aliases": [],
+    "category": "recon-asm-with-ai-integration",
+    "what_it_does_reported": "ARL-derived platform with asynchronous scan orchestration, asset investigation and an MCP interface for AI clients.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "README documents MCP/AI collaboration; this is integration with AI clients, not proof every scan is autonomous.",
+    "official_repository": "https://github.com/owl234/ARL-Next",
+    "repository_full_name": "owl234/ARL-Next",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "8e642a91782c611887aedc34f1af548aca66a097",
+    "last_activity_utc": "2026-11-11T11:57:25Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-11T11:57:44Z",
+    "repository_created_at_utc": "2026-04-30T03:09:32Z",
+    "archived": false,
+    "license": "GPL-3.0",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/owl234/ARL-Next",
+    "latest_release": {
+      "name": "v1.4.5",
+      "tag_name": "v1.4.5",
+      "published_at": "2026-11-05T07:46:33Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.5"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/owl234/ARL-Next"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/owl234/ARL-Next/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://github.com/owl234/ARL-Next/releases"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/mcp-server/README.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/docs/MCP_PENTEST_TEST_CASES.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/docs/API_GUIDE.md#2-身份鉴权与安全机制"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/docs/API_GUIDE.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/README.md",
+        "git_blob_sha": "5b8b20d974bb098b9079b48d0b86a3dfb0b5454e",
+        "sha256": "b9de16cda042b18ee3f8327f60e3580db892f3d257bce18bbbe68c68b2648964",
+        "bytes": 36625,
+        "anchor_line": 73,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/owl234/ARL-Next/blob/8e642a91782c611887aedc34f1af548aca66a097/README.md",
+      "https://github.com/owl234/ARL-Next/tree/8e642a91782c611887aedc34f1af548aca66a097",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "owl234--arl-next",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "Scope Sentry",
+    "aliases": [
+      "ScopeSentry"
+    ],
+    "category": "traditional-recon-asm",
+    "what_it_does_reported": "Distributed asset mapping, subdomain, leakage, vulnerability and directory scanning with page monitoring.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "No LLM capability verified in the pinned README. Included as adjacent recon tooling in the Unit 42 taxonomy.",
+    "official_repository": "https://github.com/Autumn-27/ScopeSentry",
+    "repository_full_name": "Autumn-27/ScopeSentry",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "d770b7a137ec2de15816fea4bd561f49cf486db2",
+    "last_activity_utc": "2026-10-11T03:21:00Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-10-11T03:21:00Z",
+    "repository_created_at_utc": "2024-02-27T03:04:25Z",
+    "archived": false,
+    "license": "Unknown",
+    "license_qualification": "No license recognized by GitHub metadata and a root LICENSE fetch failed; license unverified. Do not assume an OSI license.",
+    "license_source_url": "https://api.github.com/repos/Autumn-27/ScopeSentry",
+    "latest_release": {
+      "name": "ScopeSentry 1.9.4",
+      "tag_name": "v1.9.4",
+      "published_at": "2026-08-23T09:04:26Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Autumn-27/ScopeSentry/releases/tag/v1.9.4"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Autumn-27/ScopeSentry"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Autumn-27/ScopeSentry/blob/d770b7a137ec2de15816fea4bd561f49cf486db2/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Autumn-27/ScopeSentry/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://www.scope-sentry.top/"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://www.scope-sentry.top/en/"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://plugin.scope-sentry.top/en"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://www.scope-sentry.top"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/Autumn-27/ScopeSentry/blob/d770b7a137ec2de15816fea4bd561f49cf486db2/docs/images/login.png"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Autumn-27/ScopeSentry/blob/d770b7a137ec2de15816fea4bd561f49cf486db2/README.md",
+        "git_blob_sha": "56b343e09e0244d4b10d5887026f55102665a228",
+        "sha256": "c34f7e4059d324397b53e2d39f81c1c98512f758c745e7463155c6ea969338c1",
+        "bytes": 5234,
+        "anchor_line": 10,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/Autumn-27/ScopeSentry/blob/d770b7a137ec2de15816fea4bd561f49cf486db2/README.md",
+      "https://github.com/Autumn-27/ScopeSentry/tree/d770b7a137ec2de15816fea4bd561f49cf486db2",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "autumn-27--scopesentry",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "Nemo",
+    "aliases": [
+      "Nemo Go",
+      "nemo_go"
+    ],
+    "category": "recon-asm-with-ai-integration",
+    "what_it_does_reported": "Distributed reconnaissance platform covering domains, IPs, services and website assets.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Pinned README explicitly documents LLM-assisted task reports and an MCP server; other scanning remains conventional.",
+    "official_repository": "https://github.com/hanc00l/nemo_go",
+    "repository_full_name": "hanc00l/nemo_go",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "0fda1b0d9f28fb57c1e37495ad3ed793dbb85274",
+    "last_activity_utc": "2026-08-15T12:05:29Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-08-15T12:05:30Z",
+    "repository_created_at_utc": "2021-07-29T08:13:25Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/hanc00l/nemo_go",
+    "latest_release": {
+      "name": "v3.2.1",
+      "tag_name": "v3.2.1",
+      "published_at": "2026-02-09T07:34:19Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/hanc00l/nemo_go/releases/tag/v3.2.1"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [
+      {
+        "kind": "upstream-roadmap-not-verified-shipped",
+        "statement": "README TODO names standalone-source release, model-assisted improvements and a planned V4 frontend rewrite. Treat as a dated plan, not a delivery forecast.",
+        "evidence": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/README.md#L83"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/hanc00l/nemo_go"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/hanc00l/nemo_go/releases"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/v3/docs/install.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/v3/docs/quickstart.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/v3/docs/mcp_server.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/v3/docs/image/index.png"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/v3/docs/image/dashboard.png"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/README.md",
+        "git_blob_sha": "e421b14b6382e5366348cc6f14c3fff6bb428b03",
+        "sha256": "4ccc938bc2def8d5aea43df0474edb34a8e95899c1d0b77ffcf74518f3090fb6",
+        "bytes": 5415,
+        "anchor_line": 15,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/hanc00l/nemo_go/blob/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274/README.md",
+      "https://github.com/hanc00l/nemo_go/tree/0fda1b0d9f28fb57c1e37495ad3ed793dbb85274",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "hanc00l--nemo_go",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "XingRin",
+    "aliases": [
+      "Xingrin",
+      "星环"
+    ],
+    "category": "traditional-recon-asm",
+    "what_it_does_reported": "Self-hosted distributed asset discovery, scanning, search and result-management platform.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "README reference to AI-assisted development is not an AI attack capability. No autonomous LLM function established here.",
+    "official_repository": "https://github.com/yyhuni/xingrin",
+    "repository_full_name": "yyhuni/xingrin",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1",
+    "last_activity_utc": "2026-09-21T06:08:05Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-09-21T06:08:05Z",
+    "repository_created_at_utc": "2025-09-09T05:41:08Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/yyhuni/xingrin",
+    "latest_release": {
+      "name": "v1.5.8",
+      "tag_name": "v1.5.8",
+      "published_at": "2026-01-11T11:49:49Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/yyhuni/xingrin/releases/tag/v1.5.8"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/yyhuni/xingrin"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/yyhuni/xingrin/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://xingrin.vercel.app/"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/docs/README.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/docs/quick-start.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/docs/version-management.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/docs/nuclei-template-architecture.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/README.md",
+        "git_blob_sha": "80007f911e73df7741fe81afb0f940654bd4bae6",
+        "sha256": "10ff88c86961f773beccd23f7eab10144471ae68c69144c3d802b2bbbf8f6dd6",
+        "bytes": 12398,
+        "anchor_line": 8,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/yyhuni/xingrin/blob/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1/README.md",
+      "https://github.com/yyhuni/xingrin/tree/63dfbc13d3cfbb4184d85c8f7b9f23b2c7ebace1",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "yyhuni--xingrin",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "LunaFox",
+    "aliases": [
+      "Lunafox",
+      "月狐"
+    ],
+    "category": "recon-asm-with-ai-integration",
+    "what_it_does_reported": "Next-generation self-hosted ASM platform with runtime/engine components and distributed workers, linked as XingRin successor.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "README lists MCP access for AI clients; do not infer autonomous exploitation from that interface.",
+    "official_repository": "https://github.com/yyhuni/lunafox",
+    "repository_full_name": "yyhuni/lunafox",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "e0011c6f17d12bf03ff46653c2f16aaab2a626ab",
+    "last_activity_utc": "2026-11-01T14:55:19Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-01T14:56:53Z",
+    "repository_created_at_utc": "2026-08-29T14:29:20Z",
+    "archived": false,
+    "license": "GPL-3.0-only (public projection only)",
+    "license_qualification": "Pinned LICENSE covers public Runtime/Engine/deployment source; explicitly excludes the closed Agent artifact and private signing/installer material. Not wholly open source.",
+    "license_source_url": "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/LICENSE",
+    "latest_release": {
+      "name": "v0.0.1-alpha.240",
+      "tag_name": "v0.0.1-alpha.240",
+      "published_at": "2026-11-01T14:56:54Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/yyhuni/lunafox/releases/tag/v0.0.1-alpha.240"
+    },
+    "lifecycle_stage": "alpha prerelease/public deployment projection",
+    "lifecycle_basis": "Release v0.0.1-alpha.240 has prerelease=true, published 2026-11-01T14:56:54Z; predecessor XingRin README links this successor.",
+    "horizon_evidence": [
+      {
+        "kind": "observed-alpha-release",
+        "date": "2026-11-01T14:56:54Z",
+        "evidence": "https://github.com/yyhuni/lunafox/releases/tag/v0.0.1-alpha.240"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/yyhuni/lunafox"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/yyhuni/lunafox/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://lunafox-demo.vercel.app/"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/docs/public-deployment.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/docs/public-deployment.zh-CN.md#数据库环境变量"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/docs/public-deployment.zh-CN.md#首次启动后的配置变更"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/README.md",
+        "git_blob_sha": "a5bbe6a7fc578552a19924f2dcbe39cfb4b7756f",
+        "sha256": "0f7abf2719fc0911e83face654b4a6fab27f8385d930be6dd67c9aa7ae804270",
+        "bytes": 6859,
+        "anchor_line": 77,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/yyhuni/lunafox/blob/e0011c6f17d12bf03ff46653c2f16aaab2a626ab/README.md",
+      "https://github.com/yyhuni/lunafox/tree/e0011c6f17d12bf03ff46653c2f16aaab2a626ab"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "yyhuni--lunafox",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "OpenEASD",
+    "aliases": [
+      "Open External Attack Surface Detection"
+    ],
+    "category": "recon-asm-with-optional-ai",
+    "what_it_does_reported": "External-surface discovery and scan orchestration with findings, monitoring and prioritization.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Optional Cloudflare Workers AI analysis, summaries and follow-up planning are documented as disabled by default and consent-gated.",
+    "official_repository": "https://github.com/cybersecify/OpenEASD",
+    "repository_full_name": "cybersecify/OpenEASD",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "d03cd3407844533719ff0fdd5812226d5bde57f8",
+    "last_activity_utc": "2026-10-20T15:37:54Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-10T14:06:58Z",
+    "repository_created_at_utc": "2025-08-11T11:29:49Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/cybersecify/OpenEASD",
+    "latest_release": {
+      "name": "v3.0.1",
+      "tag_name": "v3.0.1",
+      "published_at": "2026-10-14T18:26:03Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/cybersecify/OpenEASD/releases/tag/v3.0.1"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/cybersecify/OpenEASD"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/cybersecify/OpenEASD/blob/d03cd3407844533719ff0fdd5812226d5bde57f8/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/cybersecify/OpenEASD/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://cybersecify.com/openeasd"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/cybersecify/OpenEASD/blob/d03cd3407844533719ff0fdd5812226d5bde57f8/docs/03-system.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/cybersecify/OpenEASD/blob/d03cd3407844533719ff0fdd5812226d5bde57f8/docs/OPERATIONS.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/cybersecify/OpenEASD/blob/d03cd3407844533719ff0fdd5812226d5bde57f8/README.md",
+        "git_blob_sha": "a1c8749aac208be0e76f58c96a4718a896d61b41",
+        "sha256": "510c8ff7a4486d9fc7fabd85791fc270d5c434caf9178aff3d180e37963128cb",
+        "bytes": 31788,
+        "anchor_line": 19,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/cybersecify/OpenEASD/blob/d03cd3407844533719ff0fdd5812226d5bde57f8/README.md",
+      "https://github.com/cybersecify/OpenEASD/tree/d03cd3407844533719ff0fdd5812226d5bde57f8",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "cybersecify--openeasd",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "DeepAudit",
+    "aliases": [],
+    "category": "ai-source-code-auditing",
+    "what_it_does_reported": "Multi-agent source-code security analysis with sandbox verification and reporting, as described by its maintainers.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM-based audit and verification are advertised; performance/CVE claims for a closed version must not be attributed to the public build.",
+    "official_repository": "https://github.com/lintsinghua/DeepAudit",
+    "repository_full_name": "lintsinghua/DeepAudit",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9",
+    "last_activity_utc": "2026-11-01T10:22:40Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-01T10:22:41Z",
+    "repository_created_at_utc": "2025-09-19T15:53:48Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/lintsinghua/DeepAudit",
+    "latest_release": {
+      "name": "Release v3.0.4",
+      "tag_name": "v3.0.4",
+      "published_at": "2026-01-24T09:42:49Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/lintsinghua/DeepAudit/releases/tag/v3.0.4"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/lintsinghua/DeepAudit"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/lintsinghua/DeepAudit/blob/551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/lintsinghua/DeepAudit/releases"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/lintsinghua/DeepAudit/blob/551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9/docs/AGENT_AUDIT.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/lintsinghua/DeepAudit/blob/551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9/docs/LLM_PROVIDERS.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/lintsinghua/DeepAudit/blob/551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9/README.md",
+        "git_blob_sha": "6277c5dfe383309635e2eac6a70a7c10d0a4abbe",
+        "sha256": "f66451437a67027dda9b6d8417aec368afa8d6b5bd708649bb1b339c67b19a5c",
+        "bytes": 30527,
+        "anchor_line": 1,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/lintsinghua/DeepAudit/blob/551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9/README.md",
+      "https://github.com/lintsinghua/DeepAudit/tree/551cf2565fa1e8d21cae7bf4d4cc85d0d0abcfa9",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "lintsinghua--deepaudit",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "AIxVuln",
+    "aliases": [],
+    "category": "ai-source-code-auditing",
+    "what_it_does_reported": "LLM-directed vulnerability discovery and verification with function calling and Docker sandboxes.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "README documents a decision/orchestration layer, sandbox tools and configurable model APIs.",
+    "official_repository": "https://github.com/m4xxxxx/AIxVuln",
+    "repository_full_name": "m4xxxxx/AIxVuln",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "7ffe17f14607bbfd1dd4ce413c1b034824efaae9",
+    "last_activity_utc": "2026-03-14T03:51:53Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-04-25T00:56:16Z",
+    "repository_created_at_utc": "2026-01-24T06:32:18Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/m4xxxxx/AIxVuln",
+    "latest_release": {
+      "name": "v1.3",
+      "tag_name": "v1.3",
+      "published_at": "2026-03-14T04:11:10Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/m4xxxxx/AIxVuln/releases/tag/v1.3"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/m4xxxxx/AIxVuln"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/m4xxxxx/AIxVuln/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://github.com/m4xxxxx/AIxVuln"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/docs/images/img-1.png"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/docs/images/img-2.png"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/docs/images/img-3.png"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/docs/images/exp-1.png"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/README.md",
+        "git_blob_sha": "34242794b49c00cb74d6416f3deb017555f8fbc9",
+        "sha256": "2ab48d7ca9a2717cba1351b63cfeac78ce31c9461276b4959530d11bb61a3996",
+        "bytes": 18236,
+        "anchor_line": 3,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/m4xxxxx/AIxVuln/blob/7ffe17f14607bbfd1dd4ce413c1b034824efaae9/README.md",
+      "https://github.com/m4xxxxx/AIxVuln/tree/7ffe17f14607bbfd1dd4ce413c1b034824efaae9",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "m4xxxxx--aixvuln",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "AI-Infra-Guard",
+    "aliases": [
+      "A.I.G",
+      "AIG"
+    ],
+    "category": "ai-system-security-assessment",
+    "what_it_does_reported": "Security assessment of AI infrastructure, agents, MCP tools, skills and model interfaces.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Its target domain is AI-system security; includes LLM-assisted assessments, not a general C2 platform.",
+    "official_repository": "https://github.com/Tencent/AI-Infra-Guard",
+    "repository_full_name": "Tencent/AI-Infra-Guard",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "a993bd38461ffb6142fd0c36277092c0a68a1d79",
+    "last_activity_utc": "2026-11-12T02:17:48Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-12T02:17:48Z",
+    "repository_created_at_utc": "2024-12-25T06:39:30Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Apache-2.0 repository metadata and README licensing statement. Pinned README License & Attribution additionally instructs retention of LICENSE/NOTICE, product-origin acknowledgement and research/article citation. Review these declared attribution instructions alongside the source license.",
+    "license_source_url": "https://api.github.com/repos/Tencent/AI-Infra-Guard",
+    "latest_release": {
+      "name": "AI-Infra-Guard v4.6.9",
+      "tag_name": "v4.6.9",
+      "published_at": "2026-11-05T04:02:07Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.9"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Tencent/AI-Infra-Guard"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Tencent/AI-Infra-Guard/blob/a993bd38461ffb6142fd0c36277092c0a68a1d79/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Tencent/AI-Infra-Guard/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://tencent.github.io/AI-Infra-Guard/"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/Tencent/AI-Infra-Guard/blob/a993bd38461ffb6142fd0c36277092c0a68a1d79/docs/architecture_evolution.md"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://tencent.github.io/AI-Infra-Guard/?menu=getting-started"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://tencent.github.io/AI-Infra-Guard/"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://tencent.github.io/AI-Infra-Guard/?menu=faq"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Tencent/AI-Infra-Guard/blob/a993bd38461ffb6142fd0c36277092c0a68a1d79/README.md",
+        "git_blob_sha": "e34866e9523465ec717e40b3d095529aefcb4972",
+        "sha256": "54f23cd70392b5d5b1328a261e72dae451f177a0de556c646bfecc9062061e8f",
+        "bytes": 21837,
+        "anchor_line": 50,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/Tencent/AI-Infra-Guard/blob/a993bd38461ffb6142fd0c36277092c0a68a1d79/README.md",
+      "https://github.com/Tencent/AI-Infra-Guard/tree/a993bd38461ffb6142fd0c36277092c0a68a1d79",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "license_evidence_url": "https://github.com/Tencent/AI-Infra-Guard/blob/a993bd38461ffb6142fd0c36277092c0a68a1d79/README.md#L479",
+    "tool_id": "tencent--ai-infra-guard",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "AutoHunter (Chris-biu)",
+    "aliases": [
+      "AutoHunter"
+    ],
+    "category": "ai-vulnerability-hunting",
+    "what_it_does_reported": "AI-orchestrated vulnerability-testing platform integrating conventional assessment tools and scope controls.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "README claims an OpenAI-compatible planner/executor layer. Runtime effectiveness and the publisher's exact AutoHunter identity are unverified.",
+    "official_repository": "https://github.com/Chris-biu/AutoHunter",
+    "repository_full_name": "Chris-biu/AutoHunter",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "5bbdf699150b5617c7a728d5bab0a9542c211397",
+    "last_activity_utc": "2026-07-26T20:06:41Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-07-26T20:06:46Z",
+    "repository_created_at_utc": "2026-07-26T15:32:05Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Pinned LICENSE text verified; GitHub metadata returned NOASSERTION. AutoHunter adds an authorized-use disclaimer.",
+    "license_source_url": "https://github.com/Chris-biu/AutoHunter/blob/5bbdf699150b5617c7a728d5bab0a9542c211397/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "source-only/no public GitHub release found in queried release list; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [
+      {
+        "kind": "early-project-watchlist",
+        "statement": "No release found in public GitHub release list; README milestone claims are maintainer statements, not tested delivery.",
+        "evidence": "https://github.com/Chris-biu/AutoHunter/blob/5bbdf699150b5617c7a728d5bab0a9542c211397/README.md#L182"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Chris-biu/AutoHunter"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Chris-biu/AutoHunter/blob/5bbdf699150b5617c7a728d5bab0a9542c211397/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Chris-biu/AutoHunter/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Chris-biu/AutoHunter/blob/5bbdf699150b5617c7a728d5bab0a9542c211397/README.md",
+        "git_blob_sha": "e4bb46b1ae85884ea77c45cd6db47505f50540ce",
+        "sha256": "fea200cb4824c23921f952ae9e837b7afef937edeb64c225145c4dec5288b4e6",
+        "bytes": 7934,
+        "anchor_line": 5,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/Chris-biu/AutoHunter/blob/5bbdf699150b5617c7a728d5bab0a9542c211397/README.md",
+      "https://github.com/Chris-biu/AutoHunter/tree/5bbdf699150b5617c7a728d5bab0a9542c211397",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "chris-biu--autohunter",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "Cairn",
+    "aliases": [
+      "CAIRN",
+      "Carin"
+    ],
+    "category": "ai-agent-state-space-harness",
+    "what_it_does_reported": "General state-space search harness demonstrated by maintainers for autonomous penetration testing.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Agent workers coordinate through a shared graph rather than a fixed pentest workflow.",
+    "official_repository": "https://github.com/oritera/Cairn",
+    "repository_full_name": "oritera/Cairn",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "8e7e0ea67552383851dfcabfba0c4e9c8d007878",
+    "last_activity_utc": "2026-09-07T15:22:56Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-09-07T15:23:06Z",
+    "repository_created_at_utc": "2026-04-19T03:28:41Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/oritera/Cairn",
+    "latest_release": {
+      "name": "",
+      "tag_name": "v0.2.1",
+      "published_at": "2026-05-10T06:50:18Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/oritera/Cairn/releases/tag/v0.2.1"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/oritera/Cairn"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/oritera/Cairn/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/README.md",
+        "git_blob_sha": "8041f9205fdc48d551d65b1d17b51ad3c163f28d",
+        "sha256": "e8b302969405935bdb4a1f523a8b50f7f217204644a96e86490ca1a1c00600e1",
+        "bytes": 10734,
+        "anchor_line": 20,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "yes-reported-at-framework-level",
+    "observed_abuse_basis": "GTIG/Mandiant explicitly report CAIRN use in incident-response engagements; this does not make every installation or upstream release malicious.",
+    "observed_abuse_primary_sources": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks",
+      "https://norforge.com/blog/automated-subversion-attempted-takeover"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/README.md",
+      "https://github.com/oritera/Cairn/tree/8e7e0ea67552383851dfcabfba0c4e9c8d007878",
+      "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "oritera--cairn",
+    "source_identification_hypotheses": [
+      {
+        "record_id": "OWNSRC-900A3A8475D7",
+        "path": "source-identification-hypotheses.json",
+        "status": "source-reviewed; runtime untested; not a malicious IOC"
+      }
+    ]
+  },
+  {
+    "name": "Shannon",
+    "aliases": [],
+    "category": "ai-web-api-pentesting",
+    "what_it_does_reported": "Source-informed web/API assessment that uses browser and command-line actions to validate findings, per upstream documentation.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "AI pentesting is a core documented feature; this research did not run or benchmark it.",
+    "official_repository": "https://github.com/KeygraphHQ/shannon",
+    "repository_full_name": "KeygraphHQ/shannon",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "94bf442d58539994af1c929dedb8bd958e8198c1",
+    "last_activity_utc": "2026-11-11T20:16:40Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-11T21:20:16Z",
+    "repository_created_at_utc": "2025-09-27T01:51:47Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/KeygraphHQ/shannon",
+    "latest_release": {
+      "name": "v3.5.1",
+      "tag_name": "v3.5.1",
+      "published_at": "2026-11-11T21:20:17Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/KeygraphHQ/shannon/releases/tag/v3.5.1"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/KeygraphHQ/shannon"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/KeygraphHQ/shannon/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://keygraph.io/"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/docs/exp-php2shell.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/docs/exp-php2shell-testing.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/llms.txt"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/docs/shannon-xbow-aikido-benchmark.md"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/README.md",
+        "git_blob_sha": "04c3b9417233e4e235d299208489ec06720fa69e",
+        "sha256": "92f77f883bb8c253a5e4d259f740fdb278729e08a6e5dd3c78005b38acf470a4",
+        "bytes": 26591,
+        "anchor_line": 75,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No tool-specific malicious-use conclusion established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/KeygraphHQ/shannon/blob/94bf442d58539994af1c929dedb8bd958e8198c1/README.md",
+      "https://github.com/KeygraphHQ/shannon/tree/94bf442d58539994af1c929dedb8bd958e8198c1"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "keygraphhq--shannon",
+    "source_identification_hypotheses": [
+      {
+        "record_id": "OWNSRC-E33500B849C2",
+        "path": "source-identification-hypotheses.json",
+        "status": "source-reviewed; runtime untested; not a malicious IOC"
+      }
+    ]
+  },
+  {
+    "name": "Agent Zero",
+    "aliases": [
+      "AgentZero"
+    ],
+    "category": "general-purpose-agent-relevant-to-security",
+    "what_it_does_reported": "General agent with a Linux workspace, terminal, browser and desktop capabilities.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "General-purpose agent, not exclusively a pentest or C2 tool. GTIG separately reports threat-actor experimentation.",
+    "official_repository": "https://github.com/agent0ai/agent-zero",
+    "repository_full_name": "agent0ai/agent-zero",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "ba9b67df0f54ac78106ae85c552ef5d2458f7c9a",
+    "last_activity_utc": "2026-11-01T21:10:32Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-10T18:32:49Z",
+    "repository_created_at_utc": "2024-06-10T09:10:45Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Pinned MIT LICENSE verified despite GitHub NOASSERTION metadata.",
+    "license_source_url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/LICENSE",
+    "latest_release": {
+      "name": "v2.15",
+      "tag_name": "v2.15",
+      "published_at": "2026-11-01T23:52:00Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/agent0ai/agent-zero/releases/tag/v2.15"
+    },
+    "lifecycle_stage": "released; runtime quality unassessed",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/agent0ai/agent-zero"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/agent0ai/agent-zero/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://agent-zero.ai"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/docs/"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/docs/setup/installation.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/docs/setup/vps-deployment.md"
+      },
+      {
+        "kind": "readme-linked-documentation",
+        "url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/docs/setup/installation.md#headless--scripted"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/README.md",
+        "git_blob_sha": "00dbb86de1b2d2f9a196ee5a1833f1d7c6c35764",
+        "sha256": "b776433681d02bbef0d04cc1da916d8ca0b80dbd1bf4fb518b040377afc9e33a",
+        "bytes": 19502,
+        "anchor_line": 8,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "reported-threat-actor-experimentation",
+    "observed_abuse_basis": "GTIG reports experimentation and directly links agent0ai/agent-zero. This is narrower than a confirmed campaign attributed to a particular installation.",
+    "observed_abuse_primary_sources": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/README.md",
+      "https://github.com/agent0ai/agent-zero/tree/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "agent0ai--agent-zero",
+    "source_identification_hypotheses": []
+  },
+  {
+    "name": "Hermes Agent",
+    "aliases": [
+      "Hermes"
+    ],
+    "category": "adjacent-general-purpose-agent-watchlist",
+    "what_it_does_reported": "Persistent general agent with tool use and extensible skills, relevant as an orchestration substrate to monitor.",
+    "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
+    "ai_feature_assessment": "General-purpose framework. Primary reporting names Hermes in criminal staging, but a link to this exact repository/revision is unverified.",
+    "official_repository": "https://github.com/NousResearch/hermes-agent",
+    "repository_full_name": "NousResearch/hermes-agent",
+    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "pinned_revision": "3430fa287f962d4a65b8daa54229924f41383338",
+    "last_activity_utc": "2026-11-12T02:42:00Z",
+    "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
+    "repository_last_push_utc": "2026-11-12T02:46:46Z",
+    "repository_created_at_utc": "2025-07-22T22:22:28Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
+    "license_source_url": "https://api.github.com/repos/NousResearch/hermes-agent",
+    "latest_release": {
+      "name": "Hermes Agent v0.23.1",
+      "tag_name": "v0.23.1",
+      "published_at": "2026-11-10T01:42:15Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1"
+    },
+    "lifecycle_stage": "released adjacent general-purpose agent",
+    "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
+    "horizon_evidence": [
+      {
+        "kind": "adjacent-platform-watchlist",
+        "statement": "Track tool/skill changes and resolve name-level criminal-staging references; no exact offensive-campaign relationship to this repository established.",
+        "evidence": "https://norforge.com/blog/inside_cairn"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/NousResearch/hermes-agent/blob/3430fa287f962d4a65b8daa54229924f41383338/README.md"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/NousResearch/hermes-agent/releases"
+      },
+      {
+        "kind": "upstream-homepage",
+        "url": "https://hermes-agent.nousresearch.com"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://hermes-agent.nousresearch.com/docs/integrations/providers"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://hermes-agent.nousresearch.com/docs/getting-started/termux"
+      },
+      {
+        "kind": "upstream-linked-documentation",
+        "url": "https://hermes-agent.nousresearch.com/docs/"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/NousResearch/hermes-agent/blob/3430fa287f962d4a65b8daa54229924f41383338/README.md",
+        "git_blob_sha": "830be257308736e48f25ac4f2d097888b3a63a2c",
+        "sha256": "ca5c9f03262a10f7f996aa803b26a33f41a236f876c105da50367ff79de08271",
+        "bytes": 17496,
+        "anchor_line": 5,
+        "anchor_scope": "Pinned upstream documentation supporting capability/lineage identity. Not a runtime/deployment detector or malware hash."
+      }
+    ],
+    "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "NorForge names Hermes among harnesses recovered in criminal staging, citing Gambit Security. No exact link to NousResearch/hermes-agent or this pinned revision was established; name-level context is not repository attribution.",
+    "observed_abuse_primary_sources": [
+      "https://norforge.com/blog/inside_cairn"
+    ],
+    "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/NousResearch/hermes-agent/blob/3430fa287f962d4a65b8daa54229924f41383338/README.md",
+      "https://github.com/NousResearch/hermes-agent/tree/3430fa287f962d4a65b8daa54229924f41383338",
+      "https://norforge.com/blog/inside_cairn"
+    ],
+    "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
+    "global_novelty_claimed": false,
+    "name_level_abuse_context": {
+      "source_url": "https://norforge.com/blog/inside_cairn",
+      "source_locator": "Section 02, The Opening",
+      "reported_context": "NorForge describes a September 2026 Gambit Security investigation of criminal intrusion staging that named Hermes, Strix and Cairn.",
+      "exact_repository_link_verified": false,
+      "scope": "Reported name-level criminal-use context only; the NousResearch upstream identity relationship remains unverified."
+    },
+    "tool_id": "nousresearch--hermes-agent",
+    "source_identification_hypotheses": []
+  }
+]

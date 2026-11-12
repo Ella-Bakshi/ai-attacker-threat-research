@@ -1,6 +1,6 @@
 # How we collect and enrich evidence
 
-Updated 11 November 2026 in India. Our contribution includes independent analysis of public artifacts and two first-party network observations. This is a bounded investigation, not an internet-wide scanning service or an exhaustive IOC feed.
+Updated 12 November 2026 in India. Our contribution includes independent analysis of public artifacts and two first-party network observations. This is a bounded investigation, not an internet-wide scanning service or an exhaustive IOC feed. See [collecting our own indicators](original-ioc-collection.md) for the difference between original collection, independent extraction, reference fingerprints and enrichment.
 
 | Layer | What we did | Provenance and limits |
 |---|---|---|

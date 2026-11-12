@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-12
+
+- Indexed 23 verified project identities, including 15 new candidates; separated two independently derived source hypotheses from admitted IOCs.
+
+- Added 44 historical source-reported campaign observables, two host artifacts and one supporting-domain record from SecFlow/SecBox and Cairn reporting.
+- Preserved source role/capture-date distinctions, excluded redacted panels and kept generic host paths separate.
+- Documented independent artifact/sensor collection as an additional lane alongside primary-source aggregation; no new first-party attack telemetry is claimed.
+
 ## 2026-11-11
 
 - Added a dated global supplement with 27 reported campaign observables, nine own source fingerprints, five reported patterns, one historical service lead and two context records.

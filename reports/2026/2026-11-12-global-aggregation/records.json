@@ -1,0 +1,2522 @@
+[
+  {
+    "record_id": "GLOBAL-47799EF23F95",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "81.70.240.170",
+    "role": "SecFlow orchestration workspace and SSH/pivot infrastructure",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "81.70.240[.]170",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "observation_date_context": "Publisher's AttackCapture acquisition date 2026-05-15; not a first-compromise or first-malicious-use timestamp.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-05-15; not a first-compromise or first-malicious-use timestamp.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "81[.]70[.]240[.]170"
+  },
+  {
+    "record_id": "GLOBAL-D5BAA356168D",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "43.99.61.170",
+    "role": "Java/CAS exploitation workspace with GLUTTON and JNDI tooling",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "43.99.61[.]170",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "observation_date_context": "Publisher's AttackCapture acquisition date 2026-06-11; not a first-compromise or first-malicious-use timestamp.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-06-11; not a first-compromise or first-malicious-use timestamp.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "43[.]99[.]61[.]170"
+  },
+  {
+    "record_id": "GLOBAL-85F6155F6F1D",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "152.42.200.25",
+    "role": "Exploitation workspace and callback infrastructure",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "152.42.200[.]25",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "observation_date_context": "Publisher's AttackCapture acquisition date 2026-07-24; not a first-compromise or first-malicious-use timestamp.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-07-24; not a first-compromise or first-malicious-use timestamp.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "152[.]42[.]200[.]25"
+  },
+  {
+    "record_id": "GLOBAL-E183FA1FA375",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "129.211.184.149",
+    "role": "SecBox-related payload, C2 and post-exploitation infrastructure",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "129.211.184[.]149",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "observation_date_context": "Publisher's AttackCapture acquisition date 2026-08-04; not a first-compromise or first-malicious-use timestamp.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-08-04; not a first-compromise or first-malicious-use timestamp.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "129[.]211[.]184[.]149"
+  },
+  {
+    "record_id": "GLOBAL-BF070149B6B7",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "159.223.64.67",
+    "role": "Malicious MySQL-compatible deserialization and callback workspace",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "159.223.64[.]67",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "observation_date_context": "Publisher's AttackCapture acquisition date 2026-08-04; not a first-compromise or first-malicious-use timestamp.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-08-04; not a first-compromise or first-malicious-use timestamp.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "159[.]223[.]64[.]67"
+  },
+  {
+    "record_id": "GLOBAL-790BBEA66493",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4_port",
+    "indicator": "129.211.184.149:64288",
+    "role": "Embedded SecBox Windows-implant C2 endpoint",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "129.211.184[.]149:64288",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "129[.]211[.]184[.]149:64288"
+  },
+  {
+    "record_id": "GLOBAL-B07FECCCF48E",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4_port",
+    "indicator": "129.211.184.149:8443",
+    "role": "SecBox controller and payload-distribution endpoint",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "129.211.184[.]149:8443",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "129[.]211[.]184[.]149:8443"
+  },
+  {
+    "record_id": "GLOBAL-FA662CA04AEA",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4_port",
+    "indicator": "158.247.234.124:18000",
+    "role": "SecBox TCP/WebSocket redirector obtained through dead-drop configuration",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "158.247.234[.]124:18000",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "158[.]247[.]234[.]124:18000"
+  },
+  {
+    "record_id": "GLOBAL-AC23B2A5260C",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4_port",
+    "indicator": "207.148.109.245:18000",
+    "role": "Earlier SecBox plaintext dead-drop redirector",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "207.148.109[.]245:18000",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "207[.]148[.]109[.]245:18000"
+  },
+  {
+    "record_id": "GLOBAL-8E629CCB3970",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "network_endpoint",
+    "indicator": "tcp://imported-concerns-listening-typing.trycloudflare.com:443",
+    "role": "Historical SecBox dead-drop TCP route",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "tcp://imported-concerns-listening-typing[.]trycloudflare[.]com:443",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "tcp://imported-concerns-listening-typing[.]trycloudflare[.]com:443"
+  },
+  {
+    "record_id": "GLOBAL-462245115553",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "network_endpoint",
+    "indicator": "tcp://marriage-step-wave-heavy.trycloudflare.com:443",
+    "role": "Historical SecBox dead-drop TCP route",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "tcp://marriage-step-wave-heavy[.]trycloudflare[.]com:443",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "tcp://marriage-step-wave-heavy[.]trycloudflare[.]com:443"
+  },
+  {
+    "record_id": "GLOBAL-641A154F455F",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "url",
+    "indicator": "wss://wins-say-charm-social.trycloudflare.com/c2",
+    "role": "Historical SecBox dead-drop WebSocket route",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "wss://wins-say-charm-social[.]trycloudflare[.]com/c2",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "wss://wins-say-charm-social[.]trycloudflare[.]com/c2"
+  },
+  {
+    "record_id": "GLOBAL-BA858F6619EA",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4_port",
+    "indicator": "103.45.65.93:35888",
+    "role": "Shared campaign SOCKS5 egress endpoint",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "103.45.65[.]93:35888",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "103[.]45[.]65[.]93:35888"
+  },
+  {
+    "record_id": "GLOBAL-1FFCEEBE0705",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4_port",
+    "indicator": "43.162.217.10:35888",
+    "role": "Primary SecFlow-task SOCKS egress endpoint",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "43.162.217[.]10:35888",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "43[.]162[.]217[.]10:35888"
+  },
+  {
+    "record_id": "GLOBAL-BA4BDC765754",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "211.159.155.240",
+    "role": "SecFlow gateway infrastructure",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "211.159.155[.]240",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "211[.]159[.]155[.]240"
+  },
+  {
+    "record_id": "GLOBAL-09B187CDF121",
+    "framework": "SecFlow",
+    "publication_category": "supporting-context",
+    "indicator_type": "domain_pattern",
+    "indicator": "*.niestools.com",
+    "role": "Source-reported operator-support domain pattern; model relays, gateways and tooling services",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table1",
+      "literal": "*.niestools[.]com",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed. Operator-support domain scope, not a blanket malicious-domain or C2 verdict; no wildcard expansion performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "*[.]niestools[.]com"
+  },
+  {
+    "record_id": "GLOBAL-39AF6B6E9295",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "20a8ed7d235cf6419e2d4b1e439595ef96961adaecf3c990c5cd507eb4a74ca4",
+    "role": "Publisher-identified Windows SecBox-compatible implant",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "20a8ed7d235cf6419e2d4b1e439595ef96961adaecf3c990c5cd507eb4a74ca4",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "agent_new.out"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "20a8ed7d235cf6419e2d4b1e439595ef96961adaecf3c990c5cd507eb4a74ca4"
+  },
+  {
+    "record_id": "GLOBAL-843CE8FEE64E",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "0b3d76cf1ac6648d4cfbe39c8fea67c6b28a361ea6de86a92cc7d54a0181cc9e",
+    "role": "Publisher-identified Windows SecBox payload, reported executed in Fengtai intrusion",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "0b3d76cf1ac6648d4cfbe39c8fea67c6b28a361ea6de86a92cc7d54a0181cc9e",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "e6475722.exe / v11.exe"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "0b3d76cf1ac6648d4cfbe39c8fea67c6b28a361ea6de86a92cc7d54a0181cc9e"
+  },
+  {
+    "record_id": "GLOBAL-481B82F6F4DA",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "3c9b2ec423f91642d2d09031d47e50d7ebe77a8b12ec5e393405f85da11a0f6a",
+    "role": "Publisher-identified Windows implant variant",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "3c9b2ec423f91642d2d09031d47e50d7ebe77a8b12ec5e393405f85da11a0f6a",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "av2_chk_cn-44.exe and aliases"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "3c9b2ec423f91642d2d09031d47e50d7ebe77a8b12ec5e393405f85da11a0f6a"
+  },
+  {
+    "record_id": "GLOBAL-C4BD03144A6A",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "4ecbdaedf9040dbbb33ce7a96ad961dce0f3ffb2c41285606a27a7c5ab3d2273",
+    "role": "Publisher-identified Linux SecBox-compatible implant",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "4ecbdaedf9040dbbb33ce7a96ad961dce0f3ffb2c41285606a27a7c5ab3d2273",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "bf57c009.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "4ecbdaedf9040dbbb33ce7a96ad961dce0f3ffb2c41285606a27a7c5ab3d2273"
+  },
+  {
+    "record_id": "GLOBAL-B2A9BC3CCB93",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "eef30bb6834bf349d1b1f4401aa0b8e73631ea632a884c6498a5b3a9e069d412",
+    "role": "Retained Windows implant; candidate association to c22.exe/fw.exe deployment, based on size rather than exact executed-byte recovery",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "Medium",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "eef30bb6834bf349d1b1f4401aa0b8e73631ea632a884c6498a5b3a9e069d412",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "c22.exe / fw.exe / fw_c049574c.exe"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "eef30bb6834bf349d1b1f4401aa0b8e73631ea632a884c6498a5b3a9e069d412"
+  },
+  {
+    "record_id": "GLOBAL-5EEBEDBDB054",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "dcd59349bd6cc29e59da5105f2f08f606ece8dfac4e369e052eca1786450f541",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: down.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "dcd59349bd6cc29e59da5105f2f08f606ece8dfac4e369e052eca1786450f541",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "down.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "dcd59349bd6cc29e59da5105f2f08f606ece8dfac4e369e052eca1786450f541"
+  },
+  {
+    "record_id": "GLOBAL-D34692921F15",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "135b33b289d481d60fa2527aeae5882d33adcb6756df89ea7684f4af3567b141",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: downx.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "135b33b289d481d60fa2527aeae5882d33adcb6756df89ea7684f4af3567b141",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "downx.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "135b33b289d481d60fa2527aeae5882d33adcb6756df89ea7684f4af3567b141"
+  },
+  {
+    "record_id": "GLOBAL-ACC1AE8867F5",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "9ef85857ed2b53a23eb41ce5769b4fb5b8b2225404b227a776520771df86706e",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: extract.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "9ef85857ed2b53a23eb41ce5769b4fb5b8b2225404b227a776520771df86706e",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "extract.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "9ef85857ed2b53a23eb41ce5769b4fb5b8b2225404b227a776520771df86706e"
+  },
+  {
+    "record_id": "GLOBAL-3812D8E10BC5",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "797676d3becc124bb6705ebd76189e8decedae3abf978434d730459133351064",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: sqldump.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "797676d3becc124bb6705ebd76189e8decedae3abf978434d730459133351064",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "sqldump.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "797676d3becc124bb6705ebd76189e8decedae3abf978434d730459133351064"
+  },
+  {
+    "record_id": "GLOBAL-0BAF5852BAE0",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "af6404a125d1e4eb67425ec17f2abeec7242fb6f7377de739e47cb7f5d147eee",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: sql6.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "af6404a125d1e4eb67425ec17f2abeec7242fb6f7377de739e47cb7f5d147eee",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "sql6.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "af6404a125d1e4eb67425ec17f2abeec7242fb6f7377de739e47cb7f5d147eee"
+  },
+  {
+    "record_id": "GLOBAL-49B863637E11",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "053c8dfb147262aaedf0d9cdce631ad73cfd5b1a808114c12bbe5adfe4796302",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: doc_helper.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "053c8dfb147262aaedf0d9cdce631ad73cfd5b1a808114c12bbe5adfe4796302",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "doc_helper.aspx",
+        "doc_view_666b2dde.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "053c8dfb147262aaedf0d9cdce631ad73cfd5b1a808114c12bbe5adfe4796302"
+  },
+  {
+    "record_id": "GLOBAL-D0D600447056",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "80d778c9d9e44896f08b1a196254527e39da4e8ce5edebf8d296b7dec6b7b3e0",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: dl_e6.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "80d778c9d9e44896f08b1a196254527e39da4e8ce5edebf8d296b7dec6b7b3e0",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "dl_e6.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "80d778c9d9e44896f08b1a196254527e39da4e8ce5edebf8d296b7dec6b7b3e0"
+  },
+  {
+    "record_id": "GLOBAL-8645D5293866",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "f7c233df3423912296a4e78dd1fa7a1f6412606177336be0762961c93e8fae3c",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: dl_v11.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "f7c233df3423912296a4e78dd1fa7a1f6412606177336be0762961c93e8fae3c",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "dl_v11.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "f7c233df3423912296a4e78dd1fa7a1f6412606177336be0762961c93e8fae3c"
+  },
+  {
+    "record_id": "GLOBAL-E9E7C79B57F4",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "548df87041ea2cbe99fc519fd89c5b7cdfe935d87a803a80a5f747aa9f076091",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: dl_icn.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "548df87041ea2cbe99fc519fd89c5b7cdfe935d87a803a80a5f747aa9f076091",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "dl_icn.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "548df87041ea2cbe99fc519fd89c5b7cdfe935d87a803a80a5f747aa9f076091"
+  },
+  {
+    "record_id": "GLOBAL-7165E9AB0CAB",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "79cc5855375b5c840bae8263dc3dc5a9fd9cbd7920ab4ed65d407fd830d3eda1",
+    "role": "Publisher-identified campaign ASPX webshell, loader or collection artifact: launchfw.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "79cc5855375b5c840bae8263dc3dc5a9fd9cbd7920ab4ed65d407fd830d3eda1",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "launchfw.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "79cc5855375b5c840bae8263dc3dc5a9fd9cbd7920ab4ed65d407fd830d3eda1"
+  },
+  {
+    "record_id": "GLOBAL-C66D714067C2",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "a407f540f4eb0c8fae5cd83fa6e210df6c4ed7fca6aedb6ebc5efbf031989ac4",
+    "role": "Source-reported EFSRPC named-pipe token impersonation and privilege-escalation payload potato4.aspx",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "a407f540f4eb0c8fae5cd83fa6e210df6c4ed7fca6aedb6ebc5efbf031989ac4",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "potato4.aspx"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "a407f540f4eb0c8fae5cd83fa6e210df6c4ed7fca6aedb6ebc5efbf031989ac4"
+  },
+  {
+    "record_id": "GLOBAL-47529C1BDAB7",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "00759d29178baabcbe9682a953c64e179fd24d86dac0d6abdc8e5070216923f2",
+    "role": "Publisher-identified GLUTTON injection artifact: cb1_glutton.bin",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "00759d29178baabcbe9682a953c64e179fd24d86dac0d6abdc8e5070216923f2",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "cb1_glutton.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "00759d29178baabcbe9682a953c64e179fd24d86dac0d6abdc8e5070216923f2"
+  },
+  {
+    "record_id": "GLOBAL-31842F598BD4",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "f51ab15a89155ce4d3bcd0a65cf6a3ccf62115f502e0863c19baf93d11c57acc",
+    "role": "Publisher-identified GLUTTON injection artifact: cb1_glutton_wl.bin",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "f51ab15a89155ce4d3bcd0a65cf6a3ccf62115f502e0863c19baf93d11c57acc",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "cb1_glutton_wl.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "f51ab15a89155ce4d3bcd0a65cf6a3ccf62115f502e0863c19baf93d11c57acc"
+  },
+  {
+    "record_id": "GLOBAL-2933B7B7F75B",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "853222ffdcc74dd606f6ff79ff353ce3626d50e54e9aa1a87fb03e2121e82aaf",
+    "role": "Publisher-identified GLUTTON injection artifact: cb1_redis_glutton.bin",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "853222ffdcc74dd606f6ff79ff353ce3626d50e54e9aa1a87fb03e2121e82aaf",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "cb1_redis_glutton.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "853222ffdcc74dd606f6ff79ff353ce3626d50e54e9aa1a87fb03e2121e82aaf"
+  },
+  {
+    "record_id": "GLOBAL-1B0E2322F453",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "218d8508c2035c78b49d33e087e33643f4f906af5694be68cf939f17fa4b5ffd",
+    "role": "Publisher-identified Java in-memory filter component",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "218d8508c2035c78b49d33e087e33643f4f906af5694be68cf939f17fa4b5ffd",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "MethodInvoker.class"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "218d8508c2035c78b49d33e087e33643f4f906af5694be68cf939f17fa4b5ffd"
+  },
+  {
+    "record_id": "GLOBAL-D7AD8A0C43E1",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "2deac4ab60f6cb1bb65fa4df5dbd9dcf7b7bc27e16bea55c3ddbe47154720277",
+    "role": "Publisher-identified obfuscated in-memory-payload loader: confusion_d0c41072a0dc784c.jsp",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "2deac4ab60f6cb1bb65fa4df5dbd9dcf7b7bc27e16bea55c3ddbe47154720277",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "confusion_d0c41072a0dc784c.jsp"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "2deac4ab60f6cb1bb65fa4df5dbd9dcf7b7bc27e16bea55c3ddbe47154720277"
+  },
+  {
+    "record_id": "GLOBAL-5DF7E5FD3826",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "e6ee24c6775867714d1e4b586d75c0168e61ba49b36e0a29b73cbc925df6ae47",
+    "role": "Publisher-identified obfuscated in-memory-payload loader: confusion_d0c41072a0dc784c_nodejs.html",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "e6ee24c6775867714d1e4b586d75c0168e61ba49b36e0a29b73cbc925df6ae47",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "confusion_d0c41072a0dc784c_nodejs.html"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "e6ee24c6775867714d1e4b586d75c0168e61ba49b36e0a29b73cbc925df6ae47"
+  },
+  {
+    "record_id": "GLOBAL-D82FA001648C",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "1c00ce5354c91a9db878e2b4db750c2a74140e0d15aeac9b8cecf4599598b736",
+    "role": "Publisher-identified Java deserialization downloader artifact: CommonsBeanutils1.bin",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "1c00ce5354c91a9db878e2b4db750c2a74140e0d15aeac9b8cecf4599598b736",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "CommonsBeanutils1.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "1c00ce5354c91a9db878e2b4db750c2a74140e0d15aeac9b8cecf4599598b736"
+  },
+  {
+    "record_id": "GLOBAL-C7E81C06F9A0",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "27fae1b7be68b0c27c5dad33aaed9de5b38406fb20b971757b6be386e3ffc7a6",
+    "role": "Publisher-identified Java deserialization downloader artifact: CommonsCollections6.bin",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "27fae1b7be68b0c27c5dad33aaed9de5b38406fb20b971757b6be386e3ffc7a6",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "CommonsCollections6.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "27fae1b7be68b0c27c5dad33aaed9de5b38406fb20b971757b6be386e3ffc7a6"
+  },
+  {
+    "record_id": "GLOBAL-4F4CE46E7EE3",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "sha256",
+    "indicator": "77f5b5321e2f5c18b3c610e50084b98201fb6214e13665cc49da5afbf3f49611",
+    "role": "Publisher-identified Java deserialization downloader artifact: Spring1.bin",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Indicators and observables / Table2",
+      "literal": "77f5b5321e2f5c18b3c610e50084b98201fb6214e13665cc49da5afbf3f49611",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "file_aliases": [
+        "Spring1.bin"
+      ]
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "77f5b5321e2f5c18b3c610e50084b98201fb6214e13665cc49da5afbf3f49611"
+  },
+  {
+    "record_id": "GLOBAL-055E624D98C3",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "url",
+    "indicator": "http://158.247.234.124:18000/c22.exe",
+    "role": "Publisher-described Windows implant staging URL",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Implant deployment via Webshells",
+      "literal": "hXXp://158.247.234[.]124:18000/c22.exe",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "http://158[.]247[.]234[.]124:18000/c22[.]exe"
+  },
+  {
+    "record_id": "GLOBAL-7BDBE332453E",
+    "framework": "SecFlow",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "url_template",
+    "indicator": "http://129.211.184.149:8443/999b4e8c/public/dnc/a6d28ebe?os=<os>&arch=<arch>",
+    "role": "Publisher-described platform-aware SecBox-compatible download template",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Fake MySQL deserialization and Afghan enumeration",
+      "literal": "hxxp://129.211.184[.]149:8443/999b4e8c/public/dnc/a6d28ebe?os=<os>& arch =< arch >",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "normalization_notes": "Defanged scheme/IP normalized; HTML text spacing around arch template placeholder removed. Placeholder syntax is retained and is not a real host observation.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "http://129[.]211[.]184[.]149:8443/999b4e8c/public/dnc/a6d28ebe?os=<os>&arch=<arch>"
+  },
+  {
+    "record_id": "GLOBAL-99624F4A17C2",
+    "framework": "SecFlow",
+    "publication_category": "report-host-network-artifacts",
+    "indicator_type": "file_path",
+    "indicator": "C:\\Windows\\Temp\\v11.exe",
+    "role": "Publisher-described Windows implant staging path; filename alone is not specific",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "Medium",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Implant deployment / Table2",
+      "literal": "C:\\Windows\\Temp\\v11.exe",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed. Generic path/filename requires incident correlation and is not a standalone detector.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "C:\\Windows\\Temp\\v11.exe"
+  },
+  {
+    "record_id": "GLOBAL-A4AE0838350D",
+    "framework": "SecFlow",
+    "publication_category": "report-host-network-artifacts",
+    "indicator_type": "file_path",
+    "indicator": "C:\\Windows\\Temp\\fw.exe",
+    "role": "Publisher-described Windows implant staging path; filename alone is not specific",
+    "campaign": "Nie/SecFlow-associated Asia campaign",
+    "confidence": "Medium",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+    "source_published_date": "2026-09-03",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "Implant deployment / Table2",
+      "literal": "C:\\Windows\\Temp\\fw.exe",
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+    },
+    "source_references": [
+      {
+        "source_id": "secflow",
+        "url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
+        "retrieved_at_utc": "2026-11-12T02:34:10.146074+00:00",
+        "bytes": 967221,
+        "sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "SecFlow",
+      "Claude",
+      "Qwen",
+      "DeepSeek"
+    ],
+    "framework_relationship": "Campaign association. SecBox and GLUTTON roles are retained separately from the SecFlow AI orchestrator; no ARTEX/CyberStrikeAI connection established.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed. Generic path/filename requires incident correlation and is not a standalone detector.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "C:\\Windows\\Temp\\fw.exe"
+  },
+  {
+    "record_id": "GLOBAL-B13BE11D9417",
+    "framework": "Cairn",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "199.247.25.25",
+    "role": "Source-reported AIA0002 staging server in Cairn-associated operation",
+    "campaign": "NorForge AIA0002 Cairn-associated operation",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://norforge.com/blog/inside_cairn",
+    "source_published_date": "2026-10-19",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "B Indicators of compromise / Panels and staging servers",
+      "literal": "199.247.25.25",
+      "source_document_sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69"
+    },
+    "source_references": [
+      {
+        "source_id": "norforge-cairn",
+        "url": "https://norforge.com/blog/inside_cairn",
+        "retrieved_at_utc": "2026-11-12T02:34:11.000376+00:00",
+        "bytes": 63702,
+        "sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "Cairn"
+    ],
+    "framework_relationship": "Publisher links these staging nodes to AIA0002; they are not unredacted Cairn panel addresses or proven C2 listeners.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "199[.]247[.]25[.]25"
+  },
+  {
+    "record_id": "GLOBAL-0EE1C686ABF2",
+    "framework": "Cairn",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "199.247.27.2",
+    "role": "Source-reported AIA0002 staging server in Cairn-associated operation",
+    "campaign": "NorForge AIA0002 Cairn-associated operation",
+    "confidence": "High",
+    "confidence_scope": "Confidence in the primary publisher's exact historical observable and stated role; current ownership/liveness and exclusive tool attribution were not independently verified.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://norforge.com/blog/inside_cairn",
+    "source_published_date": "2026-10-19",
+    "reviewed_at_utc": "2026-11-12T02:39:13.182941+00:00",
+    "first_seen": "",
+    "last_seen": "",
+    "source_locator": {
+      "section": "B Indicators of compromise / Panels and staging servers",
+      "literal": "199.247.27.2",
+      "source_document_sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69"
+    },
+    "source_references": [
+      {
+        "source_id": "norforge-cairn",
+        "url": "https://norforge.com/blog/inside_cairn",
+        "retrieved_at_utc": "2026-11-12T02:34:11.000376+00:00",
+        "bytes": 63702,
+        "sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69"
+      }
+    ],
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "new_to_repository": true,
+    "associated_ai_tools": [
+      "Cairn"
+    ],
+    "framework_relationship": "Publisher links these staging nodes to AIA0002; they are not unredacted Cairn panel addresses or proven C2 listeners.",
+    "limitations": "Historical primary-source association, not a current blocklist verdict or independently observed operation. No target connection, resolution, authentication or malware execution was performed.",
+    "collection_origin": "external_public_report",
+    "analyst_contribution": "Independent source verification and curation; no original collection or malware-byte derivation claimed.",
+    "observation_date_basis": "Source activity time unknown; publisher capture/acquisition context and publication dates retained separately.",
+    "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
+    "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
+    "association_scope": "source_reported_campaign_association_not_framework_exclusive",
+    "indicator_defanged": "199[.]247[.]27[.]2"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "Cairn",
+  "repository": "https://github.com/oritera/Cairn",
+  "pinned_revision": "8e7e0ea67552383851dfcabfba0c4e9c8d007878",
+  "readme_url": "https://raw.githubusercontent.com/oritera/Cairn/8e7e0ea67552383851dfcabfba0c4e9c8d007878/README.md",
+  "readme_sha256": "e8b302969405935bdb4a1f523a8b50f7f217204644a96e86490ca1a1c00600e1",
+  "identity_evidence": "Official repository README identifies Cairn as a general-purpose state-space search engine validated first on autonomous penetration testing.",
+  "distinct_from": [
+    "CAI",
+    "cairnsecurity.com",
+    "plune-ai/cairn"
+  ],
+  "confidence_scope": "Repository identity and pinned README only; no campaign generating revision or current deployment proof."
+}
