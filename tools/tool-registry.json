@@ -77,7 +77,40 @@
     "global_novelty_claimed": false,
     "baseline_entry": true,
     "tool_id": "baarai--artex",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "source_review": "artex-source-review.md",
+    "meaningful_fork_resources": [
+      {
+        "repository": "https://github.com/RuoJi6/ARTEX",
+        "scope": "Version-qualified optional-auth and health response changes",
+        "evidence": [
+          "https://github.com/RuoJi6/ARTEX/blob/04c8c54ff8ba3d483094bef6f72e4e8ed8ff29b4/server/basic_auth.go#L138",
+          "https://github.com/RuoJi6/ARTEX/commit/520317636467fe9a45052b7f1ebdcf8f0805924f",
+          "https://github.com/RuoJi6/ARTEX/commit/f053931a1df57916d5132a42f8920adf2f9aa842"
+        ]
+      },
+      {
+        "repository": "https://github.com/panda0x123/artex-ymh",
+        "scope": "HTTP-shell POST path in this fork",
+        "evidence": [
+          "https://github.com/panda0x123/artex-ymh/blob/48adc7f1d8f62cbc47e658c9a2b47d6f63ca6cb1/session/http_shell.go#L257"
+        ]
+      },
+      {
+        "repository": "https://github.com/200210xsb/artex-full",
+        "scope": "HTTP-fingerprinting helper in this fork",
+        "evidence": [
+          "https://github.com/200210xsb/artex-full/blob/97d4960495421abc557060251eddcf761f3001c9/server/nuclei.go#L1402"
+        ]
+      },
+      {
+        "repository": "https://github.com/luojiaping/ARTEX",
+        "scope": "Model-provider credential-checking helper; not generic victim traffic",
+        "evidence": [
+          "https://github.com/luojiaping/ARTEX/blob/7baca5dda545bee3df3601453a99c8002af97722/credhunt/probe.go#L460"
+        ]
+      }
+    ]
   },
   {
     "name": "CyberStrikeAI",

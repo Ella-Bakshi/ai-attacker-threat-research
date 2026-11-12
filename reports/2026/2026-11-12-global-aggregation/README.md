@@ -34,6 +34,8 @@ The separate [tool index](../../../tools/README.md) now contains 23 verified ide
 
 [Strand Intelligence](https://www.strandintelligence.com/blog/anatomy-of-artex-infrastructure-indicators-and-implications) corroborates the existing ARTEX favicon identity and authentication realm; lab/example infrastructure was excluded. [Sophos](https://www.sophos.com/en-us/blog/artex-attackers-apply-agentic-ai) provides vendor detection identifiers and behavioral guidance, not an additional malicious network/file IOC set. Its rendered article was reviewed; direct raw capture timed out. Neither review increased the admitted count.
 
+[User-supplied ARTEX source review](../../../tools/artex-source-review.md) adds version-qualified interpretation of three existing records and three source-verified fork markers outside admitted totals. No malicious infrastructure was added.
+
 ## Review limits
 
 Exact source literals, hashes, normalization, aliases, role boundaries and corpus overlap were checked independently. No target probing, candidate DNS resolution, sample execution, Censys MCP call or paid-provider use occurred. Historical infrastructure can be reassigned. Reconstructing private/redacted infrastructure or treating enrichment as proof of compromise remains outside the admission standard.

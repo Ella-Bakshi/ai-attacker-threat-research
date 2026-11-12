@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- Added version-qualified ARTEX enrichment/realm review and three pinned fork UA references; preserved historical records and counts.
+
 - Indexed 23 verified project identities, including 15 new candidates; separated two independently derived source hypotheses from admitted IOCs.
 
 - Added 44 historical source-reported campaign observables, two host artifacts and one supporting-domain record from SecFlow/SecBox and Cairn reporting.

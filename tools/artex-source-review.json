@@ -1,0 +1,152 @@
+{
+  "title": "ARTEX source-qualified fingerprint review",
+  "reviewed_at_utc": "2026-11-12T03:13:46.195948+00:00",
+  "source_article": {
+    "url": "https://andpalmier.com/posts/artex-source-behind-iocs/",
+    "author": "Andrea Palmieri",
+    "published_at_utc": "2026-11-08T00:00:00+00:00"
+  },
+  "new_malicious_iocs": 0,
+  "new_ips": 0,
+  "canonical_count_change": 0,
+  "global_novelty_claimed": false,
+  "review_annotations": [
+    {
+      "record_id": "AR-F701725362AE",
+      "indicator": "artex-enrich/1.0",
+      "preserve": "Source-present User-Agent in the existing pinned BaaRai/reference artifacts.",
+      "annotation": "At BaaRai commit 81eab87d166dddfc0d8be2707eadec788b61be0d, inspection of all 379 tracked Go blobs found ProbeSite/ResolveDomain only in interface declarations, method definitions and comments. ToolSet.SetEnrich stores the engine interface; worker wiring and engine construction do not establish invocation. No static call site was found. Treat the UA as implemented/source-present capability, not established runtime target egress.",
+      "sources": [
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/agent/tools.go#L221",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/agent/tools.go#L308",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/agent/worker.go#L410",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/enrich/enrich.go#L119",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/enrich/enrich.go#L122",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/enrich/enrich.go#L233"
+      ],
+      "limit": "This is a source-level negative call-site result, not a native runtime callgraph or proof about modified/future code."
+    },
+    {
+      "record_id": "AR-3EF7E3FFA9FC",
+      "indicator": "GET; artex-enrich/1.0; response read cap 1048576 bytes; no redirect follow",
+      "preserve": "Prior native/static request-construction, literal, cap and redirect evidence.",
+      "annotation": "Implemented request behavior and native function presence remain valid static findings. The same pinned source has no static ProbeSite/ResolveDomain call site. Neither finding proves a runtime request or an effective target-side detection rule. This review did not execute the v0.5.1 binary or establish a native runtime call graph.",
+      "sources": [
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/enrich/enrich.go#L119",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/enrich/enrich.go#L122",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/enrich/enrich.go#L233",
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/agent/tools.go#L308"
+      ]
+    },
+    {
+      "record_id": "AR-1D971BC82C43",
+      "indicator": "WWW-Authenticate: Basic realm=\"ARTEX\"",
+      "preserve": "Historical vendor-observed low-specificity header.",
+      "annotation": "Version-, lineage- and configuration-dependent. RuoJi6/ARTEX introduced the optional realm in 04c8c54ff8ba3d483094bef6f72e4e8ed8ff29b4. On 2026-11-03, 520317636467fe9a45052b7f1ebdcf8f0805924f replaced ARTEX with generic Restricted and removed service/version from health output. f053931a1df57916d5132a42f8920adf2f9aa842 then put health checks behind optional Basic Auth. Other forks can retain the old realm. Absence is inconclusive; Restricted is not a replacement ARTEX IOC. Chronology does not establish an evasion motive.",
+      "sources": [
+        "https://github.com/RuoJi6/ARTEX/blob/04c8c54ff8ba3d483094bef6f72e4e8ed8ff29b4/server/basic_auth.go#L138",
+        "https://github.com/RuoJi6/ARTEX/commit/520317636467fe9a45052b7f1ebdcf8f0805924f",
+        "https://github.com/RuoJi6/ARTEX/commit/f053931a1df57916d5132a42f8920adf2f9aa842"
+      ]
+    }
+  ],
+  "optional_fork_software_fingerprints": [
+    {
+      "framework": "ARTEX",
+      "fork": "panda0x123/artex-ymh",
+      "indicator_type": "user_agent",
+      "indicator": "Mozilla/5.0 (ARTEX)",
+      "role": "HTTP-shell POST path in this fork",
+      "publication_category": "software-fingerprints",
+      "confidence": "High",
+      "confidence_scope": "Exact source literal and header-use site; runtime execution and maliciousness unestablished.",
+      "evidence_score_hint": 20,
+      "origin": "analyst_source_verification_of_previously_published_observable",
+      "our_contribution": "Independently rechecked the article-linked immutable file and header assignment. No first-discovery claim.",
+      "source_commit": "48adc7f1d8f62cbc47e658c9a2b47d6f63ca6cb1",
+      "source_path": "session/http_shell.go",
+      "source_line": 257,
+      "source_file_sha256": "16505bf5f94628a82ed73d75b0b64b3f5ce4c90e9f60c79100ba8fa0d28ffbb7",
+      "primary_source_url": "https://github.com/panda0x123/artex-ymh/blob/48adc7f1d8f62cbc47e658c9a2b47d6f63ca6cb1/session/http_shell.go#L257",
+      "source_article": "https://andpalmier.com/posts/artex-source-behind-iocs/",
+      "reviewed_at_utc": "2026-11-12T03:13:46.195948+00:00",
+      "limitations": "Fork/path-specific software signal; no deployment, compromise, operator or campaign attribution.",
+      "source_published_date": "2026-11-08",
+      "source_publication_meaning": "Date of the cited article; not source commit, software release or deployment time.",
+      "first_seen": "",
+      "last_seen": "",
+      "global_novelty_claimed": false,
+      "runtime_tested": false,
+      "in_admitted_ioc_catalog": false
+    },
+    {
+      "framework": "ARTEX",
+      "fork": "200210xsb/artex-full",
+      "indicator_type": "user_agent",
+      "indicator": "Mozilla/5.0 (compatible; ARTEX-Nuclei-Fingerprint/1.0)",
+      "role": "HTTP-fingerprinting helper in this fork",
+      "publication_category": "software-fingerprints",
+      "confidence": "High",
+      "confidence_scope": "Exact source literal and header-use site; runtime execution and maliciousness unestablished.",
+      "evidence_score_hint": 20,
+      "origin": "analyst_source_verification_of_previously_published_observable",
+      "our_contribution": "Independently rechecked the article-linked immutable file and header assignment. No first-discovery claim.",
+      "source_commit": "97d4960495421abc557060251eddcf761f3001c9",
+      "source_path": "server/nuclei.go",
+      "source_line": 1402,
+      "source_file_sha256": "e7a77b61f0da462c2e130371ce0082936df85feea1a86ff5ecbd7ad07b387dc9",
+      "primary_source_url": "https://github.com/200210xsb/artex-full/blob/97d4960495421abc557060251eddcf761f3001c9/server/nuclei.go#L1402",
+      "source_article": "https://andpalmier.com/posts/artex-source-behind-iocs/",
+      "reviewed_at_utc": "2026-11-12T03:13:46.195948+00:00",
+      "limitations": "Fork/path-specific software signal; no deployment, compromise, operator or campaign attribution.",
+      "source_published_date": "2026-11-08",
+      "source_publication_meaning": "Date of the cited article; not source commit, software release or deployment time.",
+      "first_seen": "",
+      "last_seen": "",
+      "global_novelty_claimed": false,
+      "runtime_tested": false,
+      "in_admitted_ioc_catalog": false
+    },
+    {
+      "framework": "ARTEX",
+      "fork": "luojiaping/ARTEX",
+      "indicator_type": "user_agent",
+      "indicator": "ARTEX-CredHunter/2.0",
+      "role": "Model-provider credential-checking helper; not generic victim traffic",
+      "publication_category": "software-fingerprints",
+      "confidence": "High",
+      "confidence_scope": "Exact source literal and header-use site; runtime execution and maliciousness unestablished.",
+      "evidence_score_hint": 20,
+      "origin": "analyst_source_verification_of_previously_published_observable",
+      "our_contribution": "Independently rechecked the article-linked immutable file and header assignment. No first-discovery claim.",
+      "source_commit": "7baca5dda545bee3df3601453a99c8002af97722",
+      "source_path": "credhunt/probe.go",
+      "source_line": 460,
+      "source_file_sha256": "267b65a563b79a807a361bb3e86e2adfb226dbe57931f40e1008121c1fdb5034",
+      "primary_source_url": "https://github.com/luojiaping/ARTEX/blob/7baca5dda545bee3df3601453a99c8002af97722/credhunt/probe.go#L460",
+      "source_article": "https://andpalmier.com/posts/artex-source-behind-iocs/",
+      "reviewed_at_utc": "2026-11-12T03:13:46.195948+00:00",
+      "limitations": "Fork/path-specific software signal; no deployment, compromise, operator or campaign attribution.",
+      "source_published_date": "2026-11-08",
+      "source_publication_meaning": "Date of the cited article; not source commit, software release or deployment time.",
+      "first_seen": "",
+      "last_seen": "",
+      "global_novelty_claimed": false,
+      "runtime_tested": false,
+      "in_admitted_ioc_catalog": false
+    }
+  ],
+  "external_lab_limits": {
+    "code_scope": "The external article analyzes Hinln upstream 0.3.15 at e6ec56999175509551a1e43a3ee3b053d0941bd9. This differs from our pinned BaaRai source and v0.5.1 binary references.",
+    "harness_scope": "The author used components with a fake LLM and owned listener on an isolated network, not the whole platform driven by a real model.",
+    "interpretation": "JA4 and timing depend on runtime versions, recording/proxy configuration, selected tools and model latency. They are external lab observations, not our measurements or unique production invariants.",
+    "catalog_action": "No article JA4 cells admitted as standalone IOCs."
+  },
+  "publication_limits": "No explicit article redistribution license identified. Supply concise paraphrase, factual literals and source locators only; omit raw article/code captures.",
+  "acquisition_scope": {
+    "paid_calls": 0,
+    "candidate_target_requests": 0,
+    "code_execution": false,
+    "native_execution": false
+  }
+}

@@ -39,6 +39,8 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | [Agent Zero](https://github.com/agent0ai/agent-zero) | General agent with a Linux workspace, terminal, browser and desktop capabilities. | v2.15 (2026-11-01) |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Persistent general agent with tool use and extensible skills, relevant as an orchestration substrate to monitor. | v0.23.1 (2026-11-10) |
 
+[ARTEX source/fork review](artex-source-review.md): three historical-record annotations, four meaningful fork resources and three source-verified fork UAs; no malicious IOC count change.
+
 ## Emerging projects and identity cautions
 
 - **XingRin → LunaFox:** an upstream-linked successor, with a dated alpha prerelease. LunaFox's public GPL projection excludes a closed Agent; it is not a wholly open-source product. A release is not a maturity or runtime-quality assessment.

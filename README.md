@@ -32,6 +32,8 @@ The [independent enrichment supplement](independent-enrichment/README.md) adds *
 
 We also performed [two first-party endpoint observations](research/first-party/README.md): one root GET per existing seed, with DNS/TLS/HTTP evidence. HTTP 521 and 404 are point-in-time responses, not functioning-C2 proof. These measurements remain separate from provider data and the incident lists. [How our collection works](docs/our-enrichment-workflow.md) · [Hunt's public methods and supported private exports](docs/hunt-and-independent-methods.md).
 
+[ARTEX reachability and fork qualifications](tools/artex-source-review.md) refine our static enrichment markers and a historical authentication realm; source presence is separate from observed traffic.
+
 ## Sourced IOCs
 
 The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** indicators reported by external sources. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
