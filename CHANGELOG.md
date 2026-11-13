@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-13
+
+- Added 86 reviewed source records, including 40 incident/campaign observables; six deployment leads, 13 software references, two supporting-image references and 25 shared/generic contexts remain separate.
+- Added 81 master values and evidence for five existing values; preserved publication conflicts, scheme-less paths, credential exclusion and role distinctions.
+- Added ten verified tool identities (33 total) and AI-Infra-Guard release metadata. Independent artifact checks yielded no new malicious IOC.
+
 ## 2026-11-12
 
 - Added version-qualified ARTEX enrichment/realm review and three pinned fork UA references; preserved historical records and counts.

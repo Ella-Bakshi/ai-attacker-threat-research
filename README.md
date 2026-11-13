@@ -1,6 +1,6 @@
 # AI Attacker Threat Research
 
-Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **12 November 2026**.
+Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **13 November 2026**.
 
 ## IP overview and map
 
@@ -14,7 +14,7 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Tool index
 
-[**23 verified project identities and resources**](tools/README.md), including 15 newly indexed candidates: capabilities, official sources/fork lineage, releases, license qualifications, AI features and scoped abuse evidence. Early releases and adjacent general agents remain labeled. [Our two source identification hypotheses](tools/source-identification-hypotheses.json) are runtime-untested software research, separate from admitted IOCs.
+[**33 verified project identities and resources**](tools/README.md), including ten added on 13 November: capabilities, official sources/fork lineage, releases, license qualifications, AI features and scoped abuse evidence. Early releases and adjacent general agents remain labeled. [Our two source identification hypotheses](tools/source-identification-hypotheses.json) are runtime-untested software research, separate from admitted IOCs.
 
 ## Our findings
 
@@ -41,7 +41,7 @@ The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-as
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,125 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,206 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -56,6 +56,11 @@ CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ART
 The separate [India AI campaign supplement](india/additional-ai-campaigns/README.md) adds **171 externally sourced IOC records** from APT36 vibeware, Sheet Attack and Gopher Strike, plus **5 independently verified/derived observations**. These campaigns have primary-source India targeting evidence and vendor-assessed AI involvement; no ARTEX/CyberStrikeAI link is established. [Sourced IOCs](india/additional-ai-campaigns/sourced-iocs.csv), [our observations](india/additional-ai-campaigns/analyst-derived.csv), [report artifacts](india/additional-ai-campaigns/report-artifacts.csv), and [supporting context](india/additional-ai-campaigns/supporting-context.csv) remain separate.
 
 ## Browse dated reports
+
+### 2026-11-13
+
+- [Global source review](reports/2026/2026-11-13-global-review/README.md): 86 source records, 81 values new to the master, seven new overview IPs; evidence classes remain separate.
+- [Tool index](tools/README.md): ten new identities, 33 total, plus a qualified release update.
 
 ### 2026-11-12
 

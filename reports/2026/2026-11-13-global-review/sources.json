@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "eye",
+    "url": "https://labs.eye.security/how-we-defended-against-an-ai-driven-attack/",
+    "retrieved_at_utc": "2026-11-13T02:07:06.843057+00:00",
+    "bytes": 164429,
+    "sha256": "4a7bfda7bb36f7586ced5ae3de3dea698ebe580ae052e41a76fda22c60ab5b08",
+    "publication_date": "2026-11-12",
+    "date_qualification": "Publisher metadata; no indicator-specific activity dates inferred."
+  },
+  {
+    "source_id": "gambit",
+    "url": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company",
+    "retrieved_at_utc": "2026-11-13T02:08:34.056886+00:00",
+    "bytes": 155117,
+    "sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+    "publication_date": "2026-09-22",
+    "date_qualification": "See record-level metadata for the displayed/structured Gambit date discrepancy."
+  },
+  {
+    "source_id": "arctic-wolf",
+    "url": "https://github.com/rtkwlf/wolf-tools/blob/c18da9b1ad3186f9255c45e6c0b3560e897ac1df/pack_alerts/202611-antifox-alibaba-hosted-platforms-facilitate-web-cloud-intrusions/README.md",
+    "retrieved_at_utc": "2026-11-13T02:09:56.356246+00:00",
+    "bytes": 9652,
+    "sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+    "source_commit": "c18da9b1ad3186f9255c45e6c0b3560e897ac1df",
+    "publication_date": "2026-11-10"
+  },
+  {
+    "source_id": "socradar",
+    "url": "https://socradar.io/blog/artex-ai-pentest-consoles-us/",
+    "retrieved_at_utc": "2026-11-13T02:07:10.309200+00:00",
+    "bytes": 261353,
+    "sha256": "7a6615850d813e6d3d5cdd9fe15e65784ffd398d1216a430f1170a45c8f3a953",
+    "source_commit": "",
+    "publication_date": "2026-11-12"
+  }
+]

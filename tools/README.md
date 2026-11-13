@@ -1,6 +1,6 @@
 # AI security tooling index
 
-Reviewed **12 November 2026**. This registry covers **23 project identities: eight established projects and 15 newly indexed candidates**. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
+Updated **13 November 2026**. This registry covers **33 project identities**, including ten added today. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
 
 [Full JSON](tool-registry.json) · [Importable CSV](tool-registry.csv) · [Our source identification hypotheses](source-identification-hypotheses.json)
 
@@ -19,7 +19,7 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | LLM-driven penetration-testing research/tooling with separate legacy and autonomous agent interfaces. | v1.0.0 (2025-12-24) |
 | [CAI](https://github.com/aliasrobotics/cai) | Archived framework for building specialized AI security-testing agents. | No GitHub release found |
 
-## Newly indexed and adjacent projects
+## Indexed on 12 November 2026
 
 | Project and source | What it does, according to its maintainer | Latest visible release |
 |---|---|---|
@@ -32,7 +32,7 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | [OpenEASD](https://github.com/cybersecify/OpenEASD) | External-surface discovery and scan orchestration with findings, monitoring and prioritization. | v3.0.1 (2026-10-14) |
 | [DeepAudit](https://github.com/lintsinghua/DeepAudit) | Multi-agent source-code security analysis with sandbox verification and reporting, as described by its maintainers. | v3.0.4 (2026-01-24) |
 | [AIxVuln](https://github.com/m4xxxxx/AIxVuln) | LLM-directed vulnerability discovery and verification with function calling and Docker sandboxes. | v1.3 (2026-03-14) |
-| [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Security assessment of AI infrastructure, agents, MCP tools, skills and model interfaces. | v4.6.9 (2026-11-05) |
+| [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Security assessment of AI infrastructure, agents, MCP tools, skills and model interfaces. | v4.6.10 (2026-11-12) |
 | [AutoHunter (Chris-biu)](https://github.com/Chris-biu/AutoHunter) | AI-orchestrated vulnerability-testing platform integrating conventional assessment tools and scope controls. | No GitHub release found |
 | [Cairn](https://github.com/oritera/Cairn) | General state-space search harness demonstrated by maintainers for autonomous penetration testing. | v0.2.1 (2026-05-10) |
 | [Shannon](https://github.com/KeygraphHQ/shannon) | Source-informed web/API assessment that uses browser and command-line actions to validate findings, per upstream documentation. | v3.5.1 (2026-11-11) |
@@ -40,6 +40,23 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Persistent general agent with tool use and extensible skills, relevant as an orchestration substrate to monitor. | v0.23.1 (2026-11-10) |
 
 [ARTEX source/fork review](artex-source-review.md): three historical-record annotations, four meaningful fork resources and three source-verified fork UAs; no malicious IOC count change.
+
+## Added on 13 November 2026
+
+| Project and source | Maintainer-described purpose | Latest visible release |
+|---|---|---|
+| [RedAmon](https://github.com/samugit83/redamon) | Self-hosted assessment agents organize findings in a graph and propose remediations, with documented approval gates. | v7.5.1 (2026-11-03) |
+| [Decepticon](https://github.com/BitterSecurity/Decepticon) | Agent framework for orchestrating red-team assessment workflows and security-tool interactions. | v2.2.2 (2026-10-28) |
+| [PentestAgent](https://github.com/GH05TCREW/pentestagent) | Agent-based black-box security testing with workflows for authorized assessments and bug-bounty research. | No GitHub release found |
+| [Cybermes](https://github.com/Zyrexnn/Cybermes) | Security-focused harness combining a Hermes engine, specialized skills and model/tool orchestration. | v3.5.0 (2026-09-16) |
+| [Xalgorix](https://github.com/xalgorix/xalgorix) | Agent-driven assessment orchestration with reconnaissance, finding review and a web interface. | v4.6.187 (2026-11-12) |
+| [AIRecon](https://github.com/pikpikcu/airecon) | Local-model reconnaissance/assessment assistant paired with a Kali-based container environment and terminal interface. | 0.1.7-beta (2026-04-03) |
+| [RAPTOR](https://github.com/gadievron/raptor) | Claude Code configuration and security workflows for analysis, research and assessment of authorized artifacts. | v3.1.0 (2026-09-07) |
+| [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) | Agent-oriented security-testing harness with specialized workflows and integrations. | v2.0.1-beta.3 (2026-11-10) |
+| [ScopeWeaver](https://github.com/cskwork/scopeweaver) | ARTEX-derived platform with English/Korean interface and message localization, retaining upstream provenance. | v0.9.1 (2026-11-04) |
+| [AntiFox](https://github.com/AntiFox-AI/antifox) | ARTEX-derived multi-agent assessment platform focused by its maintainers on reproducible evidence and report delivery. | v2.0.3 (2026-10-30) |
+
+AntiFox and ScopeWeaver have pinned ARTEX lineage. CyberStrike is a separate project from CyberStrikeAI. Cybermes acknowledges NousResearch Hermes as its core; this is a software relationship, not a campaign attribution bridge. RAPTOR has MIT text despite GitHub NOASSERTION metadata. AI-Infra-Guard v4.6.10 is a release update; previous inspected source fingerprints retain their pinned revision.
 
 ## Emerging projects and identity cautions
 

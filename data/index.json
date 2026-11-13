@@ -21,7 +21,8 @@
     "india/additional-ai-campaigns/records.json",
     "independent-enrichment/records.json",
     "reports/2026/2026-11-11-global-ai-tooling/records.json",
-    "reports/2026/2026-11-12-global-aggregation/records.json"
+    "reports/2026/2026-11-12-global-aggregation/records.json",
+    "reports/2026/2026-11-13-global-review/records.json"
   ],
   "supplementary_scope": "Separate India AI-campaign, independent public-artifact, and dated global AI-tool/campaign research; evidence classes and attribution remain distinct."
 }
