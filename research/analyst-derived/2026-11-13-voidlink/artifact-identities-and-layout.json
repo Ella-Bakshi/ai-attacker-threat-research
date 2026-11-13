@@ -1,0 +1,88 @@
+[
+  {
+    "sha256": "4c4201cc1278da615bacf48deef461bf26c343f8cbb2d8596788b41829a39f3f",
+    "bytes": 1254808,
+    "entry": "0x1058f10",
+    "sections_metadata_within_file": true,
+    "load_segments": [
+      {
+        "offset": 0,
+        "address": "0x1000000",
+        "file_size": 360208,
+        "memory_size": 360208,
+        "range_within_file": true
+      },
+      {
+        "offset": 360208,
+        "address": "0x1058f10",
+        "file_size": 893223,
+        "memory_size": 893223,
+        "range_within_file": true
+      },
+      {
+        "offset": 1253432,
+        "address": "0x1134038",
+        "file_size": 8,
+        "memory_size": 4040,
+        "range_within_file": true
+      },
+      {
+        "offset": 1253440,
+        "address": "0x1135040",
+        "file_size": 224,
+        "memory_size": 8140,
+        "range_within_file": true
+      }
+    ],
+    "address_literals": [
+      {
+        "literal": "8.149.128.10",
+        "file_offset": 278961,
+        "virtual_address": "0x10441b1"
+      }
+    ]
+  },
+  {
+    "sha256": "6dcfe9f66d3aef1efd7007c588a59f69e5cd61b7a8eca1fb89a84b8ccef13a2b",
+    "bytes": 1048576,
+    "entry": "0x112c460",
+    "sections_metadata_within_file": false,
+    "load_segments": [
+      {
+        "offset": 0,
+        "address": "0x1000000",
+        "file_size": 1225824,
+        "memory_size": 1225824,
+        "range_within_file": false
+      },
+      {
+        "offset": 1225824,
+        "address": "0x112c460",
+        "file_size": 745230,
+        "memory_size": 745230,
+        "range_within_file": false
+      },
+      {
+        "offset": 1971056,
+        "address": "0x11e3370",
+        "file_size": 8,
+        "memory_size": 3216,
+        "range_within_file": false
+      },
+      {
+        "offset": 1971064,
+        "address": "0x11e4378",
+        "file_size": 200,
+        "memory_size": 7828,
+        "range_within_file": false
+      }
+    ],
+    "address_literals": [
+      {
+        "literal": "8.149.128.10",
+        "file_offset": 1027060,
+        "virtual_address": "0x10fabf4"
+      }
+    ]
+  }
+]

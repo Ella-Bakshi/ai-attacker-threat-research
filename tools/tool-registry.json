@@ -1989,10 +1989,10 @@
     "category": "adjacent-general-purpose-agent-watchlist",
     "what_it_does_reported": "Persistent general agent with tool use and extensible skills, relevant as an orchestration substrate to monitor.",
     "capability_validation": "Maintainer-described; not executed or independently benchmarked.",
-    "ai_feature_assessment": "General-purpose framework. Primary reporting names Hermes in criminal staging, but a link to this exact repository/revision is unverified.",
+    "ai_feature_assessment": "General-purpose agent framework. Separate CARBONATO, Hunt Thailand MOF and Unit42 reports establish project-level reported abuse; no exact campaign revision is identified. Gambit exact-upstream attribution remains unresolved.",
     "official_repository": "https://github.com/NousResearch/hermes-agent",
     "repository_full_name": "NousResearch/hermes-agent",
-    "upstream_identity_qualification": "Repository identity verified from source and owner metadata. Unit 42 table has tool names but no per-tool repository links; name-to-upstream matching is analyst work, not a publisher endorsement.",
+    "upstream_identity_qualification": "Repository identity verified from pinned source and owner metadata. Hunt Thailand MOF and July Unit42 directly link NousResearch/hermes-agent; ThreatDown names Nous Research. Those links establish project identity in the named reporting, not campaign build revision or endorsement.",
     "pinned_revision": "3430fa287f962d4a65b8daa54229924f41383338",
     "last_activity_utc": "2026-11-12T02:42:00Z",
     "last_activity_meaning": "Default-branch latest commit committer time; not a deployment or attack sighting.",
@@ -2014,9 +2014,9 @@
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
     "horizon_evidence": [
       {
-        "kind": "adjacent-platform-watchlist",
-        "statement": "Track tool/skill changes and resolve name-level criminal-staging references; no exact offensive-campaign relationship to this repository established.",
-        "evidence": "https://norforge.com/blog/inside_cairn"
+        "kind": "reported-framework-abuse-watch",
+        "statement": "Track separate reported Hermes abuse while preserving unresolved Gambit source identity and campaign build-revision gaps.",
+        "evidence": "https://www.threatdown.com/blog/carbonato/"
       }
     ],
     "resources": [
@@ -2065,17 +2065,25 @@
       }
     ],
     "runtime_fingerprint_status": "Not independently derived in this metadata lane; carry to source/asset review backlog.",
-    "observed_abuse": "unknown",
-    "observed_abuse_basis": "NorForge names Hermes among harnesses recovered in criminal staging, citing Gambit Security. No exact link to NousResearch/hermes-agent or this pinned revision was established; name-level context is not repository attribution.",
+    "observed_abuse": "yes-reported-framework-level",
+    "observed_abuse_basis": "Separate primaries report abuse of NousResearch Hermes: ThreatDown CARBONATO names Nous Research and an unchanged framework with malicious persona; Hunt Thailand MOF and July Unit42 directly link the official repository; October Unit42 reports BUGSTER Hermes/C2 infrastructure. Exact campaign build revisions remain unverified. Gambit/NorForge remains a name-level link; these separate cases do not resolve that specific gap.",
     "observed_abuse_primary_sources": [
-      "https://norforge.com/blog/inside_cairn"
+      "https://norforge.com/blog/inside_cairn",
+      "https://www.threatdown.com/blog/carbonato/",
+      "https://hunt.io/blog/thailand-ministry-finance-targeted-with-hermes-ai-agent",
+      "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+      "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/"
     ],
     "ioc_status": "tool-registry-only; generic software identity is not a malicious IOC or a claim of live C2",
     "new_network_iocs": 0,
     "sources": [
       "https://github.com/NousResearch/hermes-agent/blob/3430fa287f962d4a65b8daa54229924f41383338/README.md",
       "https://github.com/NousResearch/hermes-agent/tree/3430fa287f962d4a65b8daa54229924f41383338",
-      "https://norforge.com/blog/inside_cairn"
+      "https://norforge.com/blog/inside_cairn",
+      "https://www.threatdown.com/blog/carbonato/",
+      "https://hunt.io/blog/thailand-ministry-finance-targeted-with-hermes-ai-agent",
+      "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+      "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/"
     ],
     "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
     "global_novelty_claimed": false,
@@ -2084,10 +2092,11 @@
       "source_locator": "Section 02, The Opening",
       "reported_context": "NorForge describes a September 2026 Gambit Security investigation of criminal intrusion staging that named Hermes, Strix and Cairn.",
       "exact_repository_link_verified": false,
-      "scope": "Reported name-level criminal-use context only; the NousResearch upstream identity relationship remains unverified."
+      "scope": "This Gambit/NorForge campaign-to-upstream link remains unverified; separate primary cases establish NousResearch project-level reported abuse."
     },
     "tool_id": "nousresearch--hermes-agent",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "observed_abuse_reviewed_at_utc": "2026-11-13T11:19:17.970291+00:00"
   },
   {
     "name": "RedAmon",

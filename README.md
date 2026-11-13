@@ -18,6 +18,8 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Our findings
 
+New: [VoidLink sample defaults and native evidence](research/analyst-derived/2026-11-13-voidlink/README.md), separately scoped from the historical 342-record collection.
+
 We derived or verified **342 records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
 
 - [Our derived observations](research/analyst-derived/all-derived-observables.csv)
@@ -41,11 +43,11 @@ The main incident lists contain **18 ARTEX-associated** and **9 CyberStrikeAI-as
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,206 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,349 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
-“Targeting India” refers to the victims or campaign target selection, regardless of infrastructure hosting country. The [dedicated C2 infrastructure view](india/C2-INFRASTRUCTURE.md) contains **17 source-reported C2 records**, with [delivery infrastructure](india/delivery-infrastructure-targeting-india.csv) and [backup configuration resources](india/c2-configuration-resources-targeting-india.csv) kept separate. Campaign-level targeting evidence is sufficient for these scoped associations; a named individual victim is not required for each endpoint.
+“Targeting India” refers to the victims or campaign target selection, regardless of infrastructure hosting country. The [dedicated C2 infrastructure view](india/C2-INFRASTRUCTURE.md) contains **18 source-reported C2 records**, with [delivery infrastructure](india/delivery-infrastructure-targeting-india.csv) and [backup configuration resources](india/c2-configuration-resources-targeting-india.csv) kept separate. Campaign-level targeting evidence is sufficient for these scoped associations; a named individual victim is not required for each endpoint.
 
 CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ARTEX/CyberStrikeAI among the tools, but keeps the detailed IOC set restricted. **No publicly verified exact ARTEX/CyberStrikeAI IOC specific to the Indian campaign was established in this collection.** We do not substitute Korea/FortiGate addresses or generic software sightings for that set.
 
@@ -58,6 +60,8 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 ## Browse dated reports
 
 ### 2026-11-13
+
+- [Expanded horizon: framework abuse and AI-related malware](reports/2026/2026-11-13-expanded-horizon/README.md): 145 reviewed records across distinct evidence classes; [eight-group malware index](research/ai-related-malware/README.md).
 
 - [Global source review](reports/2026/2026-11-13-global-review/README.md): 86 source records, 81 values new to the master, seven new overview IPs; evidence classes remain separate.
 - [Tool index](tools/README.md): ten new identities, 33 total, plus a qualified release update.

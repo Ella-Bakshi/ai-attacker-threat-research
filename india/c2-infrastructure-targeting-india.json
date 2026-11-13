@@ -782,5 +782,53 @@
     "network_role_view": "c2-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
     "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+  },
+  {
+    "record_id": "EXP-21F516708A33",
+    "framework": "Hermes Agent",
+    "campaign": "BUGSTER AI-assisted cybercrime",
+    "publication_category": "sourced-iocs",
+    "indicator_type": "ipv4",
+    "indicator": "162.243.3.92",
+    "role": "Actor server hosting Hermes, C2 listener, Cursor IDE proxy and supporting services",
+    "confidence": "High",
+    "confidence_scope": "High for primary-source presence and stated historical role; not independently observed by us.",
+    "verification_status": "primary_source_literal_and_role_checked",
+    "origin": "external_report",
+    "primary_source_url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+    "source_published_date": "2026-10-21T14:00:24Z",
+    "reviewed_at_utc": "2026-11-13T11:02:59.399697+00:00",
+    "retrieved_at_utc": "2026-11-13T11:02:59.399697+00:00",
+    "source_locator": "Tool Design and Infrastructure; Indicators of Compromise",
+    "source_references": [
+      {
+        "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+        "retrieved_at_utc": "2026-11-13T11:02:59.399697+00:00"
+      }
+    ],
+    "first_seen": "",
+    "last_seen": "",
+    "observation_date_context": "Not specified per indicator.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false,
+    "global_novelty_claimed": false,
+    "self_derived": false,
+    "limitations": " Source-scoped historical role; no current liveness, exclusivity or individual victim established.",
+    "automatic_blocklist_suitable": false,
+    "india_targeting_scope": "campaign",
+    "india_evidence_url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+    "india_evidence_basis": "Primary Technical Analysis states criminal activity primarily in India; Tool Design and Infrastructure identifies the same actor server 162.243.3.92 hosting Hermes and a C2 listener. No individual indicator-to-victim traffic is established.",
+    "identity_basis": "Article names Hermes Agent; refers to July Unit42 primary which directly links NousResearch/hermes-agent. Do not imply the framework distribution itself is malicious.",
+    "new_to_master_type_value": true,
+    "change_kind": "new_master_type_value",
+    "new_to_repository": true,
+    "indicator_defanged": "162[.]243[.]3[.]92",
+    "recommended_use": "Source-scoped correlation; current operation and ownership require local evidence.",
+    "collection_origin": "external_public_report",
+    "india_campaign_link_supported": true,
+    "network_role_view": "c2-infrastructure-targeting-india",
+    "hosting_geography_used_for_inclusion": false,
+    "inclusion_basis": "Primary report names C2 server and primarily India-targeting campaign; individual victim traffic not asserted.",
+    "per_indicator_indian_victim_compromise_confirmed": false
   }
 ]

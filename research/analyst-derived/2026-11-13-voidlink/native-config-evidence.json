@@ -1,0 +1,170 @@
+{
+  "sample_sha256": "4c4201cc1278da615bacf48deef461bf26c343f8cbb2d8596788b41829a39f3f",
+  "function_entry": "0x10aa478",
+  "function_end_heuristic": "0x10ae8eb",
+  "instructions": [
+    {
+      "virtual_address": "0x10ab78c",
+      "file_offset": 698252,
+      "bytes_hex": "66b8bb01",
+      "mnemonic": "mov",
+      "operands": "ax, 0x1bb"
+    },
+    {
+      "virtual_address": "0x10ab7c2",
+      "file_offset": 698306,
+      "bytes_hex": "41bdb1410401",
+      "mnemonic": "mov",
+      "operands": "r13d, 0x10441b1"
+    },
+    {
+      "virtual_address": "0x10ab80d",
+      "file_offset": 698381,
+      "bytes_hex": "ba87d00301",
+      "mnemonic": "mov",
+      "operands": "edx, 0x103d087"
+    },
+    {
+      "virtual_address": "0x10ab82c",
+      "file_offset": 698412,
+      "bytes_hex": "66b9bb01",
+      "mnemonic": "mov",
+      "operands": "cx, 0x1bb"
+    },
+    {
+      "virtual_address": "0x10ab89b",
+      "file_offset": 698523,
+      "bytes_hex": "ba97d00301",
+      "mnemonic": "mov",
+      "operands": "edx, 0x103d097"
+    },
+    {
+      "virtual_address": "0x10ab8ab",
+      "file_offset": 698539,
+      "bytes_hex": "66b8bb01",
+      "mnemonic": "mov",
+      "operands": "ax, 0x1bb"
+    },
+    {
+      "virtual_address": "0x10ab8d9",
+      "file_offset": 698585,
+      "bytes_hex": "ba10d00301",
+      "mnemonic": "mov",
+      "operands": "edx, 0x103d010"
+    },
+    {
+      "virtual_address": "0x10ab8ee",
+      "file_offset": 698606,
+      "bytes_hex": "41bdb1410401",
+      "mnemonic": "mov",
+      "operands": "r13d, 0x10441b1"
+    },
+    {
+      "virtual_address": "0x10aba8a",
+      "file_offset": 699018,
+      "bytes_hex": "4c89a8a8000000",
+      "mnemonic": "mov",
+      "operands": "qword ptr [rax + 0xa8], r13"
+    },
+    {
+      "virtual_address": "0x10aba91",
+      "file_offset": 699025,
+      "bytes_hex": "4c89a0b0000000",
+      "mnemonic": "mov",
+      "operands": "qword ptr [rax + 0xb0], r12"
+    },
+    {
+      "virtual_address": "0x10aba98",
+      "file_offset": 699032,
+      "bytes_hex": "66899820010000",
+      "mnemonic": "mov",
+      "operands": "word ptr [rax + 0x120], bx"
+    },
+    {
+      "virtual_address": "0x10abb1a",
+      "file_offset": 699162,
+      "bytes_hex": "bec7980201",
+      "mnemonic": "mov",
+      "operands": "esi, 0x10298c7"
+    },
+    {
+      "virtual_address": "0x10abb9a",
+      "file_offset": 699290,
+      "bytes_hex": "66817dc0bb01",
+      "mnemonic": "cmp",
+      "operands": "word ptr [rbp - 0x40], 0x1bb"
+    }
+  ],
+  "function_bounds_basis": "Verified prologue/direct-CALL target start; next direct-CALL target is a heuristic upper bound. Ghidra completed selected critical function; no full-program completion claimed.",
+  "allowlisted_literals": [
+    {
+      "value": "c2_port",
+      "virtual_address": "0x103d087",
+      "file_offset": 249991,
+      "length": 7
+    },
+    {
+      "value": "port",
+      "virtual_address": "0x103d097",
+      "file_offset": 250007,
+      "length": 4
+    },
+    {
+      "value": "c2_host",
+      "virtual_address": "0x103d010",
+      "file_offset": 249872,
+      "length": 7
+    },
+    {
+      "value": "8.149.128.10",
+      "virtual_address": "0x10441b1",
+      "file_offset": 278961,
+      "length": 12
+    },
+    {
+      "value": "[STEALTH] Step 2c: C2 host set to ",
+      "virtual_address": "0x10298c7",
+      "file_offset": 170183,
+      "length": 34
+    }
+  ],
+  "decompiler_evidence": {
+    "private_output_sha256": "e584f16194ff95c7a42b749d6a6d750a256f253c8b643604cb1d316668763c95",
+    "default_port_line": 663,
+    "default_host_lines": [
+      666,
+      667
+    ],
+    "port_lookup_lines": [
+      690,
+      692
+    ],
+    "override_lines": [
+      701,
+      703
+    ],
+    "host_lookup_and_override_lines": [
+      706,
+      707,
+      708,
+      709,
+      711,
+      712,
+      713
+    ],
+    "host_store_lines": [
+      758,
+      759
+    ],
+    "port_store_line": 760,
+    "log_context_lines": [
+      772,
+      774,
+      778,
+      779,
+      783,
+      784
+    ]
+  },
+  "interpretation": "Static default c2_host=8.149.128.10 and c2_port=443; c2_port/port and c2_host are configuration-overridable. Logging compares port to 443 when formatting HTTPS=true/false; no live protocol/connection established."
+}

@@ -5,20 +5,23 @@
   "campaign_level_evidence_sufficient": true,
   "named_individual_victim_required": false,
   "view_counts": {
-    "c2-infrastructure-targeting-india": 17,
+    "c2-infrastructure-targeting-india": 18,
     "delivery-infrastructure-targeting-india": 22,
     "c2-configuration-resources-targeting-india": 2
   },
   "c2_by_campaign": {
     "APT36-vibeware": 3,
     "Gopher Strike": 8,
-    "Sheet Attack": 6
+    "Sheet Attack": 6,
+    "BUGSTER": 1
   },
   "new_indicator_values_added": 0,
-  "all_view_rows_reference_existing_supplement_record_ids": true,
+  "all_view_rows_reference_existing_supplement_record_ids": false,
   "roles_are_nonexclusive": "An endpoint can support both delivery and C2; URL/domain rows can describe the same infrastructure. Counts are indicator records, not distinct servers.",
   "confidence_scope": "Source-reported historical roles and campaign victimology; current reachability, ownership and individual compromise unverified.",
   "framework_scope": "No new ARTEX/CyberStrikeAI/CRAFTY FALCON relationship is asserted for the separate campaigns.",
   "censys_calls": 0,
-  "target_requests": 0
+  "target_requests": 0,
+  "record_membership_scope": "Historical India supplement plus reviewed dated global reports; every view ID belongs to indexed canonical records.",
+  "latest_expanded_review_new_indicator_values": 1
 }

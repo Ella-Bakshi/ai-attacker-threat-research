@@ -1,0 +1,114 @@
+{
+  "started_at_utc": "2026-11-13T10:57:06.976014+00:00",
+  "completed_at_utc": "2026-11-13T10:57:14.229284+00:00",
+  "primary_source": "https://research.checkpoint.com/2026/voidlink-the-cloud-native-malware-framework/",
+  "primary_source_document_sha256": "828c2a570189e7517bc34ecdd9872ca04270295dc1ad05a23e1ec995842bf7c8",
+  "seed_count": 9,
+  "review_scope": "New primary-source exact VoidLink hashes compared offline to prior directory captures; no old central directory was re-downloaded.",
+  "retained_inventory_files": 16,
+  "offline_entries_examined": 11393,
+  "paid_calls": 0,
+  "censys_calls": 0,
+  "target_requests": 0,
+  "target_dns": 0,
+  "sample_execution": false,
+  "authenticated_api_calls": 0,
+  "sample_submission": false,
+  "acquisitions": [
+    {
+      "expected_sha256": "4c4201cc1278da615bacf48deef461bf26c343f8cbb2d8596788b41829a39f3f",
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+      "source_report_url": "https://research.checkpoint.com/2026/voidlink-the-cloud-native-malware-framework/",
+      "archive_member": "4c4201cc1278da615bacf48deef461bf26c343f8cbb2d8596788b41829a39f3f.elf",
+      "requests": [
+        {
+          "requested_range": "bytes=1441719535-1441719564",
+          "content_range": "bytes 1441719535-1441719564/1685458910",
+          "http_status": 206,
+          "bytes": 30,
+          "began_at_utc": "2026-11-13T10:57:06.976361+00:00",
+          "completed_at_utc": "2026-11-13T10:57:07.712086+00:00"
+        },
+        {
+          "requested_range": "bytes=1441719535-1441719564",
+          "content_range": "bytes 1441719535-1441719564/1685458910",
+          "http_status": 206,
+          "bytes": 30,
+          "began_at_utc": "2026-11-13T10:57:07.712152+00:00",
+          "completed_at_utc": "2026-11-13T10:57:08.217495+00:00"
+        },
+        {
+          "requested_range": "bytes=1441719565-1441719632",
+          "content_range": "bytes 1441719565-1441719632/1685458910",
+          "http_status": 206,
+          "bytes": 68,
+          "began_at_utc": "2026-11-13T10:57:08.217547+00:00",
+          "completed_at_utc": "2026-11-13T10:57:08.789013+00:00"
+        },
+        {
+          "requested_range": "bytes=1441719633-1442271377",
+          "content_range": "bytes 1441719633-1442271377/1685458910",
+          "http_status": 206,
+          "bytes": 551745,
+          "began_at_utc": "2026-11-13T10:57:08.789679+00:00",
+          "completed_at_utc": "2026-11-13T10:57:10.178185+00:00"
+        }
+      ],
+      "bytes": 1254808,
+      "sha256": "4c4201cc1278da615bacf48deef461bf26c343f8cbb2d8596788b41829a39f3f",
+      "identity_verified": true,
+      "executed": false,
+      "md5": "4d8671ffc41252bc189b62699cb8cf90",
+      "sha1": "5ffe44b04c0c47c83c1cd694b28c432fcde5867d"
+    },
+    {
+      "expected_sha256": "6dcfe9f66d3aef1efd7007c588a59f69e5cd61b7a8eca1fb89a84b8ccef13a2b",
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+      "source_report_url": "https://research.checkpoint.com/2026/voidlink-the-cloud-native-malware-framework/",
+      "archive_member": "6dcfe9f66d3aef1efd7007c588a59f69e5cd61b7a8eca1fb89a84b8ccef13a2b.elf",
+      "requests": [
+        {
+          "requested_range": "bytes=1442271378-1442271407",
+          "content_range": "bytes 1442271378-1442271407/1685458910",
+          "http_status": 206,
+          "bytes": 30,
+          "began_at_utc": "2026-11-13T10:57:10.470715+00:00",
+          "completed_at_utc": "2026-11-13T10:57:11.155663+00:00"
+        },
+        {
+          "requested_range": "bytes=1442271378-1442271407",
+          "content_range": "bytes 1442271378-1442271407/1685458910",
+          "http_status": 206,
+          "bytes": 30,
+          "began_at_utc": "2026-11-13T10:57:11.155753+00:00",
+          "completed_at_utc": "2026-11-13T10:57:11.800120+00:00"
+        },
+        {
+          "requested_range": "bytes=1442271408-1442271475",
+          "content_range": "bytes 1442271408-1442271475/1685458910",
+          "http_status": 206,
+          "bytes": 68,
+          "began_at_utc": "2026-11-13T10:57:11.800192+00:00",
+          "completed_at_utc": "2026-11-13T10:57:12.380255+00:00"
+        },
+        {
+          "requested_range": "bytes=1442271476-1443097746",
+          "content_range": "bytes 1442271476-1443097746/1685458910",
+          "http_status": 206,
+          "bytes": 826271,
+          "began_at_utc": "2026-11-13T10:57:12.380837+00:00",
+          "completed_at_utc": "2026-11-13T10:57:13.790986+00:00"
+        }
+      ],
+      "bytes": 1048576,
+      "sha256": "6dcfe9f66d3aef1efd7007c588a59f69e5cd61b7a8eca1fb89a84b8ccef13a2b",
+      "identity_verified": true,
+      "executed": false,
+      "md5": "c490f53de08cc3fb5df415c3b3972d91",
+      "sha1": "450fb30f76419358b4e913ab2216fd8d157cb1af"
+    }
+  ],
+  "source_published_date": "2026-01-13",
+  "whole_archive_downloaded": false,
+  "downloaded_sample_count": 2
+}

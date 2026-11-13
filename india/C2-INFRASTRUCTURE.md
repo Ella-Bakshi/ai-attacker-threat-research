@@ -2,14 +2,14 @@
 
 **Targeting India means the campaign targets Indian entities. Infrastructure can be hosted anywhere, including an abused SaaS tenant or resource.** No hosting-country filter is applied. A primary report's campaign-level victimology is sufficient for this scoped association; identifying a named Indian victim for every endpoint is not required.
 
-This view contains **17 source-reported C2 indicator records** from APT36 vibeware, Gopher Strike and Sheet Attack. They were already present in the research dataset; this update clarifies their roles and adds no newly discovered endpoint. These separate campaigns have no established ARTEX/CyberStrikeAI/CRAFTY FALCON link. The restricted CERT-In framework-linked set remains a separate evidence gap.
+This view contains **18 source-reported C2 indicator records** from APT36 vibeware, Gopher Strike, Sheet Attack and BUGSTER. The expanded 13 November review adds BUGSTER's actor server, linked by the same primary report to a C2 listener and a campaign primarily targeting India. This is campaign context; per-indicator victim traffic is unverified. These separate campaigns have no established ARTEX/CyberStrikeAI/CRAFTY FALCON link. The restricted CERT-In framework-linked set remains a separate evidence gap.
 
 - [C2 infrastructure CSV](c2-infrastructure-targeting-india.csv) · [Full provenance JSON](c2-infrastructure-targeting-india.json)
 - [Initial-access and payload-delivery infrastructure CSV](delivery-infrastructure-targeting-india.csv) · [JSON](delivery-infrastructure-targeting-india.json): 22 records
 - [Backup C2-configuration resources CSV](c2-configuration-resources-targeting-india.csv) · [JSON](c2-configuration-resources-targeting-india.json): two records, kept separate from tasking endpoints
 - [Role counts and inclusion policy](network-role-summary.json) · [Complete India campaign supplement](additional-ai-campaigns/README.md)
 
-Counts refer to values/records, not distinct servers. A domain and its URL can describe the same infrastructure; delivery and C2 roles can overlap. SaaS indicators apply to the reported tenant or resource, not the provider's entire domain or address space. Network confidence is medium for historical source-reported association, with current reachability, ownership and individual victim compromise unverified. Three URL-prefix records omit authentication-like query values; they are not exact complete request URLs.
+Counts refer to values/records, not distinct servers. A domain and its URL can describe the same infrastructure; delivery and C2 roles can overlap. SaaS indicators apply to the reported tenant or resource, not the provider's entire domain or address space. Confidence is scoped to the historical source-reported role and stated per record, with current reachability, ownership and individual victim compromise unverified. Three URL-prefix records omit authentication-like query values; they are not exact complete request URLs.
 
 | Campaign | Indicator (defanged) | Reported role | Source date | Confidence | Source |
 |---|---|---|---|---|---|
@@ -30,3 +30,4 @@ Counts refer to values/records, not distinct servers. A domain and its URL can d
 | Sheet Attack | https://docs[.]google[.]com/spreadsheets/d/1cB8jzFpQcixridoEz_eDvLnjCTx79gKFQSoFiuOErdM/edit | C2 URL | 2026-01-27 | Medium | [Primary source](https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-sheetcreep-firepower-and) |
 | Sheet Attack | https://docs[.]google[.]com/spreadsheets/d/1cdSJvZ7tx6CPBuEa66uTVWmSD4zABnZOLjM87pRXkTE/edit | C2 URL | 2026-01-27 | Medium | [Primary source](https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-sheetcreep-firepower-and) |
 | Sheet Attack | https://docs[.]google[.]com/spreadsheets/d/1wgx4gj3-YGGAwmtr1DRu4n1QkznK2pYoKO6C4GTmquY/edit | C2 URL | 2026-01-27 | Medium | [Primary source](https://www.zscaler.com/blogs/security-research/apt-attacks-target-indian-government-using-sheetcreep-firepower-and) |
+| BUGSTER | 162[.]243[.]3[.]92 | Actor server hosting Hermes, a C2 listener and Cursor proxy; India association is campaign scope | 2026-10-21 | High for reported role | [Primary source](https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/) |
