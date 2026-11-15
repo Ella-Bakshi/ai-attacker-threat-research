@@ -34,7 +34,9 @@
     "verification_status": "Acquired exact vendor-listed artifact; file hashes and stated managed byte/token evidence independently verified without execution.",
     "indicator_defanged": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309",
     "first_seen": "",
-    "last_seen": ""
+    "last_seen": "",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "campaign": "APT36-vibeware",
@@ -71,7 +73,9 @@
     "verification_status": "Acquired exact vendor-listed artifact; file hashes and stated managed byte/token evidence independently verified without execution.",
     "indicator_defanged": "795981d6a13880fecb05adaa8503e72c9524ba11",
     "first_seen": "",
-    "last_seen": ""
+    "last_seen": "",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "campaign": "APT36-vibeware",
@@ -117,7 +121,9 @@
     "verification_status": "Acquired exact vendor-listed artifact; file hashes and stated managed byte/token evidence independently verified without execution.",
     "indicator_defanged": "C:\\Users\\Public\\Documents\\Temp",
     "first_seen": "",
-    "last_seen": ""
+    "last_seen": "",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "campaign": "APT36-vibeware",
@@ -157,7 +163,9 @@
     "verification_status": "Acquired exact vendor-listed artifact; file hashes and stated managed byte/token evidence independently verified without execution.",
     "indicator_defanged": "087cb194-0b40-4a2b-98d2-9ea27c02a5cb",
     "first_seen": "",
-    "last_seen": ""
+    "last_seen": "",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "campaign": "APT36-vibeware",
@@ -200,6 +208,8 @@
     "verification_status": "Acquired exact vendor-listed artifact; file hashes and stated managed byte/token evidence independently verified without execution.",
     "indicator_defanged": "e0fab27b062bc6212fe7416605d6dc7506208d33fffc761a9605f9547ded4321",
     "first_seen": "",
-    "last_seen": ""
+    "last_seen": "",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   }
 ]

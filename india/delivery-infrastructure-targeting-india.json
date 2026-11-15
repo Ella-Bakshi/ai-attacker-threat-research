@@ -32,7 +32,9 @@
     "india_campaign_link_supported": true,
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD-7203ACA1A623",
@@ -67,7 +69,9 @@
     "india_campaign_link_supported": true,
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD-4DA673DEC9A9",
@@ -102,7 +106,9 @@
     "india_campaign_link_supported": true,
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD-E5DB5370113F",
@@ -137,7 +143,9 @@
     "india_campaign_link_supported": true,
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD-5FBB5D61AC86",
@@ -172,7 +180,9 @@
     "india_campaign_link_supported": true,
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD-5E34E17A8C8C",
@@ -207,7 +217,9 @@
     "india_campaign_link_supported": true,
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD-A7D812CD050C",
@@ -243,7 +255,9 @@
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
     "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
-    "role_scope_note": "Publisher lists this IP:8000 as a download endpoint and associates the IP with Cobalt Strike C2. This does not establish port 8000 as a Beacon C2 listener."
+    "role_scope_note": "Publisher lists this IP:8000 as a download endpoint and associates the IP with Cobalt Strike C2. This does not establish port 8000 as a Beacon C2 listener.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-26D3EDB684C5",
@@ -291,7 +305,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-83D60640022F",
@@ -339,7 +355,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-81C024855308",
@@ -387,7 +405,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-649082B155AD",
@@ -435,7 +455,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-FB9E8EB11B90",
@@ -483,7 +505,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-8F4213931617",
@@ -531,7 +555,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-3E4BE94D4A79",
@@ -579,7 +605,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-FD2814F367C4",
@@ -627,7 +655,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-76441321CEA8",
@@ -675,7 +705,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-9628509AB486",
@@ -723,7 +755,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-230C420C2466",
@@ -771,7 +805,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-3015D99AB4F7",
@@ -819,7 +855,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-9C2056A483B3",
@@ -867,7 +905,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-C90C3753164D",
@@ -915,7 +955,9 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-A44455E58015",
@@ -963,6 +1005,8 @@
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "network_role_view": "delivery-infrastructure-targeting-india",
     "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required."
+    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   }
 ]

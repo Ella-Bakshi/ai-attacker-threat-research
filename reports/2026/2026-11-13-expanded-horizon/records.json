@@ -5349,7 +5349,11 @@
     "source_published_date": "2026-09-22",
     "reviewed_at_utc": "2026-11-13T11:02:59.399697+00:00",
     "retrieved_at_utc": "2026-11-13T11:02:59.399697+00:00",
-    "source_locator": "Indicators of compromise / carbonato-proxy-{drab,zeta,zeta-2}[.]vercel[.]app",
+    "source_locator": {
+      "section": "Indicators of compromise / Network",
+      "original_value": "carbonato-proxy-{drab,zeta,zeta-2}[.]vercel[.]app",
+      "normalization": "Remove formatting; expand enumerated alternatives."
+    },
     "source_references": [
       {
         "url": "https://www.threatdown.com/blog/carbonato/",
@@ -5373,7 +5377,9 @@
     "new_to_repository": true,
     "indicator_defanged": "carbonato-proxy-drab[.]vercel[.]app",
     "recommended_use": "Source-scoped correlation; current operation and ownership require local evidence.",
-    "collection_origin": "external_public_report"
+    "collection_origin": "external_public_report",
+    "derivation_method": "Explicit brace-list expansion from publisher IOC table; not a direct fully expanded source literal.",
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "EXP-FC5CF3087A76",
@@ -5391,7 +5397,11 @@
     "source_published_date": "2026-09-22",
     "reviewed_at_utc": "2026-11-13T11:02:59.399697+00:00",
     "retrieved_at_utc": "2026-11-13T11:02:59.399697+00:00",
-    "source_locator": "Indicators of compromise / carbonato-proxy-{drab,zeta,zeta-2}[.]vercel[.]app",
+    "source_locator": {
+      "section": "Indicators of compromise / Network",
+      "original_value": "carbonato-proxy-{drab,zeta,zeta-2}[.]vercel[.]app",
+      "normalization": "Remove formatting; expand enumerated alternatives."
+    },
     "source_references": [
       {
         "url": "https://www.threatdown.com/blog/carbonato/",
@@ -5415,7 +5425,9 @@
     "new_to_repository": true,
     "indicator_defanged": "carbonato-proxy-zeta[.]vercel[.]app",
     "recommended_use": "Source-scoped correlation; current operation and ownership require local evidence.",
-    "collection_origin": "external_public_report"
+    "collection_origin": "external_public_report",
+    "derivation_method": "Explicit brace-list expansion from publisher IOC table; not a direct fully expanded source literal.",
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "EXP-9119B925BB2B",
@@ -5433,7 +5445,11 @@
     "source_published_date": "2026-09-22",
     "reviewed_at_utc": "2026-11-13T11:02:59.399697+00:00",
     "retrieved_at_utc": "2026-11-13T11:02:59.399697+00:00",
-    "source_locator": "Indicators of compromise / carbonato-proxy-{drab,zeta,zeta-2}[.]vercel[.]app",
+    "source_locator": {
+      "section": "Indicators of compromise / Network",
+      "original_value": "carbonato-proxy-{drab,zeta,zeta-2}[.]vercel[.]app",
+      "normalization": "Remove formatting; expand enumerated alternatives."
+    },
     "source_references": [
       {
         "url": "https://www.threatdown.com/blog/carbonato/",
@@ -5457,7 +5473,9 @@
     "new_to_repository": true,
     "indicator_defanged": "carbonato-proxy-zeta-2[.]vercel[.]app",
     "recommended_use": "Source-scoped correlation; current operation and ownership require local evidence.",
-    "collection_origin": "external_public_report"
+    "collection_origin": "external_public_report",
+    "derivation_method": "Explicit brace-list expansion from publisher IOC table; not a direct fully expanded source literal.",
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "EXP-70342C52DE51",

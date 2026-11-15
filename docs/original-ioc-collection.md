@@ -17,6 +17,8 @@ Use newly acquired, source-backed samples or recorded artifacts. Retain acquisit
 
 Our existing CyberStrikeAI-lineage ELF has already yielded its configured endpoints and main application analysis. Rehashing it does not create a new IOC. New work should target additional source-backed artifacts or a genuinely unresolved question. [CAPE](https://github.com/kevoreilly/CAPEv2#config-extraction) documents configuration extraction; its dynamic execution features are outside the present offline workflow. [MalwareBazaar](https://bazaar.abuse.ch/api/) documents authentication and public batch acquisition routes.
 
+The [15 November Windows artifact review](../research/analyst-derived/2026-11-15-cyberstrikeai-windows/cyberstrikeai-peak-review.md) demonstrates this workflow on another sample: three locally computed hash identities and native request arguments corroborate seven existing observables. The evidence establishes static configuration and code lineage; it adds no verified malicious-campaign IOC or first-party attack telemetry.
+
 ## First-party collection design
 
 A future explicitly owned, isolated sensor can retain inbound session events, attempted payload URLs and passively received artifacts. [Cowrie](https://docs.cowrie.org/en/stable/OUTPUT.html) provides structured SSH/Telnet events; [OpenCanary](https://github.com/thinkst/opencanary) supports internal deception. Neither has been deployed for this project. No first-party attack telemetry is claimed.

@@ -9064,13 +9064,13 @@
   {
     "record_id": "DAILY15-CC909D037ACC",
     "framework": "ARTEX",
-    "publication_category": "sourced-iocs",
+    "publication_category": "unverified-findings",
     "indicator_type": "ipv4",
     "indicator": "178.16.54.129",
     "role": "ARTEX server in Storm-3358 campaign; source active-as-of Nov6",
-    "confidence": "Medium",
-    "confidence_scope": "Exact publisher literal and stated historical role reviewed; present operation, ownership, exclusivity, actor identity and victim attribution not independently established.",
-    "verification_status": "primary_source_literal_and_role_checked",
+    "confidence": "Low",
+    "confidence_scope": "Exact FBI table literal is verified, but the underlying Microsoft table and query disagree on the address. Correct historical endpoint identity remains unresolved.",
+    "verification_status": "source_literal_verified_conflicting_upstream_octet_unresolved",
     "origin": "external_report",
     "collection_origin": "external_report_curation",
     "primary_source_url": "https://www.ic3.gov/CSA/2026/261113.pdf",
@@ -9100,7 +9100,7 @@
     "new_to_master_type_value": false,
     "new_to_repository": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "limitations": "Public-source review only; no target requests, DNS, scans, paid providers, sample submission or execution. Not an automatic blocklist.",
+    "limitations": "Public-source review only; no target requests, DNS, scans, paid providers, sample submission or execution. Not an automatic blocklist. FBI compiles Microsoft table178.16.54.129. Microsoft sample query still contains178.15.54.129; compilation supplies no independent telemetry or explicit correction resolving discrepancy.",
     "automatic_blocklist_suitable": false,
     "campaign": "Storm-3358",
     "evidence_origin_detail": "FBI compilation citing Microsoft/CrowdStrike/Censys, not additional independent FBI telemetry.",
@@ -9108,7 +9108,13 @@
     "upstream_evidence_independence": "compilation_of_existing_publisher_reporting",
     "source_active_as_of": "2026-11-06",
     "indicator_defanged": "178[.]16[.]54[.]129",
-    "recommended_use": "Historical source-scoped correlation; current operation, ownership and victims require separate evidence."
+    "recommended_use": "Unresolved historical address lead; do not enforce until the publisher clarifies the conflicting octet.",
+    "attribution_limit": "FBI is not independent resolution of disputed octet.",
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
+    "historical_c2_role_verified": false,
+    "conflicting_source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
+    ]
   },
   {
     "record_id": "DAILY15-5AF801D22A23",
@@ -12878,7 +12884,11 @@
     "source_published_date": "2026-07-15",
     "reviewed_at_utc": "2026-11-15T09:38:10.189970+00:00",
     "retrieved_at_utc": "2026-11-15T09:36:51.626806+00:00",
-    "source_locator": "Indicators of Compromise / TuxBot C2 Servers exact IP and port rows",
+    "source_locator": {
+      "section": "Indicators of Compromise / TuxBot C2 Servers",
+      "original_value": "209.182.237[.]133:1999/31337",
+      "normalization": "Separate explicitly listed ports."
+    },
     "source_references": [
       {
         "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/",
@@ -12898,7 +12908,9 @@
     "new_to_master_type_value": true,
     "change_kind": "new_master_type_value",
     "indicator_defanged": "209[.]182[.]237[.]133:31337",
-    "recommended_use": "Historical source-scoped correlation; current operation, ownership and victims require separate evidence."
+    "recommended_use": "Historical source-scoped correlation; current operation, ownership and victims require separate evidence.",
+    "derivation_method": "Explicit host-plus-port-list expansion; not direct fully expanded source literal.",
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "D15-0FBDD87E05F4",

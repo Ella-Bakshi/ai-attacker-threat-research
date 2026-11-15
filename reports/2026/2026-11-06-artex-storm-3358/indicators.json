@@ -282,7 +282,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-08682F759112",
@@ -339,7 +341,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-3495DFC2B625",
@@ -396,6 +400,8 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   }
 ]

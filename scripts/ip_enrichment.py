@@ -4,8 +4,34 @@ import bisect,csv,datetime as dt,gzip,ipaddress,re,urllib.parse
 IP_TYPES={'ipv4','ipv6','ipv4_port','network_endpoint','deployment_endpoint','deployment_host','url','url_prefix','url_template'}
 
 def primary_reported_c2(record):
-    """Global incident-role classification; conveys no India-targeting assertion."""
-    return record.get('publication_category') in {'main-iocs','sourced-iocs'} and record.get('origin')=='external_report' and bool(re.search(r'\bc2\b',record.get('role',''),re.I))
+    """Require an affirmative, source-reported network role, independent of list name."""
+    if record.get('publication_category') not in {'main-iocs','sourced-iocs','report-host-network-artifacts'}:
+        return False
+    if record.get('origin') != 'external_report':
+        return False
+    if record.get('historical_c2_role_verified') is False:
+        return False
+    if record.get('indicator_type') not in IP_TYPES | {'domain','domain_port','hostname'}:
+        return False
+    role=record.get('role','').lower()
+    term=r'(?:\bc2\b|\bcommand[\s-]+(?:and[\s-]+)?control\b)'
+    if not re.search(term,role):
+        return False
+    if re.search(r'\b(?:suspected|possible|potential|candidate|hypothetical|unconfirmed|unverified)\s+'+term,role):
+        return False
+    # Negative or unresolved language must not become a positive assertion merely
+    # because it mentions C2. Configuration-distribution resources are also distinct.
+    if re.search(r'\b(?:not|no|without)\b(?:\W+\w+){0,8}\W+'+term,role):
+        return False
+    if re.search(term+r'\s+(?:candidate|hypothesis|unverified|unconfirmed|unknown)\b',role):
+        return False
+    if re.search(term+r'\s+(?:server|endpoint|domain|infrastructure|role)\s+(?:(?:is|was)\s+)?(?:candidate|unconfirmed|unverified|not\s+(?:independently\s+)?verified)\b',role):
+        return False
+    if re.search(term+r'.{0,35}\b(?:role|subtype|relationship)\b.{0,15}\b(?:not|unknown|unverified|unspecified)\b',role):
+        return False
+    if re.search(r'\b(?:backup|configuration|config)[\s-]+(?:resource|distribution|resolver)\b',role):
+        return False
+    return True
 
 def extract_ip(value,kind):
     if kind not in IP_TYPES:return None
@@ -60,12 +86,10 @@ def confidence_for_records(records):
             score,basis=0,'Contextual fingerprint, generic timing pattern or unverified certificate sibling; no standalone maliciousness confidence assigned.'
         elif cat=='sample-derived-observables' and origin.startswith('analyst_'):
             score,basis=60,'Exact sample configuration examined statically; execution, operator and individual victim unverified.'
-        elif cat in {'main-iocs','sourced-iocs'} and (cat=='main-iocs' or re.search(r'\bc2\b',role)):
+        elif primary_reported_c2(r):
             score,basis=70,'Primary source reports a historical incident or campaign C2 role; current ownership and live use unverified.'
-        elif cat in {'sourced-iocs','campaign-context'}:
+        elif cat in {'main-iocs','sourced-iocs','campaign-context'}:
             score,basis=55,'Source-reported historical campaign infrastructure/context; role and dates require correlation.'
-        elif cat=='report-host-network-artifacts' and re.search(r'\bc2\b',role):
-            score,basis=70,'Primary report explicitly describes this historical C2 role; present-day activity unverified.'
         elif cat=='deployment-leads':
             score,basis=20,'Passive software/deployment lead; a sighting does not establish malicious operation.'
         elif cat in {'unverified-findings','master-only-passive-lead'}:

@@ -10,6 +10,8 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 [![IP infrastructure map](maps/world.svg)](https://ella-bakshi.github.io/ai-attacker-threat-research/)
 
+**This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
+
 The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country.
 
 ## Tool index
@@ -18,11 +20,13 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Our findings
 
-Latest: [a second complete VoidLink variant](research/analyst-derived/2026-11-15-voidlink/README.md), with native default-port evidence and exact hash identities.
+Latest: [Windows CyberStrikeAI-lineage artifact evidence](research/analyst-derived/2026-11-15-cyberstrikeai-windows/cyberstrikeai-peak-review.md): three locally computed hashes for one sample and seven existing configuration observables corroborated in native code. No new IP or verified malicious-campaign IOC.
+
+Also on 15 November: [a second complete VoidLink variant](research/analyst-derived/2026-11-15-voidlink/README.md), with native default-port evidence and exact hash identities.
 
 New: [VoidLink sample defaults and native evidence](research/analyst-derived/2026-11-13-voidlink/README.md), separately scoped from the historical 342-record collection.
 
-We derived or verified **342 records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
+The original collection contains **342 derived or verified records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. Later artifact supplements are linked separately above. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
 
 - [Our derived observations](research/analyst-derived/all-derived-observables.csv)
 - [Acquired beacon analysis and evidence](research/analyst-derived/2026-11-10-cyberstrikeai-elf/README.md)
@@ -40,12 +44,12 @@ We also performed [two first-party endpoint observations](research/first-party/R
 
 ## Sourced IOCs
 
-The original main incident exports contain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** indicators reported by external sources. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
+The original incident exports retain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** source values. The CyberStrikeAI export now has six main IOC records and three separately classified hash leads whose algorithms remain unverified. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
 
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,940 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 15,944 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -63,6 +67,7 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-15
 
+- [PEAK artifact hunt and reliability review](reports/2026/2026-11-15-peak-review/README.md): ten own static observations and three external provider identities, four new hash values, plus role/algorithm qualifications.
 - [Daily source and independent artifact review](reports/2026/2026-11-15-daily-review/README.md): 2,681 evidence records, 591 new type/value entries; Talos deployment leads and FBI corroborations remain separate from campaign indicators.
 - [New VoidLink variant evidence](research/analyst-derived/2026-11-15-voidlink/README.md): three hash identities for one artifact and known-IP/8080 corroboration.
 - [Tool index](tools/README.md): four additions and five release updates, 37 identities total.

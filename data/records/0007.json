@@ -18472,7 +18472,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-B8526492A56D",
@@ -18529,7 +18531,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-923BF782B12C",
@@ -18586,7 +18590,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-BD2BED94ECF1",
@@ -18643,7 +18649,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-913FD53422AA",
@@ -18700,7 +18708,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-A1BACBB7F4B1",
@@ -18749,7 +18759,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-BCA91C428B5E",
@@ -18806,7 +18818,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-8A5971527C1C",
@@ -18883,7 +18897,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-08682F759112",
@@ -18940,7 +18956,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-3495DFC2B625",
@@ -18997,7 +19015,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-13972AD1699A",
@@ -19054,7 +19074,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-59CDAE749176",
@@ -19168,7 +19190,9 @@
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-A3BC95A80D1D",

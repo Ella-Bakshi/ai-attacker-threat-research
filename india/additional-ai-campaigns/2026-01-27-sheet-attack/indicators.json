@@ -42,7 +42,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "coadelhi[.]in",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-3612C4D999FE",
@@ -88,7 +90,9 @@
     "source_processing_method": "analyst_normalized_source_observable",
     "indicator_defanged": "gov-service-in-default-rtdb[.]firebaseio[.]com",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-B26F31EF8DB5",
@@ -134,7 +138,9 @@
     "source_processing_method": "analyst_normalized_source_observable",
     "indicator_defanged": "govs-services-in-default-rtdb[.]firebaseio[.]com",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-9628509AB486",
@@ -179,7 +185,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "hciaccounts[.]in",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-230C420C2466",
@@ -224,7 +232,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "hcidelhi[.]in",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-3015D99AB4F7",
@@ -269,7 +279,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "hcidoc[.]in",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-9C2056A483B3",
@@ -314,7 +326,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "hcisupport[.]in",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BCF06CB7BFD5",
@@ -360,7 +374,9 @@
     "source_processing_method": "analyst_normalized_source_observable",
     "indicator_defanged": "webdevurl-cc389-default-rtdb[.]firebaseio[.]com",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-C90C3753164D",
@@ -405,7 +421,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "15[.]207[.]85[.]170",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-84F6FE953B6A",
@@ -450,7 +468,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "03141afe5c20d37620c085cdbeb4058b",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-50FE253D4305",
@@ -495,7 +515,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "0729db72ab4ad9b2ac7a82918c744388",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-1FEF83BBF925",
@@ -540,7 +562,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "0f7730a78490c61964b3bfc05eb59ea7",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-39CE91586CBB",
@@ -585,7 +609,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "119b836b4e1e7be8c3be8fe921f72bfb",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-350A52F9F05B",
@@ -630,7 +656,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "12669c29e00057abf20c73a434eb3dd2",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-21EC04AA8395",
@@ -675,7 +703,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "1ede39cb02b8aaa75063febc167db565",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-399540B45822",
@@ -720,7 +750,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "21dacb6cf6da872f1f3c7b6c876a8a92",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-44F9A7C2CA3F",
@@ -765,7 +797,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "41a3752e6ea83d25731f22e1c17f59e2",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BDB35E6C62F2",
@@ -810,7 +844,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "5001c32b386cc8346079db7b2629d777",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-52B7A09243AC",
@@ -855,7 +891,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "556a567a2c5c27a6aa5660e2e6bcce7b",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-AAA3EBA37EFF",
@@ -900,7 +938,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "62a23220b0249a15503f5ad762ed5889",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-42A8CB229392",
@@ -945,7 +985,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "6bed5e271eddf5cb86a5964b8c2f51b6",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-39E7CFED4D8B",
@@ -990,7 +1032,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "7269779e3fe07b1d96564117461ec75b",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-1B8CB4393E64",
@@ -1035,7 +1079,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "87c7d69c6131406afdd0a08e89329d0a",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-D4849DC710D4",
@@ -1080,7 +1126,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "a0b6869accba2c9ad3e1f79268a810d4",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-7D4F052B9008",
@@ -1125,7 +1173,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "cd5aab2b0f8d2b42e7a6537303d6345d",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-228C01290F29",
@@ -1170,7 +1220,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "e48f1000c86b93cf428a13a0b7384e0d",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-BD36891EC393",
@@ -1215,7 +1267,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "ed4dd29c57a38f2bb1934acbaeadeeba",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-E92031042283",
@@ -1260,7 +1314,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "f9a2da8f12179414663a230f11edca20",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-74A85807E97D",
@@ -1305,7 +1361,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "147055a1341737625cf0e878b7ebd5acf09d1883",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-068656FFAE83",
@@ -1350,7 +1408,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "16410fe2c44272005ca3c2ce994d24e9c2e731f6",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-4E5776D18320",
@@ -1395,7 +1455,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "2f46595d58bef1c70ca757e18bb04443b2d5ce72",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-B2C9728DE192",
@@ -1440,7 +1502,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "6140ed17fa47e0fa166449eaf2b2770fec0fedbd",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-CBDDFFDB6EFA",
@@ -1485,7 +1549,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "7bc5d288ec260765a146136194d815ff3c697df8",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-F1E283DD17D0",
@@ -1530,7 +1596,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "8735e1af5134d1cd173b55b089e31becb0261677",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-7E0D7790E403",
@@ -1575,7 +1643,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "8f9843607ff0ed83ca58e21612b41d6e744beb81",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-76424FB28721",
@@ -1620,7 +1690,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "97712c11b83c31ba03b747cf39a49cd0e208c5f5",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-6AF9D600C805",
@@ -1665,7 +1737,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "a38eab1ac01201b651b2efdebc78e994402976f1",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-03546D6EAC80",
@@ -1710,7 +1784,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "a55c18a82203cf1efafac6f3c47642ab60c74ffc",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-ECDC2160CFD5",
@@ -1755,7 +1831,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "aa9b4410004d43e4e5cc1fc2cda1956bc5663b03",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-B3DA8F9862B8",
@@ -1800,7 +1878,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "ac06003a774af5a8e4be349fc6f0e65cea116370",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-0A6B3F3A323B",
@@ -1845,7 +1925,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "b8fd6b4eece68095caeb26bdd1090ab7959f24aa",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-194FF71292EE",
@@ -1890,7 +1972,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "cdecfe8e1cacd1af204a5da52f6c02eb16fdea8b",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-26B002261DA1",
@@ -1935,7 +2019,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "daeeb031a9617e6f1b7bf4d85de9c75f62021c82",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-D2D0919EC86C",
@@ -1980,7 +2066,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "e333ae0948ede0cf1368deec53a1eda18210e75e",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-1FFE0DC6DF41",
@@ -2025,7 +2113,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "e9d9d8c0c818ba9208e61eaf49af4c1b37f4eb59",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-229F10ABAFA5",
@@ -2070,7 +2160,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "e9eeda092500d7c7f278672d35f733e0e26f0e2c",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-9394018BE1DF",
@@ -2115,7 +2207,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "f68cd104bfa2ac9992a98936c6e97c41e680b698",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-77299BBE79BD",
@@ -2160,7 +2254,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "20d72c8580b4d5ef4f771c91ce1d1207e5416fa789d8216a73a0abb8e030644f",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-A9AFFEE8E2F1",
@@ -2205,7 +2301,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "309a39ba10cd7c7075837b63d247fa45764f5496fdae215e95a3f4b65ab6dfc3",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-2A0084B4FEBB",
@@ -2250,7 +2348,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "363fca9534e5cb69e40330473bcbd0acc439cf81a555234eed250f65c98478e3",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-6A49F79C4E19",
@@ -2295,7 +2395,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "43fb05d9fc179f791b1a2814f7116ee577b6e48f62eee63af039350260d7fe2b",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-0128B40A9C68",
@@ -2340,7 +2442,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "59abb997927e471472a1c487dea0180d11e9c99774bb138ace46771acba9c3d8",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-CF8C1D11CB9D",
@@ -2385,7 +2489,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "61b2b6b61474398a966e26d3b909542450fcab9b6670558cecd6fabc1015bbce",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-2DE99B8D9E86",
@@ -2430,7 +2536,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "644dda0ea5db1eb5f07ccfccddb909c6ee57235c4465adbfc342da6867cdb71a",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-4DB61032A510",
@@ -2475,7 +2583,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "71794df37a107472e8d0829387741953f9e6c7778519b11f061c79ff6fb0f386",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-6181C0E9D74E",
@@ -2520,7 +2630,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "86d8b3fe209b3f1d9a20865ff1ee5d6015941c2a5394861118c8d6ec3695f1a6",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-73D3837FB149",
@@ -2565,7 +2677,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "889b4b1e13b66aff349282eae3999783f5542f961b433a7d4653c5281e7f4d3e",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-F0AA0DBF7537",
@@ -2610,7 +2724,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "989ad43bb9e328d786664247c3af4c17be28932760113708a9c6de977d69652c",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-4245A9B41BA4",
@@ -2655,7 +2771,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "9ab6d01a6df367ee505e59850438e6926dfb61c2ebfbe4e03eba48f70ee36ac3",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-EBE85CCFA77E",
@@ -2700,7 +2818,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "9eebbf8899a1cf4156a872e9b8cde2a8f6ab364b8089550510938405c622cc58",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-B92ED9186A91",
@@ -2745,7 +2865,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "a97cc81a2f7c05bfc498b71999176c2aeb6e3ad273e48eb1f5c1c5647419c642",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-3775B230D208",
@@ -2790,7 +2912,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "b56062033df06738b66c38b3fa2f82a7e8c558336a4790c83c7faad595172167",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-22C6658F65D0",
@@ -2835,7 +2959,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "bb11bea463ab1b976c3716591f93eccc71c1a2d1c389a371416b140cd8faa6f0",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-B35EF5D94AE4",
@@ -2880,7 +3006,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "bec00fa5a87195f182511ecc5292a716c79bc74e17bd1138c8fb2f2285df1b46",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-A1B7173D80D1",
@@ -2925,7 +3053,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "de14ca6d93dadbc1ec216700d76ad2d0e7b9ebceb95de68c631d0a1c01c915c4",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-A3A458AD2CCE",
@@ -2970,7 +3100,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "eea5cb7795d86e4612edcc6f0085d151e1b7a7351646caf26955c2ac35158971",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-5A5699A12A73",
@@ -3015,7 +3147,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "https://docs[.]google[.]com/spreadsheets/d/1cB8jzFpQcixridoEz_eDvLnjCTx79gKFQSoFiuOErdM/edit",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-86DF83C07AE5",
@@ -3060,7 +3194,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "https://docs[.]google[.]com/spreadsheets/d/1cdSJvZ7tx6CPBuEa66uTVWmSD4zABnZOLjM87pRXkTE/edit",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-F86CEA05BD73",
@@ -3105,7 +3241,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "https://docs[.]google[.]com/spreadsheets/d/1wgx4gj3-YGGAwmtr1DRu4n1QkznK2pYoKO6C4GTmquY/edit",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-A44455E58015",
@@ -3150,7 +3288,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "https://hciaccounts[.]in/Documents[.]zip",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-13AB130B362F",
@@ -3195,7 +3335,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "https://storage[.]googleapis[.]com/testfirebase-b24a8[.]appspot[.]com/config1[.]txt",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-B9BD5F1E05E5",
@@ -3240,7 +3382,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "https://testfirebase-b24a8-default-rtdb[.]firebaseio[.]com/(12336)005056C0000186/details[.]json",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-EA1D4E131094",
@@ -3285,7 +3429,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "8[.]8[.]8[.]8",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-A8720C0EE7D4",
@@ -3330,7 +3476,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "AttachmentLetter.LNK",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-400043EFA3B8",
@@ -3375,7 +3523,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "Document.zip",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-E1698E815FB8",
@@ -3420,7 +3570,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "GServices.vbs",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-5626BC52B3C0",
@@ -3465,7 +3617,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "Pay.pdf",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-051C62E66D0A",
@@ -3510,7 +3664,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "Proof.png",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-2ABF45164A1B",
@@ -3555,7 +3711,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "chrome.exe",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-9FE885C1CA5F",
@@ -3600,7 +3758,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "d.exe",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-2097683025E2",
@@ -3645,7 +3805,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "detail.png",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-4BD2CBEDD913",
@@ -3690,7 +3852,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "details.png",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-7C8F68A03EC9",
@@ -3735,7 +3899,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "ds.png",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-3DFD04B58F0B",
@@ -3780,7 +3946,9 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "edge.exe",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   },
   {
     "record_id": "IN-323F223729CF",
@@ -3825,6 +3993,8 @@
     "recommended_use": "Retrospective scoped matching and local corroboration; no blanket provider blocking.",
     "indicator_defanged": "text.log",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
-    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation."
+    "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
+    "india_relevance": "campaign_scope_only",
+    "per_indicator_india_targeting_confirmed": false
   }
 ]

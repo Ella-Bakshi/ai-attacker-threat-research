@@ -5,7 +5,8 @@
 | Evidence class | Records |
 |---|---:|
 | deployment-leads | 2,551 |
-| sourced-iocs | 80 |
+| sourced-iocs | 79 |
+| unverified-findings | 1 |
 | supporting-context | 13 |
 | shared-services-and-generic-markers | 4 |
 | software-fingerprints | 2 |
@@ -23,7 +24,9 @@ The [FBI FLASH](https://www.ic3.gov/CSA/2026/261113.pdf) supplies additional sou
 
 [Elastic](https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion) attributes AWS activity to 43[.]240[.]29[.]11 between September 30 and October 16. Two related management-page addresses, 43[.]240[.]29[.]28 and .33, were absent from that AWS investigation. Their certificate/content linkage does not prove campaign participation. Port 8080 is a management interface, not an established beacon protocol. The publisher could not prove an LLM made the decisions and says the interfaces were no longer serving as of November. A serial and FOFA content identifier remain conditional software fingerprints.
 
-All additions here are external-report curation. Raw pages/PDFs, private QA and commercial data remain private. No target contact, DNS lookup, paid provider call, sample execution or first-party incident telemetry was performed.
+The source-report portions are external-report curation; the separate VoidLink artifact work below is our independent analysis. Raw pages/PDFs, private QA and commercial data remain private. No target contact, DNS lookup, paid provider call, sample execution or first-party incident telemetry was performed.
+
+Later on 15 November, the [PEAK reliability review](../2026-11-15-peak-review/README.md) retained the FBI-listed `178.16.54.129` as an unresolved finding: Microsoft's original query contains `178.15.54.129`, while its table and the FBI compilation use the other octet. The table above reflects this classification correction; original source values and dates are unchanged.
 
 An additional [AWS primary report](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/) contributes eleven source-table addresses and exact day-precision date ranges. MadPot received agent-memory requests; reported external victim outcomes were not verified. Amazon assesses ARTEX attribution with moderate confidence. Network functions remain unspecified, without a tasking-server inference.
 

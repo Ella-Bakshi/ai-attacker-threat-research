@@ -282,7 +282,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-B8526492A56D",
@@ -339,7 +341,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-923BF782B12C",
@@ -396,7 +400,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-BD2BED94ECF1",
@@ -453,7 +459,9 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   },
   {
     "record_id": "AR-913FD53422AA",
@@ -510,6 +518,8 @@
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "historical_c2_role_verified": false,
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
   }
 ]
