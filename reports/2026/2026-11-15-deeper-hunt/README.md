@@ -116,3 +116,5 @@ The [earlier40-row review snapshot](../2026-11-15-evidence-resolution/remaining-
 | `210[.]149[.]87[.]120` | ipv4 | JPCERT API attack investigations | Publisher-listed attack-infrastructure investigation IOC; individual server part, tool and AI association unassigned | Medium | 2026-10-15 | [Source](https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html) |
 | `118[.]26[.]36[.]16` | ipv4 | JPCERT API attack investigations | Publisher-listed attack-infrastructure investigation IOC; individual server part, tool and AI association unassigned | Medium | 2026-10-15 | [Source](https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html) |
 | `69[.]10[.]51[.]162` | ipv4 | JPCERT API attack investigations | Publisher-listed attack-infrastructure investigation IOC; individual server part, tool and AI association unassigned | Medium | 2026-10-15 | [Source](https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html) |
+
+Later [exact-artifact and identity review](../2026-11-15-exact-artifact-review/README.md) supports four additional file identities. The current unresolved list has 35 records; this folder’s dated snapshots retain their earlier state.

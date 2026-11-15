@@ -41,3 +41,5 @@ The map's **Source review** filter separates original source/artifact support, r
 No candidate services were contacted, DNS lookups or scans performed, samples executed/submitted, paid-provider calls made or commercial Hunt export used. Raw source copies, artifacts and internal review ledgers remain private. This source review does not approve the complete catalog or map as an automatic block list. [Reliability and appropriate use](../../../docs/indicator-reliability.md).
 
 Later review: [deeper source and public-artifact hunt](../2026-11-15-deeper-hunt/README.md) revisits the remaining40 and resolves one digest identity. Its current list has 39 unresolved findings; this folder's dated decision/snapshot exports retain their earlier state.
+
+Later [exact-artifact and identity review](../2026-11-15-exact-artifact-review/README.md) supports four additional file identities. The current unresolved list has 35 records; this folder’s dated snapshots retain their earlier state.

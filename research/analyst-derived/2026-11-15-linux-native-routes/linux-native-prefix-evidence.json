@@ -1,0 +1,253 @@
+{
+  "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+  "artifact_bytes": 6168868,
+  "reviewed_at_utc": "2026-11-15T17:53:39.055109+00:00",
+  "method": "Ghidra12.1.4 selected-function C-like reconstruction plus independent Capstone5.0.6 x86-64 native operands, ELF PT_LOAD mapping and Go-string descriptor parsing",
+  "new_artifact_acquisition": false,
+  "new_native_url_prefixes": [
+    {
+      "function": "main.fetchTasks",
+      "function_entry": "0x65e380",
+      "function_file_offset": 2483072,
+      "server_string": {
+        "value": "http://23.254.195.48:18443",
+        "va": "0x75256d",
+        "file_offset": 3482989,
+        "bytes": 26,
+        "encoding": "UTF-8",
+        "descriptor_va": "0x7c47c0",
+        "descriptor_file_offset": 3950528
+      },
+      "path_string": {
+        "value": "/tasks",
+        "va": "0x74acbe",
+        "file_offset": 3452094,
+        "bytes": 6,
+        "encoding": "UTF-8",
+        "descriptor_va": "0x7c47e0",
+        "descriptor_file_offset": 3950560
+      },
+      "format_literal": {
+        "value": "%s%s?session_id=%s",
+        "va": "0x74eb25",
+        "file_offset": 3468069,
+        "bytes": 18,
+        "encoding": "UTF-8"
+      },
+      "http_method": {
+        "value": "GET",
+        "va": "0x74a78e",
+        "file_offset": 3450766,
+        "bytes": 3,
+        "encoding": "UTF-8"
+      },
+      "native_reference_instruction_vas": {
+        "server_descriptor": [
+          "0x65e3f4"
+        ],
+        "path_descriptor": [
+          "0x65e40b"
+        ],
+        "format_literal": [
+          "0x65e444"
+        ],
+        "method_literal": [
+          "0x65e466"
+        ]
+      },
+      "format_call": {
+        "va": "0x65e460",
+        "file_offset": 2483296,
+        "target": "0x4eb2c0",
+        "name": "fmt.Sprintf",
+        "argument_count": 3
+      },
+      "request_call": {
+        "va": "0x65e48c",
+        "file_offset": 2483340,
+        "target": "0x6356e0",
+        "name": "net/http.NewRequestWithContext"
+      },
+      "format_result_forwarded_to_request_url_registers": true,
+      "derived_prefix": "http://23.254.195.48:18443/tasks",
+      "runtime_component_omitted": "Runtime session identifier in query, omitted from published prefix",
+      "condition": "Task-fetch function when invoked; no runtime operation observed"
+    },
+    {
+      "function": "main.fetchC2FileByID",
+      "function_entry": "0x65c520",
+      "function_file_offset": 2475296,
+      "server_string": {
+        "value": "http://23.254.195.48:18443",
+        "va": "0x75256d",
+        "file_offset": 3482989,
+        "bytes": 26,
+        "encoding": "UTF-8",
+        "descriptor_va": "0x7c47c0",
+        "descriptor_file_offset": 3950528
+      },
+      "path_string": {
+        "value": "/file/",
+        "va": "0x74acb2",
+        "file_offset": 3452082,
+        "bytes": 6,
+        "encoding": "UTF-8",
+        "descriptor_va": "0x7c47d0",
+        "descriptor_file_offset": 3950544
+      },
+      "format_literal": {
+        "value": "%s%s%s",
+        "va": "0x74acb8",
+        "file_offset": 3452088,
+        "bytes": 6,
+        "encoding": "UTF-8"
+      },
+      "http_method": {
+        "value": "GET",
+        "va": "0x74a78e",
+        "file_offset": 3450766,
+        "bytes": 3,
+        "encoding": "UTF-8"
+      },
+      "native_reference_instruction_vas": {
+        "server_descriptor": [
+          "0x65c5b0"
+        ],
+        "path_descriptor": [
+          "0x65c5c7"
+        ],
+        "format_literal": [
+          "0x65c5f2"
+        ],
+        "method_literal": [
+          "0x65c614"
+        ]
+      },
+      "format_call": {
+        "va": "0x65c60e",
+        "file_offset": 2475534,
+        "target": "0x4eb2c0",
+        "name": "fmt.Sprintf",
+        "argument_count": 3
+      },
+      "request_call": {
+        "va": "0x65c63a",
+        "file_offset": 2475578,
+        "target": "0x6356e0",
+        "name": "net/http.NewRequestWithContext"
+      },
+      "format_result_forwarded_to_request_url_registers": true,
+      "derived_prefix": "http://23.254.195.48:18443/file/",
+      "runtime_component_omitted": "Runtime file identifier appended to path, omitted from published prefix",
+      "condition": "HTTP branch; function may use separate TCP transfer path first"
+    }
+  ],
+  "persistence_corroboration": {
+    "function": "main.persistLinux",
+    "function_entry": "0x6642e0",
+    "cron_format": {
+      "value": "@reboot %s &\n",
+      "va": "0x74cd1a",
+      "file_offset": 3460378,
+      "bytes": 13,
+      "encoding": "UTF-8"
+    },
+    "bashrc_line_format": {
+      "value": "\n(nohup %s &>/dev/null &) # cs\n",
+      "va": "0x754f90",
+      "file_offset": 3493776,
+      "bytes": 31,
+      "encoding": "UTF-8"
+    },
+    "bashrc_filename": {
+      "value": ".bashrc",
+      "va": "0x74afd7",
+      "file_offset": 3452887,
+      "bytes": 7,
+      "encoding": "UTF-8"
+    },
+    "native_calls": [
+      {
+        "va": "0x664380",
+        "target": "fmt.Sprintf"
+      },
+      {
+        "va": "0x6643c0",
+        "target": "fmt.Sprintf"
+      },
+      {
+        "va": "0x6643ca",
+        "target": "main.runWithTimeout"
+      },
+      {
+        "va": "0x6644a0",
+        "target": "fmt.Sprintf"
+      },
+      {
+        "va": "0x6644af",
+        "target": "os.UserHomeDir"
+      },
+      {
+        "va": "0x6644f5",
+        "target": "path/filepath.join"
+      },
+      {
+        "va": "0x664504",
+        "target": "os.OpenFile"
+      },
+      {
+        "va": "0x66452d",
+        "target": "os.(*File).Write"
+      }
+    ],
+    "open_flags": {
+      "value_hex": "0x441",
+      "meaning": "Linux O_APPEND|O_WRONLY|O_CREAT"
+    },
+    "mode": {
+      "value_hex": "0x1a4",
+      "octal": "0644"
+    },
+    "native_open_argument_instructions": [
+      {
+        "argument": "open_flags",
+        "value_hex": "0x441",
+        "instruction_va": "0x6644fa",
+        "instruction_file_offset": 2508026,
+        "destination_register": "ecx"
+      },
+      {
+        "argument": "mode",
+        "value_hex": "0x1a4",
+        "instruction_va": "0x6644ff",
+        "instruction_file_offset": 2508031,
+        "destination_register": "edi"
+      }
+    ],
+    "scope": "Conditional code capability in this exact artifact; does not establish persistence installed or a victim event."
+  },
+  "decompilation_scope": {
+    "selected_functions": 3,
+    "completed_functions": 3,
+    "total_recovered_go_functions": 6459,
+    "whole_program_decompilation_claimed": false,
+    "sample_execution": false
+  },
+  "limits": [
+    "Exact previously acquired public sample; no new malware bytes in this pass.",
+    "Source/template lineage established in previous artifact report; exact generating revision/operator/named campaign/current operation remain unknown.",
+    "Decompiler types and Go ABI approximations are not original source; concrete literal pointers, lengths, calls and forwarded URL registers independently checked.",
+    "Configured URL prefixes are not observed traffic. Dynamic identifiers and token/key values omitted.",
+    "No candidate contact, DNS, scans, new sandbox submissions, sample execution or paid provider calls.",
+    "All66recovered main.-prefixed functions completed C-like reconstruction; runtime and dependency functions outside this finite application scope were not exhaustively decompiled. Only cited selected native facts have the documented operand checks."
+  ],
+  "application_decompilation_scope": {
+    "scope": "All 66 recovered main.-prefixed application functions in the exact f825 Linux ELF; runtime/dependency functions in the 6,459-function inventory not exhaustively decompiled",
+    "completed_functions": 66,
+    "total_recovered_functions": 6459,
+    "pseudocode_characters": 179022,
+    "target_executed": false,
+    "source_recovered": false,
+    "method": "Ghidra 12.1.4 read-only import with recovered Go function boundaries; three selected functions have independent native operand checks"
+  }
+}

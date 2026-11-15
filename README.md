@@ -12,15 +12,17 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **12,715 canonical source records**; the master has **16,253 distinct type/value pairs**, including **3,740 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **12,761 canonical source records**; the master has **16,296 distinct type/value pairs**, including **3,740 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
-[**41 verified project identities and resources**](tools/README.md), including eight added on 15 November and ten on 13 November: capabilities, official sources/fork lineage, releases, license qualifications, AI features and scoped abuse evidence. Early releases and adjacent general agents remain labeled. [Our two source identification hypotheses](tools/source-identification-hypotheses.json) are runtime-untested software research, separate from admitted IOCs.
+[**42 verified project identities and resources**](tools/README.md), including nine added on 15 November and ten on 13 November: capabilities, official sources/fork lineage, releases, license qualifications, AI features and scoped abuse evidence. Early releases and adjacent general agents remain labeled. [Our two source identification hypotheses](tools/source-identification-hypotheses.json) are runtime-untested software research, separate from admitted IOCs.
 
 ## Our findings
 
-Latest: [four CyberStrikeAI public-analysis URL observations](research/analyst-derived/2026-11-15-cyberstrikeai-provider-artifacts/README.md), selected from exact provider JSON with score 20. These are separate from local sample-byte/native findings; two additional provider crosshashes remain externally sourced. [Deeper review](reports/2026/2026-11-15-deeper-hunt/README.md): one of 40 unresolved identities supported, 39 remain separate.
+Latest: [native Linux routes](research/analyst-derived/2026-11-15-linux-native-routes/README.md) and [Windows persistence corroborations](research/analyst-derived/2026-11-15-cyberstrikeai-windows-native/README.md): two new static URL prefixes, two existing-value corroborations and one separate experimental lineage rule. [Exact-artifact and identity review](reports/2026/2026-11-15-exact-artifact-review/README.md) resolves four hash identities; 35 questions remain separate. No new sample bytes or malicious C2 IPs were obtained.
+
+Earlier on 15 November: [four CyberStrikeAI public-analysis URL observations](research/analyst-derived/2026-11-15-cyberstrikeai-provider-artifacts/README.md), selected from exact provider JSON with score 20. These are separate from local sample-byte/native findings; two additional provider crosshashes remain externally sourced. [Deeper review](reports/2026/2026-11-15-deeper-hunt/README.md): one of 40 unresolved identities supported, 39 remain separate.
 
 Earlier on 15 November: [two historical CyberStrikeAI-lineage Linux payloads](research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-analysis.md) yield seven independently derived values: four crosshashes, one configured endpoint and two URL paths. Exact native evidence is separate from campaign attribution.
 
@@ -34,7 +36,7 @@ The original collection contains **342 derived or verified records**, including 
 
 - [Our derived observations](research/analyst-derived/all-derived-observables.csv)
 - [Acquired beacon analysis and evidence](research/analyst-derived/2026-11-10-cyberstrikeai-elf/README.md)
-- [Detection rules](detections/README.md): 12 YARA rules and one explicitly experimental Sigma rule
+- [Detection rules](detections/README.md): 13 YARA candidates and one explicitly experimental Sigma rule
 
 The sample's exact operator, named campaign, India targeting and current live C2 remain unknown. Static capability does not prove execution on a victim.
 
@@ -48,12 +50,12 @@ We also performed [two first-party endpoint observations](research/first-party/R
 
 ## Sourced IOCs
 
-The current incident exports contain **18 ARTEX-associated** and **7 CyberStrikeAI-associated** main records. The CyberStrikeAI export also includes four externally reported crosshash identities for two known samples. Two algorithm-unverified CyberStrikeAI beacon hashes and one supporting-script hash have a [separate export](frameworks/CyberStrikeAI/unverified-file-hash-leads.csv); all nine historical source values remain in the dated source report and canonical catalog. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
+The current incident exports contain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** main records. The CyberStrikeAI export also includes eight externally reported crosshash identities for four known samples. All three formerly algorithm-unverified CyberStrikeAI/script hashes now have explicit publisher digest bridges. The supporting PowerShell script and its crosshashes remain in supporting tools; the [current untyped-hash export](frameworks/CyberStrikeAI/unverified-file-hash-leads.csv) is empty; all nine historical source values remain in the dated source report and canonical catalog. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
 
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,253 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,296 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -71,15 +73,17 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-15
 
+- [Exact artifacts and publisher identities](reports/2026/2026-11-15-exact-artifact-review/README.md): four of 39 identities supported, 35 role/relationship questions remain separate; four own native observations and one detector hypothesis, eight external crosshashes, 32 aggregation memberships and one external ARTEX software fingerprint.
+
 - [Deeper source and public-artifact hunt](reports/2026/2026-11-15-deeper-hunt/README.md): all 40 unresolved findings revisited; one digest identity resolved, 39 remain separate. Four own public-analysis static URL observations and 74 external source memberships, including historical NIK C2/VOLTA/UAT-10147 and JPCERT context.
 
-- [Evidence resolution and new artifact findings](reports/2026/2026-11-15-evidence-resolution/README.md): all 73 findings revisited; 33 narrow evidence claims supported, 40 source/relationship questions unresolved. Seven operational detection hypotheses remain experimental.
+- [Evidence resolution and new artifact findings](reports/2026/2026-11-15-evidence-resolution/README.md): all 73 findings revisited; 33 narrow evidence claims supported, 40 source/relationship questions unresolved as of that pass. That pass retained seven experimental operational detection hypotheses.
 - [Expanded public-source review](reports/2026/2026-11-15-expanded-source-review/README.md): 31 Talos campaign-associated indicators, 293 historical software/context endpoints and seven prototype identities, with sources, dates and scoped confidence.
 - [Original-source verification and unresolved findings](reports/2026/2026-11-15-source-review/README.md): historical snapshot covering 12,299 canonical records and 3,740 master-only values; its 73-row unresolved list is preserved as of that pass.
 - [PEAK artifact hunt and reliability review](reports/2026/2026-11-15-peak-review/README.md): ten own static observations and three external provider identities, four new hash values, plus role/algorithm qualifications.
 - [Daily source and independent artifact review](reports/2026/2026-11-15-daily-review/README.md): 2,681 evidence records, 591 new type/value entries; Talos deployment leads and FBI corroborations remain separate from campaign indicators.
 - [New VoidLink variant evidence](research/analyst-derived/2026-11-15-voidlink/README.md): three hash identities for one artifact and known-IP/8080 corroboration.
-- [Tool index](tools/README.md): eight additions across the day and five earlier release updates, 41 identities total.
+- [Tool index](tools/README.md): nine additions across the day and five earlier release updates, 42 identities total.
 
 ### 2026-11-13
 

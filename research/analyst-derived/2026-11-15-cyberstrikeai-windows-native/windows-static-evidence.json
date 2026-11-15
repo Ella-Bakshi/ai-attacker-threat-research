@@ -1,0 +1,138 @@
+{
+  "reviewed_at_utc": "2026-11-15T17:59:41.426677+00:00",
+  "scope": "Exact retained Windows artifact, selected persistence-name/native call-flow facts and finite experimental rule references; not a new sample acquisition or observed infection.",
+  "artifact": {
+    "sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+    "sha1": "dd0152236bf703e6c95cfc66c9d6a4d163abb67f",
+    "md5": "23d02815c2d88958feb4b314ab3c1b9c",
+    "bytes": 6314496,
+    "format": "PE32+ Windows AMD64",
+    "image_base": "0x140000000",
+    "prior_acquisition": {
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-08.zip",
+      "archive_member": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877.exe",
+      "source_metadata_url": "https://bazaar.abuse.ch/sample/1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877/",
+      "acquired_at_utc": "2026-11-15T15:19:54.434896+00:00",
+      "whole_member_identity_verified": true,
+      "whole_archive_hash_claimed": false,
+      "executed": false
+    },
+    "lineage_qualification": "High-confidence CyberStrikeAI generated-beacon code lineage from existing source/native evidence. Provider labels conflict; exact operator/campaign and Kaspersky reported beacon identity are not established. Base revision metadata has local modifications.",
+    "pinned_source_template": "https://github.com/AIPentest/CyberStrikeAI/blob/d2084a948195d60fe7d66f8a8f1f5d901bb5dd3f/internal/c2/payload_templates/beacon.go.tmpl",
+    "exact_generating_revision_established": false
+  },
+  "methods": {
+    "decompilation_engine": "Ghidra12.1.4 headless; read-only import, no automatic analysis, Go compiler specification",
+    "decompiled_selected_application_functions": 66,
+    "entire_6433_function_program_decompiled": false,
+    "independent_operand_decoder": "Capstone5.0.6",
+    "pe_mapping_parser": "pefile2024.8.26",
+    "raw_C_ASM_project_excluded": true
+  },
+  "persistence_name_facts": [
+    {
+      "kind": "registry_value_name",
+      "value": "SystemUpdate",
+      "value_encoding": "ASCII",
+      "value_byte_length": 12,
+      "value_file_offset": 3561009,
+      "value_virtual_address": "0x140366c31",
+      "within_format_byte_offset": 62,
+      "role_context": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "function": "main.persistWindows",
+      "function_entry": "0x140266c20",
+      "function_end_exclusive": "0x140266e20",
+      "format_virtual_address": "0x140366bf3",
+      "format_file_offset": 3560947,
+      "format_byte_length": 95,
+      "format_sha256": "711d5f42716515ee906cbea811548ba99daad456e4774b18920faec50b5517d2",
+      "native_pointer_load": "0x140266c96",
+      "native_length_load": "0x140266c9d",
+      "format_constructor": {
+        "callsite": "0x140266caf",
+        "target": "0x1400eede0",
+        "resolved_go_name": "fmt.Sprintf"
+      },
+      "command_runner": {
+        "callsite": "0x140266cb9",
+        "target": "0x140262960",
+        "resolved_go_name": "main.runWithTimeout",
+        "timeout_argument": 10
+      },
+      "interpretation": "Conditional static construction of the stated persistence name and passing of the formatted command to the sample command runner; no task/registry installation observed."
+    },
+    {
+      "kind": "scheduled_task",
+      "value": "SystemUpdate",
+      "value_encoding": "ASCII",
+      "value_byte_length": 12,
+      "value_file_offset": 3555284,
+      "value_virtual_address": "0x1403655d4",
+      "within_format_byte_offset": 22,
+      "role_context": "onlogon scheduled task",
+      "function": "main.persistWindows",
+      "function_entry": "0x140266c20",
+      "function_end_exclusive": "0x140266e20",
+      "format_virtual_address": "0x1403655be",
+      "format_file_offset": 3555262,
+      "format_byte_length": 71,
+      "format_sha256": "9ee4a3459a45433a91563136591849faeda0da982aa5425013184f5758f98bc4",
+      "native_pointer_load": "0x140266d5a",
+      "native_length_load": "0x140266d61",
+      "format_constructor": {
+        "callsite": "0x140266d73",
+        "target": "0x1400eede0",
+        "resolved_go_name": "fmt.Sprintf"
+      },
+      "command_runner": {
+        "callsite": "0x140266d80",
+        "target": "0x140262960",
+        "resolved_go_name": "main.runWithTimeout",
+        "timeout_argument": 10
+      },
+      "interpretation": "Conditional static construction of the stated persistence name and passing of the formatted command to the sample command runner; no task/registry installation observed."
+    }
+  ],
+  "command_runner_fact": {
+    "function": "main.runWithTimeout",
+    "entry": "0x140262960",
+    "shell_program_literal": "cmd",
+    "shell_program_virtual_address": "0x14034dcb3",
+    "shell_program_file_offset": 3458739,
+    "shell_program_byte_length": 3,
+    "shell_switch_literal": "/c",
+    "shell_switch_virtual_address": "0x14034dc08",
+    "shell_switch_file_offset": 3458568,
+    "shell_switch_byte_length": 2,
+    "command_constructor_callsite": "0x1402629e3",
+    "command_constructor_target": "0x140258ae0",
+    "resolved_go_name": "os/exec.Command",
+    "scope": "Static runner construction only; no target process launched."
+  },
+  "experimental_rule": {
+    "rule_name": "RND_CyberStrikeAI_Generated_Windows_HTTP_Beacon_Lineage",
+    "rule_sha256": "ad19c2f78b12540b0840b5de27c8da237a940acbfc818f5aa2a57edc2858bcc7",
+    "yara_version": "4.5.4",
+    "compiled": true,
+    "positive_references": 1,
+    "negative_references": 4,
+    "negative_scope": "Two benign Go components and two framework/component references; raw marker conjunction checked separately from PE/size gates.",
+    "detection_efficacy": "Experimental finite reference evidence only; no production false-positive estimate or universal future coverage.",
+    "maliciousness_inference": "No malicious-use or campaign inference from a software match.",
+    "negative_reference_classes": [
+      "ARTEX Windows reference",
+      "Local-source CyberStrikeAI controller reference",
+      "Benign Go tool",
+      "Benign Go compiler"
+    ],
+    "private_reference_details_not_redistributed": true
+  },
+  "limitations": [
+    "SystemUpdate is a generic name shared with legitimate or unrelated software; never block by the name alone.",
+    "The two type/value pairs already exist in the catalog. These are new independent evidence memberships, not new IOC values or two different names.",
+    "Only66 application functions were decompiled; Go/runtime/library functions were not exhaustively decompiled.",
+    "Static code shows a conditional persistence operation; it does not show that the registry value or task was installed on any victim.",
+    "The exact sample is not one of the publisher-reported Kaspersky beacon hashes; similar names/code cannot bridge that identity.",
+    "No new bytes acquired, target requests, DNS, scans, sample submissions, controller launches or sample execution occurred."
+  ]
+}

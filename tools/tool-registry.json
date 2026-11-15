@@ -3848,5 +3848,107 @@
       "canonical_repository": "0sec-labs/0security",
       "scope": "GitHub API canonical full_name/redirect plus pinned README links."
     }
+  },
+  {
+    "name": "DarkMoon",
+    "aliases": [
+      "Dark-Moon",
+      "Darkmoon"
+    ],
+    "category": "autonomous-ai-security-assessment-framework",
+    "what_it_does_reported": "Upstream-described autonomous local-LLM security assessment framework with specialist agents and a local privacy gateway.",
+    "capability_validation": "Pinned documentation claims only; not installed, executed or independently benchmarked.",
+    "ai_feature_assessment": "Upstream describes LLM-driven orchestration and specialist agents; availability of offensive functionality is not maliciousness evidence.",
+    "official_repository": "https://github.com/ASCIT31/Dark-Moon",
+    "repository_full_name": "ASCIT31/Dark-Moon",
+    "upstream_identity_qualification": "Owning GitHub repository metadata, pinned README, explicit GPLv3 license and latest published release checked. No named malicious deployment or trojanized distribution established.",
+    "pinned_revision": "edfe9cb12a263036a0c3dc1af604713e8197cce9",
+    "last_activity_utc": "2026-10-27T19:14:58Z",
+    "last_activity_meaning": "Default-branch committer time, not an attack or deployment timestamp.",
+    "repository_last_push_utc": "2026-10-27T19:15:01Z",
+    "repository_created_at_utc": "2024-11-26T10:54:02Z",
+    "archived": false,
+    "license": "GPL-3.0",
+    "license_qualification": "Official README describes GPLv3 and full pinned LICENSE is GNU GPL version3. This does not verify dependency or separately marketed Pro-edition licensing.",
+    "license_source_url": "https://github.com/ASCIT31/Dark-Moon/blob/edfe9cb12a263036a0c3dc1af604713e8197cce9/LICENSE",
+    "latest_release": {
+      "name": "DarkMoon v1.6.0 — Signal-driven vulnerability scanning",
+      "tag_name": "v1.6.0",
+      "published_at": "2026-10-25T12:10:25Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/ASCIT31/Dark-Moon/releases/tag/v1.6.0"
+    },
+    "reviewed_at_utc": "2026-11-15T17:52:20.285883+00:00",
+    "retrieved_at_utc": "",
+    "retrieval_time_scope": "Exact individual transport time is unknown; connector source review completed2026-11-15T17:48:30Z. This is not a release, activity or deployment timestamp.",
+    "tool_id": "ascit31--dark-moon",
+    "global_novelty_claimed": false,
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact malicious deployment established in this review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Legitimate software registry context only; not a malicious IOC.",
+    "new_network_iocs": 0,
+    "license_identity": {
+      "git_blob_sha1": "e72bfddabc15be5718a7cc061ac10e47741d8219",
+      "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+      "bytes": 35148,
+      "hash_method": "SHA256 and Git blob SHA1 computed from exact retained pinned-source UTF8 text."
+    },
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/LICENSE"
+      },
+      {
+        "kind": "latest-release",
+        "url": "https://github.com/ASCIT31/Dark-Moon/releases/tag/v1.6.0"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md",
+        "git_blob_sha": "08490cf3923c03bd3995cb0418e2000e4ed93be0",
+        "sha256": "28e61d63acfbb74adceb0b529076e917e15ba642160b0cc3cad9da3a81c9af0d",
+        "bytes": 27266,
+        "anchor_scope": "Documentation identity, not malware or runtime detection."
+      }
+    ],
+    "runtime_fingerprint_status": "Runtime specificity, benign controls and operational detection efficacy untested.",
+    "source_identification_hypotheses": [],
+    "sources": [
+      "https://api.github.com/repos/ASCIT31/Dark-Moon",
+      "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md",
+      "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/LICENSE",
+      "https://github.com/ASCIT31/Dark-Moon/releases/tag/v1.6.0"
+    ],
+    "source_references": [
+      {
+        "url": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md",
+        "review_completed_at_utc": "2026-11-15T17:48:30Z",
+        "sha256": "28e61d63acfbb74adceb0b529076e917e15ba642160b0cc3cad9da3a81c9af0d",
+        "scope": "Pinned public documentation/license; exact individual retrieval time unavailable."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/LICENSE",
+        "review_completed_at_utc": "2026-11-15T17:48:30Z",
+        "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+        "scope": "Pinned public documentation/license; exact individual retrieval time unavailable."
+      }
+    ],
+    "lifecycle_stage": "Public project with releases",
+    "lifecycle_basis": "Metadata only; no quality, maturity or efficacy claim.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md",
+        "statement": "New registry identity, not a first public discovery or deployment finding."
+      }
+    ]
   }
 ]

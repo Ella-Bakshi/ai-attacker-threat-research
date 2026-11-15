@@ -44997,17 +44997,17 @@
   {
     "record_id": "CS-C8DEAA24FBB6",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
-    "indicator_type": "unverified_file_hash_32hex",
+    "publication_category": "main-iocs",
+    "indicator_type": "md5",
     "indicator": "2770562d104391b92b42671c270079bb",
     "indicator_defanged": "2770562d104391b92b42671c270079bb",
     "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svcmon32.exe c:\\programdata\\svcmon32.exe",
     "component": "CyberStrikeAI",
     "association_scope": "reported_framework_beacon_or_trojanized_build",
-    "confidence": "Low",
-    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
-    "evidence_confidence": "High",
-    "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
+    "confidence": "High",
+    "confidence_scope": "High for explicit publisher MD5/SHA1/SHA256 identity cells and the separately attributed original research role. No local sample digest recalculation, malware-byte/native-family verification, observed network exchange, individual actor/victim or current-operation claim. Same original publisher portal and article; not a second independent publisher. Alternative/generic provider detection labels remain alongside the Securelist Windows-beacon role; no exact native-family inference.",
+    "evidence_confidence": "High for explicit typed publisher metadata; native behavior not independently reproduced.",
+    "verification_status": "Actual public OpenTIP Overview explicitly labels all three digests beside format/size. Preserved browser rendering hash and premium boundary independently checked; no sample bytes acquired.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -45018,7 +45018,7 @@
     "reviewed_at_utc": "2026-11-10T08:40:35.684942+00:00",
     "primary_source_id": "securelist",
     "primary_source_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
-    "all_source_urls": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "all_source_urls": "https://securelist.com/tr/cyberstrikeai-attacks/121715/; https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
     "source_published_dates": "securelist:2026-11-02",
     "source_retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
     "source_references": [
@@ -45067,30 +45067,154 @@
           "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
         },
         "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00"
+      },
+      {
+        "url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+          "retrieved_at_utc": "2026-11-15T18:00:36.070Z",
+          "locator": {
+            "public_section": "Report > Overview > hashes table",
+            "digest_rows": {
+              "md5": {
+                "label": "MD5",
+                "value": "2770562d104391b92b42671c270079bb",
+                "snapshot_line_1based": 92
+              },
+              "sha1": {
+                "label": "SHA1",
+                "value": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+                "snapshot_line_1based": 95
+              },
+              "sha256": {
+                "label": "SHA256",
+                "value": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+                "snapshot_line_1based": 98
+              }
+            },
+            "format_row_snapshot_line_1based": 77,
+            "size_row_snapshot_line_1based": 80,
+            "premium_boundary_snapshot_line_1based": 127,
+            "snapshot_sha256": "022bb4970c9414390f4cd7916eeb41052432ab710ef76a40a92b79821428257f",
+            "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+          },
+          "sample_identity": {
+            "md5": "2770562d104391b92b42671c270079bb",
+            "sha1": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+            "sha256": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+            "file_bytes": 6312448,
+            "format": "exe x64"
+          },
+          "provider_first_last_displayed": {
+            "first_seen": "15 Sep, 2026 22:40",
+            "last_seen": "2 Nov, 2026 12:44",
+            "time_zone": "not stated",
+            "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+          },
+          "provider_detection_labels": [
+            {
+              "label": "BSS:Trojan.Win32.Generic.nblk",
+              "provider_displayed_date": "16 Sep, 2026",
+              "provider_displayed_time": "19:18",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "Trojan-Dropper.FrauDrop.HTTP.C&C",
+              "provider_displayed_date": "16 Sep, 2026",
+              "provider_displayed_time": "03:37",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "Trojan-Dropper.Win32.FrauDrop.aminv",
+              "provider_displayed_date": "2 Nov, 2026",
+              "provider_displayed_time": "15:43",
+              "time_zone": "not stated"
+            }
+          ],
+          "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+          "premium_example_data_used": false
+        },
+        "reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00"
       }
     ],
-    "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
-    "recommended_use": "Source-reported file-hash lead. Do not import into an algorithm-specific blocklist until an explicit algorithm or exact-byte identity bridge is verified.",
+    "limitations": "No local sample digest recalculation, malware-byte/native-family verification, observed network exchange, individual actor/victim or current-operation claim. Same original publisher portal and article; not a second independent publisher. Alternative/generic provider detection labels remain alongside the Securelist Windows-beacon role; no exact native-family inference.",
+    "recommended_use": "Source-reported file identity with explicit named digest/crosshash rows in a public publisher report. Retrospective exact-file correlation only; no locally acquired bytes, native family verification or current operation claimed for this file.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "hash_algorithm_evidence": "Publisher lists this exact 32-hex file indicator without an explicit algorithm. No exact-byte calculation or explicit independent provider algorithm bridge was established.",
-    "algorithm_independently_verified": false,
+    "hash_algorithm_evidence": "Actual public Overview explicitly labels MD5 2770562d104391b92b42671c270079bb and two matching crosshash identity cells; not inferred from digest length or query echo.",
+    "algorithm_independently_verified": true,
     "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
-    "source_review_state": "unverified",
-    "source_review_scope": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
-    "source_review_locator": [
-      {
-        "url": "https://otx.alienvault.com/api/v1/indicators/file/2770562d104391b92b42671c270079bb/analysis",
-        "retrieved_at_utc": "2026-11-15T17:15:36.105243+00:00",
-        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
-        "locator": "/analysis = {} (empty provider analysis)",
-        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
-      }
-    ],
-    "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
-    "source_review_disposition": "deeper_review_no_positive_algorithm_bridge",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Resolves digest identity and publisher metadata subtype only. Original research association remains attributed; native family, behavior and current operation remain unverified. Premium example data excluded.",
+    "source_review_locator": {
+      "url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+      "retrieved_at_utc": "2026-11-15T18:00:36.070Z",
+      "locator": {
+        "public_section": "Report > Overview > hashes table",
+        "digest_rows": {
+          "md5": {
+            "label": "MD5",
+            "value": "2770562d104391b92b42671c270079bb",
+            "snapshot_line_1based": 92
+          },
+          "sha1": {
+            "label": "SHA1",
+            "value": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+            "snapshot_line_1based": 95
+          },
+          "sha256": {
+            "label": "SHA256",
+            "value": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+            "snapshot_line_1based": 98
+          }
+        },
+        "format_row_snapshot_line_1based": 77,
+        "size_row_snapshot_line_1based": 80,
+        "premium_boundary_snapshot_line_1based": 127,
+        "snapshot_sha256": "022bb4970c9414390f4cd7916eeb41052432ab710ef76a40a92b79821428257f",
+        "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+      },
+      "sample_identity": {
+        "md5": "2770562d104391b92b42671c270079bb",
+        "sha1": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+        "sha256": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+        "file_bytes": 6312448,
+        "format": "exe x64"
+      },
+      "provider_first_last_displayed": {
+        "first_seen": "15 Sep, 2026 22:40",
+        "last_seen": "2 Nov, 2026 12:44",
+        "time_zone": "not stated",
+        "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+      },
+      "provider_detection_labels": [
+        {
+          "label": "BSS:Trojan.Win32.Generic.nblk",
+          "provider_displayed_date": "16 Sep, 2026",
+          "provider_displayed_time": "19:18",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "Trojan-Dropper.FrauDrop.HTTP.C&C",
+          "provider_displayed_date": "16 Sep, 2026",
+          "provider_displayed_time": "03:37",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "Trojan-Dropper.Win32.FrauDrop.aminv",
+          "provider_displayed_date": "2 Nov, 2026",
+          "provider_displayed_time": "15:43",
+          "time_zone": "not stated"
+        }
+      ],
+      "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+      "premium_example_data_used": false
+    },
+    "source_reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00",
+    "source_review_disposition": "explicit_public_publisher_identity_bridge_reviewed",
     "automatic_blocklist_suitable": false,
     "source_review_history": [
       {
@@ -45113,19 +45237,187 @@
         "automatic_blocklist_suitable": false,
         "review_pass": "2026-11-15-deeper-hunt",
         "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+      },
+      {
+        "indicator_type": "unverified_file_hash_32hex",
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svcmon32.exe c:\\programdata\\svcmon32.exe",
+        "confidence": "Low",
+        "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
+        "evidence_confidence": "High",
+        "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
+        "hash_algorithm_evidence": "Publisher lists this exact 32-hex file indicator without an explicit algorithm. No exact-byte calculation or explicit independent provider algorithm bridge was established.",
+        "algorithm_independently_verified": false,
+        "algorithm_independently_verified_scope": null,
+        "algorithm_verification_method": null,
+        "sample_bytes_locally_verified": null,
+        "source_review_state": "unverified",
+        "source_review_disposition": "deeper_review_no_positive_algorithm_bridge",
+        "source_review_scope": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+        "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+        "source_review_locator": [
+          {
+            "url": "https://otx.alienvault.com/api/v1/indicators/file/2770562d104391b92b42671c270079bb/analysis",
+            "retrieved_at_utc": "2026-11-15T17:15:36.105243+00:00",
+            "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+            "locator": "/analysis = {} (empty provider analysis)",
+            "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+          }
+        ],
+        "provider_identity_metadata": null,
+        "recommended_use": "Source-reported file-hash lead. Do not import into an algorithm-specific blocklist until an explicit algorithm or exact-byte identity bridge is verified.",
+        "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-exact-artifact-review",
+        "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00",
+        "all_source_urls": "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
       }
     ],
     "source_review_resolution_evidence": [
       {
-        "url": "https://otx.alienvault.com/api/v1/indicators/file/2770562d104391b92b42671c270079bb/analysis",
-        "retrieved_at_utc": "2026-11-15T17:15:36.105243+00:00",
-        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
-        "locator": "/analysis = {} (empty provider analysis)",
-        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+        "url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+        "retrieved_at_utc": "2026-11-15T18:00:36.070Z",
+        "locator": {
+          "public_section": "Report > Overview > hashes table",
+          "digest_rows": {
+            "md5": {
+              "label": "MD5",
+              "value": "2770562d104391b92b42671c270079bb",
+              "snapshot_line_1based": 92
+            },
+            "sha1": {
+              "label": "SHA1",
+              "value": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+              "snapshot_line_1based": 95
+            },
+            "sha256": {
+              "label": "SHA256",
+              "value": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+              "snapshot_line_1based": 98
+            }
+          },
+          "format_row_snapshot_line_1based": 77,
+          "size_row_snapshot_line_1based": 80,
+          "premium_boundary_snapshot_line_1based": 127,
+          "snapshot_sha256": "022bb4970c9414390f4cd7916eeb41052432ab710ef76a40a92b79821428257f",
+          "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+        },
+        "sample_identity": {
+          "md5": "2770562d104391b92b42671c270079bb",
+          "sha1": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+          "sha256": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+          "file_bytes": 6312448,
+          "format": "exe x64"
+        },
+        "provider_first_last_displayed": {
+          "first_seen": "15 Sep, 2026 22:40",
+          "last_seen": "2 Nov, 2026 12:44",
+          "time_zone": "not stated",
+          "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+        },
+        "provider_detection_labels": [
+          {
+            "label": "BSS:Trojan.Win32.Generic.nblk",
+            "provider_displayed_date": "16 Sep, 2026",
+            "provider_displayed_time": "19:18",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "Trojan-Dropper.FrauDrop.HTTP.C&C",
+            "provider_displayed_date": "16 Sep, 2026",
+            "provider_displayed_time": "03:37",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "Trojan-Dropper.Win32.FrauDrop.aminv",
+            "provider_displayed_date": "2 Nov, 2026",
+            "provider_displayed_time": "15:43",
+            "time_zone": "not stated"
+          }
+        ],
+        "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+        "premium_example_data_used": false
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
+    "source_review_resolution_pass": "2026-11-15-exact-artifact-review",
+    "algorithm_independently_verified_scope": "Analyst independently source-reviewed explicit vendor digest labels; not locally byte-recomputed. Same original publisher portal and article; not a second independent publisher.",
+    "algorithm_verification_method": "explicit_public_publisher_file_identity_metadata",
+    "sample_bytes_locally_verified": false,
+    "provider_identity_metadata": {
+      "source_url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+      "observed_report_url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+      "retrieved_at_utc": "2026-11-15T18:00:36.070Z",
+      "sample_identity": {
+        "md5": "2770562d104391b92b42671c270079bb",
+        "sha1": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+        "sha256": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+        "file_bytes": 6312448,
+        "format": "exe x64"
+      },
+      "locator": {
+        "public_section": "Report > Overview > hashes table",
+        "digest_rows": {
+          "md5": {
+            "label": "MD5",
+            "value": "2770562d104391b92b42671c270079bb",
+            "snapshot_line_1based": 92
+          },
+          "sha1": {
+            "label": "SHA1",
+            "value": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+            "snapshot_line_1based": 95
+          },
+          "sha256": {
+            "label": "SHA256",
+            "value": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+            "snapshot_line_1based": 98
+          }
+        },
+        "format_row_snapshot_line_1based": 77,
+        "size_row_snapshot_line_1based": 80,
+        "premium_boundary_snapshot_line_1based": 127,
+        "snapshot_sha256": "022bb4970c9414390f4cd7916eeb41052432ab710ef76a40a92b79821428257f",
+        "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+      },
+      "provider_first_last_displayed": {
+        "first_seen": "15 Sep, 2026 22:40",
+        "last_seen": "2 Nov, 2026 12:44",
+        "time_zone": "not stated",
+        "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+      },
+      "provider_detection_labels": [
+        {
+          "label": "BSS:Trojan.Win32.Generic.nblk",
+          "provider_displayed_date": "16 Sep, 2026",
+          "provider_displayed_time": "19:18",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "Trojan-Dropper.FrauDrop.HTTP.C&C",
+          "provider_displayed_date": "16 Sep, 2026",
+          "provider_displayed_time": "03:37",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "Trojan-Dropper.Win32.FrauDrop.aminv",
+          "provider_displayed_date": "2 Nov, 2026",
+          "provider_displayed_time": "15:43",
+          "time_zone": "not stated"
+        }
+      ],
+      "dynamic_analysis_summary": "No data found",
+      "source_publication_date": "",
+      "source_publication_date_basis": "Dynamic public portal metadata publication date unknown.",
+      "sample_bytes_acquired": false,
+      "native_family_verified": false,
+      "premium_example_data_used": false,
+      "limits": "No local sample digest recalculation, malware-byte/native-family verification, observed network exchange, individual actor/victim or current-operation claim. Same original publisher portal and article; not a second independent publisher. Alternative/generic provider detection labels remain alongside the Securelist Windows-beacon role; no exact native-family inference.",
+      "portal_verdict_displayed": "Malware",
+      "portal_verdict_scope": "Publisher UI classification, not independently reproduced native behavior or maliciousness assessment."
+    },
+    "previous_indicator_type": "unverified_file_hash_32hex",
+    "type_correction_basis": "Explicit provider sample identity bridge, not digest length or query-type inference."
   },
   {
     "record_id": "CS-A0514DEE7F47",
@@ -45200,17 +45492,17 @@
   {
     "record_id": "CS-149870EBFE9C",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
-    "indicator_type": "unverified_file_hash_32hex",
+    "publication_category": "main-iocs",
+    "indicator_type": "md5",
     "indicator": "d726a8b4886c636f76ca6d30ef6a6ff4",
     "indicator_defanged": "d726a8b4886c636f76ca6d30ef6a6ff4",
     "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svchosts.exe",
     "component": "CyberStrikeAI",
     "association_scope": "reported_framework_beacon_or_trojanized_build",
-    "confidence": "Low",
-    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
-    "evidence_confidence": "High",
-    "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
+    "confidence": "High",
+    "confidence_scope": "High for explicit publisher MD5/SHA1/SHA256 identity cells and the separately attributed original research role. No local sample digest recalculation, malware-byte/native-family verification, observed network exchange, individual actor/victim or current-operation claim. Same original publisher portal and article; not a second independent publisher. Alternative/generic provider detection labels remain alongside the Securelist Windows-beacon role; no exact native-family inference.",
+    "evidence_confidence": "High for explicit typed publisher metadata; native behavior not independently reproduced.",
+    "verification_status": "Actual public OpenTIP Overview explicitly labels all three digests beside format/size. Preserved browser rendering hash and premium boundary independently checked; no sample bytes acquired.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -45221,7 +45513,7 @@
     "reviewed_at_utc": "2026-11-10T08:40:35.684942+00:00",
     "primary_source_id": "securelist",
     "primary_source_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
-    "all_source_urls": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "all_source_urls": "https://securelist.com/tr/cyberstrikeai-attacks/121715/; https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
     "source_published_dates": "securelist:2026-11-02",
     "source_retrieved_at_utc": "2026-11-10T08:26:43.436586+00:00",
     "source_references": [
@@ -45270,30 +45562,190 @@
           "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
         },
         "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00"
+      },
+      {
+        "url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+          "retrieved_at_utc": "2026-11-15T18:01:33.494Z",
+          "locator": {
+            "public_section": "Report > Overview > hashes table",
+            "digest_rows": {
+              "md5": {
+                "label": "MD5",
+                "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
+                "snapshot_line_1based": 92
+              },
+              "sha1": {
+                "label": "SHA1",
+                "value": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+                "snapshot_line_1based": 95
+              },
+              "sha256": {
+                "label": "SHA256",
+                "value": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+                "snapshot_line_1based": 98
+              }
+            },
+            "format_row_snapshot_line_1based": 77,
+            "size_row_snapshot_line_1based": 80,
+            "premium_boundary_snapshot_line_1based": 142,
+            "snapshot_sha256": "56dc405b757786d793d72c1921fd139db7d298eddebc3b51ad71bc3c36159c9f",
+            "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+          },
+          "sample_identity": {
+            "md5": "d726a8b4886c636f76ca6d30ef6a6ff4",
+            "sha1": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+            "sha256": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+            "file_bytes": 6312448,
+            "format": "exe x64"
+          },
+          "provider_first_last_displayed": {
+            "first_seen": "8 Oct, 2026 11:22",
+            "last_seen": "30 Oct, 2026 18:59",
+            "time_zone": "not stated",
+            "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+          },
+          "provider_detection_labels": [
+            {
+              "label": "BSS:Exploit.Win32.Generic",
+              "provider_displayed_date": "8 Oct, 2026",
+              "provider_displayed_time": "19:17",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "BSS:Exploit.Win32.Generic.nblk",
+              "provider_displayed_date": "12 Oct, 2026",
+              "provider_displayed_time": "17:16",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "BSS:Trojan.Win32.Generic",
+              "provider_displayed_date": "12 Oct, 2026",
+              "provider_displayed_time": "17:38",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "BSS:Trojan.Win32.Generic.nblk",
+              "provider_displayed_date": "12 Oct, 2026",
+              "provider_displayed_time": "17:38",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "HackTool.Win64.CyberStrike.sb",
+              "provider_displayed_date": "30 Oct, 2026",
+              "provider_displayed_time": "21:50",
+              "time_zone": "not stated"
+            },
+            {
+              "label": "Trojan.Win64.Agentb.lmtq",
+              "provider_displayed_date": "6 Nov, 2026",
+              "provider_displayed_time": "22:30",
+              "time_zone": "not stated"
+            }
+          ],
+          "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+          "premium_example_data_used": false
+        },
+        "reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00"
       }
     ],
-    "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
-    "recommended_use": "Source-reported file-hash lead. Do not import into an algorithm-specific blocklist until an explicit algorithm or exact-byte identity bridge is verified.",
+    "limitations": "No local sample digest recalculation, malware-byte/native-family verification, observed network exchange, individual actor/victim or current-operation claim. Same original publisher portal and article; not a second independent publisher. Alternative/generic provider detection labels remain alongside the Securelist Windows-beacon role; no exact native-family inference.",
+    "recommended_use": "Source-reported file identity with explicit named digest/crosshash rows in a public publisher report. Retrospective exact-file correlation only; no locally acquired bytes, native family verification or current operation claimed for this file.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "hash_algorithm_evidence": "Publisher lists this exact 32-hex file indicator without an explicit algorithm. No exact-byte calculation or explicit independent provider algorithm bridge was established.",
-    "algorithm_independently_verified": false,
+    "hash_algorithm_evidence": "Actual public Overview explicitly labels MD5 d726a8b4886c636f76ca6d30ef6a6ff4 and two matching crosshash identity cells; not inferred from digest length or query echo.",
+    "algorithm_independently_verified": true,
     "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
-    "source_review_state": "unverified",
-    "source_review_scope": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
-    "source_review_locator": [
-      {
-        "url": "https://otx.alienvault.com/api/v1/indicators/file/d726a8b4886c636f76ca6d30ef6a6ff4/analysis",
-        "retrieved_at_utc": "2026-11-15T17:15:37.848655+00:00",
-        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
-        "locator": "/analysis = {} (empty provider analysis)",
-        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
-      }
-    ],
-    "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
-    "source_review_disposition": "deeper_review_no_positive_algorithm_bridge",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Resolves digest identity and publisher metadata subtype only. Original research association remains attributed; native family, behavior and current operation remain unverified. Premium example data excluded.",
+    "source_review_locator": {
+      "url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+      "retrieved_at_utc": "2026-11-15T18:01:33.494Z",
+      "locator": {
+        "public_section": "Report > Overview > hashes table",
+        "digest_rows": {
+          "md5": {
+            "label": "MD5",
+            "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
+            "snapshot_line_1based": 92
+          },
+          "sha1": {
+            "label": "SHA1",
+            "value": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+            "snapshot_line_1based": 95
+          },
+          "sha256": {
+            "label": "SHA256",
+            "value": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+            "snapshot_line_1based": 98
+          }
+        },
+        "format_row_snapshot_line_1based": 77,
+        "size_row_snapshot_line_1based": 80,
+        "premium_boundary_snapshot_line_1based": 142,
+        "snapshot_sha256": "56dc405b757786d793d72c1921fd139db7d298eddebc3b51ad71bc3c36159c9f",
+        "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+      },
+      "sample_identity": {
+        "md5": "d726a8b4886c636f76ca6d30ef6a6ff4",
+        "sha1": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+        "sha256": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+        "file_bytes": 6312448,
+        "format": "exe x64"
+      },
+      "provider_first_last_displayed": {
+        "first_seen": "8 Oct, 2026 11:22",
+        "last_seen": "30 Oct, 2026 18:59",
+        "time_zone": "not stated",
+        "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+      },
+      "provider_detection_labels": [
+        {
+          "label": "BSS:Exploit.Win32.Generic",
+          "provider_displayed_date": "8 Oct, 2026",
+          "provider_displayed_time": "19:17",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "BSS:Exploit.Win32.Generic.nblk",
+          "provider_displayed_date": "12 Oct, 2026",
+          "provider_displayed_time": "17:16",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "BSS:Trojan.Win32.Generic",
+          "provider_displayed_date": "12 Oct, 2026",
+          "provider_displayed_time": "17:38",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "BSS:Trojan.Win32.Generic.nblk",
+          "provider_displayed_date": "12 Oct, 2026",
+          "provider_displayed_time": "17:38",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "HackTool.Win64.CyberStrike.sb",
+          "provider_displayed_date": "30 Oct, 2026",
+          "provider_displayed_time": "21:50",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "Trojan.Win64.Agentb.lmtq",
+          "provider_displayed_date": "6 Nov, 2026",
+          "provider_displayed_time": "22:30",
+          "time_zone": "not stated"
+        }
+      ],
+      "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+      "premium_example_data_used": false
+    },
+    "source_reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00",
+    "source_review_disposition": "explicit_public_publisher_identity_bridge_reviewed",
     "automatic_blocklist_suitable": false,
     "source_review_history": [
       {
@@ -45316,19 +45768,223 @@
         "automatic_blocklist_suitable": false,
         "review_pass": "2026-11-15-deeper-hunt",
         "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+      },
+      {
+        "indicator_type": "unverified_file_hash_32hex",
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svchosts.exe",
+        "confidence": "Low",
+        "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
+        "evidence_confidence": "High",
+        "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
+        "hash_algorithm_evidence": "Publisher lists this exact 32-hex file indicator without an explicit algorithm. No exact-byte calculation or explicit independent provider algorithm bridge was established.",
+        "algorithm_independently_verified": false,
+        "algorithm_independently_verified_scope": null,
+        "algorithm_verification_method": null,
+        "sample_bytes_locally_verified": null,
+        "source_review_state": "unverified",
+        "source_review_disposition": "deeper_review_no_positive_algorithm_bridge",
+        "source_review_scope": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+        "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+        "source_review_locator": [
+          {
+            "url": "https://otx.alienvault.com/api/v1/indicators/file/d726a8b4886c636f76ca6d30ef6a6ff4/analysis",
+            "retrieved_at_utc": "2026-11-15T17:15:37.848655+00:00",
+            "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+            "locator": "/analysis = {} (empty provider analysis)",
+            "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+          }
+        ],
+        "provider_identity_metadata": null,
+        "recommended_use": "Source-reported file-hash lead. Do not import into an algorithm-specific blocklist until an explicit algorithm or exact-byte identity bridge is verified.",
+        "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-exact-artifact-review",
+        "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00",
+        "all_source_urls": "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
       }
     ],
     "source_review_resolution_evidence": [
       {
-        "url": "https://otx.alienvault.com/api/v1/indicators/file/d726a8b4886c636f76ca6d30ef6a6ff4/analysis",
-        "retrieved_at_utc": "2026-11-15T17:15:37.848655+00:00",
-        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
-        "locator": "/analysis = {} (empty provider analysis)",
-        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+        "url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+        "retrieved_at_utc": "2026-11-15T18:01:33.494Z",
+        "locator": {
+          "public_section": "Report > Overview > hashes table",
+          "digest_rows": {
+            "md5": {
+              "label": "MD5",
+              "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
+              "snapshot_line_1based": 92
+            },
+            "sha1": {
+              "label": "SHA1",
+              "value": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+              "snapshot_line_1based": 95
+            },
+            "sha256": {
+              "label": "SHA256",
+              "value": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+              "snapshot_line_1based": 98
+            }
+          },
+          "format_row_snapshot_line_1based": 77,
+          "size_row_snapshot_line_1based": 80,
+          "premium_boundary_snapshot_line_1based": 142,
+          "snapshot_sha256": "56dc405b757786d793d72c1921fd139db7d298eddebc3b51ad71bc3c36159c9f",
+          "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+        },
+        "sample_identity": {
+          "md5": "d726a8b4886c636f76ca6d30ef6a6ff4",
+          "sha1": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+          "sha256": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+          "file_bytes": 6312448,
+          "format": "exe x64"
+        },
+        "provider_first_last_displayed": {
+          "first_seen": "8 Oct, 2026 11:22",
+          "last_seen": "30 Oct, 2026 18:59",
+          "time_zone": "not stated",
+          "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+        },
+        "provider_detection_labels": [
+          {
+            "label": "BSS:Exploit.Win32.Generic",
+            "provider_displayed_date": "8 Oct, 2026",
+            "provider_displayed_time": "19:17",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "BSS:Exploit.Win32.Generic.nblk",
+            "provider_displayed_date": "12 Oct, 2026",
+            "provider_displayed_time": "17:16",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "BSS:Trojan.Win32.Generic",
+            "provider_displayed_date": "12 Oct, 2026",
+            "provider_displayed_time": "17:38",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "BSS:Trojan.Win32.Generic.nblk",
+            "provider_displayed_date": "12 Oct, 2026",
+            "provider_displayed_time": "17:38",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "HackTool.Win64.CyberStrike.sb",
+            "provider_displayed_date": "30 Oct, 2026",
+            "provider_displayed_time": "21:50",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "Trojan.Win64.Agentb.lmtq",
+            "provider_displayed_date": "6 Nov, 2026",
+            "provider_displayed_time": "22:30",
+            "time_zone": "not stated"
+          }
+        ],
+        "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+        "premium_example_data_used": false
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
+    "source_review_resolution_pass": "2026-11-15-exact-artifact-review",
+    "algorithm_independently_verified_scope": "Analyst independently source-reviewed explicit vendor digest labels; not locally byte-recomputed. Same original publisher portal and article; not a second independent publisher.",
+    "algorithm_verification_method": "explicit_public_publisher_file_identity_metadata",
+    "sample_bytes_locally_verified": false,
+    "provider_identity_metadata": {
+      "source_url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+      "observed_report_url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+      "retrieved_at_utc": "2026-11-15T18:01:33.494Z",
+      "sample_identity": {
+        "md5": "d726a8b4886c636f76ca6d30ef6a6ff4",
+        "sha1": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+        "sha256": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+        "file_bytes": 6312448,
+        "format": "exe x64"
+      },
+      "locator": {
+        "public_section": "Report > Overview > hashes table",
+        "digest_rows": {
+          "md5": {
+            "label": "MD5",
+            "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
+            "snapshot_line_1based": 92
+          },
+          "sha1": {
+            "label": "SHA1",
+            "value": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+            "snapshot_line_1based": 95
+          },
+          "sha256": {
+            "label": "SHA256",
+            "value": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+            "snapshot_line_1based": 98
+          }
+        },
+        "format_row_snapshot_line_1based": 77,
+        "size_row_snapshot_line_1based": 80,
+        "premium_boundary_snapshot_line_1based": 142,
+        "snapshot_sha256": "56dc405b757786d793d72c1921fd139db7d298eddebc3b51ad71bc3c36159c9f",
+        "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+      },
+      "provider_first_last_displayed": {
+        "first_seen": "8 Oct, 2026 11:22",
+        "last_seen": "30 Oct, 2026 18:59",
+        "time_zone": "not stated",
+        "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+      },
+      "provider_detection_labels": [
+        {
+          "label": "BSS:Exploit.Win32.Generic",
+          "provider_displayed_date": "8 Oct, 2026",
+          "provider_displayed_time": "19:17",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "BSS:Exploit.Win32.Generic.nblk",
+          "provider_displayed_date": "12 Oct, 2026",
+          "provider_displayed_time": "17:16",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "BSS:Trojan.Win32.Generic",
+          "provider_displayed_date": "12 Oct, 2026",
+          "provider_displayed_time": "17:38",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "BSS:Trojan.Win32.Generic.nblk",
+          "provider_displayed_date": "12 Oct, 2026",
+          "provider_displayed_time": "17:38",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "HackTool.Win64.CyberStrike.sb",
+          "provider_displayed_date": "30 Oct, 2026",
+          "provider_displayed_time": "21:50",
+          "time_zone": "not stated"
+        },
+        {
+          "label": "Trojan.Win64.Agentb.lmtq",
+          "provider_displayed_date": "6 Nov, 2026",
+          "provider_displayed_time": "22:30",
+          "time_zone": "not stated"
+        }
+      ],
+      "dynamic_analysis_summary": "No data found",
+      "source_publication_date": "",
+      "source_publication_date_basis": "Dynamic public portal metadata publication date unknown.",
+      "sample_bytes_acquired": false,
+      "native_family_verified": false,
+      "premium_example_data_used": false,
+      "limits": "No local sample digest recalculation, malware-byte/native-family verification, observed network exchange, individual actor/victim or current-operation claim. Same original publisher portal and article; not a second independent publisher. Alternative/generic provider detection labels remain alongside the Securelist Windows-beacon role; no exact native-family inference.",
+      "portal_verdict_displayed": "Malware",
+      "portal_verdict_scope": "Publisher UI classification, not independently reproduced native behavior or maliciousness assessment."
+    },
+    "previous_indicator_type": "unverified_file_hash_32hex",
+    "type_correction_basis": "Explicit provider sample identity bridge, not digest length or query-type inference."
   },
   {
     "record_id": "CS-56CB07123E15",

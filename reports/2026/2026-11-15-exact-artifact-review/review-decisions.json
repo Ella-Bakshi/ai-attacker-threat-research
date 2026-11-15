@@ -1,0 +1,779 @@
+[
+  {
+    "record_id": "AR-EDC6BD2C65B1",
+    "indicator": "134.122.137.132",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The new finite sample/repository/provider acquisition routes supplied no exact artifact-to-host activity crosswalk for this AhnLab operational-directory address. Its prior source literal remains supported, while individual malicious activity/component attribution stays unresolved. No host or nearby address was contacted.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-7E4BBB905393",
+    "indicator": "178.15.54.129",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-1FBB76E837D5",
+    "indicator": "178.16.54.129",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-DAE2EFEEE673",
+    "indicator": "204.194.51.54",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The new finite sample/repository/provider acquisition routes supplied no exact artifact-to-host activity crosswalk for this AhnLab operational-directory address. Its prior source literal remains supported, while individual malicious activity/component attribution stays unresolved. No host or nearby address was contacted.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-8F455E00D4B7",
+    "indicator": "085f53a1ce8c634ac7b0d63e42b56b15",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-0A761BC09A4E",
+    "indicator": "0c501aca4fc29efe47f122ddc9c1af85",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-068F739F5D96",
+    "indicator": "0eb259067e565221109a3ee988e1faa3",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-FE7B4C71EDF5",
+    "indicator": "220a1465b2c5ee3ec86861ee17a91e2f",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-D8A9DE0CB2CF",
+    "indicator": "2d13374c14bcaaa99ab00f16cc18b300",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-F85C60EC2C83",
+    "indicator": "326bb512422930f723e8434d219bea15",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-3867F0F1010B",
+    "indicator": "4fff3a0e67210deea726a3bd8c0b625f",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-75FA6B0F3844",
+    "indicator": "5881f74d3bb167e48f6e61c8d9c220e7",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-7634CBA3A7AF",
+    "indicator": "5a38c92fcf2772f65517485f3a23810e",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-4A5645F1060C",
+    "indicator": "5d151bb4512fc48932a83d3bc24ea806",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-8B7961263E33",
+    "indicator": "6593d2601f967566ae1efe521ec7b470",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-3D3894A0A22F",
+    "indicator": "773dc8997a50425fb4146161d747c10f",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-5505F88AAED7",
+    "indicator": "78c3efc26c8db056933da58032361706",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-A6304BC69F83",
+    "indicator": "8858508e75ac58ce586631101be87973",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-8557E4752D94",
+    "indicator": "912e8bb04a86f34c76d7d9bad8b67685",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-B6FF23EB9241",
+    "indicator": "baddd4d75a6980e0df8d47333d9472c3",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-336760317C02",
+    "indicator": "be4033d98dd65437516a94048adc8ac5",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-641757FF2E23",
+    "indicator": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "AR-40970CCA953F",
+    "indicator": "github.com/aizhihuxiao/ARTEX",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "repository",
+    "current_type": "repository",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "One new bounded WaybackCDX lookup for the historical GitHub owner/name returned an empty public capture list. The current13November repository object remains distinct from the historical deleted reference; no archived original object or dependency was recovered. Empty archive results do not establish the historical absence of a repository.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-E8AE40A8B8B7",
+    "indicator": "176.65.144.71",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-5941A37C2CF8",
+    "indicator": "31.56.206.187",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-297E91662108",
+    "indicator": "31.59.92.155",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-6A01D3AD3BD1",
+    "indicator": "38.244.50.120",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-6987F2D196F6",
+    "indicator": "46.8.227.73",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-5CB4A6A4EB2E",
+    "indicator": "64.44.24.195",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-EFAA3FB3E8B1",
+    "indicator": "94.183.184.254",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-A30F5A5644CA",
+    "indicator": "94.183.184.98",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "UN-DCF396B68119",
+    "indicator": "95.182.99.112",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "DAILY15-CC909D037ACC",
+    "indicator": "178.16.54.129",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
+    "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "sources": []
+  },
+  {
+    "record_id": "CS-C8DEAA24FBB6",
+    "indicator": "2770562d104391b92b42671c270079bb",
+    "framework": "CyberStrikeAI",
+    "decision": "resolved_explicit_public_publisher_identity",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "source_supported",
+    "basis": "Resolves digest identity and publisher metadata subtype only. Original research association remains attributed; native family, behavior and current operation remain unverified. Premium example data excluded.",
+    "reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00",
+    "sources": [
+      {
+        "url": "https://opentip.kaspersky.com/2770562d104391b92b42671c270079bb/",
+        "retrieved_at_utc": "2026-11-15T18:00:36.070Z",
+        "locator": {
+          "public_section": "Report > Overview > hashes table",
+          "digest_rows": {
+            "md5": {
+              "label": "MD5",
+              "value": "2770562d104391b92b42671c270079bb",
+              "snapshot_line_1based": 92
+            },
+            "sha1": {
+              "label": "SHA1",
+              "value": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+              "snapshot_line_1based": 95
+            },
+            "sha256": {
+              "label": "SHA256",
+              "value": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+              "snapshot_line_1based": 98
+            }
+          },
+          "format_row_snapshot_line_1based": 77,
+          "size_row_snapshot_line_1based": 80,
+          "premium_boundary_snapshot_line_1based": 127,
+          "snapshot_sha256": "022bb4970c9414390f4cd7916eeb41052432ab710ef76a40a92b79821428257f",
+          "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+        },
+        "sample_identity": {
+          "md5": "2770562d104391b92b42671c270079bb",
+          "sha1": "88c0d326ac25a6b1d415eee598c2d0dbcf0f20a6",
+          "sha256": "e23bc30a7a25f1ed038bbfc396201a4448414c5f38356bb8697810062aa9ca50",
+          "file_bytes": 6312448,
+          "format": "exe x64"
+        },
+        "provider_first_last_displayed": {
+          "first_seen": "15 Sep, 2026 22:40",
+          "last_seen": "2 Nov, 2026 12:44",
+          "time_zone": "not stated",
+          "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+        },
+        "provider_detection_labels": [
+          {
+            "label": "BSS:Trojan.Win32.Generic.nblk",
+            "provider_displayed_date": "16 Sep, 2026",
+            "provider_displayed_time": "19:18",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "Trojan-Dropper.FrauDrop.HTTP.C&C",
+            "provider_displayed_date": "16 Sep, 2026",
+            "provider_displayed_time": "03:37",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "Trojan-Dropper.Win32.FrauDrop.aminv",
+            "provider_displayed_date": "2 Nov, 2026",
+            "provider_displayed_time": "15:43",
+            "time_zone": "not stated"
+          }
+        ],
+        "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+        "premium_example_data_used": false
+      }
+    ]
+  },
+  {
+    "record_id": "CS-149870EBFE9C",
+    "indicator": "d726a8b4886c636f76ca6d30ef6a6ff4",
+    "framework": "CyberStrikeAI",
+    "decision": "resolved_explicit_public_publisher_identity",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "source_supported",
+    "basis": "Resolves digest identity and publisher metadata subtype only. Original research association remains attributed; native family, behavior and current operation remain unverified. Premium example data excluded.",
+    "reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00",
+    "sources": [
+      {
+        "url": "https://opentip.kaspersky.com/d726a8b4886c636f76ca6d30ef6a6ff4/",
+        "retrieved_at_utc": "2026-11-15T18:01:33.494Z",
+        "locator": {
+          "public_section": "Report > Overview > hashes table",
+          "digest_rows": {
+            "md5": {
+              "label": "MD5",
+              "value": "d726a8b4886c636f76ca6d30ef6a6ff4",
+              "snapshot_line_1based": 92
+            },
+            "sha1": {
+              "label": "SHA1",
+              "value": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+              "snapshot_line_1based": 95
+            },
+            "sha256": {
+              "label": "SHA256",
+              "value": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+              "snapshot_line_1based": 98
+            }
+          },
+          "format_row_snapshot_line_1based": 77,
+          "size_row_snapshot_line_1based": 80,
+          "premium_boundary_snapshot_line_1based": 142,
+          "snapshot_sha256": "56dc405b757786d793d72c1921fd139db7d298eddebc3b51ad71bc3c36159c9f",
+          "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+        },
+        "sample_identity": {
+          "md5": "d726a8b4886c636f76ca6d30ef6a6ff4",
+          "sha1": "c20d6d590d6f8f030adf1da44ef35b8183211f9a",
+          "sha256": "a3faa6ade4f611a20bfa99057b4e45a2da12a146d8c912f5b29a557b369efab5",
+          "file_bytes": 6312448,
+          "format": "exe x64"
+        },
+        "provider_first_last_displayed": {
+          "first_seen": "8 Oct, 2026 11:22",
+          "last_seen": "30 Oct, 2026 18:59",
+          "time_zone": "not stated",
+          "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+        },
+        "provider_detection_labels": [
+          {
+            "label": "BSS:Exploit.Win32.Generic",
+            "provider_displayed_date": "8 Oct, 2026",
+            "provider_displayed_time": "19:17",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "BSS:Exploit.Win32.Generic.nblk",
+            "provider_displayed_date": "12 Oct, 2026",
+            "provider_displayed_time": "17:16",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "BSS:Trojan.Win32.Generic",
+            "provider_displayed_date": "12 Oct, 2026",
+            "provider_displayed_time": "17:38",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "BSS:Trojan.Win32.Generic.nblk",
+            "provider_displayed_date": "12 Oct, 2026",
+            "provider_displayed_time": "17:38",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "HackTool.Win64.CyberStrike.sb",
+            "provider_displayed_date": "30 Oct, 2026",
+            "provider_displayed_time": "21:50",
+            "time_zone": "not stated"
+          },
+          {
+            "label": "Trojan.Win64.Agentb.lmtq",
+            "provider_displayed_date": "6 Nov, 2026",
+            "provider_displayed_time": "22:30",
+            "time_zone": "not stated"
+          }
+        ],
+        "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+        "premium_example_data_used": false
+      }
+    ]
+  },
+  {
+    "record_id": "CS-7A14FC8D9665",
+    "indicator": "0bbd08af95f877f1d568b03de2eb76b4",
+    "framework": "CyberStrikeAI",
+    "decision": "resolved_explicit_public_publisher_identity",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "source_supported",
+    "basis": "Resolves digest identity and publisher metadata subtype only. Original research association remains attributed; native family, behavior and current operation remain unverified. Premium example data excluded.",
+    "reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00",
+    "sources": [
+      {
+        "url": "https://opentip.kaspersky.com/0bbd08af95f877f1d568b03de2eb76b4/",
+        "retrieved_at_utc": "2026-11-15T18:02:36.424Z",
+        "locator": {
+          "public_section": "Report > Overview > hashes table",
+          "digest_rows": {
+            "md5": {
+              "label": "MD5",
+              "value": "0bbd08af95f877f1d568b03de2eb76b4",
+              "snapshot_line_1based": 92
+            },
+            "sha1": {
+              "label": "SHA1",
+              "value": "724a163071ef0ab58972f03325c68437933e77f0",
+              "snapshot_line_1based": 95
+            },
+            "sha256": {
+              "label": "SHA256",
+              "value": "43b1e81adfbeb36dcc532471ee2468c861c4ec38cd34db433c4fa18ed6f91549",
+              "snapshot_line_1based": 98
+            }
+          },
+          "format_row_snapshot_line_1based": 77,
+          "size_row_snapshot_line_1based": 80,
+          "premium_boundary_snapshot_line_1based": 117,
+          "snapshot_sha256": "554f891ea913c6cc795e1376eae1dca576b4f8ba6365bee5f10b7ac3e4727540",
+          "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+        },
+        "sample_identity": {
+          "md5": "0bbd08af95f877f1d568b03de2eb76b4",
+          "sha1": "724a163071ef0ab58972f03325c68437933e77f0",
+          "sha256": "43b1e81adfbeb36dcc532471ee2468c861c4ec38cd34db433c4fa18ed6f91549",
+          "file_bytes": 372,
+          "format": "ps1"
+        },
+        "provider_first_last_displayed": {
+          "first_seen": "12 Oct, 2026 14:33",
+          "last_seen": "12 Oct, 2026 19:45",
+          "time_zone": "not stated",
+          "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+        },
+        "provider_detection_labels": [
+          {
+            "label": "HEUR:Backdoor.PowerShell.RShell.gen",
+            "provider_displayed_date": "2 Nov, 2026",
+            "provider_displayed_time": "19:30",
+            "time_zone": "not stated"
+          }
+        ],
+        "publisher_independence_scope": "Same original publisher portal and article; not a second independent publisher.",
+        "premium_example_data_used": false
+      }
+    ]
+  },
+  {
+    "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
+    "indicator": "static.fastcdn.bar",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "domain",
+    "current_type": "domain",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "New exact OTX public URL-list lookup returned no rows and has_next=false. This bounded provider result neither establishes absence nor connects the CT sibling to a sample/operator/campaign; prior DER/SAN facts remain scoped.",
+    "reviewed_at_utc": "2026-11-15T17:54:27.632313+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/static.fastcdn.bar/url_list?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-15T17:51:58.927289+00:00",
+        "status": 200,
+        "response_sha256": "5ee9828cdeb5bd3cc899a58025b2dd18b9dbcafae591eb92209c43d12c04a242",
+        "locator": "/url_list=[]; /has_next=false; /full_size=0"
+      }
+    ]
+  },
+  {
+    "record_id": "OWNCTI-AAB562EB200FA015",
+    "indicator": "www.fastcdn.bar",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "domain",
+    "current_type": "domain",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "New exact OTX public URL-list lookup returned no rows and has_next=false. This bounded provider result neither establishes absence nor connects the CT sibling to a sample/operator/campaign; prior DER/SAN facts remain scoped.",
+    "reviewed_at_utc": "2026-11-15T17:54:27.632313+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/www.fastcdn.bar/url_list?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-15T17:51:58.927632+00:00",
+        "status": 200,
+        "response_sha256": "5ee9828cdeb5bd3cc899a58025b2dd18b9dbcafae591eb92209c43d12c04a242",
+        "locator": "/url_list=[]; /has_next=false; /full_size=0"
+      }
+    ]
+  },
+  {
+    "record_id": "GLOBAL-0F92B69CC511",
+    "indicator": "5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4",
+    "framework": "LAMEHUG / PROMPTSTEAL",
+    "decision": "resolved_explicit_public_publisher_identity",
+    "previous_type": "unverified_file_hash_64hex",
+    "current_type": "sha256",
+    "previous_state": "unverified",
+    "current_state": "source_supported",
+    "basis": "Resolves digest identity and publisher metadata subtype only. Original research association remains attributed; native family, behavior and current operation remain unverified. Premium example data excluded.",
+    "reviewed_at_utc": "2026-11-15T18:06:46.858443+00:00",
+    "sources": [
+      {
+        "url": "https://opentip.kaspersky.com/5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4/",
+        "retrieved_at_utc": "2026-11-15T18:04:31.778Z",
+        "locator": {
+          "public_section": "Report > Overview > hashes table",
+          "digest_rows": {
+            "md5": {
+              "label": "MD5",
+              "value": "1952345e66e1f3173190d282f810a37d",
+              "snapshot_line_1based": 92
+            },
+            "sha1": {
+              "label": "SHA1",
+              "value": "7244a4d43b576d417a826a38e0dcea58adc71329",
+              "snapshot_line_1based": 95
+            },
+            "sha256": {
+              "label": "SHA256",
+              "value": "5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4",
+              "snapshot_line_1based": 98
+            }
+          },
+          "format_row_snapshot_line_1based": 77,
+          "size_row_snapshot_line_1based": 80,
+          "premium_boundary_snapshot_line_1based": 117,
+          "snapshot_sha256": "f9b42e2261a2bc08ecb52837fc31199921c9a3469ef97610ad834aab29d1a730",
+          "snapshot_kind": "Retained browser DOM text rendering, not raw HTTP response or sample bytes."
+        },
+        "sample_identity": {
+          "md5": "1952345e66e1f3173190d282f810a37d",
+          "sha1": "7244a4d43b576d417a826a38e0dcea58adc71329",
+          "sha256": "5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4",
+          "file_bytes": 19827,
+          "format": "text"
+        },
+        "provider_first_last_displayed": {
+          "first_seen": "8 Aug, 2025 06:15",
+          "last_seen": "8 Aug, 2025 06:28",
+          "time_zone": "not stated",
+          "meaning": "Provider displayed file sightings; not converted to UTC, incident/victim activity, or source publication dates."
+        },
+        "provider_detection_labels": [
+          {
+            "label": "Trojan-Spy.Python.LameHug.a",
+            "provider_displayed_date": "3 Dec, 2025",
+            "provider_displayed_time": "23:22",
+            "time_zone": "not stated"
+          }
+        ],
+        "publisher_independence_scope": "Separate vendor metadata, not independent native confirmation of the original research role.",
+        "premium_example_data_used": false
+      }
+    ]
+  }
+]

@@ -34,3 +34,5 @@ The earlier [73-row source-review CSV](../2026-11-15-source-review/unverified-fi
 This pass used public evidence and bounded offline analysis. It performed no candidate service requests, DNS lookups, scans, executions, submissions or paid-provider calls. Source review is separate from maliciousness, successful communication and current ownership. [Reliability and appropriate use](../../../docs/indicator-reliability.md).
 
 Later review: [deeper source and public-artifact hunt](../2026-11-15-deeper-hunt/README.md) revisits the remaining40 and resolves one digest identity. Its current list has 39 unresolved findings; this folder's dated decision/snapshot exports retain their earlier state.
+
+Later [exact-artifact and identity review](../2026-11-15-exact-artifact-review/README.md) supports four additional file identities. The current unresolved list has 35 records; this folder’s dated snapshots retain their earlier state.

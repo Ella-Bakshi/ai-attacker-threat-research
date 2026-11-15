@@ -62,3 +62,5 @@ ThreatDown displays 22 September 2026 while its publication metadata says 23 Sep
 | code[.]newcli[.]com | supporting-context | Third-party AI proxy used for limited Claude connectivity tests and configured Codex access | 2026-07-30T10:00:52Z | Low | [Source](https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/) |
 | 8[.]149[.]128[.]10 | sample-derived-observables | Compiled default C2 host in exact VoidLink implant 4c4201 | 2026-01-13 | High | [Source](https://research.checkpoint.com/2026/voidlink-the-cloud-native-malware-framework/) |
 | 8[.]149[.]128[.]10:443 | sample-derived-observables | Compiled default C2 host/port pair in exact VoidLink implant 4c4201 | 2026-01-13 | High | [Source](https://research.checkpoint.com/2026/voidlink-the-cloud-native-malware-framework/) |
+
+Later [exact-artifact identity review](../2026-11-15-exact-artifact-review/README.md) supports four previously untyped file identities through explicit public publisher metadata. Local sample-byte verification for those files remains absent.

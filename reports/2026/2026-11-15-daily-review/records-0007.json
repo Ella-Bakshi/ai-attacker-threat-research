@@ -10844,7 +10844,7 @@
       "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
     ],
     "source_review_state": "unverified",
-    "source_review_scope": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+    "source_review_scope": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
     "source_review_locator": [
       {
         "url": "https://github.com/Azure/Azure-Sentinel",
@@ -10865,8 +10865,8 @@
         }
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
-    "source_review_disposition": "still_uncertain_after_additional_public_routes",
+    "source_reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+    "source_review_disposition": "still_uncertain_after_exact_artifact_acquisition_review",
     "source_review_history": [
       {
         "publication_category": "unverified-findings",
@@ -10888,30 +10888,20 @@
         "automatic_blocklist_suitable": false,
         "review_pass": "2026-11-15-deeper-hunt",
         "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
-      }
-    ],
-    "source_review_resolution_evidence": [
-      {
-        "url": "https://github.com/Azure/Azure-Sentinel",
-        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
-        "locator": {
-          "search": "178.15.54.129",
-          "result_count": 0,
-          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
-        }
       },
       {
-        "url": "https://github.com/Azure/Azure-Sentinel",
-        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
-        "locator": {
-          "search": "178.16.54.129",
-          "result_count": 0,
-          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
-        }
+        "source_review_state": "unverified",
+        "source_review_disposition": "still_uncertain_after_additional_public_routes",
+        "source_review_scope": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+        "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-exact-artifact-review",
+        "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
       }
     ],
+    "source_review_resolution_evidence": [],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
+    "source_review_resolution_pass": "2026-11-15-exact-artifact-review"
   },
   {
     "record_id": "DAILY15-5AF801D22A23",

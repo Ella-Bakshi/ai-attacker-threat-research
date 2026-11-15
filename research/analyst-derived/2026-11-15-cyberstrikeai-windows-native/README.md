@@ -1,0 +1,13 @@
+# CyberStrikeAI-lineage Windows native persistence review
+
+This pass independently corroborates two already cataloged generic persistence names in one exact retained Windows sample. The value is `SystemUpdate` in both cases, with distinct roles: a registry Run-value name and a scheduled-task name. These are two evidence memberships, zero new observable values and zero new malicious-campaign IOCs. The sample was acquired earlier; no new malware bytes were obtained in this pass.
+
+The artifact SHA-256 is `1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877`, 6,314,496 bytes. Its prior exact archive acquisition and independent whole-file hashes are retained in the [compact scientific evidence](windows-static-evidence.json). CyberStrikeAI generated-beacon code lineage is supported, while the exact generating revision contains unknown local modifications. Conflicting provider labels and lack of an exact Kaspersky-reported-beacon hash bridge remain explicit.
+
+Ghidra 12.1.4 completed decompilation of 66 selected application functions in read-only mode. This is not decompilation of all 6,433 recovered Go/runtime/library functions. Capstone independently corroborated the selected original native operands. In `main.persistWindows` at `0x140266c20`, the registry format has 95 bytes at file offset 3,560,947; its 12-byte `SystemUpdate` name begins at offset 3,561,009. The scheduled-task format has 71 bytes at offset 3,555,262; its name begins at offset 3,555,284. Pointer/length loads feed `fmt.Sprintf`, and its result feeds `main.runWithTimeout`. Native command-runner construction resolves `os/exec.Command`. These are conditional static operations; no registry value or task installation was observed.
+
+Both corroborations stay in software fingerprints at ordinal evidence score 20. `SystemUpdate` is generic and must not be blocked alone. Similar naming does not establish that this sample belonged to the campaign described by another publisher.
+
+The additional Windows lineage YARA rule is experimental. Independent compilation and finite checks matched this exact reference and rejected four reference files; its raw marker conjunction was tested separately from PE/size gates. Those checks do not supply a production false-positive estimate, validate a sensor/backend or establish malicious use. Paths and symbols can change. [Observation records](observations.json) keep the two corroborations separate from the rule hypothesis.
+
+No sample execution, controller launch, target requests, DNS, scans or sample submissions occurred. Raw native C/assembly, project files, binaries, keys and internal review receipts remain private.

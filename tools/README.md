@@ -1,6 +1,6 @@
 # AI security tooling index
 
-Updated **15 November 2026**. This registry covers **41 project identities**, including eight added on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
+Updated **15 November 2026**. This registry covers **42 project identities**, including nine added on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
 
 [Full JSON](tool-registry.json) · [Importable CSV](tool-registry.csv) · [Our source identification hypotheses](source-identification-hypotheses.json)
 
@@ -103,5 +103,8 @@ These entries verify software identity. Reported abuse, where available, has its
 | [HalberdStrike](https://github.com/kuaiyelink/HalberdStrike) | LLM assessment harness; PenTestGPT-inspired design is a maintainer claim, not independently verified code lineage. | No GitHub release found |
 | [Bulwark](https://github.com/bulwark-sec/bulwark) | Pinned LICENSE/top badges say AGPL-3.0; README footer claims Apache-2.0. Conflict unresolved. | v5.26.0 (2026-06-10) |
 | [0security](https://github.com/0sec-labs/0security) | Canonical repository now `0sec-labs/0security`; the old `0` alias verified. Both license files checked; disclosure totals unverified. | v0.32.0 (2026-11-15) |
+| [DarkMoon](https://github.com/ASCIT31/Dark-Moon) | Upstream-described autonomous local-LLM assessment framework and privacy gateway; source/runtime/benchmark claims remain distinct. No malicious use established. | [v1.6.0](https://github.com/ASCIT31/Dark-Moon/releases/tag/v1.6.0) (2026-10-25) |
 
 Acronis [reports HalberdStrike use in BOSSAI operations](https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/). The reported owner/name match the indexed upstream; the exact deployed revision, modifications and bytes remain unknown. The report describes operator-mediated transfers of reconnaissance reports, not direct autonomous communication between those agents.
+
+DarkMoon is new to this registry on 15 November; its public release date is historical. Its [pinned README](https://github.com/ASCIT31/Dark-Moon/blob/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md), owning-repository metadata, full GPLv3 source-edition [license](https://github.com/ASCIT31/Dark-Moon/blob/edfe9cb12a263036a0c3dc1af604713e8197cce9/LICENSE) and release metadata were inspected. Capabilities and privacy-gateway behavior were not executed, independently benchmarked or security validated; the separately marketed Pro edition was not assessed. Inclusion adds no malicious IOC, deployment location or validated runtime fingerprint.
