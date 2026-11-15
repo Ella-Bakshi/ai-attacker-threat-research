@@ -12,3 +12,5 @@ SHA256 `6dcfe9f66d3aef1efd7007c588a59f69e5cd61b7a8eca1fb89a84b8ccef13a2b` exactl
 
 Full-program decompilation is incomplete. Two general analysis attempts exceeded bounded windows and were stopped; the successful isolated pass completed one selected critical function. Types and function bounds remain analysis-derived. Public-ready files exclude binaries, raw pseudocode, projects, raw logs, auth secrets and command constants. No paid/Censys calls, target requests/DNS, sample execution, controller launch or sandbox submissions were performed.
 
+
+[A different exact variant analyzed on 15 November](../2026-11-15-voidlink/README.md) supports default 8080; the per-artifact defaults and configuration overrides remain distinct.

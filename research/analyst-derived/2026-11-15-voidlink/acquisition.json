@@ -1,0 +1,56 @@
+{
+  "started_at_utc": "2026-11-15T09:34:24.832684+00:00",
+  "source_report_url": "https://research.checkpoint.com/2026/voidlink-the-cloud-native-malware-framework/",
+  "source_document_sha256": "828c2a570189e7517bc34ecdd9872ca04270295dc1ad05a23e1ec995842bf7c8",
+  "source_retrieved_at_utc": "2026-11-15T09:34:24.832800+00:00",
+  "archive_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+  "archive_member": "6850788b9c76042e0e29a318f65fceb574083ed3ec39a34bc64a1292f4586b41.elf",
+  "retained_inventory_sha256": "c2f289b55ce7d574e567d56fa6a0eae2ddec76128bd752b94d880a093d8112a1",
+  "requests": [
+    {
+      "requested_range": "bytes=1443097747-1443097776",
+      "content_range": "bytes 1443097747-1443097776/1685458910",
+      "http_status": 206,
+      "bytes": 30,
+      "began_at_utc": "2026-11-15T09:34:24.833122+00:00",
+      "completed_at_utc": "2026-11-15T09:34:25.447821+00:00"
+    },
+    {
+      "requested_range": "bytes=1443097747-1443097776",
+      "content_range": "bytes 1443097747-1443097776/1685458910",
+      "http_status": 206,
+      "bytes": 30,
+      "began_at_utc": "2026-11-15T09:34:25.447875+00:00",
+      "completed_at_utc": "2026-11-15T09:34:26.057690+00:00"
+    },
+    {
+      "requested_range": "bytes=1443097777-1443097844",
+      "content_range": "bytes 1443097777-1443097844/1685458910",
+      "http_status": 206,
+      "bytes": 68,
+      "began_at_utc": "2026-11-15T09:34:26.057759+00:00",
+      "completed_at_utc": "2026-11-15T09:34:26.802728+00:00"
+    },
+    {
+      "requested_range": "bytes=1443097845-1443581451",
+      "content_range": "bytes 1443097845-1443581451/1685458910",
+      "http_status": 206,
+      "bytes": 483607,
+      "began_at_utc": "2026-11-15T09:34:26.803604+00:00",
+      "completed_at_utc": "2026-11-15T09:34:28.108872+00:00"
+    }
+  ],
+  "sample_execution": false,
+  "target_requests": 0,
+  "target_dns": 0,
+  "paid_calls": 0,
+  "max_acquired_members": 1,
+  "bytes": 1197200,
+  "sha256": "6850788b9c76042e0e29a318f65fceb574083ed3ec39a34bc64a1292f4586b41",
+  "identity_verified": true,
+  "executed": false,
+  "md5": "bb1200ff20a257135e845c2388e46c90",
+  "sha1": "87158bda34066ce732da8b593746f5516aedbd66",
+  "magic_hex": "7f454c46020101000000000000000000",
+  "completed_at_utc": "2026-11-15T09:34:28.440030+00:00"
+}

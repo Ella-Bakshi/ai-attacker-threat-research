@@ -1,0 +1,13 @@
+{
+  "record_files": [
+    "records-0001.json",
+    "records-0002.json",
+    "records-0003.json",
+    "records-0004.json",
+    "records-0005.json",
+    "records-0006.json",
+    "records-0007.json"
+  ],
+  "records": 2681,
+  "scope": "Source-attributed evidence classes; not a malicious blocklist."
+}

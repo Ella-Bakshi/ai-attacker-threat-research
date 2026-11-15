@@ -1,6 +1,6 @@
 # AI security tooling index
 
-Updated **13 November 2026**. This registry covers **33 project identities**, including ten added today. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
+Updated **15 November 2026**. This registry covers **37 project identities**, including four added on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
 
 [Full JSON](tool-registry.json) · [Importable CSV](tool-registry.csv) · [Our source identification hypotheses](source-identification-hypotheses.json)
 
@@ -77,3 +77,18 @@ Cairn's hypothesis combines its root HTML title, Alpine initialization, named fu
 Both remain **untested runtime hypotheses**, separate from the admitted IOC catalog and its counts. High confidence refers to source presence only. No live deployment, malicious use, campaign-generating revision or empirical false-positive rate was established. Five incomplete/default synthetic controls were rejected; these are not benign deployment measurements or broad negative-control validation. Generic titles, framework routes and directory names alone are insufficient. No target requests, DNS resolution, installation or source execution occurred.
 
 Primary ecosystem context: [Unit 42](https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/), [GTIG](https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks), [NorForge](https://norforge.com/blog/inside_cairn). Exact tool-specific sources and confidence limits remain in each registry entry.
+
+## 15 November additions and releases
+
+Four projects are new to this index; their release dates are historical. No malicious IOC or runtime-fingerprint claim follows from inclusion.
+
+| Project | Maintainer-described scope | License | Release reference |
+|---|---|---|---|
+| [Fennec](https://github.com/Fennec-AI/Fennec) | Multi-agent web/API security assessment with a dashboard and local execution runner. | Apache-2.0 | [v0.2.0](https://github.com/Fennec-AI/Fennec/releases/tag/v0.2.0) (2026-06-30) |
+| [PenPard](https://github.com/penpard/penpard) | LLM-driven web/mobile assessment assistant integrating Burp Suite and mobile analysis tools. | PolyForm-Noncommercial-1.0.0 | [1.0.1](https://github.com/penpard/penpard/releases/tag/1.0.1) (2026-02-12) |
+| [AIDA](https://github.com/Vasco0x4/AIDA) | Security assessment agent with an MCP service, scoped projects and a web dashboard. | AGPL-3.0 | [v1.1.0](https://github.com/Vasco0x4/AIDA/releases/tag/v1.1.0) (2026-04-15) |
+| [Pentest Swarm AI](https://github.com/Armur-Ai/Pentest-Swarm-AI) | Agent orchestration for API/web assessment, recon, classification, validation and reporting. | AGPL-3.0-only | [v0.3.7](https://github.com/Armur-Ai/Pentest-Swarm-AI/releases/tag/v0.3.7) (2026-10-30) |
+
+PenPard is source-available with noncommercial terms, not OSI open source. AIDA and Pentest Swarm AI are indexed at their owning upstreams; discovered forks are retained as relationship evidence rather than extra tools. Maintainer claims have not been executed or benchmarked. Pinned documentation hashes identify the reviewed text, not a deployment.
+
+Release metadata updates: [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0) v1.7.24 → v1.8.0, [owl234/ARL-Next](https://github.com/owl234/ARL-Next/releases/tag/v1.4.6) v1.4.5 → v1.4.6, [samugit83/redamon](https://github.com/samugit83/redamon/releases/tag/v7.8.0) v7.5.1 → v7.8.0, [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes/releases/tag/v3.5.1) v3.5.0 → v3.5.1, [xalgorix/xalgorix](https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193) v4.6.187 → v4.6.193. Historical source pins remain unchanged.

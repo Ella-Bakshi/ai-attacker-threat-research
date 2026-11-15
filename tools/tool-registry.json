@@ -135,11 +135,11 @@
     "license_source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/LICENSE",
     "latest_release": {
       "name": "",
-      "tag_name": "v1.7.24",
-      "published_at": "2026-10-16T05:51:58Z",
+      "tag_name": "v1.8.0",
+      "published_at": "2026-11-13T11:43:32Z",
+      "html_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0",
       "prerelease": false,
-      "draft": false,
-      "html_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.7.24"
+      "draft": false
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and visible release metadata.",
@@ -211,7 +211,14 @@
     "global_novelty_claimed": false,
     "baseline_entry": true,
     "tool_id": "aipentest--cyberstrikeai",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+      "source_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0",
+      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+      "maintainer_reported_changes": "Maintainer reports migration to the Pi engine and changes to session, retest and model-context handling.",
+      "retrieved_at_utc": "2026-11-15T09:38:07.946Z"
+    }
   },
   {
     "name": "PentAGI",
@@ -830,12 +837,12 @@
     "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
     "license_source_url": "https://api.github.com/repos/owl234/ARL-Next",
     "latest_release": {
-      "name": "v1.4.5",
-      "tag_name": "v1.4.5",
-      "published_at": "2026-11-05T07:46:33Z",
+      "name": "v1.4.6",
+      "tag_name": "v1.4.6",
+      "published_at": "2026-11-14T05:05:04Z",
+      "html_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.6",
       "prerelease": false,
-      "draft": false,
-      "html_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.5"
+      "draft": false
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
@@ -899,7 +906,14 @@
     "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
     "global_novelty_claimed": false,
     "tool_id": "owl234--arl-next",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+      "source_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.6",
+      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+      "maintainer_reported_changes": "Maintainer reports worker/task lifecycle, fingerprint-cache, interface and configuration fixes; traditional recon classification remains.",
+      "retrieved_at_utc": "2026-11-15T09:35:26.856Z"
+    }
   },
   {
     "name": "Scope Sentry",
@@ -2118,10 +2132,12 @@
     "license_qualification": "GitHub license metadata and upstream README; no legal interpretation or third-party-component coverage implied.",
     "license_source_url": "https://github.com/samugit83/redamon/blob/442debbf95ff6f4cace7f9f8e134780aa3eb7d60/LICENSE",
     "latest_release": {
-      "tag_name": "v7.5.1",
-      "published_at": "2026-11-03T07:25:27Z",
-      "html_url": "https://github.com/samugit83/redamon/releases/tag/v7.5.1",
-      "prerelease": false
+      "name": "v7.8.0 - Project sharing, the IAM console, RBAC on by default",
+      "tag_name": "v7.8.0",
+      "published_at": "2026-11-14T15:34:24Z",
+      "html_url": "https://github.com/samugit83/redamon/releases/tag/v7.8.0",
+      "prerelease": false,
+      "draft": false
     },
     "lifecycle_stage": "released; not executed or benchmarked",
     "lifecycle_basis": "Pinned README badge says v7.7.2; latest visible GitHub release object is v7.5.1. Keep source/badge/release versions distinct.",
@@ -2179,7 +2195,14 @@
     "reviewed_at_utc": "2026-11-13T02:10:18.007411+00:00",
     "global_novelty_claimed": false,
     "tool_id": "samugit83--redamon",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+      "source_url": "https://github.com/samugit83/redamon/releases/tag/v7.8.0",
+      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+      "maintainer_reported_changes": "Maintainer reports multi-user identity/access management and scoped project sharing.",
+      "retrieved_at_utc": "2026-11-15T09:35:27.491Z"
+    }
   },
   {
     "name": "Decepticon",
@@ -2346,10 +2369,12 @@
     "license_qualification": "GitHub license metadata and upstream README; no legal interpretation or third-party-component coverage implied.",
     "license_source_url": "https://github.com/Zyrexnn/Cybermes/blob/961a0dd3d2d2f66a07a416ade3b1d4473b64802e/LICENSE",
     "latest_release": {
-      "tag_name": "v3.5.0",
-      "published_at": "2026-09-16T08:56:09Z",
-      "html_url": "https://github.com/Zyrexnn/Cybermes/releases/tag/v3.5.0",
-      "prerelease": false
+      "name": "v3.5.1 — MCP Auto-Updater, Nmap Fingerprinting & Hardened Toolchain",
+      "tag_name": "v3.5.1",
+      "published_at": "2026-11-13T09:04:10Z",
+      "html_url": "https://github.com/Zyrexnn/Cybermes/releases/tag/v3.5.1",
+      "prerelease": false,
+      "draft": false
     },
     "lifecycle_stage": "released; not executed or benchmarked",
     "lifecycle_basis": "Latest visible GitHub release is separate from source commit and any README version label.",
@@ -2413,7 +2438,14 @@
       "scope": "Software dependency/acknowledgement bridge only; does not resolve Gambit criminal-campaign exact identity."
     },
     "tool_id": "zyrexnn--cybermes",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+      "source_url": "https://github.com/Zyrexnn/Cybermes/releases/tag/v3.5.1",
+      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+      "maintainer_reported_changes": "Maintainer reports updater, native service-discovery integration, finding deduplication and scope/client hardening.",
+      "retrieved_at_utc": "2026-11-15T09:35:27.509Z"
+    }
   },
   {
     "name": "Xalgorix",
@@ -2435,10 +2467,12 @@
     "license_qualification": "GitHub license metadata and upstream README; no legal interpretation or third-party-component coverage implied.",
     "license_source_url": "https://github.com/xalgorix/xalgorix/blob/d65abaa50a1668344d0c148a5af0417c986ee768/LICENSE",
     "latest_release": {
-      "tag_name": "v4.6.187",
-      "published_at": "2026-11-12T18:25:34Z",
-      "html_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.187",
-      "prerelease": false
+      "name": "v4.6.193",
+      "tag_name": "v4.6.193",
+      "published_at": "2026-11-15T00:26:03Z",
+      "html_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193",
+      "prerelease": false,
+      "draft": false
     },
     "lifecycle_stage": "released; not executed or benchmarked",
     "lifecycle_basis": "Latest visible GitHub release is separate from source commit and any README version label.",
@@ -2488,7 +2522,14 @@
     "reviewed_at_utc": "2026-11-13T02:10:18.007411+00:00",
     "global_novelty_claimed": false,
     "tool_id": "xalgorix--xalgorix",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+      "source_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193",
+      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+      "maintainer_reported_changes": "Maintainer reports scope-guard refinements and safeguards for scan-output directories.",
+      "retrieved_at_utc": "2026-11-15T09:35:27.509Z"
+    }
   },
   {
     "name": "AIRecon",
@@ -2884,5 +2925,505 @@
     "exact_incident_repository_link_verified": true,
     "tool_id": "antifox-ai--antifox",
     "source_identification_hypotheses": []
+  },
+  {
+    "name": "Fennec",
+    "aliases": [],
+    "category": "ai-security-testing-agent",
+    "what_it_does_reported": "Multi-agent web/API security assessment with a dashboard and local execution runner.",
+    "capability_validation": "Maintainer-described in pinned README; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/security-agent integration described by upstream; no observed malicious deployment is established by this metadata lane.",
+    "official_repository": "https://github.com/Fennec-AI/Fennec",
+    "repository_full_name": "Fennec-AI/Fennec",
+    "upstream_identity_qualification": "Canonical owning repository and fork status checked against public GitHub metadata and pinned README. Similar names and discovered forks are not interchangeable.",
+    "pinned_revision": "e56c8c1c5cbeea93b719f8001ea136c6b15c7055",
+    "last_activity_utc": "2026-06-30T21:58:29Z",
+    "last_activity_meaning": "Latest default-branch commit committer time; not deployment, attack or product maturity evidence.",
+    "repository_last_push_utc": "2026-06-30T22:00:18Z",
+    "repository_created_at_utc": "2026-05-14T18:25:19Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Pinned LICENSE and README agree with GitHub Apache-2.0 metadata.",
+    "license_source_url": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/LICENSE",
+    "license_identity": {
+      "git_blob_sha1": "66f918ba6baa3f9feb92e3b0aa18c6b491b2dd40",
+      "sha256": "15a064b7503a21e25226273824ab8d83f7b843f18fd66bb9d6e860e10e4a9f03",
+      "bytes": 11294
+    },
+    "latest_release": {
+      "name": "Fennec v0.2.0",
+      "tag_name": "v0.2.0",
+      "published_at": "2026-06-30T21:57:09Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Fennec-AI/Fennec/releases/tag/v0.2.0"
+    },
+    "lifecycle_stage": "released research framework",
+    "lifecycle_basis": "Pinned README/release metadata only; historical project discovered now, not a claim first released today.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "statement": "Relevant comparable assessment agent; current identity and licensing reviewed.",
+        "evidence": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/README.md"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Fennec-AI/Fennec"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/LICENSE"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Fennec-AI/Fennec/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/README.md",
+        "git_blob_sha": "1ed1d47c83aeb59c0f51467408cf74699b67da89",
+        "sha256": "4e78d9ab1fb2646528db0507ec09ba05e1d45cda9864a97064e38ddd226ab9a2",
+        "bytes": 23025,
+        "anchor_line": 5,
+        "anchor_scope": "Reference documentation identity only; not a malware hash or runtime/deployment fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime-specific fingerprint or negative-control assessment performed in this lane.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact primary-source malicious-use relationship established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; software identity is not a malicious IOC or a live-controller claim",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/Fennec-AI/Fennec",
+      "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/README.md",
+      "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/LICENSE",
+      "https://github.com/Fennec-AI/Fennec/releases/tag/v0.2.0"
+    ],
+    "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "fennec-ai--fennec",
+    "source_identification_hypotheses": [],
+    "reviewed_related_forks": [],
+    "retrieved_at_utc": "2026-11-15T09:34:59.917Z",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/Fennec-AI/Fennec",
+        "retrieved_at_utc": "2026-11-15T09:34:19.543Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Fennec-AI/Fennec/commits?per_page=1",
+        "retrieved_at_utc": "2026-11-15T09:34:19.542Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Fennec-AI/Fennec/releases/latest",
+        "retrieved_at_utc": "2026-11-15T09:34:19.545Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Fennec-AI/Fennec/readme?ref=e56c8c1c5cbeea93b719f8001ea136c6b15c7055",
+        "retrieved_at_utc": "2026-11-15T09:34:35.748Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Fennec-AI/Fennec/license?ref=e56c8c1c5cbeea93b719f8001ea136c6b15c7055",
+        "retrieved_at_utc": "2026-11-15T09:34:35.756Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/README.md",
+        "retrieved_at_utc": "2026-11-15T09:34:59.917Z",
+        "scope": "Pinned README"
+      },
+      {
+        "url": "https://github.com/Fennec-AI/Fennec/blob/e56c8c1c5cbeea93b719f8001ea136c6b15c7055/LICENSE",
+        "retrieved_at_utc": "2026-11-15T09:36:12.946Z",
+        "scope": "Pinned license"
+      }
+    ]
+  },
+  {
+    "name": "PenPard",
+    "aliases": [],
+    "category": "source-available-ai-security-testing-agent",
+    "what_it_does_reported": "LLM-driven web/mobile assessment assistant integrating Burp Suite and mobile analysis tools.",
+    "capability_validation": "Maintainer-described in pinned README; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/security-agent integration described by upstream; no observed malicious deployment is established by this metadata lane.",
+    "official_repository": "https://github.com/penpard/penpard",
+    "repository_full_name": "penpard/penpard",
+    "upstream_identity_qualification": "Canonical owning repository and fork status checked against public GitHub metadata and pinned README. Similar names and discovered forks are not interchangeable. README retains onurgule/penpard links; no ownership-change timeline is inferred.",
+    "pinned_revision": "5d22be82db94ffacae56d2730e0f9c7856cdca74",
+    "last_activity_utc": "2026-05-06T10:36:48Z",
+    "last_activity_meaning": "Latest default-branch commit committer time; not deployment, attack or product maturity evidence.",
+    "repository_last_push_utc": "2026-05-06T10:38:14Z",
+    "repository_created_at_utc": "2026-02-10T18:59:20Z",
+    "archived": false,
+    "license": "PolyForm-Noncommercial-1.0.0",
+    "license_qualification": "Pinned README and LICENSE impose noncommercial terms with separate commercial licensing. Source-available, not OSI open source; GitHub NOASSERTION is not absence of terms.",
+    "license_source_url": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/LICENSE",
+    "license_identity": {
+      "git_blob_sha1": "5ecc88cfc4b1cff608ed640efe913c9dd97935c3",
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5",
+      "bytes": 4563
+    },
+    "latest_release": {
+      "name": "PenPard 1.0.1",
+      "tag_name": "1.0.1",
+      "published_at": "2026-02-12T01:16:16Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/penpard/penpard/releases/tag/1.0.1"
+    },
+    "lifecycle_stage": "released source-available assistant",
+    "lifecycle_basis": "Pinned README/release metadata only; historical project discovered now, not a claim first released today.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "statement": "Relevant comparable assessment agent; current identity and licensing reviewed.",
+        "evidence": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/README.md"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/penpard/penpard"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/LICENSE"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/penpard/penpard/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/README.md",
+        "git_blob_sha": "44190b0a691e962533fb34f00b203b41a893e18c",
+        "sha256": "6ad550ffd19188b950b94db21607acd8d0b2bed227183cf3b4b428091a10dca8",
+        "bytes": 38794,
+        "anchor_line": 1,
+        "anchor_scope": "Reference documentation identity only; not a malware hash or runtime/deployment fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime-specific fingerprint or negative-control assessment performed in this lane.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact primary-source malicious-use relationship established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; software identity is not a malicious IOC or a live-controller claim",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/penpard/penpard",
+      "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/README.md",
+      "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/LICENSE",
+      "https://github.com/penpard/penpard/releases/tag/1.0.1"
+    ],
+    "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "penpard--penpard",
+    "source_identification_hypotheses": [],
+    "reviewed_related_forks": [],
+    "retrieved_at_utc": "2026-11-15T09:34:59.863Z",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/penpard/penpard",
+        "retrieved_at_utc": "2026-11-15T09:34:19.541Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/penpard/penpard/commits?per_page=1",
+        "retrieved_at_utc": "2026-11-15T09:34:19.546Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/penpard/penpard/releases/latest",
+        "retrieved_at_utc": "2026-11-15T09:34:19.543Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/penpard/penpard/readme?ref=5d22be82db94ffacae56d2730e0f9c7856cdca74",
+        "retrieved_at_utc": "2026-11-15T09:34:35.755Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/penpard/penpard/license?ref=5d22be82db94ffacae56d2730e0f9c7856cdca74",
+        "retrieved_at_utc": "2026-11-15T09:34:35.747Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/README.md",
+        "retrieved_at_utc": "2026-11-15T09:34:59.863Z",
+        "scope": "Pinned README"
+      },
+      {
+        "url": "https://github.com/penpard/penpard/blob/5d22be82db94ffacae56d2730e0f9c7856cdca74/LICENSE",
+        "retrieved_at_utc": "2026-11-15T09:36:12.946Z",
+        "scope": "Pinned license"
+      }
+    ]
+  },
+  {
+    "name": "AIDA",
+    "aliases": [
+      "AI-Driven Security Assessment"
+    ],
+    "category": "ai-security-testing-agent",
+    "what_it_does_reported": "Security assessment agent with an MCP service, scoped projects and a web dashboard.",
+    "capability_validation": "Maintainer-described in pinned README; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/security-agent integration described by upstream; no observed malicious deployment is established by this metadata lane.",
+    "official_repository": "https://github.com/Vasco0x4/AIDA",
+    "repository_full_name": "Vasco0x4/AIDA",
+    "upstream_identity_qualification": "Canonical owning repository and fork status checked against public GitHub metadata and pinned README. Similar names and discovered forks are not interchangeable.",
+    "pinned_revision": "7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9",
+    "last_activity_utc": "2026-09-15T18:22:42Z",
+    "last_activity_meaning": "Latest default-branch commit committer time; not deployment, attack or product maturity evidence.",
+    "repository_last_push_utc": "2026-10-21T18:16:19Z",
+    "repository_created_at_utc": "2026-01-31T18:51:52Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "Pinned LICENSE contains GNU AGPL version3; README labels AGPL v3. GitHub SPDX metadata is a summary, not legal advice.",
+    "license_source_url": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/LICENSE",
+    "license_identity": {
+      "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    "latest_release": {
+      "name": "v1.1.0 — stable release",
+      "tag_name": "v1.1.0",
+      "published_at": "2026-04-15T16:24:27Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Vasco0x4/AIDA/releases/tag/v1.1.0"
+    },
+    "lifecycle_stage": "released early-stage assessment agent",
+    "lifecycle_basis": "Pinned README/release metadata only; historical project discovered now, not a claim first released today.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "statement": "Relevant comparable assessment agent; current identity and licensing reviewed.",
+        "evidence": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/README.md"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Vasco0x4/AIDA"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/LICENSE"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Vasco0x4/AIDA/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/README.md",
+        "git_blob_sha": "4df7294bfed4eb5c4478074e25102bbad487add0",
+        "sha256": "0d62c8ba50f226b554b890c6e7808beeaf40d52ef98ec4b5a8275b9e7c10a0fd",
+        "bytes": 9322,
+        "anchor_line": 5,
+        "anchor_scope": "Reference documentation identity only; not a malware hash or runtime/deployment fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime-specific fingerprint or negative-control assessment performed in this lane.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact primary-source malicious-use relationship established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; software identity is not a malicious IOC or a live-controller claim",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/Vasco0x4/AIDA",
+      "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/README.md",
+      "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/LICENSE",
+      "https://github.com/Vasco0x4/AIDA/releases/tag/v1.1.0"
+    ],
+    "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "vasco0x4--aida",
+    "source_identification_hypotheses": [],
+    "reviewed_related_forks": [
+      {
+        "repository": "nicodahlum-lang/aida",
+        "upstream_relation": "GitHub metadata fork parent",
+        "source_url": "https://api.github.com/repos/nicodahlum-lang/aida",
+        "scope": "Fork relationship only; no deployment or hostile-operation relationship."
+      }
+    ],
+    "retrieved_at_utc": "2026-11-15T09:35:00.605Z",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/Vasco0x4/AIDA",
+        "retrieved_at_utc": "2026-11-15T09:34:35.838Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Vasco0x4/AIDA/commits?per_page=1",
+        "retrieved_at_utc": "2026-11-15T09:34:35.961Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Vasco0x4/AIDA/releases/latest",
+        "retrieved_at_utc": "2026-11-15T09:34:35.758Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/README.md",
+        "retrieved_at_utc": "2026-11-15T09:35:00.605Z",
+        "scope": "Pinned README"
+      },
+      {
+        "url": "https://github.com/Vasco0x4/AIDA/blob/7f428c0b582292d8cb00ec5f7d8ed57d2de59cf9/LICENSE",
+        "retrieved_at_utc": "2026-11-15T09:36:13.013Z",
+        "scope": "Pinned license"
+      }
+    ]
+  },
+  {
+    "name": "Pentest Swarm AI",
+    "aliases": [],
+    "category": "ai-security-testing-agent",
+    "what_it_does_reported": "Agent orchestration for API/web assessment, recon, classification, validation and reporting.",
+    "capability_validation": "Maintainer-described in pinned README; not executed or independently benchmarked.",
+    "ai_feature_assessment": "LLM/security-agent integration described by upstream; no observed malicious deployment is established by this metadata lane.",
+    "official_repository": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+    "repository_full_name": "Armur-Ai/Pentest-Swarm-AI",
+    "upstream_identity_qualification": "Canonical owning repository and fork status checked against public GitHub metadata and pinned README. Similar names and discovered forks are not interchangeable.",
+    "pinned_revision": "c077a76499589845b9d0b67ab7c20e99e0dd295f",
+    "last_activity_utc": "2026-11-13T12:21:25Z",
+    "last_activity_meaning": "Latest default-branch commit committer time; not deployment, attack or product maturity evidence.",
+    "repository_last_push_utc": "2026-11-13T12:21:27Z",
+    "repository_created_at_utc": "2024-03-26T06:40:36Z",
+    "archived": false,
+    "license": "AGPL-3.0-only",
+    "license_qualification": "Pinned README identifies the Community Edition as AGPL-3.0-only; separate commercial/hosted components can have other terms.",
+    "license_source_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/LICENSE",
+    "license_identity": {
+      "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    "latest_release": {
+      "name": "v0.3.7",
+      "tag_name": "v0.3.7",
+      "published_at": "2026-10-30T06:26:58Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/releases/tag/v0.3.7"
+    },
+    "lifecycle_stage": "alpha community edition with published releases",
+    "lifecycle_basis": "Pinned README/release metadata only; historical project discovered now, not a claim first released today.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "statement": "Relevant comparable assessment agent; current identity and licensing reviewed.",
+        "evidence": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/README.md"
+      }
+    ],
+    "resources": [
+      {
+        "kind": "official-repository",
+        "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI"
+      },
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/LICENSE"
+      },
+      {
+        "kind": "releases",
+        "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/releases"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/README.md",
+        "git_blob_sha": "624e33f6aa9805f4f537ffcccd9d163ec3b7e12d",
+        "sha256": "8542f6032def1f4b6af1b454fa1d59bd21d7d8e958dffd4249d3960918f3568a",
+        "bytes": 41388,
+        "anchor_line": 5,
+        "anchor_scope": "Reference documentation identity only; not a malware hash or runtime/deployment fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime-specific fingerprint or negative-control assessment performed in this lane.",
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact primary-source malicious-use relationship established in this bounded metadata review.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "tool-registry-only; software identity is not a malicious IOC or a live-controller claim",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/Armur-Ai/Pentest-Swarm-AI",
+      "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/README.md",
+      "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/LICENSE",
+      "https://github.com/Armur-Ai/Pentest-Swarm-AI/releases/tag/v0.3.7"
+    ],
+    "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+    "global_novelty_claimed": false,
+    "tool_id": "armur-ai--pentest-swarm-ai",
+    "source_identification_hypotheses": [],
+    "reviewed_related_forks": [
+      {
+        "repository": "razor-ai/pentest-swarm-ai",
+        "upstream_relation": "GitHub metadata fork parent",
+        "source_url": "https://api.github.com/repos/razor-ai/pentest-swarm-ai",
+        "scope": "Fork relationship only; no deployment or hostile-operation relationship."
+      }
+    ],
+    "retrieved_at_utc": "2026-11-15T09:35:00.445Z",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/Armur-Ai/Pentest-Swarm-AI",
+        "retrieved_at_utc": "2026-11-15T09:34:35.837Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Armur-Ai/Pentest-Swarm-AI/commits?per_page=1",
+        "retrieved_at_utc": "2026-11-15T09:34:35.795Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://api.github.com/repos/Armur-Ai/Pentest-Swarm-AI/releases/latest",
+        "retrieved_at_utc": "2026-11-15T09:34:35.796Z",
+        "scope": "Public metadata, not an observation of tool operation."
+      },
+      {
+        "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/README.md",
+        "retrieved_at_utc": "2026-11-15T09:35:00.445Z",
+        "scope": "Pinned README"
+      },
+      {
+        "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/LICENSE",
+        "retrieved_at_utc": "2026-11-15T09:36:13.025Z",
+        "scope": "Pinned license"
+      }
+    ]
   }
 ]

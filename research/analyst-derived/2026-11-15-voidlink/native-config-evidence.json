@@ -1,0 +1,203 @@
+{
+  "sample_sha256": "6850788b9c76042e0e29a318f65fceb574083ed3ec39a34bc64a1292f4586b41",
+  "sample_bytes": 1197200,
+  "analysis_method": "Offline ELF program-header mapping and Capstone x86-64 disassembly; no execution or decompiler-completeness claim.",
+  "function_entry_candidate": "0x10b9972",
+  "function_boundary_basis": "Direct CALL target and native prologue; whole-function and whole-program recovery are incomplete.",
+  "selected_literals": [
+    {
+      "value": "c2_host",
+      "virtual_address": "0x1039004",
+      "file_offset": 233476,
+      "bytes_hex": "63325f686f7374"
+    },
+    {
+      "value": "port",
+      "virtual_address": "0x103904b",
+      "file_offset": 233547,
+      "bytes_hex": "706f7274"
+    },
+    {
+      "value": "8.149.128.10",
+      "virtual_address": "0x103eef0",
+      "file_offset": 257776,
+      "bytes_hex": "382e3134392e3132382e3130"
+    }
+  ],
+  "selected_instructions": [
+    {
+      "virtual_address": "0x10b99be",
+      "file_offset": 756158,
+      "bytes_hex": "6a0c",
+      "mnemonic": "push",
+      "operands": "0xc"
+    },
+    {
+      "virtual_address": "0x10b99c0",
+      "file_offset": 756160,
+      "bytes_hex": "415d",
+      "mnemonic": "pop",
+      "operands": "r13"
+    },
+    {
+      "virtual_address": "0x10b99c2",
+      "file_offset": 756162,
+      "bytes_hex": "41bff0ee0301",
+      "mnemonic": "mov",
+      "operands": "r15d, 0x103eef0"
+    },
+    {
+      "virtual_address": "0x10b99c8",
+      "file_offset": 756168,
+      "bytes_hex": "66b8901f",
+      "mnemonic": "mov",
+      "operands": "ax, 0x1f90"
+    },
+    {
+      "virtual_address": "0x10b99cc",
+      "file_offset": 756172,
+      "bytes_hex": "8945bc",
+      "mnemonic": "mov",
+      "operands": "dword ptr [rbp - 0x44], eax"
+    },
+    {
+      "virtual_address": "0x10b9a40",
+      "file_offset": 756288,
+      "bytes_hex": "6a04",
+      "mnemonic": "push",
+      "operands": "4"
+    },
+    {
+      "virtual_address": "0x10b9a43",
+      "file_offset": 756291,
+      "bytes_hex": "ba4b900301",
+      "mnemonic": "mov",
+      "operands": "edx, 0x103904b"
+    },
+    {
+      "virtual_address": "0x10b9a4e",
+      "file_offset": 756302,
+      "bytes_hex": "e8563d0200",
+      "mnemonic": "call",
+      "operands": "0x10dd7a9"
+    },
+    {
+      "virtual_address": "0x10b9a53",
+      "file_offset": 756307,
+      "bytes_hex": "41807e3800",
+      "mnemonic": "cmp",
+      "operands": "byte ptr [r14 + 0x38], 0"
+    },
+    {
+      "virtual_address": "0x10b9a58",
+      "file_offset": 756312,
+      "bytes_hex": "66b8901f",
+      "mnemonic": "mov",
+      "operands": "ax, 0x1f90"
+    },
+    {
+      "virtual_address": "0x10b9a5c",
+      "file_offset": 756316,
+      "bytes_hex": "7407",
+      "mnemonic": "je",
+      "operands": "0x10b9a65"
+    },
+    {
+      "virtual_address": "0x10b9a5e",
+      "file_offset": 756318,
+      "bytes_hex": "0fb78530f4ffff",
+      "mnemonic": "movzx",
+      "operands": "eax, word ptr [rbp - 0xbd0]"
+    },
+    {
+      "virtual_address": "0x10b9a65",
+      "file_offset": 756325,
+      "bytes_hex": "8945bc",
+      "mnemonic": "mov",
+      "operands": "dword ptr [rbp - 0x44], eax"
+    },
+    {
+      "virtual_address": "0x10b9a6f",
+      "file_offset": 756335,
+      "bytes_hex": "6a07",
+      "mnemonic": "push",
+      "operands": "7"
+    },
+    {
+      "virtual_address": "0x10b9a72",
+      "file_offset": 756338,
+      "bytes_hex": "ba04900301",
+      "mnemonic": "mov",
+      "operands": "edx, 0x1039004"
+    },
+    {
+      "virtual_address": "0x10b9a7d",
+      "file_offset": 756349,
+      "bytes_hex": "e8273d0200",
+      "mnemonic": "call",
+      "operands": "0x10dd7a9"
+    },
+    {
+      "virtual_address": "0x10b9a82",
+      "file_offset": 756354,
+      "bytes_hex": "41807e3800",
+      "mnemonic": "cmp",
+      "operands": "byte ptr [r14 + 0x38], 0"
+    },
+    {
+      "virtual_address": "0x10b9a87",
+      "file_offset": 756359,
+      "bytes_hex": "4d0f453e",
+      "mnemonic": "cmovne",
+      "operands": "r15, qword ptr [r14]"
+    },
+    {
+      "virtual_address": "0x10b9a8b",
+      "file_offset": 756363,
+      "bytes_hex": "4d0f456e08",
+      "mnemonic": "cmovne",
+      "operands": "r13, qword ptr [r14 + 8]"
+    },
+    {
+      "virtual_address": "0x10b9aa3",
+      "file_offset": 756387,
+      "bytes_hex": "4c89bfa8000000",
+      "mnemonic": "mov",
+      "operands": "qword ptr [rdi + 0xa8], r15"
+    },
+    {
+      "virtual_address": "0x10b9aaa",
+      "file_offset": 756394,
+      "bytes_hex": "4c89afb0000000",
+      "mnemonic": "mov",
+      "operands": "qword ptr [rdi + 0xb0], r13"
+    },
+    {
+      "virtual_address": "0x10b9ab1",
+      "file_offset": 756401,
+      "bytes_hex": "8b45bc",
+      "mnemonic": "mov",
+      "operands": "eax, dword ptr [rbp - 0x44]"
+    },
+    {
+      "virtual_address": "0x10b9ab4",
+      "file_offset": 756404,
+      "bytes_hex": "668987c8000000",
+      "mnemonic": "mov",
+      "operands": "word ptr [rdi + 0xc8], ax"
+    }
+  ],
+  "dataflow": {
+    "default_host": "R15 points to 0x103eef0; R13 length is 12",
+    "default_port": "AX initialized to 0x1f90 (8080), preserved through local [RBP-0x44]",
+    "overrides": "port/c2_host field lookups conditionally replace port and host; exact runtime configuration is unknown",
+    "configuration_stores": {
+      "host_pointer": "0x10b9aa3 -> config+0xa8",
+      "host_length": "0x10b9aaa -> config+0xb0",
+      "port_word": "0x10b9ab4 -> config+0xc8"
+    }
+  },
+  "target_executed": false,
+  "controller_contacted": false,
+  "limitations": "Compiled fallback on the analyzed configuration branch, not observed network traffic. Port 8080 does not establish protocol, present operation or actor identity."
+}

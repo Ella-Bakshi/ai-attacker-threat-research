@@ -23,7 +23,14 @@
     "reports/2026/2026-11-11-global-ai-tooling/records.json",
     "reports/2026/2026-11-12-global-aggregation/records.json",
     "reports/2026/2026-11-13-global-review/records.json",
-    "reports/2026/2026-11-13-expanded-horizon/records.json"
+    "reports/2026/2026-11-13-expanded-horizon/records.json",
+    "reports/2026/2026-11-15-daily-review/records-0001.json",
+    "reports/2026/2026-11-15-daily-review/records-0002.json",
+    "reports/2026/2026-11-15-daily-review/records-0003.json",
+    "reports/2026/2026-11-15-daily-review/records-0004.json",
+    "reports/2026/2026-11-15-daily-review/records-0005.json",
+    "reports/2026/2026-11-15-daily-review/records-0006.json",
+    "reports/2026/2026-11-15-daily-review/records-0007.json"
   ],
   "supplementary_scope": "Separate India AI-campaign, independent public-artifact, and dated global AI-tool/campaign research; evidence classes and attribution remain distinct."
 }

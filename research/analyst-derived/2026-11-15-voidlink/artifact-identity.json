@@ -1,0 +1,11 @@
+{
+  "sha256": "6850788b9c76042e0e29a318f65fceb574083ed3ec39a34bc64a1292f4586b41",
+  "md5": "bb1200ff20a257135e845c2388e46c90",
+  "sha1": "87158bda34066ce732da8b593746f5516aedbd66",
+  "bytes": 1197200,
+  "elf_class": 64,
+  "endianness": "little",
+  "entrypoint": "0x10704b0",
+  "all_declared_load_ranges_within_file": true,
+  "section_table_within_file": true
+}
