@@ -42,11 +42,20 @@
     ],
     "limitations": "Fleet/version identification only; not a malicious build hash or actor attribution.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9fa850e194d29d36a6416216f6a6f8ef47b223cde28c9e678848ca3fdc0200e3",
+      "normalized_text_offset": 19662,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 32
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-BA9877EB969B",
@@ -91,11 +100,20 @@
     ],
     "limitations": "Fleet/version identification only; not a malicious build hash or actor attribution.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9fa850e194d29d36a6416216f6a6f8ef47b223cde28c9e678848ca3fdc0200e3",
+      "normalized_text_offset": 19458,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 31
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-DA960CD713E8",
@@ -140,10 +158,19 @@
     ],
     "limitations": "Fleet/version identification only; not a malicious build hash or actor attribution.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9fa850e194d29d36a6416216f6a6f8ef47b223cde28c9e678848ca3fdc0200e3",
+      "normalized_text_offset": 19350,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 30
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

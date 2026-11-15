@@ -50,11 +50,20 @@
     ],
     "limitations": "Wiz notes overlap with Microsoft; identical tooling does not independently prove shared actor identity.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "61fb247e683f93ac9f96636ce264a9c38e503f00e54a42661c4fdb324ca4ed3f",
+      "normalized_text_offset": 9845,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 2
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-853183646BA5",
@@ -107,10 +116,19 @@
     ],
     "limitations": "Wiz notes overlap with Microsoft; identical tooling does not independently prove shared actor identity.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "61fb247e683f93ac9f96636ce264a9c38e503f00e54a42661c4fdb324ca4ed3f",
+      "normalized_text_offset": 10058,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 6
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

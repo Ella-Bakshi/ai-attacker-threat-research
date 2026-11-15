@@ -43,11 +43,17 @@
     "indicator_defanged": "https://storage[.]googleapis[.]com/testfirebase-b24a8[.]appspot[.]com/config1[.]txt",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
-    "network_role_view": "c2-configuration-resources-targeting-india",
-    "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20072,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.736946+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B9BD5F1E05E5",
@@ -93,10 +99,16 @@
     "indicator_defanged": "https://testfirebase-b24a8-default-rtdb[.]firebaseio[.]com/(12336)005056C0000186/details[.]json",
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
-    "network_role_view": "c2-configuration-resources-targeting-india",
-    "hosting_geography_used_for_inclusion": false,
-    "inclusion_basis": "Explicit source-reported network role in a primary-documented India-targeting campaign. Campaign evidence is sufficient; a named individual victim is not required.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19951,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.748667+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   }
 ]

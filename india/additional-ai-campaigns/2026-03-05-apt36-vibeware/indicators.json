@@ -31,7 +31,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 223,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.346202+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-4FB569EFE810",
@@ -65,7 +74,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 279,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.346473+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-BCA8CF1D903B",
@@ -99,7 +117,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 337,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.346717+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-84D9A13EF950",
@@ -133,7 +160,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 395,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.346931+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-BD38DF62A95E",
@@ -167,7 +203,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 453,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.347153+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-94BF1B9AA513",
@@ -201,7 +246,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 511,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.347365+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-CB6510473727",
@@ -235,7 +289,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 569,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.347583+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-19DD15A52922",
@@ -269,7 +332,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 627,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.347798+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-35A8BB5D2F10",
@@ -303,7 +375,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 674,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.348002+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-A24B2C637B6B",
@@ -337,7 +418,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 721,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.348205+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-9F5C15C50323",
@@ -371,7 +461,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 771,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.348416+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-83163BC8512B",
@@ -405,7 +504,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 821,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.348635+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-1F006966ED20",
@@ -439,7 +547,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 871,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.348839+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-B5E1F9CDFD9C",
@@ -473,7 +590,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 921,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.349039+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-B215B38CAAE3",
@@ -507,7 +633,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 971,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.349240+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-C8A4C1ED3CBA",
@@ -541,7 +676,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1021,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.349437+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-D5E3C525C01C",
@@ -575,7 +719,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1075,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.349636+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-6EEB316F1646",
@@ -609,7 +762,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1129,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.349834+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-C524783E18E3",
@@ -643,7 +805,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1183,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.350060+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-2B8903444E74",
@@ -677,7 +848,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1231,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.350301+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-AD474630A587",
@@ -711,7 +891,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1278,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.350519+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-3FE0AB157A10",
@@ -745,7 +934,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1325,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.350764+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-45EECC3AFD71",
@@ -779,7 +977,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1372,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.350964+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-56407CC8C38C",
@@ -813,7 +1020,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1429,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.351163+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-28CAEACA23E5",
@@ -847,7 +1063,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1486,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.351366+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-D3B0EE4A9771",
@@ -881,7 +1106,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1535,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.351562+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-4EC0FF7821FC",
@@ -915,7 +1149,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1584,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.351777+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-A1B36593A468",
@@ -949,7 +1192,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1633,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.351977+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-6CA128191F74",
@@ -983,7 +1235,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1681,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.352181+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-4CADE0B2C7B7",
@@ -1017,7 +1278,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1729,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.352387+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-D433EB4D7958",
@@ -1051,7 +1321,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1777,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.352596+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-00A22881C853",
@@ -1085,7 +1364,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1826,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.352804+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-00CDDE27F1A6",
@@ -1119,7 +1407,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1875,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.353001+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-50DDCFDDE1BA",
@@ -1153,7 +1450,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1924,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.353196+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-59E04E4D04C6",
@@ -1187,7 +1493,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 1973,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.353392+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-D64644E23E6E",
@@ -1221,7 +1536,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2021,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.353594+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-CCDA1D6A3016",
@@ -1255,7 +1579,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2078,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.353807+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-3D98E9822B9F",
@@ -1289,7 +1622,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2135,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.354006+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-D4BEBE066710",
@@ -1323,7 +1665,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2183,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.354204+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-C13E5090E1A0",
@@ -1357,7 +1708,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2231,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.354410+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-6F9607BAC926",
@@ -1391,7 +1751,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2279,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.354614+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-05884127891F",
@@ -1425,7 +1794,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2327,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.354818+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-68A423DA9676",
@@ -1459,7 +1837,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2377,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.355015+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-7203ACA1A623",
@@ -1493,7 +1880,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2414,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.355210+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-4DA673DEC9A9",
@@ -1527,7 +1923,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2457,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.355405+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-E5DB5370113F",
@@ -1561,7 +1966,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2490,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.355610+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-5FBB5D61AC86",
@@ -1595,7 +2009,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2533,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.355818+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-5E34E17A8C8C",
@@ -1629,7 +2052,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2568,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.356014+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-B460EF76F721",
@@ -1663,7 +2095,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2608,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.356208+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-A7D812CD050C",
@@ -1697,7 +2138,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2665,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.356411+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD-EEF103AA7E14",
@@ -1731,7 +2181,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": false,
     "india_relevance": "unestablished",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 2846,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-AF14F7F5FEEB",
@@ -1765,7 +2224,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": false,
     "india_relevance": "unestablished",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 3033,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-8A5729A45914",
@@ -1799,7 +2267,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": false,
     "india_relevance": "unestablished",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 3220,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-410DFBF61D0E",
@@ -1833,7 +2310,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": false,
     "india_relevance": "unestablished",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 3407,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-AA35B5BE412F",
@@ -1867,7 +2353,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": false,
     "india_relevance": "unestablished",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "67510f82508d2627578daf7fb200bdce67abcc6834ae7156d942fcf6a4f73b6f",
+      "normalized_text_offset": 3594,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-D147FB96464C",
@@ -1901,7 +2396,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 15982,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-F1BF9A2117E0",
@@ -1935,7 +2439,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 16938,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-99DD46FCE4F3",
@@ -1969,7 +2482,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 17054,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-FCF71AA3580E",
@@ -2003,7 +2525,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 21156,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-96775A0805BE",
@@ -2037,7 +2568,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 21179,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-630BDB16811D",
@@ -2071,7 +2611,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 23558,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-A2D76227F5F5",
@@ -2105,7 +2654,16 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 23689,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-BD-8710E45747BB",
@@ -2139,6 +2697,15 @@
     "per_indicator_indian_victim_compromise_confirmed": false,
     "india_campaign_link_supported": true,
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "9bc79f55ed9cf1790c8fdedfe1f32f1acaea4ea776c4861313a982cdab3bdf9f",
+      "normalized_text_offset": 28302,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

@@ -50,10 +50,19 @@
     ],
     "limitations": "Substring/naming clue only; no account credentials included.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "e113d719d031ab7d30cc448804455d17a0fa97a032def28732379bc2580f00f0",
+      "normalized_text_offset": 13930,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 7
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

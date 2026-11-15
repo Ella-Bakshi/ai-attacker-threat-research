@@ -50,7 +50,16 @@
     "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-05-15; not a first-compromise or first-malicious-use timestamp.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "81[.]70[.]240[.]170"
+    "indicator_defanged": "81[.]70[.]240[.]170",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 4456,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.149175+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-D5BAA356168D",
@@ -103,7 +112,16 @@
     "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-06-11; not a first-compromise or first-malicious-use timestamp.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "43[.]99[.]61[.]170"
+    "indicator_defanged": "43[.]99[.]61[.]170",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 4531,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.175273+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-85F6155F6F1D",
@@ -156,7 +174,16 @@
     "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-07-24; not a first-compromise or first-malicious-use timestamp.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "152[.]42[.]200[.]25"
+    "indicator_defanged": "152[.]42[.]200[.]25",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 3683,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.203098+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-E183FA1FA375",
@@ -209,7 +236,16 @@
     "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-08-04; not a first-compromise or first-malicious-use timestamp.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "129[.]211[.]184[.]149"
+    "indicator_defanged": "129[.]211[.]184[.]149",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 3045,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.233383+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-BF070149B6B7",
@@ -262,7 +298,16 @@
     "timestamp_scope": "Publisher's AttackCapture acquisition date 2026-08-04; not a first-compromise or first-malicious-use timestamp.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "159[.]223[.]64[.]67"
+    "indicator_defanged": "159[.]223[.]64[.]67",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 4770,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.259543+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-790BBEA66493",
@@ -314,7 +359,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "129[.]211[.]184[.]149:64288"
+    "indicator_defanged": "129[.]211[.]184[.]149:64288",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 19565,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.286389+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-B07FECCCF48E",
@@ -366,7 +420,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "129[.]211[.]184[.]149:8443"
+    "indicator_defanged": "129[.]211[.]184[.]149:8443",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 19631,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.313448+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-FA662CA04AEA",
@@ -418,7 +481,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "158[.]247[.]234[.]124:18000"
+    "indicator_defanged": "158[.]247[.]234[.]124:18000",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 18023,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.339788+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-AC23B2A5260C",
@@ -470,7 +542,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "207[.]148[.]109[.]245:18000"
+    "indicator_defanged": "207[.]148[.]109[.]245:18000",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 19754,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.365844+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-8E629CCB3970",
@@ -522,7 +603,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "tcp://imported-concerns-listening-typing[.]trycloudflare[.]com:443"
+    "indicator_defanged": "tcp://imported-concerns-listening-typing[.]trycloudflare[.]com:443",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 21175,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.392478+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-462245115553",
@@ -574,7 +664,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "tcp://marriage-step-wave-heavy[.]trycloudflare[.]com:443"
+    "indicator_defanged": "tcp://marriage-step-wave-heavy[.]trycloudflare[.]com:443",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 21264,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.420113+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-641A154F455F",
@@ -626,7 +725,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "wss://wins-say-charm-social[.]trycloudflare[.]com/c2"
+    "indicator_defanged": "wss://wins-say-charm-social[.]trycloudflare[.]com/c2",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 21316,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.446643+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-BA858F6619EA",
@@ -678,7 +786,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "103[.]45[.]65[.]93:35888"
+    "indicator_defanged": "103[.]45[.]65[.]93:35888",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 4104,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.473412+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-1FFCEEBE0705",
@@ -730,7 +847,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "43[.]162[.]217[.]10:35888"
+    "indicator_defanged": "43[.]162[.]217[.]10:35888",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 8023,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.500675+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-BA4BDC765754",
@@ -782,7 +908,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "211[.]159[.]155[.]240"
+    "indicator_defanged": "211[.]159[.]155[.]240",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 35018,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.527353+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-09B187CDF121",
@@ -834,7 +969,17 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "*[.]niestools[.]com"
+    "indicator_defanged": "*[.]niestools[.]com",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 40270,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 89
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-39AF6B6E9295",
@@ -889,7 +1034,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "20a8ed7d235cf6419e2d4b1e439595ef96961adaecf3c990c5cd507eb4a74ca4"
+    "indicator_defanged": "20a8ed7d235cf6419e2d4b1e439595ef96961adaecf3c990c5cd507eb4a74ca4",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 35403,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.553654+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-843CE8FEE64E",
@@ -944,7 +1098,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "0b3d76cf1ac6648d4cfbe39c8fea67c6b28a361ea6de86a92cc7d54a0181cc9e"
+    "indicator_defanged": "0b3d76cf1ac6648d4cfbe39c8fea67c6b28a361ea6de86a92cc7d54a0181cc9e",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 35531,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.580223+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-481B82F6F4DA",
@@ -999,7 +1162,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "3c9b2ec423f91642d2d09031d47e50d7ebe77a8b12ec5e393405f85da11a0f6a"
+    "indicator_defanged": "3c9b2ec423f91642d2d09031d47e50d7ebe77a8b12ec5e393405f85da11a0f6a",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 35702,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.607766+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-C4BD03144A6A",
@@ -1054,7 +1226,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "4ecbdaedf9040dbbb33ce7a96ad961dce0f3ffb2c41285606a27a7c5ab3d2273"
+    "indicator_defanged": "4ecbdaedf9040dbbb33ce7a96ad961dce0f3ffb2c41285606a27a7c5ab3d2273",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 35888,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.634893+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-B2A9BC3CCB93",
@@ -1109,7 +1290,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "eef30bb6834bf349d1b1f4401aa0b8e73631ea632a884c6498a5b3a9e069d412"
+    "indicator_defanged": "eef30bb6834bf349d1b1f4401aa0b8e73631ea632a884c6498a5b3a9e069d412",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 36018,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.661441+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-5EEBEDBDB054",
@@ -1164,7 +1354,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "dcd59349bd6cc29e59da5105f2f08f606ece8dfac4e369e052eca1786450f541"
+    "indicator_defanged": "dcd59349bd6cc29e59da5105f2f08f606ece8dfac4e369e052eca1786450f541",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 36369,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.688034+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-D34692921F15",
@@ -1219,7 +1418,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "135b33b289d481d60fa2527aeae5882d33adcb6756df89ea7684f4af3567b141"
+    "indicator_defanged": "135b33b289d481d60fa2527aeae5882d33adcb6756df89ea7684f4af3567b141",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 36516,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.714723+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-ACC1AE8867F5",
@@ -1274,7 +1482,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "9ef85857ed2b53a23eb41ce5769b4fb5b8b2225404b227a776520771df86706e"
+    "indicator_defanged": "9ef85857ed2b53a23eb41ce5769b4fb5b8b2225404b227a776520771df86706e",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 36655,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.741476+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-3812D8E10BC5",
@@ -1329,7 +1546,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "797676d3becc124bb6705ebd76189e8decedae3abf978434d730459133351064"
+    "indicator_defanged": "797676d3becc124bb6705ebd76189e8decedae3abf978434d730459133351064",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 36797,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.768070+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-0BAF5852BAE0",
@@ -1384,7 +1610,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "af6404a125d1e4eb67425ec17f2abeec7242fb6f7377de739e47cb7f5d147eee"
+    "indicator_defanged": "af6404a125d1e4eb67425ec17f2abeec7242fb6f7377de739e47cb7f5d147eee",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 36986,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.794786+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-49B863637E11",
@@ -1440,7 +1675,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "053c8dfb147262aaedf0d9cdce631ad73cfd5b1a808114c12bbe5adfe4796302"
+    "indicator_defanged": "053c8dfb147262aaedf0d9cdce631ad73cfd5b1a808114c12bbe5adfe4796302",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 37150,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.821596+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-D0D600447056",
@@ -1495,7 +1739,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "80d778c9d9e44896f08b1a196254527e39da4e8ce5edebf8d296b7dec6b7b3e0"
+    "indicator_defanged": "80d778c9d9e44896f08b1a196254527e39da4e8ce5edebf8d296b7dec6b7b3e0",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 37482,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.848953+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-8645D5293866",
@@ -1550,7 +1803,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "f7c233df3423912296a4e78dd1fa7a1f6412606177336be0762961c93e8fae3c"
+    "indicator_defanged": "f7c233df3423912296a4e78dd1fa7a1f6412606177336be0762961c93e8fae3c",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 37680,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.876165+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-E9E7C79B57F4",
@@ -1605,7 +1867,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "548df87041ea2cbe99fc519fd89c5b7cdfe935d87a803a80a5f747aa9f076091"
+    "indicator_defanged": "548df87041ea2cbe99fc519fd89c5b7cdfe935d87a803a80a5f747aa9f076091",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 37823,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.903202+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-7165E9AB0CAB",
@@ -1660,7 +1931,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "79cc5855375b5c840bae8263dc3dc5a9fd9cbd7920ab4ed65d407fd830d3eda1"
+    "indicator_defanged": "79cc5855375b5c840bae8263dc3dc5a9fd9cbd7920ab4ed65d407fd830d3eda1",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38005,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.931322+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-C66D714067C2",
@@ -1715,7 +1995,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "a407f540f4eb0c8fae5cd83fa6e210df6c4ed7fca6aedb6ebc5efbf031989ac4"
+    "indicator_defanged": "a407f540f4eb0c8fae5cd83fa6e210df6c4ed7fca6aedb6ebc5efbf031989ac4",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38167,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.959236+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-47529C1BDAB7",
@@ -1770,7 +2059,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "00759d29178baabcbe9682a953c64e179fd24d86dac0d6abdc8e5070216923f2"
+    "indicator_defanged": "00759d29178baabcbe9682a953c64e179fd24d86dac0d6abdc8e5070216923f2",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38322,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:21.987525+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-31842F598BD4",
@@ -1825,7 +2123,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "f51ab15a89155ce4d3bcd0a65cf6a3ccf62115f502e0863c19baf93d11c57acc"
+    "indicator_defanged": "f51ab15a89155ce4d3bcd0a65cf6a3ccf62115f502e0863c19baf93d11c57acc",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38490,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.020838+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-2933B7B7F75B",
@@ -1880,7 +2187,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "853222ffdcc74dd606f6ff79ff353ce3626d50e54e9aa1a87fb03e2121e82aaf"
+    "indicator_defanged": "853222ffdcc74dd606f6ff79ff353ce3626d50e54e9aa1a87fb03e2121e82aaf",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38621,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.053268+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-1B0E2322F453",
@@ -1935,7 +2251,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "218d8508c2035c78b49d33e087e33643f4f906af5694be68cf939f17fa4b5ffd"
+    "indicator_defanged": "218d8508c2035c78b49d33e087e33643f4f906af5694be68cf939f17fa4b5ffd",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38769,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.084568+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-D7AD8A0C43E1",
@@ -1990,7 +2315,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "2deac4ab60f6cb1bb65fa4df5dbd9dcf7b7bc27e16bea55c3ddbe47154720277"
+    "indicator_defanged": "2deac4ab60f6cb1bb65fa4df5dbd9dcf7b7bc27e16bea55c3ddbe47154720277",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 38903,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.113075+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-5DF7E5FD3826",
@@ -2045,7 +2379,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "e6ee24c6775867714d1e4b586d75c0168e61ba49b36e0a29b73cbc925df6ae47"
+    "indicator_defanged": "e6ee24c6775867714d1e4b586d75c0168e61ba49b36e0a29b73cbc925df6ae47",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 39082,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.141174+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-D82FA001648C",
@@ -2100,7 +2443,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "1c00ce5354c91a9db878e2b4db750c2a74140e0d15aeac9b8cecf4599598b736"
+    "indicator_defanged": "1c00ce5354c91a9db878e2b4db750c2a74140e0d15aeac9b8cecf4599598b736",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 39221,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.169683+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-C7E81C06F9A0",
@@ -2155,7 +2507,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "27fae1b7be68b0c27c5dad33aaed9de5b38406fb20b971757b6be386e3ffc7a6"
+    "indicator_defanged": "27fae1b7be68b0c27c5dad33aaed9de5b38406fb20b971757b6be386e3ffc7a6",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 39386,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.196910+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-4F4CE46E7EE3",
@@ -2210,7 +2571,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "77f5b5321e2f5c18b3c610e50084b98201fb6214e13665cc49da5afbf3f49611"
+    "indicator_defanged": "77f5b5321e2f5c18b3c610e50084b98201fb6214e13665cc49da5afbf3f49611",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 39535,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.228674+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-055E624D98C3",
@@ -2262,7 +2632,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "http://158[.]247[.]234[.]124:18000/c22[.]exe"
+    "indicator_defanged": "http://158[.]247[.]234[.]124:18000/c22[.]exe",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 18016,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.257043+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-7BDBE332453E",
@@ -2315,7 +2694,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "http://129[.]211[.]184[.]149:8443/999b4e8c/public/dnc/a6d28ebe?os=<os>&arch=<arch>"
+    "indicator_defanged": "http://129[.]211[.]184[.]149:8443/999b4e8c/public/dnc/a6d28ebe?os=<os>&arch=<arch>",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 25187,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.285119+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-99624F4A17C2",
@@ -2367,7 +2755,17 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "C:\\Windows\\Temp\\v11.exe"
+    "indicator_defanged": "C:\\Windows\\Temp\\v11.exe",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 40943,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 92
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-A4AE0838350D",
@@ -2419,7 +2817,17 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "C:\\Windows\\Temp\\fw.exe"
+    "indicator_defanged": "C:\\Windows\\Temp\\fw.exe",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "124e3eac69e2fa2f96b7e7574b4d07a19e01f6ffc530cd77610fc174e2e92776",
+      "normalized_text_offset": 20710,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 95
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-B13BE11D9417",
@@ -2468,7 +2876,16 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "199[.]247[.]25[.]25"
+    "indicator_defanged": "199[.]247[.]25[.]25",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69",
+      "normalized_text_offset": 18088,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.312751+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-0EE1C686ABF2",
@@ -2517,6 +2934,15 @@
     "timestamp_scope": "No first/last activity timestamp established; source publication is not a service sighting.",
     "recommended_use": "Historical source-scoped correlation. Review current ownership and local evidence before action.",
     "association_scope": "source_reported_campaign_association_not_framework_exclusive",
-    "indicator_defanged": "199[.]247[.]27[.]2"
+    "indicator_defanged": "199[.]247[.]27[.]2",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "9671b423b96aab831c2d7f07952c9f0210809e74ef1d66a3888f826a66cb2e69",
+      "normalized_text_offset": 18121,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.315202+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   }
 ]

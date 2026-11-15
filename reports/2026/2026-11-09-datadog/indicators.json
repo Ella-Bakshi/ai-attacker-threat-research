@@ -50,11 +50,20 @@
     ],
     "limitations": "Network owner label in source: Vilcom Networks Limited - ISP in Kenya",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12185,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 13
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-9B0E3A4527F3",
@@ -107,11 +116,20 @@
     ],
     "limitations": "Network owner label in source: Zeofast Network - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12401,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 17
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-C96587C3D1D1",
@@ -164,11 +182,20 @@
     ],
     "limitations": "Network owner label in source: Zeofast Network - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 6896,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 16
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1DAE6D839DA6",
@@ -221,11 +248,20 @@
     ],
     "limitations": "Network owner label in source: NetLab Global - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12084,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 11
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-2D462EDAF046",
@@ -278,11 +314,20 @@
     ],
     "limitations": "Network owner label in source: NetLab Global - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12135,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 12
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-384479CF0EA0",
@@ -335,11 +380,20 @@
     ],
     "limitations": "Network owner label in source: NetLab Global - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 7760,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 10
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-5F99459124D5",
@@ -392,11 +446,20 @@
     ],
     "limitations": "Network owner label in source: Caelus Technology LLC - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 11975,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 9
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-140EE307994F",
@@ -449,11 +512,20 @@
     ],
     "limitations": "Network owner label in source: Yecaoyun[.]com, LUCIDACLOUD LIMITED - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12453,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 18
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-7A6BE51D664D",
@@ -506,11 +578,20 @@
     ],
     "limitations": "Network owner label in source: Zenixcloud - Hosting Provider",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12243,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 14
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-CF5C4A8E734F",
@@ -563,11 +644,20 @@
     ],
     "limitations": "Network owner label in source: TTNet A.S. (Turk Telekom) - ISP in Turkey",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12290,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 15
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-486562E78CD3",
@@ -620,11 +710,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12860,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 28
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-70A713B2392B",
@@ -677,11 +776,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12691,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 25
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-750499570F80",
@@ -734,11 +842,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12769,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 26
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1D46D6BF73B7",
@@ -791,11 +908,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 7853,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 22
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-7D77C3FCE4D1",
@@ -848,11 +974,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12582,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 21
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6B57B7072ADB",
@@ -905,11 +1040,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12829,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 27
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-D811D6EF4513",
@@ -962,11 +1106,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12553,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 20
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1669728F8EA5",
@@ -1019,11 +1172,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12523,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 19
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6A12220A3B89",
@@ -1076,11 +1238,20 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12638,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 23
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6B8E8AA65B6E",
@@ -1133,10 +1304,19 @@
     ],
     "limitations": "String can be spoofed; legitimate testers can use the same tool.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "c4c4fc2d18db541bb5066dc69a28ae1829eafa6ad9b15ad97c7b04477248214f",
+      "normalized_text_offset": 12663,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 24
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

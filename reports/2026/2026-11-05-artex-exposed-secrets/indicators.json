@@ -50,11 +50,19 @@
     ],
     "limitations": "Separately observed reconnaissance; campaign linkage not firmly established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "391069e0a206821509e660af4ba5930ecdc90b45c2754136796ae7b67c230525",
+      "normalized_text_offset": 4880,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6B3173AABE91",
@@ -107,11 +115,19 @@
     ],
     "limitations": "Shared Tor exit can also originate unrelated activity; require temporal/application correlation.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "391069e0a206821509e660af4ba5930ecdc90b45c2754136796ae7b67c230525",
+      "normalized_text_offset": 8166,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-EE0B31ECB9C0",
@@ -164,11 +180,19 @@
     ],
     "limitations": "Source identifies credential/data access via compromised applications.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "391069e0a206821509e660af4ba5930ecdc90b45c2754136796ae7b67c230525",
+      "normalized_text_offset": 3908,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6D073E2B56C1",
@@ -221,10 +245,18 @@
     ],
     "limitations": "Potential association with the campaign, not a definitive common-operator attribution.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "391069e0a206821509e660af4ba5930ecdc90b45c2754136796ae7b67c230525",
+      "normalized_text_offset": 4570,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

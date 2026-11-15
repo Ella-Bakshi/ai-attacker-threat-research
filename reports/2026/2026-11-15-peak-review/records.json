@@ -57,7 +57,16 @@
     ],
     "new_to_master_type_value": true,
     "change_kind": "new_master_type_value",
-    "indicator_defanged": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+    "indicator_defanged": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-2BF74C5EE7FE",
@@ -117,7 +126,16 @@
     ],
     "new_to_master_type_value": true,
     "change_kind": "new_master_type_value",
-    "indicator_defanged": "dd0152236bf703e6c95cfc66c9d6a4d163abb67f"
+    "indicator_defanged": "dd0152236bf703e6c95cfc66c9d6a4d163abb67f",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-71ADECE97A52",
@@ -177,7 +195,16 @@
     ],
     "new_to_master_type_value": true,
     "change_kind": "new_master_type_value",
-    "indicator_defanged": "23d02815c2d88958feb4b314ab3c1b9c"
+    "indicator_defanged": "23d02815c2d88958feb4b314ab3c1b9c",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-425B0D0AF6AD",
@@ -244,7 +271,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "23[.]254[.]195[.]48"
+    "indicator_defanged": "23[.]254[.]195[.]48",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-5E357E6DF92C",
@@ -310,7 +346,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "23[.]254[.]195[.]48:8443"
+    "indicator_defanged": "23[.]254[.]195[.]48:8443",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-5E98389C29BC",
@@ -375,7 +420,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "http://23[.]254[.]195[.]48:8443"
+    "indicator_defanged": "http://23[.]254[.]195[.]48:8443",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-E89353EC5523",
@@ -440,7 +494,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/check_in"
+    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/check_in",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-0DF2D5BB68F8",
@@ -505,7 +568,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/result"
+    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/result",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-7B4F5086174A",
@@ -570,7 +642,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/file/"
+    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/file/",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "CS-PEAK-029F363B40E7",
@@ -635,7 +716,16 @@
     ],
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
-    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/tasks?session_id=<runtime_session_id>"
+    "indicator_defanged": "http://23[.]254[.]195[.]48:8443/tasks?session_id=<runtime_session_id>",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "PEAKARTEX-5596005E346E",
@@ -688,7 +778,16 @@
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
     "limitations": "The artifact was not acquired. These are external-provider hash relations, not our independently derived bytes or three different malware samples. Generic YARA match labels were not adopted. No present-day network or India-targeting conclusion.",
-    "indicator_defanged": "6d7ba9ced55bf353d3eca6cf95dc52ff"
+    "indicator_defanged": "6d7ba9ced55bf353d3eca6cf95dc52ff",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": null,
+      "normalized_text_offset": -1,
+      "normalization": "primary_web_rendered_fact"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "PEAKARTEX-E0D7985D87AC",
@@ -741,7 +840,16 @@
     "new_to_master_type_value": false,
     "change_kind": "additional_source_or_independent_evidence",
     "limitations": "The artifact was not acquired. These are external-provider hash relations, not our independently derived bytes or three different malware samples. Generic YARA match labels were not adopted. No present-day network or India-targeting conclusion.",
-    "indicator_defanged": "bfc3abb66448579ac35b38dc0dfde7795b19ce81"
+    "indicator_defanged": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": null,
+      "normalized_text_offset": -1,
+      "normalization": "primary_web_rendered_fact"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "PEAKARTEX-D3DD19B967FA",
@@ -794,6 +902,15 @@
     "new_to_master_type_value": true,
     "change_kind": "new_master_type_value",
     "limitations": "The artifact was not acquired. These are external-provider hash relations, not our independently derived bytes or three different malware samples. Generic YARA match labels were not adopted. No present-day network or India-targeting conclusion.",
-    "indicator_defanged": "f3b90828b407d691cf312a93808385c62d78918876ad0839b8ee7673645ce5a90c98c7ed47eb8305e39b4be272371bcc"
+    "indicator_defanged": "f3b90828b407d691cf312a93808385c62d78918876ad0839b8ee7673645ce5a90c98c7ed47eb8305e39b4be272371bcc",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": null,
+      "normalized_text_offset": -1,
+      "normalization": "primary_web_rendered_fact"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

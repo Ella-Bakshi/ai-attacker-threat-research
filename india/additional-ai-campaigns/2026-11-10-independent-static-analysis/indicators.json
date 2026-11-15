@@ -36,7 +36,16 @@
     "first_seen": "",
     "last_seen": "",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "campaign": "APT36-vibeware",
@@ -75,7 +84,16 @@
     "first_seen": "",
     "last_seen": "",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "campaign": "APT36-vibeware",
@@ -123,7 +141,16 @@
     "first_seen": "",
     "last_seen": "",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "campaign": "APT36-vibeware",
@@ -165,7 +192,16 @@
     "first_seen": "",
     "last_seen": "",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "campaign": "APT36-vibeware",
@@ -210,6 +246,15 @@
     "first_seen": "",
     "last_seen": "",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "41dfa4fbcc8c68d98a2e773bb2de3df0b136ee9b608351290738d953ccbcc309"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   }
 ]

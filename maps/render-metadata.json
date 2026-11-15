@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "renderer": "scripts/render_ip_map.py",
-  "rendered_at_utc": "2026-11-15T15:45:04.801118+00:00",
+  "rendered_at_utc": "2026-11-15T16:17:54.814969+00:00",
   "input": "data/ip-overview.json",
-  "input_sha256": "136ff704aa0daeca61f8095b9811251e0c38b3c12e2f7196c4fea22ac42bfee0",
+  "input_sha256": "18cb529af67c5b0c324f58e16fa6a963f9b85061c5e57d284e40f0b43fc86238",
   "geometry_source": "Natural Earth public-domain data via AshKyd/geojson-regions India POV; see maps/assets geometry provenance",
   "geometry_asset": "maps/assets/world-india-view.geojson",
   "geometry_sha256": "f16fb034333f7c07f0821cc63eeb7dd3f0818f656f0ba31ed0adcfae2c6240c8",

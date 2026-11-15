@@ -80,3 +80,9 @@ Manual reviewed scores are separately labeled and require a written basis. A reb
 - [Boundary provenance and limitations](../maps/assets/BOUNDARY-NOTE.md): Natural Earth India point of view, preserved in a pinned local asset. Country/territory labels from IP data are not a blanket statement of diplomatic recognition. The asset is not Survey of India certification.
 
 For optional IPinfo automation, its [official Lite API documentation](https://ipinfo.io/developers/lite-api) describes basic ASN and country/continent data; Lite does not provide city coordinates or logged-in ProbeNet evidence. Use your own token in a local environment variable or GitHub Actions secret and check your plan's use/redistribution terms. Browser sign-in is not an API token and is never scraped by this pipeline. This repository's default bulk pipeline works without that optional service.
+
+## Source-review fields
+
+The overview carries `source_review_states`, supported/unverified record IDs, unresolved scopes and the latest source-review timestamp. Use More filters → Source review to separate original source/artifact proof, retained historical provider observations and unresolved memberships. Mixed memberships remain visible. A new manual IP without reviewed source metadata is unresolved. Review timestamps are separate from observation and enrichment dates.
+
+A manual score can lower the evidence score. It cannot raise an IP above the score supported by reviewed records; requests above that ceiling are retained in the CSV but capped in the generated result. Add reviewed source evidence to justify an increase. Unsourced/manual-only and nonindicative context remain score0.

@@ -44,7 +44,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20986,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.930131+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-3612C4D999FE",
@@ -92,7 +101,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20792,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.941650+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B26F31EF8DB5",
@@ -140,7 +158,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20723,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.953523+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-9628509AB486",
@@ -187,7 +214,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20184,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.964786+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-230C420C2466",
@@ -234,7 +270,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20924,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.976337+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-3015D99AB4F7",
@@ -281,7 +326,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 3720,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.987986+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-9C2056A483B3",
@@ -328,7 +382,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20890,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.999789+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BCF06CB7BFD5",
@@ -376,7 +439,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20655,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.011764+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-C90C3753164D",
@@ -423,7 +495,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20617,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.023428+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-84F6FE953B6A",
@@ -470,7 +551,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16973,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.035275+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-50FE253D4305",
@@ -517,7 +607,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17724,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.047055+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-1FEF83BBF925",
@@ -564,7 +663,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18500,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.058391+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-39CE91586CBB",
@@ -611,7 +719,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18648,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.070163+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-350A52F9F05B",
@@ -658,7 +775,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18204,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.081722+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-21EC04AA8395",
@@ -705,7 +831,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17570,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.093536+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-399540B45822",
@@ -752,7 +887,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17210,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.104959+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-44F9A7C2CA3F",
@@ -799,7 +943,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18796,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.116838+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BDB35E6C62F2",
@@ -846,7 +999,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19560,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.128213+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-52B7A09243AC",
@@ -893,7 +1055,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19404,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.140133+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-AAA3EBA37EFF",
@@ -940,7 +1111,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16818,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.151997+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-42A8CB229392",
@@ -987,7 +1167,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17384,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.163389+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-39E7CFED4D8B",
@@ -1034,7 +1223,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17879,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.174792+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-1B8CB4393E64",
@@ -1081,7 +1279,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16661,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.186427+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-D4849DC710D4",
@@ -1128,7 +1335,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19240,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.197815+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-7D4F052B9008",
@@ -1175,7 +1391,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18352,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.210086+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-228C01290F29",
@@ -1222,7 +1447,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19092,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.221549+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-BD36891EC393",
@@ -1269,7 +1503,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19738,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.233270+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-E92031042283",
@@ -1316,7 +1559,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18050,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.244571+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-74A85807E97D",
@@ -1363,7 +1615,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17911,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.255822+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-068656FFAE83",
@@ -1410,7 +1671,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17416,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.266956+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-4E5776D18320",
@@ -1457,7 +1727,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17242,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.278521+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B2C9728DE192",
@@ -1504,7 +1783,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19272,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.289719+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-CBDDFFDB6EFA",
@@ -1551,7 +1839,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19770,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.300934+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-F1E283DD17D0",
@@ -1598,7 +1895,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19592,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.312092+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-7E0D7790E403",
@@ -1645,7 +1951,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19124,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.323712+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-76424FB28721",
@@ -1692,7 +2007,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17602,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.335573+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-6AF9D600C805",
@@ -1739,7 +2063,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18236,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.347124+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-03546D6EAC80",
@@ -1786,7 +2119,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16693,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.358350+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-ECDC2160CFD5",
@@ -1833,7 +2175,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18828,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.370280+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B3DA8F9862B8",
@@ -1880,7 +2231,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18532,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.381776+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-0A6B3F3A323B",
@@ -1927,7 +2287,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17005,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.393251+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-194FF71292EE",
@@ -1974,7 +2343,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18082,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.404996+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-26B002261DA1",
@@ -2021,7 +2399,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17756,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.416588+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-D2D0919EC86C",
@@ -2068,7 +2455,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18680,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.427967+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-1FFE0DC6DF41",
@@ -2115,7 +2511,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19436,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.439312+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-229F10ABAFA5",
@@ -2162,7 +2567,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18384,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.450690+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-9394018BE1DF",
@@ -2209,7 +2623,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16850,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.462068+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-77299BBE79BD",
@@ -2256,7 +2679,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18424,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.473370+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-A9AFFEE8E2F1",
@@ -2303,7 +2735,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18868,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.484634+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-2A0084B4FEBB",
@@ -2350,7 +2791,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17642,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.495639+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-6A49F79C4E19",
@@ -2397,7 +2847,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17045,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.506989+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-0128B40A9C68",
@@ -2444,7 +2903,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17456,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.518242+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-CF8C1D11CB9D",
@@ -2491,7 +2959,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19632,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.529597+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-2DE99B8D9E86",
@@ -2538,7 +3015,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18720,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.541198+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-4DB61032A510",
@@ -2585,7 +3071,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17796,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.552855+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-6181C0E9D74E",
@@ -2632,7 +3127,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19312,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.564229+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-73D3837FB149",
@@ -2679,7 +3183,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18276,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.575887+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-F0AA0DBF7537",
@@ -2726,7 +3239,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19164,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.587178+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-4245A9B41BA4",
@@ -2773,7 +3295,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16890,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.598465+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-EBE85CCFA77E",
@@ -2820,7 +3351,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18122,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.609720+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B92ED9186A91",
@@ -2867,7 +3407,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19810,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.621439+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-3775B230D208",
@@ -2914,7 +3463,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 16733,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.632911+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-22C6658F65D0",
@@ -2961,7 +3519,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19476,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.644321+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B35EF5D94AE4",
@@ -3008,7 +3575,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17282,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.656099+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-A1B7173D80D1",
@@ -3055,7 +3631,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 18572,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.667653+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-A3A458AD2CCE",
@@ -3102,7 +3687,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 17951,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.679128+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-5A5699A12A73",
@@ -3149,7 +3743,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20310,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.690743+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-86DF83C07AE5",
@@ -3196,7 +3799,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20496,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.702288+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-F86CEA05BD73",
@@ -3243,7 +3855,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20217,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.713878+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-A44455E58015",
@@ -3290,7 +3911,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20176,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.725718+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-13AB130B362F",
@@ -3337,7 +3967,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20072,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.736946+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-B9BD5F1E05E5",
@@ -3384,7 +4023,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 19951,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:20.748667+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "IN-EA1D4E131094",
@@ -3431,7 +4079,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "unestablished",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 11494,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-A8720C0EE7D4",
@@ -3478,7 +4135,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20236,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 21
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-400043EFA3B8",
@@ -3525,7 +4192,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20417,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 22
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-E1698E815FB8",
@@ -3572,7 +4249,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 5310,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 19
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-5626BC52B3C0",
@@ -3619,7 +4306,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20612,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 23
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-051C62E66D0A",
@@ -3666,7 +4363,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20772,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 24
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-2ABF45164A1B",
@@ -3713,7 +4420,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 20932,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 25
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-9FE885C1CA5F",
@@ -3760,7 +4477,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 6334,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 36
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-2097683025E2",
@@ -3807,7 +4534,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 22511,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 35
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-4BD2CBEDD913",
@@ -3854,7 +4591,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 4810,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 18
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-7C8F68A03EC9",
@@ -3901,7 +4648,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 22859,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 37
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-3DFD04B58F0B",
@@ -3948,7 +4705,17 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 21110,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 26
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "IN-323F223729CF",
@@ -3995,6 +4762,16 @@
     "reviewed_at_utc": "2026-11-10T17:04:05.013254+00:00",
     "india_evidence_basis": "Primary report explicitly targets Indian government entities and describes payload delivery filtered to Windows systems in India; not inferred from .in domains or IP geolocation.",
     "india_relevance": "campaign_scope_only",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "f6e4090d9f5714dbfa83da6fb36dfb9ca54848f048e341719771aad1f21296fb",
+      "normalized_text_offset": 9494,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 16
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

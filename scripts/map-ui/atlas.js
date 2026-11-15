@@ -11,8 +11,9 @@ const countryKey=r=>r.country_code||'__unknown__',countryName=r=>r.country_name|
 const isIndia=r=>arr(r,'india_targeting_scopes').some(v=>['campaign','campaign_scope_only','targeting_supported'].includes(v));
 const isC2=r=>arr(r,'network_roles').some(v=>/\bc2\b|command[\s-]*(?:and[\s-]*)?control/i.test(v));
 const reported=r=>arr(r,'publication_categories').some(v=>['main-iocs','sourced-iocs'].includes(v));
-const labels={'main-iocs':'Reported incident','sourced-iocs':'Campaign report','analyst-derived':'Independent analysis','sample-derived-observables':'Sample evidence','analyst-software-fingerprint':'Software fingerprint','software-fingerprints':'Software fingerprint','deployment-leads':'Deployment lead','master-only-passive-lead':'Unverified lead','unverified-findings':'Unverified finding','campaign-context':'Campaign context','shared-services-and-generic-markers':'Shared infrastructure','legitimate-service-context':'Shared service','supporting-tools':'Supporting tool'};
+const labels={'main-iocs':'Reported incident','sourced-iocs':'Campaign report','analyst-derived':'Independent analysis','sample-derived-observables':'Sample evidence','analyst-software-fingerprint':'Software fingerprint','software-fingerprints':'Software fingerprint','deployment-leads':'Deployment lead','master-only-passive-lead':'Historical provider lead','unverified-findings':'Unverified finding','campaign-context':'Campaign context','shared-services-and-generic-markers':'Shared infrastructure','legitimate-service-context':'Shared service','supporting-tools':'Supporting tool'};
 const label=v=>labels[v]||v.replaceAll('-',' ').replaceAll('_',' ');
+const reviewLabels={source_supported:'Original source support',artifact_supported:'Exact artifact support',historical_provider:'Retained provider observation',unverified:'Unresolved source membership',__documented__:'Has original source / artifact support',__resolved__:'No unresolved source memberships'};
 function group(r){const cats=arr(r,'publication_categories');if(reported(r))return 'reported';if(cats.some(s=>['shared-services-and-generic-markers','legitimate-service-context'].includes(s))&&r.confidence_score===0)return 'context';if(r.self_derived)return 'own';if(cats.some(s=>s==='deployment-leads'))return 'lead';return 'context';}
 const colors={reported:'#c53030',own:'#2b6cb0',lead:'#d97706',context:'#6b46c1',mixed:'#1a365d'};
 function color(r){return colors[group(r)];}
@@ -21,7 +22,7 @@ const allByIP=new Map(DATA.map(r=>[r.ip,r]));
 DATA.forEach((r,i)=>{r._order=i;r._point=located(r)?point(r):null;r._search=[r.ip,r.asn,r.hosting,r.country_code,r.country_name,r.city,...arr(r,'campaigns'),...arr(r,'frameworks'),...arr(r,'roles'),...arr(r,'network_roles'),...arr(r,'record_ids')].map(flat).join(' ').toLowerCase();});
 let selected=[],visibleIPs=new Set(),page=0,preset='all',selectedIP=null,detailMode='overview',clusterIPs=[],clusterPage=0,clusterQuery='',camera=null,renderedGroups=[],visibleRepresented=0,previousAspect=2;
 let drawFrame=0,urlTimer=0,toastTimer=0,invoker=null,lastDragAt=-1000,lastPointer={x:0,y:0};
-const controls=['category','framework','country','india','role','search','score','self'];
+const controls=['category','framework','country','india','role','review','search','score','self'];
 const option=(select,value,caption)=>{const o=text('option',caption);o.value=value;select.append(o);};
 for(const [id,key]of[['category','publication_categories'],['framework','frameworks'],['india','india_targeting_scopes'],['role','network_roles']]){
   [...new Set(DATA.flatMap(r=>arr(r,key)))].sort().forEach(v=>option($(id),v,id==='category'?label(v):label(v)));
@@ -39,6 +40,8 @@ function matches(r){
   if($('country').value&&countryKey(r)!==$('country').value)return false;
   const india=$('india').value;if(india&&(india==='__c2supported__'?r.india_campaign_c2_supported!==true:india==='__supported__'?!isIndia(r):!arr(r,'india_targeting_scopes').includes(india)))return false;
   const role=$('role').value;if(role&&(role==='__c2__'?!isC2(r):!arr(r,'network_roles').includes(role)))return false;
+  const review=$('review').value,states=arr(r,'source_review_states');
+  if(review&&(review==='__documented__'?!states.some(v=>['source_supported','artifact_supported'].includes(v)):review==='__resolved__'?!states.length||states.includes('unverified'):!states.includes(review)))return false;
   if($('self').checked&&!r.self_derived)return false;
   const minimum=Number($('score').value);if(minimum>0&&(typeof r.confidence_score!=='number'||r.confidence_score<minimum))return false;
   const query=$('search').value.trim().toLowerCase();return !query||r._search.includes(query);
@@ -58,8 +61,8 @@ controls.forEach(id=>$(id).addEventListener(id==='search'||id==='score'?'input':
 $('sort').addEventListener('change',()=>{sortSelection();page=0;drawTable();syncURL();});
 function drawChips(){
   const fragment=document.createDocumentFragment();let advanced=0;
-  for(const id of controls){const value=id==='self'?$('self').checked:$(id).value;if(!value||id==='score'&&value==='0')continue;if(['india','role','score','self'].includes(id))advanced++;
-    let caption=id==='search'?'“'+value+'”':id==='score'?'Score ≥ '+value:id==='self'?'Our analysis':id==='country'?countryNames.get(value):['__c2__','__c2supported__'].includes(value)?'C2 evidence':label(value);
+  for(const id of controls){const value=id==='self'?$('self').checked:$(id).value;if(!value||id==='score'&&value==='0')continue;if(['india','role','review','score','self'].includes(id))advanced++;
+    let caption=id==='search'?'“'+value+'”':id==='score'?'Score ≥ '+value:id==='self'?'Our analysis':id==='review'?reviewLabels[value]||label(value):id==='country'?countryNames.get(value):['__c2__','__c2supported__'].includes(value)?'C2 evidence':label(value);
     const button=text('button',caption,'chip');button.setAttribute('aria-label','Remove filter '+caption);button.append(text('b','×'));button.addEventListener('click',()=>{if(id==='self')$(id).checked=false;else $(id).value=id==='score'?'0':'';update();});fragment.append(button);
   }
   $('chips').replaceChildren(fragment);$('advanced-count').textContent=advanced?'('+advanced+')':'';
@@ -139,6 +142,7 @@ function renderRecord(row){const body=$('detail-body');body.replaceChildren();if
   body.append(text('div','ADDRESS RECORD','eyebrow'),text('h3',row.ip,'record-ip'),text('p',[row.city,countryName(row)].filter(Boolean).join(', ')+(row._point?' · hosting estimate':' · no coordinates'),'record-location'));
   const badges=text('div','','badge-row');for(const category of arr(row,'publication_categories'))badges.append(text('span',label(category),'badge'));body.append(badges);const actions=text('div','','record-actions'),copy=text('button','Copy IP'),locate=text('button','Locate on map');copy.addEventListener('click',()=>copyText(row.ip,'IP copied'));locate.disabled=!row._point;locate.addEventListener('click',()=>{if(!visibleIPs.has(row.ip)){clearFields();update();}chooseRecord(row.ip);$('inspector').close();});actions.append(copy,locate);body.append(actions);
   const score=text('div','','score-block'),line=text('div','','score-line'),num=text('span',row.confidence_score==null?'—':row.confidence_score,'score-number');num.append(text('small',' / 100'));line.append(num,text('span',tier(row),'score-tier'));score.append(line,text('p',row.confidence_basis||'No scoring basis supplied.','basis'),text('p','Evidence rubric · not a probability of maliciousness.','legend-note'));body.append(score);
+  body.append(facts([['Source review',arr(row,'source_review_states').map(v=>reviewLabels[v]||label(v))],['Review scope',row.source_review_scope],['Latest source review UTC',row.source_review_latest_at_utc]]),detailListSection('Unresolved source memberships',arr(row,'source_review_unresolved_details')));
   body.append(facts([['Framework',arr(row,'frameworks')],['Network role',arr(row,'network_roles')],['Campaign',arr(row,'campaigns')],['ASN',row.asn],['Network',row.hosting],['India scope',arr(row,'india_targeting_scopes')],['India C2',row.india_campaign_c2_supported===true?'Supported in the same source record':'Not established by same-record evidence'],['Our analysis',row.self_derived?'Yes · independent derivation or verification':'No']]));
   body.append(text('div','Source references','section-label'));const list=text('ol','','source-list');let count=0;
   for(const source of arr(row,'source_urls')){try{const url=new URL(source);if(!['http:','https:'].includes(url.protocol)||/^\d{1,3}(\.\d{1,3}){3}$/.test(url.hostname)||url.hostname.includes(':'))continue;const item=text('li',''),a=text('a',url.hostname.replace(/^www\./,'')+' ↗');a.href=url.href;a.target='_blank';a.rel='noopener noreferrer';item.append(a,text('small',url.pathname.length>65?url.pathname.slice(0,65)+'…':url.pathname));list.append(item);count++;}catch{}}

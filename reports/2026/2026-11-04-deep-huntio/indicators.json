@@ -42,11 +42,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 19613,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 78
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6314B1C03B93",
@@ -91,11 +100,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 2515,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 73
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-B21E50F38F2A",
@@ -140,11 +158,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 2303,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 72
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-EEC8DC6B9A8C",
@@ -189,11 +216,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 8081,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 80
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-62D4B3490420",
@@ -238,11 +274,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 18353,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 81
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-0AE5B439B66A",
@@ -287,11 +332,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 7194,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 79
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-351AA2E00424",
@@ -336,11 +390,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28489,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 46
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-06FAC3ED0C4D",
@@ -385,11 +448,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28766,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 52
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-50CE90EAD2D0",
@@ -434,11 +506,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28598,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 48
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-B43C92CF06CF",
@@ -483,11 +564,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28721,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 51
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-DC34516D9457",
@@ -532,11 +622,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 6554,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 45
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-B197DB613204",
@@ -581,11 +680,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28685,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 50
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6E55A10D6252",
@@ -630,11 +738,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28657,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 49
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-3B2D8E30BD61",
@@ -679,11 +796,20 @@
     ],
     "limitations": "Copied titles and legitimate/fork deployments are possible; no maliciousness inference.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 28544,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 47
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1C2540F0DEDA",
@@ -728,11 +854,20 @@
     ],
     "limitations": "Primary operator-directory analysis. Shared API services do not establish malicious ownership. Certificate is linked to a historical incident host, not a universal ARTEX/actor certificate.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 24304,
+      "normalization": "hex_case_normalization",
+      "table_row_1based": 82
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-29B1D428A1B4",
@@ -777,11 +912,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21516,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 31
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-8C3DBF5F81FF",
@@ -826,11 +970,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21508,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 31
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-7C988CCC55AB",
@@ -875,11 +1028,19 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 29847,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-236ED85DC83E",
@@ -924,11 +1085,19 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 29858,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-C048FC276729",
@@ -973,11 +1142,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21895,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 34
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-7967AB340226",
@@ -1022,11 +1200,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22621,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 43
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-FD8FA178C323",
@@ -1071,11 +1258,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21780,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 33
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-8B6BE9B8231D",
@@ -1120,11 +1316,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21601,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 32
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-7CAC7B6FBB8F",
@@ -1169,11 +1374,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21524,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 31
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1684F93BA3D4",
@@ -1218,11 +1432,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22067,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 36
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-867D0A31A3D0",
@@ -1267,11 +1490,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21469,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 30
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-537250F255BA",
@@ -1316,11 +1548,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22296,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 39
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-8D04E39F2AAA",
@@ -1365,11 +1606,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21977,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 35
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-B06ABF953E78",
@@ -1414,11 +1664,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22496,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 41
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-158DF15A6220",
@@ -1463,11 +1722,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21059,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 24
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-618AF13AFCD5",
@@ -1512,11 +1780,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21102,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 25
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-0B1D6BCA534F",
@@ -1561,11 +1838,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21339,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 28
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-FE17334F2FC0",
@@ -1610,11 +1896,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22118,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 37
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-F1C5E0320BE3",
@@ -1659,11 +1954,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22126,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 37
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-FF73A488BDEA",
@@ -1708,11 +2012,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21246,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 27
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-EF4A915AE7B0",
@@ -1757,11 +2070,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 21199,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 26
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-DAC19DB71A52",
@@ -1806,11 +2128,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 22532,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 42
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-F7CB6711D3EE",
@@ -1855,11 +2186,20 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 20755,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 22
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-CFCAF699386B",
@@ -1904,10 +2244,19 @@
     ],
     "limitations": "Filename only; no bytes or hashes acquired. Cryptocurrency/mobile/exploit artifacts were not all confirmed related to the Korean financial intrusions. No secret/key contents reproduced.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "d14243973e01a6cc344d5194490df8da13f11ced930a5a8fba9423f203890035",
+      "normalized_text_offset": 20911,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 23
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

@@ -23,8 +23,8 @@
   "supplementary_india_context_records": 6,
   "all_categorized_records_including_supplement": 12299,
   "framework_report_folders": 20,
-  "supplementary_report_folders": 10,
-  "report_folders_total": 30,
+  "supplementary_report_folders": 11,
+  "report_folders_total": 31,
   "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement.",
   "independent_public_artifact_records": 16,
   "independent_public_artifact_derived_facts": 6,
@@ -37,9 +37,9 @@
   "compact_catalog_records": 12069,
   "daily_global_records": 3016,
   "daily_global_own_source_fingerprints": 9,
-  "daily_global_source_campaign_observables": 243,
+  "daily_global_source_campaign_observables": 242,
   "daily_global_record_classes": {
-    "sourced-iocs": 243,
+    "sourced-iocs": 242,
     "software-fingerprints": 45,
     "deployment-leads": 2560,
     "supporting-context": 23,
@@ -47,9 +47,9 @@
     "shared-services-and-generic-markers": 35,
     "supporting-tools": 2,
     "report-artifact-observables": 69,
+    "unverified-findings": 2,
     "artifact-derived-observables": 10,
-    "sample-derived-observables": 11,
-    "unverified-findings": 1
+    "sample-derived-observables": 11
   },
   "latest_daily_additions": 86,
   "latest_daily_own_malicious_iocs": 0,
@@ -109,5 +109,67 @@
       "sample-derived-observables": 7,
       "report-artifact-observables": 3
     }
+  },
+  "source_review": {
+    "canonical_records": 12299,
+    "master_values": 15944,
+    "new_values": 0,
+    "new_ips": 0,
+    "review_states": {
+      "source_supported": 3559,
+      "historical_provider": 8340,
+      "artifact_supported": 327,
+      "unverified": 73
+    },
+    "categories": {
+      "campaign-context": 58,
+      "deployment-leads": 10975,
+      "main-iocs": 24,
+      "shared-services-and-generic-markers": 89,
+      "software-fingerprints": 423,
+      "unverified-findings": 73,
+      "supporting-tools": 53,
+      "sample-derived-observables": 23,
+      "sourced-iocs": 413,
+      "supporting-context": 28,
+      "report-host-network-artifacts": 49,
+      "legitimate-service-context": 1,
+      "analyst-derived": 7,
+      "analyst-software-fingerprint": 4,
+      "report-artifact-observables": 69,
+      "artifact-derived-observables": 10
+    },
+    "newly_unverified": 9,
+    "old_unverified": 64,
+    "corrected_types": [
+      "GLOBAL-0F92B69CC511"
+    ],
+    "corrected_roles": [
+      "AR-11BBD2504E9E",
+      "CS-62C58061DC05",
+      "EXP-A87C9257DE93"
+    ],
+    "corrected_primary_urls": [
+      "CS-F3DAE32917E2",
+      "CS-A45329E5D0EC",
+      "CS-5EE9DE0EF7BD",
+      "CS-AD6718007B87",
+      "CS-7C930CB08BE5",
+      "CS-7D150376A11D",
+      "CS-4C2EBDCEADAD"
+    ],
+    "lanes": {
+      "prior_incident_review": 442,
+      "closed_source_gaps": 20,
+      "feeds": 3612,
+      "canonical_provider": 7274,
+      "remaining_reports": 574,
+      "analyst_artifacts": 397
+    },
+    "master_only_rows": 3740,
+    "master_only_review_state": "historical_provider",
+    "prior_access_gaps_closed": 20,
+    "remaining_source_access_gaps": 0,
+    "source_review_status_means_maliciousness": false
   }
 }

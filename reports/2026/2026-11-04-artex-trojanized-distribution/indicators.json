@@ -50,11 +50,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed. Mutable tag; use immutable digests for exact identity. Source reports removal on November 5, 2026; current availability is not asserted. The account/image timeline is not asserted as a first-seen date for both image tags.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 28434,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.177443+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-8440CCD8FDCA",
@@ -107,11 +115,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed. Mutable tag; use immutable digests for exact identity. Source reports removal on November 5, 2026; current availability is not asserted. The account/image timeline is not asserted as a first-seen date for both image tags.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 7017,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.181906+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-6BFDEA7AA3F2",
@@ -164,11 +180,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Compare local file/image hashes to the exact reported artifact. Retain source attribution.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 28489,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.185916+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-ABF8F5BA944F",
@@ -221,11 +245,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Compare local file/image hashes to the exact reported artifact. Retain source attribution.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 28666,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.189794+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-D143929F7C6B",
@@ -278,11 +310,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Compare local file/image hashes to the exact reported artifact. Retain source attribution.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 28573,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.193712+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-59CDAE749176",
@@ -335,11 +375,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Compare local file/image hashes to the exact reported artifact. Retain source attribution.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 4291,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.279872+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-2A950E882376",
@@ -396,11 +444,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": -1,
+      "normalization": "explicit_source_component_normalization"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "explicit_normalization"
   },
   {
     "record_id": "AR-3A2520566C0B",
@@ -453,11 +509,20 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 33149,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 64
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-13E767B25BB7",
@@ -510,11 +575,20 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 5290,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 60
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-21A396C21A59",
@@ -567,11 +641,20 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 33079,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 63
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-202A6547BB37",
@@ -624,11 +707,20 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 31382,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 61
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-EA0F8199D5C3",
@@ -681,10 +773,19 @@
     ],
     "limitations": "Backdoored-image report; generic paths/symbols/build metadata alone do not prove the malicious binary is present. Artifacts not executed.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+      "normalized_text_offset": 8780,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 15
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

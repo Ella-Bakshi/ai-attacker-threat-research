@@ -90,11 +90,20 @@
     ],
     "limitations": "Censys cites CrowdStrike/Microsoft primary incident reports; retained as corroborating source, not independent attribution.; Campaign infrastructure identified by Microsoft.; Wiz notes overlap with Microsoft; identical tooling does not independently prove shared actor identity.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "49caa2172620af4d7b5a14db4cdc89ee62d01bf828a8ab4e7226b0474ae7cf3e",
+      "normalized_text_offset": 20780,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 18
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-35B144D55352",
@@ -187,11 +196,20 @@
     ],
     "limitations": "Censys cites CrowdStrike/Microsoft primary incident reports; retained as corroborating source, not independent attribution.; Campaign infrastructure identified by Microsoft.; Wiz notes overlap with Microsoft; identical tooling does not independently prove shared actor identity.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "49caa2172620af4d7b5a14db4cdc89ee62d01bf828a8ab4e7226b0474ae7cf3e",
+      "normalized_text_offset": 20924,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 20
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-83C40E5D746C",
@@ -284,11 +302,20 @@
     ],
     "limitations": "Censys cites CrowdStrike/Microsoft primary incident reports; retained as corroborating source, not independent attribution.; Campaign infrastructure identified by Microsoft.; Wiz notes overlap with Microsoft; identical tooling does not independently prove shared actor identity.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "49caa2172620af4d7b5a14db4cdc89ee62d01bf828a8ab4e7226b0474ae7cf3e",
+      "normalized_text_offset": 8846,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 19
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-DDF9B6A64065",
@@ -341,11 +368,20 @@
     ],
     "limitations": "VPN/shared infrastructure; relevant only with compromised-app context on October 15–16, 2026.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "49caa2172620af4d7b5a14db4cdc89ee62d01bf828a8ab4e7226b0474ae7cf3e",
+      "normalized_text_offset": 20941,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 21
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-D54FEFE7AE21",
@@ -398,11 +434,20 @@
     ],
     "limitations": "VPN/shared infrastructure; relevant only with compromised-app context on October 15–16, 2026.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "49caa2172620af4d7b5a14db4cdc89ee62d01bf828a8ab4e7226b0474ae7cf3e",
+      "normalized_text_offset": 20969,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 21
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-E4CB5C70C3ED",
@@ -455,10 +500,19 @@
     ],
     "limitations": "VPN/shared infrastructure; relevant only with compromised-app context on October 15–16, 2026.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "49caa2172620af4d7b5a14db4cdc89ee62d01bf828a8ab4e7226b0474ae7cf3e",
+      "normalized_text_offset": 20955,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 21
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

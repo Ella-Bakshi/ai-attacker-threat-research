@@ -54,7 +54,25 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "2026-11-02",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 60
+    "evidence_score_hint": 60,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "capture_sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+        "embedded_json_offset": 231932,
+        "embedded_json_bytes": 9183,
+        "embedded_json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864",
+        "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+        "tls_flow_ids": [
+          4,
+          15,
+          16
+        ]
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-53FB713ADFCF842D",
@@ -106,7 +124,25 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "2026-11-02",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "capture_sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+        "embedded_json_offset": 231932,
+        "embedded_json_bytes": 9183,
+        "embedded_json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864",
+        "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+        "tls_flow_ids": [
+          4,
+          15,
+          16
+        ]
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-400ABB1D9DD1FB8B",
@@ -158,12 +194,30 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "2026-11-02",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "capture_sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+        "embedded_json_offset": 231932,
+        "embedded_json_bytes": 9183,
+        "embedded_json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864",
+        "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+        "tls_flow_ids": [
+          4,
+          15,
+          16
+        ]
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-98C31B81BA22AB2D",
     "framework": "CyberStrikeAI",
-    "publication_category": "analyst-derived",
+    "publication_category": "unverified-findings",
     "indicator_type": "network_pattern",
     "indicator": "tls.sni=media.fastcdn.bar AND dst.port=2083 AND ja3=20b279993ae2e137e62b9647c6d768fb AND ja3s=eb1d94daa7e0344597e756a1fb6e7054",
     "role": "Compound historical TLS hunting relationship from six exact-domain task flows",
@@ -218,7 +272,27 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "2026-11-02",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 60
+    "evidence_score_hint": 60,
+    "source_review_state": "unverified",
+    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_locator": [
+      {
+        "capture_sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+        "embedded_json_offset": 231932,
+        "embedded_json_bytes": 9183,
+        "embedded_json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864",
+        "sample_sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+        "tls_flow_ids": [
+          4,
+          15,
+          16
+        ]
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "qualified_hypothesis",
+    "source_review_original_category": "analyst-derived",
+    "automatic_blocklist_suitable": false
   },
   {
     "record_id": "OWNCTI-1E706397567DDEDD",
@@ -286,7 +360,16 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 60
+    "evidence_score_hint": 60,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-D7FF6274635E1CDC",
@@ -443,12 +526,21 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 60
+    "evidence_score_hint": 60,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-84ECACE2D8F420A2",
     "framework": "CyberStrikeAI",
-    "publication_category": "analyst-derived",
+    "publication_category": "unverified-findings",
     "indicator_type": "behavior_pattern",
     "indicator": "HTTP POST /check_in retry: approximately 5000 ms after previous matching flow completion",
     "role": "Measured retry timing corroborated with a five-second initial poll interval in the exact ELF sample",
@@ -514,7 +606,18 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "unverified",
+    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_locator": [
+      {
+        "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "qualified_hypothesis",
+    "source_review_original_category": "analyst-derived",
+    "automatic_blocklist_suitable": false
   },
   {
     "record_id": "OWNCTI-CCB595C1F9202607",
@@ -568,7 +671,21 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "2026-11-02",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 40
+    "evidence_score_hint": 40,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "der_bytes": 917,
+        "der_sha256": "6b03dfb3dbd4c42441bbd916ab6ebdac5a205dab1f219f95c6151e0549d8f298",
+        "dns_san": [
+          "media.fastcdn.bar"
+        ],
+        "precertificate": false
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
@@ -616,7 +733,22 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "unverified",
+    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_locator": [
+      {
+        "der_bytes": 920,
+        "der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
+        "dns_san": [
+          "static.fastcdn.bar"
+        ],
+        "precertificate": false
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "qualified_hypothesis",
+    "automatic_blocklist_suitable": false
   },
   {
     "record_id": "OWNCTI-AAB562EB200FA015",
@@ -664,7 +796,22 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "unverified",
+    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_locator": [
+      {
+        "der_bytes": 914,
+        "der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
+        "dns_san": [
+          "www.fastcdn.bar"
+        ],
+        "precertificate": false
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "qualified_hypothesis",
+    "automatic_blocklist_suitable": false
   },
   {
     "record_id": "OWNCTI-16AFADCBBEFE2E24",
@@ -719,7 +866,17 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+        "section": "Pinned source relation; exact fields retained in source references."
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-FDC46A1A793D7A92",
@@ -774,7 +931,17 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+        "section": "Pinned source relation; exact fields retained in source references."
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-8328F08D886CE6C6",
@@ -829,7 +996,16 @@
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank. These first/last times are URLscan scan times, not victim activity times.",
     "evidence_score_hint": 0,
-    "timestamp_scope": "source_scan"
+    "timestamp_scope": "source_scan",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "url": "https://media.fastcdn.bar/"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-79434A9F4E4AB3CB",
@@ -884,7 +1060,17 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+        "section": "Pinned source relation; exact fields retained in source references."
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-3A4DEDFBED14271D",
@@ -939,7 +1125,17 @@
     "local_sample_execution": false,
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
-    "evidence_score_hint": 0
+    "evidence_score_hint": 0,
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1; https://www.cloudflare.com/ips-v4; https://www.cloudflare.com/ips-v6",
+        "section": "Pinned source relation; exact fields retained in source references."
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   },
   {
     "record_id": "OWNCTI-74852746E9831C71",
@@ -994,6 +1190,15 @@
     "related_vendor_report_published_date": "",
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank. These first/last times are URLscan scan times, not victim activity times.",
     "evidence_score_hint": 0,
-    "timestamp_scope": "source_scan"
+    "timestamp_scope": "source_scan",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact artifact identities, selected bytes/native operands or recorded public-artifact events support the narrow derivation; this is not proof of execution, successful registration, victims, current operation or production detection specificity.",
+    "source_review_locator": [
+      {
+        "url": "https://media.fastcdn.bar/"
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+    "source_review_disposition": "supported_exact_artifact"
   }
 ]

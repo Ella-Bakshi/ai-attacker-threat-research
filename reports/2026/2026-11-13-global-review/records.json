@@ -50,7 +50,16 @@
     "indicator_defanged": "207[.]5[.]195[.]93",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21684,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-257FCAE1A929",
@@ -103,7 +112,16 @@
     "indicator_defanged": "artex[.]lol",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21741,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-11B7638C73AD",
@@ -156,7 +174,16 @@
     "indicator_defanged": "staging[.]artex[.]lol",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21753,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-3384290C5265",
@@ -209,7 +236,16 @@
     "indicator_defanged": "artex[.]tokena2b[.]top",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21773,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-30468541562E",
@@ -262,7 +298,16 @@
     "indicator_defanged": "artex[.]ok7777[.]eu[.]cc",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21794,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-0A25098A38A7",
@@ -315,7 +360,16 @@
     "indicator_defanged": "artex[.]noog2infra[.]site",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21815,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-81B75BE24E35",
@@ -367,7 +421,16 @@
     "indicator_defanged": "Mozilla/5.0 (ARTEX)",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21352,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-C1B2A984E4A7",
@@ -419,7 +482,16 @@
     "indicator_defanged": "Mozilla/5.0 (compatible; ArtExVerify/1.0)",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21404,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-5E330602CBDA",
@@ -471,7 +543,16 @@
     "indicator_defanged": "Python-urllib/3.14",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21498,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-D0EC68FA1E17",
@@ -523,7 +604,16 @@
     "indicator_defanged": "python-requests/2.34.2",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21519,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-6CD26341E570",
@@ -575,7 +665,16 @@
     "indicator_defanged": "Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21542,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-68918C6F89E8",
@@ -626,7 +725,16 @@
     "indicator_defanged": "tomicdd/artex",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21854,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-27168E279103",
@@ -677,7 +785,16 @@
     "indicator_defanged": "congdonglinux/artex",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21870,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-8EEB232712AE",
@@ -729,7 +846,16 @@
     "indicator_defanged": "artxdiag20261106artx[.]3vd1og[.]dnslog[.]cn",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18198,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.317418+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-7C375601B1AD",
@@ -780,7 +906,16 @@
     "indicator_defanged": "*[.]dnslog[.]cn",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21918,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-5B0F33243941",
@@ -831,7 +966,16 @@
     "indicator_defanged": "*[.]oast[.]me",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21976,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-F7667BF9840F",
@@ -882,7 +1026,16 @@
     "indicator_defanged": "webhook[.]site",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 21986,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-808547219AF6",
@@ -934,7 +1087,16 @@
     "indicator_defanged": "X-ARTX-KEY",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22028,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-85C02B735188",
@@ -986,7 +1148,16 @@
     "indicator_defanged": "### ARTX-AGENT",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22088,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1A72802C27FD",
@@ -1038,7 +1209,16 @@
     "indicator_defanged": "artx_s5.php",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18465,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.322435+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-E3C2B6DD493B",
@@ -1090,7 +1270,16 @@
     "indicator_defanged": "artx-pod",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 5622,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.327358+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-C2CF12F0E983",
@@ -1142,7 +1331,16 @@
     "indicator_defanged": "artx-label-probe",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18486,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.332236+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-E98F916D35BD",
@@ -1194,7 +1392,16 @@
     "indicator_defanged": "artx-probe-qa-1",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 5632,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.337137+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-F3DF2E9C1442",
@@ -1246,7 +1453,16 @@
     "indicator_defanged": "zzartx0000.php",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18504,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.342040+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-1E54B6C5B1BD",
@@ -1298,7 +1514,16 @@
     "indicator_defanged": "ARTEX_WRITE_PROBE",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18531,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.346987+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-F03C9BF806FB",
@@ -1350,7 +1575,16 @@
     "indicator_defanged": "ARTEX-PROBE-0001",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18549,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.351915+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-BF7E9D34EBC1",
@@ -1402,7 +1636,16 @@
     "indicator_defanged": "ARTX_PERSIST_OK",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18566,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.356826+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-B3E4339BDBB4",
@@ -1454,7 +1697,16 @@
     "indicator_defanged": "artex_control_marker_zz9q",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18582,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.361763+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-6478B0F04B3A",
@@ -1506,7 +1758,16 @@
     "indicator_defanged": "artx-nonexistent",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18644,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.366672+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-79272F3CBDEC",
@@ -1558,7 +1819,16 @@
     "indicator_defanged": "artx2909-zzq7",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18661,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.371608+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-13B314AA04E5",
@@ -1610,7 +1880,16 @@
     "indicator_defanged": "qa.audit29a",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 18780,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.376594+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-8FA115AA79C3",
@@ -1662,7 +1941,16 @@
     "indicator_defanged": "artx_",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22219,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-56D5496A55F2",
@@ -1714,7 +2002,16 @@
     "indicator_defanged": "artx-",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 6791,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-D431D13ED808",
@@ -1766,7 +2063,16 @@
     "indicator_defanged": "ARTX",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22030,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-022318B9FE5E",
@@ -1818,7 +2124,16 @@
     "indicator_defanged": "zz-notexist-",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22427,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-D70508D48532",
@@ -1870,7 +2185,16 @@
     "indicator_defanged": "zzq*",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22442,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-95ADFB8443D3",
@@ -1922,7 +2246,16 @@
     "indicator_defanged": "zznotexist-*",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22484,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-CFAC375CF53E",
@@ -1974,7 +2307,16 @@
     "indicator_defanged": "qa_probe_*",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22594,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-2F6E81128E22",
@@ -2026,7 +2368,16 @@
     "indicator_defanged": "sink-*",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 22655,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-8B61110A2DD3",
@@ -2081,7 +2432,16 @@
     "indicator_defanged": "artx@example.local",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": -1,
+      "normalization": "public_html_email_obfuscation_decode"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "explicit_normalization"
   },
   {
     "record_id": "AR-BFE6E092CBDB",
@@ -2136,7 +2496,16 @@
     "indicator_defanged": "artx@example.com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": -1,
+      "normalization": "public_html_email_obfuscation_decode"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "explicit_normalization"
   },
   {
     "record_id": "AR-A3D91898BE2F",
@@ -2188,7 +2557,16 @@
     "indicator_defanged": "artx_*",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 23174,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-ADBB27E42160",
@@ -2240,7 +2618,16 @@
     "indicator_defanged": "/tmp/x.php5",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 23214,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-FF8870BD60B5",
@@ -2292,7 +2679,16 @@
     "indicator_defanged": "/api/v1/me",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "5efd7f6bdf31db1f6a3fa060589afb50932fab9f39dba119281119e9becefadf",
+      "normalized_text_offset": 23071,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-BD6A966B1982",
@@ -2360,7 +2756,16 @@
     "indicator_defanged": "155[.]254[.]22[.]215",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13369,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.381568+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-97CB2BE4D26F",
@@ -2428,7 +2833,16 @@
     "indicator_defanged": "209[.]126[.]4[.]170",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13418,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.386013+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-18A11A5A5755",
@@ -2496,7 +2910,16 @@
     "indicator_defanged": "213[.]21[.]239[.]62",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13475,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.390631+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-8C60486C0A37",
@@ -2564,7 +2987,16 @@
     "indicator_defanged": "172[.]245[.]224[.]188",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13492,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.395041+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-9BD20169B606",
@@ -2632,7 +3064,16 @@
     "indicator_defanged": "172[.]245[.]89[.]137",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13511,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.399448+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-6A597CFDB68F",
@@ -2700,7 +3141,16 @@
     "indicator_defanged": "medbooksource[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13542,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.403848+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-E4906554C09E",
@@ -2768,7 +3218,16 @@
     "indicator_defanged": "traffic-analyzer[.]net",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13606,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.408254+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-E6EBA1E06672",
@@ -2836,7 +3295,16 @@
     "indicator_defanged": "b8t[.]shop",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13634,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.412661+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-BD44851C0BB2",
@@ -2904,7 +3372,16 @@
     "indicator_defanged": "cdn[.]netlfjs[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 10333,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.417062+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-E3653EB3F6B2",
@@ -2972,7 +3449,16 @@
     "indicator_defanged": "x1opay[.]co",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13691,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.421471+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-7EB927872605",
@@ -3040,7 +3526,16 @@
     "indicator_defanged": "static-js[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 10236,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.425850+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-57236C7D7E62",
@@ -3108,7 +3603,16 @@
     "indicator_defanged": "cdn[.]js-static[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13747,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.430200+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-FC16876B7442",
@@ -3176,7 +3680,16 @@
     "indicator_defanged": "js-static[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13751,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.434581+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-76F9E65E815A",
@@ -3244,7 +3757,16 @@
     "indicator_defanged": "jsnetlify[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13811,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.439016+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-ED13955FC78C",
@@ -3312,7 +3834,16 @@
     "indicator_defanged": "netlifyjs[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13841,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.443428+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-7BDCD80017D4",
@@ -3380,7 +3911,16 @@
     "indicator_defanged": "newssjs[.]com",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13871,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.447847+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-7CD7CDC5824A",
@@ -3449,7 +3989,16 @@
     "indicator_defanged": "b8t[.]shop/js/sby[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13896,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.452199+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-34F5FCA96EFC",
@@ -3518,7 +4067,16 @@
     "indicator_defanged": "cdn[.]netlfjs[.]com/js/cts[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 10333,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.456726+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-6118DEEE6F35",
@@ -3587,7 +4145,16 @@
     "indicator_defanged": "cdn[.]netlfjs[.]com/js/vla[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 13965,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.461131+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-9A798B25E859",
@@ -3656,7 +4223,16 @@
     "indicator_defanged": "x1opay[.]co/js/eut[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 14003,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.465522+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-028007898D1C",
@@ -3725,7 +4301,16 @@
     "indicator_defanged": "x1opay[.]co/js/l[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 14035,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.469943+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-FB3C117CEFBC",
@@ -3794,7 +4379,16 @@
     "indicator_defanged": "static-js[.]com/js/bmws[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 14065,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.474374+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-E0B0E0BBA2C1",
@@ -3863,7 +4457,16 @@
     "indicator_defanged": "static-js[.]com/js/nrt[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 10236,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.478743+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-12801D3518C4",
@@ -3932,7 +4535,16 @@
     "indicator_defanged": "cdn[.]js-static[.]com/js/tgo[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 14138,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.483147+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-8DF52B68C9EC",
@@ -4001,7 +4613,16 @@
     "indicator_defanged": "cdn[.]js-static[.]com/js/pps[.]js",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 14178,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.487612+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "GLOBAL-7872456C73ED",
@@ -4069,7 +4690,17 @@
     "indicator_defanged": "new Function(atob('<random>...'.slice(7)))()",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 16928,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 41
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-A4D26B80C9FA",
@@ -4137,7 +4768,17 @@
     "indicator_defanged": "IPRoyal",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 17034,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 42
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-97152470B7CD",
@@ -4205,7 +4846,17 @@
     "indicator_defanged": "711proxy",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 17089,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 43
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "GLOBAL-7BCAC27D6D22",
@@ -4273,7 +4924,17 @@
     "indicator_defanged": "1024proxy",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "65ccfca31d8f6a84f3ff4a9da0e81fd2c192ff2487e6f9113712f69a8464338f",
+      "normalized_text_offset": 17145,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 44
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-7F93951E81BC",
@@ -4323,7 +4984,16 @@
     "change_kind": "additional_source_evidence",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+      "normalized_text_offset": 7686,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.491996+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "DAILY-1D30FAE75DC4",
@@ -4373,7 +5043,16 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+      "normalized_text_offset": 7696,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:22.492679+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "DAILY-09070C69A891",
@@ -4423,7 +5102,16 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+      "normalized_text_offset": 8880,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-796807FB1227",
@@ -4474,7 +5162,16 @@
     "new_to_repository": true,
     "change_kind": "new_master_type_value",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+      "normalized_text_offset": 8922,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-79A4254341D7",
@@ -4524,7 +5221,16 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+      "normalized_text_offset": 9526,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-48D82E30BAE9",
@@ -4574,7 +5280,16 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ca48c5eacdd00e240f3e4344dfde6812d50bcffba7e02b8c7312a495a4e2c59e",
+      "normalized_text_offset": 9541,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-86629CABA0D9",
@@ -4624,7 +5339,17 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 16531,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 78
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-38AE316DA2B7",
@@ -4674,7 +5399,17 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 16639,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 79
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-471E238FCAB8",
@@ -4724,7 +5459,17 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 16750,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 80
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-3C6E63564683",
@@ -4774,7 +5519,17 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 16861,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 81
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-325E075E10E2",
@@ -4824,7 +5579,17 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 16912,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 81
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-9BBE96DCBFDE",
@@ -4874,7 +5639,17 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 16965,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 81
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "DAILY-5D08F9D883A1",
@@ -4924,6 +5699,16 @@
     "change_kind": "new_master_type_value",
     "recommended_use": "Historical source-scoped correlation; current ownership, operation and local evidence need separate review.",
     "collection_origin": "external_public_report",
-    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis."
+    "analyst_contribution": "Source verification and curation, not original telemetry or byte-derived malware analysis.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "ec4c554a70021f735d2f18580d782b50bf5f311c5df4ea3cc1b2d4cddccddd93",
+      "normalized_text_offset": 17070,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 82
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

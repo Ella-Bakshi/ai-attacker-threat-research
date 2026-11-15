@@ -50,11 +50,20 @@
     ],
     "limitations": "IP derived by parsing the primary report’s explicit ip:port IOC. Shared proxy service; current maliciousness or ownership not independently established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 17422,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 36
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-A6C9C8B3B01D",
@@ -107,11 +116,20 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 17349,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 34
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-329958F53C1C",
@@ -164,11 +182,20 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 17422,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 36
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-25A44F63E36D",
@@ -221,11 +248,20 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 17383,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 35
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-923802F7CE36",
@@ -278,13 +314,21 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
     "per_indicator_india_targeting_confirmed": false,
     "historical_c2_role_verified": false,
-    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 14812,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.197532+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-B8526492A56D",
@@ -337,13 +381,21 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
     "per_indicator_india_targeting_confirmed": false,
     "historical_c2_role_verified": false,
-    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 14836,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.208188+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-923BF782B12C",
@@ -396,13 +448,21 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
     "per_indicator_india_targeting_confirmed": false,
     "historical_c2_role_verified": false,
-    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 14860,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.217527+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-BD2BED94ECF1",
@@ -455,13 +515,21 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
     "per_indicator_india_targeting_confirmed": false,
     "historical_c2_role_verified": false,
-    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 14884,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.226381+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   },
   {
     "record_id": "AR-913FD53422AA",
@@ -514,12 +582,20 @@
     ],
     "limitations": "ThreatLabz recovered operator-side configurations and prompts. Prompt window Aug 4–Oct 4, 2026 is not asserted as an exact IP first/last-seen period. Proxy endpoints may be shared infrastructure; this does not establish exclusive attacker control.",
     "recommended_use": "Historical incident correlation; validate current context before acting on an address or tag.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "campaign_scope_only",
     "india_evidence_url": "https://www.zscaler.com/es/blogs/security-research/inside-global-ai-assisted-hacking-campaign",
     "india_evidence_basis": "Primary report lists India among countries in operator target prompts. This does not tie this indicator to an Indian compromise or prove success.",
     "per_indicator_india_targeting_confirmed": false,
     "historical_c2_role_verified": false,
-    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00"
+    "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Primary publisher literal, reported role and date meanings reviewed. This is source corroboration, not independent incident telemetry or proof of current operation.",
+    "source_review_locator": {
+      "source_document_sha256": "76185d2ce019e5dba1707e9d446a3ab6028a82f96b5217fb56b2b4f2b2011fa4",
+      "normalized_text_offset": 14908,
+      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:15:19.235652+00:00",
+    "source_review_disposition": "source_literal_revalidated"
   }
 ]

@@ -51,6 +51,15 @@
     },
     "source_references": {
       "type": "array"
+    },
+    "source_review_state": {
+      "enum": ["source_supported", "artifact_supported", "historical_provider", "unverified"]
+    },
+    "source_review_scope": {
+      "type": "string"
+    },
+    "source_reviewed_at_utc": {
+      "type": "string"
     }
   },
   "additionalProperties": true

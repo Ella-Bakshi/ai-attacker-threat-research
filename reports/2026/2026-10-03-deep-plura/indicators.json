@@ -42,11 +42,19 @@
     ],
     "limitations": "Source-reported reference hash; bytes were not locally acquired or hash-verified. Hash of an official distribution ZIP, not the extracted executable or campaign malware. Source states it must not be republished as a malicious file hash.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+      "normalized_text_offset": 6919,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-99BD7B5D1F7D",
@@ -91,11 +99,19 @@
     ],
     "limitations": "Source-reported reference hash; bytes were not locally acquired or hash-verified. Hash of an official distribution ZIP, not the extracted executable or campaign malware. Source states it must not be republished as a malicious file hash.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+      "normalized_text_offset": 7014,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-61DB36F4DA20",
@@ -140,11 +156,19 @@
     ],
     "limitations": "Source-reported reference hash; bytes were not locally acquired or hash-verified. Hash of an official distribution ZIP, not the extracted executable or campaign malware. Source states it must not be republished as a malicious file hash.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+      "normalized_text_offset": 6634,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-1D9BDDF5AE79",
@@ -189,11 +213,19 @@
     ],
     "limitations": "Source-reported reference hash; bytes were not locally acquired or hash-verified. Hash of an official distribution ZIP, not the extracted executable or campaign malware. Source states it must not be republished as a malicious file hash.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+      "normalized_text_offset": 6824,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-E89ECD49C57C",
@@ -238,10 +270,18 @@
     ],
     "limitations": "Source-reported reference hash; bytes were not locally acquired or hash-verified. Hash of an official distribution ZIP, not the extracted executable or campaign malware. Source states it must not be republished as a malicious file hash.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "39b1ab00022c3ee3aade05ef70aff4f7094c9555ba24e3d1dea1c05ce8bfb7ea",
+      "normalized_text_offset": 6728,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

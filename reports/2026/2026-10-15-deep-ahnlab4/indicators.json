@@ -42,11 +42,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 3185,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-80F406FAD8B3",
@@ -91,11 +99,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 3154,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-09A2E6B86E9D",
@@ -140,11 +156,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 1141,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-73637FE5AD0E",
@@ -189,11 +213,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 1475,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-33658D5530D9",
@@ -238,11 +270,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 2353,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-588C0B0E9442",
@@ -287,11 +327,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 2407,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-5B043402E231",
@@ -336,11 +384,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 2552,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-7A90BE16A543",
@@ -385,11 +441,19 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 2712,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-F3C6BC983A4D",
@@ -434,10 +498,18 @@
     ],
     "limitations": "Source-reported REAPER/custom ARTEX case; not attributed to the Korean financial incident. Individual strings/filenames are weak without compound context.",
     "recommended_use": "Correlate within stated scope; software/reference/feed evidence is not a standalone maliciousness verdict.",
-    "evidence_reference": "provenance/new-candidate-evidence.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "3f3332702468ed833eda33ca82abd0c8c08c7f8f69feb7144572b7067d3b74bb",
+      "normalized_text_offset": 2722,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

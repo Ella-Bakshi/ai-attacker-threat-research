@@ -283,7 +283,7 @@
     "value": "uuid=<hostname>-<hardware_address_without_colons>-<pid>; fallback hardware_address=000000000000",
     "publication_category": "software-fingerprints",
     "category": "analyst_native_conditional_host_or_protocol_pattern",
-    "role": "Generated implant UUID construction",
+    "role": "Generated implant UUID base/prefix construction; not the complete HTTP check-in UUID",
     "confidence": "Low",
     "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
     "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
@@ -332,7 +332,7 @@
     ],
     "india_targeting": "not established",
     "global_novelty_claimed": false,
-    "notes": "Selected hardware address is the first non-loopback interface with a nonempty hardware address, not guaranteed to be exactly six bytes. Hostnames/MACs/PIDs are runtime values. Use only in authorized decrypted/log/memory analysis. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "notes": "Selected hardware address is the first non-loopback interface with a nonempty hardware address, not guaranteed to be exactly six bytes. Hostnames/MACs/PIDs are runtime values. Use only in authorized decrypted/log/memory analysis. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included. HTTP main appends a hyphen and16runtime session-token characters at native concatstring3 call0x656f2f. Preserve this analytic value as a base/prefix only.",
     "new_to_previous_master_type_value": true
   },
   {

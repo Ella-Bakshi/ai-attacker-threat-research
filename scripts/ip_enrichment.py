@@ -3,6 +3,10 @@ import bisect,csv,datetime as dt,gzip,ipaddress,re,urllib.parse
 
 IP_TYPES={'ipv4','ipv6','ipv4_port','network_endpoint','deployment_endpoint','deployment_host','url','url_prefix','url_template'}
 
+def review_state(record):
+    state=record.get('source_review_state')
+    return state if isinstance(state,str) and state in {'source_supported','artifact_supported','historical_provider'} else 'unverified'
+
 def primary_reported_c2(record):
     """Require an affirmative, source-reported network role, independent of list name."""
     if record.get('publication_category') not in {'main-iocs','sourced-iocs','report-host-network-artifacts'}:
@@ -10,6 +14,8 @@ def primary_reported_c2(record):
     if record.get('origin') != 'external_report':
         return False
     if record.get('historical_c2_role_verified') is False:
+        return False
+    if review_state(record) == 'unverified':
         return False
     if record.get('indicator_type') not in IP_TYPES | {'domain','domain_port','hostname'}:
         return False
@@ -75,7 +81,7 @@ def confidence_for_records(records):
     """Ordinal evidence rubric, never a maliciousness probability or GeoIP score."""
     scores=[]
     for r in records:
-        cat=r.get('publication_category','');origin=r.get('origin','');role=r.get('role','').lower();locator=r.get('source_locator') or {}
+        cat=r.get('source_review_original_category',r.get('publication_category','')) if review_state(r)=='unverified' else r.get('publication_category','');origin=r.get('origin','');role=r.get('role','').lower();locator=r.get('source_locator') or {}
         if cat in {'legitimate-service-context','supporting-context','shared-services-and-generic-markers'}:
             score,basis=0,'Generic/shared service or nonindicative supporting context; no compromise confidence assigned.'
         elif r.get('record_id','').startswith('OWNCTI-') and origin=='analyst_public_sandbox_derivation' and cat=='analyst-derived' and r.get('indicator_type') in {'ipv4','domain_port','network_pattern','http_request_pattern'} and re.fullmatch('[0-9a-f]{64}',locator.get('sample_sha256','')) and (locator.get('tls_flow_ids') or locator.get('sandbox_runs') or locator.get('public_runs')):
@@ -92,10 +98,14 @@ def confidence_for_records(records):
             score,basis=55,'Source-reported historical campaign infrastructure/context; role and dates require correlation.'
         elif cat=='deployment-leads':
             score,basis=20,'Passive software/deployment lead; a sighting does not establish malicious operation.'
-        elif cat in {'unverified-findings','master-only-passive-lead'}:
+        elif cat=='master-only-passive-lead':
+            score,basis=10,'Retained historical scalar provider lead outside curated service records; software specificity, current use and malicious role remain unverified.'
+        elif cat=='unverified-findings':
             score,basis=10,'Unresolved or conflicting source attribution; review required.'
         else:
             score,basis=20,'Software/reference or contextual observation; standalone maliciousness unestablished.'
+        if review_state(r) == 'unverified' and score>10:
+            score,basis=10,'Source, role, date or artifact support remains unresolved; consult the record review scope before use.'
         scores.append((score,basis,r['record_id']))
     if not scores:return 0,'Unreviewed contributor-supplied IP; no verified campaign association.',[]
     best=max(x[0] for x in scores);chosen=[x for x in scores if x[0]==best]

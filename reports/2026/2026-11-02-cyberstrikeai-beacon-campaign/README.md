@@ -23,7 +23,7 @@ Report date: 2026-11-02. Collection reviewed: 2026-11-10. Source: [securelist](h
 | `@reboot <path_to_beacon> &` | persistence_pattern | Linux crontab startup pattern described from implementation | Low | software-fingerprints |
 | `SystemUpdate` | registry_value_name | Alternative source-implementation Run-value name | Low | software-fingerprints |
 | `Backdoor.CyberStrikeAI.HTTP.C&C` | vendor_detection_name | Kaspersky NDR verdict for characteristic CyberStrikeAI communications | Medium | software-fingerprints |
-| `0bbd08af95f877f1d568b03de2eb76b4` | unverified_file_hash_32hex | Tools & Scripts / c:\ProgramData\p1.ps1 (reverse shell PS script) | High | supporting-tools |
+| `0bbd08af95f877f1d568b03de2eb76b4` | unverified_file_hash_32hex | Tools & Scripts / c:\ProgramData\p1.ps1 (reverse shell PS script) | High | unverified-findings |
 | `29efd64dd3c7fe1e2b022b7ad73a1ba5` | md5 | Tools & Scripts / C:\Windows\Temp\wdiag2.exe (mimikatz) | High | supporting-tools |
 | `74f57b3e897a4960dcdd5b7e8a54f9df` | md5 | Tools & Scripts / c:\rwx\RogueWinRM.exe | High | supporting-tools |
 | `185[.]186[.]245[.]144:5501` | network_endpoint | Reverse-shell PS payload callback endpoint | Low | supporting-tools |
@@ -34,3 +34,5 @@ Report date: 2026-11-02. Collection reviewed: 2026-11-10. Source: [securelist](h
 15 November qualification: four source-listed file hashes have no explicit algorithm or independent identity bridge in this review. Three beacon entries are now unresolved findings; the supporting script retains its separate role. The remaining main-list MD5 has an explicit [provider identity bridge](https://tria.ge/261027-qmb8eaes6q). Exact source values, roles and original dates are preserved.
 
 [Evidence methodology](../../../docs/methodology.md).
+
+The later [full source review](../2026-11-15-source-review/README.md) also separates the supporting-script algorithm lead into the unresolved export, while retaining its reported supporting role.

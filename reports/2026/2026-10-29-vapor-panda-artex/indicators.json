@@ -50,11 +50,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16382,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 2
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-07CA00085A35",
@@ -107,11 +116,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16464,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 4
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-4D2B65B26494",
@@ -164,11 +182,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16556,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 6
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-B7AEB84B866E",
@@ -221,11 +248,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16597,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 7
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-D037365EC8EB",
@@ -278,11 +314,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16420,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 3
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-420F12A8115E",
@@ -335,11 +380,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Retrospective hunting with source dates and local corroboration.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16508,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 5
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-59AEA7FFF0FA",
@@ -392,11 +446,19 @@
     ],
     "limitations": "Published by CrowdStrike as a hunting artifact, not independently observed on a victim host.",
     "recommended_use": "Use with additional framework markers; avoid individual-path, symbol or UA verdicts.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 15883,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-78DE8DDEE77B",
@@ -449,11 +511,19 @@
     ],
     "limitations": "Native build/path clue reported by CrowdStrike. This pass did not obtain or decompile the listed campaign samples.",
     "recommended_use": "Correlate supporting-tool/payload identity with process, parent, command, and campaign evidence.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 13657,
+      "normalization": "normalized_visible_literal"
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-89C43C45329C",
@@ -506,11 +576,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Correlate supporting-tool/payload identity with process, parent, command, and campaign evidence.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16862,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 10
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-18FA69E64A98",
@@ -563,11 +642,20 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. No local sample bytes obtained; published file hashes are source-reported. Current infrastructure activity is not established.",
     "recommended_use": "Correlate supporting-tool/payload identity with process, parent, command, and campaign evidence.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16744,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 9
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   },
   {
     "record_id": "AR-C01039057EDB",
@@ -620,10 +708,19 @@
     ],
     "limitations": "VAPOR PANDA campaign reported separately from Storm-0940. This is a legitimate GameHook executable renamed svchost.exe and abused for DLL side-loading; its hash alone is not proof the file is malware.",
     "recommended_use": "Correlate supporting-tool/payload identity with process, parent, command, and campaign evidence.",
-    "evidence_reference": "provenance/source-literal-proofs.json",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
-    "per_indicator_india_targeting_confirmed": false
+    "per_indicator_india_targeting_confirmed": false,
+    "source_review_state": "source_supported",
+    "source_review_scope": "Original public report or publisher-linked artifact supports this value and its qualified reported role. Date meanings were reviewed; blank activity dates remain unknown. Source corroboration does not independently establish publisher telemetry, current use or maliciousness.",
+    "source_review_locator": {
+      "source_document_sha256": "6e7ac4f28567c0f0de293f49cce4a5663838c89e885cc33d7027336a349bf7a1",
+      "normalized_text_offset": 16643,
+      "normalization": "normalized_visible_literal",
+      "table_row_1based": 8
+    },
+    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+    "source_review_disposition": "literal_supported"
   }
 ]

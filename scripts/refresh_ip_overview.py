@@ -3,7 +3,7 @@
 Only reads local datasets. No IP targets, DNS resolvers or paid APIs are contacted.
 """
 import argparse,collections,csv,datetime as dt,hashlib,ipaddress,json,math,pathlib,sys,urllib.parse
-from ip_enrichment import IP_TYPES,extract_ip,is_public,lookup_asn_sorted,confidence_for_records,latest_reported_timestamp,primary_reported_c2
+from ip_enrichment import IP_TYPES,extract_ip,is_public,lookup_asn_sorted,confidence_for_records,latest_reported_timestamp,primary_reported_c2,review_state
 
 def load(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def write(p,obj):p.parent.mkdir(parents=True,exist_ok=True);temp=p.with_suffix(p.suffix+'.tmp');temp.write_bytes((json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'\n').encode());temp.replace(p)
@@ -31,6 +31,16 @@ def artifact_date_context(records):
             for item in node:visit(item,rid)
     for r in records:visit(r.get('source_locator',{}),r['record_id'])
     return sorted(out)
+
+def source_review_summary(records):
+    states={review_state(r) for r in records} or {'unverified'}
+    unresolved=[r for r in records if review_state(r)=='unverified']
+    return {'source_review_states':sorted(states),
+            'source_review_supported_record_ids':sorted(r['record_id'] for r in records if r.get('source_review_state') in {'source_supported','artifact_supported','historical_provider'}),
+            'source_review_unverified_record_ids':sorted(r['record_id'] for r in unresolved),
+            'source_review_unresolved_details':[r['record_id']+' | '+r.get('source_review_scope','Source support not established.') for r in unresolved],
+            'source_review_latest_at_utc':max((r.get('source_reviewed_at_utc','') for r in records),default=''),
+            'source_review_scope':'Support belongs to each original record. Historical snapshots, source/artifact proof and unresolved memberships remain distinct; none establishes current malicious operation.'}
 def read_csv(path):
     if not path.exists():return []
     with path.open(encoding='utf-8-sig',newline='') as f:
@@ -58,7 +68,7 @@ def main():
         except ValueError:continue
         if ip in canonical_ips or ip in master_only:continue
         master_only.add(ip)
-        records.append({'record_id':'MASTER-'+hashlib.sha256((entry['type']+'|'+entry['value']).encode()).hexdigest()[:12].upper(),'indicator_type':entry['type'],'indicator':ip,'framework':entry['frameworks'],'publication_category':'master-only-passive-lead','role':entry['roles'],'origin':'historical_master_index','primary_source_url':entry['source_urls'],'first_seen':entry.get('first_seen',''),'last_seen':entry.get('last_seen',''),'india_relevance':'unestablished','source_published_date':''})
+        records.append({'record_id':'MASTER-'+hashlib.sha256((entry['type']+'|'+entry['value']).encode()).hexdigest()[:12].upper(),'indicator_type':entry['type'],'indicator':ip,'framework':entry['frameworks'],'publication_category':'master-only-passive-lead','role':entry['roles'],'origin':'historical_master_index','primary_source_url':entry['source_urls'],'first_seen':entry.get('first_seen',''),'last_seen':entry.get('last_seen',''),'india_relevance':'unestablished','source_published_date':'','source_review_state':entry.get('source_review_state','unverified'),'source_review_scope':entry.get('source_review_scope','Historical master-only lead; source support unresolved.'),'source_reviewed_at_utc':entry.get('source_reviewed_at_utc','')})
     lookup=collections.defaultdict(list);ports=collections.defaultdict(set);ranges=[];domain_count=0
     for r in records:
         if r['indicator_type']=='ipv4_range':ranges.append({k:r.get(k) for k in ['record_id','indicator','role','primary_source_url']});continue
@@ -99,9 +109,13 @@ def main():
             score,basis,score_ids=confidence_for_records(rr);method='evidence-rubric-v1';manual_score=inp.get('manual_score','').strip();manual_basis=inp.get('manual_confidence_basis','').strip()
             if manual_score:
                 if not manual_basis:raise ValueError('manual_score requires manual_confidence_basis: '+ip)
-                score=int(manual_score)
-                if not 0<=score<=100:raise ValueError('manual_score out of bounds: '+ip)
-                basis=manual_basis;method='contributor_manual_review';score_ids=[]
+                requested_score=int(manual_score)
+                if not 0<=requested_score<=100:raise ValueError('manual_score out of bounds: '+ip)
+                if requested_score>score:
+                    basis='Requested manual score '+str(requested_score)+' capped at the reviewed evidence score '+str(score)+'. '+basis
+                    method='manual_score_capped_by_reviewed_evidence'
+                else:
+                    score=requested_score;basis=manual_basis;method='contributor_manual_review';score_ids=[]
             timestamp,basis_time=latest_reported_timestamp(rr)
             if inp.get('timestamp','').strip():
                 timestamp=inp['timestamp'].strip();basis_time=inp.get('timestamp_basis','').strip() or 'contributor_supplied_unverified'
@@ -109,18 +123,20 @@ def main():
             cats=sorted({r['publication_category'] for r in rr}) or ['unverified-manual-submission'];role_values=sorted({r['role'] for r in rr});nroles=set()
             for r in rr:
                 rid=r['record_id'];cat=r['publication_category']
-                if rid in c2 or primary_reported_c2(r):nroles.add('c2')
-                if rid in delivery:nroles.add('delivery')
-                if rid in config:nroles.add('c2_configuration')
+                if review_state(r)!='unverified':
+                    if rid in c2 or primary_reported_c2(r):nroles.add('c2')
+                    if rid in delivery:nroles.add('delivery')
+                    if rid in config:nroles.add('c2_configuration')
                 if cat=='deployment-leads':nroles.add('deployment_lead')
                 if cat=='master-only-passive-lead':nroles.add('master_only_passive_lead')
                 if cat=='sample-derived-observables':nroles.add('sample_static_configuration')
                 if cat=='legitimate-service-context':nroles.add('legitimate_service')
                 if cat=='shared-services-and-generic-markers':nroles.add('shared_service_context')
                 if r.get('origin')=='analyst_public_sandbox_derivation' and r.get('record_id','').startswith('OWNCTI-'):nroles.add('sandbox_network_observation')
-            row={'ip':ip,'timestamp':timestamp,'asn':('AS'+str(asn['asn'])) if asn.get('asn') else '','hosting':asn.get('asn_org','') if asn.get('asn') else '', 'location':place,'latitude':lat,'longitude':lon,'confidence_score':score,'confidence_basis':basis,'timestamp_basis':basis_time,'enriched_at_utc':now,'asn_org':asn.get('asn_org',''),'hosting_basis':'ASN network description from IPtoASN; reseller/tenant and hosting-service classification are not inferred.','ip_version':version,'asn_country_code':asn.get('asn_country_code',''),'country_code':cc,'country_name':country.get('names',{}).get('en',''),'region':region,'city':city,'geo_status':'matched_approximate' if valid else ('not_public' if not public else 'unmatched'),'coordinate_basis':'DB-IP City Lite approximate coordinates' if valid else 'unknown','enrichment_status':'complete' if asn.get('asn') and valid else ('not_public' if not public else 'partial_or_unmatched'),'asn_range_start':str(ipaddress.IPv6Address(asn['range_start']) if version==6 else ipaddress.IPv4Address(asn['range_start'])) if asn else '', 'asn_range_end':str(ipaddress.IPv6Address(asn['range_end']) if version==6 else ipaddress.IPv4Address(asn['range_end'])) if asn else '','asn_source':'https://iptoasn.com/','geo_source':'https://db-ip.com/db/download/ip-to-city-lite','asn_dataset_last_modified':snapby['ip2asn-v4-u32.tsv.gz' if version==4 else 'ip2asn-v6.tsv.gz'].get('last_modified_header',''),'geo_dataset_build_utc':geo_build,'first_seen_values':source_dates(rr,'first_seen'),'last_seen_values':source_dates(rr,'last_seen'),'source_publication_dates':source_dates(rr,'source_published_date'),'record_ids':sorted({r['record_id'] for r in rr}),'frameworks':sorted({v for r in rr for v in vals(r['framework'])}),'campaigns':sorted({r['campaign'] for r in rr if r.get('campaign')}),'publication_categories':cats,'roles':role_values,'network_roles':sorted(nroles),'india_targeting_scopes':sorted({r.get('india_targeting_scope',r.get('india_relevance','unestablished')) for r in rr}) or ['unestablished'],'india_campaign_c2_supported':any(r['record_id'] in c2 and r.get('india_targeting_scope')=='campaign' and r.get('india_evidence_url') for r in rr),'self_derived':any(r.get('origin','').startswith('analyst_') for r in rr),'confidence_method':method,'confidence_record_ids':score_ids,'confidence_is_probability':False,'source_urls':sorted({u for r in rr for u in r.get('primary_source_url','').split('; ') if u}),'input_origin':'master_only' if ip in master_only else ('catalog' if rr else 'manual_csv'),'manual_score':manual_score,'manual_confidence_basis':manual_basis}
+            row={'ip':ip,'timestamp':timestamp,'asn':('AS'+str(asn['asn'])) if asn.get('asn') else '','hosting':asn.get('asn_org','') if asn.get('asn') else '', 'location':place,'latitude':lat,'longitude':lon,'confidence_score':score,'confidence_basis':basis,'timestamp_basis':basis_time,'enriched_at_utc':now,'asn_org':asn.get('asn_org',''),'hosting_basis':'ASN network description from IPtoASN; reseller/tenant and hosting-service classification are not inferred.','ip_version':version,'asn_country_code':asn.get('asn_country_code',''),'country_code':cc,'country_name':country.get('names',{}).get('en',''),'region':region,'city':city,'geo_status':'matched_approximate' if valid else ('not_public' if not public else 'unmatched'),'coordinate_basis':'DB-IP City Lite approximate coordinates' if valid else 'unknown','enrichment_status':'complete' if asn.get('asn') and valid else ('not_public' if not public else 'partial_or_unmatched'),'asn_range_start':str(ipaddress.IPv6Address(asn['range_start']) if version==6 else ipaddress.IPv4Address(asn['range_start'])) if asn else '', 'asn_range_end':str(ipaddress.IPv6Address(asn['range_end']) if version==6 else ipaddress.IPv4Address(asn['range_end'])) if asn else '','asn_source':'https://iptoasn.com/','geo_source':'https://db-ip.com/db/download/ip-to-city-lite','asn_dataset_last_modified':snapby['ip2asn-v4-u32.tsv.gz' if version==4 else 'ip2asn-v6.tsv.gz'].get('last_modified_header',''),'geo_dataset_build_utc':geo_build,'first_seen_values':source_dates(rr,'first_seen'),'last_seen_values':source_dates(rr,'last_seen'),'source_publication_dates':source_dates(rr,'source_published_date'),'record_ids':sorted({r['record_id'] for r in rr}),'frameworks':sorted({v for r in rr for v in vals(r['framework'])}),'campaigns':sorted({r['campaign'] for r in rr if r.get('campaign')}),'publication_categories':cats,'roles':role_values,'network_roles':sorted(nroles),'india_targeting_scopes':sorted({r.get('india_targeting_scope',r.get('india_relevance','unestablished')) for r in rr}) or ['unestablished'],'india_campaign_c2_supported':any(r['record_id'] in c2 and review_state(r)!='unverified' and r.get('india_targeting_scope')=='campaign' and r.get('india_evidence_url') for r in rr),'self_derived':any(r.get('origin','').startswith('analyst_') for r in rr),'confidence_method':method,'confidence_record_ids':score_ids,'confidence_is_probability':False,'source_urls':sorted({u for r in rr for u in r.get('primary_source_url','').split('; ') if u}),'input_origin':'master_only' if ip in master_only else ('catalog' if rr else 'manual_csv'),'manual_score':manual_score,'manual_confidence_basis':manual_basis}
             check=cross_checks.get(ip,{})
             row.update(evidence_date_context=artifact_date_context(rr),source_timestamp_scopes=sorted({r['timestamp_scope'] for r in rr if r.get('timestamp_scope')}))
+            row.update(source_review_summary(rr))
             measurements=[]
             for observation in first_party:
                 dns=observation.get('dns',{})
@@ -136,6 +152,9 @@ def main():
     sources={'generated_at_utc':now,'databases':snapshots,'asn_license':{'name':'PDDL 1.0','url':'https://iptoasn.com/'},'geolocation_license':{'name':'CC BY 4.0','attribution':'IP Geolocation by DB-IP','url':'https://db-ip.com','license_url':'https://creativecommons.org/licenses/by/4.0/','changes':'Matched subset joined with research evidence; English labels extracted; no full database redistributed.'},'catalog_inputs':inputs,'geo_build_utc':geo_build}
     write(output/'enrichment/sources.json',sources)
     summary={'generated_at_utc':now,'selection_mode':'catalog_seed_plus_existing_csv' if args.seed_from_catalog else 'input_csv','unique_ips':len(result),'ipv4':sum(r['ip_version']==4 for r in result),'ipv6':sum(r['ip_version']==6 for r in result),'mapped_ips':sum(r['latitude'] is not None for r in result),'asn_matched_ips':sum(bool(r['asn']) for r in result),'self_derived_ips':sum(r['self_derived'] for r in result),'master_only_ips':sum(r['input_origin']=='master_only' for r in result),'manual_ips':sum(r['input_origin']=='manual_csv' for r in result),'unknown_location_ips':[r['ip'] for r in result if r['latitude'] is None],'domain_host_records_not_resolved':domain_count,'ranges_unexpanded':ranges,'new_threat_indicator_claims':0,'censys_calls':0,'shodan_calls':0,'target_requests':0,'dns_queries':0,'score_rubric':'evidence-rubric-v1; ordinal evidence strength, not a maliciousness probability; geography and ASN never increase the score.'}
+    summary['source_review_ip_memberships']=dict(collections.Counter(state for row in result for state in row['source_review_states']))
+    summary['ips_with_unverified_source_memberships']=sum('unverified' in row['source_review_states'] for row in result)
+    summary['ips_only_unverified_source_memberships']=sum(row['source_review_states']==['unverified'] for row in result)
     write(output/'enrichment/summary.json',summary);print(json.dumps(summary,indent=2))
 
 if __name__=='__main__':main()

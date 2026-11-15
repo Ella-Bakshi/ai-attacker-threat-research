@@ -44,7 +44,7 @@ We also performed [two first-party endpoint observations](research/first-party/R
 
 ## Sourced IOCs
 
-The original incident exports retain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** source values. The CyberStrikeAI export now has six main IOC records and three separately classified hash leads whose algorithms remain unverified. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
+The current incident exports contain **18 ARTEX-associated** and **6 CyberStrikeAI-associated** main records. The three algorithm-unverified CyberStrikeAI hash leads have a [separate export](frameworks/CyberStrikeAI/unverified-file-hash-leads.csv); all nine historical source values remain in the dated source report and canonical catalog. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
 
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
@@ -67,6 +67,7 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-15
 
+- [Original-source verification and unresolved findings](reports/2026/2026-11-15-source-review/README.md): all 12,299 canonical records and 3,740 master-only values reviewed within their stated scope; 73 unresolved/qualified records separated.
 - [PEAK artifact hunt and reliability review](reports/2026/2026-11-15-peak-review/README.md): ten own static observations and three external provider identities, four new hash values, plus role/algorithm qualifications.
 - [Daily source and independent artifact review](reports/2026/2026-11-15-daily-review/README.md): 2,681 evidence records, 591 new type/value entries; Talos deployment leads and FBI corroborations remain separate from campaign indicators.
 - [New VoidLink variant evidence](research/analyst-derived/2026-11-15-voidlink/README.md): three hash identities for one artifact and known-IP/8080 corroboration.
