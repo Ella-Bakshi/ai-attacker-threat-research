@@ -1,0 +1,115 @@
+{
+  "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+  "scope": "Public provider analysis metadata independently inspected; no first-party telemetry or local malware-byte verification.",
+  "observations": [
+    {
+      "source_url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+      "retrieved_at_utc": "2026-11-15T17:16:54.424173+00:00",
+      "response_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+      "response_bytes": 894885,
+      "sample_identity": {
+        "md5": "09e1da2afa1216ecc55648ec8e122d2a",
+        "sha1": "520c64c1016199f0239882791e4b344a9b2437d7",
+        "sha256": "5d1b591dde5009258da930fa362509f752557e3f215759d53e7d18052b0ef844",
+        "ssdeep": "49152:qCx+ivClxK8yvUUyWgXD2PTMErGVgXTpmvDvtO4mxbBv4rL5tobJnemXEdHKQKDF:qCbaz5F6GyXcvDAb7i2EdkySaE7",
+        "filesize": 6111380,
+        "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped",
+        "file_class": "ELF",
+        "tags": []
+      },
+      "identity_pointer": "/analysis/info/results",
+      "provider_analysis_started_at": "2026-11-02T14:12:38",
+      "provider_analysis_modified_at": "2026-11-02T14:15:34.397000",
+      "provider_time_semantics": "Provider timestamp strings have no explicit timezone; not used as UTC victim activity.",
+      "source_report_bridge": {
+        "source_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "section": "Indicators of compromise / CyberStrikeAI Linux Beacon",
+        "matching_md5_literal": "09e1da2afa1216ecc55648ec8e122d2a"
+      },
+      "static_strings": [
+        {
+          "json_pointer": "/analysis/plugins/strings/results/6695",
+          "value": "http://104.234.26.163:8443/result",
+          "meaning": "Provider-extracted standalone static string, not local native semantics."
+        },
+        {
+          "json_pointer": "/analysis/plugins/strings/results/6786",
+          "value": "http://104.234.26.163:8443/check_in",
+          "meaning": "Provider-extracted standalone static string, not local native semantics."
+        }
+      ],
+      "dynamic_scope": {
+        "http_entries": 0,
+        "tcp_entries": 0,
+        "conclusion": "No successful implant registration or C2 exchange established by the retained fields."
+      },
+      "same_body_via_sha1_lookup": {
+        "source_url": "https://otx.alienvault.com/api/v1/indicators/file/520c64c1016199f0239882791e4b344a9b2437d7/analysis",
+        "retrieved_at_utc": "2026-11-15T17:16:54.064146+00:00",
+        "response_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+        "same_response_body": true
+      }
+    },
+    {
+      "source_url": "https://otx.alienvault.com/api/v1/indicators/file/1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33/analysis",
+      "retrieved_at_utc": "2026-11-15T17:15:41.533797+00:00",
+      "response_sha256": "5df36e03f72729c0e4978fd2a68a26952fc665fddcc21dec02ca74263db73440",
+      "response_bytes": 613002,
+      "sample_identity": {
+        "md5": "805b9e4ae74c903787416800999b8418",
+        "sha1": "acc5cab873f6f687657f79083dd91f494718217a",
+        "sha256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+        "ssdeep": "49152:SVc3wLhavs+VkOoCxScXHfGyA7JnkhX+bqRrs3ckdEj7u0qHOto6rJeemXE1HKQD:SVBLhIt22ioubgs3H2cOmE1kSZHOREX",
+        "filesize": 6115476,
+        "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped",
+        "file_class": "ELF",
+        "tags": []
+      },
+      "identity_pointer": "/analysis/info/results",
+      "provider_analysis_started_at": "2026-10-26T23:06:50",
+      "provider_analysis_modified_at": "2026-10-26T23:09:45.798000",
+      "provider_time_semantics": "Provider timestamp strings have no explicit timezone; not used as UTC victim activity.",
+      "source_report_bridge": {
+        "source_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "section": "Indicators of compromise / CyberStrikeAI Linux Beacon",
+        "matching_md5_literal": "805b9e4ae74c903787416800999b8418"
+      },
+      "static_strings": [
+        {
+          "json_pointer": "/analysis/plugins/strings/results/7232",
+          "value": "https://media.fastcdn.bar:2083/assets/js/app.min.js",
+          "meaning": "Provider-extracted standalone static string, not local native semantics."
+        },
+        {
+          "json_pointer": "/analysis/plugins/strings/results/7249",
+          "value": "https://media.fastcdn.bar:2083/assets/js/main.min.js",
+          "meaning": "Provider-extracted standalone static string, not local native semantics."
+        }
+      ],
+      "dynamic_scope": {
+        "http_entries": 0,
+        "tcp_entries": 0,
+        "conclusion": "No successful implant registration or C2 exchange established by the retained fields."
+      }
+    }
+  ],
+  "negative_control": {
+    "url": "https://otx.alienvault.com/api/v1/indicators/file/00112233445566778899aabbccddeeff/general",
+    "retrieved_at_utc": "2026-11-15T17:17:52.267813+00:00",
+    "response_sha256": "3f53f2637d3e12bb7786ba472b69487f82f583a669270dc492de010c58ba9cec",
+    "response_bytes": 411,
+    "facts": {
+      "type": "md5",
+      "type_title": "FileHash-MD5",
+      "base_indicator": {},
+      "pulse_count": 0
+    },
+    "conclusion": "Top-level provider type can be assigned from query syntax/length. It is not accepted alone as an algorithm or sample bridge."
+  },
+  "limits": [
+    "No malware executed, target contacted, DNS resolved, new scan submitted or paid API used.",
+    "Existing provider telemetry is not our owned sensor telemetry.",
+    "Static extracted strings are not native request-argument proof, successful C2 exchange or current operation.",
+    "Provider analysis times are not victim/campaign activity dates."
+  ]
+}

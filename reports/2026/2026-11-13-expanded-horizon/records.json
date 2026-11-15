@@ -2997,6 +2997,18 @@
           "algorithm_gap": "64hex literal present; exact digest algorithm and executable/archive/decoy subtype not explicitly assigned.",
           "access_limits": "Public YARAify sample route redirected to browser challenge, stopped; Bazaar public page unavailable via web reader. No restricted endpoint/key use."
         }
+      },
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4/analysis",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://otx.alienvault.com/api/v1/indicators/file/5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4/analysis",
+          "retrieved_at_utc": "2026-11-15T17:15:39.843169+00:00",
+          "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+          "locator": "/analysis = {} (empty provider analysis)",
+          "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+        },
+        "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00"
       }
     ],
     "india_relevance": "unestablished",
@@ -3027,14 +3039,18 @@
     "algorithm_independently_verified": false,
     "hash_algorithm_evidence": "Original report supports this exact 64-hex LAMEHUG-associated file indicator without an explicit algorithm. No exact-byte or explicit provider algorithm bridge was established.",
     "source_review_state": "unverified",
-    "source_review_scope": "Do not invent SHA256 solely from64hex length or assume executable malware rather than associated artifact.",
-    "source_review_locator": {
-      "section": "Malware Samples, LameHug group",
-      "web_rendered_line": 185,
-      "matched_literal": "5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4"
-    },
-    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
-    "source_review_disposition": "resolution_unverified",
+    "source_review_scope": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+    "source_review_locator": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4/analysis",
+        "retrieved_at_utc": "2026-11-15T17:15:39.843169+00:00",
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "locator": "/analysis = {} (empty provider analysis)",
+        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "source_review_disposition": "deeper_review_no_positive_algorithm_bridge",
     "source_review_history": [
       {
         "publication_category": "unverified-findings",
@@ -3047,17 +3063,27 @@
         "source_reviewed_at_utc": "2026-11-15T15:50:11.265807+00:00",
         "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
         "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      },
+      {
+        "source_review_state": "unverified",
+        "source_review_disposition": "resolution_unverified",
+        "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "source_review_scope": "Do not invent SHA256 solely from64hex length or assume executable malware rather than associated artifact.",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-deeper-hunt",
+        "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
       }
     ],
     "source_review_resolution_evidence": [
       {
-        "url": "https://www.sentinelone.com/labs/prompts-as-code-embedded-keys-the-hunt-for-llm-enabled-malware/",
-        "evidence_locator": "LameHug IOC hash list",
-        "algorithm_gap": "64hex literal present; exact digest algorithm and executable/archive/decoy subtype not explicitly assigned.",
-        "access_limits": "Public YARAify sample route redirected to browser challenge, stopped; Bazaar public page unavailable via web reader. No restricted endpoint/key use."
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4/analysis",
+        "retrieved_at_utc": "2026-11-15T17:15:39.843169+00:00",
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "locator": "/analysis = {} (empty provider analysis)",
+        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
       }
     ],
-    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
+    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
   },
   {
     "record_id": "GLOBAL-3F673EFC38EF",

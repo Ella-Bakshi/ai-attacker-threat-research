@@ -32,3 +32,5 @@ The current `aizhihuxiao/ARTEX` is a new GitHub repository object created after 
 The earlier [73-row source-review CSV](../2026-11-15-source-review/unverified-findings.csv) remains an explicitly dated historical snapshot. Current canonical records and current category exports carry the later dispositions. No old indicator value, record ID, origin or historical activity date was replaced to increase a count.
 
 This pass used public evidence and bounded offline analysis. It performed no candidate service requests, DNS lookups, scans, executions, submissions or paid-provider calls. Source review is separate from maliciousness, successful communication and current ownership. [Reliability and appropriate use](../../../docs/indicator-reliability.md).
+
+Later review: [deeper source and public-artifact hunt](../2026-11-15-deeper-hunt/README.md) revisits the remaining40 and resolves one digest identity. Its current list has 39 unresolved findings; this folder's dated decision/snapshot exports retain their earlier state.

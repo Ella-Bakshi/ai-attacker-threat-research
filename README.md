@@ -12,7 +12,7 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **12,637 canonical source records**; the master has **16,176 distinct type/value pairs**, including **3,740 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **12,715 canonical source records**; the master has **16,253 distinct type/value pairs**, including **3,740 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
@@ -20,7 +20,9 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Our findings
 
-Latest: [two historical CyberStrikeAI-lineage Linux payloads](research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-analysis.md) yield seven independently derived values: four crosshashes, one configured endpoint and two URL paths. Exact native evidence is separate from campaign attribution.
+Latest: [four CyberStrikeAI public-analysis URL observations](research/analyst-derived/2026-11-15-cyberstrikeai-provider-artifacts/README.md), selected from exact provider JSON with score 20. These are separate from local sample-byte/native findings; two additional provider crosshashes remain externally sourced. [Deeper review](reports/2026/2026-11-15-deeper-hunt/README.md): one of 40 unresolved identities supported, 39 remain separate.
+
+Earlier on 15 November: [two historical CyberStrikeAI-lineage Linux payloads](research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-analysis.md) yield seven independently derived values: four crosshashes, one configured endpoint and two URL paths. Exact native evidence is separate from campaign attribution.
 
 Also on 15 November: [Windows CyberStrikeAI-lineage artifact evidence](research/analyst-derived/2026-11-15-cyberstrikeai-windows/cyberstrikeai-peak-review.md): three locally computed hashes for one sample and seven existing configuration observables corroborated in native code. No new IP or verified malicious-campaign IOC.
 
@@ -46,12 +48,12 @@ We also performed [two first-party endpoint observations](research/first-party/R
 
 ## Sourced IOCs
 
-The current incident exports contain **18 ARTEX-associated** and **6 CyberStrikeAI-associated** main records. The CyberStrikeAI export also includes two externally reported crosshash identities for an already known sample. Three algorithm-unverified CyberStrikeAI beacon hashes and one supporting-script hash have a [separate export](frameworks/CyberStrikeAI/unverified-file-hash-leads.csv); all nine historical source values remain in the dated source report and canonical catalog. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
+The current incident exports contain **18 ARTEX-associated** and **7 CyberStrikeAI-associated** main records. The CyberStrikeAI export also includes four externally reported crosshash identities for two known samples. Two algorithm-unverified CyberStrikeAI beacon hashes and one supporting-script hash have a [separate export](frameworks/CyberStrikeAI/unverified-file-hash-leads.csv); all nine historical source values remain in the dated source report and canonical catalog. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
 
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,176 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,253 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -68,6 +70,8 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 ## Browse dated reports
 
 ### 2026-11-15
+
+- [Deeper source and public-artifact hunt](reports/2026/2026-11-15-deeper-hunt/README.md): all 40 unresolved findings revisited; one digest identity resolved, 39 remain separate. Four own public-analysis static URL observations and 74 external source memberships, including historical NIK C2/VOLTA/UAT-10147 and JPCERT context.
 
 - [Evidence resolution and new artifact findings](reports/2026/2026-11-15-evidence-resolution/README.md): all 73 findings revisited; 33 narrow evidence claims supported, 40 source/relationship questions unresolved. Seven operational detection hypotheses remain experimental.
 - [Expanded public-source review](reports/2026/2026-11-15-expanded-source-review/README.md): 31 Talos campaign-associated indicators, 293 historical software/context endpoints and seven prototype identities, with sources, dates and scoped confidence.

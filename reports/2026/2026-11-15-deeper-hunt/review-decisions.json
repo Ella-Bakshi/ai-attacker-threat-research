@@ -1,0 +1,1218 @@
+[
+  {
+    "record_id": "AR-EDC6BD2C65B1",
+    "indicator": "134.122.137.132",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The host is explicitly in the original public report, but the public inventory does not map individual host events/components. The linked original TIP route rendered only its JavaScript-required shell in ordinary public retrieval; browser preview was unavailable. No protected content was requested.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://atip.ahnlab.com/intelligence/view?id=276ddbeb-6249-4c12-be3a-ac45d70f84db",
+        "retrieved_at_utc": "2026-11-15T17:17:17.695964+00:00",
+        "status": 200,
+        "final_url": "https://atip.ahnlab.com/intelligence/view?id=276ddbeb-6249-4c12-be3a-ac45d70f84db",
+        "sha256": "7d9f77a8c074395cca2dd0caebc7e4ce5c774c34de5c47ed7f8f2027d1e38e50",
+        "bytes": 875
+      }
+    ]
+  },
+  {
+    "record_id": "AR-7E4BBB905393",
+    "indicator": "178.15.54.129",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.15.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      },
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.16.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-1FBB76E837D5",
+    "indicator": "178.16.54.129",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.15.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      },
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.16.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-DAE2EFEEE673",
+    "indicator": "204.194.51.54",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The host is explicitly in the original public report, but the public inventory does not map individual host events/components. The linked original TIP route rendered only its JavaScript-required shell in ordinary public retrieval; browser preview was unavailable. No protected content was requested.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://atip.ahnlab.com/intelligence/view?id=276ddbeb-6249-4c12-be3a-ac45d70f84db",
+        "retrieved_at_utc": "2026-11-15T17:17:17.695964+00:00",
+        "status": 200,
+        "final_url": "https://atip.ahnlab.com/intelligence/view?id=276ddbeb-6249-4c12-be3a-ac45d70f84db",
+        "sha256": "7d9f77a8c074395cca2dd0caebc7e4ce5c774c34de5c47ed7f8f2027d1e38e50",
+        "bytes": 875
+      }
+    ]
+  },
+  {
+    "record_id": "AR-8F455E00D4B7",
+    "indicator": "085f53a1ce8c634ac7b0d63e42b56b15",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "085f53a1ce8c634ac7b0d63e42b56b15",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/085f53a1ce8c634ac7b0d63e42b56b15/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:19.964005+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-0A761BC09A4E",
+    "indicator": "0c501aca4fc29efe47f122ddc9c1af85",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "0c501aca4fc29efe47f122ddc9c1af85",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/0c501aca4fc29efe47f122ddc9c1af85/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:19.964741+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-068F739F5D96",
+    "indicator": "0eb259067e565221109a3ee988e1faa3",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "0eb259067e565221109a3ee988e1faa3",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/0eb259067e565221109a3ee988e1faa3/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:19.965086+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-FE7B4C71EDF5",
+    "indicator": "220a1465b2c5ee3ec86861ee17a91e2f",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "220a1465b2c5ee3ec86861ee17a91e2f",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/220a1465b2c5ee3ec86861ee17a91e2f/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:19.965503+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-D8A9DE0CB2CF",
+    "indicator": "2d13374c14bcaaa99ab00f16cc18b300",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "2d13374c14bcaaa99ab00f16cc18b300",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/2d13374c14bcaaa99ab00f16cc18b300/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:20.625275+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-F85C60EC2C83",
+    "indicator": "326bb512422930f723e8434d219bea15",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "326bb512422930f723e8434d219bea15",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/326bb512422930f723e8434d219bea15/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:20.628472+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-3867F0F1010B",
+    "indicator": "4fff3a0e67210deea726a3bd8c0b625f",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "4fff3a0e67210deea726a3bd8c0b625f",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/4fff3a0e67210deea726a3bd8c0b625f/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:20.658663+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-75FA6B0F3844",
+    "indicator": "5881f74d3bb167e48f6e61c8d9c220e7",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "5881f74d3bb167e48f6e61c8d9c220e7",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5881f74d3bb167e48f6e61c8d9c220e7/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:20.666727+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-7634CBA3A7AF",
+    "indicator": "5a38c92fcf2772f65517485f3a23810e",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "5a38c92fcf2772f65517485f3a23810e",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5a38c92fcf2772f65517485f3a23810e/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.208283+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-4A5645F1060C",
+    "indicator": "5d151bb4512fc48932a83d3bc24ea806",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "5d151bb4512fc48932a83d3bc24ea806",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5d151bb4512fc48932a83d3bc24ea806/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.208400+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-8B7961263E33",
+    "indicator": "6593d2601f967566ae1efe521ec7b470",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "6593d2601f967566ae1efe521ec7b470",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/6593d2601f967566ae1efe521ec7b470/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.236480+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-3D3894A0A22F",
+    "indicator": "773dc8997a50425fb4146161d747c10f",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "773dc8997a50425fb4146161d747c10f",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/773dc8997a50425fb4146161d747c10f/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.255741+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-5505F88AAED7",
+    "indicator": "78c3efc26c8db056933da58032361706",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "78c3efc26c8db056933da58032361706",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/78c3efc26c8db056933da58032361706/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.878724+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-A6304BC69F83",
+    "indicator": "8858508e75ac58ce586631101be87973",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "8858508e75ac58ce586631101be87973",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/8858508e75ac58ce586631101be87973/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.878843+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-8557E4752D94",
+    "indicator": "912e8bb04a86f34c76d7d9bad8b67685",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "912e8bb04a86f34c76d7d9bad8b67685",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/912e8bb04a86f34c76d7d9bad8b67685/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.880517+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-B6FF23EB9241",
+    "indicator": "baddd4d75a6980e0df8d47333d9472c3",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "baddd4d75a6980e0df8d47333d9472c3",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/baddd4d75a6980e0df8d47333d9472c3/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:21.880644+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-336760317C02",
+    "indicator": "be4033d98dd65437516a94048adc8ac5",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "be4033d98dd65437516a94048adc8ac5",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/be4033d98dd65437516a94048adc8ac5/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:22.462220+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-641757FF2E23",
+    "indicator": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "md5",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "requested_md5": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/fec5d7eb6cf4ed6cfbcd2c588bb761af/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:22.470825+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "AR-40970CCA953F",
+    "indicator": "github.com/aizhihuxiao/ARTEX",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "repository",
+    "current_type": "repository",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "A newly retained GitHub public ForkEvent independently confirms that the current same-name repository object was created on 13 November from RuoJi6/ARTEX. This corroborates the existing warning against transferring the historical allegation to the recreated repository, but does not identify the deleted original object.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://api.github.com/users/aizhihuxiao/events/public?per_page=100&page=1",
+        "retrieved_at_utc": "2026-11-15T17:20:44.852460Z",
+        "source_document_sha256": "b57e0240e80d271649cbfbc28b799513e4c1d7db1d7da8eb605d87da0f32650b",
+        "locator": {
+          "JSON_pointer": "/0/payload/forkee",
+          "event_id": "20001107500",
+          "event_created_at": "2026-11-13T09:51:29Z",
+          "forkee_id": 1456427293,
+          "forkee_full_name": "aizhihuxiao/ARTEX",
+          "forkee_created_at": "2026-11-13T09:51:29Z",
+          "parent_event_repo_id": 1411113692,
+          "parent_event_repo_name": "RuoJi6/ARTEX"
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-E8AE40A8B8B7",
+    "indicator": "176.65.144.71",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-5941A37C2CF8",
+    "indicator": "31.56.206.187",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-297E91662108",
+    "indicator": "31.59.92.155",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-6A01D3AD3BD1",
+    "indicator": "38.244.50.120",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-6987F2D196F6",
+    "indicator": "46.8.227.73",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-5CB4A6A4EB2E",
+    "indicator": "64.44.24.195",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-EFAA3FB3E8B1",
+    "indicator": "94.183.184.254",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-A30F5A5644CA",
+    "indicator": "94.183.184.98",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "UN-DCF396B68119",
+    "indicator": "95.182.99.112",
+    "framework": "MixedAIFrameworks",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684219+00:00",
+        "source_document_sha256": "7c3bbcb6962202899805e88ebfe7b173c3cdb62648fdbe70ea5f4e3a247fd844",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-15T17:24:53.684965+00:00",
+        "source_document_sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Investigation of Attack Servers / Appendix B",
+          "scope": "No exact Case-E address-to-tool mapping in this linked technical context."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "DAILY15-CC909D037ACC",
+    "indicator": "178.16.54.129",
+    "framework": "ARTEX",
+    "decision": "still_uncertain",
+    "previous_type": "ipv4",
+    "current_type": "ipv4",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+    "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "sources": [
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.15.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      },
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.16.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      }
+    ]
+  },
+  {
+    "record_id": "CS-504C94095EBA",
+    "indicator": "09e1da2afa1216ecc55648ec8e122d2a",
+    "framework": "CyberStrikeAI",
+    "decision": "resolved_source_scope",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "md5",
+    "previous_state": "unverified",
+    "current_state": "source_supported",
+    "basis": "Resolves digest algorithm and exact crosshash provider identity only; primary source beacon role retained. No own-byte verification claimed.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+        "locator": "/analysis/info/results/md5; /sha1; /sha256; /filesize; /file_type",
+        "response_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+        "retrieved_at_utc": "2026-11-15T17:16:54.424173+00:00",
+        "same_body_via_sha1_lookup": true
+      }
+    ]
+  },
+  {
+    "record_id": "CS-C8DEAA24FBB6",
+    "indicator": "2770562d104391b92b42671c270079bb",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "unverified_file_hash_32hex",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/2770562d104391b92b42671c270079bb/analysis",
+        "retrieved_at_utc": "2026-11-15T17:15:36.105243+00:00",
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "locator": "/analysis = {} (empty provider analysis)",
+        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+      }
+    ]
+  },
+  {
+    "record_id": "CS-149870EBFE9C",
+    "indicator": "d726a8b4886c636f76ca6d30ef6a6ff4",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "unverified_file_hash_32hex",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/d726a8b4886c636f76ca6d30ef6a6ff4/analysis",
+        "retrieved_at_utc": "2026-11-15T17:15:37.848655+00:00",
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "locator": "/analysis = {} (empty provider analysis)",
+        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+      }
+    ]
+  },
+  {
+    "record_id": "CS-7A14FC8D9665",
+    "indicator": "0bbd08af95f877f1d568b03de2eb76b4",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "unverified_file_hash_32hex",
+    "current_type": "unverified_file_hash_32hex",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/0bbd08af95f877f1d568b03de2eb76b4/analysis",
+        "retrieved_at_utc": "2026-11-15T17:15:38.471063+00:00",
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "locator": "/analysis = {} (empty provider analysis)",
+        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+      }
+    ]
+  },
+  {
+    "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
+    "indicator": "static.fastcdn.bar",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "domain",
+    "current_type": "domain",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Prior CT identity/SAN verification retained. New URLscan exact-domain search has no public results in its30-day accessible window; no sample/operator/C2 bridge established. Issuance is not deployment.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://urlscan.io/api/v1/search/?q=domain:static.fastcdn.bar&size=100",
+        "retrieved_at_utc": "2026-11-15T17:15:21.817568+00:00",
+        "response_sha256": "d766fb5d8fad308a03f4675a5bc874059971f1c5085e66f172972f7603f8a16f",
+        "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+        "meaning": "Bounded empty public search is not evidence of absence."
+      }
+    ]
+  },
+  {
+    "record_id": "OWNCTI-AAB562EB200FA015",
+    "indicator": "www.fastcdn.bar",
+    "framework": "CyberStrikeAI",
+    "decision": "still_uncertain",
+    "previous_type": "domain",
+    "current_type": "domain",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "Prior CT identity/SAN verification retained. New URLscan exact-domain search has no public results in its30-day accessible window; no sample/operator/C2 bridge established. Issuance is not deployment.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://urlscan.io/api/v1/search/?q=domain:www.fastcdn.bar&size=100",
+        "retrieved_at_utc": "2026-11-15T17:15:21.755636+00:00",
+        "response_sha256": "3f74c353eb9939b6d182e6be635dbc5e2bc07204715b4627c3b087d82cab61ca",
+        "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+        "meaning": "Bounded empty public search is not evidence of absence."
+      }
+    ]
+  },
+  {
+    "record_id": "GLOBAL-0F92B69CC511",
+    "indicator": "5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4",
+    "framework": "LAMEHUG / PROMPTSTEAL",
+    "decision": "still_uncertain",
+    "previous_type": "unverified_file_hash_64hex",
+    "current_type": "unverified_file_hash_64hex",
+    "previous_state": "unverified",
+    "current_state": "unverified",
+    "basis": "OTX community/query typing repeats the digest form but its analysis is empty; no explicit independently generated sample metadata/crosshash or exact-byte bridge established. Original publisher membership/role retained.",
+    "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "sources": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4/analysis",
+        "retrieved_at_utc": "2026-11-15T17:15:39.843169+00:00",
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "locator": "/analysis = {} (empty provider analysis)",
+        "negative_control": "Top-level type alone is inferred, as identical MD5 typing occurs for nonindicative control with no base record."
+      }
+    ]
+  }
+]

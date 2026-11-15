@@ -97,6 +97,31 @@
             "section": "Table2 IOC information; two operational directories"
           }
         }
+      },
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/fec5d7eb6cf4ed6cfbcd2c588bb761af/analysis",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "requested_md5": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+          "url": "https://otx.alienvault.com/api/v1/indicators/file/fec5d7eb6cf4ed6cfbcd2c588bb761af/analysis",
+          "retrieved_at_utc": "2026-11-15T17:20:22.470825+00:00",
+          "status": 200,
+          "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+          "bytes": 55,
+          "top_keys": [
+            "analysis",
+            "page_type",
+            "malware"
+          ],
+          "analysis_info_results": {},
+          "has_explicit_hash_bridge": false,
+          "locator": {
+            "JSON_pointer": "/analysis",
+            "observed_value": {},
+            "missing_required_bridge": "/analysis/info/results"
+          }
+        },
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00"
       }
     ],
     "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
@@ -106,15 +131,31 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
-    "source_review_locator": {
-      "source_document_sha256": "f8559e61c33bf6de66bed6647346dac432beebb10e63eb382999ac1b27436e70",
-      "normalized_text_offset": 8226,
-      "normalization": "hex_case_normalization",
-      "table_row_1based": 28
-    },
-    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
-    "source_review_disposition": "still_uncertain",
+    "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+    "source_review_locator": [
+      {
+        "requested_md5": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/fec5d7eb6cf4ed6cfbcd2c588bb761af/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:22.470825+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
+        "locator": {
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
+        }
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "source_review_disposition": "still_uncertain_after_additional_public_routes",
     "automatic_blocklist_suitable": false,
     "source_review_history": [
       {
@@ -128,45 +169,41 @@
         "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
         "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
         "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      },
+      {
+        "source_review_state": "unverified",
+        "source_review_disposition": "still_uncertain",
+        "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+        "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-deeper-hunt",
+        "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
       }
     ],
     "source_review_resolution_evidence": [
       {
-        "url": "https://asec.ahnlab.com/en/95845/",
-        "retrieved_at_utc": "2026-11-15T16:29:26.744645+00:00",
-        "source_document_sha256": "d6c848b8b9cc10b29d5cd6ccb774c1a646293383773d252fe933bd2888466923",
+        "requested_md5": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/fec5d7eb6cf4ed6cfbcd2c588bb761af/analysis",
+        "retrieved_at_utc": "2026-11-15T17:20:22.470825+00:00",
+        "status": 200,
+        "response_sha256": "8978d33fd9be40ae12a057d4a1c6ba5fe8634a74097c4f12eec2cd997dd1dda7",
+        "bytes": 55,
+        "top_keys": [
+          "analysis",
+          "page_type",
+          "malware"
+        ],
+        "analysis_info_results": {},
+        "has_explicit_hash_bridge": false,
         "locator": {
-          "normalization": "defang/hex-case only",
-          "normalized_text_character_offset": 8226,
-          "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
-          "section": "Table2 IOC information; two operational directories"
-        }
-      },
-      {
-        "url": "https://asec.ahnlab.com/ko/95844/",
-        "retrieved_at_utc": "2026-11-15T16:29:26.745731+00:00",
-        "source_document_sha256": "8a1ca100b5921aac6f898c7e427a59f0e344abceb84ffcedd53d5cb11ae542de",
-        "locator": {
-          "normalization": "defang/hex-case only",
-          "normalized_text_character_offset": 3991,
-          "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
-          "section": "Table2 IOC information; two operational directories"
-        }
-      },
-      {
-        "url": "https://asec.ahnlab.com/jp/96199/",
-        "retrieved_at_utc": "2026-11-15T16:29:26.745181+00:00",
-        "source_document_sha256": "e348701052b12d00e2da3c0f8584486ce56c472c4148ab05f01b3352c5fe1d74",
-        "locator": {
-          "normalization": "defang/hex-case only",
-          "normalized_text_character_offset": 4136,
-          "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
-          "section": "Table2 IOC information; two operational directories"
+          "JSON_pointer": "/analysis",
+          "observed_value": {},
+          "missing_required_bridge": "/analysis/info/results"
         }
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
+    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
   },
   {
     "record_id": "AR-27792EC7CD82",
@@ -408,6 +445,26 @@
             }
           ]
         }
+      },
+      {
+        "url": "https://api.github.com/users/aizhihuxiao/events/public?per_page=100&page=1",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://api.github.com/users/aizhihuxiao/events/public?per_page=100&page=1",
+          "retrieved_at_utc": "2026-11-15T17:20:44.852460Z",
+          "source_document_sha256": "b57e0240e80d271649cbfbc28b799513e4c1d7db1d7da8eb605d87da0f32650b",
+          "locator": {
+            "JSON_pointer": "/0/payload/forkee",
+            "event_id": "20001107500",
+            "event_created_at": "2026-11-13T09:51:29Z",
+            "forkee_id": 1456427293,
+            "forkee_full_name": "aizhihuxiao/ARTEX",
+            "forkee_created_at": "2026-11-13T09:51:29Z",
+            "parent_event_repo_id": 1411113692,
+            "parent_event_repo_name": "RuoJi6/ARTEX"
+          }
+        },
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00"
       }
     ],
     "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX. Current same-name GitHub repository object1456427293 was created2026-11-13, after the historical deleted-reference report; its inspected pinned compose defaults to ruoji6/artex. Current recreation is not the historical repository object. Historical source pointer remains unverified.",
@@ -417,14 +474,26 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "New corrective evidence: the current same-name GitHub repository has object ID1456427293 and creation time2026-11-13T09:51:29Z, after the5November deleted-reference report. It is a RuoJi6/ARTEX fork whose inspected pinned compose defaults to ruoji6/artex, not tomicdd/artex. It cannot substitute for the deleted historical repository. One Software Heritage origin lookup returned404; no original object or archived dependency was recovered.",
-    "source_review_locator": {
-      "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
-      "normalized_text_offset": -1,
-      "normalization": "explicit_source_component_normalization"
-    },
-    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
-    "source_review_disposition": "still_uncertain_historical_repository_recreated",
+    "source_review_scope": "A newly retained GitHub public ForkEvent independently confirms that the current same-name repository object was created on 13 November from RuoJi6/ARTEX. This corroborates the existing warning against transferring the historical allegation to the recreated repository, but does not identify the deleted original object.",
+    "source_review_locator": [
+      {
+        "url": "https://api.github.com/users/aizhihuxiao/events/public?per_page=100&page=1",
+        "retrieved_at_utc": "2026-11-15T17:20:44.852460Z",
+        "source_document_sha256": "b57e0240e80d271649cbfbc28b799513e4c1d7db1d7da8eb605d87da0f32650b",
+        "locator": {
+          "JSON_pointer": "/0/payload/forkee",
+          "event_id": "20001107500",
+          "event_created_at": "2026-11-13T09:51:29Z",
+          "forkee_id": 1456427293,
+          "forkee_full_name": "aizhihuxiao/ARTEX",
+          "forkee_created_at": "2026-11-13T09:51:29Z",
+          "parent_event_repo_id": 1411113692,
+          "parent_event_repo_name": "RuoJi6/ARTEX"
+        }
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "source_review_disposition": "still_uncertain_after_additional_public_routes",
     "automatic_blocklist_suitable": false,
     "source_review_history": [
       {
@@ -438,53 +507,36 @@
         "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
         "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
         "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      },
+      {
+        "source_review_state": "unverified",
+        "source_review_disposition": "still_uncertain_historical_repository_recreated",
+        "source_review_scope": "New corrective evidence: the current same-name GitHub repository has object ID1456427293 and creation time2026-11-13T09:51:29Z, after the5November deleted-reference report. It is a RuoJi6/ARTEX fork whose inspected pinned compose defaults to ruoji6/artex, not tomicdd/artex. It cannot substitute for the deleted historical repository. One Software Heritage origin lookup returned404; no original object or archived dependency was recovered.",
+        "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-deeper-hunt",
+        "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
       }
     ],
     "source_review_resolution_evidence": [
       {
-        "url": "https://badbyte.io/artex-backdoor-docker-image/",
-        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
-        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "url": "https://api.github.com/users/aizhihuxiao/events/public?per_page=100&page=1",
+        "retrieved_at_utc": "2026-11-15T17:20:44.852460Z",
+        "source_document_sha256": "b57e0240e80d271649cbfbc28b799513e4c1d7db1d7da8eb605d87da0f32650b",
         "locator": {
-          "section": "Repository-reference table, deleted row",
-          "literal": "aizhihuxiao/ARTEX"
+          "JSON_pointer": "/0/payload/forkee",
+          "event_id": "20001107500",
+          "event_created_at": "2026-11-13T09:51:29Z",
+          "forkee_id": 1456427293,
+          "forkee_full_name": "aizhihuxiao/ARTEX",
+          "forkee_created_at": "2026-11-13T09:51:29Z",
+          "parent_event_repo_id": 1411113692,
+          "parent_event_repo_name": "RuoJi6/ARTEX"
         }
-      },
-      {
-        "url": "https://api.github.com/repos/aizhihuxiao/ARTEX",
-        "retrieved_at_utc": "2026-11-15T16:31:07.739564+00:00",
-        "source_document_sha256": "c4740f60231cfb65eb1f5a1ddf987f2d0cb4f4f5d0127f61c5f8dba99f6321cf",
-        "locator": {
-          "json_pointers": [
-            "/id",
-            "/created_at",
-            "/parent/full_name"
-          ],
-          "values": {
-            "id": 1456427293,
-            "created_at": "2026-11-13T09:51:29Z",
-            "parent": "RuoJi6/ARTEX"
-          }
-        }
-      },
-      {
-        "url": "https://raw.githubusercontent.com/aizhihuxiao/ARTEX/2290acfa62c2c26d54d16a306ae96775b342585f/docker-compose.yml",
-        "retrieved_at_utc": "2026-11-15T16:31:38.245666+00:00",
-        "source_document_sha256": "f3198f04685d55708019521eec4bf6059aee0fd6706a2dcbe6298cbeb9d13269",
-        "locator": [
-          {
-            "line": 3,
-            "text": "    image: postgres:16-alpine"
-          },
-          {
-            "line": 18,
-            "text": "    image: ${ARTEX_IMAGE:-ruoji6/artex}:${ARTEX_TAG:-latest}"
-          }
-        ]
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
+    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
   },
   {
     "record_id": "AR-43F589C641CC",

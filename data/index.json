@@ -33,7 +33,8 @@
     "reports/2026/2026-11-15-daily-review/records-0007.json",
     "reports/2026/2026-11-15-peak-review/records.json",
     "reports/2026/2026-11-15-evidence-resolution/new-records.json",
-    "reports/2026/2026-11-15-expanded-source-review/records.json"
+    "reports/2026/2026-11-15-expanded-source-review/records.json",
+    "reports/2026/2026-11-15-deeper-hunt/new-records.json"
   ],
   "supplementary_scope": "Separate India AI-campaign, independent public-artifact, and dated global AI-tool/campaign research; evidence classes and attribution remain distinct."
 }

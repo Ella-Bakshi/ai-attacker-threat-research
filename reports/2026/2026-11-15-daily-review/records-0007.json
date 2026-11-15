@@ -10788,6 +10788,34 @@
             "section": "Compiled indicator table"
           }
         }
+      },
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://github.com/Azure/Azure-Sentinel",
+          "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "locator": {
+            "search": "178.15.54.129",
+            "result_count": 0,
+            "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+          }
+        },
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00"
+      },
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://github.com/Azure/Azure-Sentinel",
+          "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "locator": {
+            "search": "178.16.54.129",
+            "result_count": 0,
+            "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+          }
+        },
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00"
       }
     ],
     "first_seen": "",
@@ -10816,14 +10844,29 @@
       "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
     ],
     "source_review_state": "unverified",
-    "source_review_scope": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
-    "source_review_locator": {
-      "source_document_sha256": "3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2",
-      "normalized_text_offset": 10428,
-      "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
-    },
-    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
-    "source_review_disposition": "still_uncertain",
+    "source_review_scope": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+    "source_review_locator": [
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.15.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      },
+      {
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+        "locator": {
+          "search": "178.16.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
+        }
+      }
+    ],
+    "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+    "source_review_disposition": "still_uncertain_after_additional_public_routes",
     "source_review_history": [
       {
         "publication_category": "unverified-findings",
@@ -10836,45 +10879,39 @@
         "source_reviewed_at_utc": "2026-11-15T15:15:23.023405+00:00",
         "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
         "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      },
+      {
+        "source_review_state": "unverified",
+        "source_review_disposition": "still_uncertain",
+        "source_review_scope": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+        "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-deeper-hunt",
+        "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
       }
     ],
     "source_review_resolution_evidence": [
       {
-        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-        "retrieved_at_utc": "2026-11-15T16:29:27.632577+00:00",
-        "source_document_sha256": "a1024786f7aaddc63f83ff0f50f3d0cf11a0242108d25de00a886d3f3508176e",
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
         "locator": {
-          "normalization": "defang/hex-case only",
-          "normalized_text_character_offset": 15643,
-          "literal": "178.15.54.129",
-          "section": "Sample KQL"
+          "search": "178.15.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
         }
       },
       {
-        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-        "retrieved_at_utc": "2026-11-15T16:29:27.632577+00:00",
-        "source_document_sha256": "a1024786f7aaddc63f83ff0f50f3d0cf11a0242108d25de00a886d3f3508176e",
+        "url": "https://github.com/Azure/Azure-Sentinel",
+        "reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
         "locator": {
-          "normalization": "defang/hex-case only",
-          "normalized_text_character_offset": 16742,
-          "literal": "178.16.54.129",
-          "section": "IOC table"
-        }
-      },
-      {
-        "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
-        "retrieved_at_utc": "2026-11-15T16:33:46.170735+00:00",
-        "source_document_sha256": "3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2",
-        "locator": {
-          "normalization": "defang/hex-case only",
-          "normalized_text_character_offset": 12433,
-          "literal": "178.16.54.129",
-          "section": "Compiled indicator table"
+          "search": "178.16.54.129",
+          "result_count": 0,
+          "scope": "Connected GitHub default-branch code search only; index coverage not guaranteed."
         }
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
+    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
   },
   {
     "record_id": "DAILY15-5AF801D22A23",

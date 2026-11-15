@@ -843,6 +843,18 @@
           "der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
           "locator": "X.509 subjectAltName, validity and DER identity only; campaign/operator/C2 relation unresolved."
         }
+      },
+      {
+        "url": "https://urlscan.io/api/v1/search/?q=domain:static.fastcdn.bar&size=100",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://urlscan.io/api/v1/search/?q=domain:static.fastcdn.bar&size=100",
+          "retrieved_at_utc": "2026-11-15T17:15:21.817568+00:00",
+          "response_sha256": "d766fb5d8fad308a03f4675a5bc874059971f1c5085e66f172972f7603f8a16f",
+          "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+          "meaning": "Bounded empty public search is not evidence of absence."
+        },
+        "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00"
       }
     ],
     "source_locator": {
@@ -862,16 +874,18 @@
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
     "evidence_score_hint": 0,
     "source_review_state": "unverified",
-    "source_review_scope": "CT certificate identity and this SAN are verified. Sample, campaign, malicious behavior, operator and C2 relationships remain unverified; issuance is not deployment.",
+    "source_review_scope": "Prior CT identity/SAN verification retained. New URLscan exact-domain search has no public results in its30-day accessible window; no sample/operator/C2 bridge established. Issuance is not deployment.",
     "source_review_locator": [
       {
-        "source_url": "https://crt.sh/?id=29486410014",
-        "der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
-        "locator": "X.509 subjectAltName, validity and DER identity only; campaign/operator/C2 relation unresolved."
+        "url": "https://urlscan.io/api/v1/search/?q=domain:static.fastcdn.bar&size=100",
+        "retrieved_at_utc": "2026-11-15T17:15:21.817568+00:00",
+        "response_sha256": "d766fb5d8fad308a03f4675a5bc874059971f1c5085e66f172972f7603f8a16f",
+        "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+        "meaning": "Bounded empty public search is not evidence of absence."
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
-    "source_review_disposition": "certificate_identity_reproduced_campaign_relationship_unresolved",
+    "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "source_review_disposition": "deeper_review_no_campaign_relationship_bridge",
     "automatic_blocklist_suitable": false,
     "source_review_history": [
       {
@@ -885,18 +899,29 @@
         "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
         "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
         "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      },
+      {
+        "source_review_state": "unverified",
+        "source_review_disposition": "certificate_identity_reproduced_campaign_relationship_unresolved",
+        "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+        "source_review_scope": "CT certificate identity and this SAN are verified. Sample, campaign, malicious behavior, operator and C2 relationships remain unverified; issuance is not deployment.",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-deeper-hunt",
+        "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
       }
     ],
     "detection_validation_status": "not_established",
     "source_review_resolution_evidence": [
       {
-        "source_url": "https://crt.sh/?id=29486410014",
-        "der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
-        "locator": "X.509 subjectAltName, validity and DER identity only; campaign/operator/C2 relation unresolved."
+        "url": "https://urlscan.io/api/v1/search/?q=domain:static.fastcdn.bar&size=100",
+        "retrieved_at_utc": "2026-11-15T17:15:21.817568+00:00",
+        "response_sha256": "d766fb5d8fad308a03f4675a5bc874059971f1c5085e66f172972f7603f8a16f",
+        "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+        "meaning": "Bounded empty public search is not evidence of absence."
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
+    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
   },
   {
     "record_id": "OWNCTI-AAB562EB200FA015",
@@ -938,6 +963,18 @@
           "der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
           "locator": "X.509 subjectAltName, validity and DER identity only; campaign/operator/C2 relation unresolved."
         }
+      },
+      {
+        "url": "https://urlscan.io/api/v1/search/?q=domain:www.fastcdn.bar&size=100",
+        "source_role": "deeper_review_evidence",
+        "locator": {
+          "url": "https://urlscan.io/api/v1/search/?q=domain:www.fastcdn.bar&size=100",
+          "retrieved_at_utc": "2026-11-15T17:15:21.755636+00:00",
+          "response_sha256": "3f74c353eb9939b6d182e6be635dbc5e2bc07204715b4627c3b087d82cab61ca",
+          "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+          "meaning": "Bounded empty public search is not evidence of absence."
+        },
+        "reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00"
       }
     ],
     "source_locator": {
@@ -957,16 +994,18 @@
     "notes": "Independent analysis of already-public data; no global-novelty claim. Unknown first/last victim activity times are intentionally blank.",
     "evidence_score_hint": 0,
     "source_review_state": "unverified",
-    "source_review_scope": "CT certificate identity and this SAN are verified. Sample, campaign, malicious behavior, operator and C2 relationships remain unverified; issuance is not deployment.",
+    "source_review_scope": "Prior CT identity/SAN verification retained. New URLscan exact-domain search has no public results in its30-day accessible window; no sample/operator/C2 bridge established. Issuance is not deployment.",
     "source_review_locator": [
       {
-        "source_url": "https://crt.sh/?id=29636991649",
-        "der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
-        "locator": "X.509 subjectAltName, validity and DER identity only; campaign/operator/C2 relation unresolved."
+        "url": "https://urlscan.io/api/v1/search/?q=domain:www.fastcdn.bar&size=100",
+        "retrieved_at_utc": "2026-11-15T17:15:21.755636+00:00",
+        "response_sha256": "3f74c353eb9939b6d182e6be635dbc5e2bc07204715b4627c3b087d82cab61ca",
+        "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+        "meaning": "Bounded empty public search is not evidence of absence."
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
-    "source_review_disposition": "certificate_identity_reproduced_campaign_relationship_unresolved",
+    "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+    "source_review_disposition": "deeper_review_no_campaign_relationship_bridge",
     "automatic_blocklist_suitable": false,
     "source_review_history": [
       {
@@ -980,18 +1019,29 @@
         "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
         "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
         "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      },
+      {
+        "source_review_state": "unverified",
+        "source_review_disposition": "certificate_identity_reproduced_campaign_relationship_unresolved",
+        "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+        "source_review_scope": "CT certificate identity and this SAN are verified. Sample, campaign, malicious behavior, operator and C2 relationships remain unverified; issuance is not deployment.",
+        "automatic_blocklist_suitable": false,
+        "review_pass": "2026-11-15-deeper-hunt",
+        "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
       }
     ],
     "detection_validation_status": "not_established",
     "source_review_resolution_evidence": [
       {
-        "source_url": "https://crt.sh/?id=29636991649",
-        "der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
-        "locator": "X.509 subjectAltName, validity and DER identity only; campaign/operator/C2 relation unresolved."
+        "url": "https://urlscan.io/api/v1/search/?q=domain:www.fastcdn.bar&size=100",
+        "retrieved_at_utc": "2026-11-15T17:15:21.755636+00:00",
+        "response_sha256": "3f74c353eb9939b6d182e6be635dbc5e2bc07204715b4627c3b087d82cab61ca",
+        "locator": "/results=[]; /total=0; /has_more=false; /search_date_limit_days=30",
+        "meaning": "Bounded empty public search is not evidence of absence."
       }
     ],
     "source_review_original_category": "unverified-findings",
-    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
+    "source_review_resolution_pass": "2026-11-15-deeper-hunt"
   },
   {
     "record_id": "OWNCTI-16AFADCBBEFE2E24",
