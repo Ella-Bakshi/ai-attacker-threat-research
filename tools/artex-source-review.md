@@ -25,3 +25,7 @@ These software references remain outside admitted IOC totals. Exact source prese
 ## Lab evidence limits
 
 The article's lab used a component harness, fake LLM and owned listener. Its TLS and timing results depend on versions and recording/proxy settings. We did not reproduce those experiments. No lab JA4 values were promoted to standalone IOCs. This review adds no malicious infrastructure, map points or India-targeting evidence.
+
+## Same-name repository correction — 15 November
+
+The current [aizhihuxiao/ARTEX repository metadata](https://api.github.com/repos/aizhihuxiao/ARTEX) identifies a new object, `1456427293`, created `2026-11-13T09:51:29Z`. Its [pinned compose file](https://github.com/aizhihuxiao/ARTEX/blob/2290acfa62c2c26d54d16a306ae96775b342585f/docker-compose.yml#L18) defaults to `ruoji6/artex`. It cannot stand in for the deleted repository reference in [BadByte's earlier report](https://badbyte.io/artex-backdoor-docker-image/). Record `AR-40970CCA953F` remains unresolved for that historical object. The earlier allegation must not transfer to the recreated project or its current maintainers.

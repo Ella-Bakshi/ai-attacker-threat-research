@@ -4,7 +4,7 @@ An observable is useful through its source, role, time and context. An exact has
 
 ## Current source-review scope — 15 November 2026
 
-All 12,299 canonical records now have a scoped disposition:3,559 original-source supported,327 exact-artifact supported,8,340 retained historical provider observations and 73 unresolved or qualified findings. The 3,740 additional master-only values have retained-provider support. [Review details](../reports/2026/2026-11-15-source-review/README.md) · [Unresolved findings](../research/unverified-findings/source-review-unresolved.csv).
+All 12,637 canonical records have a scoped disposition: 3,914 original-source supported, 343 exact-artifact supported, 8,340 retained historical provider observations and 40 unresolved source/relationship findings. The 3,740 additional master-only values retain historical-provider qualifications. [Latest evidence resolution](../reports/2026/2026-11-15-evidence-resolution/README.md) · [Current unresolved findings](../research/unverified-findings/source-review-unresolved.csv) · [Seven experimental detection hypotheses](../research/unverified-findings/experimental-detection-hypotheses.csv). Source/artifact support for a finite observation does not validate a production detector.
 
 The earlier20 SentinelOne/Splunk source-access gaps are closed. Every reported source value/normalization was reviewed against underlying evidence, but this does not authenticate publisher telemetry independently or establish maliciousness. Provider matching proves consistency with retained normalized responses/feed tables, not signed acquisition, software specificity, current ownership or live operation. Existing unresolved roles, algorithms and relationships remain unresolved even when their literals match.
 

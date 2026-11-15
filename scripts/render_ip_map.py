@@ -181,7 +181,7 @@ def static_svg(records, world, metadata, font_data=''):
 <text x="600" y="145" text-anchor="middle" font-size="13" fill="#64748b">{html.escape(title)}</text>
 <rect x="23" y="174" width="1154" height="625" rx="14" fill="#fff" stroke="#e2e8f0"/>
 <svg x="39" y="190" width="1122" height="561" viewBox="0 0 1200 600"><rect width="1200" height="600" rx="10" fill="#eef2f6"/><g stroke="#1a1a1a" stroke-width=".45" fill-rule="evenodd">{world}</g>{''.join(markers)}</svg>
-<text x="45" y="779" font-size="11" fill="#64748b">{html.escape(caption)}</text><a href="https://db-ip.com"><text x="26" y="830" font-size="11" fill="#64748b">{html.escape(source)}</text></a></svg>'''
+<text x="45" y="779" font-size="11" fill="#64748b">{html.escape(caption)}</text><a href="https://db-ip.com"><text x="26" y="830" font-size="11" fill="#64748b">{html.escape(source)}</text></a><text x="1173" y="830" text-anchor="end" font-size="10" fill="#64748b">Research &amp; map by Anmol Bakshi</text></svg>'''
 
 
 UI_DIR = Path(__file__).resolve().with_name('map-ui')

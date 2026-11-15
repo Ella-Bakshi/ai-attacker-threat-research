@@ -1,0 +1,1046 @@
+{
+  "title": "Bounded reference, historical flow and certificate observations",
+  "records": [
+    {
+      "record_id": "AR-BFAF57C88870",
+      "indicator_type": "software_signature",
+      "indicator": "ELF/PE + ARTEX Go module + exchange_bodies + blob_refs + ex_fts SQL definitions",
+      "source_urls": [
+        "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/traffic/traffic.go#L60"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "rule": "RND_ARTEX_Traffic_Recorder_Schema_Lineage",
+        "rule_source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar",
+        "rule_sha256": "eb130256b40d5539a864a9905f6cf11ed6a68b1ff64cb2aca6c2c77e1ee7cd8f",
+        "yara_version": "4.5.4",
+        "positive_references": [
+          {
+            "artifact_sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+            "artifact_label": "ARTEX_Linux",
+            "bytes": 39452798,
+            "representative_marker_locators": [
+              {
+                "identifier": "$module",
+                "first_instance": {
+                  "file_offset": 14062991,
+                  "byte_length": 26,
+                  "matched_data_sha256": "8be622e05f539cf73c2ac0b1c9cfd5777469ed5ed45381c73d05be1893fd9e84"
+                },
+                "instances_count": 4243
+              },
+              {
+                "identifier": "$body",
+                "first_instance": {
+                  "file_offset": 16957576,
+                  "byte_length": 42,
+                  "matched_data_sha256": "301fbd064112dba956dbb4fd48cbea783a0eebca54de8e0198d81408c9f923c9"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$blob",
+                "first_instance": {
+                  "file_offset": 16957802,
+                  "byte_length": 36,
+                  "matched_data_sha256": "d3d8924f3c29f511d2ace9d87b2b5227e1770f3864177a9ba462eb0ac24d5a83"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$fts",
+                "first_instance": {
+                  "file_offset": 16763482,
+                  "byte_length": 41,
+                  "matched_data_sha256": "be59b2adbbf2a8367026d6abfabea8241715ab0ad8d3b55f0c485367ef6ef615"
+                },
+                "instances_count": 1
+              }
+            ]
+          },
+          {
+            "artifact_sha256": "94faea0373d30035c2e77503cbcd7c7badc962ea49eb113a3b63c448a12de39e",
+            "artifact_label": "ARTEX_Windows",
+            "bytes": 40194560,
+            "representative_marker_locators": [
+              {
+                "identifier": "$module",
+                "first_instance": {
+                  "file_offset": 14133983,
+                  "byte_length": 26,
+                  "matched_data_sha256": "8be622e05f539cf73c2ac0b1c9cfd5777469ed5ed45381c73d05be1893fd9e84"
+                },
+                "instances_count": 4243
+              },
+              {
+                "identifier": "$body",
+                "first_instance": {
+                  "file_offset": 17056294,
+                  "byte_length": 42,
+                  "matched_data_sha256": "301fbd064112dba956dbb4fd48cbea783a0eebca54de8e0198d81408c9f923c9"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$blob",
+                "first_instance": {
+                  "file_offset": 17056520,
+                  "byte_length": 36,
+                  "matched_data_sha256": "d3d8924f3c29f511d2ace9d87b2b5227e1770f3864177a9ba462eb0ac24d5a83"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$fts",
+                "first_instance": {
+                  "file_offset": 16862200,
+                  "byte_length": 41,
+                  "matched_data_sha256": "be59b2adbbf2a8367026d6abfabea8241715ab0ad8d3b55f0c485367ef6ef615"
+                },
+                "instances_count": 1
+              }
+            ]
+          }
+        ],
+        "reference_matches": [
+          {
+            "artifact": "ARTEX_Linux",
+            "sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+            "bytes": 39452798,
+            "condition_matches": true
+          },
+          {
+            "artifact": "ARTEX_Windows",
+            "sha256": "94faea0373d30035c2e77503cbcd7c7badc962ea49eb113a3b63c448a12de39e",
+            "bytes": 40194560,
+            "condition_matches": true
+          },
+          {
+            "artifact": "CSAI_Controller_Local",
+            "sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "bytes": 105005177,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ThirdParty_Egress",
+            "sha256": "4fd935e7ced58b2f5ed7147e38b8d49347dbaef22438195a19a12dd9927e9e1a",
+            "bytes": 8712376,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_ELF_CBF104",
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "bytes": 6115476,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_PE_1B95",
+            "sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+            "bytes": 6314496,
+            "condition_matches": false
+          },
+          {
+            "artifact": "RogueWinRM",
+            "sha256": "bac5fc4fa68e57e2bee2fc5670ba914ef1707b16f52d2ee773956275e00a5ebb",
+            "bytes": 155136,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Mimikatz",
+            "sha256": "61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1",
+            "bytes": 1355264,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Python_Interpreter",
+            "sha256": "d932e5e2f324d57f392e8fd063dcf6d0185be8a664c57c6d24e7762ed02c28ca",
+            "bytes": 105816,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Go_Compiler",
+            "sha256": "6dab92791deb4e54adda06cc83304936c4dcc0d76ffc35cf4ac93c065a66f088",
+            "bytes": 15317504,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_7832997e",
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "bytes": 6115512,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_f825c06b",
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "bytes": 6168868,
+            "condition_matches": false
+          }
+        ],
+        "scope": "Exact authored condition and finite hash-verified byte matches only. Related ELF/PE beacon variants are known coverage misses, not benign negatives; operational detection efficacy remains unverified."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "CS-A6B63C3A9B1F",
+      "indicator_type": "software_signature",
+      "indicator": "ELF + cyberstrike-ai/tmp/c2/payloads/build- + main.fetchC2FileByID + main.buildTaskReport + X-Implant-Token + X-Session-Token + __CSAI_CWD_%x__",
+      "source_urls": [
+        "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-06.zip"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "rule": "RND_CyberStrikeAI_Generated_HTTP_Beacon_Lineage",
+        "rule_source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/sample_beacon_lineage.yar",
+        "rule_sha256": "5df82c037296573d51c3506a5a72686aa9f5053d353f27b7cb3ad2afba23323b",
+        "yara_version": "4.5.4",
+        "positive_references": [
+          {
+            "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "artifact_label": "CSAI_ELF_CBF104",
+            "bytes": 6115476,
+            "representative_marker_locators": [
+              {
+                "identifier": "$build",
+                "first_instance": {
+                  "file_offset": 3957077,
+                  "byte_length": 37,
+                  "matched_data_sha256": "3709513d4081ad0951961aee52170b89403cc0aebdbb49bada4c159ffca83d67"
+                },
+                "instances_count": 3
+              },
+              {
+                "identifier": "$fetch",
+                "first_instance": {
+                  "file_offset": 4272854,
+                  "byte_length": 20,
+                  "matched_data_sha256": "04cf51bfd7706972a8345366e57527175af9d3091072ada26772b57ba61953f7"
+                },
+                "instances_count": 2
+              },
+              {
+                "identifier": "$report",
+                "first_instance": {
+                  "file_offset": 4273381,
+                  "byte_length": 20,
+                  "matched_data_sha256": "1741771463fc321c270accff091b7852887f78a67c4d1cefa67d3b8d00c65c86"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$implant",
+                "first_instance": {
+                  "file_offset": 3436363,
+                  "byte_length": 15,
+                  "matched_data_sha256": "2fc71f96a048e138cd3a2926bbd13313e417ef01c34ca1406a58ef200fac0478"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$session",
+                "first_instance": {
+                  "file_offset": 3436378,
+                  "byte_length": 15,
+                  "matched_data_sha256": "e79fa1734bc70f2d060be42f3ee00d9630801e69a0ac53dbc249f41d89f7b050"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$cwd",
+                "first_instance": {
+                  "file_offset": 3436408,
+                  "byte_length": 15,
+                  "matched_data_sha256": "eda795ed19d7939d7df5d28830998d4e9ac5f225901205f9ad4aab80724e1454"
+                },
+                "instances_count": 1
+              }
+            ]
+          }
+        ],
+        "reference_matches": [
+          {
+            "artifact": "ARTEX_Linux",
+            "sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+            "bytes": 39452798,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ARTEX_Windows",
+            "sha256": "94faea0373d30035c2e77503cbcd7c7badc962ea49eb113a3b63c448a12de39e",
+            "bytes": 40194560,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Controller_Local",
+            "sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "bytes": 105005177,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ThirdParty_Egress",
+            "sha256": "4fd935e7ced58b2f5ed7147e38b8d49347dbaef22438195a19a12dd9927e9e1a",
+            "bytes": 8712376,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_ELF_CBF104",
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "bytes": 6115476,
+            "condition_matches": true
+          },
+          {
+            "artifact": "CSAI_PE_1B95",
+            "sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+            "bytes": 6314496,
+            "condition_matches": false
+          },
+          {
+            "artifact": "RogueWinRM",
+            "sha256": "bac5fc4fa68e57e2bee2fc5670ba914ef1707b16f52d2ee773956275e00a5ebb",
+            "bytes": 155136,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Mimikatz",
+            "sha256": "61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1",
+            "bytes": 1355264,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Python_Interpreter",
+            "sha256": "d932e5e2f324d57f392e8fd063dcf6d0185be8a664c57c6d24e7762ed02c28ca",
+            "bytes": 105816,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Go_Compiler",
+            "sha256": "6dab92791deb4e54adda06cc83304936c4dcc0d76ffc35cf4ac93c065a66f088",
+            "bytes": 15317504,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_7832997e",
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "bytes": 6115512,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_f825c06b",
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "bytes": 6168868,
+            "condition_matches": false
+          }
+        ],
+        "scope": "Exact authored condition and finite hash-verified byte matches only. Related ELF/PE beacon variants are known coverage misses, not benign negatives; operational detection efficacy remains unverified."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "CS-632615C8AE13",
+      "indicator_type": "software_signature",
+      "indicator": "ELF + generated cyberstrike-ai payload build path + main.persistLinux + cron merge format + bashrc nohup # cs format",
+      "source_urls": [
+        "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl#L1273"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "rule": "RND_CyberStrikeAI_Linux_Beacon_Persistence_Implementation",
+        "rule_source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/linux_beacon_persistence.yar",
+        "rule_sha256": "50e7cb7d59cd5285ecbc81250321d5a7db345763a02fba56ce7c5962096577b3",
+        "yara_version": "4.5.4",
+        "positive_references": [
+          {
+            "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "artifact_label": "CSAI_ELF_CBF104",
+            "bytes": 6115476,
+            "representative_marker_locators": [
+              {
+                "identifier": "$build",
+                "first_instance": {
+                  "file_offset": 3957077,
+                  "byte_length": 37,
+                  "matched_data_sha256": "3709513d4081ad0951961aee52170b89403cc0aebdbb49bada4c159ffca83d67"
+                },
+                "instances_count": 3
+              },
+              {
+                "identifier": "$func",
+                "first_instance": {
+                  "file_offset": 4274443,
+                  "byte_length": 17,
+                  "matched_data_sha256": "00b8f8aecc6b425b1c9b83e8eea4e99bad104f537831558dac13180344478cae"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$cron",
+                "first_instance": {
+                  "file_offset": 3506899,
+                  "byte_length": 57,
+                  "matched_data_sha256": "9a0d8117e711698aa6fa8aa7d62747faa845c9fb5e9c419614a6b5f8fe65f6a9"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$bash",
+                "first_instance": {
+                  "file_offset": 3466775,
+                  "byte_length": 29,
+                  "matched_data_sha256": "7d98ef0c3ee6091388e246a78fc9c6f69c37a5fc245b7f792f72ce29f19b6045"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$result",
+                "first_instance": {
+                  "file_offset": 3471222,
+                  "byte_length": 33,
+                  "matched_data_sha256": "367c3973e9c26af2a9305a0e2fbd2355e672ba0d88f7a7b63c82a33de0eb3514"
+                },
+                "instances_count": 1
+              }
+            ]
+          }
+        ],
+        "reference_matches": [
+          {
+            "artifact": "ARTEX_Linux",
+            "sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+            "bytes": 39452798,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ARTEX_Windows",
+            "sha256": "94faea0373d30035c2e77503cbcd7c7badc962ea49eb113a3b63c448a12de39e",
+            "bytes": 40194560,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Controller_Local",
+            "sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "bytes": 105005177,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ThirdParty_Egress",
+            "sha256": "4fd935e7ced58b2f5ed7147e38b8d49347dbaef22438195a19a12dd9927e9e1a",
+            "bytes": 8712376,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_ELF_CBF104",
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "bytes": 6115476,
+            "condition_matches": true
+          },
+          {
+            "artifact": "CSAI_PE_1B95",
+            "sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+            "bytes": 6314496,
+            "condition_matches": false
+          },
+          {
+            "artifact": "RogueWinRM",
+            "sha256": "bac5fc4fa68e57e2bee2fc5670ba914ef1707b16f52d2ee773956275e00a5ebb",
+            "bytes": 155136,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Mimikatz",
+            "sha256": "61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1",
+            "bytes": 1355264,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Python_Interpreter",
+            "sha256": "d932e5e2f324d57f392e8fd063dcf6d0185be8a664c57c6d24e7762ed02c28ca",
+            "bytes": 105816,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Go_Compiler",
+            "sha256": "6dab92791deb4e54adda06cc83304936c4dcc0d76ffc35cf4ac93c065a66f088",
+            "bytes": 15317504,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_7832997e",
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "bytes": 6115512,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_f825c06b",
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "bytes": 6168868,
+            "condition_matches": false
+          }
+        ],
+        "scope": "Exact authored condition and finite hash-verified byte matches only. Related ELF/PE beacon variants are known coverage misses, not benign negatives; operational detection efficacy remains unverified."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "CS-AD1F8E56549C",
+      "indicator_type": "software_signature",
+      "indicator": "ELF/PE + cyberstrike-ai/internal/c2 + X-Implant-Token + invalid tcp beacon frame size + c2_disabled",
+      "source_urls": [
+        "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go#L38"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "rule": "RND_CyberStrikeAI_Controller_Code_Lineage",
+        "rule_source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/controller_reference.yar",
+        "rule_sha256": "6071d78617fa775e87a005d18ec87d8267c586d08ce008670b251d01ca140bf4",
+        "yara_version": "4.5.4",
+        "positive_references": [
+          {
+            "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "artifact_label": "CSAI_Controller_Local",
+            "bytes": 105005177,
+            "representative_marker_locators": [
+              {
+                "identifier": "$module",
+                "first_instance": {
+                  "file_offset": 31670979,
+                  "byte_length": 26,
+                  "matched_data_sha256": "107bb394d873f30898183caefe83c43cf1ea58fecb6a55863143c8d70a8a9e52"
+                },
+                "instances_count": 439
+              },
+              {
+                "identifier": "$auth",
+                "first_instance": {
+                  "file_offset": 40699772,
+                  "byte_length": 15,
+                  "matched_data_sha256": "2fc71f96a048e138cd3a2926bbd13313e417ef01c34ca1406a58ef200fac0478"
+                },
+                "instances_count": 3
+              },
+              {
+                "identifier": "$frame",
+                "first_instance": {
+                  "file_offset": 40905878,
+                  "byte_length": 29,
+                  "matched_data_sha256": "1edb86bcc71762c1231c08479ea1644b0d14dbcf4e0f470ceeab0231dbb326ef"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$disabled",
+                "first_instance": {
+                  "file_offset": 40648375,
+                  "byte_length": 11,
+                  "matched_data_sha256": "7caf83a618d3441ab35fcbbd7f8e85216fba5946abd9bec3ca1c6dae7ed3cd99"
+                },
+                "instances_count": 1
+              }
+            ]
+          }
+        ],
+        "reference_matches": [
+          {
+            "artifact": "ARTEX_Linux",
+            "sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+            "bytes": 39452798,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ARTEX_Windows",
+            "sha256": "94faea0373d30035c2e77503cbcd7c7badc962ea49eb113a3b63c448a12de39e",
+            "bytes": 40194560,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Controller_Local",
+            "sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "bytes": 105005177,
+            "condition_matches": true
+          },
+          {
+            "artifact": "ThirdParty_Egress",
+            "sha256": "4fd935e7ced58b2f5ed7147e38b8d49347dbaef22438195a19a12dd9927e9e1a",
+            "bytes": 8712376,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_ELF_CBF104",
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "bytes": 6115476,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_PE_1B95",
+            "sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+            "bytes": 6314496,
+            "condition_matches": false
+          },
+          {
+            "artifact": "RogueWinRM",
+            "sha256": "bac5fc4fa68e57e2bee2fc5670ba914ef1707b16f52d2ee773956275e00a5ebb",
+            "bytes": 155136,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Mimikatz",
+            "sha256": "61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1",
+            "bytes": 1355264,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Python_Interpreter",
+            "sha256": "d932e5e2f324d57f392e8fd063dcf6d0185be8a664c57c6d24e7762ed02c28ca",
+            "bytes": 105816,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Go_Compiler",
+            "sha256": "6dab92791deb4e54adda06cc83304936c4dcc0d76ffc35cf4ac93c065a66f088",
+            "bytes": 15317504,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_7832997e",
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "bytes": 6115512,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_f825c06b",
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "bytes": 6168868,
+            "condition_matches": false
+          }
+        ],
+        "scope": "Exact authored condition and finite hash-verified byte matches only. Related ELF/PE beacon variants are known coverage misses, not benign negatives; operational detection efficacy remains unverified."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "CS-D57A2A59A66E",
+      "indicator_type": "software_signature",
+      "indicator": "ELF/PE + cyberstrike-ai/internal/database + c2_http_session_auth + c2_payload_artifacts + c2_profiles + conversations.db",
+      "source_urls": [
+        "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql#L144"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "rule": "RND_CyberStrikeAI_C2_Database_Schema_Lineage",
+        "rule_source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar",
+        "rule_sha256": "eb130256b40d5539a864a9905f6cf11ed6a68b1ff64cb2aca6c2c77e1ee7cd8f",
+        "yara_version": "4.5.4",
+        "positive_references": [
+          {
+            "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "artifact_label": "CSAI_Controller_Local",
+            "bytes": 105005177,
+            "representative_marker_locators": [
+              {
+                "identifier": "$module",
+                "first_instance": {
+                  "file_offset": 31840705,
+                  "byte_length": 32,
+                  "matched_data_sha256": "60894b8e04e691eaf92c06debd1a570f28b15bc12e54b05e17d2327bc28b4fb2"
+                },
+                "instances_count": 1435
+              },
+              {
+                "identifier": "$auth",
+                "first_instance": {
+                  "file_offset": 41756548,
+                  "byte_length": 33,
+                  "matched_data_sha256": "258142386ab1b5237c93451e30dafd27712095b54f4faf6db550acb497bd6196"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$artifact",
+                "first_instance": {
+                  "file_offset": 41757357,
+                  "byte_length": 33,
+                  "matched_data_sha256": "9c08b723e65c9df663b0585a80b6e20d0a98fedf3cbbbc213c885a4eb0f969eb"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$profiles",
+                "first_instance": {
+                  "file_offset": 41757563,
+                  "byte_length": 24,
+                  "matched_data_sha256": "50f5481e66687ca080f89a742153d78da173df9363660e62d98a4c08a111f62e"
+                },
+                "instances_count": 1
+              },
+              {
+                "identifier": "$db",
+                "first_instance": {
+                  "file_offset": 40781618,
+                  "byte_length": 21,
+                  "matched_data_sha256": "d1809834b5786bdb5766968f605de7757534fdf28c7c0c8c2ee2f96b0823c2e3"
+                },
+                "instances_count": 1
+              }
+            ]
+          }
+        ],
+        "reference_matches": [
+          {
+            "artifact": "ARTEX_Linux",
+            "sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+            "bytes": 39452798,
+            "condition_matches": false
+          },
+          {
+            "artifact": "ARTEX_Windows",
+            "sha256": "94faea0373d30035c2e77503cbcd7c7badc962ea49eb113a3b63c448a12de39e",
+            "bytes": 40194560,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Controller_Local",
+            "sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+            "bytes": 105005177,
+            "condition_matches": true
+          },
+          {
+            "artifact": "ThirdParty_Egress",
+            "sha256": "4fd935e7ced58b2f5ed7147e38b8d49347dbaef22438195a19a12dd9927e9e1a",
+            "bytes": 8712376,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_ELF_CBF104",
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "bytes": 6115476,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_PE_1B95",
+            "sha256": "1b95c2783b667ad5ffbd5b66afc367a92c314f507ba43789ec0bcda5a623a877",
+            "bytes": 6314496,
+            "condition_matches": false
+          },
+          {
+            "artifact": "RogueWinRM",
+            "sha256": "bac5fc4fa68e57e2bee2fc5670ba914ef1707b16f52d2ee773956275e00a5ebb",
+            "bytes": 155136,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Mimikatz",
+            "sha256": "61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1",
+            "bytes": 1355264,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Python_Interpreter",
+            "sha256": "d932e5e2f324d57f392e8fd063dcf6d0185be8a664c57c6d24e7762ed02c28ca",
+            "bytes": 105816,
+            "condition_matches": false
+          },
+          {
+            "artifact": "Go_Compiler",
+            "sha256": "6dab92791deb4e54adda06cc83304936c4dcc0d76ffc35cf4ac93c065a66f088",
+            "bytes": 15317504,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_7832997e",
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "bytes": 6115512,
+            "condition_matches": false
+          },
+          {
+            "artifact": "CSAI_Historical_ELF_f825c06b",
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "bytes": 6168868,
+            "condition_matches": false
+          }
+        ],
+        "scope": "Exact authored condition and finite hash-verified byte matches only. Related ELF/PE beacon variants are known coverage misses, not benign negatives; operational detection efficacy remains unverified."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "OWNCTI-98C31B81BA22AB2D",
+      "indicator_type": "network_pattern",
+      "indicator": "tls.sni=media.fastcdn.bar AND dst.port=2083 AND ja3=20b279993ae2e137e62b9647c6d768fb AND ja3s=eb1d94daa7e0344597e756a1fb6e7054",
+      "source_urls": [
+        "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "source_url": "https://tria.ge/261027-qmb8eaes6q/behavioral1",
+        "capture_sha256": "d95415a4d922d00e78d1470078869771199348e6a9522363a3164761395564cd",
+        "capture_bytes": 245001,
+        "embedded_json_offset": 231932,
+        "embedded_json_bytes": 9183,
+        "embedded_json_sha256": "082caa80eddb8165bfbc98482fe996d088bb030beadb335522ef62755b06a864",
+        "flow_conjunction": [
+          {
+            "json_pointer": "/flows/3",
+            "flow_id": 4,
+            "tls_sni": "media.fastcdn.bar",
+            "destination_port": 2083,
+            "ja3": "20b279993ae2e137e62b9647c6d768fb",
+            "ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+          },
+          {
+            "json_pointer": "/flows/14",
+            "flow_id": 15,
+            "tls_sni": "media.fastcdn.bar",
+            "destination_port": 2083,
+            "ja3": "20b279993ae2e137e62b9647c6d768fb",
+            "ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+          },
+          {
+            "json_pointer": "/flows/15",
+            "flow_id": 16,
+            "tls_sni": "media.fastcdn.bar",
+            "destination_port": 2083,
+            "ja3": "20b279993ae2e137e62b9647c6d768fb",
+            "ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+          },
+          {
+            "json_pointer": "/flows/16",
+            "flow_id": 17,
+            "tls_sni": "media.fastcdn.bar",
+            "destination_port": 2083,
+            "ja3": "20b279993ae2e137e62b9647c6d768fb",
+            "ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+          },
+          {
+            "json_pointer": "/flows/17",
+            "flow_id": 18,
+            "tls_sni": "media.fastcdn.bar",
+            "destination_port": 2083,
+            "ja3": "20b279993ae2e137e62b9647c6d768fb",
+            "ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+          },
+          {
+            "json_pointer": "/flows/18",
+            "flow_id": 19,
+            "tls_sni": "media.fastcdn.bar",
+            "destination_port": 2083,
+            "ja3": "20b279993ae2e137e62b9647c6d768fb",
+            "ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+          }
+        ],
+        "not_matching_conjunction_flows": 13
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "OWNCTI-84ECACE2D8F420A2",
+      "indicator_type": "behavior_pattern",
+      "indicator": "HTTP POST /check_in retry: approximately 5000 ms after previous matching flow completion",
+      "source_urls": [
+        "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+        "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+        "https://tria.ge/261107-yeacvaex6v/behavioral1"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "reports": [
+          {
+            "source_url": "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+            "capture_sha256": "e31bd7085319c126cb227ad2a4fd430bf28da97c450803ba8af094928a246c32",
+            "capture_bytes": 259975,
+            "embedded_json_offset": 231249,
+            "embedded_json_bytes": 24840,
+            "embedded_json_sha256": "db53d991db1e6caf4cfc7e2682dbf3fe8f5af0261d94539d511b6256fb91d922",
+            "matching_request_flows": 27,
+            "summary": {
+              "count": 26,
+              "minimum": 5000,
+              "median": 5001.0,
+              "maximum": 5002
+            },
+            "unit_basis": "Triage relative report timeline units interpreted as milliseconds; corroborated by provider report timeline/video renderer dividing timeline values by1000 for seconds, and independently verified five-second native initial interval. Measured sandbox retry relationship, not production detection.",
+            "representative_pair": {
+              "prior_flow_id": 1,
+              "next_flow_id": 16,
+              "prior_completion_pointer": "/flows/0/last_seen",
+              "next_start_pointer": "/flows/15/first_seen",
+              "delta_report_units": 5001
+            }
+          },
+          {
+            "source_url": "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+            "capture_sha256": "d2230abd874017a181a25a4c42cd2f8e312ba9b9fa176c1ab9806fbde0de0ed4",
+            "capture_bytes": 259595,
+            "embedded_json_offset": 230995,
+            "embedded_json_bytes": 24698,
+            "embedded_json_sha256": "ae5a5a94e9d358193a0e3f5c52acbad44fff241e095e7016245baef515c4a09d",
+            "matching_request_flows": 27,
+            "summary": {
+              "count": 26,
+              "minimum": 5001,
+              "median": 5003.0,
+              "maximum": 5003
+            },
+            "unit_basis": "Triage relative report timeline units interpreted as milliseconds; corroborated by provider report timeline/video renderer dividing timeline values by1000 for seconds, and independently verified five-second native initial interval. Measured sandbox retry relationship, not production detection.",
+            "representative_pair": {
+              "prior_flow_id": 2,
+              "next_flow_id": 16,
+              "prior_completion_pointer": "/flows/1/last_seen",
+              "next_start_pointer": "/flows/15/first_seen",
+              "delta_report_units": 5002
+            }
+          },
+          {
+            "source_url": "https://tria.ge/261107-yeacvaex6v/behavioral1",
+            "capture_sha256": "ee44e50acac94029ddac1e5117de708d2b644fb04a856553a286c604aeb8492a",
+            "capture_bytes": 260228,
+            "embedded_json_offset": 232174,
+            "embedded_json_bytes": 24168,
+            "embedded_json_sha256": "342f975c367ef0d16adf21434a146c2454c88a86005f0905b7c89da951916299",
+            "matching_request_flows": 26,
+            "summary": {
+              "count": 25,
+              "minimum": 5001,
+              "median": 5003,
+              "maximum": 5006
+            },
+            "unit_basis": "Triage relative report timeline units interpreted as milliseconds; corroborated by provider report timeline/video renderer dividing timeline values by1000 for seconds, and independently verified five-second native initial interval. Measured sandbox retry relationship, not production detection.",
+            "representative_pair": {
+              "prior_flow_id": 2,
+              "next_flow_id": 16,
+              "prior_completion_pointer": "/flows/1/last_seen",
+              "next_start_pointer": "/flows/15/first_seen",
+              "delta_report_units": 5002
+            }
+          }
+        ],
+        "native": {
+          "sample_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+          "interval": {
+            "va": "0x98b2f8",
+            "file_offset": 5812984,
+            "uint64": 5,
+            "seconds_to_nanoseconds_multiplier": 1000000000
+          },
+          "instructions": [
+            {
+              "va": "0x65708b",
+              "file_offset": 2453643,
+              "byte_length": 5,
+              "instruction_sha256": "4fa3c25b2bc64e9dd76b93ce40c0657727c278b9d5eea83a4607a90a2b74ba7b",
+              "instruction": "call 0x658900",
+              "target_function": "main.applyJitter",
+              "target_va": "0x658900"
+            },
+            {
+              "va": "0x657090",
+              "file_offset": 2453648,
+              "byte_length": 5,
+              "instruction_sha256": "96f8024f7b23b3baab3dfed2ea08052fa867f0946c863a191ab756c5da31a948",
+              "instruction": "call 0x479880",
+              "target_function": "time.Sleep",
+              "target_va": "0x479880"
+            },
+            {
+              "va": "0x657095",
+              "file_offset": 2453653,
+              "byte_length": 5,
+              "instruction_sha256": "74ea2c02f1e182f6ac046814d50968e0808e8fa80128012e45a191526de6a8c5",
+              "instruction": "call 0x6589e0",
+              "target_function": "main.checkIn",
+              "target_va": "0x6589e0"
+            },
+            {
+              "va": "0x658925",
+              "file_offset": 2459941,
+              "byte_length": 7,
+              "instruction_sha256": "cbd9533436fe8c4d95f0fc35f3284f3a34352a456c88be57eb62d541883fce8d",
+              "instruction": "imul rax, rax, 0x3b9aca00"
+            }
+          ],
+          "scope": "Native default and selected calls only; server responses can replace interval/jitter. No target execution."
+        },
+        "provider_unit_support": {
+          "source_url": "https://tria.ge/static/js/ui.report_behavioral.js?c=38c00a5e7",
+          "sha256": "6293f3439e67a8a139478d9f2b7518e7fe18ba5aeda9545113f034ae6247da9a",
+          "locator": "Network flow first_seen values enter the report event timeline; timeline/video formatter at byte offset22366 divides report time by1000 to render seconds. Units additionally corroborated by exact native5-second initial interval.",
+          "scope": "Relative provider report counters; not wall-clock activity timestamps."
+        }
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
+      "indicator_type": "domain",
+      "indicator": "static.fastcdn.bar",
+      "source_urls": [
+        "https://crt.sh/?id=29486410014",
+        "https://crt.sh/?q=%25.fastcdn.bar&output=json"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "source_url": "https://crt.sh/?id=29486410014",
+        "retained_response_sha256": "d4050f07dad77311c5aab68e6736d0e0081ad9ec7aba27313830cdb1893c4058",
+        "der_sha256": "469b69feb8c094341665bca137b6a45d08196b63843d1601d019a5f6450df03a",
+        "der_bytes": 920,
+        "dns_san": [
+          "static.fastcdn.bar"
+        ],
+        "validity_start": "2026-09-17T06:21:11+00:00",
+        "validity_end": "2026-12-16T06:21:10+00:00",
+        "spki_sha256": "0b4bcc7fe70b34dc8f82df06f97427a406f3f6c0639ad5868493bfdb67f07ed0",
+        "issuer": "CN=YE1,O=Let's Encrypt,C=US",
+        "scope": "Certificate existence/issuance only; not deployment, ownership, sample or campaign proof."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    },
+    {
+      "record_id": "OWNCTI-AAB562EB200FA015",
+      "indicator_type": "domain",
+      "indicator": "www.fastcdn.bar",
+      "source_urls": [
+        "https://crt.sh/?id=29636991649",
+        "https://crt.sh/?q=%25.fastcdn.bar&output=json"
+      ],
+      "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+      "evidence": {
+        "source_url": "https://crt.sh/?id=29636991649",
+        "retained_response_sha256": "eca0c6625e7a061e04f82b7d486822adcefaa692268d96b7079e8d9fd8a86692",
+        "der_sha256": "47865596765bac88917527597aae12cfcb3ccbcf057cf10882e533813df56f5a",
+        "der_bytes": 914,
+        "dns_san": [
+          "www.fastcdn.bar"
+        ],
+        "validity_start": "2026-09-02T19:03:19+00:00",
+        "validity_end": "2026-12-01T19:03:18+00:00",
+        "spki_sha256": "f1129775a55277de84f43d6caaa85c7b48a9c62960715ffaabf035315208e723",
+        "issuer": "CN=YE1,O=Let's Encrypt,C=US",
+        "scope": "Certificate existence/issuance only; not deployment, ownership, sample or campaign proof."
+      },
+      "limits": [
+        "Production false-positive rate, universal version coverage, malicious operator or current deployment are not established."
+      ]
+    }
+  ],
+  "finite_reference_count": 12,
+  "limits": [
+    "Twelve finite local references; known related variants are outside generated-path predicate scope. No production false-positive estimate or exclusivity claim.",
+    "The Windows generated beacon is an expected coverage miss for ELF-only beacon/persistence rules, not a negative family classification.",
+    "Local official-source controller is not a maintainer-distributed or campaign-acquired controller.",
+    "Static reference matches do not prove malware execution, victim events, controller liveness or malicious use."
+  ]
+}

@@ -10737,6 +10737,57 @@
         "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
         "source_published_date": "2026-11-13",
         "retrieved_at_utc": "2026-11-15T09:33:54.561668+00:00"
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+          "retrieved_at_utc": "2026-11-15T16:29:27.632577+00:00",
+          "source_document_sha256": "a1024786f7aaddc63f83ff0f50f3d0cf11a0242108d25de00a886d3f3508176e",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 15643,
+            "literal": "178.15.54.129",
+            "section": "Sample KQL"
+          }
+        }
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+          "retrieved_at_utc": "2026-11-15T16:29:27.632577+00:00",
+          "source_document_sha256": "a1024786f7aaddc63f83ff0f50f3d0cf11a0242108d25de00a886d3f3508176e",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 16742,
+            "literal": "178.16.54.129",
+            "section": "IOC table"
+          }
+        }
+      },
+      {
+        "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+          "retrieved_at_utc": "2026-11-15T16:33:46.170735+00:00",
+          "source_document_sha256": "3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 12433,
+            "literal": "178.16.54.129",
+            "section": "Compiled indicator table"
+          }
+        }
       }
     ],
     "first_seen": "",
@@ -10765,14 +10816,65 @@
       "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
     ],
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Public-source review only; no target requests, DNS, scans, paid providers, sample submission or execution. Not an automatic blocklist. FBI compiles Microsoft table178.16.54.129. Microsoft sample query still contains178.15.54.129; compilation supplies no independent telemetry or explicit correction resolving discrepancy.",
+    "source_review_scope": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
     "source_review_locator": {
       "source_document_sha256": "3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2",
       "normalized_text_offset": 10428,
       "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:15:23.023405+00:00",
-    "source_review_disposition": "source_literal_revalidated"
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "ARTEX server in Storm-3358 campaign; source active-as-of Nov6",
+        "confidence": "Low",
+        "confidence_scope": "Exact FBI table literal is verified, but the underlying Microsoft table and query disagree on the address. Correct historical endpoint identity remains unresolved.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "source_literal_revalidated",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Public-source review only; no target requests, DNS, scans, paid providers, sample submission or execution. Not an automatic blocklist. FBI compiles Microsoft table178.16.54.129. Microsoft sample query still contains178.15.54.129; compilation supplies no independent telemetry or explicit correction resolving discrepancy.",
+        "source_reviewed_at_utc": "2026-11-15T15:15:23.023405+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+        "retrieved_at_utc": "2026-11-15T16:29:27.632577+00:00",
+        "source_document_sha256": "a1024786f7aaddc63f83ff0f50f3d0cf11a0242108d25de00a886d3f3508176e",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 15643,
+          "literal": "178.15.54.129",
+          "section": "Sample KQL"
+        }
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+        "retrieved_at_utc": "2026-11-15T16:29:27.632577+00:00",
+        "source_document_sha256": "a1024786f7aaddc63f83ff0f50f3d0cf11a0242108d25de00a886d3f3508176e",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 16742,
+          "literal": "178.16.54.129",
+          "section": "IOC table"
+        }
+      },
+      {
+        "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+        "retrieved_at_utc": "2026-11-15T16:33:46.170735+00:00",
+        "source_document_sha256": "3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 12433,
+          "literal": "178.16.54.129",
+          "section": "Compiled indicator table"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "DAILY15-5AF801D22A23",

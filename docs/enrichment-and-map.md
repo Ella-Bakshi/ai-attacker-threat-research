@@ -6,6 +6,8 @@ The main file is [data/ip-overview.csv](../data/ip-overview.csv). Its first five
 
 The [live map](https://ella-bakshi.github.io/ai-attacker-threat-research/) and [standalone map](../maps/index.html) include every selected IP, with filters for evidence class, framework, India campaign scope, C2 and our derivations. Domain-only C2 remains in the [separate C2 list](../india/C2-INFRASTRUCTURE.md); no current DNS result is silently converted into a historical campaign IP.
 
+The map counts selected **unique IP addresses**. Canonical records count source memberships and observations, including hashes, domains, paths and patterns; several records can describe one IP. The master deduplicates exact type/value pairs and also retains separately labeled master-only historical values. These totals measure different things. A review can resolve a hash identity or change an address's evidence classification without changing the map's IP total.
+
 ## Automatic service
 
 The [refresh workflow](../.github/workflows/refresh-ip-map.yml) runs when the IP CSV or its configured source/rendering inputs change on `main`, or through **Actions → Refresh IP overview and publish map → Run workflow**. A build job with read-only repository access downloads open snapshots, fills ASN and location fields, and renders HTML/SVG. A separate job commits only the generated inventory and map files; the deployment job publishes the map to GitHub Pages. No Censys, Shodan or IPinfo key is required. Indicator IPs are not contacted.
@@ -24,6 +26,21 @@ New CSV-only addresses enter as **unreviewed, confidence 0** with no inferred ca
 The CSV is authoritative for the routine refresh: removing a row removes it from the next map. To add newly researched catalog addresses in bulk while preserving existing CSV rows, run the seed command below. The seed also includes historical IP literals found only in the full master, separately labeled `master-only-passive-lead`, with score 10; it does not promote shared CDN addresses or old software sightings to C2.
 
 Repository updates use the commit job's scoped GitHub token; no personal access token is embedded. The refresh runs on trusted `main` pushes and manual dispatch. Source processing has read-only repository access, and Pages permissions belong to the deployment job. A failed refresh leaves the prior published map available. Concurrent work uses ordinary fast-forward pushes; no force push is used.
+
+## When an update becomes visible
+
+Changes become public after they are committed/pushed to the watched paths on `main`; editing a local CSV alone does not publish them. Four successful runs sampled on 15 November 2026 took **50–77 seconds** from workflow creation to completed deployment. Their generated-file commit finished after **35–56 seconds**. These are observed timings, not a service guarantee. See the [latest measured example](https://github.com/Ella-Bakshi/ai-attacker-threat-research/actions/runs/43735022834).
+
+| Output | Update point |
+|---|---|
+| Source CSV/JSON committed by the researcher | Available when the GitHub commit is accepted |
+| Generated enriched CSV/JSON and `maps/world.svg` preview | When committed directly with the research, or after the build and isolated generated-file commit succeed for a CSV-only change |
+| Interactive map / website | After the Pages deployment succeeds; reload an already open tab |
+| Screenshot already posted in chat | A fixed capture; it changes only when a new screenshot is taken |
+
+Allow about **1–3 minutes** for an ordinary successful run, with longer queues/downloads possible. [GitHub documents up to 10 minutes](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) for Pages changes to publish. A README/browser image may retain an older cached copy independently; GitHub documents [image-cache troubleshooting](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls). There is no fixed image-cache expiry promised here. Check the Actions run and the current file/deployment before concluding a refresh failed.
+
+The live page embeds its dataset and does not poll for later changes. A successful rebuild does not alter an already loaded page until it is reloaded. Workflow failure leaves the previous deployment available.
 
 ## Run it yourself
 
@@ -71,6 +88,8 @@ Scores are **ordinal evidence-strength labels from 0 to 100, not calibrated prob
 | 70 | Primary source reports the incident or campaign C2 role; present-day activity unverified |
 
 Manual reviewed scores are separately labeled and require a written basis. A rebuild changes enrichment metadata, not the underlying threat assessment merely because an IP now belongs to another network.
+
+A source record can carry a lower `evidence_score_ceiling` with an explicit `evidence_score_ceiling_basis` when its evidence is weaker than the category default. For example, a host-aggregate certificate-name-only lead is capped at10. This field cannot raise a score, override an unresolved-state cap or lower a separate stronger membership for the same IP. Missing, invalid or unexplained ceilings are ignored.
 
 ## Data sources and location checks
 

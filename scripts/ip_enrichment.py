@@ -106,6 +106,10 @@ def confidence_for_records(records):
             score,basis=20,'Software/reference or contextual observation; standalone maliciousness unestablished.'
         if review_state(r) == 'unverified' and score>10:
             score,basis=10,'Source, role, date or artifact support remains unresolved; consult the record review scope before use.'
+        ceiling=r.get('evidence_score_ceiling')
+        ceiling_basis=r.get('evidence_score_ceiling_basis')
+        if type(ceiling) is int and 0<=ceiling<score and isinstance(ceiling_basis,str) and ceiling_basis.strip():
+            score,basis=ceiling,ceiling_basis.strip()
         scores.append((score,basis,r['record_id']))
     if not scores:return 0,'Unreviewed contributor-supplied IP; no verified campaign association.',[]
     best=max(x[0] for x in scores);chosen=[x for x in scores if x[0]==best]

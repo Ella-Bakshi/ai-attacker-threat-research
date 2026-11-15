@@ -966,10 +966,10 @@
     "role": "Tools & Scripts / c:\\ProgramData\\p1.ps1 (reverse shell PS script)",
     "component": "PowerShell reverse-shell support script",
     "association_scope": "supporting_component_not_framework_identity",
-    "confidence": "High",
-    "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+    "confidence": "Low",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
     "evidence_confidence": "High",
-    "verification_status": "primary_source_literal_and_reported_role_verified_algorithm_unresolved",
+    "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -1003,6 +1003,20 @@
           "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
           "actual_source_id": "securelist"
         }
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+          "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+          "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+          "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+          "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+          "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+        }
       }
     ],
     "limitations": "Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
@@ -1015,17 +1029,42 @@
     "hash_algorithm_evidence": "Publisher lists this exact 32-hex file indicator without an explicit algorithm. No exact-byte calculation or explicit independent provider algorithm bridge was established.",
     "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "source_review_scope": "No exact bytes or explicit primary algorithm bridge found in bounded pass. This does not disprove publisher role or indicate a hash mismatch.",
     "source_review_locator": {
       "source_document_sha256": "7b701701c0329eec53e89b26d18d1af684ac5935fc290e2435e8231b1c64092b",
       "normalized_text_offset": 31058,
       "normalization": "hex_case_normalization",
       "table_row_1based": 10
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_unverified",
     "source_review_original_category": "supporting-tools",
-    "automatic_blocklist_suitable": false
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Tools & Scripts / c:\\ProgramData\\p1.ps1 (reverse shell PS script)",
+        "confidence": "High",
+        "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+        "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+        "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+        "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+        "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+      }
+    ],
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-A56C26C25DE1",
@@ -2466,19 +2505,19 @@
   {
     "record_id": "CS-253AA3067F3C",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-tools",
     "indicator_type": "ipv4",
     "indicator": "23.254.195.48",
     "indicator_defanged": "23[.]254[.]195[.]48",
-    "role": "Host of historical delivery URL; independent family association not established",
+    "role": "Host of reported historical delivery URL serving exact independently examined CyberStrikeAI-template-lineage payloads",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
-    "confidence": "Low",
-    "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+    "confidence": "High",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "URLhaus exact URL and payload SHA256 rows directly bridge delivery location to independently SHA256-verified artifacts; no target contact.",
     "origin": "external_source",
-    "analyst_contribution": "Source research, role/date verification and curation.",
+    "analyst_contribution": "Externally sourced seed/delivery relation plus independent byte/native lineage/configuration verification; no global novelty claim.",
     "global_novelty_claimed": false,
     "source_published_date": "",
     "first_seen": "",
@@ -2507,6 +2546,39 @@
           "capture_sha256": "f954d2d2d3531b9062f0824af045bffded27008ea9d7cf524cd59814168bba03",
           "capture_format": "public_web_rendered_facts_transcription",
           "source_document_sha256": null
+        },
+        "reported_role_scope": "Historical source/curation wording retained; current qualified normalized role is record.role.",
+        "current_normalized_role": "Host of reported historical delivery URL serving exact independently examined CyberStrikeAI-template-lineage payloads"
+      },
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://urlhaus.abuse.ch/url/3944164/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+          "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+          "date_added_utc": "2026-10-07T07:15:25Z",
+          "date_meaning": "URLhaus addition, not first victim activity/deployment",
+          "reported_role": "Malware download",
+          "payload_rows": [
+            {
+              "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+              "provider_firstseen_date": "2026-11-06"
+            },
+            {
+              "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+              "provider_firstseen_date": "2026-10-07"
+            },
+            {
+              "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+              "provider_firstseen_date": "2026-10-07"
+            }
+          ],
+          "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+          "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
         }
       }
     ],
@@ -2516,33 +2588,77 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "URL addition2026-10-07T07:15:25Z and payload-specific firstseen dates are separate. Provider online status is not adopted as our liveness claim. Do not merge8099 delivery with18443/8443 controllers or infer one operator/campaign. Generic beacon(devel) metadata lacks official revision;42matching names plus protocol/native operands support template lineage only.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Host of historical delivery URL; independent family association not established",
+        "confidence": "Low",
+        "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+        "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+        "date_added_utc": "2026-10-07T07:15:25Z",
+        "date_meaning": "URLhaus addition, not first victim activity/deployment",
+        "reported_role": "Malware download",
+        "payload_rows": [
+          {
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "provider_firstseen_date": "2026-11-06"
+          },
+          {
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "provider_firstseen_date": "2026-10-07"
+          },
+          {
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "provider_firstseen_date": "2026-10-07"
+          }
+        ],
+        "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+        "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Host of historical delivery URL; independent family association not established"
   },
   {
     "record_id": "CS-E3AC4FA4203E",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-tools",
     "indicator_type": "network_endpoint",
     "indicator": "23.254.195.48:8099",
     "indicator_defanged": "23[.]254[.]195[.]48:8099",
-    "role": "Service endpoint of historical delivery URL",
+    "role": "Historical payload-delivery HTTP endpoint on8099; not the configured beacon controller port",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
-    "confidence": "Low",
-    "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+    "confidence": "High",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "URLhaus exact URL and payload SHA256 rows directly bridge delivery location to independently SHA256-verified artifacts; no target contact.",
     "origin": "external_source",
-    "analyst_contribution": "Source research, role/date verification and curation.",
+    "analyst_contribution": "Externally sourced seed/delivery relation plus independent byte/native lineage/configuration verification; no global novelty claim.",
     "global_novelty_claimed": false,
     "source_published_date": "",
     "first_seen": "",
@@ -2571,6 +2687,39 @@
           "capture_sha256": "f954d2d2d3531b9062f0824af045bffded27008ea9d7cf524cd59814168bba03",
           "capture_format": "public_web_rendered_facts_transcription",
           "source_document_sha256": null
+        },
+        "reported_role_scope": "Historical source/curation wording retained; current qualified normalized role is record.role.",
+        "current_normalized_role": "Historical payload-delivery HTTP endpoint on8099; not the configured beacon controller port"
+      },
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://urlhaus.abuse.ch/url/3944164/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+          "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+          "date_added_utc": "2026-10-07T07:15:25Z",
+          "date_meaning": "URLhaus addition, not first victim activity/deployment",
+          "reported_role": "Malware download",
+          "payload_rows": [
+            {
+              "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+              "provider_firstseen_date": "2026-11-06"
+            },
+            {
+              "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+              "provider_firstseen_date": "2026-10-07"
+            },
+            {
+              "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+              "provider_firstseen_date": "2026-10-07"
+            }
+          ],
+          "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+          "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
         }
       }
     ],
@@ -2580,31 +2729,75 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "URL addition2026-10-07T07:15:25Z and payload-specific firstseen dates are separate. Provider online status is not adopted as our liveness claim. Do not merge8099 delivery with18443/8443 controllers or infer one operator/campaign. Generic beacon(devel) metadata lacks official revision;42matching names plus protocol/native operands support template lineage only.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Service endpoint of historical delivery URL",
+        "confidence": "Low",
+        "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+        "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+        "date_added_utc": "2026-10-07T07:15:25Z",
+        "date_meaning": "URLhaus addition, not first victim activity/deployment",
+        "reported_role": "Malware download",
+        "payload_rows": [
+          {
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "provider_firstseen_date": "2026-11-06"
+          },
+          {
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "provider_firstseen_date": "2026-10-07"
+          },
+          {
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "provider_firstseen_date": "2026-10-07"
+          }
+        ],
+        "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+        "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Service endpoint of historical delivery URL"
   },
   {
     "record_id": "CS-300BE692CD2A",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "sourced-iocs",
     "indicator_type": "sha1",
     "indicator": "acc5cab873f6f687657f79083dd91f494718217a",
     "indicator_defanged": "acc5cab873f6f687657f79083dd91f494718217a",
     "role": "CyberStrikeAI Linux beacon SHA1 reported for Kaspersky MD5",
     "component": "CyberStrikeAI",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "Medium",
+    "confidence_scope": "Exact provider-reported identity for primary reported beacon seed; malicious/campaign role remains attributed to Kaspersky, no independent execution/decompilation/current operation claim.",
     "evidence_confidence": "High",
-    "verification_status": "Public sandbox metadata only; bytes not acquired and relation not locally hash-verified.",
+    "verification_status": "Explicit Triage MD5/SHA1/SHA256 fields bridge to exact primary Kaspersky Linux-beacon MD5; source-verified metadata relation, not locally byte-computed.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -2638,6 +2831,30 @@
           "document_sha256": "07fd4a54f4fe95d3ced58e3a06067e59f22574c3ccdb92cebfc9e702a4dc140b",
           "actual_source_id": "triage_linux_beacon"
         }
+      },
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://tria.ge/261027-qmb8eaes6q",
+          "retrieved_at_utc": "2026-11-15T15:14:26.039260+00:00",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "retained_primary_html_sha256": "7538d397d8f1e9a439d420c25d8f97b9b766cf7075f19bb654ec6b53fd6e557e",
+          "bytes": 72954,
+          "evidence_locator": "General hash fields: b MD5/SHA1/SHA256 and sibling data-clipboard; not Target filename or sandbox tags",
+          "explicit_hash_bridge": {
+            "SHA256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+            "MD5": "805b9e4ae74c903787416800999b8418",
+            "SHA1": "acc5cab873f6f687657f79083dd91f494718217a"
+          },
+          "primary_seed_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+          "seed_role": "Primary report explicitly lists805b9e4ae74c903787416800999b8418 as CyberStrikeAI Linux Beacon",
+          "source_report_published_date": "2026-11-02",
+          "access_limit": "New ordinary request at2026-11-15T16:30 returned403, stopped; retained substantive200 capture with acquisition identity supports review.",
+          "scope": "Source-supported provider identity bridge, not locally recomputed sample hashes. No sandbox-tag attribution."
+        }
       }
     ],
     "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
@@ -2646,31 +2863,67 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Missing local bytes limits independent computation, not verification of explicit external metadata. Submission/acquisition dates are not victim activity.",
     "source_review_locator": {
       "source_document_sha256": "95f0d0a50dfb507d91492a607fc3fc5755ab7d2d541081fd85c3050c6c63f9d0",
       "normalized_text_offset": 467,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Linux beacon SHA1 reported for Kaspersky MD5",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q",
+        "retrieved_at_utc": "2026-11-15T15:14:26.039260+00:00",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "retained_primary_html_sha256": "7538d397d8f1e9a439d420c25d8f97b9b766cf7075f19bb654ec6b53fd6e557e",
+        "bytes": 72954,
+        "evidence_locator": "General hash fields: b MD5/SHA1/SHA256 and sibling data-clipboard; not Target filename or sandbox tags",
+        "explicit_hash_bridge": {
+          "SHA256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+          "MD5": "805b9e4ae74c903787416800999b8418",
+          "SHA1": "acc5cab873f6f687657f79083dd91f494718217a"
+        },
+        "primary_seed_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "seed_role": "Primary report explicitly lists805b9e4ae74c903787416800999b8418 as CyberStrikeAI Linux Beacon",
+        "source_report_published_date": "2026-11-02",
+        "access_limit": "New ordinary request at2026-11-15T16:30 returned403, stopped; retained substantive200 capture with acquisition identity supports review.",
+        "scope": "Source-supported provider identity bridge, not locally recomputed sample hashes. No sandbox-tag attribution."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-D36F64586D09",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "sourced-iocs",
     "indicator_type": "sha256",
     "indicator": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
     "indicator_defanged": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
     "role": "CyberStrikeAI Linux beacon SHA256 reported for Kaspersky MD5",
     "component": "CyberStrikeAI",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "Medium",
+    "confidence_scope": "Exact provider-reported identity for primary reported beacon seed; malicious/campaign role remains attributed to Kaspersky, no independent execution/decompilation/current operation claim.",
     "evidence_confidence": "High",
-    "verification_status": "Public sandbox metadata only; bytes not acquired and relation not locally hash-verified.",
+    "verification_status": "Explicit Triage MD5/SHA1/SHA256 fields bridge to exact primary Kaspersky Linux-beacon MD5; source-verified metadata relation, not locally byte-computed.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -2704,6 +2957,30 @@
           "document_sha256": "07fd4a54f4fe95d3ced58e3a06067e59f22574c3ccdb92cebfc9e702a4dc140b",
           "actual_source_id": "triage_linux_beacon"
         }
+      },
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://tria.ge/261027-qmb8eaes6q",
+          "retrieved_at_utc": "2026-11-15T15:14:26.039260+00:00",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "retained_primary_html_sha256": "7538d397d8f1e9a439d420c25d8f97b9b766cf7075f19bb654ec6b53fd6e557e",
+          "bytes": 72954,
+          "evidence_locator": "General hash fields: b MD5/SHA1/SHA256 and sibling data-clipboard; not Target filename or sandbox tags",
+          "explicit_hash_bridge": {
+            "SHA256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+            "MD5": "805b9e4ae74c903787416800999b8418",
+            "SHA1": "acc5cab873f6f687657f79083dd91f494718217a"
+          },
+          "primary_seed_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+          "seed_role": "Primary report explicitly lists805b9e4ae74c903787416800999b8418 as CyberStrikeAI Linux Beacon",
+          "source_report_published_date": "2026-11-02",
+          "access_limit": "New ordinary request at2026-11-15T16:30 returned403, stopped; retained substantive200 capture with acquisition identity supports review.",
+          "scope": "Source-supported provider identity bridge, not locally recomputed sample hashes. No sandbox-tag attribution."
+        }
       }
     ],
     "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
@@ -2712,33 +2989,69 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Missing local bytes limits independent computation, not verification of explicit external metadata. Submission/acquisition dates are not victim activity.",
     "source_review_locator": {
       "source_document_sha256": "95f0d0a50dfb507d91492a607fc3fc5755ab7d2d541081fd85c3050c6c63f9d0",
       "normalized_text_offset": 0,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Linux beacon SHA256 reported for Kaspersky MD5",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://tria.ge/261027-qmb8eaes6q",
+        "retrieved_at_utc": "2026-11-15T15:14:26.039260+00:00",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "retained_primary_html_sha256": "7538d397d8f1e9a439d420c25d8f97b9b766cf7075f19bb654ec6b53fd6e557e",
+        "bytes": 72954,
+        "evidence_locator": "General hash fields: b MD5/SHA1/SHA256 and sibling data-clipboard; not Target filename or sandbox tags",
+        "explicit_hash_bridge": {
+          "SHA256": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+          "MD5": "805b9e4ae74c903787416800999b8418",
+          "SHA1": "acc5cab873f6f687657f79083dd91f494718217a"
+        },
+        "primary_seed_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "seed_role": "Primary report explicitly lists805b9e4ae74c903787416800999b8418 as CyberStrikeAI Linux Beacon",
+        "source_report_published_date": "2026-11-02",
+        "access_limit": "New ordinary request at2026-11-15T16:30 returned403, stopped; retained substantive200 capture with acquisition identity supports review.",
+        "scope": "Source-supported provider identity bridge, not locally recomputed sample hashes. No sandbox-tag attribution."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-89855B455A28",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "analyst-derived",
     "indicator_type": "sha256",
     "indicator": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
     "indicator_defanged": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
-    "role": "Different historical payload at indirectly cross-referenced URL; family unknown",
+    "role": "Exact historical URLhaus-delivered Linux payload independently acquired; CyberStrikeAI beacon-template code lineage and intended HTTP endpoint verified statically",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
-    "confidence": "Low",
-    "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+    "confidence": "High",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "Exact public archive member SHA256/CRC/size verified; source/function/protocol and native HTTP arguments support template lineage. Never executed.",
     "origin": "external_source",
-    "analyst_contribution": "Source research, role/date verification and curation.",
+    "analyst_contribution": "Externally sourced seed/delivery relation plus independent byte/native lineage/configuration verification; no global novelty claim.",
     "global_novelty_claimed": false,
     "source_published_date": "",
     "first_seen": "2026-10-07",
@@ -2767,6 +3080,39 @@
           "capture_sha256": "f954d2d2d3531b9062f0824af045bffded27008ea9d7cf524cd59814168bba03",
           "capture_format": "public_web_rendered_facts_transcription",
           "source_document_sha256": null
+        },
+        "reported_role_scope": "Historical source/curation wording retained; current qualified normalized role is record.role.",
+        "current_normalized_role": "Exact historical URLhaus-delivered Linux payload independently acquired; CyberStrikeAI beacon-template code lineage and intended HTTP endpoint verified statically"
+      },
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "artifact_supported",
+        "locator": {
+          "url": "https://urlhaus.abuse.ch/url/3944164/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+          "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+          "date_added_utc": "2026-10-07T07:15:25Z",
+          "date_meaning": "URLhaus addition, not first victim activity/deployment",
+          "reported_role": "Malware download",
+          "payload_rows": [
+            {
+              "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+              "provider_firstseen_date": "2026-11-06"
+            },
+            {
+              "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+              "provider_firstseen_date": "2026-10-07"
+            },
+            {
+              "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+              "provider_firstseen_date": "2026-10-07"
+            }
+          ],
+          "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+          "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
         }
       }
     ],
@@ -2776,33 +3122,134 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes.",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "URL addition2026-10-07T07:15:25Z and payload-specific firstseen dates are separate. Provider online status is not adopted as our liveness claim. Do not merge8099 delivery with18443/8443 controllers or infer one operator/campaign. Generic beacon(devel) metadata lacks official revision;42matching names plus protocol/native operands support template lineage only.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_artifact_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Different historical payload at indirectly cross-referenced URL; family unknown",
+        "confidence": "Low",
+        "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+        "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+        "date_added_utc": "2026-10-07T07:15:25Z",
+        "date_meaning": "URLhaus addition, not first victim activity/deployment",
+        "reported_role": "Malware download",
+        "payload_rows": [
+          {
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "provider_firstseen_date": "2026-11-06"
+          },
+          {
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "provider_firstseen_date": "2026-10-07"
+          },
+          {
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "provider_firstseen_date": "2026-10-07"
+          }
+        ],
+        "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+        "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
+      },
+      {
+        "native_proof_file": "783299-native-static-proof.json",
+        "artifact_identity": {
+          "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+          "md5": "a69b3caad1b51b56ca0786f8ba2f9218",
+          "sha1": "daba73b0849be9c53a088c4ed7a2be84ccd1a563",
+          "bytes": 6115512
+        },
+        "acquisition": {
+          "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+          "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+          "completed_at_utc": "2026-11-15T16:30:11.045787+00:00",
+          "size_CRC_SHA256_verified": true
+        },
+        "native_lineage": {
+          "matching_source_names": 42,
+          "sample_base_names": 43,
+          "official_comparison": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+          "module": "beacon(devel)",
+          "exact_revision_unknown": true
+        },
+        "configured_endpoint": "23.254.195.48:18443",
+        "native_request_evidence": [
+          {
+            "function": "main.checkIn",
+            "function_entry": "0x6589e0",
+            "literal_va": "0x750892",
+            "literal_file_offset": 3475602,
+            "literal_bytes": 35,
+            "value": "http://23.254.195.48:18443/check_in",
+            "operand_instruction_va": "0x65911b",
+            "operand_instruction_file_offset": 2461979,
+            "length_argument": 35,
+            "method": "POST",
+            "method_literal_va": "0x744012",
+            "request_constructor": "net/http.NewRequestWithContext",
+            "constructor_call_va": "0x659139",
+            "constructor_target": "0x630700"
+          },
+          {
+            "function": "main.reportResult",
+            "function_entry": "0x65a040",
+            "literal_va": "0x74f736",
+            "literal_file_offset": 3471158,
+            "literal_bytes": 33,
+            "value": "http://23.254.195.48:18443/result",
+            "operand_instruction_va": "0x65a122",
+            "operand_instruction_file_offset": 2466082,
+            "length_argument": 33,
+            "method": "POST",
+            "method_literal_va": "0x744012",
+            "request_constructor": "net/http.NewRequestWithContext",
+            "constructor_call_va": "0x65a140",
+            "constructor_target": "0x630700"
+          }
+        ]
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Different historical payload at indirectly cross-referenced URL; family unknown"
   },
   {
     "record_id": "CS-2BD128CD46D9",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "analyst-derived",
     "indicator_type": "sha256",
     "indicator": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
     "indicator_defanged": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
-    "role": "Different historical payload at indirectly cross-referenced URL; family unknown",
+    "role": "Exact historical URLhaus-delivered Linux payload independently acquired; CyberStrikeAI beacon-template code lineage and intended HTTP endpoint verified statically",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
-    "confidence": "Low",
-    "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+    "confidence": "High",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "Exact public archive member SHA256/CRC/size verified; source/function/protocol and native HTTP arguments support template lineage. Never executed.",
     "origin": "external_source",
-    "analyst_contribution": "Source research, role/date verification and curation.",
+    "analyst_contribution": "Externally sourced seed/delivery relation plus independent byte/native lineage/configuration verification; no global novelty claim.",
     "global_novelty_claimed": false,
     "source_published_date": "",
     "first_seen": "2026-10-07",
@@ -2831,6 +3278,39 @@
           "capture_sha256": "f954d2d2d3531b9062f0824af045bffded27008ea9d7cf524cd59814168bba03",
           "capture_format": "public_web_rendered_facts_transcription",
           "source_document_sha256": null
+        },
+        "reported_role_scope": "Historical source/curation wording retained; current qualified normalized role is record.role.",
+        "current_normalized_role": "Exact historical URLhaus-delivered Linux payload independently acquired; CyberStrikeAI beacon-template code lineage and intended HTTP endpoint verified statically"
+      },
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "artifact_supported",
+        "locator": {
+          "url": "https://urlhaus.abuse.ch/url/3944164/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+          "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+          "date_added_utc": "2026-10-07T07:15:25Z",
+          "date_meaning": "URLhaus addition, not first victim activity/deployment",
+          "reported_role": "Malware download",
+          "payload_rows": [
+            {
+              "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+              "provider_firstseen_date": "2026-11-06"
+            },
+            {
+              "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+              "provider_firstseen_date": "2026-10-07"
+            },
+            {
+              "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+              "provider_firstseen_date": "2026-10-07"
+            }
+          ],
+          "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+          "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
         }
       }
     ],
@@ -2840,31 +3320,132 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes.",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "URL addition2026-10-07T07:15:25Z and payload-specific firstseen dates are separate. Provider online status is not adopted as our liveness claim. Do not merge8099 delivery with18443/8443 controllers or infer one operator/campaign. Generic beacon(devel) metadata lacks official revision;42matching names plus protocol/native operands support template lineage only.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_artifact_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Different historical payload at indirectly cross-referenced URL; family unknown",
+        "confidence": "Low",
+        "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+        "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+        "date_added_utc": "2026-10-07T07:15:25Z",
+        "date_meaning": "URLhaus addition, not first victim activity/deployment",
+        "reported_role": "Malware download",
+        "payload_rows": [
+          {
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "provider_firstseen_date": "2026-11-06"
+          },
+          {
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "provider_firstseen_date": "2026-10-07"
+          },
+          {
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "provider_firstseen_date": "2026-10-07"
+          }
+        ],
+        "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+        "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
+      },
+      {
+        "native_proof_file": "f825c0-native-static-proof.json",
+        "artifact_identity": {
+          "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+          "md5": "0f38f3a6bc892e5530ce8b50b435a67f",
+          "sha1": "43a702420921ab530e287d6ec8e166a554bc4049",
+          "bytes": 6168868
+        },
+        "acquisition": {
+          "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+          "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+          "completed_at_utc": "2026-11-15T16:32:25.838893+00:00",
+          "size_CRC_SHA256_verified": true
+        },
+        "native_lineage": {
+          "matching_source_names": 42,
+          "sample_base_names": 43,
+          "official_comparison": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+          "module": "beacon(devel)",
+          "exact_revision_unknown": true
+        },
+        "configured_endpoint": "23.254.195.48:18443",
+        "native_request_evidence": [
+          {
+            "function": "main.checkIn",
+            "function_entry": "0x65d560",
+            "literal_va": "0x75722b",
+            "literal_file_offset": 3502635,
+            "literal_bytes": 35,
+            "value": "http://23.254.195.48:18443/check_in",
+            "operand_instruction_va": "0x65dc9b",
+            "operand_instruction_file_offset": 2481307,
+            "length_argument": 35,
+            "method": "POST",
+            "method_literal_va": "0x74a8d2",
+            "request_constructor": "net/http.NewRequestWithContext",
+            "constructor_call_va": "0x65dcb9",
+            "constructor_target": "0x6356e0"
+          },
+          {
+            "function": "main.reportResult",
+            "function_entry": "0x65ebc0",
+            "literal_va": "0x7560cf",
+            "literal_file_offset": 3498191,
+            "literal_bytes": 33,
+            "value": "http://23.254.195.48:18443/result",
+            "operand_instruction_va": "0x65eca2",
+            "operand_instruction_file_offset": 2485410,
+            "length_argument": 33,
+            "method": "POST",
+            "method_literal_va": "0x74a8d2",
+            "request_constructor": "net/http.NewRequestWithContext",
+            "constructor_call_va": "0x65ecc0",
+            "constructor_target": "0x6356e0"
+          }
+        ]
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Different historical payload at indirectly cross-referenced URL; family unknown"
   },
   {
     "record_id": "CS-7C930CB08BE5",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "ssdeep",
     "indicator": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
     "indicator_defanged": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
-    "role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels",
+    "role": "Provider-reported ssdeep fingerprint of exact independently examined CyberStrikeAI-template-lineage ELF cbf1045",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
     "confidence": "Low",
-    "confidence_scope": "Provider-reported fingerprint only; no family attribution",
+    "confidence_scope": "Named provider field/exact-SHA256 association only; similarity does not establish maliciousness, campaign or current infrastructure.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "Explicit provider similarity metadata matched to independently SHA256-verified sample; fuzzy algorithms not locally recomputed.",
     "origin": "external_source",
     "analyst_contribution": "Source research, role/date verification and curation.",
     "global_novelty_claimed": false,
@@ -2886,6 +3467,26 @@
         "retrieved_at_utc": null,
         "reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
         "verification": "Exact sample-page field reviewed; old browser-check URL is not evidence."
+      },
+      {
+        "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry SHA256/File size plus explicitly labeled ssdeep/TLSH/telfhash fields",
+          "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+          "artifact_bytes": 6115476,
+          "metadata": {
+            "ssdeep": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+            "telfhash": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+            "tlsh": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754"
+          },
+          "scope": "Provider-reported similarity fingerprints, not locally recomputed fuzzy algorithms or exact cryptographic identities.",
+          "independent_bridge": "Whole-file SHA256 matches exact provider entry; earlier independent native review supports template lineage, not named Kaspersky campaign."
+        }
       }
     ],
     "limitations": "File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
@@ -2895,31 +3496,64 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_previous_primary_source_url": "https://bazaar.abuse.ch/verify-ua/",
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Similarity fingerprints are not collision-resistant exact identities. No named Kaspersky campaign association for cbf1045; native lineage does not resolve operator/campaign.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "role_or_date_correction",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels",
+        "confidence": "Low",
+        "confidence_scope": "Provider-reported fingerprint only; no family attribution",
+        "source_review_state": "unverified",
+        "source_review_disposition": "role_or_date_correction",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry SHA256/File size plus explicitly labeled ssdeep/TLSH/telfhash fields",
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "artifact_bytes": 6115476,
+        "metadata": {
+          "ssdeep": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+          "telfhash": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+          "tlsh": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754"
+        },
+        "scope": "Provider-reported similarity fingerprints, not locally recomputed fuzzy algorithms or exact cryptographic identities.",
+        "independent_bridge": "Whole-file SHA256 matches exact provider entry; earlier independent native review supports template lineage, not named Kaspersky campaign."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels"
   },
   {
     "record_id": "CS-7D150376A11D",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "telfhash",
     "indicator": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
     "indicator_defanged": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
-    "role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels",
+    "role": "Provider-reported telfhash fingerprint of exact independently examined CyberStrikeAI-template-lineage ELF cbf1045",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
     "confidence": "Low",
-    "confidence_scope": "Provider-reported fingerprint only; no family attribution",
+    "confidence_scope": "Named provider field/exact-SHA256 association only; similarity does not establish maliciousness, campaign or current infrastructure.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "Explicit provider similarity metadata matched to independently SHA256-verified sample; fuzzy algorithms not locally recomputed.",
     "origin": "external_source",
     "analyst_contribution": "Source research, role/date verification and curation.",
     "global_novelty_claimed": false,
@@ -2941,6 +3575,26 @@
         "retrieved_at_utc": null,
         "reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
         "verification": "Exact sample-page field reviewed; old browser-check URL is not evidence."
+      },
+      {
+        "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry SHA256/File size plus explicitly labeled ssdeep/TLSH/telfhash fields",
+          "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+          "artifact_bytes": 6115476,
+          "metadata": {
+            "ssdeep": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+            "telfhash": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+            "tlsh": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754"
+          },
+          "scope": "Provider-reported similarity fingerprints, not locally recomputed fuzzy algorithms or exact cryptographic identities.",
+          "independent_bridge": "Whole-file SHA256 matches exact provider entry; earlier independent native review supports template lineage, not named Kaspersky campaign."
+        }
       }
     ],
     "limitations": "File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
@@ -2950,31 +3604,64 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_previous_primary_source_url": "https://bazaar.abuse.ch/verify-ua/",
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Similarity fingerprints are not collision-resistant exact identities. No named Kaspersky campaign association for cbf1045; native lineage does not resolve operator/campaign.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "role_or_date_correction",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels",
+        "confidence": "Low",
+        "confidence_scope": "Provider-reported fingerprint only; no family attribution",
+        "source_review_state": "unverified",
+        "source_review_disposition": "role_or_date_correction",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry SHA256/File size plus explicitly labeled ssdeep/TLSH/telfhash fields",
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "artifact_bytes": 6115476,
+        "metadata": {
+          "ssdeep": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+          "telfhash": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+          "tlsh": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754"
+        },
+        "scope": "Provider-reported similarity fingerprints, not locally recomputed fuzzy algorithms or exact cryptographic identities.",
+        "independent_bridge": "Whole-file SHA256 matches exact provider entry; earlier independent native review supports template lineage, not named Kaspersky campaign."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels"
   },
   {
     "record_id": "CS-4C2EBDCEADAD",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "tlsh",
     "indicator": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754",
     "indicator_defanged": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754",
-    "role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels",
+    "role": "Provider-reported tlsh fingerprint of exact independently examined CyberStrikeAI-template-lineage ELF cbf1045",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
     "confidence": "Low",
-    "confidence_scope": "Provider-reported fingerprint only; no family attribution",
+    "confidence_scope": "Named provider field/exact-SHA256 association only; similarity does not establish maliciousness, campaign or current infrastructure.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "Explicit provider similarity metadata matched to independently SHA256-verified sample; fuzzy algorithms not locally recomputed.",
     "origin": "external_source",
     "analyst_contribution": "Source research, role/date verification and curation.",
     "global_novelty_claimed": false,
@@ -2996,6 +3683,26 @@
         "retrieved_at_utc": null,
         "reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
         "verification": "Exact sample-page field reviewed; old browser-check URL is not evidence."
+      },
+      {
+        "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry SHA256/File size plus explicitly labeled ssdeep/TLSH/telfhash fields",
+          "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+          "artifact_bytes": 6115476,
+          "metadata": {
+            "ssdeep": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+            "telfhash": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+            "tlsh": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754"
+          },
+          "scope": "Provider-reported similarity fingerprints, not locally recomputed fuzzy algorithms or exact cryptographic identities.",
+          "independent_bridge": "Whole-file SHA256 matches exact provider entry; earlier independent native review supports template lineage, not named Kaspersky campaign."
+        }
       }
     ],
     "limitations": "File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
@@ -3005,33 +3712,66 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_previous_primary_source_url": "https://bazaar.abuse.ch/verify-ua/",
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Similarity fingerprints are not collision-resistant exact identities. No named Kaspersky campaign association for cbf1045; native lineage does not resolve operator/campaign.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "role_or_date_correction",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels",
+        "confidence": "Low",
+        "confidence_scope": "Provider-reported fingerprint only; no family attribution",
+        "source_review_state": "unverified",
+        "source_review_disposition": "role_or_date_correction",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry SHA256/File size plus explicitly labeled ssdeep/TLSH/telfhash fields",
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "artifact_bytes": 6115476,
+        "metadata": {
+          "ssdeep": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+          "telfhash": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+          "tlsh": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754"
+        },
+        "scope": "Provider-reported similarity fingerprints, not locally recomputed fuzzy algorithms or exact cryptographic identities.",
+        "independent_bridge": "Whole-file SHA256 matches exact provider entry; earlier independent native review supports template lineage, not named Kaspersky campaign."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "Public ELF sample identity/fingerprint; vendors label CyberStrikeAI with conflicting labels"
   },
   {
     "record_id": "CS-459A87EEA089",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-tools",
     "indicator_type": "url",
     "indicator": "http://23.254.195.48:8099/bx_amd64.p",
     "indicator_defanged": "hxxp://23[.]254[.]195[.]48:8099/bx_amd64.p",
-    "role": "URLhaus historical sample delivery URL indirectly cross-referenced by MalwareBazaar",
+    "role": "Reported historical delivery URL with direct payload-SHA256 rows for independently examined CyberStrikeAI-template-lineage artifacts",
     "component": "CyberStrikeAI",
     "association_scope": "not_independently_established_for_this_framework",
-    "confidence": "Low",
-    "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+    "confidence": "High",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
     "evidence_confidence": "Source-reported",
-    "verification_status": "Source-reported; literal/source proof retained, independently operationally unverified.",
+    "verification_status": "URLhaus exact URL and payload SHA256 rows directly bridge delivery location to independently SHA256-verified artifacts; no target contact.",
     "origin": "external_source",
-    "analyst_contribution": "Source research, role/date verification and curation.",
+    "analyst_contribution": "Externally sourced seed/delivery relation plus independent byte/native lineage/configuration verification; no global novelty claim.",
     "global_novelty_claimed": false,
     "source_published_date": "",
     "first_seen": "",
@@ -3060,6 +3800,39 @@
           "capture_sha256": "f954d2d2d3531b9062f0824af045bffded27008ea9d7cf524cd59814168bba03",
           "capture_format": "public_web_rendered_facts_transcription",
           "source_document_sha256": null
+        },
+        "reported_role_scope": "Historical source/curation wording retained; current qualified normalized role is record.role.",
+        "current_normalized_role": "Reported historical delivery URL with direct payload-SHA256 rows for independently examined CyberStrikeAI-template-lineage artifacts"
+      },
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://urlhaus.abuse.ch/url/3944164/",
+          "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+          "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+          "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+          "date_added_utc": "2026-10-07T07:15:25Z",
+          "date_meaning": "URLhaus addition, not first victim activity/deployment",
+          "reported_role": "Malware download",
+          "payload_rows": [
+            {
+              "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+              "provider_firstseen_date": "2026-11-06"
+            },
+            {
+              "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+              "provider_firstseen_date": "2026-10-07"
+            },
+            {
+              "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+              "provider_firstseen_date": "2026-10-07"
+            }
+          ],
+          "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+          "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
         }
       }
     ],
@@ -3069,16 +3842,60 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "URL addition2026-10-07T07:15:25Z and payload-specific firstseen dates are separate. Provider online status is not adopted as our liveness claim. Do not merge8099 delivery with18443/8443 controllers or infer one operator/campaign. Generic beacon(devel) metadata lacks official revision;42matching names plus protocol/native operands support template lineage only.",
     "source_review_locator": {
       "source_document_sha256": null,
       "normalized_text_offset": -1,
       "normalization": "primary_web_rendered_fact"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_source_supported",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "URLhaus historical sample delivery URL indirectly cross-referenced by MalwareBazaar",
+        "confidence": "Low",
+        "confidence_scope": "Reported role or file identity only; not a standalone framework/campaign attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+        "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+        "date_added_utc": "2026-10-07T07:15:25Z",
+        "date_meaning": "URLhaus addition, not first victim activity/deployment",
+        "reported_role": "Malware download",
+        "payload_rows": [
+          {
+            "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+            "provider_firstseen_date": "2026-11-06"
+          },
+          {
+            "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "provider_firstseen_date": "2026-10-07"
+          },
+          {
+            "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "provider_firstseen_date": "2026-10-07"
+          }
+        ],
+        "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+        "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution",
+    "source_review_previous_role": "URLhaus historical sample delivery URL indirectly cross-referenced by MalwareBazaar"
   },
   {
     "record_id": "UN-E8AE40A8B8B7",
@@ -3119,6 +3936,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "176.65.144[.]71",
         "normalized_literal_offset": 4131
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4239,
+            "literal": "176.65.144.71",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3128,15 +3962,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4239,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4239,
+          "literal": "176.65.144.71",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-5941A37C2CF8",
@@ -3177,6 +4040,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "31.56.206[.]187",
         "normalized_literal_offset": 3946
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4054,
+            "literal": "31.56.206.187",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3186,15 +4066,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4054,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4054,
+          "literal": "31.56.206.187",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-297E91662108",
@@ -3235,6 +4144,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "31.59.92[.]155",
         "normalized_literal_offset": 3918
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4026,
+            "literal": "31.59.92.155",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3244,15 +4170,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4026,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4026,
+          "literal": "31.59.92.155",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-6A01D3AD3BD1",
@@ -3293,6 +4248,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "38.244.50[.]120",
         "normalized_literal_offset": 3975
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4083,
+            "literal": "38.244.50.120",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3302,15 +4274,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4083,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4083,
+          "literal": "38.244.50.120",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-6987F2D196F6",
@@ -3351,6 +4352,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "46.8.227[.]73",
         "normalized_literal_offset": 3991
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4099,
+            "literal": "46.8.227.73",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3360,15 +4378,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4099,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4099,
+          "literal": "46.8.227.73",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-5CB4A6A4EB2E",
@@ -3409,6 +4456,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "64.44.24[.]195",
         "normalized_literal_offset": 4018
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4126,
+            "literal": "64.44.24.195",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3418,15 +4482,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4126,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4126,
+          "literal": "64.44.24.195",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-EFAA3FB3E8B1",
@@ -3467,6 +4560,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "94.183.184[.]254",
         "normalized_literal_offset": 4072
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4180,
+            "literal": "94.183.184.254",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3476,15 +4586,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4180,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4180,
+          "literal": "94.183.184.254",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-A30F5A5644CA",
@@ -3525,6 +4664,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "94.183.184[.]98",
         "normalized_literal_offset": 4042
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4150,
+            "literal": "94.183.184.98",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3534,15 +4690,44 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4150,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4150,
+          "literal": "94.183.184.98",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "UN-DCF396B68119",
@@ -3583,6 +4768,23 @@
         "verification": "Source-reported; literal/source proof retained, independently operationally unverified.",
         "source_literal": "95.182.99[.]112",
         "normalized_literal_offset": 4102
+      },
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+          "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+          "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4210,
+            "literal": "95.182.99.112",
+            "section": "Case E, added23October2026; suspicious access-source list"
+          }
+        }
       }
     ],
     "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
@@ -3592,14 +4794,43 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
     "source_review_locator": {
       "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
       "normalized_text_offset": 4210,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+        "confidence": "Medium",
+        "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-15T16:29:27.586100+00:00",
+        "source_document_sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4210,
+          "literal": "95.182.99.112",
+          "section": "Case E, added23October2026; suspicious access-source list"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   }
 ]

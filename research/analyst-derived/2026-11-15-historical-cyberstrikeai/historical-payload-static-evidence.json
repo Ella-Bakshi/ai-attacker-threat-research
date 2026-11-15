@@ -1,0 +1,324 @@
+{
+  "title": "Historical CyberStrikeAI-template-lineage Linux payloads: exact public artifact review",
+  "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+  "source_seed": {
+    "url": "https://urlhaus.abuse.ch/url/3944164/",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "evidence_locator": "Database Entry ID/URL/Date added/Threat; Payload delivery table SHA256 and Firstseen columns",
+    "url_value": "http://23.254.195.48:8099/bx_amd64.p",
+    "date_added_utc": "2026-10-07T07:15:25Z",
+    "date_meaning": "URLhaus addition, not first victim activity/deployment",
+    "reported_role": "Malware download",
+    "payload_rows": [
+      {
+        "sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "provider_firstseen_date": "2026-11-06"
+      },
+      {
+        "sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "provider_firstseen_date": "2026-10-07"
+      },
+      {
+        "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "provider_firstseen_date": "2026-10-07"
+      }
+    ],
+    "access": "Ordinary public web reader returned substantive entry; no rescan triggered",
+    "scope": "Provider historical payload delivery; current operation, successful beacon registration and named campaign not established."
+  },
+  "artifacts": [
+    {
+      "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+      "md5": "a69b3caad1b51b56ca0786f8ba2f9218",
+      "sha1": "daba73b0849be9c53a088c4ed7a2be84ccd1a563",
+      "bytes": 6115512,
+      "reviewed_at_utc": "2026-11-15T16:32:03.523197+00:00",
+      "native_go_functions": 6372,
+      "main_functions": 66,
+      "matching_official_template_base_function_names": [
+        "applyJitter",
+        "buildTaskReport",
+        "checkIn",
+        "decryptGCM",
+        "encodeReportText",
+        "encryptGCM",
+        "exeSelf",
+        "executeTask",
+        "fetchC2FileByID",
+        "fetchTasks",
+        "firstInternalIP",
+        "firstMACAddr",
+        "generateImplantUUID",
+        "handleSocks5",
+        "handleTaskAsync",
+        "hostnameOrDefault",
+        "isAdminProcess",
+        "main",
+        "persistLinux",
+        "reportResult",
+        "runWithTimeout",
+        "taskCd",
+        "taskDownload",
+        "taskExec",
+        "taskKillProc",
+        "taskLoadAssembly",
+        "taskLs",
+        "taskPersist",
+        "taskPortForward",
+        "taskPs",
+        "taskPwd",
+        "taskScreenshot",
+        "taskSelfDelete",
+        "taskShell",
+        "taskSleep",
+        "taskSocksStart",
+        "taskSocksStop",
+        "taskUpload",
+        "tcpFetchEncryptedFile",
+        "tcpReadFrame",
+        "tcpRoundTrip",
+        "tcpWriteFrame"
+      ],
+      "overlap_count": 42,
+      "sample_base_function_count": 43,
+      "rare_source_correspondences": [
+        "tcpFetchEncryptedFile",
+        "fetchC2FileByID",
+        "buildTaskReport",
+        "handleSocks5",
+        "taskLoadAssembly"
+      ],
+      "official_comparison": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+      "build_metadata": "go1.25.0; module/path beacon; devel; Linux AMD64; trimpath; CGO0; no official revision embedded",
+      "native_request_evidence": [
+        {
+          "function": "main.checkIn",
+          "function_entry": "0x6589e0",
+          "literal_va": "0x750892",
+          "literal_file_offset": 3475602,
+          "literal_bytes": 35,
+          "value": "http://23.254.195.48:18443/check_in",
+          "operand_instruction_va": "0x65911b",
+          "operand_instruction_file_offset": 2461979,
+          "length_argument": 35,
+          "method": "POST",
+          "method_literal_va": "0x744012",
+          "request_constructor": "net/http.NewRequestWithContext",
+          "constructor_call_va": "0x659139",
+          "constructor_target": "0x630700"
+        },
+        {
+          "function": "main.reportResult",
+          "function_entry": "0x65a040",
+          "literal_va": "0x74f736",
+          "literal_file_offset": 3471158,
+          "literal_bytes": 33,
+          "value": "http://23.254.195.48:18443/result",
+          "operand_instruction_va": "0x65a122",
+          "operand_instruction_file_offset": 2466082,
+          "length_argument": 33,
+          "method": "POST",
+          "method_literal_va": "0x744012",
+          "request_constructor": "net/http.NewRequestWithContext",
+          "constructor_call_va": "0x65a140",
+          "constructor_target": "0x630700"
+        }
+      ],
+      "assessment": "Specific native/function/protocol-marker correspondence supports CyberStrikeAI beacon-template code lineage; no official module/build revision available, exact generating revision unknown. Historical configured endpoint, not successful operation or named campaign.",
+      "limitations": [
+        "No sample execution, controller contact, scan, DNS or sandbox submission.",
+        "Generic module/path beacon does not itself prove family; source function/protocol/native operands provide the lineage evidence.",
+        "Shared IP or delivery URL does not prove one operator/campaign or all samples same family.",
+        "Keys/tokens omitted. No new globally novel IP claimed."
+      ]
+    },
+    {
+      "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+      "md5": "0f38f3a6bc892e5530ce8b50b435a67f",
+      "sha1": "43a702420921ab530e287d6ec8e166a554bc4049",
+      "bytes": 6168868,
+      "reviewed_at_utc": "2026-11-15T16:33:08.659328+00:00",
+      "native_go_functions": 6459,
+      "main_functions": 66,
+      "matching_official_template_base_function_names": [
+        "applyJitter",
+        "buildTaskReport",
+        "checkIn",
+        "decryptGCM",
+        "encodeReportText",
+        "encryptGCM",
+        "exeSelf",
+        "executeTask",
+        "fetchC2FileByID",
+        "fetchTasks",
+        "firstInternalIP",
+        "firstMACAddr",
+        "generateImplantUUID",
+        "handleSocks5",
+        "handleTaskAsync",
+        "hostnameOrDefault",
+        "isAdminProcess",
+        "main",
+        "persistLinux",
+        "reportResult",
+        "runWithTimeout",
+        "taskCd",
+        "taskDownload",
+        "taskExec",
+        "taskKillProc",
+        "taskLoadAssembly",
+        "taskLs",
+        "taskPersist",
+        "taskPortForward",
+        "taskPs",
+        "taskPwd",
+        "taskScreenshot",
+        "taskSelfDelete",
+        "taskShell",
+        "taskSleep",
+        "taskSocksStart",
+        "taskSocksStop",
+        "taskUpload",
+        "tcpFetchEncryptedFile",
+        "tcpReadFrame",
+        "tcpRoundTrip",
+        "tcpWriteFrame"
+      ],
+      "overlap_count": 42,
+      "sample_base_function_count": 43,
+      "rare_source_correspondences": [
+        "tcpFetchEncryptedFile",
+        "fetchC2FileByID",
+        "buildTaskReport",
+        "handleSocks5",
+        "taskLoadAssembly"
+      ],
+      "official_comparison": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+      "comparison_git_source_sha256": "91b110e611535a850e7d5900f367b32135657e0c98fde91d952f73b18b26ff89",
+      "build_metadata": "go1.25.0; module/path beacon; devel; Linux AMD64; trimpath; CGO1; no official revision embedded",
+      "native_request_evidence": [
+        {
+          "function": "main.checkIn",
+          "function_entry": "0x65d560",
+          "literal_va": "0x75722b",
+          "literal_file_offset": 3502635,
+          "literal_bytes": 35,
+          "value": "http://23.254.195.48:18443/check_in",
+          "operand_instruction_va": "0x65dc9b",
+          "operand_instruction_file_offset": 2481307,
+          "length_argument": 35,
+          "method": "POST",
+          "method_literal_va": "0x74a8d2",
+          "request_constructor": "net/http.NewRequestWithContext",
+          "constructor_call_va": "0x65dcb9",
+          "constructor_target": "0x6356e0"
+        },
+        {
+          "function": "main.reportResult",
+          "function_entry": "0x65ebc0",
+          "literal_va": "0x7560cf",
+          "literal_file_offset": 3498191,
+          "literal_bytes": 33,
+          "value": "http://23.254.195.48:18443/result",
+          "operand_instruction_va": "0x65eca2",
+          "operand_instruction_file_offset": 2485410,
+          "length_argument": 33,
+          "method": "POST",
+          "method_literal_va": "0x74a8d2",
+          "request_constructor": "net/http.NewRequestWithContext",
+          "constructor_call_va": "0x65ecc0",
+          "constructor_target": "0x6356e0"
+        }
+      ],
+      "assessment": "Specific native/function/protocol-marker correspondence supports CyberStrikeAI beacon-template code lineage; no official module/build revision available, exact generating revision unknown. Historical configured endpoint, not successful operation or named campaign.",
+      "limitations": [
+        "No sample execution, controller contact, scan, DNS or sandbox submission.",
+        "Generic module/path beacon does not itself prove family; source function/protocol/native operands provide lineage evidence.",
+        "Shared IP/delivery URL does not prove one operator/campaign or all samples same family.",
+        "Keys/tokens omitted. No globally novel IP claimed."
+      ]
+    }
+  ],
+  "acquisitions": [
+    {
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+      "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+      "uncompressed_bytes": 6115512,
+      "compressed_bytes": 2572100,
+      "ZIP_CRC32": "be1e5cb4",
+      "local_member_offset": 458916433,
+      "completed_at_utc": "2026-11-15T16:30:11.045787+00:00",
+      "SHA256_size_CRC_verified": true,
+      "executed": false
+    },
+    {
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+      "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+      "uncompressed_bytes": 6168868,
+      "compressed_bytes": 2592711,
+      "ZIP_CRC32": "1ebf1425",
+      "local_member_offset": 340206836,
+      "completed_at_utc": "2026-11-15T16:32:25.838893+00:00",
+      "SHA256_size_CRC_verified": true,
+      "executed": false
+    }
+  ],
+  "finite_negative_controls": {
+    "reviewed_at_utc": "2026-11-15T16:34:32.160969+00:00",
+    "method": "Finite offline raw-byte marker comparison, not production false-positive validation. No target execution.",
+    "markers": [
+      "main.fetchC2FileByID",
+      "main.buildTaskReport",
+      "X-Implant-Token",
+      "X-Session-Token",
+      "__CSAI_CWD_%x__"
+    ],
+    "controls": {
+      "historical_783": {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "bytes": 6115512,
+        "conjunction_matches": true,
+        "old_generated_path_present": false,
+        "existing_generated_path_ELF_rule_matches": []
+      },
+      "historical_f825": {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "bytes": 6168868,
+        "conjunction_matches": true,
+        "old_generated_path_present": false,
+        "existing_generated_path_ELF_rule_matches": []
+      },
+      "ARTEX_reference": {
+        "artifact_sha256": "e7636427fbad57638e83eee3d0f2d5e6efe61fe67173da3cef19266fce316e4d",
+        "bytes": 39452798,
+        "conjunction_matches": false,
+        "old_generated_path_present": false
+      },
+      "CyberStrikeAI_local_controller_reference": {
+        "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+        "bytes": 105005177,
+        "conjunction_matches": false,
+        "old_generated_path_present": false
+      },
+      "third_party_egress": {
+        "artifact_sha256": "4fd935e7ced58b2f5ed7147e38b8d49347dbaef22438195a19a12dd9927e9e1a",
+        "bytes": 8712376,
+        "conjunction_matches": false,
+        "old_generated_path_present": false
+      },
+      "benign_Go_compiler": {
+        "artifact_sha256": "6dab92791deb4e54adda06cc83304936c4dcc0d76ffc35cf4ac93c065a66f088",
+        "bytes": 15317504,
+        "conjunction_matches": false,
+        "old_generated_path_present": false
+      }
+    },
+    "limit": "Both historical variants lack the generated official module path; the existing generated-path ELF signature misses both. Source-template lineage supported by broader independent native evidence, not a renamed global rule. No cross-platform or comprehensive coverage claim."
+  },
+  "limits": [
+    "No live probing, execution, credentials, raw requests or secret configuration exported.",
+    "Static intended endpoints/template lineage, not successful registration or a named campaign.",
+    "Both lack generated official module path; existing path-based ELF signature misses them.",
+    "Source can be copied; exact revision/operator/campaign unknown."
+  ]
+}

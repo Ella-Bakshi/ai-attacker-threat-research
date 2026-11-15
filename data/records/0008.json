@@ -46,6 +46,57 @@
           "document_sha256": "1c5bab19afdc9f96428bb6c9488b2b549f91ccdbc79cb84551be798ceb70919e",
           "actual_source_id": "ahnlab"
         }
+      },
+      {
+        "url": "https://asec.ahnlab.com/en/95845/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://asec.ahnlab.com/en/95845/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.744645+00:00",
+          "source_document_sha256": "d6c848b8b9cc10b29d5cd6ccb774c1a646293383773d252fe933bd2888466923",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 8226,
+            "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+            "section": "Table2 IOC information; two operational directories"
+          }
+        }
+      },
+      {
+        "url": "https://asec.ahnlab.com/ko/95844/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://asec.ahnlab.com/ko/95844/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.745731+00:00",
+          "source_document_sha256": "8a1ca100b5921aac6f898c7e427a59f0e344abceb84ffcedd53d5cb11ae542de",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 3991,
+            "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+            "section": "Table2 IOC information; two operational directories"
+          }
+        }
+      },
+      {
+        "url": "https://asec.ahnlab.com/jp/96199/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://asec.ahnlab.com/jp/96199/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.745181+00:00",
+          "source_document_sha256": "e348701052b12d00e2da3c0f8584486ce56c472c4148ab05f01b3352c5fe1d74",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 4136,
+            "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+            "section": "Table2 IOC information; two operational directories"
+          }
+        }
       }
     ],
     "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
@@ -55,31 +106,82 @@
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
     "source_review_locator": {
       "source_document_sha256": "f8559e61c33bf6de66bed6647346dac432beebb10e63eb382999ac1b27436e70",
       "normalized_text_offset": 8226,
       "normalization": "hex_case_normalization",
       "table_row_1based": 28
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "File/tool artifact in exposed ARTEX-related operational directories",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://asec.ahnlab.com/en/95845/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.744645+00:00",
+        "source_document_sha256": "d6c848b8b9cc10b29d5cd6ccb774c1a646293383773d252fe933bd2888466923",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 8226,
+          "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+          "section": "Table2 IOC information; two operational directories"
+        }
+      },
+      {
+        "url": "https://asec.ahnlab.com/ko/95844/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.745731+00:00",
+        "source_document_sha256": "8a1ca100b5921aac6f898c7e427a59f0e344abceb84ffcedd53d5cb11ae542de",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 3991,
+          "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+          "section": "Table2 IOC information; two operational directories"
+        }
+      },
+      {
+        "url": "https://asec.ahnlab.com/jp/96199/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.745181+00:00",
+        "source_document_sha256": "e348701052b12d00e2da3c0f8584486ce56c472c4148ab05f01b3352c5fe1d74",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 4136,
+          "literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+          "section": "Table2 IOC information; two operational directories"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-27792EC7CD82",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/DevComputaria/ARTEX",
     "indicator_defanged": "github[.]com/DevComputaria/ARTEX",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -113,24 +215,98 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DevComputaria/ARTEX/c8584a76d0ab8af6642cb04bf5a1d35e89ef81ac/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/DevComputaria/ARTEX/c8584a76d0ab8af6642cb04bf5a1d35e89ef81ac/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746459+00:00",
+          "source_document_sha256": "c480e69e53ec7ec413f4312df15694c7d72e6ca745f26d83f90007de3785fdf3",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 18,
+                "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/DevComputaria/ARTEX"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Copy of trhhubsd/ARTEX.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Copy of trhhubsd/ARTEX.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Copy of trhhubsd/ARTEX.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/DevComputaria/ARTEX/c8584a76d0ab8af6642cb04bf5a1d35e89ef81ac/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746459+00:00",
+        "source_document_sha256": "c480e69e53ec7ec413f4312df15694c7d72e6ca745f26d83f90007de3785fdf3",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 18,
+              "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/DevComputaria/ARTEX"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-40970CCA953F",
@@ -173,39 +349,157 @@
         "last_seen": "",
         "verification": "prior_extraction_not_reproduced",
         "literal_proof": null
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repository-reference table, deleted row",
+            "literal": "aizhihuxiao/ARTEX"
+          }
+        }
+      },
+      {
+        "url": "https://api.github.com/repos/aizhihuxiao/ARTEX",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://api.github.com/repos/aizhihuxiao/ARTEX",
+          "retrieved_at_utc": "2026-11-15T16:31:07.739564+00:00",
+          "source_document_sha256": "c4740f60231cfb65eb1f5a1ddf987f2d0cb4f4f5d0127f61c5f8dba99f6321cf",
+          "locator": {
+            "json_pointers": [
+              "/id",
+              "/created_at",
+              "/parent/full_name"
+            ],
+            "values": {
+              "id": 1456427293,
+              "created_at": "2026-11-13T09:51:29Z",
+              "parent": "RuoJi6/ARTEX"
+            }
+          }
+        }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aizhihuxiao/ARTEX/2290acfa62c2c26d54d16a306ae96775b342585f/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/aizhihuxiao/ARTEX/2290acfa62c2c26d54d16a306ae96775b342585f/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:31:38.245666+00:00",
+          "source_document_sha256": "f3198f04685d55708019521eec4bf6059aee0fd6706a2dcbe6298cbeb9d13269",
+          "locator": [
+            {
+              "line": 3,
+              "text": "    image: postgres:16-alpine"
+            },
+            {
+              "line": 18,
+              "text": "    image: ${ARTEX_IMAGE:-ruoji6/artex}:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX.",
+    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX. Current same-name GitHub repository object1456427293 was created2026-11-13, after the historical deleted-reference report; its inspected pinned compose defaults to ruoji6/artex. Current recreation is not the historical repository object. Historical source pointer remains unverified.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX.",
+    "source_review_scope": "New corrective evidence: the current same-name GitHub repository has object ID1456427293 and creation time2026-11-13T09:51:29Z, after the5November deleted-reference report. It is a RuoJi6/ARTEX fork whose inspected pinned compose defaults to ruoji6/artex, not tomicdd/artex. It cannot substitute for the deleted historical repository. One Software Heritage origin lookup returned404; no original object or archived dependency was recovered.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "explicit_source_component_normalization"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "still_uncertain_historical_repository_recreated",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repository-reference table, deleted row",
+          "literal": "aizhihuxiao/ARTEX"
+        }
+      },
+      {
+        "url": "https://api.github.com/repos/aizhihuxiao/ARTEX",
+        "retrieved_at_utc": "2026-11-15T16:31:07.739564+00:00",
+        "source_document_sha256": "c4740f60231cfb65eb1f5a1ddf987f2d0cb4f4f5d0127f61c5f8dba99f6321cf",
+        "locator": {
+          "json_pointers": [
+            "/id",
+            "/created_at",
+            "/parent/full_name"
+          ],
+          "values": {
+            "id": 1456427293,
+            "created_at": "2026-11-13T09:51:29Z",
+            "parent": "RuoJi6/ARTEX"
+          }
+        }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aizhihuxiao/ARTEX/2290acfa62c2c26d54d16a306ae96775b342585f/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:31:38.245666+00:00",
+        "source_document_sha256": "f3198f04685d55708019521eec4bf6059aee0fd6706a2dcbe6298cbeb9d13269",
+        "locator": [
+          {
+            "line": 3,
+            "text": "    image: postgres:16-alpine"
+          },
+          {
+            "line": 18,
+            "text": "    image: ${ARTEX_IMAGE:-ruoji6/artex}:${ARTEX_TAG:-latest}"
+          }
+        ]
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-43F589C641CC",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/burakkocer/PenX",
     "indicator_defanged": "github[.]com/burakkocer/PenX",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -239,39 +533,113 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/burakkocer/PenX/19e8b12aebcfed395869f9e74e362210e68f35eb/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/burakkocer/PenX/19e8b12aebcfed395869f9e74e362210e68f35eb/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:26.832607+00:00",
+          "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 18,
+                "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/burakkocer/PenX"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Renamed copy.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Renamed copy.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Renamed copy.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/burakkocer/PenX/19e8b12aebcfed395869f9e74e362210e68f35eb/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:26.832607+00:00",
+        "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 18,
+              "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/burakkocer/PenX"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-992F76AF1C2D",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/fyp1984/artex-qiming",
     "indicator_defanged": "github[.]com/fyp1984/artex-qiming",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -305,39 +673,145 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:26.833607+00:00",
+          "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 18,
+                "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/Dockerfile.qiming",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/Dockerfile.qiming",
+          "retrieved_at_utc": "2026-11-15T16:29:26.833282+00:00",
+          "source_document_sha256": "ba4d0552d93415b844ea40a13cdbcf618ab3501140e6a40f52870b33d73c349e",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 12,
+                "text": "FROM tomicdd/artex:latest"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/fyp1984/artex-qiming"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18 Dockerfile.qiming:12; Also builds its own image FROM tomicdd/artex .",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18 Dockerfile.qiming:12; Also builds its own image FROM tomicdd/artex .",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18 Dockerfile.qiming:12; Also builds its own image FROM tomicdd/artex .",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:26.833607+00:00",
+        "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 18,
+              "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/Dockerfile.qiming",
+        "retrieved_at_utc": "2026-11-15T16:29:26.833282+00:00",
+        "source_document_sha256": "ba4d0552d93415b844ea40a13cdbcf618ab3501140e6a40f52870b33d73c349e",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 12,
+              "text": "FROM tomicdd/artex:latest"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/fyp1984/artex-qiming"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-5549111A536E",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/imxv/ARTEXX",
     "indicator_defanged": "github[.]com/imxv/ARTEXX",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -371,39 +845,113 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/imxv/ARTEXX/178d250853ca743742807b74f857f5f483b3ddd7/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/imxv/ARTEXX/178d250853ca743742807b74f857f5f483b3ddd7/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:27.222618+00:00",
+          "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 18,
+                "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/imxv/ARTEXX"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Took over the fork network when trhhubsd/ARTEX was deleted. 630 of its 633 forks still pull the image on the same line, for example kjmkjmkj/ARTEX .",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Took over the fork network when trhhubsd/ARTEX was deleted. 630 of its 633 forks still pull the image on the same line, for example kjmkjmkj/ARTEX .",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Took over the fork network when trhhubsd/ARTEX was deleted. 630 of its 633 forks still pull the image on the same line, for example kjmkjmkj/ARTEX .",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/imxv/ARTEXX/178d250853ca743742807b74f857f5f483b3ddd7/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:27.222618+00:00",
+        "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 18,
+              "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/imxv/ARTEXX"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-4C256BDB08C0",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/lazycat-contrib/artex-lzcapp",
     "indicator_defanged": "github[.]com/lazycat-contrib/artex-lzcapp",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -437,39 +985,113 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lazycat-contrib/artex-lzcapp/42ea4bee3a25641791f30fd8977d7253989f52db/lzc-manifest.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/lazycat-contrib/artex-lzcapp/42ea4bee3a25641791f30fd8977d7253989f52db/lzc-manifest.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:27.230376+00:00",
+          "source_document_sha256": "c397d7a72ae3bec87d808b025b90fe88a6f2f458bb9eebede6add7a31cd2c90b",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 31,
+                "text": "    image: docker.1ms.run/tomicdd/artex:latest@sha256:cb85a7206290dc1813e3203e044741054b26c7a7c557c7d9d6d91af20aeb232b"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/lazycat-contrib/artex-lzcapp"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. lzc-manifest.yml:31; Re-publishes the backdoored image to LazyCat app-store users through a daily auto-update job, pinned to the backdoored digest.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. lzc-manifest.yml:31; Re-publishes the backdoored image to LazyCat app-store users through a daily auto-update job, pinned to the backdoored digest.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. lzc-manifest.yml:31; Re-publishes the backdoored image to LazyCat app-store users through a daily auto-update job, pinned to the backdoored digest.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/lazycat-contrib/artex-lzcapp/42ea4bee3a25641791f30fd8977d7253989f52db/lzc-manifest.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:27.230376+00:00",
+        "source_document_sha256": "c397d7a72ae3bec87d808b025b90fe88a6f2f458bb9eebede6add7a31cd2c90b",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 31,
+              "text": "    image: docker.1ms.run/tomicdd/artex:latest@sha256:cb85a7206290dc1813e3203e044741054b26c7a7c557c7d9d6d91af20aeb232b"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/lazycat-contrib/artex-lzcapp"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-B1B062240181",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/luoxi0615/ARTEX",
     "indicator_defanged": "github[.]com/luoxi0615/ARTEX",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -503,39 +1125,113 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/luoxi0615/ARTEX/5d27f8a7ade5da3a55ed5e0f36bed43934eff69d/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/luoxi0615/ARTEX/5d27f8a7ade5da3a55ed5e0f36bed43934eff69d/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:27.235298+00:00",
+          "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 18,
+                "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/luoxi0615/ARTEX"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18;",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18;",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18;",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/luoxi0615/ARTEX/5d27f8a7ade5da3a55ed5e0f36bed43934eff69d/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:27.235298+00:00",
+        "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 18,
+              "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/luoxi0615/ARTEX"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-6B0843AB14D8",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-context",
     "indicator_type": "repository",
     "indicator": "github.com/milantgh/artex",
     "indicator_defanged": "github[.]com/milantgh/artex",
     "role": "Repository reported to reference backdoored image",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
     "evidence_confidence": "High",
-    "verification_status": "Not independently verified; excluded from main IOC lists.",
+    "verification_status": "Exact publisher-linked source revision acquired; reported image dependency verified at precise file/line.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -569,39 +1265,113 @@
           "document_sha256": "1ed3207c1d9f29da0dedd94ea1b50845feedadb31e9ea0b899a3c82b02036a66",
           "actual_source_id": "badbyte"
         }
+      },
+      {
+        "url": "https://raw.githubusercontent.com/milantgh/artex/e6c1c9ae2183f3adafd3dfb4814e673715b9e9f3/docker-compose.yml",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://raw.githubusercontent.com/milantgh/artex/e6c1c9ae2183f3adafd3dfb4814e673715b9e9f3/docker-compose.yml",
+          "retrieved_at_utc": "2026-11-15T16:29:27.252945+00:00",
+          "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+          "locator": {
+            "pinned_source_file_lines": [
+              {
+                "line": 18,
+                "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+            "repository": "github.com/milantgh/artex"
+          }
+        }
       }
     ],
-    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Carries the luoxi0615 tags.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Carries the luoxi0615 tags.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference. Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
     "source_review_locator": {
       "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
       "normalized_text_offset": -1,
       "normalization": "publisher_link_href"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "explicit_normalization",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_pinned_dependency_reference",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Repository reported to reference backdoored image",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "explicit_normalization",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml:18; Carries the luoxi0615 tags.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://raw.githubusercontent.com/milantgh/artex/e6c1c9ae2183f3adafd3dfb4814e673715b9e9f3/docker-compose.yml",
+        "retrieved_at_utc": "2026-11-15T16:29:27.252945+00:00",
+        "source_document_sha256": "5184701a6bdd91c10a3c2fa98f1e6185ab253eb8557a3ef978cfe708f1842b5a",
+        "locator": {
+          "pinned_source_file_lines": [
+            {
+              "line": 18,
+              "text": "    image: tomicdd/artex:${ARTEX_TAG:-latest}"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "section": "Repositories still pulling the image, as-of5November; links pinned to commit/file/line",
+          "repository": "github.com/milantgh/artex"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-9404B9C363FE",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-tools",
     "indicator_type": "sha1",
     "indicator": "392173d6c8068265ca14519374ab0f0687c4ac1d",
     "indicator_defanged": "392173d6c8068265ca14519374ab0f0687c4ac1d",
     "role": "BLOODALCHEMY encrypted payload",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
     "evidence_confidence": "High",
-    "verification_status": "Public sandbox metadata only; bytes not acquired and relation not locally hash-verified.",
+    "verification_status": "Exact MD5/SHA1-to-SHA256 provider identity block matched to the primary publisher file role; externally sourced, no local byte verification.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -635,39 +1405,119 @@
           "document_sha256": "c1fe18556d49ae5b5004d0fac2cc1b0fe0035ba7e688e3e41e8b6b3857b7a844",
           "actual_source_id": "triage_bloodalchemy"
         }
+      },
+      {
+        "url": "https://tria.ge/261028-fa9m2aat7l",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://tria.ge/261028-fa9m2aat7l",
+          "retrieved_at_utc": "2026-11-15T16:29:27.253033+00:00",
+          "source_document_sha256": "356cd4f66a23ae3c7f3172231320e5ae586a896a8dd5e6a30a91bbd813841b73",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 2964,
+            "literal": "392173d6c8068265ca14519374ab0f0687c4ac1d",
+            "section": "Target/file identity fields",
+            "hash_algorithm": "sha1",
+            "same_file_sha256": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+            "provider_target": "graphics-hook_config.bin"
+          }
+        }
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+          "retrieved_at_utc": "2026-11-15T16:29:27.526902+00:00",
+          "source_document_sha256": "5cae24839a5fdadbc00b06828f89969f6c8d4cf9b295b5bfcc118836b3515558",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 16861,
+            "literal": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+            "section": "Publisher sample/IOC identity and stated file role"
+          }
+        }
       }
     ],
-    "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made. Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "source_review_locator": {
       "source_document_sha256": "8075c5ae38b574513afbb081639e4253562172cead1052ebde4efac6953cd579",
       "normalized_text_offset": 2964,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_exact_provider_file_identity_bridge",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "BLOODALCHEMY encrypted payload",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://tria.ge/261028-fa9m2aat7l",
+        "retrieved_at_utc": "2026-11-15T16:29:27.253033+00:00",
+        "source_document_sha256": "356cd4f66a23ae3c7f3172231320e5ae586a896a8dd5e6a30a91bbd813841b73",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 2964,
+          "literal": "392173d6c8068265ca14519374ab0f0687c4ac1d",
+          "section": "Target/file identity fields",
+          "hash_algorithm": "sha1",
+          "same_file_sha256": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+          "provider_target": "graphics-hook_config.bin"
+        }
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "retrieved_at_utc": "2026-11-15T16:29:27.526902+00:00",
+        "source_document_sha256": "5cae24839a5fdadbc00b06828f89969f6c8d4cf9b295b5bfcc118836b3515558",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 16861,
+          "literal": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+          "section": "Publisher sample/IOC identity and stated file role"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-8D27F5D67131",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-tools",
     "indicator_type": "sha1",
     "indicator": "541f02c11bc7a96a443bc09a8bb70991fcd07857",
     "indicator_defanged": "541f02c11bc7a96a443bc09a8bb70991fcd07857",
     "role": "Legitimate GameHook executable abused for DLL side-loading",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
     "evidence_confidence": "High",
-    "verification_status": "Public sandbox metadata only; bytes not acquired and relation not locally hash-verified.",
+    "verification_status": "Exact MD5/SHA1-to-SHA256 provider identity block matched to the primary publisher file role; externally sourced, no local byte verification.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -701,39 +1551,119 @@
           "document_sha256": "c1fe18556d49ae5b5004d0fac2cc1b0fe0035ba7e688e3e41e8b6b3857b7a844",
           "actual_source_id": "triage_bloodalchemy"
         }
+      },
+      {
+        "url": "https://tria.ge/261028-fa9m2aat7l",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://tria.ge/261028-fa9m2aat7l",
+          "retrieved_at_utc": "2026-11-15T16:29:27.253033+00:00",
+          "source_document_sha256": "356cd4f66a23ae3c7f3172231320e5ae586a896a8dd5e6a30a91bbd813841b73",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 3499,
+            "literal": "541f02c11bc7a96a443bc09a8bb70991fcd07857",
+            "section": "Target/file identity fields",
+            "hash_algorithm": "sha1",
+            "same_file_sha256": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+            "provider_target": "svchost.exe (GameHook)"
+          }
+        }
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+          "retrieved_at_utc": "2026-11-15T16:29:27.526902+00:00",
+          "source_document_sha256": "5cae24839a5fdadbc00b06828f89969f6c8d4cf9b295b5bfcc118836b3515558",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 16642,
+            "literal": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+            "section": "Publisher sample/IOC identity and stated file role"
+          }
+        }
       }
     ],
-    "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made. Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "source_review_locator": {
       "source_document_sha256": "8075c5ae38b574513afbb081639e4253562172cead1052ebde4efac6953cd579",
       "normalized_text_offset": 3499,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_exact_provider_file_identity_bridge",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Legitimate GameHook executable abused for DLL side-loading",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://tria.ge/261028-fa9m2aat7l",
+        "retrieved_at_utc": "2026-11-15T16:29:27.253033+00:00",
+        "source_document_sha256": "356cd4f66a23ae3c7f3172231320e5ae586a896a8dd5e6a30a91bbd813841b73",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 3499,
+          "literal": "541f02c11bc7a96a443bc09a8bb70991fcd07857",
+          "section": "Target/file identity fields",
+          "hash_algorithm": "sha1",
+          "same_file_sha256": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+          "provider_target": "svchost.exe (GameHook)"
+        }
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "retrieved_at_utc": "2026-11-15T16:29:27.526902+00:00",
+        "source_document_sha256": "5cae24839a5fdadbc00b06828f89969f6c8d4cf9b295b5bfcc118836b3515558",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 16642,
+          "literal": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+          "section": "Publisher sample/IOC identity and stated file role"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-BD65DCFB0BBC",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "supporting-tools",
     "indicator_type": "sha1",
     "indicator": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
     "indicator_defanged": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
     "role": "BLOODALCHEMY loader DLL",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
     "evidence_confidence": "High",
-    "verification_status": "Public sandbox metadata only; bytes not acquired and relation not locally hash-verified.",
+    "verification_status": "Exact MD5/SHA1-to-SHA256 provider identity block matched to the primary publisher file role; externally sourced, no local byte verification.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -767,39 +1697,119 @@
           "document_sha256": "c1fe18556d49ae5b5004d0fac2cc1b0fe0035ba7e688e3e41e8b6b3857b7a844",
           "actual_source_id": "triage_bloodalchemy"
         }
+      },
+      {
+        "url": "https://tria.ge/261028-fa9m2aat7l",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://tria.ge/261028-fa9m2aat7l",
+          "retrieved_at_utc": "2026-11-15T16:29:27.253033+00:00",
+          "source_document_sha256": "356cd4f66a23ae3c7f3172231320e5ae586a896a8dd5e6a30a91bbd813841b73",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 2390,
+            "literal": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
+            "section": "Target/file identity fields",
+            "hash_algorithm": "sha1",
+            "same_file_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+            "provider_target": "graphics-hook-filter64.dll"
+          }
+        }
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+          "retrieved_at_utc": "2026-11-15T16:29:27.526902+00:00",
+          "source_document_sha256": "5cae24839a5fdadbc00b06828f89969f6c8d4cf9b295b5bfcc118836b3515558",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 16743,
+            "literal": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+            "section": "Publisher sample/IOC identity and stated file role"
+          }
+        }
       }
     ],
-    "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made. Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "source_review_locator": {
       "source_document_sha256": "8075c5ae38b574513afbb081639e4253562172cead1052ebde4efac6953cd579",
       "normalized_text_offset": 2390,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_exact_provider_file_identity_bridge",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "BLOODALCHEMY loader DLL",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://tria.ge/261028-fa9m2aat7l",
+        "retrieved_at_utc": "2026-11-15T16:29:27.253033+00:00",
+        "source_document_sha256": "356cd4f66a23ae3c7f3172231320e5ae586a896a8dd5e6a30a91bbd813841b73",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 2390,
+          "literal": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
+          "section": "Target/file identity fields",
+          "hash_algorithm": "sha1",
+          "same_file_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+          "provider_target": "graphics-hook-filter64.dll"
+        }
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "retrieved_at_utc": "2026-11-15T16:29:27.526902+00:00",
+        "source_document_sha256": "5cae24839a5fdadbc00b06828f89969f6c8d4cf9b295b5bfcc118836b3515558",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 16743,
+          "literal": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+          "section": "Publisher sample/IOC identity and stated file role"
+        }
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "AR-442071E4B006",
     "framework": "ARTEX",
-    "publication_category": "unverified-findings",
+    "publication_category": "report-artifact-observables",
     "indicator_type": "sha1",
     "indicator": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
     "indicator_defanged": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
     "role": "SHA1 reported for BadByte’s exact malicious ARTEX SHA256",
     "component": "ARTEX",
     "association_scope": "campaign_associated_not_framework_exclusive",
-    "confidence": "Low",
-    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "confidence": "High",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
     "evidence_confidence": "High",
-    "verification_status": "Public sandbox metadata only; bytes not acquired and relation not locally hash-verified.",
+    "verification_status": "Exact MD5/SHA1-to-SHA256 provider identity block matched to the primary publisher file role; externally sourced, no local byte verification.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -833,24 +1843,124 @@
           "document_sha256": "e39ce485632bf8683caf00abbdfba817a860d4ba3de72a73018f39bd4be75db4",
           "actual_source_id": "triage_badbyte"
         }
+      },
+      {
+        "url": "https://tria.ge/261107-qdayzsb19v",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://tria.ge/261107-qdayzsb19v",
+          "retrieved_at_utc": "2026-11-15T16:29:27.413025+00:00",
+          "source_document_sha256": "b6bafb673e648da2b656b72b7f62abd70bd4432ddd2356fb4773f66eb6c6d902",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 473,
+            "literal": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
+            "section": "Target/file identity fields",
+            "hash_algorithm": "sha1",
+            "same_file_sha256": "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573",
+            "provider_target": "ARTEX executable"
+          }
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://badbyte.io/artex-backdoor-docker-image/",
+          "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+          "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+          "locator": {
+            "normalization": "defang/hex-case only",
+            "normalized_text_character_offset": 5152,
+            "literal": "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573",
+            "section": "Publisher sample/IOC identity and stated file role"
+          }
+        }
+      },
+      {
+        "url": "https://yaraify.abuse.ch/sample/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+        "verification": "source_supported",
+        "locator": {
+          "url": "https://yaraify.abuse.ch/sample/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/",
+          "reviewed_at_utc": "2026-11-15T16:33:51.417669+00:00",
+          "source_document_sha256": null,
+          "locator": "Exact SHA256 entry, fields on lines6-12",
+          "capture_type": "Primary public web-reader rendering facts transcription; not a raw publisher document"
+        }
       }
     ],
-    "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "recommended_use": "Research only; do not promote to a malicious IOC without additional evidence.",
     "india_relevance": "unestablished",
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "source_review_state": "source_supported",
+    "source_review_scope": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made. Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
     "source_review_locator": {
       "source_document_sha256": "faba54099a2402870a6fdea057901939fb6c34dade8787be39282f6701cdf72a",
       "normalized_text_offset": 473,
       "normalization": "normalized_visible_literal"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
-    "source_review_disposition": "literal_supported",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "source_review_disposition": "resolved_exact_provider_file_identity_bridge",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "SHA1 reported for BadByte’s exact malicious ARTEX SHA256",
+        "confidence": "Low",
+        "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "literal_supported",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+        "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://tria.ge/261107-qdayzsb19v",
+        "retrieved_at_utc": "2026-11-15T16:29:27.413025+00:00",
+        "source_document_sha256": "b6bafb673e648da2b656b72b7f62abd70bd4432ddd2356fb4773f66eb6c6d902",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 473,
+          "literal": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
+          "section": "Target/file identity fields",
+          "hash_algorithm": "sha1",
+          "same_file_sha256": "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573",
+          "provider_target": "ARTEX executable"
+        }
+      },
+      {
+        "url": "https://badbyte.io/artex-backdoor-docker-image/",
+        "retrieved_at_utc": "2026-11-15T16:29:26.746173+00:00",
+        "source_document_sha256": "b69a3aba26dde70ce0eea74cc0ae0bece6fb983eb1370e829b907cb5f821dd8f",
+        "locator": {
+          "normalization": "defang/hex-case only",
+          "normalized_text_character_offset": 5152,
+          "literal": "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573",
+          "section": "Publisher sample/IOC identity and stated file role"
+        }
+      },
+      {
+        "url": "https://yaraify.abuse.ch/sample/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/",
+        "reviewed_at_utc": "2026-11-15T16:33:51.417669+00:00",
+        "source_document_sha256": null,
+        "locator": "Exact SHA256 entry, fields on lines6-12",
+        "capture_type": "Primary public web-reader rendering facts transcription; not a raw publisher document"
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-18AE7EB35CAE",

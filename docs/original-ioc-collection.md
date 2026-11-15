@@ -1,6 +1,6 @@
 # Collecting our own indicators
 
-Reviewed 12 November 2026. An original finding needs its own evidence chain. A larger enriched IP list is not evidence of more malicious infrastructure.
+Reviewed 15 November 2026. An original finding needs its own evidence chain. A larger enriched IP list is not evidence of more malicious infrastructure.
 
 | Work performed | Provenance | Supported claim |
 |---|---|---|
@@ -19,6 +19,8 @@ Our existing CyberStrikeAI-lineage ELF has already yielded its configured endpoi
 
 The [15 November Windows artifact review](../research/analyst-derived/2026-11-15-cyberstrikeai-windows/cyberstrikeai-peak-review.md) demonstrates this workflow on another sample: three locally computed hash identities and native request arguments corroborate seven existing observables. The evidence establishes static configuration and code lineage; it adds no verified malicious-campaign IOC or first-party attack telemetry.
 
+The [historical Linux payload supplement](../research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-analysis.md) adds four computed crosshashes and three native configuration values from two additional exact artifacts. These are independent derivations from public material, with no first-party sensor telemetry or named campaign attribution.
+
 ## First-party collection design
 
 A future explicitly owned, isolated sensor can retain inbound session events, attempted payload URLs and passively received artifacts. [Cowrie](https://docs.cowrie.org/en/stable/OUTPUT.html) provides structured SSH/Telnet events; [OpenCanary](https://github.com/thinkst/opencanary) supports internal deception. Neither has been deployed for this project. No first-party attack telemetry is claimed.
@@ -30,3 +32,13 @@ The daily hunt continues full primary-source aggregation alongside an additional
 ## Structured hunt review
 
 The [PEAK documentation approach](https://dispatch.thorcollective.com/p/the-peak-threat-hunting-template) and [agentic hunting discussion](https://dispatch.thorcollective.com/p/the-agentic-threat-hunter) inform our private hunt ledger. Each question records its hypothesis, evidence window, source/artifact scope, competing explanations, negative controls, disposition and next step. Parallel source and artifact work converges in a separate evidence review before admission. These are methodology references, not IOC sources or claims that an owned sensor exists. Unresolved results remain private; a corroboration does not become a new unique value.
+
+## Lessons from the expanded public-source review
+
+[Harness's 13 November API-traffic study](https://www.harness.io/blog/an-artex-threat-hunt-across-customer-api-traffic) separates sender-supplied tool names from verified software identity and request outcomes. Its examples withhold source addresses, so its search inputs cannot resolve our disputed-address records. For future authorized telemetry, correlate an endpoint, identity, response and session before assigning an incident role. Common clients, high volume and a shared IP are insufficient alone.
+
+[Houdin's historical CyberStrikeAI census](https://houdin.io/blog/mapping-200-undetected-chinese-ai-attack-platforms) illustrates complementary certificate and page-content evidence. These remain software sightings. Its other-C2 feed annotations are separate services/claims, and a certificate's issue date does not date an installation or attack. Our current collection uses existing public evidence without repeating the publisher's active scans.
+
+[Splunk's PEAK deliverables guidance](https://www.splunk.com/en_us/blog/security/key-threat-hunting-deliverables-with-peak.html) treats evidence gaps, revised detections and future hunt questions as useful results alongside incidents. We preserve negative results and concrete next steps. A finite signature match can verify a reference-byte observation while production detection efficacy remains experimental.
+
+For additional samples, the decision sequence is: verify the source-to-artifact hash bridge; inspect exact bytes offline; prove that a URL is a configured request argument; compare specific code lineage with finite controls; review independently; deduplicate against every indexed record and the master. Report new values, corroborations, corrections and unresolved relationships separately. Aggregation continues in parallel and keeps its external origin.

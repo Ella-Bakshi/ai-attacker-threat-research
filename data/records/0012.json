@@ -44853,10 +44853,10 @@
     "role": "CyberStrikeAI Linux Beacon",
     "component": "CyberStrikeAI",
     "association_scope": "reported_framework_beacon_or_trojanized_build",
-    "confidence": "High",
-    "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+    "confidence": "Low",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
     "evidence_confidence": "High",
-    "verification_status": "primary_source_literal_and_reported_role_verified_algorithm_unresolved",
+    "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -44890,6 +44890,20 @@
           "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
           "actual_source_id": "securelist"
         }
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+          "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+          "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+          "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+          "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+          "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+        }
       }
     ],
     "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
@@ -44902,15 +44916,41 @@
     "algorithm_independently_verified": false,
     "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "source_review_scope": "No exact bytes or explicit primary algorithm bridge found in bounded pass. This does not disprove publisher role or indicate a hash mismatch.",
     "source_review_locator": {
       "source_document_sha256": "7b701701c0329eec53e89b26d18d1af684ac5935fc290e2435e8231b1c64092b",
       "normalized_text_offset": 26295,
       "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:15:19.319924+00:00",
-    "source_review_disposition": "source_literal_revalidated",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_unverified",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Linux Beacon",
+        "confidence": "High",
+        "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "source_literal_revalidated",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T15:15:19.319924+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+        "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+        "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+        "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+        "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-C8DEAA24FBB6",
@@ -44922,10 +44962,10 @@
     "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svcmon32.exe c:\\programdata\\svcmon32.exe",
     "component": "CyberStrikeAI",
     "association_scope": "reported_framework_beacon_or_trojanized_build",
-    "confidence": "High",
-    "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+    "confidence": "Low",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
     "evidence_confidence": "High",
-    "verification_status": "primary_source_literal_and_reported_role_verified_algorithm_unresolved",
+    "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -44959,6 +44999,20 @@
           "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
           "actual_source_id": "securelist"
         }
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+          "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+          "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+          "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+          "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+          "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+        }
       }
     ],
     "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
@@ -44971,15 +45025,41 @@
     "algorithm_independently_verified": false,
     "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "source_review_scope": "No exact bytes or explicit primary algorithm bridge found in bounded pass. This does not disprove publisher role or indicate a hash mismatch.",
     "source_review_locator": {
       "source_document_sha256": "7b701701c0329eec53e89b26d18d1af684ac5935fc290e2435e8231b1c64092b",
       "normalized_text_offset": 26184,
       "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:15:19.326363+00:00",
-    "source_review_disposition": "source_literal_revalidated",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_unverified",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svcmon32.exe c:\\programdata\\svcmon32.exe",
+        "confidence": "High",
+        "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "source_literal_revalidated",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T15:15:19.326363+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+        "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+        "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+        "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+        "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-A0514DEE7F47",
@@ -45061,10 +45141,10 @@
     "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svchosts.exe",
     "component": "CyberStrikeAI",
     "association_scope": "reported_framework_beacon_or_trojanized_build",
-    "confidence": "High",
-    "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+    "confidence": "Low",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
     "evidence_confidence": "High",
-    "verification_status": "primary_source_literal_and_reported_role_verified_algorithm_unresolved",
+    "verification_status": "Publisher literal/role confirmed; algorithm remains unestablished by accessible primary metadata or exact bytes.",
     "origin": "external_report",
     "analyst_contribution": "Source verification and curation; not an original malicious-IOC discovery.",
     "global_novelty_claimed": false,
@@ -45098,6 +45178,20 @@
           "document_sha256": "4258967c3e44cddad490a3db5e7d775b5768f476968ed32cb3defbfd02b20730",
           "actual_source_id": "securelist"
         }
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+        "verification": "unverified",
+        "locator": {
+          "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+          "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+          "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+          "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+          "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+          "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+        }
       }
     ],
     "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
@@ -45110,15 +45204,41 @@
     "algorithm_independently_verified": false,
     "evidence_reviewed_at_utc": "2026-11-15T15:38:55.294159+00:00",
     "source_review_state": "unverified",
-    "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "source_review_scope": "No exact bytes or explicit primary algorithm bridge found in bounded pass. This does not disprove publisher role or indicate a hash mismatch.",
     "source_review_locator": {
       "source_document_sha256": "7b701701c0329eec53e89b26d18d1af684ac5935fc290e2435e8231b1c64092b",
       "normalized_text_offset": 26124,
       "normalization": "HTML entity decode; defang and hxxp normalization; lowercasing; whitespace removal for layout wrapping"
     },
-    "source_reviewed_at_utc": "2026-11-15T15:15:19.339662+00:00",
-    "source_review_disposition": "source_literal_revalidated",
-    "automatic_blocklist_suitable": false
+    "source_reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_review_disposition": "resolution_unverified",
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "CyberStrikeAI Windows Beacon / c:\\windows\\temp\\svchosts.exe",
+        "confidence": "High",
+        "confidence_scope": "High confidence in transcription of the publisher hash literal and stated file role. Hash algorithm and exact-byte identity remain unverified; source association is not disproven.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "source_literal_revalidated",
+        "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T15:15:19.339662+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "source_review_resolution_evidence": [
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "evidence_locator": "File-based IOC table under stated Beacon/Tools role; exact publisher OpenTIP hyperlinks",
+        "algorithm_gap": "Table does not explicitly label algorithm;32hex length/OpenTIP URL are not independent MD5 bridges.",
+        "new_access": "First OpenTIP lookup returned generic SPA shell without hash metadata.",
+        "corroboration_limit": "Other search results repeated reporting and labeled MD5 but supplied no independently verifiable primary metadata.",
+        "api_limit": "Official YARAify docs require Auth-Key; no old key or API call used."
+      }
+    ],
+    "source_review_original_category": "unverified-findings",
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-56CB07123E15",
@@ -45620,7 +45740,7 @@
   {
     "record_id": "CS-A6B63C3A9B1F",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "software_signature",
     "indicator": "ELF + cyberstrike-ai/tmp/c2/payloads/build- + main.fetchC2FileByID + main.buildTaskReport + X-Implant-Token + X-Session-Token + __CSAI_CWD_%x__",
     "indicator_defanged": "ELF + cyberstrike-ai/tmp/c2/payloads/build- + main.fetchC2FileByID + main.buildTaskReport + X-Implant-Token + X-Session-Token + __CSAI_CWD_%x__",
@@ -45628,9 +45748,9 @@
     "component": "public archive sample; independently native-confirmed CyberStrikeAI beacon lineage; exact reported campaign link unestablished",
     "association_scope": "beacon_capability_and_config_verified_attack_use_unestablished",
     "confidence": "Medium",
-    "confidence_scope": "Static sample bytes/native operand and role verified; no observed connection, live-C2 or campaign/actor attribution.",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
     "evidence_confidence": "native_operand_and_file_bytes_verified",
-    "verification_status": "Locally acquired exact public archive member, SHA256verified, native functions decompiled; never executed.",
+    "verification_status": "hash_verified_finite_static_condition_reproduced_without_execution",
     "origin": "analyst_native_config_derivation",
     "analyst_contribution": "Static byte/source derivation or identity verification; no global novelty claim.",
     "global_novelty_claimed": false,
@@ -45658,6 +45778,17 @@
         "native_evidence": [],
         "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
         "artifact_class": "public archive sample; independently native-confirmed CyberStrikeAI beacon lineage; exact reported campaign link unestablished"
+      },
+      {
+        "url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/sample_beacon_lineage.yar",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+        "verification": "artifact_supported",
+        "locator": {
+          "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/sample_beacon_lineage.yar",
+          "locator": "RND_CyberStrikeAI_Generated_HTTP_Beacon_Lineage",
+          "rule_sha256": "5df82c037296573d51c3506a5a72686aa9f5053d353f27b7cb3ad2afba23323b"
+        }
       }
     ],
     "limitations": "Matched the acquired sample and not the ARTEX reference, local main-controller reference or third-party egress component. One positive and three negatives; not a production false-positive measurement. These are newly derived in this research from the sample; no global novelty or current live-C2 claim. No secret/token values are included.",
@@ -45666,18 +45797,52 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact authored condition and finite reference-match facts are verified in the identified artifact bytes. This does not establish production specificity, broad build coverage, deployment, maliciousness or campaign attribution. Operational detector efficacy remains unverified.",
     "source_review_locator": [
       {
-        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-06.zip",
-        "section": "Pinned source relation; exact fields retained in source references."
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/sample_beacon_lineage.yar",
+        "locator": "RND_CyberStrikeAI_Generated_HTTP_Beacon_Lineage",
+        "rule_sha256": "5df82c037296573d51c3506a5a72686aa9f5053d353f27b7cb3ad2afba23323b"
+      },
+      {
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
-    "source_review_disposition": "qualified_hypothesis",
+    "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "source_review_disposition": "bounded_static_reference_match_reproduced",
     "source_review_original_category": "sample-derived-observables",
-    "automatic_blocklist_suitable": false
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Locally authored native-confirmed generated-beacon lineage YARA conjunction",
+        "confidence": "Medium",
+        "confidence_scope": "Static sample bytes/native operand and role verified; no observed connection, live-C2 or campaign/actor attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "qualified_hypothesis",
+        "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "detection_efficacy_status": "unverified",
+    "software_specificity_status": "finite_reference_only",
+    "detection_validation_status": "experimental_unvalidated",
+    "source_review_resolution_evidence": [
+      {
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/sample_beacon_lineage.yar",
+        "locator": "RND_CyberStrikeAI_Generated_HTTP_Beacon_Lineage",
+        "rule_sha256": "5df82c037296573d51c3506a5a72686aa9f5053d353f27b7cb3ad2afba23323b"
+      },
+      {
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
+      }
+    ],
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-E7DE5FE5285E",
@@ -52155,7 +52320,7 @@
   {
     "record_id": "CS-632615C8AE13",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "software_signature",
     "indicator": "ELF + generated cyberstrike-ai payload build path + main.persistLinux + cron merge format + bashrc nohup # cs format",
     "indicator_defanged": "ELF + generated cyberstrike-ai payload build path + main.persistLinux + cron merge format + bashrc nohup # cs format",
@@ -52163,9 +52328,9 @@
     "component": "Public archive CyberStrikeAI-lineage Linux beacon; exact campaign/operator unestablished",
     "association_scope": "Static sample capability; execution/campaign/India attribution unestablished.",
     "confidence": "Medium",
-    "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
     "evidence_confidence": "High_for_native_operand_and_file_byte_presence",
-    "verification_status": "Native function pseudocode/operands and file bytes inspected, no target execution or network contact.",
+    "verification_status": "hash_verified_finite_static_condition_reproduced_without_execution",
     "origin": "analyst_native_capability_derivation",
     "analyst_contribution": "Additional static native-backed host/protocol capability derivation; not an observed victim artifact.",
     "global_novelty_claimed": false,
@@ -52240,6 +52405,17 @@
             "role": "Pinned source corroboration; exact sample template revision not established."
           }
         ]
+      },
+      {
+        "url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/linux_beacon_persistence.yar",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+        "verification": "artifact_supported",
+        "locator": {
+          "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/linux_beacon_persistence.yar",
+          "locator": "RND_CyberStrikeAI_Linux_Beacon_Persistence_Implementation",
+          "rule_sha256": "50e7cb7d59cd5285ecbc81250321d5a7db345763a02fba56ce7c5962096577b3"
+        }
       }
     ],
     "limitations": "Matches implementation capability even if the persist task was never invoked. It is a separate conditional-capability fingerprint, not a new confirmed malicious file or campaign. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
@@ -52260,52 +52436,57 @@
         "scope": "Historic source_file_sha256 hashes Windows checkout CRLF bytes; Git object SHA identifies canonical source bytes."
       }
     ],
-    "source_review_state": "unverified",
-    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact authored condition and finite reference-match facts are verified in the identified artifact bytes. This does not establish production specificity, broad build coverage, deployment, maliciousness or campaign attribution. Operational detector efficacy remains unverified.",
     "source_review_locator": [
       {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/c2/payload_templates/beacon.go.tmpl",
-        "sha256": "91b110e611535a850e7d5900f367b32135657e0c98fde91d952f73b18b26ff89",
-        "git_blob_sha": "93e43e80d9c23395ac1b37dbb742f7ec3a6e4592",
-        "bytes": 35627,
-        "cited_line": 1273
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/linux_beacon_persistence.yar",
+        "locator": "RND_CyberStrikeAI_Linux_Beacon_Persistence_Implementation",
+        "rule_sha256": "50e7cb7d59cd5285ecbc81250321d5a7db345763a02fba56ce7c5962096577b3"
       },
       {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/c2/payload_templates/beacon.go.tmpl",
-        "sha256": "91b110e611535a850e7d5900f367b32135657e0c98fde91d952f73b18b26ff89",
-        "git_blob_sha": "93e43e80d9c23395ac1b37dbb742f7ec3a6e4592",
-        "bytes": 35627,
-        "cited_line": 1273
-      },
-      {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/c2/payload_templates/beacon.go.tmpl",
-        "sha256": "91b110e611535a850e7d5900f367b32135657e0c98fde91d952f73b18b26ff89",
-        "git_blob_sha": "93e43e80d9c23395ac1b37dbb742f7ec3a6e4592",
-        "bytes": 35627,
-        "cited_line": 1273
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
-    "source_review_disposition": "qualified_hypothesis",
+    "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "source_review_disposition": "bounded_static_reference_match_reproduced",
     "source_review_original_category": "software-fingerprints",
-    "automatic_blocklist_suitable": false
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Locally authored native persistence-implementation YARA conjunction",
+        "confidence": "Medium",
+        "confidence_scope": "Static implementation/capability and stated byte operands; not an observed host artifact, executed task, live C2, compromise, actor or campaign attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "qualified_hypothesis",
+        "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "detection_efficacy_status": "unverified",
+    "software_specificity_status": "finite_reference_only",
+    "detection_validation_status": "experimental_unvalidated",
+    "source_review_resolution_evidence": [
+      {
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/linux_beacon_persistence.yar",
+        "locator": "RND_CyberStrikeAI_Linux_Beacon_Persistence_Implementation",
+        "rule_sha256": "50e7cb7d59cd5285ecbc81250321d5a7db345763a02fba56ce7c5962096577b3"
+      },
+      {
+        "artifact_sha256": "cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
+      }
+    ],
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-AD1F8E56549C",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "software_signature",
     "indicator": "ELF/PE + cyberstrike-ai/internal/c2 + X-Implant-Token + invalid tcp beacon frame size + c2_disabled",
     "indicator_defanged": "ELF/PE + cyberstrike-ai/internal/c2 + X-Implant-Token + invalid tcp beacon frame size + c2_disabled",
@@ -52313,9 +52494,9 @@
     "component": "CyberStrikeAI",
     "association_scope": "software_lineage_or_reference_identity_only",
     "confidence": "Medium",
-    "confidence_scope": "Compound implementation/build fingerprint; finite reference corpus, no broad false-positive measurement.",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
     "evidence_confidence": "High",
-    "verification_status": "Pinned-source/static-artifact evidence; no target execution.",
+    "verification_status": "hash_verified_finite_static_condition_reproduced_without_execution",
     "origin": "analyst_source_native_derivation",
     "analyst_contribution": "Locally extracted/validated software reference; not a newly confirmed malicious IOC.",
     "global_novelty_claimed": false,
@@ -52343,6 +52524,17 @@
         "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
         "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
         "file_offset": null
+      },
+      {
+        "url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/controller_reference.yar",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+        "verification": "artifact_supported",
+        "locator": {
+          "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/controller_reference.yar",
+          "locator": "RND_CyberStrikeAI_Controller_Code_Lineage",
+          "rule_sha256": "6071d78617fa775e87a005d18ec87d8267c586d08ce008670b251d01ca140bf4"
+        }
       }
     ],
     "limitations": "Derived from pinned official source and a locally built reference. Not a maintainer-distributed artifact, captured deployment, or campaign sample. Compiled YARA matched the locally built controller; examined ARTEX and third-party egress reference artifacts were negative. Small corpus, no broad false-positive claim.",
@@ -52352,52 +52544,57 @@
     "india_evidence_url": "",
     "india_evidence_basis": "No per-indicator India targeting evidence established.",
     "per_indicator_india_targeting_confirmed": false,
-    "source_review_state": "unverified",
-    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact authored condition and finite reference-match facts are verified in the identified artifact bytes. This does not establish production specificity, broad build coverage, deployment, maliciousness or campaign attribution. Operational detector efficacy remains unverified.",
     "source_review_locator": [
       {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/c2/tcp_beacon_server.go",
-        "sha256": "0cd93503dcf7692b27d10d9df535d908345753428166bf51f27ce05c79178db8",
-        "git_blob_sha": "5672b28f7b06c7b4e29cf79b1342d7a5ed56afbe",
-        "bytes": 7043,
-        "cited_line": 38
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/controller_reference.yar",
+        "locator": "RND_CyberStrikeAI_Controller_Code_Lineage",
+        "rule_sha256": "6071d78617fa775e87a005d18ec87d8267c586d08ce008670b251d01ca140bf4"
       },
       {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/c2/tcp_beacon_server.go",
-        "sha256": "0cd93503dcf7692b27d10d9df535d908345753428166bf51f27ce05c79178db8",
-        "git_blob_sha": "5672b28f7b06c7b4e29cf79b1342d7a5ed56afbe",
-        "bytes": 7043,
-        "cited_line": 38
-      },
-      {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/tcp_beacon_server.go",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/c2/tcp_beacon_server.go",
-        "sha256": "0cd93503dcf7692b27d10d9df535d908345753428166bf51f27ce05c79178db8",
-        "git_blob_sha": "5672b28f7b06c7b4e29cf79b1342d7a5ed56afbe",
-        "bytes": 7043,
-        "cited_line": 38
+        "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
-    "source_review_disposition": "qualified_hypothesis",
+    "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "source_review_disposition": "bounded_static_reference_match_reproduced",
     "source_review_original_category": "software-fingerprints",
-    "automatic_blocklist_suitable": false
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Locally authored compound controller code-lineage rule",
+        "confidence": "Medium",
+        "confidence_scope": "Compound implementation/build fingerprint; finite reference corpus, no broad false-positive measurement.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "qualified_hypothesis",
+        "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "detection_efficacy_status": "unverified",
+    "software_specificity_status": "finite_reference_only",
+    "detection_validation_status": "experimental_unvalidated",
+    "source_review_resolution_evidence": [
+      {
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/controller_reference.yar",
+        "locator": "RND_CyberStrikeAI_Controller_Code_Lineage",
+        "rule_sha256": "6071d78617fa775e87a005d18ec87d8267c586d08ce008670b251d01ca140bf4"
+      },
+      {
+        "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
+      }
+    ],
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-D57A2A59A66E",
     "framework": "CyberStrikeAI",
-    "publication_category": "unverified-findings",
+    "publication_category": "software-fingerprints",
     "indicator_type": "software_signature",
     "indicator": "ELF/PE + cyberstrike-ai/internal/database + c2_http_session_auth + c2_payload_artifacts + c2_profiles + conversations.db",
     "indicator_defanged": "ELF/PE + cyberstrike-ai/internal/database + c2_http_session_auth + c2_payload_artifacts + c2_profiles + conversations.db",
@@ -52405,9 +52602,9 @@
     "component": "locally built pinned official-source reference; not distributed or campaign sample",
     "association_scope": "not_established",
     "confidence": "Medium",
-    "confidence_scope": "Confidence in stated source-reported association, not current maliciousness or exclusive framework attribution.",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
     "evidence_confidence": "high_for_source_or_byte_presence",
-    "verification_status": "Pinned source and stated reference bytes examined statically; no target execution or deployment probe.",
+    "verification_status": "hash_verified_finite_static_condition_reproduced_without_execution",
     "origin": "analyst_source_native_derivation",
     "analyst_contribution": "Static byte/source derivation or identity verification; no global novelty claim.",
     "global_novelty_claimed": false,
@@ -52445,6 +52642,17 @@
         ],
         "source_commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
         "artifact_class": "locally built pinned official-source reference; not distributed or campaign sample"
+      },
+      {
+        "url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar",
+        "source_role": "resolution_review_evidence",
+        "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+        "verification": "artifact_supported",
+        "locator": {
+          "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar",
+          "locator": "RND_CyberStrikeAI_C2_Database_Schema_Lineage",
+          "rule_sha256": "eb130256b40d5539a864a9905f6cf11ed6a68b1ff64cb2aca6c2c77e1ee7cd8f"
+        }
       }
     ],
     "limitations": "Native-byte backed alternative code-lineage signature; only finite references tested. Not a maliciousness classifier. Software/reference identification only. Not an original confirmed malicious IOC; no global novelty claim.",
@@ -52464,47 +52672,52 @@
         "scope": "Historic source_file_sha256 hashes Windows checkout CRLF bytes; Git object SHA identifies canonical source bytes."
       }
     ],
-    "source_review_state": "unverified",
-    "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact authored condition and finite reference-match facts are verified in the identified artifact bytes. This does not establish production specificity, broad build coverage, deployment, maliciousness or campaign attribution. Operational detector efficacy remains unverified.",
     "source_review_locator": [
       {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/database/schemas/application.sql",
-        "sha256": "c5407193ff6a534590ff6f83c8464ad02756c3fbf2fb9f7984b2f00335ac9361",
-        "git_blob_sha": "3375491657dc1daf3d871a37ef64e8274119d996",
-        "bytes": 28808,
-        "cited_line": 144
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar",
+        "locator": "RND_CyberStrikeAI_C2_Database_Schema_Lineage",
+        "rule_sha256": "eb130256b40d5539a864a9905f6cf11ed6a68b1ff64cb2aca6c2c77e1ee7cd8f"
       },
       {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/database/schemas/application.sql",
-        "sha256": "c5407193ff6a534590ff6f83c8464ad02756c3fbf2fb9f7984b2f00335ac9361",
-        "git_blob_sha": "3375491657dc1daf3d871a37ef64e8274119d996",
-        "bytes": 28808,
-        "cited_line": 144
-      },
-      {
-        "source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql",
-        "raw_url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/database/schemas/application.sql",
-        "repository": "AIPentest/CyberStrikeAI",
-        "commit": "b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
-        "path": "internal/database/schemas/application.sql",
-        "sha256": "c5407193ff6a534590ff6f83c8464ad02756c3fbf2fb9f7984b2f00335ac9361",
-        "git_blob_sha": "3375491657dc1daf3d871a37ef64e8274119d996",
-        "bytes": 28808,
-        "cited_line": 144
+        "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
       }
     ],
-    "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
-    "source_review_disposition": "qualified_hypothesis",
+    "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "source_review_disposition": "bounded_static_reference_match_reproduced",
     "source_review_original_category": "software-fingerprints",
-    "automatic_blocklist_suitable": false
+    "automatic_blocklist_suitable": false,
+    "source_review_history": [
+      {
+        "publication_category": "unverified-findings",
+        "role": "Locally authored RND_CyberStrikeAI_C2_Database_Schema_Lineage",
+        "confidence": "Medium",
+        "confidence_scope": "Confidence in stated source-reported association, not current maliciousness or exclusive framework attribution.",
+        "source_review_state": "unverified",
+        "source_review_disposition": "qualified_hypothesis",
+        "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+        "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+        "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+        "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+      }
+    ],
+    "detection_efficacy_status": "unverified",
+    "software_specificity_status": "finite_reference_only",
+    "detection_validation_status": "experimental_unvalidated",
+    "source_review_resolution_evidence": [
+      {
+        "source_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar",
+        "locator": "RND_CyberStrikeAI_C2_Database_Schema_Lineage",
+        "rule_sha256": "eb130256b40d5539a864a9905f6cf11ed6a68b1ff64cb2aca6c2c77e1ee7cd8f"
+      },
+      {
+        "artifact_sha256": "3ce12e8b73aae3cc3c2f8a901f4a326b7902cc2958c6937f459e901d20ac7361",
+        "locator": "First byte offset for each rule marker is preserved in the accompanying bounded-static-evidence.json; complete private match enumeration was independently reviewed."
+      }
+    ],
+    "source_review_resolution_pass": "2026-11-15-evidence-resolution"
   },
   {
     "record_id": "CS-501FC39236B1",

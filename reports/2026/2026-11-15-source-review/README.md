@@ -1,6 +1,8 @@
 # AI Attacker Threat Research — original-source review, 15 November 2026
 
-The review now covers all **12,299 canonical records** and the **3,740 additional scalar values** found only in the master. Every record has a scoped source-review disposition. It adds no new indicator values or IPs. **73 unresolved or qualified findings are separated**, including 64 already classified as unresolved and 9 newly separated in this pass. [Unverified CSV](unverified-findings.csv) · [Full record index](../../../data/index.json) · [Master](../../../data/ALL-FOUND-master.csv).
+**Historical review snapshot.** This report and its 73-row unresolved CSV preserve the state at completion of this pass. See the [later evidence-resolution report](../2026-11-15-evidence-resolution/README.md) and [current unresolved export](../../../research/unverified-findings/source-review-unresolved.csv) for subsequent dispositions. The linked canonical index and master continue to evolve.
+
+This completed review covered all **12,299 canonical records** and the **3,740 additional scalar values** found only in the master at that time. Every record received a scoped source-review disposition. It added no new indicator values or IPs. **73 unresolved or qualified findings were separated**, including 64 already classified as unresolved and 9 newly separated in this pass. [Historical unverified CSV](unverified-findings.csv) · [Full record index](../../../data/index.json) · [Master](../../../data/ALL-FOUND-master.csv).
 
 | Canonical review state | Records | Meaning |
 |---|---:|---|

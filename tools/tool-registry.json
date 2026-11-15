@@ -3425,5 +3425,428 @@
         "scope": "Pinned license"
       }
     ]
+  },
+  {
+    "name": "sapper-v2",
+    "aliases": [],
+    "category": "ai-security-assessment-harness",
+    "what_it_does_reported": "Competition-oriented assessment system coordinating a planner and worker agents through a shared fact graph. Maintainer-reported results were not independently reproduced.",
+    "capability_validation": "Pinned README claims only; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Upstream-described LLM agent integration; malicious use unestablished.",
+    "official_repository": "https://github.com/N1nEmAn/sapper-v2",
+    "repository_full_name": "N1nEmAn/sapper-v2",
+    "upstream_identity_qualification": "Owning GitHub metadata and pinned README checked; no deployed-instance identity claim. Competition-oriented multi-agent assessment orchestrator; benchmark/championship claims remain maintainer assertions.",
+    "pinned_revision": "7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb",
+    "last_activity_utc": "2026-11-11T12:18:45Z",
+    "last_activity_meaning": "Default-branch committer time, not attack or deployment.",
+    "repository_last_push_utc": "2026-11-11T12:18:45Z",
+    "repository_created_at_utc": "2026-10-30T15:12:35Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Competition-oriented multi-agent assessment orchestrator; benchmark/championship claims remain maintainer assertions.",
+    "license_source_url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/LICENSE",
+    "latest_release": {
+      "name": "v18 — Online Qualifier Champion Build (frozen 8e03190)",
+      "tag_name": "v18-champion",
+      "published_at": "2026-11-01T13:31:33Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/N1nEmAn/sapper-v2/releases/tag/v18-champion"
+    },
+    "reviewed_at_utc": "2026-11-15T16:54:32.404901+00:00",
+    "tool_id": "n1neman--sapper-v2",
+    "global_novelty_claimed": false,
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact malicious deployment established.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "software registry only; not malicious IOC",
+    "new_network_iocs": 0,
+    "license_identity": {
+      "git_blob_sha1": "1508447015a322f3a90b344c18533c55dd2bf1df",
+      "sha256": "6b91c77fe1d8707c2fa57ef3a132e11b1e92ed50d9c54fee205d8710f56209e8",
+      "bytes": 1064
+    },
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/LICENSE"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/README.md",
+        "git_blob_sha": "cc1d21d7693694adfe4a5cfacd8393c3f2ea4e8e",
+        "sha256": "4d2755b217ca99313dc216a9500a32bd53841d5572dcf4ffa447753d0cb712bb",
+        "bytes": 15742,
+        "anchor_scope": "Documentation identity, not malware or runtime fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "Runtime specificity/negative controls not tested.",
+    "source_identification_hypotheses": [],
+    "sources": [
+      "https://api.github.com/repos/N1nEmAn/sapper-v2",
+      "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/README.md",
+      "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/LICENSE"
+    ],
+    "retrieved_at_utc": "2026-11-15T16:44:05.815887+00:00",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/N1nEmAn/sapper-v2",
+        "retrieved_at_utc": "2026-11-15T16:43:18.788965+00:00",
+        "scope": "Public owning-repository metadata."
+      },
+      {
+        "url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/README.md",
+        "retrieved_at_utc": "2026-11-15T16:44:05.815887+00:00",
+        "scope": "Pinned README; Git blob verified."
+      },
+      {
+        "url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/LICENSE",
+        "retrieved_at_utc": "2026-11-15T16:44:05.816313+00:00",
+        "scope": "Pinned license; Git blob verified."
+      }
+    ],
+    "lifecycle_stage": "public project with releases",
+    "lifecycle_basis": "Metadata only; no maturity claim.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/README.md",
+        "statement": "Competition-oriented multi-agent assessment orchestrator; benchmark/championship claims remain maintainer assertions."
+      }
+    ]
+  },
+  {
+    "name": "HalberdStrike",
+    "aliases": [],
+    "category": "ai-security-assessment-harness",
+    "what_it_does_reported": "LLM-directed security-assessment harness built around three cooperating modules, described by its maintainer as inspired by PenTestGPT.",
+    "capability_validation": "Pinned README claims only; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Upstream-described LLM agent integration; malicious use unestablished.",
+    "official_repository": "https://github.com/kuaiyelink/HalberdStrike",
+    "repository_full_name": "kuaiyelink/HalberdStrike",
+    "upstream_identity_qualification": "Owning GitHub metadata and pinned README checked; no deployed-instance identity claim. LLM assessment harness; PenTestGPT-inspired design is a maintainer claim, not independently verified code lineage.",
+    "pinned_revision": "7553c70662bfed948b2312b97c8647a02712604a",
+    "last_activity_utc": "2026-07-25T06:06:34Z",
+    "last_activity_meaning": "Default-branch committer time, not attack or deployment.",
+    "repository_last_push_utc": "2026-07-25T06:06:35Z",
+    "repository_created_at_utc": "2026-07-18T10:23:12Z",
+    "archived": false,
+    "license": "GPL-3.0",
+    "license_qualification": "LLM assessment harness; PenTestGPT-inspired design is a maintainer claim, not independently verified code lineage.",
+    "license_source_url": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/LICENSE",
+    "latest_release": null,
+    "reviewed_at_utc": "2026-11-15T16:54:32.404901+00:00",
+    "tool_id": "kuaiyelink--halberdstrike",
+    "global_novelty_claimed": false,
+    "observed_abuse": "reported_by_primary_source",
+    "observed_abuse_basis": "Acronis TRU4November2026 reports HalberdStrike by kuaiyelink used for reconnaissance reports in BOSSAI operations. Owner/name match verified upstream; exact version, modifications and deployed bytes are unknown. Campaign observation remains the publisher report, not our independent telemetry.",
+    "observed_abuse_primary_sources": [
+      "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/"
+    ],
+    "ioc_status": "software registry only; not malicious IOC",
+    "new_network_iocs": 0,
+    "license_identity": {
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/LICENSE"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/README.md",
+        "git_blob_sha": "943c5cf2605bd9fbd96529b39f929438866d66fa",
+        "sha256": "69204f546ad287ee1b1d56c8f4dfbc5f9e59041f7ba905da997f0e67f4f784c8",
+        "bytes": 12233,
+        "anchor_scope": "Documentation identity, not malware or runtime fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "Runtime specificity/negative controls not tested.",
+    "source_identification_hypotheses": [],
+    "sources": [
+      "https://api.github.com/repos/kuaiyelink/HalberdStrike",
+      "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/README.md",
+      "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/LICENSE",
+      "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/"
+    ],
+    "retrieved_at_utc": "2026-11-15T16:44:05.816813+00:00",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/kuaiyelink/HalberdStrike",
+        "retrieved_at_utc": "2026-11-15T16:43:18.790244+00:00",
+        "scope": "Public owning-repository metadata."
+      },
+      {
+        "url": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/README.md",
+        "retrieved_at_utc": "2026-11-15T16:44:05.816813+00:00",
+        "scope": "Pinned README; Git blob verified."
+      },
+      {
+        "url": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/LICENSE",
+        "retrieved_at_utc": "2026-11-15T16:44:05.817118+00:00",
+        "scope": "Pinned license; Git blob verified."
+      },
+      {
+        "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+        "source_role": "primary_reported_framework_use",
+        "published_date": "2026-11-04",
+        "reviewed_at_utc": "2026-11-15T16:56:45.628316+00:00",
+        "locator": [
+          "A supporting crew: Pentesting agents and coding specialists, paragraphs1-4, public reader lines175-188.",
+          "The named HalberdStrike harness is attributed to owner kuaiyelink/Kuaiye Anonymous Labs, matching the pinned repository owner and README identity.",
+          "Paragraph after Figure11 states reported use across at least20 projects; following paragraphs discuss unreliable results.",
+          "12 AIs: Our cast of characters, lines94 and105-107 show supporting scanning role and operator manually relaying reports."
+        ]
+      }
+    ],
+    "lifecycle_stage": "public source; no release found",
+    "lifecycle_basis": "Metadata only; no maturity claim.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/kuaiyelink/HalberdStrike/blob/7553c70662bfed948b2312b97c8647a02712604a/README.md",
+        "statement": "LLM assessment harness; PenTestGPT-inspired design is a maintainer claim, not independently verified code lineage."
+      }
+    ],
+    "observed_abuse_reviewed_at_utc": "2026-11-15T16:56:45.628316+00:00",
+    "observed_abuse_identity_scope": "Names/owner/institution match the verified upstream; no hash, exact deployment revision, source-to-campaign sample identity or independent campaign telemetry bridge.",
+    "observed_abuse_source_locators": [
+      "A supporting crew: Pentesting agents and coding specialists, paragraphs1-4, public reader lines175-188.",
+      "The named HalberdStrike harness is attributed to owner kuaiyelink/Kuaiye Anonymous Labs, matching the pinned repository owner and README identity.",
+      "Paragraph after Figure11 states reported use across at least20 projects; following paragraphs discuss unreliable results.",
+      "12 AIs: Our cast of characters, lines94 and105-107 show supporting scanning role and operator manually relaying reports."
+    ]
+  },
+  {
+    "name": "Bulwark",
+    "aliases": [],
+    "category": "ai-security-assessment-harness",
+    "what_it_does_reported": "Local agent for external security assessment, with maintainer-described audit logs and scope controls.",
+    "capability_validation": "Pinned README claims only; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Upstream-described LLM agent integration; malicious use unestablished.",
+    "official_repository": "https://github.com/bulwark-sec/bulwark",
+    "repository_full_name": "bulwark-sec/bulwark",
+    "upstream_identity_qualification": "Owning GitHub metadata and pinned README checked; no deployed-instance identity claim. Pinned LICENSE/top badges say AGPL-3.0; README footer claims Apache-2.0. Conflict unresolved.",
+    "pinned_revision": "5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3",
+    "last_activity_utc": "2026-06-10T23:40:31Z",
+    "last_activity_meaning": "Default-branch committer time, not attack or deployment.",
+    "repository_last_push_utc": "2026-09-02T11:24:40Z",
+    "repository_created_at_utc": "2026-06-10T17:20:52Z",
+    "archived": false,
+    "license": "AGPL-3.0; README footer conflict",
+    "license_qualification": "Pinned LICENSE/top badges say AGPL-3.0; README footer claims Apache-2.0. Conflict unresolved.",
+    "license_source_url": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/LICENSE",
+    "latest_release": {
+      "name": "v5.26.0 — first public release",
+      "tag_name": "v5.26.0",
+      "published_at": "2026-06-10T17:28:37Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/bulwark-sec/bulwark/releases/tag/v5.26.0"
+    },
+    "reviewed_at_utc": "2026-11-15T16:54:32.404901+00:00",
+    "tool_id": "bulwark-sec--bulwark",
+    "global_novelty_claimed": false,
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact malicious deployment established.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "software registry only; not malicious IOC",
+    "new_network_iocs": 0,
+    "license_identity": {
+      "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/LICENSE"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/README.md",
+        "git_blob_sha": "313530eadf9bd033542b3625601b41c15701f185",
+        "sha256": "71a31f1073f624e318555a0a68c804d6322ef8c5115220866602f096a88fcaeb",
+        "bytes": 46315,
+        "anchor_scope": "Documentation identity, not malware or runtime fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "Runtime specificity/negative controls not tested.",
+    "source_identification_hypotheses": [],
+    "sources": [
+      "https://api.github.com/repos/bulwark-sec/bulwark",
+      "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/README.md",
+      "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/LICENSE"
+    ],
+    "retrieved_at_utc": "2026-11-15T16:44:05.850284+00:00",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/bulwark-sec/bulwark",
+        "retrieved_at_utc": "2026-11-15T16:43:19.204617+00:00",
+        "scope": "Public owning-repository metadata."
+      },
+      {
+        "url": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/README.md",
+        "retrieved_at_utc": "2026-11-15T16:44:05.850284+00:00",
+        "scope": "Pinned README; Git blob verified."
+      },
+      {
+        "url": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/LICENSE",
+        "retrieved_at_utc": "2026-11-15T16:44:05.896686+00:00",
+        "scope": "Pinned license; Git blob verified."
+      }
+    ],
+    "lifecycle_stage": "public project with releases",
+    "lifecycle_basis": "Metadata only; no maturity claim.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/bulwark-sec/bulwark/blob/5c18bbe50f278ccc9a4b82ff0ecd31507d3595a3/README.md",
+        "statement": "Pinned LICENSE/top badges say AGPL-3.0; README footer claims Apache-2.0. Conflict unresolved."
+      }
+    ]
+  },
+  {
+    "name": "0security",
+    "aliases": [
+      "0"
+    ],
+    "category": "ai-security-assessment-harness",
+    "what_it_does_reported": "AI security harness with CLI, web and MCP interfaces for reviewing code, dependencies, binaries and infrastructure.",
+    "capability_validation": "Pinned README claims only; not executed or independently benchmarked.",
+    "ai_feature_assessment": "Upstream-described LLM agent integration; malicious use unestablished.",
+    "official_repository": "https://github.com/0sec-labs/0security",
+    "repository_full_name": "0sec-labs/0security",
+    "upstream_identity_qualification": "Owning GitHub metadata and pinned README checked; no deployed-instance identity claim. Canonical repository now0sec-labs/0security; old0 alias verified. Both license files checked; disclosure totals unverified.",
+    "pinned_revision": "4688f26c19e5d3e927e336b588dd66510133ed82",
+    "last_activity_utc": "2026-11-15T09:16:48Z",
+    "last_activity_meaning": "Default-branch committer time, not attack or deployment.",
+    "repository_last_push_utc": "2026-11-15T09:16:50Z",
+    "repository_created_at_utc": "2026-08-19T07:54:37Z",
+    "archived": false,
+    "license": "MIT OR Apache-2.0",
+    "license_qualification": "Canonical repository now0sec-labs/0security; old0 alias verified. Both license files checked; disclosure totals unverified.",
+    "license_source_url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE",
+    "latest_release": {
+      "name": "v0.32.0",
+      "tag_name": "v0.32.0",
+      "published_at": "2026-11-15T08:44:14Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/0sec-labs/0security/releases/tag/v0.32.0"
+    },
+    "reviewed_at_utc": "2026-11-15T16:54:32.404901+00:00",
+    "tool_id": "0sec-labs--0security",
+    "global_novelty_claimed": false,
+    "observed_abuse": "unknown",
+    "observed_abuse_basis": "No exact malicious deployment established.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "software registry only; not malicious IOC",
+    "new_network_iocs": 0,
+    "license_identity": {
+      "git_blob_sha1": "3f2dc74f243dee497abea3b3759db3bbaac41555",
+      "sha256": "9b99582fe11a8bccd147a2e0f0d9a033ba9d6841c47995e0661a47ff34631778",
+      "bytes": 11323
+    },
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE"
+      },
+      {
+        "kind": "license-choice",
+        "url": "https://raw.githubusercontent.com/0sec-labs/0security/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-MIT"
+      },
+      {
+        "kind": "license-choice",
+        "url": "https://raw.githubusercontent.com/0sec-labs/0security/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/README.md",
+        "git_blob_sha": "0b3d01c34926c2a7528af34ba2a75472bce9373e",
+        "sha256": "649bab0ce1f87f4ceca7f90bba182e84950108e8ebeb1b9a3447cf8605f9c2ba",
+        "bytes": 7321,
+        "anchor_scope": "Documentation identity, not malware or runtime fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "Runtime specificity/negative controls not tested.",
+    "source_identification_hypotheses": [],
+    "sources": [
+      "https://api.github.com/repos/0sec-labs/0",
+      "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/README.md",
+      "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE"
+    ],
+    "retrieved_at_utc": "2026-11-15T16:44:48.496856+00:00",
+    "source_references": [
+      {
+        "url": "https://api.github.com/repos/0sec-labs/0",
+        "retrieved_at_utc": "2026-11-15T16:44:06.301787+00:00",
+        "scope": "Public owning-repository metadata."
+      },
+      {
+        "url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/README.md",
+        "retrieved_at_utc": "2026-11-15T16:44:48.496856+00:00",
+        "scope": "Pinned README; Git blob verified."
+      },
+      {
+        "url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE",
+        "retrieved_at_utc": "2026-11-15T16:44:48.497397+00:00",
+        "scope": "Pinned license; Git blob verified."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/0sec-labs/0security/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-MIT",
+        "retrieved_at_utc": "2026-11-15T16:44:48.497842+00:00",
+        "sha256": "d9e77d5f395475a2334ed5258000ca8d6d5ec896ed9fe281f229c076ea04d9c3",
+        "scope": "Pinned dual-license choice file."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/0sec-labs/0security/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE",
+        "retrieved_at_utc": "2026-11-15T16:44:48.498167+00:00",
+        "sha256": "9b99582fe11a8bccd147a2e0f0d9a033ba9d6841c47995e0661a47ff34631778",
+        "scope": "Pinned dual-license choice file."
+      }
+    ],
+    "lifecycle_stage": "public project with releases",
+    "lifecycle_basis": "Metadata only; no maturity claim.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/README.md",
+        "statement": "Canonical repository now0sec-labs/0security; old0 alias verified. Both license files checked; disclosure totals unverified."
+      }
+    ],
+    "lineage": {
+      "earlier_repository_alias": "0sec-labs/0",
+      "canonical_repository": "0sec-labs/0security",
+      "scope": "GitHub API canonical full_name/redirect plus pinned README links."
+    }
   }
 ]

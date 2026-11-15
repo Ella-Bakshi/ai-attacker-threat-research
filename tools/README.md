@@ -1,6 +1,6 @@
 # AI security tooling index
 
-Updated **15 November 2026**. This registry covers **37 project identities**, including four added on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
+Updated **15 November 2026**. This registry covers **41 project identities**, including eight added on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
 
 [Full JSON](tool-registry.json) · [Importable CSV](tool-registry.csv) · [Our source identification hypotheses](source-identification-hypotheses.json)
 
@@ -11,7 +11,7 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | Project and source | What it does, according to its maintainer | Latest visible release |
 |---|---|---|
 | [ARTEX](https://github.com/BaaRai/ARTEX) | Go/Next.js multi-agent penetration-testing platform with planning, tool execution and optional offensive workflows. | v0.6.0 (2026-11-11) |
-| [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | Security automation workspace combining agent planning, MCP tools, human oversight, evidence, workflows and optional C2 capabilities. | v1.7.24 (2026-10-16) |
+| [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | Security automation workspace combining agent planning, MCP tools, human oversight, evidence, workflows and optional C2 capabilities. | v1.8.0 (2026-11-13) |
 | [PentAGI](https://github.com/vxcontrol/pentagi) | Self-hosted multi-agent penetration-testing system using LLMs and conventional security tools. | v2.2.0 (2026-10-05) |
 | [AutoCVE](https://github.com/larlarua/AutoCVE) | Multi-agent source auditing and vulnerability verification/reporting platform with sandboxed tool workflows. | v1.0.5 (2026-07-12) |
 | [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) | MCP-oriented security automation framework exposing conventional assessment tools to AI clients. | No GitHub release found |
@@ -24,7 +24,7 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | Project and source | What it does, according to its maintainer | Latest visible release |
 |---|---|---|
 | [ARL community backup](https://github.com/Aabyss-Team/ARL) | Asset enumeration, service identification and exposure inventory in a community copy of the original ARL project. | 2.6.3 (2025-03-04) |
-| [ARL-Next](https://github.com/owl234/ARL-Next) | ARL-derived platform with asynchronous scan orchestration, asset investigation and an MCP interface for AI clients. | v1.4.5 (2026-11-05) |
+| [ARL-Next](https://github.com/owl234/ARL-Next) | ARL-derived platform with asynchronous scan orchestration, asset investigation and an MCP interface for AI clients. | v1.4.6 (2026-11-14) |
 | [Scope Sentry](https://github.com/Autumn-27/ScopeSentry) | Distributed asset mapping, subdomain, leakage, vulnerability and directory scanning with page monitoring. | v1.9.4 (2026-08-23) |
 | [Nemo](https://github.com/hanc00l/nemo_go) | Distributed reconnaissance platform covering domains, IPs, services and website assets. | v3.2.1 (2026-02-09) |
 | [XingRin](https://github.com/yyhuni/xingrin) | Self-hosted distributed asset discovery, scanning, search and result-management platform. | v1.5.8 (2026-01-11) |
@@ -45,11 +45,11 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 
 | Project and source | Maintainer-described purpose | Latest visible release |
 |---|---|---|
-| [RedAmon](https://github.com/samugit83/redamon) | Self-hosted assessment agents organize findings in a graph and propose remediations, with documented approval gates. | v7.5.1 (2026-11-03) |
+| [RedAmon](https://github.com/samugit83/redamon) | Self-hosted assessment agents organize findings in a graph and propose remediations, with documented approval gates. | v7.8.0 (2026-11-14) |
 | [Decepticon](https://github.com/BitterSecurity/Decepticon) | Agent framework for orchestrating red-team assessment workflows and security-tool interactions. | v2.2.2 (2026-10-28) |
 | [PentestAgent](https://github.com/GH05TCREW/pentestagent) | Agent-based black-box security testing with workflows for authorized assessments and bug-bounty research. | No GitHub release found |
-| [Cybermes](https://github.com/Zyrexnn/Cybermes) | Security-focused harness combining a Hermes engine, specialized skills and model/tool orchestration. | v3.5.0 (2026-09-16) |
-| [Xalgorix](https://github.com/xalgorix/xalgorix) | Agent-driven assessment orchestration with reconnaissance, finding review and a web interface. | v4.6.187 (2026-11-12) |
+| [Cybermes](https://github.com/Zyrexnn/Cybermes) | Security-focused harness combining a Hermes engine, specialized skills and model/tool orchestration. | v3.5.1 (2026-11-13) |
+| [Xalgorix](https://github.com/xalgorix/xalgorix) | Agent-driven assessment orchestration with reconnaissance, finding review and a web interface. | v4.6.193 (2026-11-15) |
 | [AIRecon](https://github.com/pikpikcu/airecon) | Local-model reconnaissance/assessment assistant paired with a Kali-based container environment and terminal interface. | 0.1.7-beta (2026-04-03) |
 | [RAPTOR](https://github.com/gadievron/raptor) | Claude Code configuration and security workflows for analysis, research and assessment of authorized artifacts. | v3.1.0 (2026-09-07) |
 | [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) | Agent-oriented security-testing harness with specialized workflows and integrations. | v2.0.1-beta.3 (2026-11-10) |
@@ -92,3 +92,16 @@ Four projects are new to this index; their release dates are historical. No mali
 PenPard is source-available with noncommercial terms, not OSI open source. AIDA and Pentest Swarm AI are indexed at their owning upstreams; discovered forks are retained as relationship evidence rather than extra tools. Maintainer claims have not been executed or benchmarked. Pinned documentation hashes identify the reviewed text, not a deployment.
 
 Release metadata updates: [AIPentest/CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0) v1.7.24 → v1.8.0, [owl234/ARL-Next](https://github.com/owl234/ARL-Next/releases/tag/v1.4.6) v1.4.5 → v1.4.6, [samugit83/redamon](https://github.com/samugit83/redamon/releases/tag/v7.8.0) v7.5.1 → v7.8.0, [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes/releases/tag/v3.5.1) v3.5.0 → v3.5.1, [xalgorix/xalgorix](https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193) v4.6.187 → v4.6.193. Historical source pins remain unchanged.
+
+## Additional source-review identities
+
+These entries verify software identity. Reported abuse, where available, has its own source and scope. Exact campaign revisions and deployed bytes remain unknown. Earlier pins and release-review history are preserved.
+
+| Project and source | Source/identity qualification | Latest visible release |
+|---|---|---|
+| [sapper-v2](https://github.com/N1nEmAn/sapper-v2) | Competition-oriented multi-agent assessment orchestrator; benchmark/championship claims remain maintainer assertions. | v18-champion (2026-11-01) |
+| [HalberdStrike](https://github.com/kuaiyelink/HalberdStrike) | LLM assessment harness; PenTestGPT-inspired design is a maintainer claim, not independently verified code lineage. | No GitHub release found |
+| [Bulwark](https://github.com/bulwark-sec/bulwark) | Pinned LICENSE/top badges say AGPL-3.0; README footer claims Apache-2.0. Conflict unresolved. | v5.26.0 (2026-06-10) |
+| [0security](https://github.com/0sec-labs/0security) | Canonical repository now `0sec-labs/0security`; the old `0` alias verified. Both license files checked; disclosure totals unverified. | v0.32.0 (2026-11-15) |
+
+Acronis [reports HalberdStrike use in BOSSAI operations](https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/). The reported owner/name match the indexed upstream; the exact deployed revision, modifications and bytes remain unknown. The report describes operator-mediated transfers of reconnaissance reports, not direct autonomous communication between those agents.

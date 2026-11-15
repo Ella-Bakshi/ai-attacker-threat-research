@@ -1,0 +1,847 @@
+[
+  {
+    "record_id": "OWN-CSAI-HIST-F10D55157084",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "md5",
+    "indicator": "a69b3caad1b51b56ca0786f8ba2f9218",
+    "role": "Independently computed byte identity of exact historical template-lineage Linux payload",
+    "artifact_sha256s": [
+      "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7"
+    ],
+    "origin": "analyst_verified_public_sample_identity",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:30:11.045787+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "artifact-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/md5"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+            "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "artifact_bytes": 6115512,
+            "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "a69b3caad1b51b56ca0786f8ba2f9218",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "artifact_bytes": 6115512,
+        "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:30:11.045787+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/md5"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ]
+  },
+  {
+    "record_id": "OWN-CSAI-HIST-FA503AD1D655",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "sha1",
+    "indicator": "daba73b0849be9c53a088c4ed7a2be84ccd1a563",
+    "role": "Independently computed byte identity of exact historical template-lineage Linux payload",
+    "artifact_sha256s": [
+      "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7"
+    ],
+    "origin": "analyst_verified_public_sample_identity",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:30:11.045787+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "artifact-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/sha1"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+            "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "artifact_bytes": 6115512,
+            "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "daba73b0849be9c53a088c4ed7a2be84ccd1a563",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "artifact_bytes": 6115512,
+        "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:30:11.045787+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/sha1"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ]
+  },
+  {
+    "record_id": "OWN-CSAI-HIST-909327CD6DE2",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "md5",
+    "indicator": "0f38f3a6bc892e5530ce8b50b435a67f",
+    "role": "Independently computed byte identity of exact historical template-lineage Linux payload",
+    "artifact_sha256s": [
+      "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d"
+    ],
+    "origin": "analyst_verified_public_sample_identity",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "artifact-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/md5"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+            "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "artifact_bytes": 6168868,
+            "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "0f38f3a6bc892e5530ce8b50b435a67f",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "artifact_bytes": 6168868,
+        "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:32:25.838893+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/md5"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ]
+  },
+  {
+    "record_id": "OWN-CSAI-HIST-66ABD840256E",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "sha1",
+    "indicator": "43a702420921ab530e287d6ec8e166a554bc4049",
+    "role": "Independently computed byte identity of exact historical template-lineage Linux payload",
+    "artifact_sha256s": [
+      "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d"
+    ],
+    "origin": "analyst_verified_public_sample_identity",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "artifact-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/sha1"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+            "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "artifact_bytes": 6168868,
+            "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "43a702420921ab530e287d6ec8e166a554bc4049",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "artifact_bytes": 6168868,
+        "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:32:25.838893+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/sha1"
+        ],
+        "derivation": "Whole-file exact crosshash"
+      }
+    ]
+  },
+  {
+    "record_id": "OWN-CSAI-HIST-A3317F4731D1",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "network_endpoint",
+    "indicator": "23.254.195.48:18443",
+    "role": "Statically configured HTTP controller host:port in two exact historical variants",
+    "artifact_sha256s": [
+      "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+      "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d"
+    ],
+    "origin": "analyst_native_config_derivation",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "sample-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/native_request_evidence/0",
+          "/artifacts/0/native_request_evidence/1"
+        ],
+        "derivation": "Parse literal URL hostname/port18443 from both check-in/result entries"
+      },
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/native_request_evidence/0",
+          "/artifacts/1/native_request_evidence/1"
+        ],
+        "derivation": "Parse literal URL hostname/port18443 from both check-in/result entries"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+          "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+            "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "artifact_bytes": 6115512,
+            "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+          },
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+            "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "artifact_bytes": 6168868,
+            "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "23[.]254[.]195[.]48:18443",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "artifact_bytes": 6115512,
+        "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      },
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "artifact_bytes": 6168868,
+        "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:30:11.045787+00:00",
+      "2026-11-15T16:32:25.838893+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/native_request_evidence/0",
+          "/artifacts/0/native_request_evidence/1"
+        ],
+        "derivation": "Parse literal URL hostname/port18443 from both check-in/result entries"
+      },
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/native_request_evidence/0",
+          "/artifacts/1/native_request_evidence/1"
+        ],
+        "derivation": "Parse literal URL hostname/port18443 from both check-in/result entries"
+      }
+    ]
+  },
+  {
+    "record_id": "OWN-CSAI-HIST-620388410A71",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "url",
+    "indicator": "http://23.254.195.48:18443/check_in",
+    "role": "Configured check-in POST URL, native35-byte argument",
+    "artifact_sha256s": [
+      "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+      "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d"
+    ],
+    "origin": "analyst_native_config_derivation",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "sample-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/native_request_evidence/0"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      },
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/native_request_evidence/0"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+          "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+            "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "artifact_bytes": 6115512,
+            "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+          },
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+            "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "artifact_bytes": 6168868,
+            "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "http://23[.]254[.]195[.]48:18443/check_in",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "artifact_bytes": 6115512,
+        "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      },
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "artifact_bytes": 6168868,
+        "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:30:11.045787+00:00",
+      "2026-11-15T16:32:25.838893+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/native_request_evidence/0"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      },
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/native_request_evidence/0"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      }
+    ]
+  },
+  {
+    "record_id": "OWN-CSAI-HIST-507FBBD597D7",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "url",
+    "indicator": "http://23.254.195.48:18443/result",
+    "role": "Configured result POST URL, native33-byte argument",
+    "artifact_sha256s": [
+      "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+      "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d"
+    ],
+    "origin": "analyst_native_config_derivation",
+    "evidence_reference": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+    "confidence": "High",
+    "confidence_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "evidence_score_hint": 60,
+    "score_basis": "Exact static identity/configuration in SHA256/CRC/size-verified public artifacts; ordinal strength, not probability.",
+    "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00",
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "source_published_date": "",
+    "first_seen": "",
+    "last_seen": "",
+    "date_basis": "Acquisition/review are evidence times; provider payload observations remain separately in source seed. No victim/activity times inferred.",
+    "new_to_repository": true,
+    "automatic_blocklist_suitable": false,
+    "malicious_campaign_established": false,
+    "primary_source_url": "https://urlhaus.abuse.ch/url/3944164/",
+    "publication_category": "sample-derived-observables",
+    "verification_status": "independent_peer_verified_exact_artifact_identity_and_selected_native_configuration",
+    "source_review_state": "artifact_supported",
+    "source_review_disposition": "new_exact_public_artifact_derivation_peer_verified",
+    "source_review_scope": "Exact independently inspected bytes/static native configuration only; no exchange/current operation/operator/campaign claim.",
+    "source_reviewed_at_utc": "2026-11-15T16:58:50.281520+00:00",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "india_evidence_url": "",
+    "india_evidence_basis": "No targeting/victim evidence derived from sample configuration.",
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "collection_origin": "independent_public_artifact_derivation",
+    "association_scope": "static_template_code_lineage_not_named_campaign",
+    "recommended_use": "Correlate exact sample/static configuration with local event evidence; no automatic enforcement.",
+    "limitations": "Exact revision/operator/campaign/victims/current operation unknown. Two module beacon(devel) variants support CyberStrikeAI template code lineage through specific source/function/protocol/native evidence. Static URL is not an observed connection.",
+    "source_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/native_request_evidence/1"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      },
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/native_request_evidence/1"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      }
+    ],
+    "source_references": [
+      {
+        "url": "https://urlhaus.abuse.ch/url/3944164/",
+        "source_role": "primary_historical_payload_delivery_seed",
+        "retrieved_at_utc": ""
+      },
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "source_role": "exact_public_archive_acquisition",
+        "archive_members": [
+          "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+          "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf"
+        ],
+        "acquisitions": [
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+            "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+            "artifact_bytes": 6115512,
+            "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+          },
+          {
+            "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+            "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+            "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+            "artifact_bytes": 6168868,
+            "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      },
+      {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/internal/c2/payload_templates/beacon.go.tmpl",
+        "source_role": "pinned_official_template_for_code_lineage_comparison_not_exact_generating_revision",
+        "retrieved_at_utc": ""
+      }
+    ],
+    "indicator_defanged": "http://23[.]254[.]195[.]48:18443/result",
+    "artifact_acquisitions": [
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7.elf",
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "artifact_bytes": 6115512,
+        "acquired_at_utc": "2026-11-15T16:30:11.045787+00:00"
+      },
+      {
+        "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-07.zip",
+        "archive_member": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d.elf",
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "artifact_bytes": 6168868,
+        "acquired_at_utc": "2026-11-15T16:32:25.838893+00:00"
+      }
+    ],
+    "acquisition_times_utc": [
+      "2026-11-15T16:30:11.045787+00:00",
+      "2026-11-15T16:32:25.838893+00:00"
+    ],
+    "source_retrieved_at_utc": "",
+    "observation_date_basis": "Static file/configuration, not observed traffic. First/last controller/victim activity unknown. Primary URLhaus retrieval timestamp was not captured precisely and remains blank. Archive acquisition times are separate explicit evidence times; provider URL addition/payload firstseen are not substituted for activity.",
+    "source_review_locator": [
+      {
+        "artifact_sha256": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/0/native_request_evidence/1"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      },
+      {
+        "artifact_sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "evidence_file": "research/analyst-derived/2026-11-15-historical-cyberstrikeai/historical-payload-static-evidence.json",
+        "json_pointers": [
+          "/artifacts/1/native_request_evidence/1"
+        ],
+        "derivation": "Exact native URL operand/length/POST constructor in referenced entry"
+      }
+    ]
+  }
+]

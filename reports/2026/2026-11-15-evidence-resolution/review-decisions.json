@@ -1,0 +1,1385 @@
+[
+  {
+    "record_id": "AR-BFAF57C88870",
+    "framework": "ARTEX",
+    "indicator_type": "software_signature",
+    "indicator": "ELF/PE + ARTEX Go module + exchange_bodies + blob_refs + ex_fts SQL definitions",
+    "previous_state": "unverified",
+    "decision": "supported_finite_static_fingerprint_measurement",
+    "new_state": "artifact_supported",
+    "category": "software-fingerprints",
+    "basis": "The existing record states an authored static conjunction, not a production detector or maliciousness assertion. The exact condition was freshly compiled and matched hash-verified reference bytes; the broader operational hypothesis remains explicitly unverified.",
+    "source_urls": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
+    "limitations": "Native-byte backed alternative code-lineage signature; only finite references tested. Not a maliciousness classifier. Software/reference identification only. Not an original confirmed malicious IOC; no global novelty claim.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-2E5E398949EF",
+    "framework": "ARTEX",
+    "indicator_type": "container_image",
+    "indicator": "docker.1ms.run/tomicdd/artex:latest@sha256:cb85a7206290dc1813e3203e044741054b26c7a7c557c7d9d6d91af20aeb232b",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The exact immutable app-store manifest reference and its match to the publisher-reported platform digest are proven. The old unverified state conflated that reference fact with the separate unproven question of current mirror-served executable content.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/lazycat-contrib/artex-lzcapp/42ea4bee3a25641791f30fd8977d7253989f52db/lzc-manifest.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact source reference and digest-string relationship only; not current distribution or compromise.",
+    "limitations": "The exact manifest dependency is source-supported. No malware bytes were acquired from the mirror, and current operation/content or malicious intent by the app-store maintainers remains unestablished. Shared registry hostname is not a malicious-domain IOC.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-EDC6BD2C65B1",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "134.122.137.132",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-7E4BBB905393",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "178.15.54.129",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "https://www.ic3.gov/CSA/2026/261113.pdf"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Microsoft IOC table uses 178.16.54.129 while the same article hunting query uses 178.15.54.129. Both are quarantined pending resolution. Do not promote to confirmed malicious. IOC table says 178.16.54.129; no correction found.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-1FBB76E837D5",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "178.16.54.129",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "https://www.ic3.gov/CSA/2026/261113.pdf"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Microsoft IOC table uses 178.16.54.129 while the same article hunting query uses 178.15.54.129. Both are quarantined pending resolution. Historical source report; current activity not inferred from this table. Source sample KQL uses 178.15.54.129; table value retained and discrepancy separately recorded.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-DAE2EFEEE673",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "204.194.51.54",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-8F455E00D4B7",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "085f53a1ce8c634ac7b0d63e42b56b15",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-0A761BC09A4E",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "0c501aca4fc29efe47f122ddc9c1af85",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-068F739F5D96",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "0eb259067e565221109a3ee988e1faa3",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-FE7B4C71EDF5",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "220a1465b2c5ee3ec86861ee17a91e2f",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-D8A9DE0CB2CF",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "2d13374c14bcaaa99ab00f16cc18b300",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-F85C60EC2C83",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "326bb512422930f723e8434d219bea15",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-3867F0F1010B",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "4fff3a0e67210deea726a3bd8c0b625f",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-75FA6B0F3844",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "5881f74d3bb167e48f6e61c8d9c220e7",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-7634CBA3A7AF",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "5a38c92fcf2772f65517485f3a23810e",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-4A5645F1060C",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "5d151bb4512fc48932a83d3bc24ea806",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-8B7961263E33",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "6593d2601f967566ae1efe521ec7b470",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-EBD269B8808B",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "6d7ba9ced55bf353d3eca6cf95dc52ff",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "report-artifact-observables",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261107-qdayzsb19v",
+      "https://badbyte.io/artex-backdoor-docker-image/",
+      "https://yaraify.abuse.ch/sample/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-99C30478FE03",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "6d80677af9096febf88e52a9e1c485f8",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261028-fa9m2aat7l",
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-1531641A136A",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "71067a6f7a396d3e6e51216abff279fb",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261028-fa9m2aat7l",
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-3D3894A0A22F",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "773dc8997a50425fb4146161d747c10f",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-5505F88AAED7",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "78c3efc26c8db056933da58032361706",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-A6304BC69F83",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "8858508e75ac58ce586631101be87973",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-8557E4752D94",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "912e8bb04a86f34c76d7d9bad8b67685",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-B6FF23EB9241",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "baddd4d75a6980e0df8d47333d9472c3",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-C53F1B4E3176",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "bd0a6c382bd1fc44ef2669b6b0534d84",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261028-fa9m2aat7l",
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-336760317C02",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "be4033d98dd65437516a94048adc8ac5",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-641757FF2E23",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+    "source_urls": [
+      "https://asec.ahnlab.com/en/95845/",
+      "https://asec.ahnlab.com/ko/95844/",
+      "https://asec.ahnlab.com/jp/96199/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-27792EC7CD82",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/DevComputaria/ARTEX",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/DevComputaria/ARTEX/c8584a76d0ab8af6642cb04bf5a1d35e89ef81ac/docker-compose.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-40970CCA953F",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/aizhihuxiao/ARTEX",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "New corrective evidence: the current same-name GitHub repository has object ID1456427293 and creation time2026-11-13T09:51:29Z, after the5November deleted-reference report. It is a RuoJi6/ARTEX fork whose inspected pinned compose defaults to ruoji6/artex, not tomicdd/artex. It cannot substitute for the deleted historical repository. One Software Heritage origin lookup returned404; no original object or archived dependency was recovered.",
+    "source_urls": [
+      "https://badbyte.io/artex-backdoor-docker-image/",
+      "https://api.github.com/repos/aizhihuxiao/ARTEX",
+      "https://raw.githubusercontent.com/aizhihuxiao/ARTEX/2290acfa62c2c26d54d16a306ae96775b342585f/docker-compose.yml"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+    "limitations": "Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX. Current same-name GitHub repository object1456427293 was created2026-11-13, after the historical deleted-reference report; its inspected pinned compose defaults to ruoji6/artex. Current recreation is not the historical repository object. Historical source pointer remains unverified.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-43F589C641CC",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/burakkocer/PenX",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/burakkocer/PenX/19e8b12aebcfed395869f9e74e362210e68f35eb/docker-compose.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-992F76AF1C2D",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/fyp1984/artex-qiming",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/docker-compose.yml",
+      "https://raw.githubusercontent.com/fyp1984/artex-qiming/99f09434fdaaa812a085aabdf4189c241e01ed65/Dockerfile.qiming",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-5549111A536E",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/imxv/ARTEXX",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/imxv/ARTEXX/178d250853ca743742807b74f857f5f483b3ddd7/docker-compose.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-4C256BDB08C0",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/lazycat-contrib/artex-lzcapp",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/lazycat-contrib/artex-lzcapp/42ea4bee3a25641791f30fd8977d7253989f52db/lzc-manifest.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-B1B062240181",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/luoxi0615/ARTEX",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/luoxi0615/ARTEX/5d27f8a7ade5da3a55ed5e0f36bed43934eff69d/docker-compose.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-6B0843AB14D8",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/milantgh/artex",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-context",
+    "basis": "The immutable source revision directly contains the reported dependency reference. This independently verifies the original reference claim rather than merely repeating the article list. Malicious maintainer intent, execution and every version of a mutable tag were never established by that reference.",
+    "source_urls": [
+      "https://raw.githubusercontent.com/milantgh/artex/e6c1c9ae2183f3adafd3dfb4814e673715b9e9f3/docker-compose.yml",
+      "https://badbyte.io/artex-backdoor-docker-image/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Pinned dependency/reference identity only; not malicious authorship, affected installation, or current operation.",
+    "limitations": "Only the exact source-pinned dependency relationship is verified. The compose tag can be overridden and mutable tags are not exact executable identities. Repository code, maintainers and all versions are not classified malicious; no current image availability, deployment or compromise is claimed. The publisher reports the trojanized image and its removal separately.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-9404B9C363FE",
+    "framework": "ARTEX",
+    "indicator_type": "sha1",
+    "indicator": "392173d6c8068265ca14519374ab0f0687c4ac1d",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261028-fa9m2aat7l",
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-8D27F5D67131",
+    "framework": "ARTEX",
+    "indicator_type": "sha1",
+    "indicator": "541f02c11bc7a96a443bc09a8bb70991fcd07857",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261028-fa9m2aat7l",
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-BD65DCFB0BBC",
+    "framework": "ARTEX",
+    "indicator_type": "sha1",
+    "indicator": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261028-fa9m2aat7l",
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "AR-442071E4B006",
+    "framework": "ARTEX",
+    "indicator_type": "sha1",
+    "indicator": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
+    "previous_state": "unverified",
+    "decision": "resolved_with_new_evidence",
+    "new_state": "source_supported",
+    "category": "report-artifact-observables",
+    "basis": "Exact provider identity block maps the value to the same full SHA256 explicitly identified by the primary publisher. This resolves the identity bridge. No local bytes are needed for a source-supported metadata relation; no byte-computation claim is made.",
+    "source_urls": [
+      "https://tria.ge/261107-qdayzsb19v",
+      "https://badbyte.io/artex-backdoor-docker-image/",
+      "https://yaraify.abuse.ch/sample/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact provider identity relation and publisher-reported file role only; not independent campaign telemetry or present maliciousness.",
+    "limitations": "Provider identity mapping to the publisher-identified exact file is established. This is externally reported identity evidence, not hashes recomputed from locally acquired bytes. It does not prove a new infection, operator, victim, current infrastructure, or successful exchange. GameHook is a legitimate abused component where applicable. No global novelty is claimed.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-504C94095EBA",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "unverified_file_hash_32hex",
+    "indicator": "09e1da2afa1216ecc55648ec8e122d2a",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "High primary literal/role; algorithm unresolved",
+    "source_urls": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
+    "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-C8DEAA24FBB6",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "unverified_file_hash_32hex",
+    "indicator": "2770562d104391b92b42671c270079bb",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "High primary literal/role; algorithm unresolved",
+    "source_urls": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
+    "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-149870EBFE9C",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "unverified_file_hash_32hex",
+    "indicator": "d726a8b4886c636f76ca6d30ef6a6ff4",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "High primary literal/role; algorithm unresolved",
+    "source_urls": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
+    "limitations": "Exact source hash string and role rechecked, but do not equate length-based normalization with independent cryptographic identity verification. Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-A6B63C3A9B1F",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "software_signature",
+    "indicator": "ELF + cyberstrike-ai/tmp/c2/payloads/build- + main.fetchC2FileByID + main.buildTaskReport + X-Implant-Token + X-Session-Token + __CSAI_CWD_%x__",
+    "previous_state": "unverified",
+    "decision": "supported_finite_static_fingerprint_measurement",
+    "new_state": "artifact_supported",
+    "category": "software-fingerprints",
+    "basis": "The existing record states an authored static conjunction, not a production detector or maliciousness assertion. The exact condition was freshly compiled and matched hash-verified reference bytes; the broader operational hypothesis remains explicitly unverified.",
+    "source_urls": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/sample_beacon_lineage.yar"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
+    "limitations": "Matched the acquired sample and not the ARTEX reference, local main-controller reference or third-party egress component. One positive and three negatives; not a production false-positive measurement. These are newly derived in this research from the sample; no global novelty or current live-C2 claim. No secret/token values are included.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-632615C8AE13",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "software_signature",
+    "indicator": "ELF + generated cyberstrike-ai payload build path + main.persistLinux + cron merge format + bashrc nohup # cs format",
+    "previous_state": "unverified",
+    "decision": "supported_finite_static_fingerprint_measurement",
+    "new_state": "artifact_supported",
+    "category": "software-fingerprints",
+    "basis": "The existing record states an authored static conjunction, not a production detector or maliciousness assertion. The exact condition was freshly compiled and matched hash-verified reference bytes; the broader operational hypothesis remains explicitly unverified.",
+    "source_urls": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/linux_beacon_persistence.yar"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
+    "limitations": "Matches implementation capability even if the persist task was never invoked. It is a separate conditional-capability fingerprint, not a new confirmed malicious file or campaign. Conditional pattern or code-lineage marker only. Different builds/profiles or authorized use can produce related artifacts. No secrets or actual host/user identifiers included.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-AD1F8E56549C",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "software_signature",
+    "indicator": "ELF/PE + cyberstrike-ai/internal/c2 + X-Implant-Token + invalid tcp beacon frame size + c2_disabled",
+    "previous_state": "unverified",
+    "decision": "supported_finite_static_fingerprint_measurement",
+    "new_state": "artifact_supported",
+    "category": "software-fingerprints",
+    "basis": "The existing record states an authored static conjunction, not a production detector or maliciousness assertion. The exact condition was freshly compiled and matched hash-verified reference bytes; the broader operational hypothesis remains explicitly unverified.",
+    "source_urls": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/controller_reference.yar"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
+    "limitations": "Derived from pinned official source and a locally built reference. Not a maintainer-distributed artifact, captured deployment, or campaign sample. Compiled YARA matched the locally built controller; examined ARTEX and third-party egress reference artifacts were negative. Small corpus, no broad false-positive claim.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-D57A2A59A66E",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "software_signature",
+    "indicator": "ELF/PE + cyberstrike-ai/internal/database + c2_http_session_auth + c2_payload_artifacts + c2_profiles + conversations.db",
+    "previous_state": "unverified",
+    "decision": "supported_finite_static_fingerprint_measurement",
+    "new_state": "artifact_supported",
+    "category": "software-fingerprints",
+    "basis": "The existing record states an authored static conjunction, not a production detector or maliciousness assertion. The exact condition was freshly compiled and matched hash-verified reference bytes; the broader operational hypothesis remains explicitly unverified.",
+    "source_urls": [
+      "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/40866f1679de801df0f5376fca1e7502fd0a4d42/detections/yara/schema_lineage.yar"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High confidence in the exact condition and enumerated reference-byte matches; only finite local controls were assessed. Production false-positive rate and generalization remain unverified.",
+    "limitations": "Native-byte backed alternative code-lineage signature; only finite references tested. Not a maliciousness classifier. Software/reference identification only. Not an original confirmed malicious IOC; no global novelty claim.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-7A14FC8D9665",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "unverified_file_hash_32hex",
+    "indicator": "0bbd08af95f877f1d568b03de2eb76b4",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "High primary literal/role; algorithm unresolved",
+    "source_urls": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Reported literal/role supported; digest algorithm unconfirmed. Do not silently type MD5 from length.",
+    "limitations": "Algorithm qualification on 15 November 2026 preserves the original value, publisher role and dates; it is not a hash mismatch.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-253AA3067F3C",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "ipv4",
+    "indicator": "23.254.195.48",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "High historical source-to-byte delivery relation and static lineage; not operation",
+    "source_urls": [
+      "https://urlhaus.abuse.ch/url/3944164/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
+    "limitations": "MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-E3AC4FA4203E",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "network_endpoint",
+    "indicator": "23.254.195.48:8099",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "High historical source-to-byte delivery relation and static lineage; not operation",
+    "source_urls": [
+      "https://urlhaus.abuse.ch/url/3944164/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
+    "limitations": "MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-300BE692CD2A",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "sha1",
+    "indicator": "acc5cab873f6f687657f79083dd91f494718217a",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "sourced-iocs",
+    "basis": "High explicit provider bridge; source-reported campaign role",
+    "source_urls": [
+      "https://tria.ge/261027-qmb8eaes6q"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Exact provider-reported identity for primary reported beacon seed; malicious/campaign role remains attributed to Kaspersky, no independent execution/decompilation/current operation claim.",
+    "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-D36F64586D09",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "sha256",
+    "indicator": "1c6498f081ff7a5ef0e851d2c106668aef53e1384b8d0c52fa667e53a5664c33",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "sourced-iocs",
+    "basis": "High explicit provider bridge; source-reported campaign role",
+    "source_urls": [
+      "https://tria.ge/261027-qmb8eaes6q"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Exact provider-reported identity for primary reported beacon seed; malicious/campaign role remains attributed to Kaspersky, no independent execution/decompilation/current operation claim.",
+    "limitations": "Reported hash relation is visible in the public Triage report and matches a previously published campaign seed. No local sample bytes were acquired or hash-verified for this artifact; no local native decompilation performed. Generic sandbox tags are not adopted as malware attribution.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-89855B455A28",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "sha256",
+    "indicator": "7832997e951cdd9c169d25e72141e24d63f342b19f6ad2e1523f5f21a486c9c7",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "artifact_supported",
+    "category": "analyst-derived",
+    "basis": "High historical source-to-byte delivery relation and static lineage; not operation",
+    "source_urls": [
+      "https://urlhaus.abuse.ch/url/3944164/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
+    "limitations": "MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-2BD128CD46D9",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "sha256",
+    "indicator": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "artifact_supported",
+    "category": "analyst-derived",
+    "basis": "High historical source-to-byte delivery relation and static lineage; not operation",
+    "source_urls": [
+      "https://urlhaus.abuse.ch/url/3944164/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
+    "limitations": "MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-7C930CB08BE5",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "ssdeep",
+    "indicator": "49152:cf0DQXXU/mz9oYbXsKQxiEzQW6f86DeYt71D3v1dxz3QpgpzajdcYtMrggmU0NJD:csqW+KY/t7DdPzzzapMglE1kSZHOJE8",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "software-fingerprints",
+    "basis": "High provider field/sample relation; low standalone specificity",
+    "source_urls": [
+      "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Named provider field/exact-SHA256 association only; similarity does not establish maliciousness, campaign or current infrastructure.",
+    "limitations": "File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-7D150376A11D",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "telfhash",
+    "indicator": "t139327b744dbd38b4b699d911b3a3b4b4957719a572f838f11463a980ffc1e802ce283b",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "software-fingerprints",
+    "basis": "High provider field/sample relation; low standalone specificity",
+    "source_urls": [
+      "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Named provider field/exact-SHA256 association only; similarity does not establish maliciousness, campaign or current infrastructure.",
+    "limitations": "File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-4C2EBDCEADAD",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "tlsh",
+    "indicator": "T1A6565A43ECA555E8C0A9E2308A629253BB717C885F3123D33B90F7782F76BD06AB5754",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "software-fingerprints",
+    "basis": "High provider field/sample relation; low standalone specificity",
+    "source_urls": [
+      "https://bazaar.abuse.ch/sample/cbf1045bb2d4de52142b68d825d265588e1c94ec7d4132284deea8fef67fe4d4/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Named provider field/exact-SHA256 association only; similarity does not establish maliciousness, campaign or current infrastructure.",
+    "limitations": "File bytes acquired and MD5/SHA1/SHA256 verified by root from public daily archive; see local_file_verification. No known Kaspersky campaign seed match; family/campaign association remains under static verification. Fuzzy hashes cluster, not exact identities. First/last dates are public sample sightings, not attack dates.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "CS-459A87EEA089",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "url",
+    "indicator": "http://23.254.195.48:8099/bx_amd64.p",
+    "previous_state": "unverified",
+    "decision": "new_proof",
+    "new_state": "source_supported",
+    "category": "supporting-tools",
+    "basis": "High historical source-to-byte delivery relation and static lineage; not operation",
+    "source_urls": [
+      "https://urlhaus.abuse.ch/url/3944164/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "Historical delivery/exact artifact/static code only.8099 is delivery;18443 is sample-configured controller. Current operation, registration, campaign/operator/victims unknown.",
+    "limitations": "MalwareBazaar links this URLhaus record, but these payload hashes differ from cbf1045 and predate it. No family attribution is established for this endpoint or the two historical hashes. URL date_added is2026-10-07T07:15:25Z; last online is only displayed to hour precision; not copied into attack first/last seen.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-E8AE40A8B8B7",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "176.65.144.71",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-5941A37C2CF8",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "31.56.206.187",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-297E91662108",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "31.59.92.155",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-6A01D3AD3BD1",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "38.244.50.120",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-6987F2D196F6",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "46.8.227.73",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-5CB4A6A4EB2E",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "64.44.24.195",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-EFAA3FB3E8B1",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "94.183.184.254",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-A30F5A5644CA",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "94.183.184.98",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "UN-DCF396B68119",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "95.182.99.112",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+    "source_urls": [
+      "https://www.jpcert.or.jp/at/2026/at260030.html"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+    "limitations": "JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "OWNCTI-98C31B81BA22AB2D",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "network_pattern",
+    "indicator": "tls.sni=media.fastcdn.bar AND dst.port=2083 AND ja3=20b279993ae2e137e62b9647c6d768fb AND ja3s=eb1d94daa7e0344597e756a1fb6e7054",
+    "previous_state": "unverified",
+    "decision": "supported_historical_flow_measurement",
+    "new_state": "artifact_supported",
+    "category": "analyst-derived",
+    "basis": "All four predicate fields occur together in each of six specified historical flow objects. This resolves the historical measurement claim; it does not validate a prospective network detector. The earlier quarantine conflated those distinct claims.",
+    "source_urls": [
+      "https://tria.ge/261027-qmb8eaes6q/behavioral1"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High for this six-flow historical observation only. A future hunting condition using it remains unvalidated in production, with no false-positive estimate.",
+    "limitations": "",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "OWNCTI-84ECACE2D8F420A2",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "behavior_pattern",
+    "indicator": "HTTP POST /check_in retry: approximately 5000 ms after previous matching flow completion",
+    "previous_state": "unverified",
+    "decision": "supported_historical_timing_measurement",
+    "new_state": "artifact_supported",
+    "category": "analyst-derived",
+    "basis": "Seventy-seven completion-to-next-start pairs across three retained runs reproduce the stated five-second retry timing. Exact ELF bytes independently encode initial interval5 and the applyJitter/time.Sleep/checkIn chain. This verifies a generic historical measurement and default, not a family-specific detector.",
+    "source_urls": [
+      "https://tria.ge/261106-kvkxmaat3v/behavioral1",
+      "https://tria.ge/261106-wzxb1a11bs/behavioral1",
+      "https://tria.ge/261107-yeacvaex6v/behavioral1"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "High confidence in the finite historical timing arithmetic and native default; low standalone specificity. Production detection efficacy remains unverified.",
+    "limitations": "",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "domain",
+    "indicator": "static.fastcdn.bar",
+    "previous_state": "unverified",
+    "decision": "still_uncertain_campaign_or_c2_relationship",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Exact certificate identity and SAN are confirmed, but shared apex, certificate issuer and timing do not establish an operator or sample relationship. No admissible exact-domain primary campaign report was found in the bounded public queries.",
+    "source_urls": [
+      "https://crt.sh/?id=29486410014"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "Certificate existence and shared parent are verified; no sample, malicious behavior, C2 role, operator or India association is established.",
+    "limitations": "",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "OWNCTI-AAB562EB200FA015",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "domain",
+    "indicator": "www.fastcdn.bar",
+    "previous_state": "unverified",
+    "decision": "still_uncertain_campaign_or_c2_relationship",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "Exact certificate identity and SAN are confirmed, but shared apex, certificate issuer and timing do not establish an operator or sample relationship. No admissible exact-domain primary campaign report was found in the bounded public queries.",
+    "source_urls": [
+      "https://crt.sh/?id=29636991649"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+    "confidence_scope": "Certificate existence and shared parent are verified; no sample, malicious behavior, C2 role, operator or India association is established.",
+    "limitations": "",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "GLOBAL-0F92B69CC511",
+    "framework": "LAMEHUG / PROMPTSTEAL",
+    "indicator_type": "unverified_file_hash_64hex",
+    "indicator": "5f6bfdd430a23afdc518857dfff25a29d85ead441dfa0ee363f4e73f240c89f4",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "High list membership; algorithm/subtype unresolved",
+    "source_urls": [
+      "https://www.sentinelone.com/labs/prompts-as-code-embedded-keys-the-hunt-for-llm-enabled-malware/"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:38:01.145019+00:00",
+    "confidence_scope": "High for exact source-literal transcription and reported family association; digest algorithm and exact-byte identity remain unverified.",
+    "limitations": "Source-reviewed exact observable only. No target requests, DNS, paid/private services, sample acquisition, submission or execution performed. Algorithm qualification preserves the source literal and family role; this is not a hash mismatch.",
+    "automatic_blocklist_suitable": false
+  },
+  {
+    "record_id": "DAILY15-CC909D037ACC",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "178.16.54.129",
+    "previous_state": "unverified",
+    "decision": "still_uncertain",
+    "new_state": "unverified",
+    "category": "unverified-findings",
+    "basis": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "https://www.ic3.gov/CSA/2026/261113.pdf"
+    ],
+    "reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+    "confidence_scope": "Exact FBI table literal is verified, but the underlying Microsoft table and query disagree on the address. Correct historical endpoint identity remains unresolved.",
+    "limitations": "Public-source review only; no target requests, DNS, scans, paid providers, sample submission or execution. Not an automatic blocklist. FBI compiles Microsoft table178.16.54.129. Microsoft sample query still contains178.15.54.129; compilation supplies no independent telemetry or explicit correction resolving discrepancy.",
+    "automatic_blocklist_suitable": false
+  }
+]
