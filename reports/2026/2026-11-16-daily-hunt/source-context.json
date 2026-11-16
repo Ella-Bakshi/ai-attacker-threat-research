@@ -1,0 +1,179 @@
+{
+  "sources": [
+    {
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "source_publication_dates": [
+        "2026-11-13"
+      ],
+      "record_ids": [
+        "AGG16-68B7ACE83B56",
+        "AGG16-DB58A42818A3",
+        "AGG16-59D6F9379939",
+        "AGG16-3F5DD60AF434"
+      ],
+      "evidence_classes": [
+        "campaign-context"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+      "source_publication_dates": [],
+      "record_ids": [
+        "OWN16-7584878BED818BAB",
+        "OWN16-B912A86E2ECC982E",
+        "OWN16-D905AE1E07D52553",
+        "OWN16-A6886258CE8CA3EE",
+        "OWN16-80829474B592198D",
+        "OWN16-8EE8D2038C961E3C",
+        "OWN16-884F5206E1312A68",
+        "OWN16-919334AF46B69C47",
+        "OWN16-79FAC35570B53A53",
+        "OWN16-DA86F5E99F4A8DEF",
+        "OWN16-A6BF7059F946B613",
+        "OWN16-BD20E53ECF5E1D4A",
+        "OWN16-D56F295258F45A05",
+        "OWN16-DF791D841D6C1F5F",
+        "OWN16-A88AE172AA34CF26",
+        "OWN16-02955B4B285AB858",
+        "OWN16-0ADF93A301243B42",
+        "OWN16-DCC9F76FA0080FDC",
+        "OWN16-7F7DEE9FCA9E944E"
+      ],
+      "evidence_classes": [
+        "sample-derived-observables",
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/hexstrike_server.py#L13287",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AGG16-C912FBF49ECF"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/hexstrike_server.py#L13644",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AGG16-66077B9F578C"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/hexstrike_server.py#L13819",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AGG16-A66E7C17C086"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/AIPentest/CyberStrikeAI/blob/557f74d747bf622eda2ea74d84bee0894d476ebf/internal/handler/webshell.go#L799",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AGG16-F40F84007E32"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/db/schema.sql#L27",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AR-A7D044165100"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/guard/guard.go#L147",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AR-5F44BE890B61"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/selfupdate/github.go#L97",
+      "source_publication_dates": [],
+      "record_ids": [
+        "AR-D5367667BBD3"
+      ],
+      "evidence_classes": [
+        "software-fingerprints"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
+      "source_publication_dates": [
+        "2026-11-13"
+      ],
+      "record_ids": [
+        "AGG16-3048C0168194",
+        "AGG16-75E95A9EFF5E",
+        "AGG16-C8695430AE2C"
+      ],
+      "evidence_classes": [
+        "software-fingerprints",
+        "supporting-tools"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    },
+    {
+      "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "source_publication_dates": [
+        "2026-09-09"
+      ],
+      "record_ids": [
+        "AGG16-3170501E49BA",
+        "AGG16-C5A8CE096050",
+        "AGG16-E8BF471C370F",
+        "AGG16-26619A78706A",
+        "AGG16-303C8FE4EFDE",
+        "AGG16-AEB019E001BB",
+        "AGG16-F3C7A1D6DFF0",
+        "AGG16-C4E0295B5B8C",
+        "AGG16-2C7E9352D74D",
+        "AGG16-1224521808C9",
+        "AGG16-DCD0F463DA2F",
+        "AGG16-F87F3A394A60",
+        "AGG16-FC1ECFA955E1",
+        "AGG16-02845B41606A",
+        "AGG16-5747DEDB91A8",
+        "AGG16-84AE45997562",
+        "AGG16-35BA8298E0EE"
+      ],
+      "evidence_classes": [
+        "sourced-iocs"
+      ],
+      "scope": "Exact admitted locators only; original publication, release, acquisition and activity dates retain separate meanings."
+    }
+  ],
+  "cti_academy": {
+    "url": "https://ctiacademy.io/blog/artex-ai-pentest-framework-security-audit",
+    "published_at_utc": "2026-11-03T10:21:48.171513Z",
+    "modified_at_utc": "2026-11-16T10:17:41.662136Z",
+    "scope": "Version-qualified lab audit, no new malicious infrastructure."
+  },
+  "account_only_provider_records_admitted": 0
+}

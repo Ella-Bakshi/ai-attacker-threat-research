@@ -1,0 +1,193 @@
+{
+  "title": "ARTEX Global Edition exact-release source review",
+  "reviewed_at_utc": "2026-11-16T17:28:03.989317+00:00",
+  "repository": "https://github.com/jiwoochris/artex-global",
+  "repository_id": 1403307052,
+  "identity_qualification": "Distinct public Global Edition fork; not the user-designated BaaRai repository and not proof of private/original upstream equivalence.",
+  "tag": "v0.3.15-global.1",
+  "tag_object": "eb7372a3e0b7bb75f54bc29b681888ff7ac4bf90",
+  "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+  "source_commit_date_utc": "2026-10-13T15:27:17Z",
+  "release_published_at_utc": "2026-10-13T15:30:54Z",
+  "default_branch_head_at_review": "133f3cf97f2d153227a1a95d3c4b7cd5b72020a6",
+  "default_branch_head_date_utc": "2026-11-09T16:14:30Z",
+  "scope_limit": "The release tag was latest when reviewed, but its source differs from the later branch head. No equivalence to newer source or shipped binary is claimed.",
+  "license": "AGPL-3.0",
+  "license_url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/LICENSE",
+  "source_acquisition": {
+    "url": "https://codeload.github.com/jiwoochris/artex-global/tar.gz/d6964594a0221cd921b85056d604bce9d8ce54df",
+    "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+    "size_bytes": 8304499,
+    "sha256": "dac03f8a5527f8d776ecb574025647327b3b968dc40d9357fc06c6f13d9605b8",
+    "role": "Source-archive identity, not malware IOC"
+  },
+  "identity_method": "Every retained Go source matched the complete, non-truncated pinned Git tree by Git blob identity; no source/test/hook execution.",
+  "new_software_reference_ids": [
+    "AR-D5367667BBD3",
+    "AR-5F44BE890B61",
+    "AR-A7D044165100"
+  ],
+  "new_malicious_iocs": 0,
+  "new_network_iocs": 0,
+  "new_map_ips": 0,
+  "source_annotations": [
+    {
+      "record_ids": [
+        "AR-F701725362AE",
+        "AR-3EF7E3FFA9FC"
+      ],
+      "framework_variant": "jiwoochris/artex-global",
+      "version": "v0.3.15-global.1",
+      "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+      "preserve": "Existing BaaRai/native evidence and prior version scope; this annotation adds a separate exact-fork source check.",
+      "annotation": "All 390 Go files in the complete pinned Global Edition tree were searched for the trigger names and literal selector calls. ProbeSite/ResolveDomain occur in method/interface declarations and comments; no literal selector call was found. Engine construction and SetEnrich wiring do not establish a request. Keep artex-enrich/1.0 and the request-construction combination as source-present capability, not confirmed runtime target egress.",
+      "source_references": [
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/enrich/enrich.go#L119",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "enrich/enrich.go",
+          "line_start": 119,
+          "line_end": 122,
+          "evidence_locator": "Only exported enqueue entry points ResolveDomain and ProbeSite",
+          "source_role": "source-defined trigger methods",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "7c8fc13ee74d60790c880df49ed319854f7f3f0a",
+          "document_sha256": "c8b0c5d672cde6552a44a37cd1dd785839eee9e417893693f2d936a7906d933d",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        },
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/enrich/enrich.go#L233",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "enrich/enrich.go",
+          "line_start": 233,
+          "line_end": 233,
+          "evidence_locator": "HTTP User-Agent assignment inside enrichment request construction",
+          "source_role": "source-present HTTP capability",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "7c8fc13ee74d60790c880df49ed319854f7f3f0a",
+          "document_sha256": "c8b0c5d672cde6552a44a37cd1dd785839eee9e417893693f2d936a7906d933d",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        },
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/agent/tools.go#L220",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "agent/tools.go",
+          "line_start": 220,
+          "line_end": 221,
+          "evidence_locator": "SetEnrich stores interface; no trigger invocation shown by this setter",
+          "source_role": "source-defined interface wiring",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "139a03af2a4a461c326ff4f62d081edc91cb0ba7",
+          "document_sha256": "8e587546d5d3afc96b75c0a1f19f36794f2a7312d9530971e95bda738ab31429",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        },
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/agent/worker.go#L371",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "agent/worker.go",
+          "line_start": 371,
+          "line_end": 371,
+          "evidence_locator": "Worker passes enrichment engine into setter",
+          "source_role": "source-defined engine wiring",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "5cb281c417175dd8634eb265c6fc5f139dd3a660",
+          "document_sha256": "3e4e90638b018cc3972e275105c41b3256ae27bff8ed2a2b24fd56d6afd2a695",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        }
+      ],
+      "limit": "Finite static literal/call-site search, not a whole-program runtime proof or a statement about later/modified forks.",
+      "reviewed_at_utc": "2026-11-16T17:28:03.989317+00:00",
+      "source_review_state": "source_supported"
+    }
+  ],
+  "default_binding_facts": [
+    {
+      "fact": "Binary defaults use loopback for server and recording proxy.",
+      "sources": [
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/cmd/artex/main.go#L55",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "cmd/artex/main.go",
+          "line_start": 55,
+          "line_end": 57,
+          "evidence_locator": "Default addr 127.0.0.1:8787 and proxy 127.0.0.1:8788",
+          "source_role": "default source configuration",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "1aa40c68351da1a98b49216fbe616932fc952380",
+          "document_sha256": "b2c5263a940a5e2dad7c7b9e74408a75f609012b3d4f5795044b7779386c0fd9",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        }
+      ]
+    },
+    {
+      "fact": "Compose publishes server with loopback default and proxy with explicit loopback publication.",
+      "sources": [
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/docker-compose.yml#L46",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "docker-compose.yml",
+          "line_start": 46,
+          "line_end": 47,
+          "evidence_locator": "Published port bindings",
+          "source_role": "deployment template defaults",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "c15e070513eb398112b0fc709405b4fd3962022f",
+          "document_sha256": "89b0a69bfa6ce1221c65dd3ba7e4a3ac248e0f5ae3d37cfd34fd3dc81f5df468",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        }
+      ]
+    },
+    {
+      "fact": "Docker image command listens on all container interfaces; external exposure depends on actual publication/configuration.",
+      "sources": [
+        {
+          "source_id": "artex_global_pinned_source",
+          "url": "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/Dockerfile#L43",
+          "source_repository": "jiwoochris/artex-global",
+          "source_commit": "d6964594a0221cd921b85056d604bce9d8ce54df",
+          "source_path": "Dockerfile",
+          "line_start": 43,
+          "line_end": 45,
+          "evidence_locator": "EXPOSE/ENTRYPOINT/CMD declarations",
+          "source_role": "image source defaults",
+          "published_date": "",
+          "published_date_basis": "Introduction date of this code is not established; exact release snapshot is dated separately.",
+          "retrieved_at_utc": "2026-11-16T17:18:45.849391+00:00",
+          "git_blob_sha1": "0ca847b6fb9229c8c5740afd26a57aef79195ffd",
+          "document_sha256": "c43eb75dd7c3a9c7c3fff38ab61aac2844dc7766d276584735066f5a1f247c51",
+          "verification": "Retained source bytes independently matched the pinned complete Git tree; text inspection only."
+        }
+      ]
+    }
+  ],
+  "negative_control_status": "Known generic/default and shared-tool limitations reviewed; no broad benign source/database or live sensor corpus tested.",
+  "exclusions": [
+    "Lab markers, loopback/mock/metadata addresses, exploit/bypass procedures, generic ports and generic Next.js markers are not new malicious IOCs.",
+    "No malware sample, controller or source was executed; no DNS, candidate HTTP/TLS, submissions or active scan performed."
+  ],
+  "global_novelty_claimed": false
+}

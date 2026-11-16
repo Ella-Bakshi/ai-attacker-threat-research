@@ -109,6 +109,22 @@
         "evidence": [
           "https://github.com/luojiaping/ARTEX/blob/7baca5dda545bee3df3601453a99c8002af97722/credhunt/probe.go#L460"
         ]
+      },
+      {
+        "repository": "https://github.com/jiwoochris/artex-global",
+        "repository_id": 1403307052,
+        "name": "ARTEX Global Edition",
+        "scope": "Version-qualified updater/guard/schema software references and enrichment reachability qualification; no maliciousness or deployment claim.",
+        "pinned_revision": "d6964594a0221cd921b85056d604bce9d8ce54df",
+        "tag": "v0.3.15-global.1",
+        "license": "AGPL-3.0",
+        "identity_qualification": "Separate Global Edition fork; preserve BaaRai as the user-designated project identity.",
+        "evidence": [
+          "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/README.md",
+          "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/detections/indicators/artex_indicators.csv",
+          "https://github.com/jiwoochris/artex-global/releases/tag/v0.3.15-global.1"
+        ],
+        "reviewed_at_utc": "2026-11-16T17:28:03.989317+00:00"
       }
     ]
   },
@@ -3948,6 +3964,118 @@
         "kind": "new-to-registry historical backfill",
         "evidence": "https://raw.githubusercontent.com/ASCIT31/Dark-Moon/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md",
         "statement": "New registry identity, not a first public discovery or deployment finding."
+      }
+    ]
+  },
+  {
+    "name": "LuaN1aoAgent",
+    "aliases": [
+      "LuaN1ao Security Agent",
+      "LuaN1aoAgent v2"
+    ],
+    "category": "autonomous-ai-security-assessment-framework",
+    "what_it_does_reported": "TypeScript/Pi-SDK assessment agent with Planner, Executor and Observer roles, evidence-backed graphs, isolated workspaces and terminal/web observation surfaces.",
+    "capability_validation": "Pinned maintainer documentation only; no installation, execution, benchmark or security-control validation.",
+    "ai_feature_assessment": "Upstream describes LLM-directed task orchestration and evidence handling. This functionality alone does not imply malicious use.",
+    "official_repository": "https://github.com/SanMuzZzZz/LuaN1aoAgent",
+    "repository_full_name": "SanMuzZzZz/LuaN1aoAgent",
+    "upstream_identity_qualification": "Owning repository metadata, pinned README, full AGPLv3 license and release checked. Cloudflare names this tool in a family-level survey but does not identify the examined source revision or malicious deployment.",
+    "pinned_revision": "a035429766746866bcab30550cd0aac9c539be04",
+    "last_activity_utc": "2026-09-15T12:49:57Z",
+    "last_activity_meaning": "Default-branch committer time, not deployment or attack activity.",
+    "repository_last_push_utc": "2026-09-15T12:50:05Z",
+    "repository_created_at_utc": "2025-12-04T16:30:36Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "Pinned full LICENSE and README agree on AGPLv3. Earlier third-party descriptions of Apache2 or Python refer to other historical states and are not applied to the examined v2 revision.",
+    "license_source_url": "https://github.com/SanMuzZzZz/LuaN1aoAgent/blob/a035429766746866bcab30550cd0aac9c539be04/LICENSE",
+    "latest_release": {
+      "name": "LuaN1aoAgent v2.0.0",
+      "tag_name": "v2.0.0",
+      "published_at": "2026-07-20T18:09:01Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/SanMuzZzZz/LuaN1aoAgent/releases/tag/v2.0.0"
+    },
+    "reviewed_at_utc": "2026-11-16T17:27:10.832659+00:00",
+    "retrieved_at_utc": "",
+    "retrieval_time_scope": "Exact individual connector transport timestamps are unavailable; source text persisted during this review, with file timestamps recorded in source references. Release and commit dates remain distinct.",
+    "tool_id": "sanmuzzzzz--luan1aoagent",
+    "global_novelty_claimed": false,
+    "observed_abuse": "unestablished_at_exact_revision",
+    "observed_abuse_basis": "Cloudflare reports family-level AI-orchestrator scanning and lists LuaN1aoAgent, without a literal deployment, exact source revision or per-project malicious-use proof.",
+    "observed_abuse_primary_sources": [
+      "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+    ],
+    "observed_abuse_identity_scope": "Name-level vendor context only; no exact distribution-to-incident or controller attribution.",
+    "ioc_status": "Software registry context only; zero malicious IOCs or deployment addresses admitted.",
+    "new_network_iocs": 0,
+    "license_identity": {
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "bytes": 34523,
+      "identity_scope": "Connector-decoded UTF8 documentation text saved locally; not a malware or runtime fingerprint."
+    },
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/LICENSE"
+      },
+      {
+        "kind": "latest-release",
+        "url": "https://github.com/SanMuzZzZz/LuaN1aoAgent/releases/tag/v2.0.0"
+      },
+      {
+        "kind": "primary-publisher-context",
+        "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-text-identity",
+        "source_url": "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/README.md",
+        "sha256": "5fed9f5a8c73dd4ccdde460e0bc87677fe4d9e18bdb66b53866c72b4c9e00800",
+        "bytes": 34118,
+        "identity_scope": "Connector-decoded UTF8 documentation text saved locally; not a malware or runtime fingerprint."
+      }
+    ],
+    "runtime_fingerprint_status": "Not derived or validated; no network detector, deployment census or maliciousness claim.",
+    "source_identification_hypotheses": [],
+    "sources": [
+      "https://api.github.com/repos/SanMuzZzZz/LuaN1aoAgent",
+      "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/README.md",
+      "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/LICENSE",
+      "https://github.com/SanMuzZzZz/LuaN1aoAgent/releases/tag/v2.0.0",
+      "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+    ],
+    "source_references": [
+      {
+        "url": "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/README.md",
+        "review_completed_at_utc": "2026-11-16T17:27:10.832659+00:00",
+        "persisted_at_utc": "2026-11-16T17:23:07.545149+00:00",
+        "sha256": "5fed9f5a8c73dd4ccdde460e0bc87677fe4d9e18bdb66b53866c72b4c9e00800",
+        "bytes": 34118,
+        "identity_scope": "Connector-decoded UTF8 documentation text saved locally; not a malware or runtime fingerprint."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/LICENSE",
+        "review_completed_at_utc": "2026-11-16T17:27:10.832659+00:00",
+        "persisted_at_utc": "2026-11-16T17:23:07.559913+00:00",
+        "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+        "bytes": 34523,
+        "identity_scope": "Connector-decoded UTF8 documentation text saved locally; not a malware or runtime fingerprint."
+      }
+    ],
+    "lifecycle_stage": "Released public v2 rewrite",
+    "lifecycle_basis": "Version2 TypeScript/Pi-SDK runtime differs from the historical Python v1 branch; v1 benchmark claims must not be carried over to v2.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://raw.githubusercontent.com/SanMuzZzZz/LuaN1aoAgent/a035429766746866bcab30550cd0aac9c539be04/README.md",
+        "statement": "A verified additional project identity, not a new public discovery or a newly proven hostile deployment."
       }
     ]
   }

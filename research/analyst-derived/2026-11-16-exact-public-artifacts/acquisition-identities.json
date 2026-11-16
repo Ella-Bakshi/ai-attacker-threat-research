@@ -1,0 +1,38 @@
+[
+  {
+    "framework": "NIK C2",
+    "source_report_url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/05b70ee7773840bf7cb75150bcd5cbbe61772ddb/2026/10/nik-c2-new-ai-enabled-framework.json",
+    "source_document_sha256": "11045b42894678a6695f1c0645d44e2c6973b6f40c20e18a6fd8c9794c8cfb5d",
+    "source_retrieved_at_utc": "2026-11-16T17:19:04.414952+00:00",
+    "exact_source_hash_present": true,
+    "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+    "archive_member": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c.exe",
+    "sample_bytes": 6687744,
+    "sample_sha256": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c",
+    "sample_md5": "9f5a583005c1da5e2f605b52862e5175",
+    "sample_sha1": "e5c90b0b73a5e173b526a65dd0dbd4a37e42d2a4",
+    "acquired_at_utc": "2026-11-16T17:19:09.139795+00:00",
+    "new_acquisition_this_pass": true,
+    "whole_file_digest_and_archive_crc_verified": true,
+    "executed": false,
+    "sample_submission": false
+  },
+  {
+    "framework": "Trojanized Claude Code extension",
+    "source_report_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "source_document_sha256": "b978c415b5d206d273b44644690649b0dd606f5e6582d2b6293040e4f9f4c6fd",
+    "source_retrieved_at_utc": "2026-11-16T17:19:09.511470+00:00",
+    "exact_source_hash_present": true,
+    "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+    "archive_member": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15.js",
+    "sample_bytes": 3692922,
+    "sample_sha256": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
+    "sample_md5": "f49bcd657ef1e626e85ce858958c1769",
+    "sample_sha1": "7d52fa561468f0c77bca112f8393399dec078d02",
+    "acquired_at_utc": "2026-11-16T17:19:12.995634+00:00",
+    "new_acquisition_this_pass": true,
+    "whole_file_digest_and_archive_crc_verified": true,
+    "executed": false,
+    "sample_submission": false
+  }
+]

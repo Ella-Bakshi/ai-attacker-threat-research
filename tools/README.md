@@ -1,6 +1,6 @@
 # AI security tooling index
 
-Updated **15 November 2026**. This registry covers **42 project identities**, including nine added on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
+Updated **16 November 2026**. This registry covers **43 project identities**, including one added on 16 November, nine on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
 
 [Full JSON](tool-registry.json) · [Importable CSV](tool-registry.csv) · [Our source identification hypotheses](source-identification-hypotheses.json)
 
@@ -108,3 +108,13 @@ These entries verify software identity. Reported abuse, where available, has its
 Acronis [reports HalberdStrike use in BOSSAI operations](https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/). The reported owner/name match the indexed upstream; the exact deployed revision, modifications and bytes remain unknown. The report describes operator-mediated transfers of reconnaissance reports, not direct autonomous communication between those agents.
 
 DarkMoon is new to this registry on 15 November; its public release date is historical. Its [pinned README](https://github.com/ASCIT31/Dark-Moon/blob/edfe9cb12a263036a0c3dc1af604713e8197cce9/README.md), owning-repository metadata, full GPLv3 source-edition [license](https://github.com/ASCIT31/Dark-Moon/blob/edfe9cb12a263036a0c3dc1af604713e8197cce9/LICENSE) and release metadata were inspected. Capabilities and privacy-gateway behavior were not executed, independently benchmarked or security validated; the separately marketed Pro edition was not assessed. Inclusion adds no malicious IOC, deployment location or validated runtime fingerprint.
+
+## Added on 16 November 2026
+
+| Project and source | Maintainer-described purpose | Latest visible release |
+|---|---|---|
+| [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent) | TypeScript/Pi-SDK assessment agents with separate planning, execution and observation roles and durable evidence graphs. | v2.0.0 (2026-07-20) |
+
+The inspected v2 is a rewrite of the historical Python v1. Capabilities and scope controls are static documentation claims; neither runtime enforcement nor v1 benchmark transfer was validated. Cloudflare names the project in its AI-orchestrator survey without linking a particular source revision to a malicious deployment. This registry entry adds no malicious IOC or map location.
+
+ARTEX resource review on 16 November: [Global Edition tagged source](https://github.com/jiwoochris/artex-global/tree/d6964594a0221cd921b85056d604bce9d8ce54df), version `v0.3.15-global.1`, is a separately qualified AGPL-3.0 fork. [Static evidence](../research/software-fingerprints/2026-11-16-artex-global-source/README.md) adds software references; it establishes no malicious deployment or equivalence to every ARTEX fork.

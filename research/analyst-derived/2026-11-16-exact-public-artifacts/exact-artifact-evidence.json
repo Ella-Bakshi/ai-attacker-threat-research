@@ -1,0 +1,409 @@
+{
+  "reviewed_at_utc": "2026-11-16T17:26:34.234066+00:00",
+  "scope": "Two newly acquired exact public artifacts, bounded static derivation. No ARTEX/CyberStrikeAI exact campaign sample was newly obtained in this lane. Expanded families retain their own names.",
+  "acquisitions": [
+    {
+      "framework": "NIK C2",
+      "source_report_url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/05b70ee7773840bf7cb75150bcd5cbbe61772ddb/2026/10/nik-c2-new-ai-enabled-framework.json",
+      "source_document_sha256": "11045b42894678a6695f1c0645d44e2c6973b6f40c20e18a6fd8c9794c8cfb5d",
+      "source_retrieved_at_utc": "2026-11-16T17:19:04.414952+00:00",
+      "exact_source_hash_present": true,
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+      "archive_member": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c.exe",
+      "sample_bytes": 6687744,
+      "sample_sha256": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c",
+      "sample_md5": "9f5a583005c1da5e2f605b52862e5175",
+      "sample_sha1": "e5c90b0b73a5e173b526a65dd0dbd4a37e42d2a4",
+      "acquired_at_utc": "2026-11-16T17:19:09.139795+00:00",
+      "new_acquisition_this_pass": true,
+      "whole_file_digest_and_archive_crc_verified": true,
+      "executed": false,
+      "sample_submission": false
+    },
+    {
+      "framework": "Trojanized Claude Code extension",
+      "source_report_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "source_document_sha256": "b978c415b5d206d273b44644690649b0dd606f5e6582d2b6293040e4f9f4c6fd",
+      "source_retrieved_at_utc": "2026-11-16T17:19:09.511470+00:00",
+      "exact_source_hash_present": true,
+      "source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-30.zip",
+      "archive_member": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15.js",
+      "sample_bytes": 3692922,
+      "sample_sha256": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
+      "sample_md5": "f49bcd657ef1e626e85ce858958c1769",
+      "sample_sha1": "7d52fa561468f0c77bca112f8393399dec078d02",
+      "acquired_at_utc": "2026-11-16T17:19:12.995634+00:00",
+      "new_acquisition_this_pass": true,
+      "whole_file_digest_and_archive_crc_verified": true,
+      "executed": false,
+      "sample_submission": false
+    }
+  ],
+  "nik_native": {
+    "artifact_sha256": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c",
+    "artifact_bytes": 6687744,
+    "tool_versions": {
+      "Ghidra": "12.1.4",
+      "Capstone": "5.0.6"
+    },
+    "Go_function_inventory": 6571,
+    "application_function_inventory": 261,
+    "selected_application_functions_reconstructed": 16,
+    "whole_program_decompilation": false,
+    "primary_encoded_string": {
+      "descriptor_va": "0xa2a9b0",
+      "descriptor_file_offset": 6457264,
+      "va": "0x7aa31e",
+      "file_offset": 3837214,
+      "length_bytes": 56,
+      "value": "263e39213e6a7b7f27382737367b2a342d39162a710f300e5c56515a"
+    },
+    "decoder": {
+      "function": "main.dec",
+      "entry_va": "0x6d2380",
+      "hex_decode_call_va": "0x6d23ac",
+      "xor_key_va": "0x790d20",
+      "xor_key_file_offset": 3733280,
+      "xor_key_bytes_ascii": "NIK",
+      "procedure": "Hex-decode the 56-byte ASCII string; for each decoded byte i, XOR with (ASCII_NIK[i modulo 3] + i) modulo256; decode resulting URL as ASCII. This is the configuration string obfuscator, not the C2 payload AES key."
+    },
+    "primary_url": "https://total-sitevv.lol:443",
+    "primary_global_descriptor": "0xa2a9b0",
+    "primary_initialization_function": {
+      "name": "main.init.0",
+      "entry_va": "0x6d2460",
+      "decode_call_va": "0x6d2480",
+      "store_va": "0x6d24a8"
+    },
+    "conditional_fallback": {
+      "va": "0x79a600",
+      "file_offset": 3772416,
+      "length_bytes": 22,
+      "value": "https://2.26.51.12:443",
+      "function": "main.initServerList",
+      "function_entry_va": "0x6d25a0",
+      "condition": "Only selected if the assembled server list is empty. Valid decoded primary config is nonempty in this exact artifact, so initial execution would not need this branch. No fallback use was observed.",
+      "empty_list_test_va": "0x6d2865",
+      "branch_va": "0x6d286d",
+      "literal_load_va": "0x6d2883",
+      "length_store_va": "0x6d287b"
+    },
+    "heartbeat": {
+      "function": "main.heartbeat",
+      "entry_va": "0x6d47c0",
+      "path": {
+        "va": "0x795096",
+        "file_offset": 3750550,
+        "length_bytes": 14,
+        "value": "/api/c2/update"
+      },
+      "primary_static_url": "https://total-sitevv.lol:443/api/c2/update",
+      "server_getter_call_va": "0x6d4905",
+      "concat_call_va": "0x6d498e",
+      "http_post_call_va": "0x6d49c0",
+      "http_post_callee": "net/http.(*Client).Post",
+      "argument_flow": "getServer returns current string via RAX/RBX; saved at stack238/c0; copied to concatstring2 input RBX/RCX with path RDI and length14 in RSI. Concatenation returns RAX/RBX; moved to Client.Post URL RBX/RCX before call. No request was sent."
+    },
+    "run_value": {
+      "name": {
+        "va": "0x79276b",
+        "file_offset": 3740011,
+        "length_bytes": 9,
+        "value": "NIKClient"
+      },
+      "key": {
+        "va": "0x7a8af5",
+        "file_offset": 3831029,
+        "length_bytes": 50,
+        "value": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+      },
+      "function": "main.addAutoStart",
+      "entry_va": "0x6fd080",
+      "argument_vector_load_va": "0x6fd166",
+      "command_constructor_call_va": "0x6fd207",
+      "command_constructor": "os/exec.Command",
+      "command_run_call_va": "0x6fd251",
+      "command_run": "os/exec.(*Cmd).Run",
+      "scope": "Conditional static autostart capability; not a registry event or installation observation."
+    },
+    "mutex": {
+      "prefix": {
+        "va": "0x792d93",
+        "file_offset": 3741587,
+        "length_bytes": 10,
+        "value": "Local\\NIK_"
+      },
+      "function": "main.ensureSingle",
+      "entry_va": "0x6fc640",
+      "hash_function": "main.exeHash",
+      "hash_function_entry_va": "0x6fc540",
+      "hash_input": "os.Executable() returned path UTF-8 bytes, NOT executable file contents",
+      "hash_algorithm": "SHA256 first8digest bytes encoded as16lowercase hex",
+      "roles": [
+        "agent",
+        "wd"
+      ],
+      "role_call_vas": [
+        "0x6d30c4",
+        "0x6d30a0"
+      ],
+      "pattern": "^Local\\\\NIK_[0-9a-f]{16}_(?:agent|wd)$",
+      "scope": "Source/native pattern only; runtime efficacy and empirical specificity unvalidated."
+    },
+    "pid_path": {
+      "prefix": {
+        "va": "0x791024",
+        "file_offset": 3734052,
+        "length_bytes": 4,
+        "value": "nik_"
+      },
+      "suffix": {
+        "va": "0x791028",
+        "file_offset": 3734056,
+        "length_bytes": 4,
+        "value": ".pid"
+      },
+      "function": "main.pidFile",
+      "entry_va": "0x6fcba0",
+      "construction": "os.TempDir() joined with nik_ + main.exeHash() + .pid; path hash has the same meaning as mutex hash.",
+      "pattern": "(?:^|[\\\\/])nik_[0-9a-f]{16}\\.pid$"
+    },
+    "build_source_path": {
+      "value": "/opt/nik_panel/data/build_5ab821a2a2bea97a/main.go",
+      "file_offset": 4759461,
+      "length_bytes": 50,
+      "scope": "Embedded build source-path string, not an installed victim path or exact upstream identity proof."
+    },
+    "original_byte_operand_checks": [
+      {
+        "instruction_va": "0x6d2472",
+        "referenced_va": "0xa2a9b0",
+        "instruction_class": "mov"
+      },
+      {
+        "instruction_va": "0x6d2479",
+        "referenced_va": "0xa2a9b8",
+        "instruction_class": "mov"
+      },
+      {
+        "instruction_va": "0x6d2480",
+        "callee_va": "0x6d2380",
+        "callee": "main.dec"
+      },
+      {
+        "instruction_va": "0x6d23ac",
+        "callee_va": "0x560860",
+        "callee": "encoding/hex.DecodeString"
+      },
+      {
+        "instruction_va": "0x6d23c4",
+        "referenced_va": "0x790d20",
+        "instruction_class": "lea"
+      },
+      {
+        "instruction_va": "0x6d256f",
+        "callee_va": "0x6d25a0",
+        "callee": "main.initServerList"
+      },
+      {
+        "instruction_va": "0x6d2883",
+        "referenced_va": "0x79a600",
+        "instruction_class": "lea"
+      },
+      {
+        "instruction_va": "0x6d4905",
+        "callee_va": "0x6d29c0",
+        "callee": "main.getServer"
+      },
+      {
+        "instruction_va": "0x6d4980",
+        "referenced_va": "0x795096",
+        "instruction_class": "lea"
+      },
+      {
+        "instruction_va": "0x6d498e",
+        "callee_va": "0x4510a0",
+        "callee": "runtime.concatstring2"
+      },
+      {
+        "instruction_va": "0x6d49c0",
+        "callee_va": "0x661240",
+        "callee": "net/http.(*Client).Post"
+      },
+      {
+        "instruction_va": "0x6fd166",
+        "referenced_va": "0x79276b",
+        "instruction_class": "lea"
+      },
+      {
+        "instruction_va": "0x6fd139",
+        "referenced_va": "0x7a8af5",
+        "instruction_class": "lea"
+      },
+      {
+        "instruction_va": "0x6fd207",
+        "callee_va": "0x6a07e0",
+        "callee": "os/exec.Command"
+      },
+      {
+        "instruction_va": "0x6fd251",
+        "callee_va": "0x6a1bc0",
+        "callee": "os/exec.(*Cmd).Run"
+      },
+      {
+        "instruction_va": "0x6fc6d2",
+        "callee_va": "0x6fc540",
+        "callee": "main.exeHash"
+      },
+      {
+        "instruction_va": "0x6fc704",
+        "referenced_va": "0x792d93",
+        "instruction_class": "lea"
+      },
+      {
+        "instruction_va": "0x6fc70b",
+        "callee_va": "0x451200",
+        "callee": "runtime.concatstring4"
+      }
+    ],
+    "limitations": "Selected functions only; Go prototypes and recovered C-like types are approximations. No target execution, current liveness, operator identity, victim, exact generating revision, or new named-campaign C2 inference. AES payload secrets and certificate/key material excluded."
+  },
+  "cursor_js": {
+    "artifact_sha256": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
+    "artifact_bytes": 3692922,
+    "scope": "Exact malicious extension.js identified by Cursor digest, not a legitimate same-version extension or malicious Anthropic upstream. AI-tool supply-chain delivery, not proven AI generation.",
+    "inspected_prologue": {
+      "offset": 0,
+      "length_bytes": 7386,
+      "sha256": "b5dfefe675983cdb9726d108bd1a05d056bb1fb7ccde2fa4e73f0f033fc6939e",
+      "boundary": "Immediately before var __EXT_BUNDLE_URL after the injected IIFE and separator newlines; not a whole-file hash."
+    },
+    "static_markers": [
+      {
+        "file_offset": 3210,
+        "length_bytes": 5,
+        "value": ".stk_",
+        "line_1based": 21
+      },
+      {
+        "file_offset": 3217,
+        "length_bytes": 24,
+        "value": "crypto.createHash(\"md5\")",
+        "line_1based": 21
+      },
+      {
+        "file_offset": 3249,
+        "length_bytes": 26,
+        "value": "String(os.hostname())+HOME",
+        "line_1based": 21
+      },
+      {
+        "file_offset": 3277,
+        "length_bytes": 25,
+        "value": "digest(\"hex\").slice(0,10)",
+        "line_1based": 21
+      },
+      {
+        "file_offset": 5418,
+        "length_bytes": 17,
+        "value": "com.apple.sysmond",
+        "line_1based": 45
+      },
+      {
+        "file_offset": 7317,
+        "length_bytes": 22,
+        "value": "post(\"127.0.0.1\",8099)",
+        "line_1based": 65
+      },
+      {
+        "file_offset": 7340,
+        "length_bytes": 18,
+        "value": "post(TUNHOST,8099)",
+        "line_1based": 65
+      },
+      {
+        "file_offset": 986,
+        "length_bytes": 28,
+        "value": "var TUNHOST=\"134.209.82.225\"",
+        "line_1based": 6
+      },
+      {
+        "file_offset": 1694,
+        "length_bytes": 14,
+        "value": "path:\"/beacon\"",
+        "line_1based": 11
+      },
+      {
+        "file_offset": 1709,
+        "length_bytes": 13,
+        "value": "method:\"POST\"",
+        "line_1based": 11
+      },
+      {
+        "file_offset": 1687,
+        "length_bytes": 6,
+        "value": "port:p",
+        "line_1based": 11
+      },
+      {
+        "file_offset": 3195,
+        "length_bytes": 14,
+        "value": "path.join(TMP,",
+        "line_1based": 21
+      },
+      {
+        "file_offset": 4361,
+        "length_bytes": 5,
+        "value": ".smtk",
+        "line_1based": 36
+      },
+      {
+        "file_offset": 1984,
+        "length_bytes": 15,
+        "value": "authorized_keys",
+        "line_1based": 12
+      }
+    ],
+    "temporary_tunnel_key_path": {
+      "marker_offset": 3210,
+      "pattern": "(?:^|[\\\\/])\\.stk_[0-9a-f]{10}$",
+      "construction": "path.join(os.tmpdir(), .stk_ + MD5(UTF8(String(os.hostname()) + HOME)).hex().slice(0,10))",
+      "encoding": "JavaScript UTF-8 strings; lowercase hexadecimal",
+      "scope": "Conditional filename construction; no file creation/execution observed. Generic filename prefix alone is insufficient."
+    },
+    "launch_agent_label": {
+      "value": "com.apple.sysmond",
+      "literal_offsets": [
+        5418,
+        5712
+      ],
+      "scope": "Conditional macOS LaunchAgent label in the injected prologue; common Apple-like naming, not malicious alone."
+    },
+    "ssh_public_key_fingerprints": [
+      {
+        "value": "SHA256:0Z6R+DF64Do2nwQic8a7kkfDLNNk4IiK+2U2Rci4htk",
+        "source_assignment": "PUB",
+        "source_assignment_file_offset": 317,
+        "method": "SHA256 of decoded SSH public wire blob, standard base64 without padding; public fingerprint only."
+      },
+      {
+        "value": "SHA256:KOAU57+ZG6u3MG4WwzPzPX2O5YEe9qdOC1Bl+6MVyDQ",
+        "source_assignment": "TUNKEY public section only",
+        "method": "Base64-decode constant as inert data, parse only OpenSSH container headers and public-blob section; SHA256 standard SSH public fingerprint. Private material excluded."
+      }
+    ],
+    "beacon": {
+      "url": "http://134.209.82.225:8099/beacon",
+      "method": "POST",
+      "host_literal_offset": 999,
+      "path_literal_offset": 1700,
+      "external_call_offset": 7340,
+      "port_argument": 8099,
+      "scope": "Statically composed external telemetry destination; publisher says server was taken offline. No exchange observed. Loopback sibling, ipify/ifconfig, Apple DTD and bundled Anthropic service URLs are excluded from malicious infrastructure."
+    },
+    "limits": "Only 7,386-byte injected prologue reviewed for behavior; bundled remainder is not exhaustively analyzed. Private/public key blobs, environment values, raw code and victim data excluded. No JS execution, eval, require, controller contact or new scan submission."
+  },
+  "sample_execution": false,
+  "target_requests": 0,
+  "paid_provider_calls": 0
+}
