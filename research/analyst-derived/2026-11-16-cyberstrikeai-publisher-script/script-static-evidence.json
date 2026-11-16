@@ -1,0 +1,74 @@
+{
+  "reviewed_at_utc": "2026-11-16T18:14:43.296488+00:00",
+  "artifact_identity": {
+    "sha256": "43b1e81adfbeb36dcc532471ee2468c861c4ec38cd34db433c4fa18ed6f91549",
+    "sha1": "724a163071ef0ab58972f03325c68437933e77f0",
+    "md5": "0bbd08af95f877f1d568b03de2eb76b4",
+    "bytes": 372,
+    "type": "ASCII PowerShell source text; supporting reverse-shell script, not CyberStrikeAI beacon/controller",
+    "public_publisher_hash_bridge": "reports/2026/2026-11-15-exact-artifact-review/publisher-file-identities.json",
+    "public_publisher_bridge_scope": "Explicit MD5/SHA1/SHA256/size of same supporting script from original publisher OpenTIP public Overview; not an independent publisher."
+  },
+  "source": {
+    "primary_report_url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "primary_report_publication_date": "2026-11-02",
+    "report_document_sha256": "445eaed86c795ab03dccd55d1e6965fa68f9ac5eb50c5aa4c8d677e17c1bf4c3",
+    "report_bytes": 253021,
+    "report_retrieved_at_utc": "2026-11-16T18:11:09.508552+00:00",
+    "image_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/10/30191314/cyberstrikeai-attacks10.png",
+    "image_sha256": "e5c48e8d1055e94711bf2262014fa72b7b833c070b140beb41f12ff33205c5c4",
+    "image_bytes": 101629,
+    "image_retrieved_at_utc": "2026-11-16T18:11:45.624725+00:00",
+    "image_locator": "Execution & Privilege Escalation: image10 immediately after prose describing p1.ps1 and185.186.245[.]144:5501; visualrows1\u20135."
+  },
+  "reconstruction": {
+    "new_exact_representation_this_pass": true,
+    "original_malware_binary_downloaded": false,
+    "original_script_file_downloaded": false,
+    "method": "Manually transcribed5visual screenshot rows as inert text. Replaced only publisher[.]defanging with a literal dot. Tested486 finite UTF8BOM/visual-row-join/outer-line-ending representations against published MD5,SHA256 and372byte identity; the same result also matches the independently named published SHA1.",
+    "unique_matching_representation": {
+      "encoding": "ASCII/UTF8 without BOM",
+      "visual_row_join_bytes": "empty for all4joins",
+      "trailing_line_ending": "none",
+      "bytes": 372
+    },
+    "representations_tested": 486,
+    "identity_recalculated_locally": [
+      "md5",
+      "sha1",
+      "sha256"
+    ],
+    "limits": "Hash matching authenticates this exact text representation relative to publisher digest metadata. It does not independently authenticate original victim telemetry, prove that a particular victim executed it or establish a currently functioning reverse shell. Screenshot is not redistributed; raw script remains private."
+  },
+  "static_network": {
+    "indicator_type": "network_endpoint",
+    "value": "185.186.245.144:5501",
+    "protocol": "TCP",
+    "host": "185.186.245.144",
+    "port": 5501,
+    "constructor": "System.Net.Sockets.TcpClient",
+    "constructor_expression_offset": 14,
+    "constructor_expression_length": 52,
+    "host_literal_file_offset": 44,
+    "host_literal_bytes": 15,
+    "port_literal_file_offset": 61,
+    "port_literal_bytes": 4,
+    "stream_call_offset": 72,
+    "scope": "Exact constant constructor destination in independently reconstructed source; no network action performed or successful connection observed."
+  },
+  "campaign_scope": {
+    "framework_context": "CyberStrikeAI-reported education-sector campaign",
+    "component": "Supporting PowerShell reverse-shell script p1.ps1",
+    "source_role": "Publisher reports script distributed/executed using WMI/admin shares, including preparatory/manual activity; local source does not contain AI logic or establish which phase/institution executed this instance.",
+    "not_beacon": true,
+    "ai_authorship_established": false,
+    "victim_identity_independently_verified": false,
+    "current_operation_verified": false
+  },
+  "independent_contribution": "Previously external-only three digest identities and one callback endpoint now have exact public-content representation and local byte/offset corroboration. All4values already exist in repository; no global-first or new-IP claim.",
+  "target_requests": 0,
+  "dns_queries": 0,
+  "sample_execution": false,
+  "new_scans_or_submissions": false,
+  "paid_calls": 0
+}

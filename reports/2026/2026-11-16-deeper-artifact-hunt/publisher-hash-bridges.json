@@ -1,0 +1,106 @@
+{
+  "title": "Original-publisher MD5 seeds joined to public computed-file identity metadata",
+  "reviewed_at_utc": "2026-11-16T18:23:05.039046+00:00",
+  "scope": "Four provider-reported MD5/SHA1/SHA256/size bridges. No local sample bytes acquired or rehashed. Analysis times are not campaign dates. Certipy remains legitimate supporting context.",
+  "bridges": [
+    {
+      "source_md5": "528cd4e69ecfa5191adbcf6ef28667bf",
+      "publisher_reported_name": "lsa_read.exe",
+      "provider_reported_identity": {
+        "md5": "528cd4e69ecfa5191adbcf6ef28667bf",
+        "sha1": "77e981d0b1b81151a6a7d0966aca1b4a1d0f3022",
+        "sha256": "6dca0ea8a52a323b2ae173ef75d7ebb1cc6f909c855e76676a6478b9e40fb861",
+        "filesize": 5033540,
+        "file_type": "PE32+ executable (console) x86-64, for MS Windows"
+      },
+      "metadata_url": "https://otx.alienvault.com/api/v1/indicators/file/528cd4e69ecfa5191adbcf6ef28667bf/analysis",
+      "metadata_retrieved_at_utc": "2026-11-16T18:11:40.540440+00:00",
+      "metadata_sha256": "0604e6ec0ac823ad6204ae316fa358ec90acfd638a34c366d0c0435517490cec",
+      "json_pointer": "/analysis/info/results",
+      "hash_bridge_method": "Exact original-publisher MD5 equals provider /analysis/info/results/md5; SHA1 and SHA256 are sibling explicit fields in that same file-identity object. No relation inferred from list order or input-hash length.",
+      "publisher_url": "https://hunt.io/blog/papercut-attacker-ai-toolkit-exploit-code-second-rce",
+      "publisher_locator": {
+        "table_index_zero_based": 11,
+        "row_index_zero_based_including_header": 1,
+        "hash_column_name": "MD5",
+        "literal": "528cd4e69ecfa5191adbcf6ef28667bf"
+      },
+      "local_sample_bytes_acquired": false,
+      "limitations": "Provider-reported identity bridge, not a locally recomputed byte identity or independent proof of malicious operation."
+    },
+    {
+      "source_md5": "ce870a91e8d27e8f663f0687abc60b04",
+      "publisher_reported_name": "save_hives.exe",
+      "provider_reported_identity": {
+        "md5": "ce870a91e8d27e8f663f0687abc60b04",
+        "sha1": "4e24bfae6ea02175d367e8ba3fbbc38990e95bc0",
+        "sha256": "14779d0d7ad6be3d7bf9ed78e4ab6016f22dfa7bc8b5d9c43b56011f7fe2ea19",
+        "filesize": 5032444,
+        "file_type": "PE32+ executable (console) x86-64, for MS Windows"
+      },
+      "metadata_url": "https://otx.alienvault.com/api/v1/indicators/file/ce870a91e8d27e8f663f0687abc60b04/analysis",
+      "metadata_retrieved_at_utc": "2026-11-16T18:12:11.054834+00:00",
+      "metadata_sha256": "ff91daa7f9a2c8fafd67062722e0ac8dc9ee1d83016ca4b212c85346bc47633a",
+      "json_pointer": "/analysis/info/results",
+      "hash_bridge_method": "Exact original-publisher MD5 equals provider /analysis/info/results/md5; SHA1 and SHA256 are sibling explicit fields in that same file-identity object. No relation inferred from list order or input-hash length.",
+      "publisher_url": "https://hunt.io/blog/papercut-attacker-ai-toolkit-exploit-code-second-rce",
+      "publisher_locator": {
+        "table_index_zero_based": 11,
+        "row_index_zero_based_including_header": 2,
+        "hash_column_name": "MD5",
+        "literal": "ce870a91e8d27e8f663f0687abc60b04"
+      },
+      "local_sample_bytes_acquired": false,
+      "limitations": "Provider-reported identity bridge, not a locally recomputed byte identity or independent proof of malicious operation."
+    },
+    {
+      "source_md5": "fc92dfafa7aa741c5f2b9cbcf75d1d19",
+      "publisher_reported_name": "lsa_collect_small.exe",
+      "provider_reported_identity": {
+        "md5": "fc92dfafa7aa741c5f2b9cbcf75d1d19",
+        "sha1": "577fa0267c491d8aa4531e91b0ba402db24932f4",
+        "sha256": "c3f7109963b9599eb93fd9a97a4ffa38e672642b35b33608d69e6bbf9f19da4e",
+        "filesize": 856064,
+        "file_type": "PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows"
+      },
+      "metadata_url": "https://otx.alienvault.com/api/v1/indicators/file/fc92dfafa7aa741c5f2b9cbcf75d1d19/analysis",
+      "metadata_retrieved_at_utc": "2026-11-16T18:12:10.987289+00:00",
+      "metadata_sha256": "be121ba3b61f9b0cc6460f004bae5287ebc6a520f00b93fcc8ccdb0700a99512",
+      "json_pointer": "/analysis/info/results",
+      "hash_bridge_method": "Exact original-publisher MD5 equals provider /analysis/info/results/md5; SHA1 and SHA256 are sibling explicit fields in that same file-identity object. No relation inferred from list order or input-hash length.",
+      "publisher_url": "https://hunt.io/blog/papercut-attacker-ai-toolkit-exploit-code-second-rce",
+      "publisher_locator": {
+        "table_index_zero_based": 11,
+        "row_index_zero_based_including_header": 4,
+        "hash_column_name": "MD5",
+        "literal": "fc92dfafa7aa741c5f2b9cbcf75d1d19"
+      },
+      "local_sample_bytes_acquired": false,
+      "limitations": "Provider-reported identity bridge, not a locally recomputed byte identity or independent proof of malicious operation."
+    },
+    {
+      "source_md5": "974decb9ff4c8f9ccb0937c96d513347",
+      "publisher_reported_name": "certipy.exe",
+      "provider_reported_identity": {
+        "md5": "974decb9ff4c8f9ccb0937c96d513347",
+        "sha1": "159989f088c3d4bc54e1acb93b12924a14db8c0b",
+        "sha256": "c852d56ef0db5f91ee7a5f206b12c3b48dbcca6a5b85baeb0276b9816143489b",
+        "filesize": 26757151,
+        "file_type": "PE32+ executable (console) x86-64, for MS Windows"
+      },
+      "metadata_url": "https://otx.alienvault.com/api/v1/indicators/file/974decb9ff4c8f9ccb0937c96d513347/analysis",
+      "metadata_retrieved_at_utc": "2026-11-16T18:12:11.500137+00:00",
+      "metadata_sha256": "0b1ed01efd6bd82e22836f85f0969da5a8a5ebaede483b145512c1903703710b",
+      "json_pointer": "/analysis/info/results",
+      "hash_bridge_method": "Exact original-publisher MD5 equals provider /analysis/info/results/md5; SHA1 and SHA256 are sibling explicit fields in that same file-identity object. No relation inferred from list order or input-hash length.",
+      "publisher_url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "publisher_locator": {
+        "table_index_zero_based": 0,
+        "row_index_zero_based_including_header": 7,
+        "literal": "974decb9ff4c8f9ccb0937c96d513347 (certipy.exe)"
+      },
+      "local_sample_bytes_acquired": false,
+      "limitations": "Provider-reported identity bridge, not a locally recomputed byte identity or independent proof of malicious operation."
+    }
+  ]
+}

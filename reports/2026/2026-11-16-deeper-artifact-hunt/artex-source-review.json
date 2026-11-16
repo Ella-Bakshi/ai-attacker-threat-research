@@ -1,0 +1,100 @@
+{
+  "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+  "title": "ARTEX exact-sample channel and detection-pack review",
+  "new_exact_malicious_artifacts": 0,
+  "new_independently_derived_malicious_iocs": 0,
+  "new_network_iocs": 0,
+  "unverified_reviewed": 24,
+  "unverified_resolved": 0,
+  "unverified_total_remaining": 35,
+  "source_pack": {
+    "repository": "https://github.com/unixfreaxjp/malwaremustdie",
+    "revision": "df26deeca9e5d0a98cda6e01ecfd574ea23d2acf",
+    "version": "1.1.4",
+    "revision_committer_time_utc": "2026-11-16T07:18:03Z",
+    "primary_blog_url": "https://blog.malwaremustdie.org/2026/11/mmd-072-2026-artex-detection-signature.html",
+    "blog_published_at_with_offset": "2026-11-13T19:54:00+09:00",
+    "license": "DRL-1.1",
+    "author": "MalwareMustDie.org - @unixfreaxjp",
+    "license_url": "https://github.com/unixfreaxjp/malwaremustdie/blob/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/LICENSE",
+    "README_url": "https://github.com/unixfreaxjp/malwaremustdie/blob/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/README.md",
+    "IOC_source_url": "https://github.com/unixfreaxjp/malwaremustdie/blob/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/iocs/mmd-artex-iocs.csv",
+    "reviewed_ioc_rows": 113,
+    "row_type_counts": {
+      "ipv4": 43,
+      "domain": 8,
+      "ipv4-cidr": 1,
+      "domain-suffix": 2,
+      "azure-app-id": 7,
+      "user-agent": 24,
+      "user-agent-substring": 1,
+      "container-image": 9,
+      "string-marker": 14,
+      "tool-fork": 1,
+      "malware": 1,
+      "tool-name": 2
+    },
+    "row_role": "Curated source-attributed indicators and generic/contextual detections; not new first-party telemetry.",
+    "no_new_data_disclaimer_scope": "The blog Appendix F activity chronology explicitly disclaims new IOCs, sample data and primary telemetry. This statement does not mean that the entire 113-row curated pack is empty.",
+    "malware_sample_availability": "Reviewed pack entry listing and selected IOC/README/license/changelog provide detector/source data, not the exact requested malware bytes. No exact digest IOC is present in the CSV.",
+    "safety_of_reuse": "Keep per-record original-source review, evidence classes and our existing score rubric. Do not copy its T1 labels, neighboring prefixes, unconfirmed/model-generated markers or synthetic test data into malicious IOC classes."
+  },
+  "source_data_identities": [
+    {
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-072-2026-artex-detection-signature.html",
+      "retrieved_at_utc": "2026-11-16T18:10:11.909430+00:00",
+      "size_bytes": 279069,
+      "sha256": "afe141243bb5f261021c5823932cacc0a42fc204e78cfaa53fe0b774c5691973",
+      "identity_scope": "Research-source/dataset identity, not malware IOC"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/unixfreaxjp/malwaremustdie/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/iocs/mmd-artex-iocs.csv",
+      "retrieved_at_utc": "2026-11-16T18:12:26.129725+00:00",
+      "size_bytes": 47318,
+      "sha256": "9fdfca8f7b24e43770ccd2381d7621b3a9b97afa3cb3a39a99e7577e6676bfc9",
+      "identity_scope": "Research-source/dataset identity, not malware IOC"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/unixfreaxjp/malwaremustdie/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/README.md",
+      "retrieved_at_utc": "2026-11-16T18:12:46.439592+00:00",
+      "size_bytes": 33012,
+      "sha256": "30f044612600b04ad449e70140ff4f9cdc64d1f25f9ff5ea500f9dc42e092b71",
+      "identity_scope": "Research-source/dataset identity, not malware IOC"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/unixfreaxjp/malwaremustdie/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/LICENSE",
+      "retrieved_at_utc": "2026-11-16T18:13:06.863429+00:00",
+      "size_bytes": 2692,
+      "sha256": "ea2b59222896ea7d8d901e98bb53c921b0d3eec00c104bda59fdbddeb032c58f",
+      "identity_scope": "Research-source/dataset identity, not malware IOC"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/unixfreaxjp/malwaremustdie/df26deeca9e5d0a98cda6e01ecfd574ea23d2acf/etc/artex-stix-osquery-sigma-kql-snort-suricata-yara/CHANGELOG.md",
+      "retrieved_at_utc": "2026-11-16T18:13:27.208128+00:00",
+      "size_bytes": 11754,
+      "sha256": "54e537f80dd618ad2647fc836fa3311d2a1076666355db1b1662fbf7026c977b",
+      "identity_scope": "Research-source/dataset identity, not malware IOC"
+    }
+  ],
+  "sample_access_limits": [
+    {
+      "channel": "MalwareBazaar public exact SHA256 page",
+      "result": "Redirected to browser-verification challenge; no challenge or restriction bypass, no sample metadata/bytes recovered."
+    },
+    {
+      "channel": "Kaspersky OpenTIP exact SHA256 page",
+      "result": "Only a public application shell was obtained; no visible identity table. No research browser was available to this lane; no hidden backend/API or premium example data used."
+    },
+    {
+      "channel": "Two previously source-linked public forensic/reproduction repositories",
+      "result": "Latest heads remain the already reviewed pinned commits; both release lists are empty. Existing inventories were reused, not recollected."
+    }
+  ],
+  "limits": [
+    "No malware, controller, source hooks or repository tests executed.",
+    "No candidate-host requests, DNS, scans, uploads, paid calls or provider-restriction bypass.",
+    "No new bytes means no new native decompilation or local digest verification can be claimed.",
+    "No source-query coverage is represented as whole-internet completeness."
+  ],
+  "global_novelty_claimed": false
+}

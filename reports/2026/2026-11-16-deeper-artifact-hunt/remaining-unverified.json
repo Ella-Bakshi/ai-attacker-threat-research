@@ -1,0 +1,2469 @@
+[
+  {
+    "record_id": "AR-EDC6BD2C65B1",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "134.122.137.132",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 1,
+      "matched_literal": "134.122.137.132",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "The new finite sample/repository/provider acquisition routes supplied no exact artifact-to-host activity crosswalk for this AhnLab operational-directory address. Its prior source literal remains supported, while individual malicious activity/component attribution stays unresolved. No host or nearby address was contacted.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "ARTEX-related exposed operational directory host",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The host is explicitly in the original public report, but the public inventory does not map individual host events/components. The linked original TIP route rendered only its JavaScript-required shell in ordinary public retrieval; browser preview was unavailable. No protected content was requested.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-7E4BBB905393",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "178.15.54.129",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Microsoft source still differs: ASIM ioc_ip_addr contains 178.15.54.129; IOC table contains 178.16.54[.]129. The current FBI PDF repeats .16 with a Microsoft citation rather than declaring a publisher correction. No exact artifact or new original correction resolves the conflict.",
+    "source_locators": {
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "source_document_sha256": "a97b67ca549fe4b5a65a10cba306bc7ed818542ecad93b782a208f7ad9e1d4fd",
+      "locators": [
+        "Microsoft Sentinel / ASIM ioc_ip_addr",
+        "Indicators of compromise / ARTEX server row"
+      ],
+      "additional_source_url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+      "additional_locator": "PDF page 7 (one-based), ARTEX-server list citing Microsoft10",
+      "retrieved_at_utc": "2026-11-16T18:10:16.123143+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "IP appears in sample KQL but contradicts IOC table",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Microsoft IOC table uses 178.16.54.129 while the same article hunting query uses 178.15.54.129. Both are quarantined pending resolution. Do not promote to confirmed malicious. IOC table says 178.16.54.129; no correction found.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-1FBB76E837D5",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "178.16.54.129",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Microsoft source still differs: ASIM ioc_ip_addr contains 178.15.54.129; IOC table contains 178.16.54[.]129. The current FBI PDF repeats .16 with a Microsoft citation rather than declaring a publisher correction. No exact artifact or new original correction resolves the conflict.",
+    "source_locators": {
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "source_document_sha256": "a97b67ca549fe4b5a65a10cba306bc7ed818542ecad93b782a208f7ad9e1d4fd",
+      "locators": [
+        "Microsoft Sentinel / ASIM ioc_ip_addr",
+        "Indicators of compromise / ARTEX server row"
+      ],
+      "additional_source_url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+      "additional_locator": "PDF page 7 (one-based), ARTEX-server list citing Microsoft10",
+      "retrieved_at_utc": "2026-11-16T18:10:16.123143+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "ARTEX server",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Microsoft IOC table uses 178.16.54.129 while the same article hunting query uses 178.15.54.129. Both are quarantined pending resolution. Historical source report; current activity not inferred from this table. Source sample KQL uses 178.15.54.129; table value retained and discrepancy separately recorded.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-DAE2EFEEE673",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "204.194.51.54",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 2,
+      "matched_literal": "204.194.51.54",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "The new finite sample/repository/provider acquisition routes supplied no exact artifact-to-host activity crosswalk for this AhnLab operational-directory address. Its prior source literal remains supported, while individual malicious activity/component attribution stays unresolved. No host or nearby address was contacted.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "ARTEX-related exposed operational directory host",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The host is explicitly in the original public report, but the public inventory does not map individual host events/components. The linked original TIP route rendered only its JavaScript-required shell in ordinary public retrieval; browser preview was unavailable. No protected content was requested.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-8F455E00D4B7",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "085f53a1ce8c634ac7b0d63e42b56b15",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 3,
+      "matched_literal": "085f53a1ce8c634ac7b0d63e42b56b15",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-0A761BC09A4E",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "0c501aca4fc29efe47f122ddc9c1af85",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 4,
+      "matched_literal": "0c501aca4fc29efe47f122ddc9c1af85",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-068F739F5D96",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "0eb259067e565221109a3ee988e1faa3",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 5,
+      "matched_literal": "0eb259067e565221109a3ee988e1faa3",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-FE7B4C71EDF5",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "220a1465b2c5ee3ec86861ee17a91e2f",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 6,
+      "matched_literal": "220a1465b2c5ee3ec86861ee17a91e2f",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-D8A9DE0CB2CF",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "2d13374c14bcaaa99ab00f16cc18b300",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 7,
+      "matched_literal": "2d13374c14bcaaa99ab00f16cc18b300",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-F85C60EC2C83",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "326bb512422930f723e8434d219bea15",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 8,
+      "matched_literal": "326bb512422930f723e8434d219bea15",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-3867F0F1010B",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "4fff3a0e67210deea726a3bd8c0b625f",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 9,
+      "matched_literal": "4fff3a0e67210deea726a3bd8c0b625f",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-75FA6B0F3844",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "5881f74d3bb167e48f6e61c8d9c220e7",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 10,
+      "matched_literal": "5881f74d3bb167e48f6e61c8d9c220e7",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-7634CBA3A7AF",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "5a38c92fcf2772f65517485f3a23810e",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 11,
+      "matched_literal": "5a38c92fcf2772f65517485f3a23810e",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-4A5645F1060C",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "5d151bb4512fc48932a83d3bc24ea806",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 12,
+      "matched_literal": "5d151bb4512fc48932a83d3bc24ea806",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-8B7961263E33",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "6593d2601f967566ae1efe521ec7b470",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 13,
+      "matched_literal": "6593d2601f967566ae1efe521ec7b470",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-3D3894A0A22F",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "773dc8997a50425fb4146161d747c10f",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 14,
+      "matched_literal": "773dc8997a50425fb4146161d747c10f",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-5505F88AAED7",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "78c3efc26c8db056933da58032361706",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 15,
+      "matched_literal": "78c3efc26c8db056933da58032361706",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-A6304BC69F83",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "8858508e75ac58ce586631101be87973",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 16,
+      "matched_literal": "8858508e75ac58ce586631101be87973",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-8557E4752D94",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "912e8bb04a86f34c76d7d9bad8b67685",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 17,
+      "matched_literal": "912e8bb04a86f34c76d7d9bad8b67685",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-B6FF23EB9241",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "baddd4d75a6980e0df8d47333d9472c3",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 18,
+      "matched_literal": "baddd4d75a6980e0df8d47333d9472c3",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-336760317C02",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "be4033d98dd65437516a94048adc8ac5",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 19,
+      "matched_literal": "be4033d98dd65437516a94048adc8ac5",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-641757FF2E23",
+    "framework": "ARTEX",
+    "indicator_type": "md5",
+    "indicator": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Table 2 supports the exact literal/type and grouped two-directory context, but supplies no per-file name/component/behavior mapping or exact retained sample. This pass recovered no exact bytes or new cross-hash bridge; preserve the existing narrow source fact and unresolved attribution.",
+    "source_locators": {
+      "source_url": "https://asec.ahnlab.com/en/95845/",
+      "source_document_sha256": "e08db8531896f08b2c2d7270c8aa95ff089c5e8d6ae7560dd6264dcfb5557474",
+      "table_index_zero_based": 1,
+      "row_index_zero_based_including_header": 20,
+      "matched_literal": "fec5d7eb6cf4ed6cfbcd2c588bb761af",
+      "retrieved_at_utc": "2026-11-16T18:10:17.005310+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "Additional documented CIRCL known-file lookup returned404 without a sample identity. Four selected previously acquired local artifacts (41,770,496bytes) have no matching MD5. No new exact sample/component mapping or malware bytes were obtained. Earlier primary-source literal/type support remains; a missing lookup is not evidence of absence or maliciousness.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "File/tool artifact in exposed ARTEX-related operational directories",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Primary report publishes this value, but the exact sample/component and maliciousness were not established here. Public report associates these with attack-related activity or preparation; does not establish that ARTEX executed every action. Per-file role not mapped in the public IOC table.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Original Korean and translated public reports publish the same set and explicit MD5 types, but do not provide the required per-file/component or per-host event mapping. Eighteen exact-hash searches surfaced the same set/derivative reporting, not an independently reviewable crosswalk or artifact identity. The source points to subscription-only TIP detail; no restricted access was attempted.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The original MD5 type and source membership are already established. The new public OTX exact-file analysis route returned an empty generic analysis, not a cross-hash or component identity. No exact artifact bytes were acquired.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "AR-40970CCA953F",
+    "framework": "ARTEX",
+    "indicator_type": "repository",
+    "indicator": "github.com/aizhihuxiao/ARTEX",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "No newly published historical repository object, archived original dependency or exact malicious-artifact bridge was identified in the newly inspected original sources. Do not treat the recreated repository or a similarly named fork as the deleted historical object.",
+    "source_locators": {
+      "source_url": "https://badbyte.io/artex-backdoor-docker-image/",
+      "new_evidence": "None settling the historical repository identity."
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "One new bounded WaybackCDX lookup for the historical GitHub owner/name returned an empty public capture list. The current13November repository object remains distinct from the historical deleted reference; no archived original object or dependency was recovered. Empty archive results do not establish the historical absence of a repository.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Repository reported to reference backdoored image",
+          "confidence": "Low",
+          "confidence_scope": "Unresolved attribution, source discrepancy, metadata-only cross-hash relation, or incomplete primary evidence.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "explicit_normalization",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Reported repository/image reference is not proof of malicious authorship, compromise, or identical executable bytes. Source reports compose/manifest reference as of 2026-11-05. Repository code and every version are not thereby established malicious. docker-compose.yml; Copy of trhhubsd/ARTEX.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_historical_repository_recreated",
+          "source_review_scope": "New corrective evidence: the current same-name GitHub repository has object ID1456427293 and creation time2026-11-13T09:51:29Z, after the5November deleted-reference report. It is a RuoJi6/ARTEX fork whose inspected pinned compose defaults to ruoji6/artex, not tomicdd/artex. It cannot substitute for the deleted historical repository. One Software Heritage origin lookup returned404; no original object or archived dependency was recovered.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "A newly retained GitHub public ForkEvent independently confirms that the current same-name repository object was created on 13 November from RuoJi6/ARTEX. This corroborates the existing warning against transferring the historical allegation to the recreated repository, but does not identify the deleted original object.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "UN-E8AE40A8B8B7",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "176.65.144.71",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "176.65.144[.]71"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-5941A37C2CF8",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "31.56.206.187",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "31.56.206[.]187"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-297E91662108",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "31.59.92.155",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "31.59.92[.]155"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-6A01D3AD3BD1",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "38.244.50.120",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "38.244.50[.]120"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-6987F2D196F6",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "46.8.227.73",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "46.8.227[.]73"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-5CB4A6A4EB2E",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "64.44.24.195",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "64.44.24[.]195"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-EFAA3FB3E8B1",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "94.183.184.254",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "94.183.184[.]254"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-A30F5A5644CA",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "94.183.184.98",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "94.183.184[.]98"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "UN-DCF396B68119",
+    "framework": "MixedAIFrameworks",
+    "indicator_type": "ipv4",
+    "indicator": "95.182.99.112",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:15:53.184111+00:00",
+    "disposition": "still_uncertain_after_original_japanese_references_and_figures",
+    "basis": "The original Japanese Case-E advisory, linked technical blog, all four full-resolution figures, NICT A2B PDF and linked vendor reports were reviewed. None assigns one of the nine addresses to an exact ARTEX/CyberStrikeAI/Cairn controller, sample or particular tool. Scutum reports a distinct three-address set, which cannot fill that gap.",
+    "source_locators": [
+      {
+        "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+        "retrieved_at_utc": "2026-11-16T18:09:42.031333+00:00",
+        "sha256": "d6f827711fe3a562dfbd0c073c88e2da26e191b34296ac5b4d513a0b96d394ba",
+        "locator": {
+          "section": "CaseE; added2026-10-23",
+          "literal": "95.182.99[.]112"
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+        "retrieved_at_utc": "2026-11-16T18:13:20.328044+00:00",
+        "sha256": "dc072b14d1fed7682b4280a02e78e49cc47dd5e037a732725307314691ba0c01",
+        "locator": {
+          "section": "Attack-serverinvestigation/AppendixB",
+          "result": "A separate three-address investigation set, without individual Case-E framework mapping."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig1-2d89442a.png",
+        "sha256": "f2433bf652d4f223fe3e9fd8de47ee8d7f5d35958c812b5f2b3cfb24577ebbad",
+        "locator": {
+          "figure_caption": "調査対象サーバーで確認したファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig2.png",
+        "sha256": "e0112f4505d59b63f1b35e57121ffc1aab291bf71e2a43f78c953523af3dc427",
+        "locator": {
+          "figure_caption": "SSRFの検証に関連するPythonスクリプト",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig3-78f80897.png",
+        "sha256": "da7c1354bc84ac3916ddb0ac487b844557eb0e6a0340df0614355e264fe0820f",
+        "locator": {
+          "figure_caption": "Androidアプリケーションの解析および脆弱性検証に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      },
+      {
+        "url": "https://blogs.jpcert.or.jp/ja/.assets/ai_attacks_fig5-6a55b0cc.jpg",
+        "sha256": "6fd1ff4cad6b8579066072ba34ffad2ac1e99bbc945cc1f3f660c2cafd3d1fe7",
+        "locator": {
+          "figure_caption": "ネットワーク内部への侵入に関連するファイル一覧",
+          "result": "Visually reviewed. File lists, redacted artifacts and a generic Python listener provide no exact Case-E IP-to-framework mapping. The 0.0.0.0 bind address is not an IOC."
+        }
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact sample recovered in the selected acquisition routes bridges this mixed-framework Case-E address to ARTEX or CyberStrikeAI. Previous original JPCERT source qualification remains; unrelated sample hashes, tool capability and shared case membership do not establish the missing per-IP mapping.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Suspicious source in mixed ARTEX/CyberStrikeAI/Cairn case E",
+          "confidence": "Medium",
+          "confidence_scope": "Mixed-framework source; individual family attribution not established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "literal_supported",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. JPCERT does not assign each IP to one framework. It warns addresses may be legitimately used at investigation time. Historical access correlation only, not a blanket block list.",
+          "source_reviewed_at_utc": "2026-11-15T15:58:33.871873+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "Fresh Case E content still lists Cairn, CyberStrikeAI and ARTEX together without mapping each address to an individual framework. It explicitly warns the addresses may be legitimately used at investigation time. Known ARTEX evidence for one address elsewhere does not assign the Japanese event to that tool or merge the campaigns.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "Fresh original JPCERT technical-blog context does not publish a per-IP mapping for the nine mixed-tool Case-E values. Its separate three-address Appendix B is an investigation-context set, not a bridge assigning these nine addresses to ARTEX or CyberStrikeAI.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    },
+    "source_section_added_date": "2026-10-23",
+    "source_initial_publication_date": "2026-10-08",
+    "observation_date_basis": "Parenthesized ranges mean source-reported observed attack dates OR estimated infrastructure-operation dates, in JST; the source does not specify which applies to each row. Per-IP absolute UTC times are unknown. The open-ended October 15 range has no asserted end."
+  },
+  {
+    "record_id": "OWNCTI-EEDD6F67CC5FE7F3",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "domain",
+    "indicator": "static.fastcdn.bar",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:13:11.636808+00:00",
+    "disposition": "still_uncertain_after_bounded_public_metadata_review",
+    "basis": "Exact historical certificate identity remains supported. Empty OTX general/malware association responses neither prove nor disprove malicious use. Two passive-DNS requests returned HTTP429 and were not retried. No exact sample, operator, campaign or C2 bridge is established.",
+    "source_locators": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/static.fastcdn.bar/malware?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-16T18:13:11.636041+00:00",
+        "status": 200,
+        "sha256": "582b6901d7db14561e546bef5df8b75ffea31d1661278b932df353fa5c6ff2cb",
+        "bytes": 35,
+        "counts": {
+          "data": 0
+        }
+      },
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/static.fastcdn.bar/passive_dns?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-16T18:13:11.636490+00:00",
+        "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/static.fastcdn.bar/general?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-16T18:13:11.636808+00:00",
+        "status": 200,
+        "sha256": "02c74bba09df549ad21c4395c0d4c8b56fde047a6cc2c5f6bbfea23f428685e7",
+        "bytes": 571,
+        "counts": {
+          "sections": 7,
+          "validation": 0,
+          "false_positive": 0
+        },
+        "pulse_count": 0
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:54:27.632313+00:00",
+      "state": "unverified",
+      "scope": "New exact OTX public URL-list lookup returned no rows and has_next=false. This bounded provider result neither establishes absence nor connects the CT sibling to a sample/operator/campaign; prior DER/SAN facts remain scoped.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Unverified sibling-domain lead discovered in certificate transparency under the same apex as a reported C2 domain",
+          "confidence": "Low",
+          "confidence_scope": "Certificate existence and shared parent are verified; no sample, malicious behavior, C2 role, operator or India association is established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "qualified_hypothesis",
+          "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+          "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "certificate_identity_reproduced_campaign_relationship_unresolved",
+          "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+          "source_review_scope": "CT certificate identity and this SAN are verified. Sample, campaign, malicious behavior, operator and C2 relationships remain unverified; issuance is not deployment.",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_scope": "Prior CT identity/SAN verification retained. New URLscan exact-domain search has no public results in its30-day accessible window; no sample/operator/C2 bridge established. Issuance is not deployment.",
+          "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+          "source_review_disposition": "deeper_review_no_campaign_relationship_bridge",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "OWNCTI-AAB562EB200FA015",
+    "framework": "CyberStrikeAI",
+    "indicator_type": "domain",
+    "indicator": "www.fastcdn.bar",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:13:12.055790+00:00",
+    "disposition": "still_uncertain_after_bounded_public_metadata_review",
+    "basis": "Exact historical certificate identity remains supported. Empty OTX general/malware association responses neither prove nor disprove malicious use. Two passive-DNS requests returned HTTP429 and were not retried. No exact sample, operator, campaign or C2 bridge is established.",
+    "source_locators": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/www.fastcdn.bar/malware?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-16T18:13:12.042971+00:00",
+        "status": 200,
+        "sha256": "582b6901d7db14561e546bef5df8b75ffea31d1661278b932df353fa5c6ff2cb",
+        "bytes": 35,
+        "counts": {
+          "data": 0
+        }
+      },
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/www.fastcdn.bar/passive_dns?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-16T18:13:12.051876+00:00",
+        "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/domain/www.fastcdn.bar/general?limit=100&page=1",
+        "retrieved_at_utc": "2026-11-16T18:13:12.055790+00:00",
+        "status": 200,
+        "sha256": "543371df3ce89403567414d1608b92d77ee1947c16025e700d38eae1ce4747b6",
+        "bytes": 562,
+        "counts": {
+          "sections": 7,
+          "validation": 0,
+          "false_positive": 0
+        },
+        "pulse_count": 0
+      }
+    ],
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:54:27.632313+00:00",
+      "state": "unverified",
+      "scope": "New exact OTX public URL-list lookup returned no rows and has_next=false. This bounded provider result neither establishes absence nor connects the CT sibling to a sample/operator/campaign; prior DER/SAN facts remain scoped.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "Unverified sibling-domain lead discovered in certificate transparency under the same apex as a reported C2 domain",
+          "confidence": "Low",
+          "confidence_scope": "Certificate existence and shared parent are verified; no sample, malicious behavior, C2 role, operator or India association is established.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "qualified_hypothesis",
+          "source_review_scope": "Underlying source/artifact components were reviewed, but this compound detection/timing hypothesis or shared-apex relationship remains qualified and unverified for operational attribution. This is not a source-literal mismatch.",
+          "source_reviewed_at_utc": "2026-11-15T16:03:27.121716+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "certificate_identity_reproduced_campaign_relationship_unresolved",
+          "source_reviewed_at_utc": "2026-11-15T16:36:06.528367+00:00",
+          "source_review_scope": "CT certificate identity and this SAN are verified. Sample, campaign, malicious behavior, operator and C2 relationships remain unverified; issuance is not deployment.",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_scope": "Prior CT identity/SAN verification retained. New URLscan exact-domain search has no public results in its30-day accessible window; no sample/operator/C2 bridge established. Issuance is not deployment.",
+          "source_reviewed_at_utc": "2026-11-15T17:18:35.122788+00:00",
+          "source_review_disposition": "deeper_review_no_campaign_relationship_bridge",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "DAILY15-CC909D037ACC",
+    "framework": "ARTEX",
+    "indicator_type": "ipv4",
+    "indicator": "178.16.54.129",
+    "publication_category": "unverified-findings",
+    "source_review_state": "unverified",
+    "reviewed_at_utc": "2026-11-16T18:16:48.815364+00:00",
+    "disposition": "still_uncertain",
+    "basis": "Fresh original Microsoft source still differs: ASIM ioc_ip_addr contains 178.15.54.129; IOC table contains 178.16.54[.]129. The current FBI PDF repeats .16 with a Microsoft citation rather than declaring a publisher correction. No exact artifact or new original correction resolves the conflict.",
+    "source_locators": {
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "source_document_sha256": "a97b67ca549fe4b5a65a10cba306bc7ed818542ecad93b782a208f7ad9e1d4fd",
+      "locators": [
+        "Microsoft Sentinel / ASIM ioc_ip_addr",
+        "Indicators of compromise / ARTEX server row"
+      ],
+      "additional_source_url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+      "additional_locator": "PDF page 7 (one-based), ARTEX-server list citing Microsoft10",
+      "retrieved_at_utc": "2026-11-16T18:10:16.123143+00:00"
+    },
+    "automatic_blocklist_suitable": false,
+    "prior_review": {
+      "reviewed_at_utc": "2026-11-15T17:52:33.363398+00:00",
+      "state": "unverified",
+      "scope": "No exact source-linked artifact or original publisher correction obtained in this pass settles the178.15 versus178.16 octet conflict. Existing primary-source discrepancy and FBI table repetition remain distinct evidence. Hosting geography and repeated secondary tables are not a correction.",
+      "history": [
+        {
+          "publication_category": "unverified-findings",
+          "role": "ARTEX server in Storm-3358 campaign; source active-as-of Nov6",
+          "confidence": "Low",
+          "confidence_scope": "Exact FBI table literal is verified, but the underlying Microsoft table and query disagree on the address. Correct historical endpoint identity remains unresolved.",
+          "source_review_state": "unverified",
+          "source_review_disposition": "source_literal_revalidated",
+          "source_review_scope": "The source literal/limited identity is supported, but the existing algorithm, address, role, family/campaign or deployment ambiguity remains unresolved. Public-source review only; no target requests, DNS, scans, paid providers, sample submission or execution. Not an automatic blocklist. FBI compiles Microsoft table178.16.54.129. Microsoft sample query still contains178.15.54.129; compilation supplies no independent telemetry or explicit correction resolving discrepancy.",
+          "source_reviewed_at_utc": "2026-11-15T15:15:23.023405+00:00",
+          "resolution_review_at_utc": "2026-11-15T16:58:50.281520+00:00",
+          "reason": "Re-reviewed against original public sources/artifacts; previous state retained."
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain",
+          "source_review_scope": "The freshly retrieved Microsoft page still contradicts itself. FBI repeats the table variant and provides no independent telemetry or explicit publisher correction. Searches for an official correction/versioned Microsoft IOC bridge did not produce one. Repetition cannot choose the octet.",
+          "source_reviewed_at_utc": "2026-11-15T16:35:30.986443+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-deeper-hunt",
+          "superseded_at_utc": "2026-11-15T17:30:47.726283+00:00"
+        },
+        {
+          "source_review_state": "unverified",
+          "source_review_disposition": "still_uncertain_after_additional_public_routes",
+          "source_review_scope": "The previously retained Microsoft source still has a KQL178.15.54.129 versus table178.16.54.129 discrepancy; FBI repeats the table value without resolving it. Two new exact-value searches in the official Azure/Azure-Sentinel repository returned no indexed matches, which is not a correction or proof of absence.",
+          "source_reviewed_at_utc": "2026-11-15T17:26:46.120018+00:00",
+          "automatic_blocklist_suitable": false,
+          "review_pass": "2026-11-15-exact-artifact-review",
+          "superseded_at_utc": "2026-11-15T18:11:05.015049+00:00"
+        }
+      ]
+    }
+  }
+]
