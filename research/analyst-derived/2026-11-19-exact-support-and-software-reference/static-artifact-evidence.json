@@ -1,0 +1,157 @@
+{
+  "reviewed_at_utc": "2026-11-19T15:29:25.954081+00:00",
+  "artifacts": [
+    {
+      "sha256": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+      "sha1": "541f02c11bc7a96a443bc09a8bb70991fcd07857",
+      "md5": "6d80677af9096febf88e52a9e1c485f8",
+      "bytes": 159952,
+      "archive_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+      "archive_member": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068.exe",
+      "acquired_at_utc": "2026-11-19T15:19:35.734633+00:00",
+      "source_report_url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+      "source_sha256": "8e1c315b80d93e3400814eaae57f7b2af92d33c8f18b0e0b3c26b013c8a9b125",
+      "component": "Legitimate GameHook supporting executable",
+      "source_report_publication": "2026-10-29",
+      "identity_method": "Full locally calculated original-byte MD5/SHA1/SHA256, exact source SHA256 match, archive size and CRC32 checked.",
+      "native_engine": "Ghidra12.1.4 static read-only import; not REA MCP output",
+      "selected_functions_reconstructed": 15,
+      "recovered_function_inventory": 460,
+      "native_coverage": "Selected functions only; runtime/library inventory not fully reconstructed.",
+      "sample_execution": false
+    },
+    {
+      "sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+      "sha1": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
+      "md5": "bd0a6c382bd1fc44ef2669b6b0534d84",
+      "bytes": 96768,
+      "archive_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+      "archive_member": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe",
+      "acquired_at_utc": "2026-11-19T15:19:37.850719+00:00",
+      "source_report_url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+      "source_sha256": "8e1c315b80d93e3400814eaae57f7b2af92d33c8f18b0e0b3c26b013c8a9b125",
+      "component": "Publisher-reported BLOODALCHEMY loader DLL",
+      "source_report_publication": "2026-10-29",
+      "identity_method": "Full locally calculated original-byte MD5/SHA1/SHA256, exact source SHA256 match, archive size and CRC32 checked.",
+      "native_engine": "Ghidra12.1.4 static read-only import; not REA MCP output",
+      "selected_functions_reconstructed": 15,
+      "recovered_function_inventory": 333,
+      "native_coverage": "Selected functions only; runtime/library inventory not fully reconstructed.",
+      "sample_execution": false
+    }
+  ],
+  "native_facts": [
+    {
+      "type": "filename",
+      "value": "graphics-hook_config.bin",
+      "sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+      "locator": {
+        "artifact_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+        "function": "0x18000118c",
+        "caller_function": "0x180001238",
+        "encrypted_blob_file_offset": 83456,
+        "encrypted_blob_length": 25,
+        "key_file_offset": 83488,
+        "key_length": 18,
+        "decoded_filename": "graphics-hook_config.bin",
+        "decoded_byte_length": 24,
+        "method": "Inert reimplementation of static8-bit ROR2/XORkey[state%18]/ROL1/ADDkey[state%18]/ROL1 state update; XOR each following encrypted byte, zero-extend to UTF16LE. No target code executed.",
+        "configured_path_scope": "Replaces basename of current executable path returned by GetModuleFileNameW(NULL); CreateFileW opens colocated decoded filename. Not an observed victim file."
+      },
+      "calls": {
+        "GetModuleFileNameW": "0x180001269",
+        "PathFindFileNameW": "0x18000127c",
+        "decode_call": "0x18000129a",
+        "CreateFileW": "0x1800012c9",
+        "ReadFile": "0x180001330"
+      },
+      "scope": "Exact decoded colocated loader payload filename. Payload file bytes were not acquired; filename alone is not a maliciousness indicator."
+    },
+    {
+      "type": "filename",
+      "value": "graphics-hook-filter64.dll",
+      "sha256": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+      "locator": {
+        "file_offset": 112344,
+        "bytes": 26,
+        "encoding": "ASCII",
+        "virtual_address": "0x14001c4d8",
+        "function": "0x140001050",
+        "copy_instruction": "0x14000121a",
+        "LoadLibraryA_call": "0x1400013f9",
+        "LoadLibraryA_IAT": "0x140014028"
+      },
+      "scope": "Exact legitimate GameHook sibling DLL dependency filename passed to LoadLibraryA after initialization branches. No observed module load or compromise; name is not malware-specific."
+    },
+    {
+      "type": "mutex",
+      "value": "ISR_GAMEHOOK_64",
+      "sha256": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+      "locator": {
+        "file_offset": 112224,
+        "encoding": "UTF16LE",
+        "virtual_address": "0x14001c460",
+        "function": "0x140001050",
+        "argument_instruction": "0x14000107e",
+        "CreateMutexW_call": "0x140001089",
+        "CreateMutexW_IAT": "0x140014008"
+      },
+      "scope": "Exact legitimate GameHook software mutex argument. Not a malware-specific or ARTEX-controller fingerprint."
+    }
+  ],
+  "controller_software_reference": {
+    "sha256": "44f8cb7983396bd788bed1d3050536e14b342fbc9533de65192e0d0621d7383e",
+    "sha1": "79f9ae773afb2786d8d34ca4d7f898e84af9e294",
+    "md5": "f0b0ed11fe6a3ec7d242be10a8184121",
+    "bytes": 38142078,
+    "archive_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-28.zip",
+    "archive_member": "44f8cb7983396bd788bed1d3050536e14b342fbc9533de65192e0d0621d7383e.elf",
+    "acquired_at_utc": "2026-11-19T15:24:57.163097+00:00",
+    "source_report_url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-detection-strategies-for-artex-and-related-forks",
+    "source_report_sha256": "d0528f587536ad93e3d876561f0ab4de230d42787b953df48661aceeca91a99d",
+    "source_report_publication": "2026-11-18",
+    "identity_method": "One bounded exact member from newly published RL software SHA256 list; full size/CRC32/SHA256 checked and MD5/SHA1 locally computed.",
+    "static_go_metadata": {
+      "artifact_sha256": "44f8cb7983396bd788bed1d3050536e14b342fbc9533de65192e0d0621d7383e",
+      "bytes": 38142078,
+      "format": "ELF64 little-endian",
+      "machine": "EM_AARCH64",
+      "go_version": "go1.26.3",
+      "go_version_file_offset": 36700193,
+      "buildinfo_file_offset": 36700160,
+      "module_blob_file_offset": 36700203,
+      "module_lines": [
+        "path\tgithub.com/Autumn-27/artex/cmd/artex",
+        "mod\tgithub.com/Autumn-27/artex\tv0.0.0-20261010012839-ee413324c868\t",
+        "build\t-buildmode=exe",
+        "build\t-compiler=gc",
+        "build\t-tags=embedui",
+        "build\t-trimpath=true",
+        "build\tCGO_ENABLED=0",
+        "build\tGOARCH=arm64",
+        "build\tGOOS=linux",
+        "build\tGOARM64=v8.0",
+        "build\tvcs=git",
+        "build\tvcs.revision=ee413324c868ec09d5ccbae31d04da7a6e24076d",
+        "build\tvcs.time=2026-10-10T01:28:39Z",
+        "build\tvcs.modified=false"
+      ],
+      "full_module_bytes": 4852,
+      "scope": "Static compiler-supplied metadata only; may be forged. No exact source revision or malicious operator asserted without independent source binding.",
+      "sample_execution": false
+    },
+    "source_revision_check": {
+      "url": "https://api.github.com/repos/BaaRai/ARTEX/commits/ee413324c868ec09d5ccbae31d04da7a6e24076d",
+      "status": 422,
+      "result": "No commit found; exact generating public revision not established."
+    },
+    "scope": "ELF64 AArch64 linux/arm64 ARTEX-named command application software reference. Compiler-supplied fields may be forged. No malicious operator, exact fork, deployment, C2 service or campaign relationship established.",
+    "sample_execution": false,
+    "native_controller_decompilation_performed": false
+  },
+  "target_requests": 0,
+  "dns_queries": 0,
+  "paid_calls": 0,
+  "sample_execution": false,
+  "raw_binaries_c_asm_projects_captures_published": false
+}

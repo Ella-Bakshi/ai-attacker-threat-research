@@ -1,0 +1,74 @@
+[
+  {
+    "record_id": "CSYS19-PUBLIC-083C2B41E879097D",
+    "framework": "ARTEX",
+    "framework_version": "Unspecified; provider query/scan context does not establish a generating revision",
+    "publication_category": "supporting-context",
+    "indicator_type": "domain",
+    "indicator": "tongcanghuanqiu.com",
+    "role": "Historical A/AAAA association displayed for an ARTEX-labeled host; maliciousness and domain ownership unestablished",
+    "confidence": "High",
+    "confidence_scope": "High confidence in exact visual transcription of a public provider figure and its historical association dates. This is nonindicative DNS context, not evidence that the domain ran ARTEX, was operator-controlled, delivered malware, or functioned as C2.",
+    "verification_status": "Reviewed against the original public source/artifact; software identification and historical context only. No victim telemetry or current operation independently verified.",
+    "origin": "analyst_public_publisher_image_derivation",
+    "source_published_date": "2026-11-12",
+    "first_seen": "2026-10-22T11:19Z",
+    "last_seen": "2026-10-22T17:01Z",
+    "observation_date_basis": "Censys Associated Domains table first/last seen timestamps, displayed to minute precision in UTC. These are DNS-association history, not victim activity, controller liveness or domain registration times.",
+    "reviewed_at_utc": "2026-11-19T15:21:47.353091+00:00",
+    "source_retrieved_at_utc": "2026-11-19T15:17:44.724991+00:00",
+    "primary_source_url": "https://censys.com/blog/artex-and-ai-attack-tools-why-threat-intelligence-must-originate-from-first-party-data",
+    "source_locator": {
+      "evidence_file": "research/analyst-derived/2026-11-19-censys-public-figure/public-figure-evidence.json",
+      "json_pointer": "/historical_dns_context",
+      "public_figure_url": "https://censys.com/wp-content/uploads/image-340.png",
+      "public_figure_sha256": "f71d377e388e4b71484d3355e16f7e07c28034db1287a8d59d3af981402e2830",
+      "figure_locator": "Associated Domains table, first and only row; host header43.255.159.10"
+    },
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "High confidence in exact visual transcription of a public provider figure and its historical association dates. This is nonindicative DNS context, not evidence that the domain ran ARTEX, was operator-controlled, delivered malware, or functioned as C2.",
+    "source_review_locator": {
+      "evidence_file": "research/analyst-derived/2026-11-19-censys-public-figure/public-figure-evidence.json",
+      "json_pointer": "/historical_dns_context",
+      "public_figure_url": "https://censys.com/wp-content/uploads/image-340.png",
+      "public_figure_sha256": "f71d377e388e4b71484d3355e16f7e07c28034db1287a8d59d3af981402e2830",
+      "figure_locator": "Associated Domains table, first and only row; host header43.255.159.10"
+    },
+    "source_reviewed_at_utc": "2026-11-19T15:21:47.353091+00:00",
+    "source_review_disposition": "independently_transcribed_public_historical_dns_context",
+    "source_references": [
+      {
+        "url": "https://censys.com/blog/artex-and-ai-attack-tools-why-threat-intelligence-must-originate-from-first-party-data",
+        "source_role": "publisher_article_linking_original_image",
+        "retrieved_at_utc": "2026-11-19T15:17:44.724991+00:00",
+        "document_sha256": "df2c73849ca9ad009c6a067061b5ecd3cdd3173a5af90bcd0f94d47964b6a02c",
+        "bytes": 181144,
+        "evidence_locator": "Image preceding the43.255.159[.]10 reputation example"
+      },
+      {
+        "url": "https://censys.com/wp-content/uploads/image-340.png",
+        "source_role": "original_public_figure_independently_transcribed",
+        "retrieved_at_utc": "2026-11-19T15:17:45.335691+00:00",
+        "document_sha256": "f71d377e388e4b71484d3355e16f7e07c28034db1287a8d59d3af981402e2830",
+        "bytes": 222809,
+        "evidence_locator": "Associated Domains row1; tongcanghuanqiu.com; first OCT22 2026 11:19UTC; last OCT22 2026 17:01UTC"
+      }
+    ],
+    "evidence_score_hint": 0,
+    "evidence_score_ceiling": 0,
+    "evidence_score_ceiling_basis": "Software/query reference or historical source context only; no new exact malicious C2 or campaign relationship established.",
+    "historical_c2_role_verified": false,
+    "automatic_blocklist_suitable": false,
+    "global_novelty_claimed": false,
+    "self_derived": true,
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "association_scope": "historical_provider_dns_context_only_not_domain_framework_or_campaign_attribution",
+    "source_snapshot_at_utc": "2026-11-09T16:23Z",
+    "analyst_contribution": "Visually extracted a domain/value and explicitly displayed historical DNS-association dates from an original publisher screenshot; root independently verified the same literal and timestamps. No first-party sensor or domain resolution.",
+    "delta_kind": "new_nonindicative_domain_context_value",
+    "evidence_reference": "research/analyst-derived/2026-11-19-censys-public-figure/public-figure-evidence.json",
+    "limitations": "An A/AAAA association at a historical date does not prove common ownership or software use on the domain. The screenshot header as-of9Nov is separate from22OctDNSassociation sightings. Image is publisher evidence, not independently obtained scan telemetry. No current DNS lookup or sample bridge was performed. No malicious-domain or C2 claim; source screenshot is not redistributed.",
+    "recommended_use": "Historical correlation context only. Do not block this domain based on this record."
+  }
+]

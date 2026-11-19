@@ -1,0 +1,40 @@
+{
+  "reviewed_at_utc": "2026-11-19T15:30:24.769234+00:00",
+  "source_url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+  "source_printed_date": "2026-11-13",
+  "prior_retained_document": {
+    "old_sha256": "3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2",
+    "old_bytes": 541176,
+    "old_pages": 13
+  },
+  "fresh_document": {
+    "sha256": "9daa102a5996410d7bf39f828bf101c8434a20312338da3fa8346d9b2e9ef58f",
+    "bytes": 540485,
+    "last_modified": "Tue, 17 Nov 2026 17:13:28 GMT",
+    "retrieved_at_utc": "2026-11-19T15:18:31.735066+00:00"
+  },
+  "fresh_pdf_creation_and_modification": "2026-11-17T12:13:28-05:00",
+  "source_text_corrections": [
+    {
+      "page": 1,
+      "meaning": "ConnectWise downstream impact is narrowed to attempted sign-ins to more than 2250 tenants, instead of asserting access to that many tenants."
+    },
+    {
+      "page": 1,
+      "meaning": "Exposed ARTEX console estimate now cites reference 9 rather than reference 4."
+    }
+  ],
+  "unchanged_octet_issue": {
+    "page": 7,
+    "literal": "178.16.54[.]129",
+    "role": "Microsoft-sourced ARTEX server group in Storm-3358 campaign",
+    "resolved": false,
+    "scope": "The PDF repeats the prior literal; it does not resolve the separate Microsoft query/table .15/.16 discrepancy."
+  },
+  "visual_pages_reviewed": [
+    1,
+    7
+  ],
+  "publication_date_limit": "No 18 November revision label appears in relevant rendered pages or extracted text. File/HTTP metadata is separate from printed publication and attack activity times.",
+  "raw_pdf_redistributed": false
+}

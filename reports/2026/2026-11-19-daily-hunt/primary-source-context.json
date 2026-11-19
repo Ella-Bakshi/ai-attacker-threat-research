@@ -1,0 +1,44 @@
+[
+  {
+    "publisher": "darktrace",
+    "source_url": "https://www.darktrace.com/fr/blog/agentic-attacks-in-the-wild-inside-three-artex-investigations",
+    "source_published_date": "2026-11-18",
+    "retrieved_at_utc": "2026-11-19T15:18:33.243793+00:00",
+    "document_sha256": "be5dbf77ccf71fe38decb114e77836237028c8929b0226dabd04dac4c7b9180f",
+    "source_document_bytes": 460400,
+    "evidence_memberships": 12,
+    "classes": {
+      "sourced-iocs": 5,
+      "legitimate-service-context": 5,
+      "report-artifact-observables": 2
+    },
+    "scope": "Source-document identity and narrow public factual memberships; no article copy, local malware-byte authentication or current operation claim."
+  },
+  {
+    "publisher": "huntback",
+    "source_url": "https://huntback.io/blog/inside-cyberstrikeai-221-tool-executions-disabled-approval-gate",
+    "source_published_date": "2026-11-17",
+    "retrieved_at_utc": "2026-11-19T15:18:33.905367+00:00",
+    "document_sha256": "643738f29511f3ab17c1516df9a8294ea7c524a7f13738feca9f044c8317195f",
+    "source_document_bytes": 40992,
+    "evidence_memberships": 7,
+    "classes": {
+      "deployment-leads": 2,
+      "report-artifact-observables": 5
+    },
+    "scope": "Source-document identity and narrow public factual memberships; no article copy, local malware-byte authentication or current operation claim."
+  },
+  {
+    "publisher": "reversinglabs",
+    "source_url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-detection-strategies-for-artex-and-related-forks",
+    "source_published_date": "2026-11-18",
+    "retrieved_at_utc": "2026-11-19T15:18:35.239895+00:00",
+    "document_sha256": "d0528f587536ad93e3d876561f0ab4de230d42787b953df48661aceeca91a99d",
+    "source_document_bytes": 387468,
+    "evidence_memberships": 193,
+    "classes": {
+      "software-fingerprints": 193
+    },
+    "scope": "Source-document identity and narrow public factual memberships; no article copy, local malware-byte authentication or current operation claim."
+  }
+]

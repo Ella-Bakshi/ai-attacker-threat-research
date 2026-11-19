@@ -1,0 +1,50 @@
+{
+  "reviewed_at_utc": "2026-11-19T15:21:47.353091+00:00",
+  "artifact_kind": "Original publisher screenshot, not malware sample or private account export",
+  "primary_report": {
+    "url": "https://censys.com/blog/artex-and-ai-attack-tools-why-threat-intelligence-must-originate-from-first-party-data",
+    "publication_date": "2026-11-12",
+    "published_at_utc": "2026-11-12T17:24:54+00:00",
+    "modified_at_utc": "2026-11-12T19:59:51+00:00",
+    "retrieved_at_utc": "2026-11-19T15:17:44.724991+00:00",
+    "sha256": "df2c73849ca9ad009c6a067061b5ecd3cdd3173a5af90bcd0f94d47964b6a02c"
+  },
+  "public_figure": {
+    "url": "https://censys.com/wp-content/uploads/image-340.png",
+    "retrieved_at_utc": "2026-11-19T15:17:45.335691+00:00",
+    "sha256": "f71d377e388e4b71484d3355e16f7e07c28034db1287a8d59d3af981402e2830",
+    "bytes": 222809,
+    "dimensions": [
+      2048,
+      788
+    ],
+    "screenshot_as_of_utc": "2026-11-09T16:23Z",
+    "timestamp_precision": "minute",
+    "caption_context": "Public43.255.159[.]10 reputation example in Censys12Novarticle; image file itself has no separately verified publication date."
+  },
+  "historical_dns_context": {
+    "hostname": "tongcanghuanqiu.com",
+    "host_ip": "43.255.159.10",
+    "relation_as_displayed": "Associated Domains: A/AAAA records resolving to this host",
+    "first_seen": "2026-10-22T11:19Z",
+    "last_seen": "2026-10-22T17:01Z",
+    "timestamp_meaning": "Provider DNS-association first/last shown in UTC, to minute precision. Not a malware connection, attack, domain-registration or current-resolution timestamp.",
+    "visual_locator": "Associated Domains table first and only row; header host43.255.159.10. Column labels First Seen and Last Seen."
+  },
+  "software_context": {
+    "visible_tag": "ARTEX",
+    "visible_http_port": 8787,
+    "scope": "Historical software badge only; no per-domainsoftware or campaign ownership attribution."
+  },
+  "independent_review": "Root separately viewed the full image and confirmed host/as-of/tag/port/domain/times. No image copy or extracted API data is published.",
+  "limits": [
+    "No candidate DNS,HTTP,TLS,JARMrequest or scan submission.",
+    "No first-party sensor, malware execution, original victim telemetry or malicious/domainC2 assertion.",
+    "Exact publication source is public. Account-only Censys observations were not used or transformed into this record."
+  ],
+  "paid_calls": 0,
+  "provider_account_calls": 0,
+  "target_requests": 0,
+  "sample_execution": false,
+  "global_novelty_claimed": false
+}

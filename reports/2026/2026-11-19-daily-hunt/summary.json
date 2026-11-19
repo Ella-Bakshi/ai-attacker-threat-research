@@ -1,0 +1,29 @@
+{
+  "reviewed_at_utc": "2026-11-19T15:33:48.156491+00:00",
+  "new_canonical_memberships": 228,
+  "new_master_values": 212,
+  "existing_master_value_memberships": 16,
+  "classes": {
+    "sourced-iocs": 5,
+    "legitimate-service-context": 5,
+    "report-artifact-observables": 7,
+    "deployment-leads": 3,
+    "software-fingerprints": 201,
+    "supporting-context": 1,
+    "supporting-tools": 3,
+    "sample-derived-observables": 3
+  },
+  "canonical_records": 13058,
+  "compact_records": 12828,
+  "master_values": 16560,
+  "master_only_values": 3740,
+  "review_states": {
+    "source_supported": 4295,
+    "historical_provider": 8340,
+    "artifact_supported": 388,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_derived_malicious_iocs": 0,
+  "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim."
+}

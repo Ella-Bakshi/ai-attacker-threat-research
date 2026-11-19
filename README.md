@@ -1,6 +1,6 @@
 # AI Attacker Threat Research
 
-Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **16 November 2026**.
+Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **19 November 2026**.
 
 ## IP overview and map
 
@@ -12,7 +12,7 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **12,830 canonical source records**; the master has **16,348 distinct type/value pairs**, including **3,740 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,058 canonical source records**; the master has **16,560 distinct type/value pairs**, including **3,740 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
@@ -20,9 +20,11 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Our findings
 
-Latest: [an exact publisher-displayed CyberStrikeAI support-script representation](research/analyst-derived/2026-11-16-cyberstrikeai-publisher-script/README.md) corroborates four existing values after matching all three publisher hashes. The [focused deeper pass](reports/2026/2026-11-16-deeper-artifact-hunt/README.md) adds 12 values through 15 external memberships, including three historical web attack-source IPs without ARTEX/CyberStrikeAI attribution. All 35 unresolved relationships remain separate. No new beacon/controller binary or independently verified malicious C2 IP was acquired.
+Latest: [19 November source and exact-artifact review](reports/2026/2026-11-19-daily-hunt/README.md) adds 228 memberships and 212 distinct values across separate evidence classes. It includes three role-qualified historical/exposure IPs and exact supporting-component/controller-reference analysis. The 184 published operator hashes and nine favicon hashes remain software references. Censys's public labels were documented earlier in November; this pass adds published query references and historical evidence. All 35 unresolved relationships remain separate.
 
-Earlier today: [two new exact public artifacts](research/analyst-derived/2026-11-16-exact-public-artifacts/README.md), a NIK C2 implant and modified extension.js, yield 19 independently derived memberships: 13 new values and six corroborations. [Today's review](reports/2026/2026-11-16-daily-hunt/README.md) adds 40 distinct values overall, with zero new IP values; 35 unresolved questions remain separate. [Global Edition source references](research/software-fingerprints/2026-11-16-artex-global-source/README.md) and four pinned CyberStrikeAI/HexStrike strings are qualified software research. No new exact ARTEX/CyberStrikeAI campaign sample or independently verified malicious C2 IP was obtained.
+Earlier on 16 November: [an exact publisher-displayed CyberStrikeAI support-script representation](research/analyst-derived/2026-11-16-cyberstrikeai-publisher-script/README.md) corroborates four existing values after matching all three publisher hashes. The [focused deeper pass](reports/2026/2026-11-16-deeper-artifact-hunt/README.md) adds 12 values through 15 external memberships, including three historical web attack-source IPs without ARTEX/CyberStrikeAI attribution. All 35 unresolved relationships remain separate. No new beacon/controller binary or independently verified malicious C2 IP was acquired.
+
+Earlier on 16 November: [two new exact public artifacts](research/analyst-derived/2026-11-16-exact-public-artifacts/README.md), a NIK C2 implant and modified extension.js, yield 19 independently derived memberships: 13 new values and six corroborations. [16 November review](reports/2026/2026-11-16-daily-hunt/README.md) adds 40 distinct values overall, with zero new IP values; 35 unresolved questions remain separate. [Global Edition source references](research/software-fingerprints/2026-11-16-artex-global-source/README.md) and four pinned CyberStrikeAI/HexStrike strings are qualified software research. No new exact ARTEX/CyberStrikeAI campaign sample or independently verified malicious C2 IP was obtained.
 
 Earlier on 15 November: [native Linux routes](research/analyst-derived/2026-11-15-linux-native-routes/README.md) and [Windows persistence corroborations](research/analyst-derived/2026-11-15-cyberstrikeai-windows-native/README.md): two new static URL prefixes, two existing-value corroborations and one separate experimental lineage rule. [Exact-artifact and identity review](reports/2026/2026-11-15-exact-artifact-review/README.md) resolves four hash identities; 35 questions remain separate. No new sample bytes or malicious C2 IPs were obtained.
 
@@ -34,7 +36,7 @@ Also on 15 November: [Windows CyberStrikeAI-lineage artifact evidence](research/
 
 Also on 15 November: [a second complete VoidLink variant](research/analyst-derived/2026-11-15-voidlink/README.md), with native default-port evidence and exact hash identities.
 
-New: [VoidLink sample defaults and native evidence](research/analyst-derived/2026-11-13-voidlink/README.md), separately scoped from the historical 342-record collection.
+Earlier on 13 November: [VoidLink sample defaults and native evidence](research/analyst-derived/2026-11-13-voidlink/README.md), separately scoped from the historical 342-record collection.
 
 The original collection contains **342 derived or verified records**, including byte/native-backed configuration from an acquired CyberStrikeAI-lineage beacon and ten additional conditional host/protocol patterns. Later artifact supplements are linked separately above. These records include software/reference fingerprints; they are not all confirmed malicious IOCs, and no global novelty is claimed.
 
@@ -59,7 +61,7 @@ The current incident exports contain **18 ARTEX-associated** and **9 CyberStrike
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,348 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,560 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -74,6 +76,10 @@ CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ART
 The separate [India AI campaign supplement](india/additional-ai-campaigns/README.md) adds **171 externally sourced IOC records** from APT36 vibeware, Sheet Attack and Gopher Strike, plus **5 independently verified/derived observations**. These campaigns have primary-source India targeting evidence and vendor-assessed AI involvement; no ARTEX/CyberStrikeAI link is established. [Sourced IOCs](india/additional-ai-campaigns/sourced-iocs.csv), [our observations](india/additional-ai-campaigns/analyst-derived.csv), [report artifacts](india/additional-ai-campaigns/report-artifacts.csv), and [supporting context](india/additional-ai-campaigns/supporting-context.csv) remain separate.
 
 ## Browse dated reports
+
+### 2026-11-19
+
+- [Public labels, new primary reporting and exact artifacts](reports/2026/2026-11-19-daily-hunt/README.md): 228 memberships, 212 new values and three role-qualified IPs; software fingerprints and 35 unresolved relationships remain separate.
 
 ### 2026-11-16
 
