@@ -9,6 +9,8 @@ or web.threats.name: {"ARTEX", "ScopeWeaver", "CyberStrikeAI", "PentAGI", "HexSt
 
 Source: [Censys, 12 November](https://censys.com/blog/artex-and-ai-attack-tools-why-threat-intelligence-must-originate-from-first-party-data). This query has not been executed locally. It searches provider labels, including potentially authorized deployments. No current count, actor attribution or maliciousness follows from the query itself.
 
+The [official access-tier matrix](https://docs.censys.com/docs/data-access-tiers-entitlements) separates basic HTTP data and general labels from searchable threat data. A query may be rejected by the available entitlement; that supplies neither a hit count nor evidence of absence. A permitted HTTP-title search is a separate software lead and does not validate the provider threat classification.
+
 The [5 November ARC article](https://censys.com/blog/artex-agentic-asbestos) also publishes a console query combining a title pattern with Next.js assets:
 
 ```text
@@ -25,6 +27,8 @@ That is a software reference, not a locally benchmarked production detector. A t
 | `host.reputation` | A separate model assessment using multiple host signals. Its category and risk score do not map to our ordinal evidence rubric. |
 
 The [threat-data documentation](https://docs.censys.com/docs/platform-threat-hunting-threat-hunting-dataset) distinguishes security tools from C2 and other threat types. Inspect the actual returned type; a framework name alone does not establish it. Actor metadata describes groups previously associated with tooling, not proof of an actor on the individual host.
+
+Customer-assigned `tags.name` and `tags.id` are organization-visible annotations, distinct from provider fingerprint detections. A custom tag alone is not a Censys threat match. See [Tags and Comments](https://docs.censys.com/docs/platform-tags-comments).
 
 Threat history can remain visible after recent scans stop matching. Retain scan/detection times separately from article publication, lookup time and victim activity. Co-location, certificates and historical DNS associations require their own relationship evidence.
 
