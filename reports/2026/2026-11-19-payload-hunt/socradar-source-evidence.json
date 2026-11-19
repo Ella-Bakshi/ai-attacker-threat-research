@@ -1,0 +1,49 @@
+{
+  "source_id": "socradar_php2shell_ai_agents_20261118",
+  "publisher": "SOCRadar Threat Research Unit (STRU)",
+  "title": "PHP2Shell Exploited by AI Agents from Day One: Inside a Credential-Harvesting Campaign",
+  "source_url": "https://socradar.io/blog/php2shell-ai-agents-credential-harvesting/",
+  "source_published_date": "2026-11-18",
+  "retrieved_at_utc": "2026-11-19T17:53:20Z",
+  "reviewed_at_utc": "2026-11-19T17:53:20Z",
+  "pinned_attachment_url": "https://github.com/SOCRadarSTRU/STRU-threat-intel/blob/ffbb606f94f52f63e81ddb37641d3d3acdfde114/2026-11-18-IOCs-PHP2Shell-Exploited-by-AI-Agents-from-Day-One.txt",
+  "pinned_attachment_commit": "ffbb606f94f52f63e81ddb37641d3d3acdfde114",
+  "attachment_sha256": "4aa6e299c5be8439b355cfab68954f6c07314722c96a17d17d124673e4f87f29",
+  "attachment_license_url": "https://github.com/SOCRadarSTRU/STRU-threat-intel/blob/ffbb606f94f52f63e81ddb37641d3d3acdfde114/LICENSE.md",
+  "attachment_license": "GPL-3.0; upstream terms retained, no blanket license over third-party material",
+  "framework": "Other AI-assisted campaign",
+  "campaign_label": "PHP2Shell maq/modified omp operator",
+  "ARTEX_or_CyberStrikeAI_attribution": false,
+  "record_count": 80,
+  "new_distinct_type_value_count": 80,
+  "evidence_classes": {
+    "sourced-iocs": 68,
+    "shared-services-and-generic-markers": 1,
+    "supporting-tools": 3,
+    "report-artifact-observables": 8
+  },
+  "indicator_types": {
+    "ipv4": 3,
+    "hostname": 2,
+    "network_endpoint": 29,
+    "sha256": 23,
+    "ssh_public_key_sha256": 5,
+    "evm_wallet": 1,
+    "file_path": 6,
+    "file_path_pattern": 2,
+    "url": 7,
+    "url_template": 2
+  },
+  "independent_malware_byte_findings": 0,
+  "confidence_rubric": {
+    "70": "Explicit historical C2/listener/C2-upload role from primary report",
+    "55": "Historical source/lab/artifact campaign role",
+    "20": "Staged supporting public exploit with execution unestablished",
+    "0": "Shared host-comment context"
+  },
+  "date_limits": "Only185.65.134.250 is individually dated October29-30. November8 is lab-directory discovery; publication/retrieval and loot/database snapshot dates are not per-artifact activity.",
+  "role_limits": "Grouped reverse-shell/auxiliary and tunnel/Beacon ports retain grouped roles; no inferred per-port payload map. Staged DirtyCOW/CopyFail hashes are supporting tools, not proof of execution. SSH-key-comment hostname is sharedcontext.",
+  "method": "Original source table and per-role sections reviewed; source literals normalized and explicit grouped ports/paths expanded. Nocandidatecontact, DNSresolution,scans, authentication, sampleexecution orpaidintelligence. Rawarticles, sourceattachments, malwarebinaries, keys/tokens andvictimdata notredistributed.",
+  "unresolved_effect": "No exactnewvalue overlap withprior25privateleads or35publicquestions; unresolvedcounts unchanged.",
+  "classification_normalization": "Types normalized to catalog endpoint/template convention; exact values preserved."
+}

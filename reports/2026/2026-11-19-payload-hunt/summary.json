@@ -1,0 +1,34 @@
+{
+  "reviewed_at_utc": "2026-11-19T18:02:16.511121+00:00",
+  "new_canonical_memberships": 125,
+  "new_master_values": 122,
+  "existing_master_value_memberships": 3,
+  "classes": {
+    "sourced-iocs": 68,
+    "shared-services-and-generic-markers": 1,
+    "supporting-tools": 14,
+    "report-artifact-observables": 9,
+    "campaign-context": 14,
+    "software-fingerprints": 1,
+    "sample-derived-observables": 18
+  },
+  "canonical_records": 13388,
+  "compact_records": 13158,
+  "master_values": 16861,
+  "master_only_values": 3736,
+  "review_states": {
+    "source_supported": 4594,
+    "historical_provider": 8340,
+    "artifact_supported": 419,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_derived_malicious_iocs": 0,
+  "newly_acquired_cyberstrikeai_lineage_payloads": 2,
+  "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim.",
+  "own_memberships": 19,
+  "external_memberships": 106,
+  "own_evidence_scope": "Two exact acquired CyberStrikeAI-lineage ELF artifacts and independently proven static configuration, plus a source-backed public-key representation; no named malicious campaign or current operation established.",
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25
+}

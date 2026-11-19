@@ -12,7 +12,7 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,263 canonical source records**; the master has **16,739 distinct type/value pairs**, including **3,736 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,388 canonical source records**; the master has **16,861 distinct type/value pairs**, including **3,736 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
@@ -20,7 +20,9 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Our findings
 
-Latest: [19 November deeper native, public-artifact and original-source hunt](reports/2026/2026-11-19-deeper-hunt/README.md) adds 181 memberships: four own observations and 177 external memberships. The map adds 117 addresses across historical context, software leads and shared services. All 25 private Censys leads and 35 canonical relationship questions remain unresolved. No new exact requested campaign-malware bytes or independently verified malicious C2 IP was obtained.
+Latest: [19 November exact public beacon recovery and source hunt](reports/2026/2026-11-19-payload-hunt/README.md) adds 125 memberships: 19 own derivations and 106 external memberships. Two acquired CyberStrikeAI-lineage ELF files yield native-backed configuration, including one new configured IP at score 60; campaign attribution and current operation remain unknown. The map adds five addresses across separate evidence classes. All 25 private Censys leads and 35 canonical relationship questions remain unresolved.
+
+Earlier on 19 November: [19 November deeper native, public-artifact and original-source hunt](reports/2026/2026-11-19-deeper-hunt/README.md) adds 181 memberships: four own observations and 177 external memberships. The map adds 117 addresses across historical context, software leads and shared services. All 25 private Censys leads and 35 canonical relationship questions remain unresolved. No new exact requested campaign-malware bytes or independently verified malicious C2 IP was obtained.
 
 Earlier on 19 November: [19 November Censys cross-check and artifact identities](reports/2026/2026-11-19-censys-crosscheck/README.md) adds 24 memberships: ten own software/source observations and 14 external memberships, including seven new map IPs. No new independently verified malicious C2 IP was found. Of 100 private ARTEX title leads, 75 already have public-list support and 25 stay private without an admissible public bridge. The 35 unresolved relationships remain separate.
 
@@ -65,7 +67,7 @@ The current incident exports contain **18 ARTEX-associated** and **9 CyberStrike
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,739 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 16,861 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -83,6 +85,7 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-19
 
+- [Exact public beacon recovery and source hunt](reports/2026/2026-11-19-payload-hunt/README.md): two acquired CyberStrikeAI-lineage samples, 19 own derivations, 106 external memberships and five new map addresses; unresolved findings remain separate.
 - [Deeper native and original-source hunt](reports/2026/2026-11-19-deeper-hunt/README.md): 181 memberships, four own observations and 117 new map addresses across separate evidence classes; unresolved findings remain separate.
 - [Censys cross-check and software artifact identities](reports/2026/2026-11-19-censys-crosscheck/README.md): 24 memberships, 15 new values, seven new map IPs and ten own software/source observations; uncertain leads stay separate.
 - [Public labels, new primary reporting and exact artifacts](reports/2026/2026-11-19-daily-hunt/README.md): 228 memberships, 212 new values and three role-qualified IPs; software fingerprints and 35 unresolved relationships remain separate.

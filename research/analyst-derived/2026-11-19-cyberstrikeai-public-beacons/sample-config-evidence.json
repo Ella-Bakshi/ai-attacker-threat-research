@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-19T17:58:44.441846+00:00",
+  "scope": "Two new public archive samples independently acquired and statically reversed; separate from the unacquired exact Kaspersky sample seeds and missing encrypted BLOODALCHEMY payload.",
+  "artifacts": [
+    {
+      "identity": {
+        "sha256": "395ff8ba0708845abed2e6d4a3fc5b3c70702582d8a8f970ab46edb395f8509b",
+        "sha1": "6af21afe2140886f01a85a5d17e5c2c80a17ecc8",
+        "md5": "3275d25e98acc56c19d8d40c7532610f",
+        "bytes": 6111380,
+        "format": "ELF64 little-endian x86-64 Go executable"
+      },
+      "acquisition": {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-08.zip",
+        "archive_member": "395ff8ba0708845abed2e6d4a3fc5b3c70702582d8a8f970ab46edb395f8509b.elf",
+        "member_local_header_offset": 481485431,
+        "acquired_at_utc": "2026-11-19T17:53:40.547048+00:00",
+        "extracted_bytes": 6111380,
+        "locally_verified_SHA256_size_CRC": true,
+        "zip_crc32": "d5cd8db0",
+        "crc32_basis": "Local ZIP header, independently compared to extracted bytes; old inventory omitted central-directory CRC"
+      },
+      "public_provider_entry": "https://bazaar.abuse.ch/sample/395ff8ba0708845abed2e6d4a3fc5b3c70702582d8a8f970ab46edb395f8509b/",
+      "build_metadata": {
+        "go_version": "go1.25.0",
+        "module": "cyberstrike-ai",
+        "module_version": "v1.7.18+dirty",
+        "main_package_path": "cyberstrike-ai/tmp/c2/payloads/build-ba85f581",
+        "vcs_revision": "6edc70f3fc6ece3678009b58c1900de02832690d",
+        "vcs_time": "2026-09-08T08:10:29Z",
+        "vcs_modified": true,
+        "time_meaning": "Embedded VCS commit time; not compile, deployment, victim or activity time.",
+        "generating_revision_scope": "Dirty working tree is explicitly reported. The embedded revision is not asserted to be the exact generating source."
+      },
+      "lineage": {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/6edc70f3fc6ece3678009b58c1900de02832690d/internal/c2/payload_templates/beacon.go.tmpl",
+        "git_revision": "6edc70f3fc6ece3678009b58c1900de02832690d",
+        "source_sha256": "9240d7c69923802828e2782ff1619028581cafea33daa38b7249484d4421e9ec",
+        "matching_base_function_count": 42,
+        "sample_base_function_count": 43,
+        "matching_base_functions": [
+          "applyJitter",
+          "buildTaskReport",
+          "checkIn",
+          "decryptGCM",
+          "encodeReportText",
+          "encryptGCM",
+          "exeSelf",
+          "executeTask",
+          "fetchC2FileByID",
+          "fetchTasks",
+          "firstInternalIP",
+          "firstMACAddr",
+          "generateImplantUUID",
+          "handleSocks5",
+          "handleTaskAsync",
+          "hostnameOrDefault",
+          "isAdminProcess",
+          "main",
+          "persistLinux",
+          "reportResult",
+          "runWithTimeout",
+          "taskCd",
+          "taskDownload",
+          "taskExec",
+          "taskKillProc",
+          "taskLoadAssembly",
+          "taskLs",
+          "taskPersist",
+          "taskPortForward",
+          "taskPs",
+          "taskPwd",
+          "taskScreenshot",
+          "taskSelfDelete",
+          "taskShell",
+          "taskSleep",
+          "taskSocksStart",
+          "taskSocksStop",
+          "taskUpload",
+          "tcpFetchEncryptedFile",
+          "tcpReadFrame",
+          "tcpRoundTrip",
+          "tcpWriteFrame"
+        ],
+        "specific_correspondences": [
+          "tcpFetchEncryptedFile",
+          "fetchC2FileByID",
+          "buildTaskReport",
+          "handleSocks5",
+          "taskLoadAssembly"
+        ]
+      },
+      "known_sample_comparison": {
+        "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "common_main_function_names": 66,
+        "new_sample_main_function_names": 66,
+        "known_sample_main_function_names": 66,
+        "meaning": "Code/function-lineage comparison only; no common campaign or exact build asserted."
+      },
+      "reconstruction": {
+        "engine": "Ghidra12.1.4, read-only static import",
+        "discovered_Go_functions_including_runtime_dependencies": 6372,
+        "main_application_functions_selected": 66,
+        "main_application_functions_reconstructed": 66,
+        "scope": "All 66 main.-prefixed application functions in this finite inventory reconstructed; the 6,372 total Go functions were inventoried, not all decompiled. This is not proof of complete semantic understanding.",
+        "independent_operand_checks": "Root and two peers independently checked POST and GET descriptors, formats, lengths and URL argument forwarding. No target execution.",
+        "other_runtime_dependency_functions": 6306
+      },
+      "requests": [
+        {
+          "kind": "exact_configured_request_URL",
+          "value": "https://116.228.56.131:8443/check_in",
+          "http_method": "POST",
+          "function": "main.checkIn",
+          "function_entry": "0x6587a0",
+          "literal": {
+            "value": "https://116.228.56.131:8443/check_in",
+            "file_offset": 3473177,
+            "va": "0x74ff19",
+            "bytes": 36
+          },
+          "url_operand_instruction_va": "0x658ed6",
+          "url_operand_instruction_file_offset": 2461398,
+          "length_argument": 36,
+          "method_literal": {
+            "value": "POST",
+            "va": "0x743012",
+            "file_offset": 3420178,
+            "bytes": 4,
+            "encoding": "UTF-8"
+          },
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x658ef4",
+            "call_file_offset": 2461428,
+            "target_va": "0x630700"
+          },
+          "scope": "Static request construction, not an observed connection or successful check-in."
+        },
+        {
+          "kind": "exact_configured_request_URL",
+          "value": "https://116.228.56.131:8443/result",
+          "http_method": "POST",
+          "function": "main.reportResult",
+          "function_entry": "0x659be0",
+          "literal": {
+            "value": "https://116.228.56.131:8443/result",
+            "file_offset": 3469558,
+            "va": "0x74f0f6",
+            "bytes": 34
+          },
+          "url_operand_instruction_va": "0x659cbc",
+          "url_operand_instruction_file_offset": 2464956,
+          "length_argument": 34,
+          "method_literal": {
+            "value": "POST",
+            "va": "0x743012",
+            "file_offset": 3420178,
+            "bytes": 4,
+            "encoding": "UTF-8"
+          },
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x659cda",
+            "call_file_offset": 2464986,
+            "target_va": "0x630700"
+          },
+          "scope": "Static request construction, not an observed connection or successful check-in."
+        },
+        {
+          "kind": "configured_URL_prefix",
+          "value": "https://116.228.56.131:8443/tasks?session_id=",
+          "http_method": "GET",
+          "function": "main.fetchTasks",
+          "function_entry": "0x6594a0",
+          "server_literal": {
+            "value": "https://116.228.56.131:8443",
+            "va": "0x74b368",
+            "file_offset": 3453800,
+            "bytes": 27,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3a0",
+            "descriptor_file_offset": 3916704
+          },
+          "route_literal": {
+            "value": "/tasks",
+            "va": "0x743407",
+            "file_offset": 3421191,
+            "bytes": 6,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3c0",
+            "descriptor_file_offset": 3916736
+          },
+          "format_literal": {
+            "value": "%s%s?session_id=%s",
+            "va": "0x7471fb",
+            "file_offset": 3437051,
+            "bytes": 18,
+            "encoding": "UTF-8"
+          },
+          "method_literal": {
+            "value": "GET",
+            "va": "0x742ece",
+            "file_offset": 3419854,
+            "bytes": 3,
+            "encoding": "UTF-8"
+          },
+          "native_reference_instruction_vas": {
+            "server_descriptor": [
+              "0x659514"
+            ],
+            "route_descriptor": [
+              "0x65952b"
+            ],
+            "format_literal": [
+              "0x659564"
+            ]
+          },
+          "sprintf_call_va": "0x659580",
+          "sprintf_target_va": "0x4e9500",
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x6595ac",
+            "call_file_offset": 2463148,
+            "target_va": "0x630700"
+          },
+          "format_result_forwarded_to_URL_registers": true,
+          "omitted_dynamic_component": "Runtime session identifier after the retained session_id= query prefix",
+          "scope": "Static configuration prefix; HTTP branch capability, not a successful exchange."
+        },
+        {
+          "kind": "configured_URL_prefix",
+          "value": "https://116.228.56.131:8443/file/",
+          "http_method": "GET",
+          "function": "main.fetchC2FileByID",
+          "function_entry": "0x657880",
+          "server_literal": {
+            "value": "https://116.228.56.131:8443",
+            "va": "0x74b368",
+            "file_offset": 3453800,
+            "bytes": 27,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3a0",
+            "descriptor_file_offset": 3916704
+          },
+          "route_literal": {
+            "value": "/file/",
+            "va": "0x7433fb",
+            "file_offset": 3421179,
+            "bytes": 6,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3b0",
+            "descriptor_file_offset": 3916720
+          },
+          "format_literal": {
+            "value": "%s%s%s",
+            "va": "0x743401",
+            "file_offset": 3421185,
+            "bytes": 6,
+            "encoding": "UTF-8"
+          },
+          "method_literal": {
+            "value": "GET",
+            "va": "0x742ece",
+            "file_offset": 3419854,
+            "bytes": 3,
+            "encoding": "UTF-8"
+          },
+          "native_reference_instruction_vas": {
+            "server_descriptor": [
+              "0x657910"
+            ],
+            "route_descriptor": [
+              "0x657927"
+            ],
+            "format_literal": [
+              "0x657952"
+            ]
+          },
+          "sprintf_call_va": "0x65796e",
+          "sprintf_target_va": "0x4e9500",
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x65799a",
+            "call_file_offset": 2455962,
+            "target_va": "0x630700"
+          },
+          "format_result_forwarded_to_URL_registers": true,
+          "omitted_dynamic_component": "file identifier suffix",
+          "scope": "Static configuration prefix; HTTP branch capability, not a successful exchange."
+        }
+      ],
+      "software_protocol_markers": [
+        {
+          "value": "X-Implant-Token",
+          "file_offsets": [
+            3432275
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        },
+        {
+          "value": "blob_b64",
+          "file_offsets": [
+            2923538
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        },
+        {
+          "value": "task_type",
+          "file_offsets": [
+            2911467
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        },
+        {
+          "value": "session_id",
+          "file_offsets": [
+            2914096,
+            3437056
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        }
+      ],
+      "assessment": "Specific CyberStrikeAI beacon-template code lineage and static configuration verified. This does not identify an exact Kaspersky-reported sample, malicious operator, named campaign, victims, current operation or successful communication.",
+      "secrets_published": false
+    },
+    {
+      "identity": {
+        "sha256": "5a8d7ca92610b3bb9d573e4aaf2dfec3e66f274e9609a7117ef6eab1a724cd2b",
+        "sha1": "7aeaeea58d0e59e22b6a556b0b4f42ac2291d9b6",
+        "md5": "78755b1537c0e05fbef67694495d7334",
+        "bytes": 6111380,
+        "format": "ELF64 little-endian x86-64 Go executable"
+      },
+      "acquisition": {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-08.zip",
+        "archive_member": "5a8d7ca92610b3bb9d573e4aaf2dfec3e66f274e9609a7117ef6eab1a724cd2b.elf",
+        "member_local_header_offset": 489353067,
+        "acquired_at_utc": "2026-11-19T17:53:46.228295+00:00",
+        "extracted_bytes": 6111380,
+        "locally_verified_SHA256_size_CRC": true,
+        "zip_crc32": "f79e381e",
+        "crc32_basis": "Local ZIP header, independently compared to extracted bytes; old inventory omitted central-directory CRC"
+      },
+      "public_provider_entry": "https://bazaar.abuse.ch/sample/5a8d7ca92610b3bb9d573e4aaf2dfec3e66f274e9609a7117ef6eab1a724cd2b/",
+      "build_metadata": {
+        "go_version": "go1.25.0",
+        "module": "cyberstrike-ai",
+        "module_version": "v1.7.18+dirty",
+        "main_package_path": "cyberstrike-ai/tmp/c2/payloads/build-09bb58c9",
+        "vcs_revision": "6edc70f3fc6ece3678009b58c1900de02832690d",
+        "vcs_time": "2026-09-08T08:10:29Z",
+        "vcs_modified": true,
+        "time_meaning": "Embedded VCS commit time; not compile, deployment, victim or activity time.",
+        "generating_revision_scope": "Dirty working tree is explicitly reported. The embedded revision is not asserted to be the exact generating source."
+      },
+      "lineage": {
+        "url": "https://github.com/AIPentest/CyberStrikeAI/blob/6edc70f3fc6ece3678009b58c1900de02832690d/internal/c2/payload_templates/beacon.go.tmpl",
+        "git_revision": "6edc70f3fc6ece3678009b58c1900de02832690d",
+        "source_sha256": "9240d7c69923802828e2782ff1619028581cafea33daa38b7249484d4421e9ec",
+        "matching_base_function_count": 42,
+        "sample_base_function_count": 43,
+        "matching_base_functions": [
+          "applyJitter",
+          "buildTaskReport",
+          "checkIn",
+          "decryptGCM",
+          "encodeReportText",
+          "encryptGCM",
+          "exeSelf",
+          "executeTask",
+          "fetchC2FileByID",
+          "fetchTasks",
+          "firstInternalIP",
+          "firstMACAddr",
+          "generateImplantUUID",
+          "handleSocks5",
+          "handleTaskAsync",
+          "hostnameOrDefault",
+          "isAdminProcess",
+          "main",
+          "persistLinux",
+          "reportResult",
+          "runWithTimeout",
+          "taskCd",
+          "taskDownload",
+          "taskExec",
+          "taskKillProc",
+          "taskLoadAssembly",
+          "taskLs",
+          "taskPersist",
+          "taskPortForward",
+          "taskPs",
+          "taskPwd",
+          "taskScreenshot",
+          "taskSelfDelete",
+          "taskShell",
+          "taskSleep",
+          "taskSocksStart",
+          "taskSocksStop",
+          "taskUpload",
+          "tcpFetchEncryptedFile",
+          "tcpReadFrame",
+          "tcpRoundTrip",
+          "tcpWriteFrame"
+        ],
+        "specific_correspondences": [
+          "tcpFetchEncryptedFile",
+          "fetchC2FileByID",
+          "buildTaskReport",
+          "handleSocks5",
+          "taskLoadAssembly"
+        ]
+      },
+      "known_sample_comparison": {
+        "sha256": "f825c06b278627ab9753ccdeffd510a32f6bc706845931906597d1f8d978913d",
+        "common_main_function_names": 66,
+        "new_sample_main_function_names": 66,
+        "known_sample_main_function_names": 66,
+        "meaning": "Code/function-lineage comparison only; no common campaign or exact build asserted."
+      },
+      "reconstruction": {
+        "engine": "Ghidra12.1.4, read-only static import",
+        "discovered_Go_functions_including_runtime_dependencies": 6372,
+        "main_application_functions_selected": 66,
+        "main_application_functions_reconstructed": 66,
+        "scope": "All 66 main.-prefixed application functions in this finite inventory reconstructed; the 6,372 total Go functions were inventoried, not all decompiled. This is not proof of complete semantic understanding.",
+        "independent_operand_checks": "Root and two peers independently checked POST and GET descriptors, formats, lengths and URL argument forwarding. No target execution.",
+        "other_runtime_dependency_functions": 6306
+      },
+      "requests": [
+        {
+          "kind": "exact_configured_request_URL",
+          "value": "https://23.254.195.48:8443/check_in",
+          "http_method": "POST",
+          "function": "main.checkIn",
+          "function_entry": "0x6587a0",
+          "literal": {
+            "value": "https://23.254.195.48:8443/check_in",
+            "file_offset": 3471460,
+            "va": "0x74f864",
+            "bytes": 35
+          },
+          "url_operand_instruction_va": "0x658ed6",
+          "url_operand_instruction_file_offset": 2461398,
+          "length_argument": 35,
+          "method_literal": {
+            "value": "POST",
+            "va": "0x743012",
+            "file_offset": 3420178,
+            "bytes": 4,
+            "encoding": "UTF-8"
+          },
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x658ef4",
+            "call_file_offset": 2461428,
+            "target_va": "0x630700"
+          },
+          "scope": "Static request construction, not an observed connection or successful check-in."
+        },
+        {
+          "kind": "exact_configured_request_URL",
+          "value": "https://23.254.195.48:8443/result",
+          "http_method": "POST",
+          "function": "main.reportResult",
+          "function_entry": "0x659be0",
+          "literal": {
+            "value": "https://23.254.195.48:8443/result",
+            "file_offset": 3467016,
+            "va": "0x74e708",
+            "bytes": 33
+          },
+          "url_operand_instruction_va": "0x659cbc",
+          "url_operand_instruction_file_offset": 2464956,
+          "length_argument": 33,
+          "method_literal": {
+            "value": "POST",
+            "va": "0x743012",
+            "file_offset": 3420178,
+            "bytes": 4,
+            "encoding": "UTF-8"
+          },
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x659cda",
+            "call_file_offset": 2464986,
+            "target_va": "0x630700"
+          },
+          "scope": "Static request construction, not an observed connection or successful check-in."
+        },
+        {
+          "kind": "configured_URL_prefix",
+          "value": "https://23.254.195.48:8443/tasks?session_id=",
+          "http_method": "GET",
+          "function": "main.fetchTasks",
+          "function_entry": "0x6594a0",
+          "server_literal": {
+            "value": "https://23.254.195.48:8443",
+            "va": "0x74abfe",
+            "file_offset": 3451902,
+            "bytes": 26,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3a0",
+            "descriptor_file_offset": 3916704
+          },
+          "route_literal": {
+            "value": "/tasks",
+            "va": "0x743407",
+            "file_offset": 3421191,
+            "bytes": 6,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3c0",
+            "descriptor_file_offset": 3916736
+          },
+          "format_literal": {
+            "value": "%s%s?session_id=%s",
+            "va": "0x7471fb",
+            "file_offset": 3437051,
+            "bytes": 18,
+            "encoding": "UTF-8"
+          },
+          "method_literal": {
+            "value": "GET",
+            "va": "0x742ece",
+            "file_offset": 3419854,
+            "bytes": 3,
+            "encoding": "UTF-8"
+          },
+          "native_reference_instruction_vas": {
+            "server_descriptor": [
+              "0x659514"
+            ],
+            "route_descriptor": [
+              "0x65952b"
+            ],
+            "format_literal": [
+              "0x659564"
+            ]
+          },
+          "sprintf_call_va": "0x659580",
+          "sprintf_target_va": "0x4e9500",
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x6595ac",
+            "call_file_offset": 2463148,
+            "target_va": "0x630700"
+          },
+          "format_result_forwarded_to_URL_registers": true,
+          "omitted_dynamic_component": "Runtime session identifier after the retained session_id= query prefix",
+          "scope": "Static configuration prefix; HTTP branch capability, not a successful exchange."
+        },
+        {
+          "kind": "configured_URL_prefix",
+          "value": "https://23.254.195.48:8443/file/",
+          "http_method": "GET",
+          "function": "main.fetchC2FileByID",
+          "function_entry": "0x657880",
+          "server_literal": {
+            "value": "https://23.254.195.48:8443",
+            "va": "0x74abfe",
+            "file_offset": 3451902,
+            "bytes": 26,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3a0",
+            "descriptor_file_offset": 3916704
+          },
+          "route_literal": {
+            "value": "/file/",
+            "va": "0x7433fb",
+            "file_offset": 3421179,
+            "bytes": 6,
+            "encoding": "UTF-8",
+            "descriptor_va": "0x7bc3b0",
+            "descriptor_file_offset": 3916720
+          },
+          "format_literal": {
+            "value": "%s%s%s",
+            "va": "0x743401",
+            "file_offset": 3421185,
+            "bytes": 6,
+            "encoding": "UTF-8"
+          },
+          "method_literal": {
+            "value": "GET",
+            "va": "0x742ece",
+            "file_offset": 3419854,
+            "bytes": 3,
+            "encoding": "UTF-8"
+          },
+          "native_reference_instruction_vas": {
+            "server_descriptor": [
+              "0x657910"
+            ],
+            "route_descriptor": [
+              "0x657927"
+            ],
+            "format_literal": [
+              "0x657952"
+            ]
+          },
+          "sprintf_call_va": "0x65796e",
+          "sprintf_target_va": "0x4e9500",
+          "request_constructor": {
+            "name": "net/http.NewRequestWithContext",
+            "call_va": "0x65799a",
+            "call_file_offset": 2455962,
+            "target_va": "0x630700"
+          },
+          "format_result_forwarded_to_URL_registers": true,
+          "omitted_dynamic_component": "file identifier suffix",
+          "scope": "Static configuration prefix; HTTP branch capability, not a successful exchange."
+        }
+      ],
+      "software_protocol_markers": [
+        {
+          "value": "X-Implant-Token",
+          "file_offsets": [
+            3432275
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        },
+        {
+          "value": "blob_b64",
+          "file_offsets": [
+            2923538
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        },
+        {
+          "value": "task_type",
+          "file_offsets": [
+            2911467
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        },
+        {
+          "value": "session_id",
+          "file_offsets": [
+            2914096,
+            3437056
+          ],
+          "role": "Software/protocol marker; not a malicious-network IOC by itself"
+        }
+      ],
+      "assessment": "Specific CyberStrikeAI beacon-template code lineage and static configuration verified. This does not identify an exact Kaspersky-reported sample, malicious operator, named campaign, victims, current operation or successful communication.",
+      "secrets_published": false
+    }
+  ],
+  "confidence_rubric": {
+    "score": 60,
+    "meaning": "Exact static configuration independently examined; not probability of maliciousness"
+  },
+  "limitations": [
+    "No sample execution, target contact, DNS resolution, paid-provider query, scan or new sandbox submission.",
+    "No successful communication, current C2 operation, malicious actor/campaign or country targeting established.",
+    "Raw samples, native C/ASM, decompiler projects, credentials and cryptographic keys are excluded.",
+    "Public provider calls and delivery metadata are separate evidence; unknown dates remain unknown."
+  ]
+}

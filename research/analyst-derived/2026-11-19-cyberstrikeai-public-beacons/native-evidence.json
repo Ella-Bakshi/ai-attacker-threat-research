@@ -1,0 +1,76 @@
+[
+  {
+    "sha256": "395ff8ba0708845abed2e6d4a3fc5b3c70702582d8a8f970ab46edb395f8509b",
+    "verified_native_request_operands": [
+      {
+        "function": "main.checkIn",
+        "entry": "0x6587a0",
+        "literal_va": "0x74ff19",
+        "literal_file_offset": 3473177,
+        "exact_bytes": 36,
+        "value": "https://116.228.56.131:8443/check_in",
+        "reference_va": "0x658ed6",
+        "length_va": "0x658edd",
+        "constructor_call": "0x658ef4",
+        "constructor_target": "0x630700",
+        "method": "POST"
+      },
+      {
+        "function": "main.reportResult",
+        "entry": "0x659be0",
+        "literal_va": "0x74f0f6",
+        "literal_file_offset": 3469558,
+        "exact_bytes": 34,
+        "value": "https://116.228.56.131:8443/result",
+        "reference_va": "0x659cbc",
+        "length_va": "0x659cc3",
+        "constructor_call": "0x659cda",
+        "constructor_target": "0x630700",
+        "method": "POST"
+      }
+    ],
+    "ghidra_application_functions": 66,
+    "completed_application_functions": 66,
+    "pseudocode_characters": 162549,
+    "method": "Independent root ELF/Go-table parse + Capstone x86-64 operand check + Ghidra12.1.4 read-only static reconstruction. No target execution.",
+    "limits": "66 main.-prefixed functions reconstructed, not all6372 total Go functions or proof of full semantic understanding. Configured endpoints, not current operation or malicious campaign.",
+    "total_go_functions_including_application": 6372
+  },
+  {
+    "sha256": "5a8d7ca92610b3bb9d573e4aaf2dfec3e66f274e9609a7117ef6eab1a724cd2b",
+    "verified_native_request_operands": [
+      {
+        "function": "main.checkIn",
+        "entry": "0x6587a0",
+        "literal_va": "0x74f864",
+        "literal_file_offset": 3471460,
+        "exact_bytes": 35,
+        "value": "https://23.254.195.48:8443/check_in",
+        "reference_va": "0x658ed6",
+        "length_va": "0x658edd",
+        "constructor_call": "0x658ef4",
+        "constructor_target": "0x630700",
+        "method": "POST"
+      },
+      {
+        "function": "main.reportResult",
+        "entry": "0x659be0",
+        "literal_va": "0x74e708",
+        "literal_file_offset": 3467016,
+        "exact_bytes": 33,
+        "value": "https://23.254.195.48:8443/result",
+        "reference_va": "0x659cbc",
+        "length_va": "0x659cc3",
+        "constructor_call": "0x659cda",
+        "constructor_target": "0x630700",
+        "method": "POST"
+      }
+    ],
+    "ghidra_application_functions": 66,
+    "completed_application_functions": 66,
+    "pseudocode_characters": 162549,
+    "method": "Independent root ELF/Go-table parse + Capstone x86-64 operand check + Ghidra12.1.4 read-only static reconstruction. No target execution.",
+    "limits": "66 main.-prefixed functions reconstructed, not all6372 total Go functions or proof of full semantic understanding. Configured endpoints, not current operation or malicious campaign.",
+    "total_go_functions_including_application": 6372
+  }
+]
