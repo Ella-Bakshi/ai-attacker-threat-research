@@ -39,7 +39,8 @@
     "reports/2026/2026-11-16-daily-hunt/records.json",
     "reports/2026/2026-11-16-deeper-artifact-hunt/records.json",
     "reports/2026/2026-11-19-daily-hunt/records.json",
-    "reports/2026/2026-11-19-censys-crosscheck/records.json"
+    "reports/2026/2026-11-19-censys-crosscheck/records.json",
+    "reports/2026/2026-11-19-deeper-hunt/records.json"
   ],
   "supplementary_scope": "Separate India AI-campaign, independent public-artifact, and dated global AI-tool/campaign research; evidence classes and attribution remain distinct."
 }

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-19T17:07:06.646059+00:00",
+  "source": {
+    "url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+    "retrieved_at_utc": "2026-11-19T17:06:14.435686+00:00",
+    "response_bytes": 894885,
+    "response_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+    "same_as_retained_15nov_response": true
+  },
+  "sample_identity": {
+    "md5": "09e1da2afa1216ecc55648ec8e122d2a",
+    "sha1": "520c64c1016199f0239882791e4b344a9b2437d7",
+    "sha256": "5d1b591dde5009258da930fa362509f752557e3f215759d53e7d18052b0ef844",
+    "filesize": 6111380,
+    "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped"
+  },
+  "sample_identity_is_provider_reported": true,
+  "cuckoo_sample_sha256": "5d1b591dde5009258da930fa362509f752557e3f215759d53e7d18052b0ef844",
+  "primary_report_bridge": {
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+    "published_date": "2026-11-02",
+    "md5": "09e1da2afa1216ecc55648ec8e122d2a",
+    "role": "CyberStrikeAI Linux Beacon"
+  },
+  "provider_analysis_times": {
+    "started": "2026-11-02T14:12:38",
+    "modified": "2026-11-02T14:15:34.397000",
+    "meaning": "Provider analysis timestamps, timezone unstated; not victim or current operation times"
+  },
+  "observations": [
+    {
+      "record_id": "OWN19D-AC7DA87EF9C31E38",
+      "value": "104.234.26.163",
+      "json_pointer": "/analysis/plugins/cuckoo/result/network/hosts/0/ip",
+      "scope": "Exact host-summary member; no per-flow assertion"
+    }
+  ],
+  "flow_array_counts": {
+    "tcp": 0,
+    "udp": 0,
+    "http": 0,
+    "dns": 0,
+    "http_ex": 0,
+    "https_ex": 0
+  },
+  "reported_pcap_sha256": "1fabecdc754a86107dadf2e7220fc9af1020c3ab73c0b1080e2a3986c2580ba5",
+  "pcap_bytes_acquired": false,
+  "malware_bytes_acquired": false,
+  "new_malicious_C2_claim": false,
+  "score": 20,
+  "negative_inference": "Raw syscall connect entries contain process-memory pointers without decoded destination socket addresses; no endpoint is inferred from those pointers. Empty flow arrays do not prove an absence of all network activity.",
+  "execution": "Only offline JSON extraction and hash calculation; no target or sample execution."
+}

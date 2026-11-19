@@ -1,0 +1,152 @@
+{
+  "reviewed_at_utc": "2026-11-19T17:11:34.942894+00:00",
+  "artifact": {
+    "sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+    "md5": "bd0a6c382bd1fc44ef2669b6b0534d84",
+    "sha1": "6b3751efa10e5042f0e1f07620a69ea306f7800e",
+    "bytes": 96768,
+    "format": "PE32+ AMD64 DLL despite archive member .exe suffix",
+    "acquisition_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+    "archive_member": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe",
+    "original_acquired_at_utc": "2026-11-19T15:19:37.850719+00:00",
+    "source_report_url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+    "source_report_publication_date": "2026-10-29",
+    "role": "Publisher-reported BLOODALCHEMY supporting loader in a VAPOR PANDA campaign using ARTEX; not an ARTEX framework executable"
+  },
+  "reconstruction": {
+    "engine": "Ghidra12.1.4 headless, read-only import",
+    "discovered_internal_functions": 333,
+    "successful_reconstructions": 333,
+    "scope": "All functions in this finite import inventory, including runtime/library routines. This is not proof of no undiscovered code, correct recovered types or complete behavioral understanding. Detailed operand review is limited to the named functions.",
+    "independent_operand_decoder": "Capstone5.0.6",
+    "new_sample_acquisition": false
+  },
+  "facts": [
+    {
+      "kind": "sample_payload_layout",
+      "value": "graphics-hook_config.bin: 16-byte AES-128 key prefix followed by CBC ciphertext with an all-zero 16-byte initial IV",
+      "scope": "Exact retained loader only; supplied encrypted payload was not acquired. Expected well-formed block-aligned data; no actual payload key or plaintext recovered.",
+      "functions": {
+        "wrapper": "0x180001078",
+        "key_expansion": "0x180001a18",
+        "CBC_loop": "0x1800015f0",
+        "inverse_block": "0x1800016c4"
+      },
+      "native_locators": [
+        {
+          "virtual_address": "0x1800010a8",
+          "file_offset": 1192,
+          "meaning": "192-byte context length passed to zero-fill"
+        },
+        {
+          "virtual_address": "0x1800010bb",
+          "file_offset": 1211,
+          "meaning": "Key schedule called with original input pointer"
+        },
+        {
+          "virtual_address": "0x1800010c0",
+          "file_offset": 1216,
+          "meaning": "Subtract 16 bytes from input length"
+        },
+        {
+          "virtual_address": "0x1800010c3",
+          "file_offset": 1219,
+          "meaning": "Ciphertext pointer advances by 16"
+        },
+        {
+          "virtual_address": "0x1800010cf",
+          "file_offset": 1231,
+          "meaning": "CBC processing call"
+        },
+        {
+          "virtual_address": "0x18000164e",
+          "file_offset": 2638,
+          "meaning": "Original ciphertext block becomes next IV at context+0xb0"
+        }
+      ],
+      "tables": [
+        {
+          "name": "AES forward S-box",
+          "va": "0x18000c340",
+          "file_offset": 45888,
+          "bytes": 256
+        },
+        {
+          "name": "AES inverse S-box",
+          "va": "0x18000c440",
+          "file_offset": 46144,
+          "bytes": 256
+        }
+      ],
+      "method": "Reviewed round-key expansion, inverse substitutions/row shifts/mix columns and CBC feedback. Own inert translation using extracted tables matched an independent installed cryptography AES-CBC reference on six synthetic inputs; no artifact code or actual payload was run.",
+      "decoder_boundary": "The wrapper moves the decrypted body back over the 16-byte prefix; it does not itself reveal a configured endpoint."
+    },
+    {
+      "kind": "conditional_native_loader_chain",
+      "value": "host module base+0x1000: 12-byte mov-rax/jmp-rax redirection to the loader; sibling graphics-hook_config.bin read/decoded; decoded buffer passed as EnumDateFormatsW callback",
+      "scope": "Conditional static code paths only. Native syscall helper intervenes before the callback call. Successful dispatch, victim execution and full downstream payload behavior are not established.",
+      "functions": {
+        "process_attach_helper": "0x180001058",
+        "host_patch": "0x180001108",
+        "loader": "0x180001238"
+      },
+      "native_locators": [
+        {
+          "virtual_address": "0x18000111e",
+          "file_offset": 1310,
+          "meaning": "GetModuleHandleA(NULL)"
+        },
+        {
+          "virtual_address": "0x180001124",
+          "file_offset": 1316,
+          "meaning": "Host module+0x1000 destination"
+        },
+        {
+          "virtual_address": "0x180001142",
+          "file_offset": 1346,
+          "meaning": "First VirtualProtect call; 12 bytes and PAGE_READWRITE"
+        },
+        {
+          "virtual_address": "0x180001152",
+          "file_offset": 1362,
+          "meaning": "First instruction encoding stored at destination"
+        },
+        {
+          "virtual_address": "0x180001157",
+          "file_offset": 1367,
+          "meaning": "Loader address calculated"
+        },
+        {
+          "virtual_address": "0x180001162",
+          "file_offset": 1378,
+          "meaning": "Jump encoding stored at destination+10"
+        },
+        {
+          "virtual_address": "0x180001180",
+          "file_offset": 1408,
+          "meaning": "Previous page protection restored"
+        },
+        {
+          "virtual_address": "0x180001330",
+          "file_offset": 1840,
+          "meaning": "ReadFile into allocated buffer"
+        },
+        {
+          "virtual_address": "0x1800013a9",
+          "file_offset": 1961,
+          "meaning": "EnumDateFormatsW call, callback points to processed buffer; import at0x18000c058"
+        }
+      ],
+      "host_entrypoint_qualification": "The patch uses fixed module+0x1000, not a parsed AddressOfEntryPoint. The separately retained legitimate GameHook reference has PE entry RVA0x1e04; do not label this a proven PE-entrypoint patch."
+    }
+  ],
+  "limitations": [
+    "Encrypted payload364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab remains unacquired.",
+    "No new malicious C2, sample-configured endpoint, victim execution or live operation was established.",
+    "Patterns are sample-specific software/capability observations at score20; production detection specificity was not measured.",
+    "No original sample, reconstructed native C/ASM, project, credentials or crypto secret is published."
+  ],
+  "artifact_execution": false,
+  "target_requests": 0,
+  "paid_provider_calls": 0
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "record_id": "OWN19D-AC7DA87EF9C31E38",
+    "framework": "CyberStrikeAI",
+    "component": "Publisher-linked Linux beacon; exact generating revision unknown",
+    "publication_category": "artifact-derived-observables",
+    "indicator_type": "ipv4",
+    "indicator": "104.234.26.163",
+    "indicator_defanged": "104[.]234[.]26[.]163",
+    "role": "Host-summary member in the public sandbox analysis for the exactly identified publisher-linked Linux beacon; no flow or destination port established",
+    "confidence": "High",
+    "confidence_scope": "Exact JSON identity and host-list membership only. Sample identity is provider-reported, not locally computed from malware bytes. No request, connection success, registration, C2 ownership or present-day operation is established.",
+    "evidence_confidence": "High for the exact structured-artifact member",
+    "verification_status": "independently_extracted_exact_public_analysis_host_summary",
+    "origin": "analyst_public_sandbox_derivation",
+    "self_derived": true,
+    "analyst_contribution": "Independently selected and identity-bound a network-host summary entry beyond the earlier static URL-string observations; no new value or globally first discovery.",
+    "global_novelty_claimed": false,
+    "primary_source_url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+    "source_published_date": "",
+    "related_primary_report_published_date": "2026-11-02",
+    "first_seen": "",
+    "last_seen": "",
+    "observation_date_basis": "No victim, connection, or present-day sighting time assigned. Provider analysis time strings have no explicit timezone and remain separate.",
+    "provider_analysis_started_as_reported": "2026-11-02T14:12:38",
+    "provider_analysis_modified_as_reported": "2026-11-02T14:15:34.397000",
+    "source_retrieved_at_utc": "2026-11-19T17:06:14.435686+00:00",
+    "reviewed_at_utc": "2026-11-19T17:07:06.646059+00:00",
+    "source_reviewed_at_utc": "2026-11-19T17:07:06.646059+00:00",
+    "source_review_state": "artifact_supported",
+    "source_review_scope": "Exact public JSON response, matching explicit MD5/SHA1/SHA256 and embedded Cuckoo SHA256, and literal host-summary membership. Empty TCP/HTTP/UDP arrays prevent deriving flow semantics or successful C2 exchanges.",
+    "source_locator": {
+      "public_analysis_url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+      "response_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+      "response_bytes": 894885,
+      "sample_sha256": "5d1b591dde5009258da930fa362509f752557e3f215759d53e7d18052b0ef844",
+      "sample_identity_pointer": "/analysis/info/results",
+      "embedded_sample_identity_pointer": "/analysis/plugins/cuckoo/result/sha256",
+      "json_pointer": "/analysis/plugins/cuckoo/result/network/hosts/0/ip",
+      "evidence_file": "research/analyst-derived/2026-11-19-deeper-public-sandbox/host-summary-evidence.json",
+      "evidence_json_pointer": "/observations/0"
+    },
+    "source_review_locator": {
+      "public_analysis_url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+      "response_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+      "response_bytes": 894885,
+      "sample_sha256": "5d1b591dde5009258da930fa362509f752557e3f215759d53e7d18052b0ef844",
+      "sample_identity_pointer": "/analysis/info/results",
+      "embedded_sample_identity_pointer": "/analysis/plugins/cuckoo/result/sha256",
+      "json_pointer": "/analysis/plugins/cuckoo/result/network/hosts/0/ip",
+      "evidence_file": "research/analyst-derived/2026-11-19-deeper-public-sandbox/host-summary-evidence.json",
+      "evidence_json_pointer": "/observations/0"
+    },
+    "source_references": [
+      {
+        "url": "https://otx.alienvault.com/api/v1/indicators/file/09e1da2afa1216ecc55648ec8e122d2a/analysis",
+        "retrieved_at_utc": "2026-11-19T17:06:14.435686+00:00",
+        "document_sha256": "6d09ca8e36a445d3539ff5c1753dd85a037534c6cbcbedd3b005959367000645",
+        "source_role": "exact_public_analysis_artifact",
+        "evidence_locator": "/analysis/info/results; /analysis/plugins/cuckoo/result/sha256; /analysis/plugins/cuckoo/result/network/hosts/0/ip"
+      },
+      {
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
+        "published_date": "2026-11-02",
+        "source_role": "primary_campaign_file_identity_seed",
+        "evidence_locator": "Indicators of compromise / CyberStrikeAI Linux Beacon / 09e1da2afa1216ecc55648ec8e122d2a",
+        "limitations": "Publisher historical beacon association is distinct from our limited sandbox-host summary extraction."
+      }
+    ],
+    "artifact_sha256s": [
+      "5d1b591dde5009258da930fa362509f752557e3f215759d53e7d18052b0ef844"
+    ],
+    "artifact_identity_locally_computed": false,
+    "analysis_artifact_identity_locally_computed": true,
+    "evidence_score_ceiling": 20,
+    "evidence_score_ceiling_basis": "Structured public sandbox host-list membership only; no flow IDs, destination port, successful exchange or exact local malware configuration.",
+    "confidence_is_probability": false,
+    "automatic_blocklist_suitable": false,
+    "current_operation_established": false,
+    "current_c2_success_established": false,
+    "operator_ownership_established": false,
+    "historical_c2_role_verified": false,
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "limitations": "This adds evidence for an already-known value, not a new malicious C2. No malware bytes or PCAP acquired; no sample execution, candidate requests, DNS, scans or submissions. The provider reports a PCAP digest, but its bytes were not inspected. Source JSON contains no populated flow arrays for this report, so the host summary does not demonstrate connection success or a particular service."
+  }
+]

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "renderer": "scripts/render_ip_map.py",
-  "rendered_at_utc": "2026-11-19T16:59:25.566365+00:00",
+  "rendered_at_utc": "2026-11-19T17:21:43.661523+00:00",
   "input": "data/ip-overview.json",
-  "input_sha256": "63c5578c02ed3b9d6e3ad215aea8ac27c54ef0815abae4f78bcf7af45bbddeac",
+  "input_sha256": "87da4cdef01ce9bf12dea835616e54baf4ae371a492f5efe93ac7d8cd937f26a",
   "geometry_source": "Natural Earth public-domain data via AshKyd/geojson-regions India POV; see maps/assets geometry provenance",
   "geometry_asset": "maps/assets/world-india-view.geojson",
   "geometry_sha256": "f16fb034333f7c07f0821cc63eeb7dd3f0818f656f0ba31ed0adcfae2c6240c8",
@@ -14,8 +14,8 @@
     "displayed_vertices": 51270,
     "simplification_degrees": 0
   },
-  "input_unique_ips": 6503,
-  "mapped_unique_ips": 6503,
+  "input_unique_ips": 6620,
+  "mapped_unique_ips": 6620,
   "unmapped_unique_ips": 0,
   "all_categories_default": true,
   "external_runtime_requests_required": false,

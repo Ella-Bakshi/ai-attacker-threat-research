@@ -1,0 +1,152 @@
+[
+  {
+    "record_id": "N19D-NATIVE-EC2777FC34E45BE6",
+    "framework": "ARTEX",
+    "framework_component": "BLOODALCHEMY campaign supporting loader; not ARTEX software",
+    "framework_version": "unknown",
+    "publication_category": "software-fingerprints",
+    "indicator_type": "artifact_layout_pattern",
+    "indicator": "graphics-hook_config.bin: 16-byte AES-128 key prefix followed by CBC ciphertext with an all-zero 16-byte initial IV",
+    "role": "Exact supporting malware loader static payload decoding format",
+    "campaign": "VAPOR PANDA; publisher-reported campaign association only",
+    "confidence": "High",
+    "confidence_scope": "Exact retained artifact bytes/native operands only. This is not evidence that the path ran on a victim, a universal family signature, maliciousness probability or current operation.",
+    "evidence_confidence": "High",
+    "evidence_score_ceiling": 20,
+    "evidence_score_ceiling_basis": "Sample-specific software/capability pattern; operational detection specificity has not been measured.",
+    "verification_status": "Exact sample/native facts supported; detection applicability remains untested.",
+    "origin": "analyst_native_static_derivation",
+    "origin_explanation": "New offline analysis of a previously acquired exact publisher-linked malware loader; no new byte acquisition or globally first discovery.",
+    "self_derived": true,
+    "global_novelty_claimed": false,
+    "automatic_blocklist_suitable": false,
+    "primary_source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+    "source_published_date": "",
+    "source_published_date_basis": "Archive publication timestamp unknown; named archive date is not assumed to be an attack or publication time. Original vendor report date is separately recorded.",
+    "first_seen": "",
+    "last_seen": "",
+    "date_meaning": "No victim/event time inferred. Original acquisition and new review timestamps are distinct.",
+    "artifact_acquired_at_utc": "2026-11-19T15:19:37.850719+00:00",
+    "reviewed_at_utc": "2026-11-19T17:11:34.942894+00:00",
+    "retrieved_at_utc": "2026-11-19T15:19:37.850719+00:00",
+    "source_locator": {
+      "artifact_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+      "artifact_bytes": 96768,
+      "evidence_file": "research/analyst-derived/2026-11-19-bloodalchemy-loader-native/native-loader-evidence.json",
+      "json_pointer": "/facts/0",
+      "function_addresses": {
+        "wrapper": "0x180001078",
+        "key_expansion": "0x180001a18",
+        "CBC_loop": "0x1800015f0",
+        "inverse_block": "0x1800016c4"
+      },
+      "archive_member": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe"
+    },
+    "source_review_locator": {
+      "artifact_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+      "artifact_bytes": 96768,
+      "evidence_file": "research/analyst-derived/2026-11-19-bloodalchemy-loader-native/native-loader-evidence.json",
+      "json_pointer": "/facts/0",
+      "function_addresses": {
+        "wrapper": "0x180001078",
+        "key_expansion": "0x180001a18",
+        "CBC_loop": "0x1800015f0",
+        "inverse_block": "0x1800016c4"
+      },
+      "archive_member": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe"
+    },
+    "source_references": [
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+        "source_role": "exact_original_artifact_acquisition",
+        "evidence_locator": "Exact member 3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe; full sampleSHA256/size verified."
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "published_date": "2026-10-29",
+        "source_role": "original_publisher_campaign_and_component_role",
+        "evidence_locator": "BLOODALCHEMY side-loading file/hash table; loaderSHA256 exact."
+      }
+    ],
+    "source_review_state": "artifact_supported",
+    "source_reviewed_at_utc": "2026-11-19T17:11:34.942894+00:00",
+    "source_review_scope": "Exact artifact/native analysis supports the stated sample-specific static fact. The linked original vendor supplies campaign context; neither establishes current execution, a new C2, or ARTEX generating revision.",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "limitations": "Encrypted payload364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab remains unacquired. No new malicious C2, sample-configured endpoint, victim execution or live operation was established. Patterns are sample-specific software/capability observations at score20; production detection specificity was not measured. No original sample, reconstructed native C/ASM, project, credentials or crypto secret is published. Exact retained loader only; supplied encrypted payload was not acquired. Expected well-formed block-aligned data; no actual payload key or plaintext recovered."
+  },
+  {
+    "record_id": "N19D-NATIVE-78F937958A1CD633",
+    "framework": "ARTEX",
+    "framework_component": "BLOODALCHEMY campaign supporting loader; not ARTEX software",
+    "framework_version": "unknown",
+    "publication_category": "software-fingerprints",
+    "indicator_type": "native_behavior_pattern",
+    "indicator": "host module base+0x1000: 12-byte mov-rax/jmp-rax redirection to the loader; sibling graphics-hook_config.bin read/decoded; decoded buffer passed as EnumDateFormatsW callback",
+    "role": "Exact supporting malware loader static conditional host-patch and callback chain",
+    "campaign": "VAPOR PANDA; publisher-reported campaign association only",
+    "confidence": "High",
+    "confidence_scope": "Exact retained artifact bytes/native operands only. This is not evidence that the path ran on a victim, a universal family signature, maliciousness probability or current operation.",
+    "evidence_confidence": "High",
+    "evidence_score_ceiling": 20,
+    "evidence_score_ceiling_basis": "Sample-specific software/capability pattern; operational detection specificity has not been measured.",
+    "verification_status": "Exact sample/native facts supported; detection applicability remains untested.",
+    "origin": "analyst_native_static_derivation",
+    "origin_explanation": "New offline analysis of a previously acquired exact publisher-linked malware loader; no new byte acquisition or globally first discovery.",
+    "self_derived": true,
+    "global_novelty_claimed": false,
+    "automatic_blocklist_suitable": false,
+    "primary_source_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+    "source_published_date": "",
+    "source_published_date_basis": "Archive publication timestamp unknown; named archive date is not assumed to be an attack or publication time. Original vendor report date is separately recorded.",
+    "first_seen": "",
+    "last_seen": "",
+    "date_meaning": "No victim/event time inferred. Original acquisition and new review timestamps are distinct.",
+    "artifact_acquired_at_utc": "2026-11-19T15:19:37.850719+00:00",
+    "reviewed_at_utc": "2026-11-19T17:11:34.942894+00:00",
+    "retrieved_at_utc": "2026-11-19T15:19:37.850719+00:00",
+    "source_locator": {
+      "artifact_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+      "artifact_bytes": 96768,
+      "evidence_file": "research/analyst-derived/2026-11-19-bloodalchemy-loader-native/native-loader-evidence.json",
+      "json_pointer": "/facts/1",
+      "function_addresses": {
+        "process_attach_helper": "0x180001058",
+        "host_patch": "0x180001108",
+        "loader": "0x180001238"
+      },
+      "archive_member": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe"
+    },
+    "source_review_locator": {
+      "artifact_sha256": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+      "artifact_bytes": 96768,
+      "evidence_file": "research/analyst-derived/2026-11-19-bloodalchemy-loader-native/native-loader-evidence.json",
+      "json_pointer": "/facts/1",
+      "function_addresses": {
+        "process_attach_helper": "0x180001058",
+        "host_patch": "0x180001108",
+        "loader": "0x180001238"
+      },
+      "archive_member": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe"
+    },
+    "source_references": [
+      {
+        "url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-11-16.zip",
+        "source_role": "exact_original_artifact_acquisition",
+        "evidence_locator": "Exact member 3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4.exe; full sampleSHA256/size verified."
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+        "published_date": "2026-10-29",
+        "source_role": "original_publisher_campaign_and_component_role",
+        "evidence_locator": "BLOODALCHEMY side-loading file/hash table; loaderSHA256 exact."
+      }
+    ],
+    "source_review_state": "artifact_supported",
+    "source_reviewed_at_utc": "2026-11-19T17:11:34.942894+00:00",
+    "source_review_scope": "Exact artifact/native analysis supports the stated sample-specific static fact. The linked original vendor supplies campaign context; neither establishes current execution, a new C2, or ARTEX generating revision.",
+    "india_relevance": "unestablished",
+    "per_indicator_india_targeting_confirmed": false,
+    "limitations": "Encrypted payload364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab remains unacquired. No new malicious C2, sample-configured endpoint, victim execution or live operation was established. Patterns are sample-specific software/capability observations at score20; production detection specificity was not measured. No original sample, reconstructed native C/ASM, project, credentials or crypto secret is published. Conditional static code paths only. Native syscall helper intervenes before the callback call. Successful dispatch, victim execution and full downstream payload behavior are not established."
+  }
+]

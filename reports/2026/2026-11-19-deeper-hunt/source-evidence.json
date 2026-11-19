@@ -1,0 +1,81 @@
+{
+  "scope": "Public source-literal facts and classification limits; not independent acquisition of publisher telemetry or current service proof.",
+  "sources": [
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/",
+      "publication_date": "2026-10-31",
+      "retrieved_at_utc": "2026-11-19T17:03:04.858126+00:00",
+      "retained_transport_sha256": "62b18d41085afc8990004baf7f0d54f54df46caa52ae0db4bf910dd6416b9908"
+    },
+    {
+      "url": "https://profero.io/blog/inside-the-ai-operator/",
+      "publication_date": "2026-11-04",
+      "retrieved_at_utc": "2026-11-19T17:03:05.804689+00:00",
+      "retained_transport_sha256": "744328de3f7fd425d457dc8bc1efdc5e4bc6d58c69a3bf0c594692cbead16177"
+    },
+    {
+      "url": "https://trust.barracuda.com/security/barracuda-xdr-integration-credentials",
+      "publication_date": "2026-11-10",
+      "retrieved_at_utc": "2026-11-19T17:03:07.895036+00:00",
+      "retained_transport_sha256": "67afd808e5696fc13658ec5575973b9ee84651f4d6230792f1d683d8747a8991",
+      "transport_encoding": "gzip",
+      "decoded_html_sha256": "d5418717039f1bb9e93bace0e05a0f2f0f90ffbfe5c1b48700637479d325c62c",
+      "original_publication_date": "2026-11-10",
+      "displayed_update_date": "2026-11-13"
+    }
+  ],
+  "linked_public_csvs": [
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/block-ips.csv",
+      "sha256": "bd24cda80c2f414b3166210dde132118923aa3b77108bd3e0956ce33737965b3",
+      "bytes": 989,
+      "rows": 63
+    },
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/block-domains.csv",
+      "sha256": "a9e49365b0fbe09c02f47f125d57a4970735295d160ac9f00676db5e40fb1f61",
+      "bytes": 61,
+      "rows": 3
+    },
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/block-now-details.csv",
+      "sha256": "b6b4ee0f082e90467e73826df2876b20ce94731f28fc5e2f010383c446861bd7",
+      "bytes": 19694,
+      "rows": 66
+    },
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/watch-ips.csv",
+      "sha256": "1faae2b377914855cc07f71bfb9b259b0d9725b41f6077c1c5284137bd1d359a",
+      "bytes": 679,
+      "rows": 3
+    },
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/proxy-exit-ips.csv",
+      "sha256": "d09fa87441ecaa426fd81f49f04f7f9098b9e8fb3cd177236da6b486ef66da16",
+      "bytes": 11034,
+      "rows": 31
+    },
+    {
+      "url": "https://profero.io/blog/ultra-suite-artex-ai-attack-agents/hunting-indicators.csv",
+      "sha256": "47537cc510ba0859f413f8082feb7a6060a4257ca8a2f23c711686591772b486",
+      "bytes": 4469,
+      "rows": 30
+    }
+  ],
+  "classification": {
+    "campaign-context": 23,
+    "deployment-leads": 62,
+    "shared-services-and-generic-markers": 38,
+    "software-fingerprints": 25,
+    "report-artifact-observables": 7
+  },
+  "key_limits": [
+    "60 Cairn addresses are explicit publisher-listed adjacent deployments, with no evidence of use against investigated targets; score20, not malicious C2.",
+    "31 Thordata exits are shared with legitimate users and are retained at score0, without whole-pool/ASN expansion.",
+    "One generic nginx401/watch-only address stays private for lack of exact software/campaign bridge.",
+    "The twelve TGSEC endpoints belong to a distinct operator-file case; no individual ARTEX assignment is invented.",
+    "Barracuda per-IP event times are unknown; overall incident and publication/update dates are preserved separately.",
+    "The19November Profero follow-up blends incidents and scrambles sensitive identifiers; its illustrative behavioral tells are not admitted as precise campaign IOCs."
+  ],
+  "software_detection_specificity": "Source hypotheses only; generic titles, JARM, keys, favicon and HTTP markers need additional independent context."
+}
