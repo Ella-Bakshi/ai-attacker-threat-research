@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-11-19T16:52:50.964592+00:00",
+  "new_canonical_memberships": 24,
+  "new_master_values": 15,
+  "existing_master_value_memberships": 9,
+  "classes": {
+    "campaign-context": 3,
+    "report-host-network-artifacts": 7,
+    "software-fingerprints": 13,
+    "deployment-leads": 1
+  },
+  "canonical_records": 13082,
+  "compact_records": 12852,
+  "master_values": 16575,
+  "master_only_values": 3739,
+  "review_states": {
+    "source_supported": 4311,
+    "historical_provider": 8340,
+    "artifact_supported": 396,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_derived_malicious_iocs": 0,
+  "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim.",
+  "own_memberships": 10,
+  "external_memberships": 14,
+  "newly_selected_literal_IPs": 7,
+  "own_evidence_scope": "Software/source references only; not newly verified malicious C2",
+  "unchanged_prior_unverified": 35
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "qualified-source-fingerprint-evidence/v1",
+  "reviewed_at_utc": "2026-11-19T16:46:41.159611+00:00",
+  "framework": "CyberStrikeAI",
+  "upstream": "https://github.com/AIPentest/CyberStrikeAI",
+  "source_revision": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+  "source_commit_time_utc": "2026-11-19T08:29:16Z",
+  "source_commit_time_meaning": "Repository commit time only, not release, deployment or attack time.",
+  "source_files": [
+    {
+      "source_path": "web/templates/index.html",
+      "source_commit": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+      "url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/web/templates/index.html",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-19T16:43:48.075991+00:00",
+      "size": 713312,
+      "sha256": "f3ca78bdda0c4230aec6d7e7e3caecd425fbd41a688133d1b833325f40588415",
+      "git_blob_sha1": "1a658a85e0c11bfd89fe4a6005f629c43422ef43"
+    },
+    {
+      "source_path": "web/static/css/c2.css",
+      "source_commit": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+      "url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/web/static/css/c2.css",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-19T16:43:48.010254+00:00",
+      "size": 102811,
+      "sha256": "b30b795f1fce8fa5541455cedbd8359ef9e305e629645817372c0ffbe99e673c",
+      "git_blob_sha1": "78678cfc8bf1fe63bd285d9d49fd62ed7e8dbad5"
+    },
+    {
+      "source_path": "README.md",
+      "source_commit": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+      "url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/README.md",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-19T16:43:47.995601+00:00",
+      "size": 21849,
+      "sha256": "161f6b98bb850fab35f6ed58a337d80294843a42f800fb6f3a282e4fa91019aa",
+      "git_blob_sha1": "5e7d07fdb38cbb3861a1303525d8db5490f35451"
+    },
+    {
+      "source_path": "LICENSE",
+      "source_commit": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+      "url": "https://raw.githubusercontent.com/AIPentest/CyberStrikeAI/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/LICENSE",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-19T16:43:47.964974+00:00",
+      "size": 11337,
+      "sha256": "c5e886b33279f16172f906d2ec7fb23425b816c8a63b684159daa77628256f76",
+      "git_blob_sha1": "7dada6d1fda5ab2b85d11ecde126c0d8038f9dd2"
+    }
+  ],
+  "derivations": [
+    {
+      "record_id": "CROSS19-429942B91CA5A78A",
+      "indicator_type": "detection_pattern",
+      "indicator": "HTML contains brand-wordmark__core AND href=\"/static/css/c2.css\" AND localStorage.getItem('cyberstrike-theme')",
+      "locator": {
+        "source_commit": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+        "source_path": "web/templates/index.html",
+        "lines_1_based": [
+          20,
+          46,
+          62,
+          101
+        ],
+        "source_sha256": "f3ca78bdda0c4230aec6d7e7e3caecd425fbd41a688133d1b833325f40588415",
+        "git_blob_sha1": "1a658a85e0c11bfd89fe4a6005f629c43422ef43",
+        "exact_literals": [
+          "brand-wordmark__core",
+          "href=\"/static/css/c2.css\"",
+          "localStorage.getItem('cyberstrike-theme')"
+        ]
+      }
+    },
+    {
+      "record_id": "CROSS19-540B51E41A1557FE",
+      "indicator_type": "sha256",
+      "indicator": "b30b795f1fce8fa5541455cedbd8359ef9e305e629645817372c0ffbe99e673c",
+      "locator": {
+        "source_commit": "af6cf7500c8eff357cc6c3f50e7c7b150fcfa836",
+        "source_path": "web/static/css/c2.css",
+        "source_sha256": "b30b795f1fce8fa5541455cedbd8359ef9e305e629645817372c0ffbe99e673c",
+        "git_blob_sha1": "78678cfc8bf1fe63bd285d9d49fd62ed7e8dbad5",
+        "byte_count": 102811,
+        "hash_algorithm": "SHA-256",
+        "byte_range": "entire file, no newline normalization"
+      }
+    }
+  ],
+  "negative_controls": "Not measured against a global benign or unrelated-framework corpus; retain conjunction as a software-identification hypothesis.",
+  "maliciousness": "No malicious attribution; no current deployment claim; stylesheet hash identifies legitimate/reference software bytes.",
+  "origin_seed": "https://www.spectrum.security/blog/offensive-ai-tools-in-the-wild",
+  "execution": "Inert file reads and hash calculation; source and tools were not executed."
+}

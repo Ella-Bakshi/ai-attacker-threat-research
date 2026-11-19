@@ -1,0 +1,290 @@
+{
+  "reviewed_at_utc": "2026-11-19T16:48:46.220105+00:00",
+  "scope": "Two new exact ARTEX-family controller software references and their embedded favicon; no new malicious C2 or campaign attribution. Software fingerprints only.",
+  "method": "Bounded public daily ZIP exact-member acquisition, ZIP CRC32 and full SHA256 validation; inert PE/ELF and Go inline build-info parse;64-bit little-endian virtual/file mapping and Go embed file-record reconstruction; locally computed asset/file hashes.",
+  "software_reference_seed": {
+    "url": "https://www.reversinglabs.com/blog/threat-researchers-notebook-detection-strategies-for-artex-and-related-forks",
+    "published_date": "2026-11-18",
+    "locator": "Operator-binary SHA256 list contains both exact values. Membership is software identity, not malicious-file verdict."
+  },
+  "artifacts": [
+    {
+      "sha256": "014154af33662f55901a20902b9deae23a63fe3817fad44a2718f6e30e7a9cb1",
+      "sha1": "de057f7b6acb4066a65714a72325181503762da0",
+      "md5": "384ee09999c4419d69114688ee2ffdb8",
+      "bytes": 38207614,
+      "format": "ELF64",
+      "machine": 183,
+      "acquisition_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-28.zip",
+      "archive_member": "014154af33662f55901a20902b9deae23a63fe3817fad44a2718f6e30e7a9cb1.elf",
+      "acquired_at_utc": "2026-11-19T16:43:09.541256+00:00",
+      "archive_calendar_date": "2026-10-28",
+      "archive_date_meaning": "Public collection bucket date, not compile time, malware activity or deployment.",
+      "go_build_info": {
+        "go_version": "go1.26.8",
+        "go_header": {
+          "file_offset": 36765696,
+          "pointer_size": 8,
+          "flags": 2
+        },
+        "go_version_offset": 36765729,
+        "module_offset": 36765739,
+        "module_bytes": 4834,
+        "module_lines": [
+          "path\tgithub.com/Autumn-27/artex/cmd/artex",
+          "mod\tgithub.com/Autumn-27/artex\tv0.3.15-global.1\t",
+          "build\t-buildmode=exe",
+          "build\t-compiler=gc",
+          "build\t-tags=embedui",
+          "build\t-trimpath=true",
+          "build\tCGO_ENABLED=0",
+          "build\tGOARCH=arm64",
+          "build\tGOOS=linux",
+          "build\tGOARM64=v8.0",
+          "build\tvcs=git",
+          "build\tvcs.revision=d6964594a0221cd921b85056d604bce9d8ce54df",
+          "build\tvcs.time=2026-10-13T15:27:17Z",
+          "build\tvcs.modified=false"
+        ]
+      },
+      "go_metadata_scope": "Compiler-supplied claims; ELF exact maintainer release bridge independently established below, Windows generating repository/revision unestablished.",
+      "embedded_favicon": {
+        "artifact_sha256": "014154af33662f55901a20902b9deae23a63fe3817fad44a2718f6e30e7a9cb1",
+        "ico": {
+          "offset": 15567520,
+          "bytes": 15086,
+          "sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+          "entries": [
+            {
+              "width": 16,
+              "height": 16,
+              "bytes": 1128,
+              "relative_offset": 54
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "bytes": 4264,
+              "relative_offset": 1182
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "bytes": 9640,
+              "relative_offset": 5446
+            }
+          ]
+        },
+        "embed_file_records": [
+          {
+            "file_record_offset": 26944760,
+            "name": "webui/dist/favicon.ico",
+            "name_offset": 14636256,
+            "name_bytes": 22,
+            "data_virtual_address": "0xee8aa0",
+            "data_file_offset": 15567520,
+            "data_bytes": 15086,
+            "data_sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+            "embedded_content_hash_hex": "ffc8969dd4048d7d219cbcafa26b94d1",
+            "embedded_content_hash_method": "first16bytes(SHA256(0x01||asset_bytes)), cmd/internal/hash.New32 path for files larger than1024bytes",
+            "embedded_content_hash_matches": true
+          },
+          {
+            "file_record_offset": 26949656,
+            "name": "webui/dist/_next/static/media/favicon.1uboyqwm7-s27.ico",
+            "name_offset": 14874521,
+            "name_bytes": 55,
+            "data_virtual_address": "0xee8aa0",
+            "data_file_offset": 15567520,
+            "data_bytes": 15086,
+            "data_sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+            "embedded_content_hash_hex": "ffc8969dd4048d7d219cbcafa26b94d1",
+            "embedded_content_hash_method": "first16bytes(SHA256(0x01||asset_bytes)), cmd/internal/hash.New32 path for files larger than1024bytes",
+            "embedded_content_hash_matches": true
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "b441e34c8c1d724686533b700494e2dfe68b5d1f2bb9d6d5ea6080616c88780d",
+      "sha1": "e03ac31040247366b2b4e9556b239dcd830eaf2e",
+      "md5": "2dc728ea9fcbfecc3f0887e0963f1eef",
+      "bytes": 35629568,
+      "format": "PE",
+      "machine": "0x8664",
+      "acquisition_url": "https://datalake.abuse.ch/malware-bazaar/daily/2026-10-28.zip",
+      "archive_member": "b441e34c8c1d724686533b700494e2dfe68b5d1f2bb9d6d5ea6080616c88780d.exe",
+      "acquired_at_utc": "2026-11-19T16:42:55.490704+00:00",
+      "archive_calendar_date": "2026-10-28",
+      "archive_date_meaning": "Public collection bucket date, not compile time, malware activity or deployment.",
+      "go_build_info": {
+        "go_version": "go1.26.9",
+        "go_header": {
+          "file_offset": 33799168,
+          "pointer_size": 8,
+          "flags": 2
+        },
+        "go_version_offset": 33799201,
+        "module_offset": 33799211,
+        "module_bytes": 4379,
+        "module_lines": [
+          "path\tgithub.com/Autumn-27/artex/cmd/artex",
+          "mod\tgithub.com/Autumn-27/artex\tv1.0.1\t",
+          "build\t-buildmode=exe",
+          "build\t-compiler=gc",
+          "build\t-tags=embedui",
+          "build\t-trimpath=true",
+          "build\tCGO_ENABLED=0",
+          "build\tGOARCH=amd64",
+          "build\tGOOS=windows",
+          "build\tGOAMD64=v1",
+          "build\tvcs=git",
+          "build\tvcs.revision=7b23a6fe26da665b683e22a4bd811a2a6c9d1e9d",
+          "build\tvcs.time=2026-10-19T12:39:06Z",
+          "build\tvcs.modified=false"
+        ]
+      },
+      "go_metadata_scope": "Compiler-supplied claims; ELF exact maintainer release bridge independently established below, Windows generating repository/revision unestablished.",
+      "embedded_favicon": {
+        "artifact_sha256": "b441e34c8c1d724686533b700494e2dfe68b5d1f2bb9d6d5ea6080616c88780d",
+        "ico": {
+          "offset": 15153760,
+          "bytes": 15086,
+          "sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+          "entries": [
+            {
+              "width": 16,
+              "height": 16,
+              "bytes": 1128,
+              "relative_offset": 54
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "bytes": 4264,
+              "relative_offset": 1182
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "bytes": 9640,
+              "relative_offset": 5446
+            }
+          ]
+        },
+        "embed_file_records": [
+          {
+            "file_record_offset": 25439096,
+            "name": "webui/dist/favicon.ico",
+            "name_offset": 14303034,
+            "name_bytes": 22,
+            "data_virtual_address": "0x140e74860",
+            "data_file_offset": 15153760,
+            "data_bytes": 15086,
+            "data_sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+            "embedded_content_hash_hex": "ffc8969dd4048d7d219cbcafa26b94d1",
+            "embedded_content_hash_method": "first16bytes(SHA256(0x01||asset_bytes)), cmd/internal/hash.New32 path for files larger than1024bytes",
+            "embedded_content_hash_matches": true
+          },
+          {
+            "file_record_offset": 25443800,
+            "name": "webui/dist/_next/static/media/favicon.1uboyqwm7-s27.ico",
+            "name_offset": 14515898,
+            "name_bytes": 55,
+            "data_virtual_address": "0x140e74860",
+            "data_file_offset": 15153760,
+            "data_bytes": 15086,
+            "data_sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+            "embedded_content_hash_hex": "ffc8969dd4048d7d219cbcafa26b94d1",
+            "embedded_content_hash_method": "first16bytes(SHA256(0x01||asset_bytes)), cmd/internal/hash.New32 path for files larger than1024bytes",
+            "embedded_content_hash_matches": true
+          }
+        ]
+      }
+    }
+  ],
+  "release_identity_bridge": {
+    "release_url": "https://github.com/jiwoochris/artex-global/releases/tag/v0.3.15-global.1",
+    "published_at_utc": "2026-10-13T15:30:54Z",
+    "tag": "v0.3.15-global.1",
+    "archive_url": "https://github.com/jiwoochris/artex-global/releases/download/v0.3.15-global.1/artex-0.3.15-global.1-linux-arm64.zip",
+    "acquired_at_utc": "2026-11-19T16:44:44.021544+00:00",
+    "zip_bytes": 13308720,
+    "zip_sha256": "67e01173d52c640b92e4371785158507413e4065613144d38600633d5e9cd37e",
+    "github_asset_digest_matched": true,
+    "member": {
+      "name": "artex-0.3.15-global.1-linux-arm64/artex",
+      "bytes": 38207614,
+      "sha256": "014154af33662f55901a20902b9deae23a63fe3817fad44a2718f6e30e7a9cb1",
+      "sha1": "de057f7b6acb4066a65714a72325181503762da0",
+      "md5": "384ee09999c4419d69114688ee2ffdb8",
+      "matches_acquired_archive_reference": true
+    },
+    "source_revision_url": "https://github.com/jiwoochris/artex-global/commit/d6964594a0221cd921b85056d604bce9d8ce54df",
+    "scope": "Exact distribution identity of the acquired ELF matches this fork maintainer release. No reproducible-build, code-signature, benignness or malicious-use assertion; this fork is distinct from BaaRai/ARTEX."
+  },
+  "asset_references": {
+    "pinned_ARTEX_source_url": "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/web/src/app/favicon.ico",
+    "existing_source_record": "AR-9975D4600EF2",
+    "scope": "Exact bytes match the already independently reviewed upstream asset hash. Favicon may be copied and does not attribute an operator."
+  },
+  "go_layout_sources": [
+    {
+      "url": "https://go.dev/src/embed/embed.go",
+      "locator": "type file: name string,data string,hash[16]byte"
+    },
+    {
+      "url": "https://go.dev/src/cmd/compile/internal/staticdata/embed.go",
+      "locator": "WriteEmbed emits file name and data pointer/length pairs plus16-byte content hash"
+    },
+    {
+      "url": "https://go.dev/src/cmd/internal/hash/hash.go",
+      "locator": "New32: SHA256 initialized with one byte0x01; fileStringSym uses streaming New32 for files larger than1024bytes"
+    }
+  ],
+  "limitations": [
+    "Static compiler-supplied Go metadata can be forged; the Windows source revision has not been independently bound.",
+    "Exact ELF release-member equality establishes distributed bytes, not an exact source-to-binary reproduction.",
+    "No sample execution, controller launch, candidate DNS/HTTP/TLS request, scan or sample submission was performed.",
+    "No raw binaries, article copies, icon files, native code dumps, credentials or private account observations are included.",
+    "Favicon recognition is software correlation at score20; copied/rebranded assets and authorized installations remain possible."
+  ],
+  "sample_execution": false,
+  "target_requests": 0,
+  "paid_calls": 0,
+  "provider_account_calls": 0,
+  "global_novelty_claimed": false,
+  "negative_control_review": {
+    "controls": [
+      {
+        "control": "official_pinned_ARTEX_asset",
+        "url": "https://raw.githubusercontent.com/BaaRai/ARTEX/81eab87d166dddfc0d8be2707eadec788b61be0d/web/src/app/favicon.ico",
+        "started_at_utc": "2026-11-19T16:45:37.861398+00:00",
+        "target_requests": 0,
+        "status": 200,
+        "bytes": 15086,
+        "sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+        "same_as_acquired_embedded_favicon": true,
+        "retrieved_at_utc": "2026-11-19T16:45:59.557440+00:00"
+      },
+      {
+        "control": "unrelated_NextJS_app_template",
+        "url": "https://raw.githubusercontent.com/vercel/next.js/canary/packages/create-next-app/templates/app/js/app/favicon.ico",
+        "started_at_utc": "2026-11-19T16:45:59.557452+00:00",
+        "target_requests": 0,
+        "status": 200,
+        "bytes": 15086,
+        "sha256": "c28fdd2a4f31e2dc64f653962286da5c82a4cdfc518b242d32812c624e9a19a4",
+        "same_as_acquired_embedded_favicon": false,
+        "retrieved_at_utc": "2026-11-19T16:46:21.234657+00:00",
+        "pinned_revision": "981dd276acccf22f2a7097a6f10468c8b0bc1903",
+        "pinned_url": "https://raw.githubusercontent.com/vercel/next.js/981dd276acccf22f2a7097a6f10468c8b0bc1903/packages/create-next-app/templates/app/js/app/favicon.ico",
+        "pinned_sha256": "c28fdd2a4f31e2dc64f653962286da5c82a4cdfc518b242d32812c624e9a19a4",
+        "pinned_bytes": 15086,
+        "pinned_retrieved_at_utc": "2026-11-19T16:48:41.509549+00:00",
+        "pin_scope": "Latest commit touching this path from GitHub API; pinned bytes independently downloaded and exactly equal to the previously acquired canary control. No broader release/version specificity asserted."
+      }
+    ],
+    "scope": "One unrelated framework default only, not comprehensive specificity validation; copied/rebranded assets remain possible."
+  }
+}
