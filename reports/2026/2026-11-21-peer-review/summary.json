@@ -1,0 +1,31 @@
+{
+  "reviewed_at_utc": "2026-11-21T17:44:52.103321+00:00",
+  "new_canonical_memberships": 19,
+  "new_master_values": 16,
+  "additional_memberships": 3,
+  "classes": {
+    "campaign-context": 2,
+    "deployment-leads": 2,
+    "software-fingerprints": 14,
+    "legitimate-service-context": 1
+  },
+  "canonical_records": 13983,
+  "compact_records": 13753,
+  "master_values": 17394,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5100,
+    "historical_provider": 8340,
+    "artifact_supported": 508,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 3,
+  "external_memberships": 16,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "tool_registry_context_updates": 6,
+  "scope": "External leads reconciled against originals. Sapper static software identity inspected separately. The 6,693-IP inventory retains its selection and two existing IPs gain source dates."
+}

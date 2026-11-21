@@ -2,7 +2,7 @@
   "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
   "date_user_timezone": "2026-11-21 Asia/Calcutta",
   "categorized_records": 9053,
-  "master_distinct_type_value": 17378,
+  "master_distinct_type_value": 17394,
   "new_native_patterns": 10,
   "analyst_derived_records": 342,
   "main_artex_records": 18,
@@ -21,10 +21,10 @@
   "supplementary_india_analyst_derived_records": 5,
   "supplementary_india_report_artifact_records": 32,
   "supplementary_india_context_records": 6,
-  "all_categorized_records_including_supplement": 13964,
+  "all_categorized_records_including_supplement": 13983,
   "framework_report_folders": 20,
-  "supplementary_report_folders": 19,
-  "report_folders_total": 39,
+  "supplementary_report_folders": 20,
+  "report_folders_total": 40,
   "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement.",
   "independent_public_artifact_records": 16,
   "independent_public_artifact_derived_facts": 6,
@@ -34,14 +34,14 @@
   "latest_review_date": "2026-11-21",
   "first_party_seed_observations": 2,
   "first_party_http_requests": 2,
-  "compact_catalog_records": 13734,
-  "daily_global_records": 4681,
+  "compact_catalog_records": 13753,
+  "daily_global_records": 4700,
   "daily_global_own_source_fingerprints": 9,
   "daily_global_source_campaign_observables": 259,
   "daily_global_record_classes": {
     "sourced-iocs": 456,
-    "software-fingerprints": 335,
-    "deployment-leads": 2978,
+    "software-fingerprints": 349,
+    "deployment-leads": 2980,
     "supporting-context": 31,
     "report-host-network-artifacts": 24,
     "shared-services-and-generic-markers": 87,
@@ -50,9 +50,9 @@
     "artifact-derived-observables": 15,
     "sample-derived-observables": 128,
     "unverified-findings": 1,
-    "campaign-context": 314,
+    "campaign-context": 316,
     "analyst-derived": 4,
-    "legitimate-service-context": 5
+    "legitimate-service-context": 6
   },
   "latest_daily_additions": 228,
   "latest_daily_own_malicious_iocs": 0,
@@ -114,22 +114,22 @@
     }
   },
   "source_review": {
-    "canonical_records": 13964,
-    "master_values": 17378,
+    "canonical_records": 13983,
+    "master_values": 17394,
     "new_values": 0,
     "new_ips": 0,
     "review_states": {
-      "source_supported": 5088,
+      "source_supported": 5100,
       "historical_provider": 8340,
-      "artifact_supported": 501,
+      "artifact_supported": 508,
       "unverified": 35
     },
     "categories": {
-      "campaign-context": 372,
-      "deployment-leads": 11393,
+      "campaign-context": 374,
+      "deployment-leads": 11395,
       "main-iocs": 27,
       "shared-services-and-generic-markers": 141,
-      "software-fingerprints": 721,
+      "software-fingerprints": 735,
       "supporting-tools": 86,
       "supporting-context": 44,
       "unverified-findings": 35,
@@ -138,7 +138,7 @@
       "sourced-iocs": 629,
       "analyst-derived": 15,
       "report-host-network-artifacts": 56,
-      "legitimate-service-context": 6,
+      "legitimate-service-context": 7,
       "analyst-software-fingerprint": 4,
       "artifact-derived-observables": 15
     },
@@ -446,6 +446,37 @@
       "new_tool_identities": 0,
       "tool_release_updates": 9,
       "scope": "Original public reporting and passive software observations. No new independent malicious IOC or current-operation claim."
+    },
+    "latest_nov21_peer_review": {
+      "reviewed_at_utc": "2026-11-21T17:44:52.103321+00:00",
+      "new_canonical_memberships": 19,
+      "new_master_values": 16,
+      "additional_memberships": 3,
+      "classes": {
+        "campaign-context": 2,
+        "deployment-leads": 2,
+        "software-fingerprints": 14,
+        "legitimate-service-context": 1
+      },
+      "canonical_records": 13983,
+      "compact_records": 13753,
+      "master_values": 17394,
+      "master_only_values": 3733,
+      "review_states": {
+        "source_supported": 5100,
+        "historical_provider": 8340,
+        "artifact_supported": 508,
+        "unverified": 35
+      },
+      "remaining_unverified": 35,
+      "new_independently_verified_malicious_C2_IPs": 0,
+      "own_memberships": 3,
+      "external_memberships": 16,
+      "unchanged_prior_unverified": 35,
+      "private_leads_unresolved": 25,
+      "new_tool_identities": 0,
+      "tool_registry_context_updates": 6,
+      "scope": "External leads reconciled against originals. Sapper static software identity inspected separately. The 6,693-IP inventory retains its selection and two existing IPs gain source dates."
     }
   },
   "latest_resolution_review": {
@@ -558,7 +589,7 @@
     "new_independently_derived_malicious_iocs": 0,
     "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim."
   },
-  "indexed_supplementary_report_folders": 18,
+  "indexed_supplementary_report_folders": 19,
   "report_folder_count_scope": "Physical dated report directories, including review snapshots; 20 original framework report folders remain a separate historical cohort.",
   "latest_deeper_additions": 19,
   "latest_deeper_new_master_values": 12,
@@ -745,5 +776,36 @@
     "new_tool_identities": 0,
     "tool_release_updates": 9,
     "scope": "Original public reporting and passive software observations. No new independent malicious IOC or current-operation claim."
+  },
+  "latest_nov21_peer_review": {
+    "reviewed_at_utc": "2026-11-21T17:44:52.103321+00:00",
+    "new_canonical_memberships": 19,
+    "new_master_values": 16,
+    "additional_memberships": 3,
+    "classes": {
+      "campaign-context": 2,
+      "deployment-leads": 2,
+      "software-fingerprints": 14,
+      "legitimate-service-context": 1
+    },
+    "canonical_records": 13983,
+    "compact_records": 13753,
+    "master_values": 17394,
+    "master_only_values": 3733,
+    "review_states": {
+      "source_supported": 5100,
+      "historical_provider": 8340,
+      "artifact_supported": 508,
+      "unverified": 35
+    },
+    "remaining_unverified": 35,
+    "new_independently_verified_malicious_C2_IPs": 0,
+    "own_memberships": 3,
+    "external_memberships": 16,
+    "unchanged_prior_unverified": 35,
+    "private_leads_unresolved": 25,
+    "new_tool_identities": 0,
+    "tool_registry_context_updates": 6,
+    "scope": "External leads reconciled against originals. Sapper static software identity inspected separately. The 6,693-IP inventory retains its selection and two existing IPs gain source dates."
   }
 }

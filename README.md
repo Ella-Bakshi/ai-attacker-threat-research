@@ -12,7 +12,7 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,964 canonical source records**; the master has **17,378 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,983 canonical source records**; the master has **17,394 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
@@ -71,7 +71,7 @@ The original main-record cohorts contain **18 ARTEX-associated** and **9 CyberSt
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,378 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,394 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -89,6 +89,7 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-21
 
+- [External review reconciliation](reports/2026/2026-11-21-peer-review/README.md) adds 19 source records, including three Sapper software identifiers, and dates two existing map entries.
 - [Public-source follow-up](reports/2026/2026-11-21-followup/README.md) adds 17 source records and 6 IPs to the inventory.
 - [Extended global hunt and exact ARTEX backdoor evidence](reports/2026/2026-11-21-daily-hunt/README.md): 559 memberships, 82 own derivations, 62 new map addresses and 14 newly indexed tools; unresolved findings remain separate.
 - [Research sources and collection methods](docs/research-source-directory.md).

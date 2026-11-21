@@ -44,6 +44,17 @@
       {
         "kind": "releases",
         "url": "https://github.com/BaaRai/ARTEX/releases"
+      },
+      {
+        "kind": "vendor-reported-commercial-lineage",
+        "url": "https://threatbook.io/press-releases/threatbook-launches-redagents-ai-powered-pentest-aggregator",
+        "publication_date": "2026-10-16",
+        "scope": "ThreatBook describes its ARTEX Pro Enterprise offering as an extension of open-source ARTEX. The claim does not establish an exact source or campaign revision."
+      },
+      {
+        "kind": "historical-vendor-feed-provenance",
+        "url": "https://threatbook.io/hubfs/Feeds/ARTEX.txt",
+        "scope": "Rolling publisher classifications. ThreatBook also offers an ARTEX enterprise product. Feed membership is historical deployment evidence with no independent incident corroboration or maliciousness verdict."
       }
     ],
     "source_fingerprints": [
@@ -124,7 +135,15 @@
           "https://github.com/jiwoochris/artex-global/blob/d6964594a0221cd921b85056d604bce9d8ce54df/detections/indicators/artex_indicators.csv",
           "https://github.com/jiwoochris/artex-global/releases/tag/v0.3.15-global.1"
         ],
-        "reviewed_at_utc": "2026-11-16T17:28:03.989317+00:00"
+        "reviewed_at_utc": "2026-11-16T17:28:03.989317+00:00",
+        "later_source_review": {
+          "commit": "06b36d7219244c5e2b6467394f60eca160c785cf",
+          "commit_time_utc": "2026-11-19T15:55:08Z",
+          "source_url": "https://github.com/jiwoochris/artex-global/blob/06b36d7219244c5e2b6467394f60eca160c785cf/selfupdate/github.go#L19",
+          "commit_url": "https://github.com/jiwoochris/artex-global/commit/06b36d7219244c5e2b6467394f60eca160c785cf",
+          "scope": "At this later fork revision, the updater release source changes from Autumn-27/artex to jiwoochris/artex-global. The earlier tagged pin is retained as historical evidence. No matching published build or deployment was established.",
+          "reviewed_at_utc": "2026-11-21T17:39:27.049760+00:00"
+        }
       },
       {
         "resource_id": "bcyw--artex",
@@ -240,6 +259,23 @@
       {
         "kind": "readme-linked-resource",
         "url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/docs/en-US/tool-call-guard.md"
+      },
+      {
+        "kind": "vendor-acquisition-announcement",
+        "url": "https://threatbook.io/press-releases/threatbook-acquires-leading-ai-native-security-testing-platform-cyberstrikeai",
+        "publication_date": "2026-09-30",
+        "scope": "ThreatBook announced its acquisition of open-source CyberStrikeAI and plans for further safeguards and a separate enterprise edition. The acquisition announcement does not establish transfer of GitHub repository ownership or validate a particular control in the open-source build."
+      },
+      {
+        "kind": "vendor-reported-enterprise-product",
+        "url": "https://threatbook.io/press-releases/threatbook-launches-redagents-ai-powered-pentest-aggregator",
+        "publication_date": "2026-10-16",
+        "scope": "ThreatBook lists a separate enterprise edition under RedAgents."
+      },
+      {
+        "kind": "vendor-feed-provenance",
+        "url": "https://threatbook.io/hubfs/Feeds/CSAI.txt",
+        "scope": "Public rolling publisher classifications from the announced acquirer. Any observations from this feed require distinct evidence for abuse. No new feed rows imported during this review."
       }
     ],
     "source_fingerprints": [
@@ -269,7 +305,8 @@
       "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/README.md",
       "https://github.com/AIPentest/CyberStrikeAI/tree/b43bdb991c3bee4f433cd1a0a370a90c4e24241e",
       "https://securelist.com/tr/cyberstrikeai-attacks/121715/",
-      "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage"
+      "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage",
+      "https://threatbook.io/press-releases/threatbook-acquires-leading-ai-native-security-testing-platform-cyberstrikeai"
     ],
     "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
     "global_novelty_claimed": false,
@@ -471,7 +508,39 @@
     "global_novelty_claimed": false,
     "baseline_entry": true,
     "tool_id": "larlarua--autocve",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-21T17:39:27.049760+00:00",
+      "source_url": "https://api.github.com/repos/larlarua/AutoCVE/releases/latest",
+      "tag_index_url": "https://github.com/larlarua/AutoCVE/tags",
+      "scope": "GitHub latest stable Release object remains v1.0.5. The three newer annotated automation tags are separately verified as source references. Their per-tag GitHub Release requests returned 404 at review time. Tagging time does not establish publication of a Release object or release assets.",
+      "verified_source_tags": [
+        {
+          "tag": "v1.1.0",
+          "tagged_at_utc": "2026-08-01T03:25:23Z",
+          "commit": "2fed828f2321cb7d718aadbccbfededeb03756b0",
+          "git_tag_object": "eb5a3604b4c7a945eda1f186f1c5006f022ba016",
+          "source_url": "https://api.github.com/repos/larlarua/AutoCVE/git/tags/eb5a3604b4c7a945eda1f186f1c5006f022ba016",
+          "release_object_http_status": 404
+        },
+        {
+          "tag": "v1.2.0",
+          "tagged_at_utc": "2026-09-01T04:26:59Z",
+          "commit": "0926be217556d8fe1530b9184ec3d286b8dfcf99",
+          "git_tag_object": "496256aa75589b78e8c385c71379d17394eae637",
+          "source_url": "https://api.github.com/repos/larlarua/AutoCVE/git/tags/496256aa75589b78e8c385c71379d17394eae637",
+          "release_object_http_status": 404
+        },
+        {
+          "tag": "v1.3.0",
+          "tagged_at_utc": "2026-10-01T05:08:02Z",
+          "commit": "b26025f27199ba2d93145e4a08fc9015e8d846e4",
+          "git_tag_object": "75e10f294c77b848e75d832946339084737d362f",
+          "source_url": "https://api.github.com/repos/larlarua/AutoCVE/git/tags/75e10f294c77b848e75d832946339084737d362f",
+          "release_object_http_status": 404
+        }
+      ]
+    }
   },
   {
     "name": "HexStrike AI",
@@ -519,6 +588,12 @@
       {
         "kind": "readme-linked-resource",
         "url": "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/docs/"
+      },
+      {
+        "kind": "publisher-experimentation-context",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+        "publication_date": "2026-11-17",
+        "scope": "GTIG notes experimentation with HexStrike AI. October 30 incident response reporting remains the basis of the framework-level abuse label."
       }
     ],
     "source_fingerprints": [
@@ -535,7 +610,7 @@
     "runtime_fingerprint_status": "Existing separately scoped source fingerprints linked where present; no new runtime validation in this metadata lane.",
     "existing_fingerprint_resources": [],
     "observed_abuse": "yes-reported-at-framework-level",
-    "observed_abuse_basis": "GTIG reports threat-actor abuse of the named framework. This does not establish maliciousness of this source revision or every deployment.",
+    "observed_abuse_basis": "GTIG and Mandiant report framework-level abuse in incident response engagements in their October 30 publication. GTIG also describes experimentation with HexStrike AI in the November 17 update. Neither observation establishes maliciousness of this source revision or every deployment.",
     "observed_abuse_primary_sources": [
       "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
     ],
@@ -544,7 +619,8 @@
     "sources": [
       "https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/README.md",
       "https://github.com/0x4m4/hexstrike-ai/tree/d689933ff579d839c676c82b231f8e98326c5f04",
-      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks"
+      "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks",
+      "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
     ],
     "reviewed_at_utc": "2026-11-12T02:57:16.217248+00:00",
     "global_novelty_claimed": false,
@@ -3081,6 +3157,30 @@
         "bytes": 10546,
         "anchor_line": 109,
         "anchor_scope": "Source derivation statement only; not a deployment detector."
+      },
+      {
+        "kind": "static-source-user-agent",
+        "value": "antifox-enrich/1.0",
+        "source_url": "https://github.com/AntiFox-AI/antifox/blob/b8d75102b0af0be6a9627d1d857fbd01b55be2cc/enrich/enrich.go#L233",
+        "source_revision": "b8d75102b0af0be6a9627d1d857fbd01b55be2cc",
+        "git_blob_sha": "1e4981bb7f578122880ee11f8780330780ab83ca",
+        "sha256": "5d3ce842baa53d470e5872f25625158694837e90a0948e91fa6a8349b88f967d",
+        "bytes": 7096,
+        "anchor_line": 233,
+        "anchor_scope": "Outbound enrichment client header at this pinned revision. Actor and campaign attribution require separate evidence.",
+        "reviewed_at_utc": "2026-11-21T17:39:27.049760+00:00"
+      },
+      {
+        "kind": "static-source-user-agent",
+        "value": "antifox-selfupdate",
+        "source_url": "https://github.com/AntiFox-AI/antifox/blob/b8d75102b0af0be6a9627d1d857fbd01b55be2cc/selfupdate/github.go#L17",
+        "source_revision": "b8d75102b0af0be6a9627d1d857fbd01b55be2cc",
+        "git_blob_sha": "a4caa74ce0081b7ef27bbbecd8672aadbae6a7e5",
+        "sha256": "2e379aed618e191e9517ec1928010de335b597163d0d4834786a9f9a42624600",
+        "bytes": 4372,
+        "anchor_line": 17,
+        "anchor_scope": "Outbound update client header at this pinned revision, assigned at line 111. Actor and campaign attribution require separate evidence.",
+        "reviewed_at_utc": "2026-11-21T17:39:27.049760+00:00"
       }
     ],
     "runtime_fingerprint_status": "Not derived or runtime-tested in this bounded metadata lane.",
@@ -3639,7 +3739,7 @@
     "observed_abuse": "unknown",
     "observed_abuse_basis": "No exact malicious deployment established.",
     "observed_abuse_primary_sources": [],
-    "ioc_status": "software registry only; not malicious IOC",
+    "ioc_status": "Pinned documentation and three local software identifiers. No published malicious-network indicators verified here.",
     "new_network_iocs": 0,
     "license_identity": {
       "git_blob_sha1": "1508447015a322f3a90b344c18533c55dd2bf1df",
@@ -3664,9 +3764,30 @@
         "sha256": "4d2755b217ca99313dc216a9500a32bd53841d5572dcf4ffa447753d0cb712bb",
         "bytes": 15742,
         "anchor_scope": "Documentation identity, not malware or runtime fingerprint."
+      },
+      {
+        "kind": "sha256",
+        "value": "24663ab6810e21926fb6f99e153a8e02ce2866c9bd36f0fa78c9407619872895",
+        "source_url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/lib/sapper.py#L4281",
+        "record_id": "SAPPER21-42A32A05E036206F",
+        "anchor_scope": "Verified in immutable upstream source. These identifiers describe software files or local artifacts."
+      },
+      {
+        "kind": "html_title",
+        "value": "sapper — engagement graph",
+        "source_url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/lib/view_template.html#L6",
+        "record_id": "SAPPER21-AFEF4155F7B39AA3",
+        "anchor_scope": "Verified in immutable upstream source. These identifiers describe software files or local artifacts."
+      },
+      {
+        "kind": "host_artifact_bundle",
+        "value": "~/.local/bin/sapper + ~/.claude/skills/sapper-setup + .sapper/",
+        "source_url": "https://github.com/N1nEmAn/sapper-v2/blob/7b75e6f1f5d5b4ae0c55878b0dd0994d9b08f1fb/install.sh#L44-L74",
+        "record_id": "SAPPER21-2C2E1F4078E5DA78",
+        "anchor_scope": "Verified in immutable upstream source. These identifiers describe software files or local artifacts."
       }
     ],
-    "runtime_fingerprint_status": "Runtime specificity/negative controls not tested.",
+    "runtime_fingerprint_status": "Static local identifiers verified from pinned source. Runtime specificity has not been tested.",
     "source_identification_hypotheses": [],
     "sources": [
       "https://api.github.com/repos/N1nEmAn/sapper-v2",
