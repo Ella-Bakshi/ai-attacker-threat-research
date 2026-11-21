@@ -1,0 +1,358 @@
+{
+  "review_completed_at_utc": "2026-11-21T05:52:07.709161+00:00",
+  "scope": "Reporting lane original66 plus extended314 source-supported external memberships. Own exact-byte LeadStack38 is a separate packet. No all-internet completeness or global novelty claim.",
+  "initial_frozen_records": 66,
+  "extended_external_records": 314,
+  "combined_reporting_external_records": 380,
+  "source_groups": [
+    {
+      "source_group": "TD21",
+      "title": "ThreatDefence original observations and licensed pinned indicator table",
+      "records": 21,
+      "primary_source_urls": [
+        "https://threatdefence.com/article/artex-agentic-attack-framework-detection-hunting"
+      ],
+      "publication_dates": [
+        "2026-11-16"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:10:54.872192+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:16:41.050312+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Own SOC/association rows only; the publisher’s compiled third-party table is not independent corroboration. Software presence is separate from malicious traffic.",
+      "evidence_scores": {
+        "20": 7,
+        "55": 14
+      }
+    },
+    {
+      "source_group": "CIRT21",
+      "title": "BGD e-GOV CIRT17November advisory",
+      "records": 22,
+      "primary_source_urls": [
+        "https://www.cirt.gov.bd/media?id=.pdf%2Fadv-2026-11-17_161549-0.pdf"
+      ],
+      "publication_dates": [
+        "2026-11-17"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:12:42.216588+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:16:41.050312+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Original public government synthesis. Software observations, preparatory material and exfiltration context have separate roles; no Bangladesh compromise or per-indicator India targeting asserted.",
+      "evidence_scores": {
+        "20": 19,
+        "55": 3
+      }
+    },
+    {
+      "source_group": "AF21",
+      "title": "Wiz and Socket Microsoft Agent Framework PyPI reports",
+      "records": 23,
+      "primary_source_urls": [
+        "https://www.socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+        "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi"
+      ],
+      "publication_dates": [
+        "2026-11-17"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:12:15.469619+00:00",
+        "2026-11-21T05:12:16.673137+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:16:41.050312+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Malicious1.26.1/1.26.2 supply-chain artifacts and path-specific exfiltration. AI/tool self-identification does not establish exact offensive-framework provenance; shared webhook.site parent excluded.",
+      "evidence_scores": {
+        "55": 10,
+        "20": 13
+      }
+    },
+    {
+      "source_group": "BG21",
+      "title": "SOCRadar BabidiGhost20November",
+      "records": 18,
+      "primary_source_urls": [
+        "https://socradar.io/blog/babidighost-ai-augmented-cybercrime/"
+      ],
+      "publication_dates": [
+        "2026-11-20"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:35:03.509963+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:34.987313+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Ghost/BlackHatSect0r toolchain on a hijacked server. Source reports agent operations6–14November and residual implant callbacks through15November. Legitimate server owner is not attributed as attacker; no ARTEX/CyberStrikeAI attribution.",
+      "evidence_scores": {
+        "70": 2,
+        "55": 14,
+        "20": 2
+      }
+    },
+    {
+      "source_group": "ARGON21",
+      "title": "SOCRadar Operation ArgonHunt17November",
+      "records": 7,
+      "primary_source_urls": [
+        "https://socradar.io/blog/argonhunt-crypto-breach-stolen-ai-api-keys/"
+      ],
+      "publication_dates": [
+        "2026-11-17"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:35:03.540710+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:34.987313+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "AI-provider credential harvesting and separate exchange-withdrawal manipulation on one reported workspace. No evidence establishes an autonomous AI offensive framework. Financial figures are attempted transactions; one checksum-invalid source BTC literal withheld.",
+      "evidence_scores": {
+        "55": 6,
+        "20": 1
+      }
+    },
+    {
+      "source_group": "BOSS21",
+      "title": "Acronis BOSSAI4November historical backfill",
+      "records": 15,
+      "primary_source_urls": [
+        "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/"
+      ],
+      "publication_dates": [
+        "2026-11-04"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:34:22.102701+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:34.987313+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Reported12-agent operator mesh using several legitimate harnesses. Residential/shared-business address and business domains excluded; per-address roles only as stated. Public-service software itself is not malware.",
+      "evidence_scores": {
+        "55": 13,
+        "70": 2
+      }
+    },
+    {
+      "source_group": "KEY21",
+      "title": "SOCRadar KeyHunter4November historical backfill",
+      "records": 24,
+      "primary_source_urls": [
+        "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data/"
+      ],
+      "publication_dates": [
+        "2026-11-04"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:34:21.683567+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:34.987313+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Recovered LLM-key-theft/academic-fraud workbench with Hermes/OpenClaw/PentAGI. Shared-certificate software nodes remain20; disposable-mail domain, proxy subscription node and third-party-only C2 tags excluded.",
+      "evidence_scores": {
+        "55": 16,
+        "20": 8
+      }
+    },
+    {
+      "source_group": "GHOST21",
+      "title": "SOCRadar BlackHatSect0r16September historical source chain",
+      "records": 24,
+      "primary_source_urls": [
+        "https://socradar.io/blog/blackhatsect0r-dxqrtxx-operation-server/"
+      ],
+      "publication_dates": [
+        "2026-09-16"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:35:54.790742+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:34.987313+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Original source linked by fresh BabidiGhost report. Seven compiled C2 hash identities retain build roles. Generic Hermes files, shared providers and victims excluded. Publicity alliance with APT-90 is separate from operator attribution.",
+      "evidence_scores": {
+        "55": 21,
+        "70": 2,
+        "20": 1
+      }
+    },
+    {
+      "source_group": "CAIRN21",
+      "title": "Unit42 CL-STA-1238 configuration context",
+      "records": 2,
+      "primary_source_urls": [
+        "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
+      ],
+      "publication_dates": [
+        "2026-11-12"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:34:23.415739+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:34.987313+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "The two infrastructure addresses were already in baseline. Only campaign skill label and authorization-pretext filename added at20; generic filenames are not sufficient to identify a hostile operation.",
+      "evidence_scores": {
+        "20": 2
+      }
+    },
+    {
+      "source_group": "LEAD21",
+      "title": "SafeDep LeadStack19November original report and55-row CSV",
+      "records": 53,
+      "primary_source_urls": [
+        "https://safedep.io/blog/malicious-npm-leadstack-crm-connect-hermes-agent-backdoor"
+      ],
+      "publication_dates": [
+        "2026-11-19"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:39:55.466170+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:01.029115+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Nine malicious16November package versions, with later dependency-only packages explicitly20/context. Bootstrap/profile/module/binary resources describe package-code expectations; actual remote persona/config/module/binary contents were not obtained. Borrowed unrelated domain, provider parents and ordinary Hermes unit pattern excluded.",
+      "evidence_scores": {
+        "55": 39,
+        "20": 12,
+        "70": 2
+      }
+    },
+    {
+      "source_group": "A3T21",
+      "title": "Talos A3 AI-analysis-evasion8October historical backfill",
+      "records": 11,
+      "primary_source_urls": [
+        "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/"
+      ],
+      "publication_dates": [
+        "2026-10-08"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:35:54.840968+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:01.029115+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Eleven valid article hashes matched pinned official STIX. A malformed63-character ROZESHELL source string is withheld. Cisco CAIRN research toolkit is distinct from the offensive Cairn framework; A3 is evasion of AI analysis.",
+      "evidence_scores": {
+        "55": 11
+      }
+    },
+    {
+      "source_group": "PHANTOM21",
+      "title": "SOCRadar INC/The Gentlemen20October updated23October",
+      "records": 31,
+      "primary_source_urls": [
+        "https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/"
+      ],
+      "publication_dates": [
+        "2026-10-20"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:40:04.915691+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:01.029115+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Human-approved OpenCode/Phantom workbench, seven role-scoped servers and nine named encryptor builds. Formal brand alliance remains low confidence. Large mixed-context feed extra28IPs/108hashes were not promoted; one checksum-invalid onion endpoint withheld.",
+      "evidence_scores": {
+        "55": 28,
+        "70": 3
+      }
+    },
+    {
+      "source_group": "NON21",
+      "title": "SOCRadar AI-assisted n0n28October historical backfill",
+      "records": 74,
+      "primary_source_urls": [
+        "https://socradar.io/blog/n0n-ransomware-ai-assisted-extortion/"
+      ],
+      "publication_dates": [
+        "2026-10-28"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:39:55.456984+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:01.029115+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "Human-directed coding assistance, distinct from an autonomous intrusion claim and from NoName057(16). Fifty-five historical extortion-wallet entries are context only; source reports zero transactions as of16October. Additional untyped-context13hashes withheld from malware admission.",
+      "evidence_scores": {
+        "70": 2,
+        "55": 71,
+        "20": 1
+      }
+    },
+    {
+      "source_group": "XAOC21",
+      "title": "SOCRadar XaocMail/Phantom53/HavoX13November",
+      "records": 55,
+      "primary_source_urls": [
+        "https://socradar.io/blog/xaocmail-clickfix-phantom53-havox-america-asia-europe/"
+      ],
+      "publication_dates": [
+        "2026-11-13"
+      ],
+      "retrieved_at_utc": [
+        "2026-11-21T05:39:55.459009+00:00"
+      ],
+      "reviewed_at_utc": [
+        "2026-11-21T05:49:01.029115+00:00"
+      ],
+      "source_review_state": "source_supported",
+      "scope": "AI-assisted development and automated lab testing, distinct from autonomous victim intrusion. Source-scoped tenant domains, URLs/patterns and22file-role hashes retained. Shared service parents and identity-only emails/accounts excluded. India appears only in aggregate campaign targeting; no per-indicator Indian victim or successful India compromise established.",
+      "evidence_scores": {
+        "55": 50,
+        "70": 5
+      }
+    }
+  ],
+  "format_exclusions": {
+    "source_endpoint_or_address_checksums": 2,
+    "handling": "Exact source literals retained only in private rejection evidence. Neither was repaired, padded, substituted or admitted as a usable public IOC.",
+    "cases": [
+      {
+        "source_group": "ARGON21",
+        "type": "bitcoin_address",
+        "reason": "Original source BTC string fails Bech32 checksum."
+      },
+      {
+        "source_group": "PHANTOM21",
+        "type": "onion_domain",
+        "reason": "Original56-character onion label fails Torv3 checksum."
+      }
+    ],
+    "additional_malformed_hash": "Talos article63-character ROZESHELL hash omitted; pinned official STIX also omits it."
+  },
+  "scoring": "20 software/configuration context;55 source-reported campaign/artifact context;70 explicitly primary-reported historical C2 role. No external row is60;60 is reserved for independently examined exact artifact bytes in the own packet.",
+  "global_novelty_claimed": false,
+  "candidate_requests": 0,
+  "paid_calls": 0,
+  "Censys_calls": 0,
+  "sample_execution": false
+}

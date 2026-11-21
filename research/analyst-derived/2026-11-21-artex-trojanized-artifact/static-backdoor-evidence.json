@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-21T05:50:02.857837+00:00",
+  "scope": "Exact artifact obtained through the provider UI, independently verified by hash and CRC, then analyzed statically. Thirteen selected functions and all 407 embedded filesystem entries were reviewed; the full program was not decompiled or semantically reconstructed.",
+  "identity": {
+    "sha256": "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573",
+    "md5": "6d7ba9ced55bf353d3eca6cf95dc52ff",
+    "sha1": "bfc3abb66448579ac35b38dc0dfde7795b19ce81",
+    "bytes": 51210988
+  },
+  "acquisition": {
+    "provider_sample_url": "https://yaraify.abuse.ch/sample/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/",
+    "provider_download_UI_url": "https://yaraify.abuse.ch/download/d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573/",
+    "method": "The user downloaded the original through the ordinary provider UI. The agent copied the ZIP privately and read its single bounded member to an inert file. Existing 7-Zip streamed the selected member because Python zipfile does not support WinZip AES method 99. Full SHA256, size and CRC were then verified.",
+    "downloaded_file_lastwrite_utc": "2026-11-21T05:40:49.653285+00:00",
+    "member_verified_at_utc": "2026-11-21T05:42:52.407636+00:00",
+    "zip_sha256": "2ba9891b236fffe6213b8d816c4139ba81cc359c719dfe2d3545608b3d784e3e",
+    "zip_bytes": 23490241,
+    "zip_member": "d5070f52262effe216b840711343bff8f2787f39208d887d8dfd9c673f8d1573",
+    "member_crc32": "76d0c405",
+    "CRC_and_full_SHA256_verified": true
+  },
+  "build_metadata": {
+    "go_version": "go1.26.3",
+    "module_path": "github.com/Autumn-27/artex",
+    "module_version": "v0.3.16-0.20261008134550-5c0dbd4bec94+dirty",
+    "main_package": "github.com/Autumn-27/artex/cmd/artex",
+    "vcs_revision": "5c0dbd4bec940f3c0faf20705a56d879b57d3dfe",
+    "vcs_time": "2026-10-08T13:45:50Z",
+    "vcs_modified": true,
+    "GOOS": "linux",
+    "GOARCH": "amd64",
+    "CGO_ENABLED": "0",
+    "build_tags": "embedui",
+    "limits": "Compiler-supplied metadata can be forged. A dirty tree does not prove the exact generating source. Embedded VCS time is not compilation, deployment or victim-activity time."
+  },
+  "inventory": {
+    "all_function_symbols": 31087,
+    "artex_namespaced_functions": 3486,
+    "selected_functions_reconstructed": 13,
+    "functions": [
+      {
+        "function": "github.com/Autumn-27/artex/server.(*Server).authLogin",
+        "address": "0xf92fe0",
+        "file_offset": 12136416,
+        "bytes": 2103,
+        "function_body_sha256": "d391be882d136da16158c260f811914136a69858287478f1b3d573cd7dfed9c5",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.verifyCaptcha",
+        "address": "0xf93820",
+        "file_offset": 12138528,
+        "bytes": 152,
+        "function_body_sha256": "4e9306d150dd18ae73e3d341633cbfc5a6baed1a3e4b99085e01315817ff15a8",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.New",
+        "address": "0x1010ba0",
+        "file_offset": 12651424,
+        "bytes": 5757,
+        "function_body_sha256": "c8844c8a1c640ee0d51bc96ffe3574636c5307620756cb22eeba7a5d5f4b35aa",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.(*Server).Handler",
+        "address": "0x1019b00",
+        "file_offset": 12688128,
+        "bytes": 19803,
+        "function_body_sha256": "be2d77a8abdfc02f612c6185e6a17cef286444f877266814e7ce224302ac0704",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.(*Server).Handler.(*Server).requireAuth.func1",
+        "address": "0x101e9a0",
+        "file_offset": 12708256,
+        "bytes": 389,
+        "function_body_sha256": "ac3e8df11592ae21098caae4e2aa2d0e19a4a9ef77b795cb0dde63e98c4a5094",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "main.main",
+        "address": "0x10a3d40",
+        "file_offset": 13253952,
+        "bytes": 39,
+        "function_body_sha256": "14c291cd81d3a3138da163f047c2fc1f8ef3f93b58e36acb807f84c05e045629",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/config.Path",
+        "address": "0x82aa60",
+        "file_offset": 4368992,
+        "bytes": 560,
+        "function_body_sha256": "664857d7e86d629d8ed702b8c5b20bb45c8dddfa2f07c19bc20a45a379b1e38d",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/config.Load",
+        "address": "0x82aca0",
+        "file_offset": 4369568,
+        "bytes": 309,
+        "function_body_sha256": "5ac0945f4b7efdab61517ae98fea8b792fb5b011d7fb8ca716cf0b2caa317094",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/config.Database.buildDSN",
+        "address": "0x82b220",
+        "file_offset": 4370976,
+        "bytes": 1080,
+        "function_body_sha256": "7d9c5af3ce070e9c55add0db2d13220eb3574ec5536dfc7428edfdaea066d140",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.(*Server).pg",
+        "address": "0x1043de0",
+        "file_offset": 12860896,
+        "bytes": 220,
+        "function_body_sha256": "e62a39eaf7809a1f17cf26e67e188bddb3d2e515d3ceda2975e4e69a604182b8",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.(*Server).webuiHandler",
+        "address": "0x10939c0",
+        "file_offset": 13187520,
+        "bytes": 170,
+        "function_body_sha256": "cd082a6c5a0d47fd4ec45c24a974b6a2be48e196a1881cd54ecacaa9cf732e6f",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "github.com/Autumn-27/artex/server.(*Server).webuiHandler.func1",
+        "address": "0x1093a80",
+        "file_offset": 13187712,
+        "bytes": 473,
+        "function_body_sha256": "07300c1c356a242ec218296b899daac6b4bbdb6ffde3855d99aa2f8043c7322e",
+        "pseudocode_completed": true
+      },
+      {
+        "function": "main.run",
+        "address": "0x10a3d80",
+        "file_offset": 13254016,
+        "bytes": 2450,
+        "function_body_sha256": "8173b9c89a560520443b3d01792b65e8d03ac32884f62a2b5578c5626b7c5249",
+        "pseudocode_completed": true
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "kind": "native_control_flow",
+      "finding": "The compiled login handler decodes a JSON captcha field. If it is nonempty and its first byte is 0x21, the branch removes that byte and calls verifyCaptcha before username/password validation.",
+      "locations": {
+        "json_decode": "0xf930d2",
+        "captcha_len_read": "0xf930f1",
+        "first_byte_compare": "0xf93103",
+        "branch_to_decoy": "0xf93106",
+        "verifyCaptcha_call": "0xf93120",
+        "normal_username_validation_starts": "0xf932f2"
+      },
+      "prerequisite": "authLogin first calls pg(). A missing database handle produces HTTP 503 before JSON decoding; a configured service/database handle is required."
+    },
+    {
+      "id": "F2",
+      "kind": "native_call_arguments",
+      "finding": "verifyCaptcha builds the argument slice containing -c and the input for sh, calls os/exec.Command and CombinedOutput, and converts the captured bytes to a string.",
+      "function": "github.com/Autumn-27/artex/server.verifyCaptcha",
+      "function_address": "0xf93820",
+      "file_offset": 12138528,
+      "bytes": 152,
+      "command_literal": {
+        "value": "sh",
+        "address": "0x1366c08",
+        "file_offset": 16149512,
+        "bytes": 2
+      },
+      "shell_option_literal": {
+        "value": "-c",
+        "address": "0x1366c0a",
+        "file_offset": 16149514,
+        "bytes": 2
+      },
+      "call_sites": {
+        "exec_Command": "0xf93869",
+        "CombinedOutput": "0xf9386e",
+        "output_string": "0xf93885"
+      },
+      "direct_caller_scan": {
+        "scope": "All E8 rel32 candidates in the original ELF .text section were checked for this target. The matching site was then verified at an instruction boundary in the Capstone-decoded function.",
+        "validated_call_sites": [
+          "0xf93120"
+        ]
+      }
+    },
+    {
+      "id": "F3",
+      "kind": "http_routing",
+      "finding": "Handler registers POST /api/auth/login with authLogin-fm. The authentication wrapper allows the /api/auth/ prefix before token extraction and JWT checking.",
+      "route_literal": {
+        "value": "POST /api/auth/login",
+        "address": "0x13900e6",
+        "file_offset": 16318694,
+        "bytes": 20
+      },
+      "route_handler_wrapper_address": "0x109a380",
+      "handler_address": "0x1019b00",
+      "requireAuth_address": "0x101e9a0",
+      "public_prefix": {
+        "value": "/api/auth/",
+        "address": "0x13754d3",
+        "file_offset": 16209107,
+        "bytes": 10
+      },
+      "public_prefix_test_call": "0x101ea00",
+      "token_extraction_after_public_checks": "0x101ea60",
+      "JWT_check": "0x101ea80"
+    },
+    {
+      "id": "F4",
+      "kind": "http_response",
+      "finding": "The backdoor branch returns HTTP 200 with command output in captcha and an optional error field. A nonempty captcha without the 0x21 first byte returns a decoy captcha message with HTTP 200. Empty captcha continues ordinary credential handling.",
+      "output_key": {
+        "value": "captcha",
+        "address": "0x136e251",
+        "file_offset": 16179793,
+        "bytes": 7
+      },
+      "error_key": {
+        "value": "error",
+        "address": "0x1368ab2",
+        "file_offset": 16157362,
+        "bytes": 5
+      },
+      "decoy_value": {
+        "value": "验证码错误",
+        "address": "0x1381577",
+        "file_offset": 16258423,
+        "bytes": 15,
+        "go_string_header_address": "0x1e4a920",
+        "go_string_header_file_offset": 27568416
+      },
+      "backdoor_writeJSON_call": "0xf93260",
+      "decoy_writeJSON_call": "0xf932e4",
+      "limits": "Static control flow only. No request was submitted and no command was executed."
+    },
+    {
+      "id": "F5",
+      "kind": "embedded_asset_identity",
+      "finding": "The binary embeds 407 Go filesystem entries with 9,798,807 logical bytes. Every non-directory compiler hash was verified. The known UI build ID is present. Its favicon matches the already cataloged upstream asset and remains a shared software fingerprint.",
+      "entry_count": 407,
+      "total_logical_bytes": 9798807,
+      "build_id": "3aC1db3gGU08O4UHbAt4J",
+      "build_id_raw_occurrences": 123,
+      "build_id_embedded_members": 279,
+      "selected_assets": [
+        {
+          "name": "webui/dist/favicon.ico",
+          "embedded_entry_va": "0x1e893b8",
+          "embedded_entry_file_offset": 27825080,
+          "content_va": "0x146b260",
+          "content_file_offset": 17216096,
+          "bytes": 15086,
+          "sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+          "stored_embed_hash16": "ffc8969dd4048d7d219cbcafa26b94d1",
+          "embed_hash_verified": true,
+          "is_directory": false,
+          "selected_markers": [],
+          "embed_hash_method": "compilerSHA256prefix01_truncated16"
+        },
+        {
+          "name": "webui/dist/index.html",
+          "embedded_entry_va": "0x1e89448",
+          "embedded_entry_file_offset": 27825224,
+          "content_va": "0x1467880",
+          "content_file_offset": 17201280,
+          "bytes": 14815,
+          "sha256": "997acb02b4ffe828894edc01e51ecbc04fa83ed31505515c803196fe891f0bb9",
+          "stored_embed_hash16": "f2570fb9656a89c3e676d0aa829531c3",
+          "embed_hash_verified": true,
+          "is_directory": false,
+          "selected_markers": [
+            {
+              "value": "3aC1db3gGU08O4UHbAt4J",
+              "member_byte_offset": 8636,
+              "original_file_offset": 17209916
+            },
+            {
+              "value": "ARTEX",
+              "member_byte_offset": 1110,
+              "original_file_offset": 17202390
+            }
+          ],
+          "embed_hash_method": "compilerSHA256prefix01_truncated16"
+        }
+      ],
+      "benign_control": {
+        "favicon_sha256": "8b567c0244f2dbee787165aea9c4ddabaaafb0fdb3b29899ac898c60a589856b",
+        "known_catalog_record": "AR-9975D4600EF2",
+        "upstream_url": "https://github.com/BaaRai/ARTEX/blob/81eab87d166dddfc0d8be2707eadec788b61be0d/web/src/app/favicon.ico",
+        "meaning": "The favicon matches the existing upstream asset; it is not specific to the backdoor."
+      }
+    },
+    {
+      "id": "F6",
+      "kind": "configuration_boundary",
+      "finding": "config.Path consults an environment override and config.json paths. config.Load reads a file and JSON-unmarshals it. The binary alone does not reveal the deployed operator configuration.",
+      "environment_override": {
+        "value": "ARTEX_CONFIG",
+        "address": "0x137a2a3",
+        "file_offset": 16229027,
+        "bytes": 12
+      },
+      "config_filename": {
+        "value": "config.json",
+        "address": "0x1377945",
+        "file_offset": 16218437,
+        "bytes": 11
+      },
+      "Load_address": "0x82aca0",
+      "Path_address": "0x82aa60",
+      "limits": "No new malicious C2 address, IP or deployed credential was established. Runtime deployment state, network activity, UID/root status, actor and victim attribution remain unobserved."
+    }
+  ],
+  "tools": "Local Go metadata reader, pyelftools, Capstone and Ghidra 12.1.4 with its Go compiler specification and automatic analysis disabled. No target execution.",
+  "negative_controls": [
+    "The embedded favicon matches the existing 15,086-byte upstream asset and is not specific to the backdoor.",
+    "A captcha word in an embedded UI chunk occurs in illustrative demo command text for admin.acme.com. It was excluded as a network IOC and as evidence of execution.",
+    "Shared library URLs, example domains, configuration keys and UI assets were not promoted to malicious endpoints."
+  ],
+  "limitations": [
+    "No target execution, controller launch, candidate DNS/HTTP/TLS contact, scan or submission.",
+    "The ELF does not establish root UID; commands use the service process identity.",
+    "Operator, actor, victim and current operation were not independently observed.",
+    "Raw binary/ZIP, source copies, pseudocode/ASM and decompiler projects remain private."
+  ],
+  "independent_peer_review": "Independent review recomputed the sample SHA256 and size, mapped original ELF addresses and checked the shell arguments, direct calls, database prerequisite and captcha branch against fresh Capstone decoding. Full 407-entry compiler-hash inventory remains private."
+}

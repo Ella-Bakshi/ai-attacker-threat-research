@@ -1,0 +1,41 @@
+{
+  "reviewed_at_utc": "2026-11-21T05:56:39.130227+00:00",
+  "new_canonical_memberships": 559,
+  "new_master_values": 500,
+  "existing_master_value_memberships": 59,
+  "classes": {
+    "sourced-iocs": 50,
+    "software-fingerprints": 17,
+    "shared-services-and-generic-markers": 11,
+    "report-artifact-observables": 118,
+    "deployment-leads": 38,
+    "campaign-context": 248,
+    "sample-derived-observables": 77
+  },
+  "canonical_records": 13947,
+  "compact_records": 13717,
+  "master_values": 17361,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5071,
+    "historical_provider": 8340,
+    "artifact_supported": 501,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "new_exact_source_backed_script_artifacts": 10,
+  "new_exact_source_backed_package_archives": 9,
+  "new_exact_trojanized_ARTEX_artifacts": 1,
+  "new_exact_CyberStrikeAI_campaign_artifacts": 0,
+  "trojanized_ARTEX_selected_functions_reconstructed": 13,
+  "trojanized_ARTEX_embedded_UI_entries_checked": 407,
+  "scope": "Append-only reviewed source/software/artifact evidence; exact ARTEX backdoor statically confirmed with database prerequisite; no current-operation or blanket maliciousness claim.",
+  "own_memberships": 82,
+  "external_memberships": 477,
+  "own_evidence_scope": "Eight exact ARTEX artifact/native/software memberships,38 exact LeadStack package/configuration memberships and36 exact PHP2Shell script memberships. Public artifact analysis, not owned-sensor telemetry; separate campaign associations retained.",
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 14,
+  "tool_identities_total": 57
+}

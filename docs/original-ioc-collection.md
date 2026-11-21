@@ -1,6 +1,6 @@
 # Collecting our own indicators
 
-Reviewed 15 November 2026. An original finding needs its own evidence chain. A larger enriched IP list is not evidence of more malicious infrastructure.
+Reviewed 21 November 2026. An original finding needs its own evidence chain. A larger enriched IP list is not evidence of more malicious infrastructure.
 
 | Work performed | Provenance | Supported claim |
 |---|---|---|
@@ -42,3 +42,9 @@ The [PEAK documentation approach](https://dispatch.thorcollective.com/p/the-peak
 [Splunk's PEAK deliverables guidance](https://www.splunk.com/en_us/blog/security/key-threat-hunting-deliverables-with-peak.html) treats evidence gaps, revised detections and future hunt questions as useful results alongside incidents. We preserve negative results and concrete next steps. A finite signature match can verify a reference-byte observation while production detection efficacy remains experimental.
 
 For additional samples, the decision sequence is: verify the source-to-artifact hash bridge; inspect exact bytes offline; prove that a URL is a configured request argument; compare specific code lineage with finite controls; review independently; deduplicate against every indexed record and the master. Report new values, corroborations, corrections and unresolved relationships separately. Aggregation continues in parallel and keeps its external origin.
+
+## 21 November evidence and next collection steps
+
+The [exact trojanized ARTEX review](../research/analyst-derived/2026-11-21-artex-trojanized-artifact/README.md) independently verifies the backdoor in acquired bytes and preserves its database prerequisite. It is a reproducible static finding from a public artifact, not telemetry from an owned sensor. [Nine npm archives](../research/analyst-derived/2026-11-21-leadstack-exact-artifacts/README.md) and [ten source-backed campaign scripts](../research/analyst-derived/2026-11-21-socradar-exact-artifacts/README.md) add separate exact-byte derivations without ARTEX/CyberStrikeAI attribution.
+
+The [expanded source and methods directory](research-source-directory.md) adds canary studies, puzzle-based observation, version-controlled source analysis and newer research papers, with false-positive and availability limits. An owned sensor still needs dedicated isolated hosting/domain, logging, restricted egress and retention/redaction decisions. A scanner contact, client string or solved puzzle stays a lead until session/artifact evidence supports the software and role. No sensor has been deployed, cloud bait keys created, messages relayed or payloads executed in this run. Aggregation continues alongside artifact analysis.

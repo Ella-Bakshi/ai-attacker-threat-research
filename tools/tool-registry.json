@@ -125,6 +125,38 @@
           "https://github.com/jiwoochris/artex-global/releases/tag/v0.3.15-global.1"
         ],
         "reviewed_at_utc": "2026-11-16T17:28:03.989317+00:00"
+      },
+      {
+        "resource_id": "bcyw--artex",
+        "repository": "https://github.com/bcyw/ARTEX",
+        "repository_id": 1463970432,
+        "pinned_revision": "47770f3c4038c9b794937ccc4b2d295b57de2f57",
+        "scope": "Self-maintained ARTEX derivative. Pinned README explicitly reports SQLite migration, removal of programmatic asset-scope gates, changed updater origin and own v1+ numbering.",
+        "identity_qualification": "README describes derivation through jaykwok/ARTEX from original Autumn-27 ARTEX v0.3.15 e6ec56999175509551a1e43a3ee3b053d0941bd9. GitHub fork=false is recorded and does not negate documented code heritage. No byte-for-byte full-lineage comparison completed.",
+        "license": "AGPL-3.0",
+        "license_qualification": "Complete pinned AGPL v3 root license reviewed; README additionally states restrictive usage declarations. No legal compatibility conclusion drawn.",
+        "evidence": [
+          "https://github.com/bcyw/ARTEX/blob/47770f3c4038c9b794937ccc4b2d295b57de2f57/README.md#L13-L27",
+          "https://github.com/bcyw/ARTEX/blob/47770f3c4038c9b794937ccc4b2d295b57de2f57/LICENSE",
+          "https://x.com/CyhawkAfrica/status/2123388732388544683"
+        ],
+        "documentation_identity": {
+          "sha256": "452ff38c83a4c4c23c1e0dce8c3f44a2818c5a7ba7132656a02deae16f486317",
+          "git_blob_sha1": "10bbf8a9de699b1e1619ed7c0ca5b9e2f7821d07",
+          "bytes": 30516,
+          "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+        },
+        "license_identity": {
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+          "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+          "bytes": 34523,
+          "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+        },
+        "release_status": "No GitHub release objects in reviewed collection despite README describing v1+ independent versioning and Releases links. Do not invent a published release.",
+        "observed_abuse": "not_established_for_this_derivative",
+        "static_review_qualification": "CyHawk original post explicitly reports static analysis only and no proof of deployment or confirmed attacks. Its recovered body does not itself name bcyw; repository linkage comes from the supplied discovery timeline plus repository source.",
+        "new_network_iocs": 0,
+        "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
       }
     ]
   },
@@ -150,10 +182,10 @@
     "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
     "license_source_url": "https://github.com/AIPentest/CyberStrikeAI/blob/b43bdb991c3bee4f433cd1a0a370a90c4e24241e/LICENSE",
     "latest_release": {
-      "name": "",
-      "tag_name": "v1.8.0",
-      "published_at": "2026-11-13T11:43:32Z",
-      "html_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0",
+      "name": "v1.8.1",
+      "tag_name": "v1.8.1",
+      "published_at": "2026-11-19T08:47:08Z",
+      "html_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.1",
       "prerelease": false,
       "draft": false
     },
@@ -229,12 +261,22 @@
     "tool_id": "aipentest--cyberstrikeai",
     "source_identification_hypotheses": [],
     "release_review": {
-      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
-      "source_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0",
-      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
-      "maintainer_reported_changes": "Maintainer reports migration to the Pi engine and changes to session, retest and model-context handling.",
-      "retrieved_at_utc": "2026-11-15T09:38:07.946Z"
-    }
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+      "source_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.1",
+      "scope": "Latest stable-release metadata only. Earlier pinned source revisions and fingerprint evidence remain historical; no campaign or deployed-version inference.",
+      "maintainer_reported_changes": "Maintainer describes Pi gateway/model compatibility, incomplete-run reporting, vulnerability timestamps/pagination, frontend consistency and task/process-group cleanup changes. Not executed or independently security validated.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Metadata retrieved through connector during21November2026review; transport timestamp unavailable."
+    },
+    "release_review_history": [
+      {
+        "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+        "source_url": "https://github.com/AIPentest/CyberStrikeAI/releases/tag/v1.8.0",
+        "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+        "maintainer_reported_changes": "Maintainer reports migration to the Pi engine and changes to session, retest and model-context handling.",
+        "retrieved_at_utc": "2026-11-15T09:38:07.946Z"
+      }
+    ]
   },
   {
     "name": "PentAGI",
@@ -4078,5 +4120,1566 @@
         "statement": "A verified additional project identity, not a new public discovery or a newly proven hostile deployment."
       }
     ]
+  },
+  {
+    "name": "Antares",
+    "aliases": [
+      "Antares AI pentest agent"
+    ],
+    "category": "self-hosted-ai-security-agent-and-assistant",
+    "what_it_does_reported": "Maintainer-described Go agent workspace with specialist security roles, browser and shell tools, evidence/reporting, memory/RAG and scoped assessment workflows.",
+    "capability_validation": "Pinned maintainer source/documentation and repository metadata inspected only; no install, setup hooks, controller, payload, tool or benchmark executed.",
+    "ai_feature_assessment": "LLM planning and security-tool orchestration described by its maintainers/authors. Capability, an authorization label and model choice do not establish malicious use.",
+    "official_repository": "https://github.com/enowdev/antares",
+    "repository_full_name": "enowdev/antares",
+    "upstream_identity_qualification": "Owning repository metadata and pinned source/license reviewed. Linked components are resources rather than additional indexed identities.",
+    "pinned_revision": "bde4d8e67721f5d7b18205e8850575b0c425224e",
+    "last_activity_utc": "2026-11-14T11:42:02Z",
+    "last_activity_meaning": "GitHub-displayed default-branch committer time; not deployment, release publication, victim activity or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-14T11:42:05Z",
+    "repository_created_at_utc": "2026-07-27T03:35:41Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Pinned complete root license inspected; terms apply to the reviewed repository, not automatically to linked models, third-party components or every fork.",
+    "license_source_url": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/LICENSE",
+    "latest_release": {
+      "name": "v0.8.0",
+      "tag_name": "v0.8.0",
+      "published_at": "2026-11-14T11:51:27Z",
+      "html_url": "https://github.com/enowdev/antares/releases/tag/v0.8.0",
+      "prerelease": false,
+      "draft": false
+    },
+    "lifecycle_stage": "Early public release",
+    "lifecycle_basis": "README explicitly calls this an early release; stable-tag metadata is not a maturity, scope-enforcement or security validation.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/README.md",
+        "statement": "Newly indexed21November2026; repository/paper/release dates remain their original historical dates. No global first-discovery or newly launched claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/LICENSE"
+      },
+      {
+        "kind": "latest-release-metadata",
+        "url": "https://github.com/enowdev/antares/releases/tag/v0.8.0"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-text-identity",
+        "source_url": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/README.md",
+        "sha256": "8597768302fbdd48f6f3c40975d845c6721b5dc0f95c225db995959b4a372e60",
+        "bytes": 21916,
+        "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime detection, malicious IOC, service census or empirically validated network fingerprint added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "No admissible incident-to-exact-revision or malware-artifact relationship established in the bounded sources reviewed; this is not a claim that abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software registry context only; zero malicious IOCs or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/enowdev/antares",
+      "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/README.md",
+      "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/LICENSE",
+      "https://github.com/enowdev/antares/releases/tag/v0.8.0"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "enowdev--antares",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, source-described features, license and release classification only.",
+      "evidence_locator": "README.md:33-66,260-345,467 onward",
+      "source_commit": "bde4d8e67721f5d7b18205e8850575b0c425224e",
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "6a9eeadc42b9c382facd3ff9ae56b236b4dbecb12ce5ead5a47a97104562aa7f",
+      "bytes": 11327,
+      "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/README.md",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "README.md:33-66,260-345,467 onward"
+      },
+      {
+        "url": "https://github.com/enowdev/antares/blob/bde4d8e67721f5d7b18205e8850575b0c425224e/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Complete root license"
+      }
+    ]
+  },
+  {
+    "name": "PentestAgent (research implementation)",
+    "aliases": [
+      "PentestAgent",
+      "pentest-agent",
+      "PentestAgent AsiaCCS2025"
+    ],
+    "category": "research-multi-agent-penetration-testing",
+    "what_it_does_reported": "Research implementation separating reconnaissance, planning and execution agents for intelligence gathering, vulnerability analysis and exploitation.",
+    "capability_validation": "Pinned maintainer source/documentation and repository metadata inspected only; no install, setup hooks, controller, payload, tool or benchmark executed.",
+    "ai_feature_assessment": "LLM planning and security-tool orchestration described by its maintainers/authors. Capability, an authorization label and model choice do not establish malicious use.",
+    "official_repository": "https://github.com/nbshenxm/pentest-agent",
+    "repository_full_name": "nbshenxm/pentest-agent",
+    "upstream_identity_qualification": "Owning repository metadata and pinned source/license reviewed. Author-paper name and author identity agree with repository documentation; similarly named projects remain separate.",
+    "pinned_revision": "97ac5be7ba47377b235a7eebe64d53539084d229",
+    "last_activity_utc": "2025-12-20T12:46:12Z",
+    "last_activity_meaning": "GitHub-displayed default-branch committer time; not deployment, release publication, victim activity or independent timestamp attestation.",
+    "repository_last_push_utc": "2025-12-20T12:46:13Z",
+    "repository_created_at_utc": "2025-02-09T04:49:29Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Pinned complete root license inspected; terms apply to the reviewed repository, not automatically to linked models, third-party components or every fork.",
+    "license_source_url": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "Published research implementation",
+    "lifecycle_basis": "Repository README cites the PentestAgent paper and says evaluation updates remain in progress. This is distinct from GH05TCREW/PentestAgent.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/README.md",
+        "statement": "Newly indexed21November2026; repository/paper/release dates remain their original historical dates. No global first-discovery or newly launched claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/LICENSE"
+      },
+      {
+        "kind": "author-paper",
+        "url": "https://arxiv.org/abs/2411.05185"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-text-identity",
+        "source_url": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/README.md",
+        "sha256": "3431dbeb17bbf23d8abbfe8b577e91f17ea9536b0ba98619a324fb7c7c2f72c6",
+        "bytes": 6414,
+        "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime detection, malicious IOC, service census or empirically validated network fingerprint added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "No admissible incident-to-exact-revision or malware-artifact relationship established in the bounded sources reviewed; this is not a claim that abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software registry context only; zero malicious IOCs or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/nbshenxm/pentest-agent",
+      "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/README.md",
+      "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/LICENSE",
+      "https://arxiv.org/abs/2411.05185"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "nbshenxm--pentest-agent",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, source-described features, license and release classification only.",
+      "evidence_locator": "README.md:3-15 and benchmark/evaluation section",
+      "source_commit": "97ac5be7ba47377b235a7eebe64d53539084d229",
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "137a39a170961fc6096fba74291a3b7c6d07f085c542dabed134229779f826be",
+      "bytes": 1070,
+      "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/README.md",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "README.md:3-15 and benchmark/evaluation section"
+      },
+      {
+        "url": "https://github.com/nbshenxm/pentest-agent/blob/97ac5be7ba47377b235a7eebe64d53539084d229/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Complete root license"
+      },
+      {
+        "url": "https://arxiv.org/abs/2411.05185",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Owning repository/author metadata"
+      }
+    ]
+  },
+  {
+    "name": "VulnBot",
+    "aliases": [
+      "VulnBot multi-agent collaborative framework"
+    ],
+    "category": "research-multi-agent-penetration-testing",
+    "what_it_does_reported": "Research framework using LLM-coordinated reconnaissance, scanning and exploitation phases, task planning and optional retrieval augmentation.",
+    "capability_validation": "Pinned maintainer source/documentation and repository metadata inspected only; no install, setup hooks, controller, payload, tool or benchmark executed.",
+    "ai_feature_assessment": "LLM planning and security-tool orchestration described by its maintainers/authors. Capability, an authorization label and model choice do not establish malicious use.",
+    "official_repository": "https://github.com/KHenryAegis/VulnBot",
+    "repository_full_name": "KHenryAegis/VulnBot",
+    "upstream_identity_qualification": "Owning repository metadata and pinned source/license reviewed. Author-paper name and author identity agree with repository documentation; similarly named projects remain separate.",
+    "pinned_revision": "9a12effa43e265e7278d678b3cd42037d0fecac6",
+    "last_activity_utc": "2026-11-08T04:26:37Z",
+    "last_activity_meaning": "GitHub-displayed default-branch committer time; not deployment, release publication, victim activity or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-08T04:31:48Z",
+    "repository_created_at_utc": "2025-01-20T06:37:25Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Pinned complete root license inspected; terms apply to the reviewed repository, not automatically to linked models, third-party components or every fork.",
+    "license_source_url": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "Published research implementation",
+    "lifecycle_basis": "Pinned README and author paper identify the project; no tagged GitHub releases were present. Paper benchmark results were not reproduced.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/README.md",
+        "statement": "Newly indexed21November2026; repository/paper/release dates remain their original historical dates. No global first-discovery or newly launched claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/LICENSE"
+      },
+      {
+        "kind": "author-paper",
+        "url": "https://arxiv.org/abs/2501.13411"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-text-identity",
+        "source_url": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/README.md",
+        "sha256": "5f5e1b6818002c3d61f1edc2e0224c5ad76bb74437186928ca2adc387c3cb91d",
+        "bytes": 3231,
+        "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime detection, malicious IOC, service census or empirically validated network fingerprint added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "No admissible incident-to-exact-revision or malware-artifact relationship established in the bounded sources reviewed; this is not a claim that abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software registry context only; zero malicious IOCs or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/KHenryAegis/VulnBot",
+      "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/README.md",
+      "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/LICENSE",
+      "https://arxiv.org/abs/2501.13411"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "khenryaegis--vulnbot",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, source-described features, license and release classification only.",
+      "evidence_locator": "README.md:1-32 and Citation section",
+      "source_commit": "9a12effa43e265e7278d678b3cd42037d0fecac6",
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "cae5974b1f6203aedc5d65c8fe75e74c8444e0ad0fa983a1aaaafe36925e288d",
+      "bytes": 1064,
+      "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/README.md",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "README.md:1-32 and Citation section"
+      },
+      {
+        "url": "https://github.com/KHenryAegis/VulnBot/blob/9a12effa43e265e7278d678b3cd42037d0fecac6/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Complete root license"
+      },
+      {
+        "url": "https://arxiv.org/abs/2501.13411",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Owning repository/author metadata"
+      }
+    ]
+  },
+  {
+    "name": "AutoPentester",
+    "aliases": [
+      "AutoPentester TrustCom2025"
+    ],
+    "category": "research-llm-pentesting-framework",
+    "what_it_does_reported": "LLM agent research framework for iterative pentesting with configurable model providers, retrieval augmentation and repeated-result handling.",
+    "capability_validation": "Pinned maintainer source/documentation and repository metadata inspected only; no install, setup hooks, controller, payload, tool or benchmark executed.",
+    "ai_feature_assessment": "LLM planning and security-tool orchestration described by its maintainers/authors. Capability, an authorization label and model choice do not establish malicious use.",
+    "official_repository": "https://github.com/YasodGinige/AutoPentester",
+    "repository_full_name": "YasodGinige/AutoPentester",
+    "upstream_identity_qualification": "Owning repository metadata and pinned source/license reviewed. Author-paper name and author identity agree with repository documentation; similarly named projects remain separate.",
+    "pinned_revision": "a4407ed391092b1e602f8948abb8650ba0792242",
+    "last_activity_utc": "2026-09-25T03:56:13Z",
+    "last_activity_meaning": "GitHub-displayed default-branch committer time; not deployment, release publication, victim activity or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-09-25T03:57:25Z",
+    "repository_created_at_utc": "2024-06-17T07:56:26Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Pinned complete root license inspected; terms apply to the reviewed repository, not automatically to linked models, third-party components or every fork. LICENSE.md retains the Grey_D 2023 MIT notice; README badge alone was not relied on.",
+    "license_source_url": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/LICENSE.md",
+    "latest_release": null,
+    "lifecycle_stage": "Published research implementation with inherited package heritage",
+    "lifecycle_basis": "Pinned source retains a pentestgpt package and Grey_D MIT notice. This indicates package/license heritage, not an independent verification of every code-lineage claim or benchmark.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/README.md",
+        "statement": "Newly indexed21November2026; repository/paper/release dates remain their original historical dates. No global first-discovery or newly launched claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/LICENSE.md"
+      },
+      {
+        "kind": "author-paper",
+        "url": "https://arxiv.org/abs/2510.05605"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-text-identity",
+        "source_url": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/README.md",
+        "sha256": "13290ff31adda861397e050281bd59d2d2b978092d8a0751e9cb2432321e1abd",
+        "bytes": 3579,
+        "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime detection, malicious IOC, service census or empirically validated network fingerprint added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "No admissible incident-to-exact-revision or malware-artifact relationship established in the bounded sources reviewed; this is not a claim that abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software registry context only; zero malicious IOCs or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/YasodGinige/AutoPentester",
+      "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/README.md",
+      "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/LICENSE.md",
+      "https://arxiv.org/abs/2510.05605"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "yasodginige--autopentester",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, source-described features, license and release classification only.",
+      "evidence_locator": "README.md:1-15,provider configuration and Citations; LICENSE.md:1-21",
+      "source_commit": "a4407ed391092b1e602f8948abb8650ba0792242",
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "980fb30b5ba64d63bf64e774924402aa99f87cf222f72d28dd4ec9530cbcca25",
+      "bytes": 1063,
+      "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/README.md",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "README.md:1-15,provider configuration and Citations; LICENSE.md:1-21"
+      },
+      {
+        "url": "https://github.com/YasodGinige/AutoPentester/blob/a4407ed391092b1e602f8948abb8650ba0792242/LICENSE.md",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Complete root license"
+      },
+      {
+        "url": "https://arxiv.org/abs/2510.05605",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Owning repository/author metadata"
+      }
+    ]
+  },
+  {
+    "name": "MAPTA",
+    "aliases": [
+      "Multi-Agent Penetration Testing AI for the Web"
+    ],
+    "category": "research-multi-agent-web-security-assessment",
+    "what_it_does_reported": "Author-described multi-agent web application assessment with tool-grounded sandbox execution and a separate validation agent.",
+    "capability_validation": "Pinned maintainer source/documentation and repository metadata inspected only; no install, setup hooks, controller, payload, tool or benchmark executed.",
+    "ai_feature_assessment": "LLM planning and security-tool orchestration described by its maintainers/authors. Capability, an authorization label and model choice do not establish malicious use.",
+    "official_repository": "https://github.com/arthurgervais/mapta",
+    "repository_full_name": "arthurgervais/mapta",
+    "upstream_identity_qualification": "Owning repository metadata and pinned source/license reviewed. Author-paper name and author identity agree with repository documentation; similarly named projects remain separate.",
+    "pinned_revision": "0c167b86aedeb4f27745a84a8f7324518b0c960a",
+    "last_activity_utc": "2025-08-28T13:58:37Z",
+    "last_activity_meaning": "GitHub-displayed default-branch committer time; not deployment, release publication, victim activity or independent timestamp attestation.",
+    "repository_last_push_utc": "2025-08-28T13:58:42Z",
+    "repository_created_at_utc": "2025-08-28T13:55:09Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Pinned complete root license inspected; terms apply to the reviewed repository, not automatically to linked models, third-party components or every fork.",
+    "license_source_url": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "Research source snapshot",
+    "lifecycle_basis": "Full334-entrytree has noREADME; source main.py contains sandbox/validator agent routines. Runtime dependency completeness and benchmark claims remain unvalidated.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/main.py",
+        "statement": "Newly indexed21November2026; repository/paper/release dates remain their original historical dates. No global first-discovery or newly launched claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-source",
+        "url": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/main.py"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/LICENSE"
+      },
+      {
+        "kind": "author-paper",
+        "url": "https://arxiv.org/abs/2508.20816"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "source-text-identity",
+        "source_url": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/main.py",
+        "sha256": "ca65f7e688c70b8fca4445b8e769d616a870deb7341ea5ab4f648a0cbc5361b8",
+        "bytes": 39495,
+        "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime detection, malicious IOC, service census or empirically validated network fingerprint added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "No admissible incident-to-exact-revision or malware-artifact relationship established in the bounded sources reviewed; this is not a claim that abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software registry context only; zero malicious IOCs or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/arthurgervais/mapta",
+      "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/main.py",
+      "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/LICENSE",
+      "https://arxiv.org/abs/2508.20816"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "arthurgervais--mapta",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, source-described features, license and release classification only.",
+      "evidence_locator": "main.py:508(run_sandbox_agent),592(run_validator_agent),952(run_single_target_scan); author-owned repository description; LICENSE",
+      "source_commit": "0c167b86aedeb4f27745a84a8f7324518b0c960a",
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "72d575fbb761fa52820a4aaa670089c60e5d7beb88819b084f648fe4bab208ad",
+      "bytes": 1071,
+      "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/main.py",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "main.py:508(run_sandbox_agent),592(run_validator_agent),952(run_single_target_scan); author-owned repository description; LICENSE"
+      },
+      {
+        "url": "https://github.com/arthurgervais/mapta/blob/0c167b86aedeb4f27745a84a8f7324518b0c960a/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Complete root license"
+      },
+      {
+        "url": "https://arxiv.org/abs/2508.20816",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Owning repository/author metadata"
+      }
+    ]
+  },
+  {
+    "name": "BugTraceAI",
+    "aliases": [
+      "BugTraceAI suite"
+    ],
+    "category": "multi-component-ai-web-api-security-suite",
+    "what_it_does_reported": "Maintainer-documented suite linking autonomous web/API assessment engines, an analyst dashboard, REST/MCP integrations and model resources.",
+    "capability_validation": "Pinned maintainer source/documentation and repository metadata inspected only; no install, setup hooks, controller, payload, tool or benchmark executed.",
+    "ai_feature_assessment": "LLM planning and security-tool orchestration described by its maintainers/authors. Capability, an authorization label and model choice do not establish malicious use.",
+    "official_repository": "https://github.com/BugTraceAI/BugTraceAI",
+    "repository_full_name": "BugTraceAI/BugTraceAI",
+    "upstream_identity_qualification": "Owning repository metadata and pinned source/license reviewed. Linked components are resources rather than additional indexed identities.",
+    "pinned_revision": "016697fb84b076c6fe1d5f8d582d341dcf53766f",
+    "last_activity_utc": "2026-10-19T10:28:01Z",
+    "last_activity_meaning": "GitHub-displayed default-branch committer time; not deployment, release publication, victim activity or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-10-19T10:29:25Z",
+    "repository_created_at_utc": "2026-02-11T21:11:57Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Pinned complete root license inspected; terms apply to the reviewed repository, not automatically to linked models, third-party components or every fork.",
+    "license_source_url": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/LICENSE",
+    "latest_release": {
+      "name": "Demo Report — BugStore Scan",
+      "tag_name": "demo-report",
+      "published_at": "2026-02-18T18:34:49Z",
+      "html_url": "https://github.com/BugTraceAI/BugTraceAI/releases/tag/demo-report",
+      "prerelease": false,
+      "draft": false,
+      "asset_scope": "Demonstration report ZIP, not a software release/version."
+    },
+    "lifecycle_stage": "Documented multi-component suite with beta components",
+    "lifecycle_basis": "Owning umbrella repository links separately deployable CLI/API/WEB/Launcher components. Its latest release asset is a demo report, not a software version; component releases and licenses were not independently exhaustively reviewed.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry historical backfill",
+        "evidence": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/README.md",
+        "statement": "Newly indexed21November2026; repository/paper/release dates remain their original historical dates. No global first-discovery or newly launched claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/LICENSE"
+      },
+      {
+        "kind": "latest-release-metadata",
+        "url": "https://github.com/BugTraceAI/BugTraceAI/releases/tag/demo-report"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-text-identity",
+        "source_url": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/README.md",
+        "sha256": "a1addf3b0af7ceb4d5158eb62bedd99da3079447bd0691cd4b7e26e47186cbbe",
+        "bytes": 22800,
+        "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No runtime detection, malicious IOC, service census or empirically validated network fingerprint added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "No admissible incident-to-exact-revision or malware-artifact relationship established in the bounded sources reviewed; this is not a claim that abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software registry context only; zero malicious IOCs or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/BugTraceAI/BugTraceAI",
+      "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/README.md",
+      "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/LICENSE",
+      "https://github.com/BugTraceAI/BugTraceAI/releases/tag/demo-report"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "bugtraceai--bugtraceai",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, source-described features, license and release classification only.",
+      "evidence_locator": "README.md:28-40,133-147,209-245",
+      "source_commit": "016697fb84b076c6fe1d5f8d582d341dcf53766f",
+      "reviewed_at_utc": "2026-11-21T05:15:46.519062+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "identity_scope": "Connector-decoded UTF8 source/documentation identity; not a malicious-file hash or runtime deployment detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/README.md",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "README.md:28-40,133-147,209-245"
+      },
+      {
+        "url": "https://github.com/BugTraceAI/BugTraceAI/blob/016697fb84b076c6fe1d5f8d582d341dcf53766f/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:15:46.519062+00:00",
+        "retrieval_time_scope": "Connector transport timestamps are not exposed. Source text persisted during21November2026review; review completion is not an attack time.",
+        "evidence_locator": "Complete root license"
+      }
+    ]
+  },
+  {
+    "name": "Pentest Anything",
+    "aliases": [
+      "PTA",
+      "Pentest-Anything"
+    ],
+    "category": "mcp-cli-security-scanner-orchestration",
+    "what_it_does_reported": "Maintainer-described MCP server and CLI orchestrating Semgrep, Trivy, SQLMap and Nuclei, with local authorization scope, evidence and result handling.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "The agent client and optional AI support are distinct from the orchestrated signature scanners. Scope enforcement and safety guarantees remain maintainer claims; README notes shell-access and DNS-rebinding limitations.",
+    "official_repository": "https://github.com/SammyYohan/Pentest-Anything",
+    "repository_full_name": "SammyYohan/Pentest-Anything",
+    "repository_id": 1441613292,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "6dc78fa718619f299fcb72413266fff2f4811941",
+    "last_activity_utc": "2026-11-17T07:27:36Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-17T07:27:50Z",
+    "repository_created_at_utc": "2026-11-01T09:14:05Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/LICENSE",
+    "latest_release": {
+      "name": "PTA 2.6.0",
+      "tag_name": "v2.6.0",
+      "published_at": "2026-11-17T07:28:46Z",
+      "html_url": "https://github.com/SammyYohan/Pentest-Anything/releases/tag/v2.6.0",
+      "prerelease": false,
+      "draft": false
+    },
+    "lifecycle_stage": "Released scanner orchestrator; v2.6.0 published 17 November 2026.",
+    "lifecycle_basis": "The agent client and optional AI support are distinct from the orchestrated signature scanners. Scope enforcement and safety guarantees remain maintainer claims; README notes shell-access and DNS-rebinding limitations.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/LICENSE"
+      },
+      {
+        "kind": "release-metadata",
+        "url": "https://github.com/SammyYohan/Pentest-Anything/releases/tag/v2.6.0"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/README.md",
+        "sha256": "325f5cce75b8a89e7075264fa90587c74a6a13eb976a5f878aa2793c9fe43ea3",
+        "git_blob_sha1": "502ec63cb93c73a27b4bc34a931867a5f2bf79b7",
+        "bytes": 25349,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/SammyYohan/Pentest-Anything",
+      "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/README.md",
+      "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/LICENSE",
+      "https://github.com/SammyYohan/Pentest-Anything/releases/tag/v2.6.0"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "sammyyohan--pentest-anything",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:Highlights, Protections, Limits, Supporting PTA",
+      "source_commit": "6dc78fa718619f299fcb72413266fff2f4811941",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "382fc84b5516cc2d2d44394201b664260a25c359ac3186c445a02b00c8737867",
+      "git_blob_sha1": "d2425e9aa72ef2056b8b957261946515692870cf",
+      "bytes": 1072,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:Highlights, Protections, Limits, Supporting PTA"
+      },
+      {
+        "url": "https://github.com/SammyYohan/Pentest-Anything/blob/6dc78fa718619f299fcb72413266fff2f4811941/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "Spider",
+    "aliases": [
+      "Spider Claude Code skills"
+    ],
+    "category": "security-coding-agent-prompt-and-skill-harness",
+    "what_it_does_reported": "Maintainer-described Claude Code prompt/skill harness coordinating reconnaissance, assessment, verification and reporting agents with shared engagement memory.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "README performance, payout and zero-false-positive statements are unverified author claims. The complete root MIT license includes a notice that tools provisioned later retain their own licenses; GitHub metadata NOASSERTION was not used as the license conclusion.",
+    "official_repository": "https://github.com/xdisform/Spider",
+    "repository_full_name": "xdisform/Spider",
+    "repository_id": 1450296338,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "db1a743c8d66fdefa751f5953f3f774531e90f8f",
+    "last_activity_utc": "2026-11-08T17:07:15Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-08T17:18:01Z",
+    "repository_created_at_utc": "2026-11-08T13:14:22Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. GitHub metadata says NOASSERTION; inspected text is MIT with an additional third-party notice.",
+    "license_source_url": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "Public source/prompt snapshot; no GitHub releases in the reviewed collection.",
+    "lifecycle_basis": "README performance, payout and zero-false-positive statements are unverified author claims. The complete root MIT license includes a notice that tools provisioned later retain their own licenses; GitHub metadata NOASSERTION was not used as the license conclusion.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/LICENSE"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/README.md",
+        "sha256": "5b1b5bff0e203ab47f7ef297c31fdc5b6fc685053d9a9cf2756212ff2eb8c2f6",
+        "git_blob_sha1": "8d8325dee6bdb598df8d61a315e90fcc5918d0b5",
+        "bytes": 10235,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/xdisform/Spider",
+      "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/README.md",
+      "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/LICENSE"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "xdisform--spider",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:27, Why Spider, The cycle, Layout; complete LICENSE",
+      "source_commit": "db1a743c8d66fdefa751f5953f3f774531e90f8f",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "f589e1174e0fd2fb466149d644f0205b1d0196f65536ace02d1ef1c76d71482d",
+      "git_blob_sha1": "407653e9448819c064993553ef1f94fc85f33995",
+      "bytes": 1277,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:27, Why Spider, The cycle, Layout; complete LICENSE"
+      },
+      {
+        "url": "https://github.com/xdisform/Spider/blob/db1a743c8d66fdefa751f5953f3f774531e90f8f/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "Zazy Pentest Plugin for Claude",
+    "aliases": [
+      "zazy-pentest",
+      "Zazy Claude Code plugin"
+    ],
+    "category": "security-coding-agent-plugin-and-skill-library",
+    "what_it_does_reported": "Maintainer-described Claude Code plugin for scoped security assessment, with prompt/skill libraries, a verification agent and recon-to-report commands.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "README skill counts, verifier effectiveness, scope guarantees and breadth claims are maintainer descriptions, not independently reproduced. It uses external execution backends and is not a separately validated model or scanner.",
+    "official_repository": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude",
+    "repository_full_name": "AnandJogawade/Zazy-Pentest-Plugin-for-Claude",
+    "repository_id": 1459950068,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "bbed10a77f6e973ac3670dfbefc9630afcc9b19f",
+    "last_activity_utc": "2026-11-16T17:40:04Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-16T17:40:05Z",
+    "repository_created_at_utc": "2026-11-16T11:50:06Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/LICENSE",
+    "latest_release": {
+      "name": "v1.1.0 - 318 skills, verifier agent, CI validation",
+      "tag_name": "v1.1.0",
+      "published_at": "2026-11-16T17:46:53Z",
+      "html_url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/releases/tag/v1.1.0",
+      "prerelease": false,
+      "draft": false
+    },
+    "lifecycle_stage": "Early public plugin release v1.1.0 published 16 November 2026.",
+    "lifecycle_basis": "README skill counts, verifier effectiveness, scope guarantees and breadth claims are maintainer descriptions, not independently reproduced. It uses external execution backends and is not a separately validated model or scanner.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/LICENSE"
+      },
+      {
+        "kind": "release-metadata",
+        "url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/releases/tag/v1.1.0"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/README.md",
+        "sha256": "c619b9bfdf2c3c7a078ebc8af8611bb3e61789a4ea939e9917f927ead39d4ba2",
+        "git_blob_sha1": "f0719cfd1bb574094353d43d7d7f29b5f6ac4867",
+        "bytes": 13424,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/AnandJogawade/Zazy-Pentest-Plugin-for-Claude",
+      "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/README.md",
+      "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/LICENSE",
+      "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/releases/tag/v1.1.0"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "anandjogawade--zazy-pentest-plugin-for-claude",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:Features, Categories, How it works, Tiering model, Requirements",
+      "source_commit": "bbed10a77f6e973ac3670dfbefc9630afcc9b19f",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "a844485fcecb57eb9c008580831c0ea0dfe9bf24e0cf03da13b738aff01f75a9",
+      "git_blob_sha1": "553a25111ffe8576ee9665c80b85535fb69148c8",
+      "bytes": 1078,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:Features, Categories, How it works, Tiering model, Requirements"
+      },
+      {
+        "url": "https://github.com/AnandJogawade/Zazy-Pentest-Plugin-for-Claude/blob/bbed10a77f6e973ac3670dfbefc9630afcc9b19f/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "AutoPentest (wooluo)",
+    "aliases": [
+      "wooluo AutoPentest",
+      "AutoPentest 自主渗透测试平台"
+    ],
+    "category": "ai-web-security-assessment-platform",
+    "what_it_does_reported": "Maintainer-described FastAPI/Vue platform coordinating recon, asset mapping, scanning, AI validation and reports with optional Kali SSH execution and DNSLog verification nodes.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "Distinct from YasodGinige/AutoPentester and similarly named projects. ScopeGuard, non-destructive validation and safety statements were read in documentation, without testing network enforcement or command confinement.",
+    "official_repository": "https://github.com/wooluo/AutoPentest",
+    "repository_full_name": "wooluo/AutoPentest",
+    "repository_id": 1461128487,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "54262e8a5645cc85cc84e86e694f45bb5f542ce4",
+    "last_activity_utc": "2026-11-21T01:08:25Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-21T01:08:28Z",
+    "repository_created_at_utc": "2026-11-17T08:34:00Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "New public repository created 17 November 2026; no GitHub releases present.",
+    "lifecycle_basis": "Distinct from YasodGinige/AutoPentester and similarly named projects. ScopeGuard, non-destructive validation and safety statements were read in documentation, without testing network enforcement or command confinement.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/LICENSE"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/README.md",
+        "sha256": "cd32f974bccf47c4766fdcb74f6a91d3b4bd668c6bfdcb0d9c7fa2299ee3b123",
+        "git_blob_sha1": "df1c948b485106747f72b7c9238745eac192dcfc",
+        "bytes": 7726,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/wooluo/AutoPentest",
+      "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/README.md",
+      "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/LICENSE"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "wooluo--autopentest",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:Architecture, Five-stage pipeline, Safety guardrails, Kali tools",
+      "source_commit": "54262e8a5645cc85cc84e86e694f45bb5f542ce4",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "6c182bd4f6d8c0aafb9c4bc44b4ec0acafca824d50ec35424782fc89abdf8802",
+      "git_blob_sha1": "41285c7856f1e524519be113f3f9f073e53d3456",
+      "bytes": 1063,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:Architecture, Five-stage pipeline, Safety guardrails, Kali tools"
+      },
+      {
+        "url": "https://github.com/wooluo/AutoPentest/blob/54262e8a5645cc85cc84e86e694f45bb5f542ce4/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "ARES (Mafifrizi)",
+    "aliases": [
+      "ARES red team engagement platform"
+    ],
+    "category": "operator-directed-security-validation-with-optional-ai",
+    "what_it_does_reported": "Maintainer-described self-hosted engagement platform with module orchestration, attack-path graphs, scope controls, encrypted evidence storage, reporting and optional authorized LLM planning/MCP access.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "Optional LLM planning does not make every run AI-driven. Distinct from dreadnode/ares. Module/test counts, security guarantees and production-readiness claims were not validated.",
+    "official_repository": "https://github.com/Mafifrizi/ARES",
+    "repository_full_name": "Mafifrizi/ARES",
+    "repository_id": 1276141044,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "369e7150b62352cdb809388ad32e9183775ae290",
+    "last_activity_utc": "2026-11-12T13:41:20Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-12T17:33:21Z",
+    "repository_created_at_utc": "2026-06-21T15:36:24Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/LICENSE",
+    "latest_release": {
+      "name": "v6.0.0",
+      "tag_name": "v6.0.0",
+      "published_at": "2026-06-22T13:02:25Z",
+      "html_url": "https://github.com/Mafifrizi/ARES/releases/tag/v6.0.0",
+      "prerelease": false,
+      "draft": false
+    },
+    "lifecycle_stage": "Released source project; latest GitHub release v6.0.0 published 22 June 2026.",
+    "lifecycle_basis": "Optional LLM planning does not make every run AI-driven. Distinct from dreadnode/ares. Module/test counts, security guarantees and production-readiness claims were not validated.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/LICENSE"
+      },
+      {
+        "kind": "release-metadata",
+        "url": "https://github.com/Mafifrizi/ARES/releases/tag/v6.0.0"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/README.md",
+        "sha256": "7fe2154b457f63ea10e479e5dc59218de7d5fa03136262cf1340dfbcefa8c3f6",
+        "git_blob_sha1": "4e5d9c47d35e2a1b873c6fc49f51a352ef839739",
+        "bytes": 10089,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/Mafifrizi/ARES",
+      "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/README.md",
+      "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/LICENSE",
+      "https://github.com/Mafifrizi/ARES/releases/tag/v6.0.0"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "mafifrizi--ares",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:What ARES is, Features, Documentation",
+      "source_commit": "369e7150b62352cdb809388ad32e9183775ae290",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "8af02753bb4169dd78785763425a5da4558af6fa3183b342763f33962133a331",
+      "git_blob_sha1": "cfe5c5ef6dfdbd2693b1bea9327abb99a05ecc91",
+      "bytes": 1066,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:What ARES is, Features, Documentation"
+      },
+      {
+        "url": "https://github.com/Mafifrizi/ARES/blob/369e7150b62352cdb809388ad32e9183775ae290/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "Ares (Dreadnode)",
+    "aliases": [
+      "Dreadnode Ares",
+      "Ares autonomous security operations agent"
+    ],
+    "category": "research-red-and-blue-security-agent-platform",
+    "what_it_does_reported": "Maintainer-described Rust platform coordinating red-team worker agents and blue-team investigations against shared lab infrastructure, with trace/evidence collection and benchmark replay.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "Distinct from Mafifrizi/ARES. The linked DreadGOAD laboratory has separate source and terms; author-reported speed and success rates were not reproduced. No production-intrusion or malicious-use conclusion follows from lab capability.",
+    "official_repository": "https://github.com/dreadnode/ares",
+    "repository_full_name": "dreadnode/ares",
+    "repository_id": 1116995823,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "786b2987bfeb08284b93802c3f533c54738e1e48",
+    "last_activity_utc": "2026-10-28T00:13:32Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-10-28T00:15:28Z",
+    "repository_created_at_utc": "2025-12-15T17:15:07Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/LICENSE",
+    "latest_release": {
+      "name": "v0.3.0",
+      "tag_name": "v0.3.0",
+      "published_at": "2026-05-18T04:41:34Z",
+      "html_url": "https://github.com/dreadnode/ares/releases/tag/v0.3.0",
+      "prerelease": false,
+      "draft": false
+    },
+    "lifecycle_stage": "Released research platform; latest GitHub release v0.3.0 published 18 May 2026.",
+    "lifecycle_basis": "Distinct from Mafifrizi/ARES. The linked DreadGOAD laboratory has separate source and terms; author-reported speed and success rates were not reproduced. No production-intrusion or malicious-use conclusion follows from lab capability.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/LICENSE"
+      },
+      {
+        "kind": "release-metadata",
+        "url": "https://github.com/dreadnode/ares/releases/tag/v0.3.0"
+      },
+      {
+        "kind": "first-party-method-and-lab-overview",
+        "url": "https://dreadnode.io/research/mine-the-gap-open-source-tools-for-measuring-the-ai-offense-defense-gap/"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/README.md",
+        "sha256": "46297737346512550c1c8d287ecfec1f38c5bb8219b0954062410115cfe8e515",
+        "git_blob_sha1": "1f001ae5c405b67b7c8195ef25f2cd2edb27b7ab",
+        "bytes": 36484,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/dreadnode/ares",
+      "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/README.md",
+      "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/LICENSE",
+      "https://github.com/dreadnode/ares/releases/tag/v0.3.0"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "dreadnode--ares",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:Architecture, Red Team Multi-Agent System, Blue Team Multi-Agent System, Benchmark Replay",
+      "source_commit": "786b2987bfeb08284b93802c3f533c54738e1e48",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "44c18bbdf5651491bbf028aada92918668aeaf2a304e51d0f47757cf47474834",
+      "git_blob_sha1": "0c1f1ef4cb809f4336953ff7b65835d3d4a3a4c3",
+      "bytes": 1066,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:Architecture, Red Team Multi-Agent System, Blue Team Multi-Agent System, Benchmark Replay"
+      },
+      {
+        "url": "https://github.com/dreadnode/ares/blob/786b2987bfeb08284b93802c3f533c54738e1e48/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "PentestCode",
+    "aliases": [
+      "pentestcode-ai npm package",
+      "PentestCode terminal agent"
+    ],
+    "category": "security-coding-agent-hard-fork",
+    "what_it_does_reported": "Maintainer-described terminal assessment agent with coordinated specialist agents, persistent engagement state, parsed tool outputs and configurable model providers.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "README and LICENSE explicitly describe an OpenCode hard fork. Similar-name Python projects, copied repositories and pentestcode-ai/pentestcode are not counted as additional identities or silently conflated. No exact generating OpenCode revision was established.",
+    "official_repository": "https://github.com/s0ld13rr/pentestcode",
+    "repository_full_name": "s0ld13rr/pentestcode",
+    "repository_id": 1293290940,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab",
+    "last_activity_utc": "2026-11-05T14:57:30Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-05T14:57:38Z",
+    "repository_created_at_utc": "2026-07-08T08:22:01Z",
+    "archived": false,
+    "license": "MIT",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/LICENSE",
+    "latest_release": {
+      "name": "v0.2.7",
+      "tag_name": "v0.2.7",
+      "published_at": "2026-10-23T07:27:01Z",
+      "html_url": "https://github.com/s0ld13rr/pentestcode/releases/tag/v0.2.7",
+      "prerelease": false,
+      "draft": false
+    },
+    "lifecycle_stage": "Maintainer labels project beta; latest GitHub release v0.2.7 published 23 October 2026.",
+    "lifecycle_basis": "README and LICENSE explicitly describe an OpenCode hard fork. Similar-name Python projects, copied repositories and pentestcode-ai/pentestcode are not counted as additional identities or silently conflated. No exact generating OpenCode revision was established.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/LICENSE"
+      },
+      {
+        "kind": "release-metadata",
+        "url": "https://github.com/s0ld13rr/pentestcode/releases/tag/v0.2.7"
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/README.md",
+        "sha256": "442a032461b3f6033c3f88af05ad73fe58d26c36522bf37145097d3153809cda",
+        "git_blob_sha1": "a5e27ee38f6547f3e872a148e8c7f11b4419c256",
+        "bytes": 11238,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/s0ld13rr/pentestcode",
+      "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/README.md",
+      "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/LICENSE",
+      "https://github.com/s0ld13rr/pentestcode/releases/tag/v0.2.7"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "s0ld13rr--pentestcode",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:20, How it works, Tools, License; complete LICENSE",
+      "source_commit": "b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "9455e07ce07338abe41b99bbaf95840373c3d32b2d33fdd04f724efca98832e5",
+      "git_blob_sha1": "ef75fed7b3e4086459abc8788f78329041cd29e2",
+      "bytes": 1121,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:20, How it works, Tools, License; complete LICENSE"
+      },
+      {
+        "url": "https://github.com/s0ld13rr/pentestcode/blob/b7db9ccbe83d62bd6ead8b57b6a1f5070e9a7fab/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
+  },
+  {
+    "name": "BreachWeave",
+    "aliases": [
+      "BreachWeave multi-agent platform"
+    ],
+    "category": "multi-agent-ctf-and-security-assessment-platform",
+    "what_it_does_reported": "Maintainer-described Manager/Solver/Observer collaboration system with shared evidence and hypotheses; a separately pinned pentest branch adds project/asset planning, reports and activity replay.",
+    "capability_validation": "Pinned owning repository documentation, complete root license and public metadata inspected only. No installation, setup hook, controller, tool, target assessment or benchmark executed.",
+    "ai_feature_assessment": "One project with two reviewed branches, not two identities. Competition placements, runtime supervision and authorized-use claims were not independently validated; submodules and third-party dependencies retain their own terms.",
+    "official_repository": "https://github.com/m-sec-org/BreachWeave",
+    "repository_full_name": "m-sec-org/BreachWeave",
+    "repository_id": 1217808614,
+    "upstream_identity_qualification": "Owning repository and pinned documentation support this source identity; similarly named projects, copies and linked dependencies are not automatically the same project.",
+    "pinned_revision": "bc2d9502a2625c5ef354adc30243bd091341cc51",
+    "last_activity_utc": "2026-10-09T09:01:37Z",
+    "last_activity_meaning": "GitHub-reported default-branch committer time, not deployment, attack time, software launch or independent timestamp attestation.",
+    "repository_last_push_utc": "2026-11-11T13:49:08Z",
+    "repository_created_at_utc": "2026-04-22T08:35:24Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "license_qualification": "Complete pinned root license inspected; applies to this reviewed source, with linked tools/models/dependencies subject to their own terms. ",
+    "license_source_url": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/LICENSE",
+    "latest_release": null,
+    "lifecycle_stage": "Public source with main CTF branch and pentest branch; no GitHub releases present.",
+    "lifecycle_basis": "One project with two reviewed branches, not two identities. Competition placements, runtime supervision and authorized-use claims were not independently validated; submodules and third-party dependencies retain their own terms.",
+    "horizon_evidence": [
+      {
+        "kind": "new-to-registry source review or historical backfill",
+        "evidence": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/README.md",
+        "statement": "Proposed for indexing on 21 November 2026. Original source, commit and release dates are preserved; no global novelty or new-launch claim."
+      }
+    ],
+    "resources": [
+      {
+        "kind": "pinned-readme",
+        "url": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/README.md"
+      },
+      {
+        "kind": "license",
+        "url": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/LICENSE"
+      },
+      {
+        "kind": "pinned-alternate-branch-documentation",
+        "url": "https://github.com/m-sec-org/BreachWeave/blob/6957a55f15e0d585f4b728c831021a34f7e02891/README.md",
+        "source_commit": "6957a55f15e0d585f4b728c831021a34f7e02891",
+        "branch": "pentest",
+        "document_identity": {
+          "sha256": "da7cd51c338ef7cd8d7d1e63a895ca4d0dbd10892cad52856302af030e9b8f99",
+          "git_blob_sha1": "c81feacfa962c4bf828570ca27bf49027e1b3c7a",
+          "bytes": 12990,
+          "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+        },
+        "license_url": "https://github.com/m-sec-org/BreachWeave/blob/6957a55f15e0d585f4b728c831021a34f7e02891/LICENSE",
+        "license_identity": {
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "bytes": 11357,
+          "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+        }
+      }
+    ],
+    "source_fingerprints": [
+      {
+        "kind": "documentation-byte-identity",
+        "source_url": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/README.md",
+        "sha256": "2528bcd4c452406d701b65ec1ff4c5bb13b6e9a9e4f9f080eb192a4a794e1e44",
+        "git_blob_sha1": "893578a76e2f4a08ea71a4213c8af8547381932d",
+        "bytes": 6550,
+        "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+      }
+    ],
+    "runtime_fingerprint_status": "No deployed-runtime identification or malicious-network IOC added.",
+    "existing_fingerprint_resources": [],
+    "observed_abuse": "not_established_in_reviewed_sources",
+    "observed_abuse_basis": "Bounded identity/documentation review did not establish a confirmed incident or malware-artifact relationship to this exact source identity/revision. This does not claim abuse never occurred.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Software identity context only; zero malicious IOCs, target addresses or map addresses admitted.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://api.github.com/repos/m-sec-org/BreachWeave",
+      "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/README.md",
+      "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/LICENSE"
+    ],
+    "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "m-sec-org--breachweave",
+    "source_identification_hypotheses": [],
+    "source_review": {
+      "scope": "Identity, maintainer-described architecture, complete license and release metadata only.",
+      "evidence_locator": "README.md:Branch navigation, Architecture core, System capabilities; separately pinned pentest README",
+      "source_commit": "bc2d9502a2625c5ef354adc30243bd091341cc51",
+      "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
+    },
+    "meaningful_fork_resources": [],
+    "license_identity": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "bytes": 11357,
+      "identity_scope": "Connector-decoded UTF-8 source bytes verified against the Git blob ID; documentation/source identity, not a malware hash or deployed-runtime detector."
+    },
+    "retrieved_at_utc": "",
+    "source_references": [
+      {
+        "url": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/README.md",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "README.md:Branch navigation, Architecture core, System capabilities; separately pinned pentest README"
+      },
+      {
+        "url": "https://github.com/m-sec-org/BreachWeave/blob/bc2d9502a2625c5ef354adc30243bd091341cc51/LICENSE",
+        "review_completed_at_utc": "2026-11-21T05:41:51.284965+00:00",
+        "retrieval_time_scope": "Connector response lacks transport timestamps. Review completion is not publication, attack or host-observation time.",
+        "evidence_locator": "Complete root license"
+      }
+    ],
+    "confidence": {
+      "source_identity": "High",
+      "license_identity": "High for pinned complete text",
+      "runtime_capability": "Unvalidated",
+      "malicious_use": "Not established"
+    }
   }
 ]

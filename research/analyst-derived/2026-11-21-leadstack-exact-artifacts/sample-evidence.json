@@ -1,0 +1,230 @@
+{
+  "reviewed_at_utc": "2026-11-21T05:47:03.630070+00:00",
+  "archives": [
+    {
+      "version": "1.0.15",
+      "source_expected_sha256": "29559f042f81c7a6cc642173eab09b0b02e369f47b594b68c78028ef2df10e4c",
+      "bytes": 5041,
+      "sha256": "29559f042f81c7a6cc642173eab09b0b02e369f47b594b68c78028ef2df10e4c",
+      "sha1": "1e5d141fa42d0409b7f7ab328597f10d40e1f26e",
+      "registry_integrity": "sha512-l+j95GW1z+5DX9XRFpwBgCrvzrw1a9DJnAcMucsGYd9u60F28SX5NdGPbixqRkZDZf2oldM4bUPV6ecN1NkOvw==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.15/crm-connect-1.0.15.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:34.011124+00:00"
+    },
+    {
+      "version": "1.0.18",
+      "source_expected_sha256": "8cd56c6a036ae6d08cc07e64f98a3af7d836204d7620203bee5b8fd7d6931757",
+      "bytes": 6462,
+      "sha256": "8cd56c6a036ae6d08cc07e64f98a3af7d836204d7620203bee5b8fd7d6931757",
+      "sha1": "eb9165fe91b7c1d72ddf17ed49badf211548f9f2",
+      "registry_integrity": "sha512-fsvuuorFTlQcOzaVRb8Hu55BtRCIVPKbBtgHiq3prc19+5r9rAPtbch2x7qidzPtsiZ1sUHDi5euGp+k2KzahA==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.18/crm-connect-1.0.18.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:36.898069+00:00"
+    },
+    {
+      "version": "1.0.19",
+      "source_expected_sha256": "3083068c322829c9840f0931f7adfb39b8357d0d8a074d7f1967174631443154",
+      "bytes": 3299,
+      "sha256": "3083068c322829c9840f0931f7adfb39b8357d0d8a074d7f1967174631443154",
+      "sha1": "fa0b98dee0f1dd382a00d76df253e5ba4311c7bf",
+      "registry_integrity": "sha512-3yyICnTMsv58l83dG4p3H9g9J0oEoz3uNWPDrSbSG43qNzSORaz/4pejAGfnnPWU9mcoopRl6mw9T9OCUTIImA==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.19/crm-connect-1.0.19.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:38.735243+00:00"
+    },
+    {
+      "version": "1.0.20",
+      "source_expected_sha256": "ce1812a6e1a5bc99cc705e44b10ae476324ea7930616508a11cc3173934e1abb",
+      "bytes": 3099,
+      "sha256": "ce1812a6e1a5bc99cc705e44b10ae476324ea7930616508a11cc3173934e1abb",
+      "sha1": "582aaaed5ccc20f58a227ddfd4d4561e0713016e",
+      "registry_integrity": "sha512-v6m7DaUlQ/g0eJFGW9EamPgnkHEmDT53HnapOkFhU35PJwkhBxKtDAbMiyllCP8sJw4GH+io5IbhkNdtUc4u0Q==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.20/crm-connect-1.0.20.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:41.510242+00:00"
+    },
+    {
+      "version": "1.0.21",
+      "source_expected_sha256": "d95fad3aea003d6b53645daa8d724ac32e4b2e25e6e4c71264fdb15f8b8b3adb",
+      "bytes": 3094,
+      "sha256": "d95fad3aea003d6b53645daa8d724ac32e4b2e25e6e4c71264fdb15f8b8b3adb",
+      "sha1": "da953b9191b8062398e7791184a86ea48f402cb7",
+      "registry_integrity": "sha512-lVeXVPASgHUhmzzfNia/Pmjsfse+lsX4FZokONie3aO0gFhc1Fa2Upm5t8RM85ek0WpNc+aPOQL+z2b4MiAlLg==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.21/crm-connect-1.0.21.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:44.313078+00:00"
+    },
+    {
+      "version": "1.0.29",
+      "source_expected_sha256": "8a2f9a526955a07b183c3f3658d2088eb4c8c66d3fcaf8fb91322944b82e6e92",
+      "bytes": 1519,
+      "sha256": "8a2f9a526955a07b183c3f3658d2088eb4c8c66d3fcaf8fb91322944b82e6e92",
+      "sha1": "de15aadc1edffc01f1fbda3ccdd940bd4d0ce137",
+      "registry_integrity": "sha512-dE0aqbP7gb7L/62GussmWxI8abyuvU5wWeefmJOA5eKuXp4XdSGB3LwLOsHB9k2287n4FeaNExW6w/ILjO2zNA==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.29/crm-connect-1.0.29.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:47.102586+00:00"
+    },
+    {
+      "version": "1.0.30",
+      "source_expected_sha256": "179e1934b74b45b51f7efb1f03e7990d03e354298c7854079bf32615888ac0d7",
+      "bytes": 1529,
+      "sha256": "179e1934b74b45b51f7efb1f03e7990d03e354298c7854079bf32615888ac0d7",
+      "sha1": "2e7279eee172a408da6a73b6559ce3683a6227f3",
+      "registry_integrity": "sha512-qoyKLuXcsEFW6S5UdkHvuW0GiQwWcnlE7MbbF9EhU+NakrthVbf6Bh3IH7upIUYs4kNW5+bk6BcKrveZnlrQfw==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.30/crm-connect-1.0.30.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:49.898867+00:00"
+    },
+    {
+      "version": "1.1.0",
+      "source_expected_sha256": "4650bfd8ce65a5df88b90e2676d1928690eef55cf0cef7e7929c98e35ec5b3c0",
+      "bytes": 4990,
+      "sha256": "4650bfd8ce65a5df88b90e2676d1928690eef55cf0cef7e7929c98e35ec5b3c0",
+      "sha1": "0373b8eed25fa2300cfec9f9c7dd6bd0da967984",
+      "registry_integrity": "sha512-pf/ryBJ993wdICVv5AxJUMPFRAmyqb/HaywsdCBTR3Tao/E3e9UNALQyq3zFGn/TgagI8wBzGJQx4sTaKDAYtQ==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.1.0/crm-connect-1.1.0.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:51.522235+00:00"
+    },
+    {
+      "version": "1.1.1",
+      "source_expected_sha256": "2e7edfd663676dacb7fb6320e6d842eea0ead00095d299de38f1d5297926bb49",
+      "bytes": 4992,
+      "sha256": "2e7edfd663676dacb7fb6320e6d842eea0ead00095d299de38f1d5297926bb49",
+      "sha1": "864a77f35721b752e272486458870f50201aa2cf",
+      "registry_integrity": "sha512-y2fA+InVwKplosAXGzMkM5Pdc2gFtyH4qlhuqlgIZbt/1JgaZLLtsnGwg99mcBUXEH7dLfKNxvOhZ/HugDcrKg==",
+      "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.1.1/crm-connect-1.1.1.tgz",
+      "retrieved_at_utc": "2026-11-21T05:41:54.248638+00:00"
+    }
+  ],
+  "static_checks": [
+    {
+      "kind": "root_service_override_argument_array",
+      "locator": {
+        "package_name": "@leadstack/crm-connect",
+        "package_version": "1.0.15",
+        "sample_sha256": "29559f042f81c7a6cc642173eab09b0b02e369f47b594b68c78028ef2df10e4c",
+        "artifact_bytes": 5041,
+        "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.15/crm-connect-1.0.15.tgz",
+        "acquired_at_utc": "2026-11-21T05:41:34.011124+00:00",
+        "registry_sha1": "1e5d141fa42d0409b7f7ab328597f10d40e1f26e",
+        "npm_sri_sha512_verified": true,
+        "archive_member": "package/bin/lead-provision.js",
+        "member_sha256": "588b35c86b3759ccde6d6d160a09115b79b8bd2433a62883e3cfb87a1afa6163",
+        "member_bytes": 11816,
+        "uncompressed_tar_header_offset": 0,
+        "uncompressed_tar_member_data_offset": 512,
+        "literal": "[\"gateway\", \"install\", \"--system\", \"--run-as-user\", \"root\", \"--no-start-now\"]",
+        "member_byte_offset": 9584,
+        "member_line": 325
+      },
+      "scope": "Static code check only; no execution or remote payload acquisition."
+    },
+    {
+      "kind": "gateway_unit_rename",
+      "locator": {
+        "package_name": "@leadstack/crm-connect",
+        "package_version": "1.0.15",
+        "sample_sha256": "29559f042f81c7a6cc642173eab09b0b02e369f47b594b68c78028ef2df10e4c",
+        "artifact_bytes": 5041,
+        "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.15/crm-connect-1.0.15.tgz",
+        "acquired_at_utc": "2026-11-21T05:41:34.011124+00:00",
+        "registry_sha1": "1e5d141fa42d0409b7f7ab328597f10d40e1f26e",
+        "npm_sri_sha512_verified": true,
+        "archive_member": "package/bin/lead-provision.js",
+        "member_sha256": "588b35c86b3759ccde6d6d160a09115b79b8bd2433a62883e3cfb87a1afa6163",
+        "member_bytes": 11816,
+        "uncompressed_tar_header_offset": 0,
+        "uncompressed_tar_member_data_offset": 512,
+        "literal": "const GATEWAY_UNIT = \"leadstack-routing\";",
+        "member_byte_offset": 494,
+        "member_line": 14
+      },
+      "scope": "Static code check only; no execution or remote payload acquisition."
+    },
+    {
+      "kind": "module_cache_target",
+      "locator": {
+        "package_name": "@leadstack/crm-connect",
+        "package_version": "1.0.20",
+        "sample_sha256": "ce1812a6e1a5bc99cc705e44b10ae476324ea7930616508a11cc3173934e1abb",
+        "artifact_bytes": 3099,
+        "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.20/crm-connect-1.0.20.tgz",
+        "acquired_at_utc": "2026-11-21T05:41:41.510242+00:00",
+        "registry_sha1": "582aaaed5ccc20f58a227ddfd4d4561e0713016e",
+        "npm_sri_sha512_verified": true,
+        "archive_member": "package/lib/partner-sync.js",
+        "member_sha256": "2481bb7ce1ffa74aede89216e7ebf820f498c0649cfe3309a84d0bed0ac46e72",
+        "member_bytes": 3515,
+        "uncompressed_tar_header_offset": 4608,
+        "uncompressed_tar_member_data_offset": 5120,
+        "literal": "const target = path.join(dir, \"platform-sync.mjs\");",
+        "member_byte_offset": 1855,
+        "member_line": 61
+      },
+      "scope": "Static code check only; no execution or remote payload acquisition."
+    },
+    {
+      "kind": "detached_node_worker",
+      "locator": {
+        "package_name": "@leadstack/crm-connect",
+        "package_version": "1.0.20",
+        "sample_sha256": "ce1812a6e1a5bc99cc705e44b10ae476324ea7930616508a11cc3173934e1abb",
+        "artifact_bytes": 3099,
+        "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.20/crm-connect-1.0.20.tgz",
+        "acquired_at_utc": "2026-11-21T05:41:41.510242+00:00",
+        "registry_sha1": "582aaaed5ccc20f58a227ddfd4d4561e0713016e",
+        "npm_sri_sha512_verified": true,
+        "archive_member": "package/lib/partner-sync.js",
+        "member_sha256": "2481bb7ce1ffa74aede89216e7ebf820f498c0649cfe3309a84d0bed0ac46e72",
+        "member_bytes": 3515,
+        "uncompressed_tar_header_offset": 4608,
+        "uncompressed_tar_member_data_offset": 5120,
+        "literal": "const child = spawn(process.execPath, [scriptPath], {",
+        "member_byte_offset": 2534,
+        "member_line": 80
+      },
+      "scope": "Static code check only; no execution or remote payload acquisition."
+    },
+    {
+      "kind": "binary_download_template",
+      "locator": {
+        "package_name": "@leadstack/crm-connect",
+        "package_version": "1.0.30",
+        "sample_sha256": "179e1934b74b45b51f7efb1f03e7990d03e354298c7854079bf32615888ac0d7",
+        "artifact_bytes": 1529,
+        "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.0.30/crm-connect-1.0.30.tgz",
+        "acquired_at_utc": "2026-11-21T05:41:49.898867+00:00",
+        "registry_sha1": "2e7279eee172a408da6a73b6559ce3683a6227f3",
+        "npm_sri_sha512_verified": true,
+        "archive_member": "package/scripts/install.mjs",
+        "member_sha256": "82548e2ec2cac0c7f22ecd24c15f3271235425f82ea36583af3cbac1d278ee32",
+        "member_bytes": 1198,
+        "uncompressed_tar_header_offset": 4608,
+        "uncompressed_tar_member_data_offset": 5120,
+        "literal": "const url = `http://72.62.1.108/v1/releases/${PLATFORM}/${VERSION}/crm-connector`;",
+        "member_byte_offset": 552,
+        "member_line": 17
+      },
+      "scope": "Static code check only; no execution or remote payload acquisition."
+    },
+    {
+      "kind": "unpublished_platform_package_stager",
+      "locator": {
+        "package_name": "@leadstack/crm-connect",
+        "package_version": "1.1.0",
+        "sample_sha256": "4650bfd8ce65a5df88b90e2676d1928690eef55cf0cef7e7929c98e35ec5b3c0",
+        "artifact_bytes": 4990,
+        "acquisition_url": "https://cdn.npmmirror.com/packages/%40leadstack/crm-connect/1.1.0/crm-connect-1.1.0.tgz",
+        "acquired_at_utc": "2026-11-21T05:41:51.522235+00:00",
+        "registry_sha1": "0373b8eed25fa2300cfec9f9c7dd6bd0da967984",
+        "npm_sri_sha512_verified": true,
+        "archive_member": "package/scripts/postinstall.mjs",
+        "member_sha256": "1904fbec3a07503cd77bf5204a066af7032713078617f9c31d5759c31ac0988f",
+        "member_bytes": 2520,
+        "uncompressed_tar_header_offset": 14848,
+        "uncompressed_tar_member_data_offset": 15360,
+        "literal": "const result = execFileSync(process.execPath, [binPath, \"--setup\"], {",
+        "member_byte_offset": 2038,
+        "member_line": 65
+      },
+      "scope": "Static code check only; no execution or remote payload acquisition."
+    }
+  ],
+  "scope": "Bounded local JSON/text and hash validation of9source-linked exact npm archives. Nothing installed/imported/executed; all URL references treated as data. External source campaigns remain separately attributed."
+}
