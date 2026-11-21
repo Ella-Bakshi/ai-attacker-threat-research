@@ -1,0 +1,24 @@
+# 21 November 2026 public-source follow-up
+
+This follow-up adds 17 source records covering 17 new type/value pairs. The resulting inventory contains 6,693 unique IPs, an increase of 6. Each row describes the evidence available for that value. [Records CSV](records.csv) · [Full JSON with source locators](records.json) · [Counts](summary.json) · [IP overview](../../../data/ip-overview.csv).
+
+| Evidence class | Records | Basis |
+| --- | ---: | --- |
+| Sourced IOCs | 14 | Ten publisher-reported file hashes and four retailer network observations. One network observation is a reported historical C2 role. |
+| Campaign context | 3 | Two addresses in AWS Cairn records and one egress-test destination in the Symantec retailer report. |
+
+AWS names two addresses in its September 8–10, 2026 records. Individual network roles and sighting dates are unspecified. The report links the MONAI Label maintainer advisory. The advisory reported affected versions through 0.8.5 and said the fix had been merged, with a patched release pending at the time of review. [AWS investigation](https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/) · [MONAI Label advisory](https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94).
+
+Symantec distinguishes staging, fallback delivery, a configured reverse-shell destination and an egress test in the U.S. retailer investigation. Its report presents AI assistance as an assessment and leaves the tool unnamed. The egress-test address was already in the inventory from the Gambit case. The new port-qualified record retains the distinct observed role. Two further hashes describe the decoded and gzip-compressed forms of one payload in the separate Skynet honeypot report. [Retailer investigation](https://www.security.com/blog-post/ai-assisted-attack-us-retailer) · [Skynet honeypot report](https://www.security.com/threat-intelligence/ai-llmjacking-skynet).
+
+Brandefense’s November 13–14 observations concern historical software and file exposure. All five IPs it lists already appear on the map. Its defender kit and workbench file hashes are available from the publisher. The report is cited as context pending a publication-level reuse grant for its kit. [Odin research](https://brandefense.io/odin-research/reports/autonomous-ai-offense-and-llm-gateway-attacks/#8-indicators) · [Reuse terms](https://brandefense.io/terms-of-use/).
+
+The Canadian Cyber Centre documents ARTEX targeting in Canada and gives percentages for the infrastructure it observed. The advisory supplies no case-bound values. New Zealand’s National Cyber Security Centre published advice about ARTEX without assigning specific domestic incidents to it. The European Commission’s public statement describes AI tools across a series of incidents without naming a framework. [Canadian Cyber Centre](https://www.cyber.gc.ca/en/news-events/cyber-threat-actors-increasingly-use-automated-ai-enabled-tools-cyber-attacks) · [New Zealand NCSC](https://www.ncsc.govt.nz/protect-your-organisation/businesses-need-to-plan-now-for-ai-disruption/) · [European Commission](https://audiovisual.ec.europa.eu/en/media/video/I-298222).
+
+CloudSEK attributes an AI agent locally called Strix to an investigation of historical Silent Lynx infrastructure. The report describes Hermes components without pinning an upstream release. This pass keeps the publication as case context and links its indicator table at source. ScanMalware’s aggregate telemetry measures lookups to its service. [CloudSEK investigation](https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server) · [ScanMalware report](https://scanmalware.com/blog/ai-hacking-agents-using-our-data).
+
+The original Microsoft example still contains `178.15.54[.]129`, while its IOC table and the FBI’s attributed copy list `178.16.54[.]129`. The latter retains its existing historical ARTEX role. The query-only literal remains unresolved. JPCERT/CC lists mixed suspected access sources in Case E without mapping the addresses one-to-one to a framework. [Microsoft report](https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/) · [FBI advisory, page 7](https://www.ic3.gov/CSA/2026/261113.pdf#page=7) · [JPCERT/CC advisory](https://www.jpcert.or.jp/at/2026/at260030.html).
+
+The tool registry updates nine stable release references across the existing 57 identities, including BaaRai ARTEX v0.7.0 and Shannon v3.6.1. Historical inspected revisions remain recorded. [Tool index](../../../tools/README.md).
+
+The 35 unresolved relationship records and 25 private leads remain separate. This pass added zero first-party or independently derived malicious IOCs. No Censys credits were used. The [earlier 21 November artifact review](../2026-11-21-daily-hunt/README.md) documents separate independent derivations.

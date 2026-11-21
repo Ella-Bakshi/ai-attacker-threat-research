@@ -12,7 +12,7 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,947 canonical source records**; the master has **17,361 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **13,964 canonical source records**; the master has **17,378 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
@@ -20,7 +20,7 @@ The inventory total counts unique IP addresses across evidence classes. It does 
 
 ## Our findings
 
-Latest: [21 November extended global hunt and exact ARTEX backdoor evidence](reports/2026/2026-11-21-daily-hunt/README.md) adds 559 memberships: 82 own artifact derivations and 477 external memberships, representing 500 new type/value pairs. We acquired the exact trojanized ARTEX binary and independently verified its native backdoor path. Nine npm archives and ten campaign scripts yield separate own findings; the map adds 62 role-qualified addresses across evidence classes. All 25 private Censys leads and 35 unresolved relationships remain separate. [Expanded sources and collection methods](docs/research-source-directory.md).
+Earlier on 21 November: [21 November extended global hunt and exact ARTEX backdoor evidence](reports/2026/2026-11-21-daily-hunt/README.md) adds 559 memberships: 82 own artifact derivations and 477 external memberships, representing 500 new type/value pairs. We acquired the exact trojanized ARTEX binary and independently verified its native backdoor path. Nine npm archives and ten campaign scripts yield separate own findings; the map adds 62 role-qualified addresses across evidence classes. All 25 private Censys leads and 35 unresolved relationships remain separate. [Expanded sources and collection methods](docs/research-source-directory.md).
 
 Earlier on 19 November: [19 November exact public beacon recovery and source hunt](reports/2026/2026-11-19-payload-hunt/README.md) adds 125 memberships: 19 own derivations and 106 external memberships. Two acquired CyberStrikeAI-lineage ELF files yield native-backed configuration, including one new configured IP at score 60; campaign attribution and current operation remain unknown. The map adds five addresses across separate evidence classes. All 25 private Censys leads and 35 canonical relationship questions remain unresolved.
 
@@ -64,12 +64,14 @@ We also performed [two first-party endpoint observations](research/first-party/R
 
 ## Sourced IOCs
 
+On 21 November, the follow-up added 17 source records from the AWS Cairn investigation and two Symantec reports. The two AWS addresses have unspecified network roles. [Public-source follow-up](reports/2026/2026-11-21-followup/README.md).
+
 The original main-record cohorts contain **18 ARTEX-associated** and **9 CyberStrikeAI-associated** records. Later case-qualified source additions are retained in the incident exports and dated reports. The CyberStrikeAI export also includes eight externally reported crosshash identities for four known samples. All three formerly algorithm-unverified CyberStrikeAI/script hashes now have explicit publisher digest bridges. The supporting PowerShell script and its crosshashes remain in supporting tools; the [current untyped-hash export](frameworks/CyberStrikeAI/unverified-file-hash-leads.csv) is empty; all nine historical source values remain in the dated source report and canonical catalog. The [15 November review](reports/2026/2026-11-15-peak-review/README.md) preserves the literal values and publisher roles while narrowing these classifications. Every record retains role, source, dates, confidence scope and verification status. Supporting tools, software fingerprints, passive sightings and unresolved claims remain separate.
 
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,361 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,378 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -87,6 +89,7 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-21
 
+- [Public-source follow-up](reports/2026/2026-11-21-followup/README.md) adds 17 source records and 6 IPs to the inventory.
 - [Extended global hunt and exact ARTEX backdoor evidence](reports/2026/2026-11-21-daily-hunt/README.md): 559 memberships, 82 own derivations, 62 new map addresses and 14 newly indexed tools; unresolved findings remain separate.
 - [Research sources and collection methods](docs/research-source-directory.md).
 

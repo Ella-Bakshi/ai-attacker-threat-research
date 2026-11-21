@@ -10,7 +10,7 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 
 | Project and source | What it does, according to its maintainer | Latest visible release |
 |---|---|---|
-| [ARTEX](https://github.com/BaaRai/ARTEX) | Go/Next.js multi-agent penetration-testing platform with planning, tool execution and optional offensive workflows. | v0.6.0 (2026-11-11) |
+| [ARTEX](https://github.com/BaaRai/ARTEX) | Go/Next.js multi-agent penetration-testing platform with planning, tool execution and optional offensive workflows. | [v0.7.0](https://github.com/BaaRai/ARTEX/releases/tag/v0.7.0) (2026-11-21) |
 | [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | Security automation workspace combining agent planning, MCP tools, human oversight, evidence, workflows and optional C2 capabilities. | v1.8.1 (2026-11-19) |
 | [PentAGI](https://github.com/vxcontrol/pentagi) | Self-hosted multi-agent penetration-testing system using LLMs and conventional security tools. | v2.2.0 (2026-10-05) |
 | [AutoCVE](https://github.com/larlarua/AutoCVE) | Multi-agent source auditing and vulnerability verification/reporting platform with sandboxed tool workflows. | v1.0.5 (2026-07-12) |
@@ -24,7 +24,7 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | Project and source | What it does, according to its maintainer | Latest visible release |
 |---|---|---|
 | [ARL community backup](https://github.com/Aabyss-Team/ARL) | Asset enumeration, service identification and exposure inventory in a community copy of the original ARL project. | 2.6.3 (2025-03-04) |
-| [ARL-Next](https://github.com/owl234/ARL-Next) | ARL-derived platform with asynchronous scan orchestration, asset investigation and an MCP interface for AI clients. | v1.4.6 (2026-11-14) |
+| [ARL-Next](https://github.com/owl234/ARL-Next) | ARL-derived platform with asynchronous scan orchestration, asset investigation and an MCP interface for AI clients. | [v1.5.1](https://github.com/owl234/ARL-Next/releases/tag/v1.5.1) (2026-11-21) |
 | [Scope Sentry](https://github.com/Autumn-27/ScopeSentry) | Distributed asset mapping, subdomain, leakage, vulnerability and directory scanning with page monitoring. | v1.9.4 (2026-08-23) |
 | [Nemo](https://github.com/hanc00l/nemo_go) | Distributed reconnaissance platform covering domains, IPs, services and website assets. | v3.2.1 (2026-02-09) |
 | [XingRin](https://github.com/yyhuni/xingrin) | Self-hosted distributed asset discovery, scanning, search and result-management platform. | v1.5.8 (2026-01-11) |
@@ -32,12 +32,12 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 | [OpenEASD](https://github.com/cybersecify/OpenEASD) | External-surface discovery and scan orchestration with findings, monitoring and prioritization. | v3.0.1 (2026-10-14) |
 | [DeepAudit](https://github.com/lintsinghua/DeepAudit) | Multi-agent source-code security analysis with sandbox verification and reporting, as described by its maintainers. | v3.0.4 (2026-01-24) |
 | [AIxVuln](https://github.com/m4xxxxx/AIxVuln) | LLM-directed vulnerability discovery and verification with function calling and Docker sandboxes. | v1.3 (2026-03-14) |
-| [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Security assessment of AI infrastructure, agents, MCP tools, skills and model interfaces. | v4.6.10 (2026-11-12) |
+| [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Security assessment of AI infrastructure, agents, MCP tools, skills and model interfaces. | [v4.6.11](https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.11) (2026-11-19) |
 | [AutoHunter (Chris-biu)](https://github.com/Chris-biu/AutoHunter) | AI-orchestrated vulnerability-testing platform integrating conventional assessment tools and scope controls. | No GitHub release found |
 | [Cairn](https://github.com/oritera/Cairn) | General state-space search harness demonstrated by maintainers for autonomous penetration testing. | v0.2.1 (2026-05-10) |
-| [Shannon](https://github.com/KeygraphHQ/shannon) | Source-informed web/API assessment that uses browser and command-line actions to validate findings, per upstream documentation. | v3.5.1 (2026-11-11) |
-| [Agent Zero](https://github.com/agent0ai/agent-zero) | General agent with a Linux workspace, terminal, browser and desktop capabilities. | v2.15 (2026-11-01) |
-| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Persistent general agent with tool use and extensible skills, relevant as an orchestration substrate to monitor. | v0.23.1 (2026-11-10) |
+| [Shannon](https://github.com/KeygraphHQ/shannon) | Source-informed web/API assessment that uses browser and command-line actions to validate findings, per upstream documentation. | [v3.6.1](https://github.com/KeygraphHQ/shannon/releases/tag/v3.6.1) (2026-11-20) |
+| [Agent Zero](https://github.com/agent0ai/agent-zero) | General agent with a Linux workspace, terminal, browser and desktop capabilities. | [v2.16](https://github.com/agent0ai/agent-zero/releases/tag/v2.16) (2026-11-17) |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Persistent general agent with tool use and extensible skills, relevant as an orchestration substrate to monitor. | [v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) (2026-11-20) |
 
 [ARTEX source/fork review](artex-source-review.md): three historical-record annotations, four meaningful fork resources and three source-verified fork UAs; no malicious IOC count change.
 
@@ -45,24 +45,25 @@ Each entry records its owner, aliases, pinned revision, documentation/resources,
 
 | Project and source | Maintainer-described purpose | Latest visible release |
 |---|---|---|
-| [RedAmon](https://github.com/samugit83/redamon) | Self-hosted assessment agents organize findings in a graph and propose remediations, with documented approval gates. | v7.8.0 (2026-11-14) |
+| [RedAmon](https://github.com/samugit83/redamon) | Self-hosted assessment agents organize findings in a graph and propose remediations, with documented approval gates. | [v7.9.0](https://github.com/samugit83/redamon/releases/tag/v7.9.0) (2026-11-19) |
 | [Decepticon](https://github.com/BitterSecurity/Decepticon) | Agent framework for orchestrating red-team assessment workflows and security-tool interactions. | v2.2.2 (2026-10-28) |
 | [PentestAgent](https://github.com/GH05TCREW/pentestagent) | Agent-based black-box security testing with workflows for authorized assessments and bug-bounty research. | No GitHub release found |
 | [Cybermes](https://github.com/Zyrexnn/Cybermes) | Security-focused harness combining a Hermes engine, specialized skills and model/tool orchestration. | v3.5.1 (2026-11-13) |
-| [Xalgorix](https://github.com/xalgorix/xalgorix) | Agent-driven assessment orchestration with reconnaissance, finding review and a web interface. | v4.6.193 (2026-11-15) |
+| [Xalgorix](https://github.com/xalgorix/xalgorix) | Agent-driven assessment orchestration with reconnaissance, finding review and a web interface. | [v4.6.200](https://github.com/xalgorix/xalgorix/releases/tag/v4.6.200) (2026-11-21) |
 | [AIRecon](https://github.com/pikpikcu/airecon) | Local-model reconnaissance/assessment assistant paired with a Kali-based container environment and terminal interface. | 0.1.7-beta (2026-04-03) |
 | [RAPTOR](https://github.com/gadievron/raptor) | Claude Code configuration and security workflows for analysis, research and assessment of authorized artifacts. | v3.1.0 (2026-09-07) |
 | [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) | Agent-oriented security-testing harness with specialized workflows and integrations. | v2.0.1-beta.3 (2026-11-10) |
 | [ScopeWeaver](https://github.com/cskwork/scopeweaver) | ARTEX-derived platform with English/Korean interface and message localization, retaining upstream provenance. | v0.9.1 (2026-11-04) |
 | [AntiFox](https://github.com/AntiFox-AI/antifox) | ARTEX-derived multi-agent assessment platform focused by its maintainers on reproducible evidence and report delivery. | v2.0.3 (2026-10-30) |
 
-AntiFox and ScopeWeaver have pinned ARTEX lineage. CyberStrike is a separate project from CyberStrikeAI. Cybermes acknowledges NousResearch Hermes as its core; this is a software relationship, not a campaign attribution bridge. RAPTOR has MIT text despite GitHub NOASSERTION metadata. AI-Infra-Guard v4.6.10 is a release update; previous inspected source fingerprints retain their pinned revision.
+AntiFox and ScopeWeaver have pinned ARTEX lineage. CyberStrike is a separate project from CyberStrikeAI. Cybermes acknowledges NousResearch Hermes as its core; this is a software relationship, not a campaign attribution bridge. RAPTOR has MIT text despite GitHub NOASSERTION metadata. The AI-Infra-Guard source fingerprints refer to their inspected source revision.
 
 ## Emerging projects and identity cautions
 
 - **XingRin → LunaFox:** an upstream-linked successor, with a dated alpha prerelease. LunaFox's public GPL projection excludes a closed Agent; it is not a wholly open-source product. A release is not a maturity or runtime-quality assessment.
 - **ARL, Scope Sentry and XingRin:** conventional reconnaissance in the inspected sources. ARL-Next documents AI/MCP integration, Nemo LLM reports/MCP, and OpenEASD optional AI analysis disabled by default. These different capabilities are not interchangeable.
 - **ARTEX:** BaaRai is the designated English fork, with Autumn-27 lineage stated in its README; GitHub's `fork` flag alone misses that relationship.
+- **ThreatBook enterprise editions:** ThreatBook lists ARTEX Pro Enterprise and CyberStrikeAI Enterprise as commercial RedAgents offerings. In response to the FBI FLASH, ThreatBook CEO Feng Xue says the ARTEX Pro mentioned in the advisory differs from the company’s cloud-only enterprise edition. Campaign attribution follows the framework identified in each incident report. [RedAgents product listings](https://redagents.ai/) · [ThreatBook CEO statement](https://www.linkedin.com/posts/secway_threatbooks-statement-on-the-fbi-flash-activity-7528623058979405824-HRPp)
 - **CAI and Cairn are separate projects.** CAI is archived and has mixed licensing. No exact campaign-generating revision is established by an upstream identity review.
 - **Hermes:** Separate [CARBONATO](https://www.threatdown.com/blog/carbonato/) and [Hunt Thailand](https://hunt.io/blog/thailand-ministry-finance-targeted-with-hermes-ai-agent) reporting establishes abuse of the NousResearch project. Exact campaign revisions remain unknown; this does not resolve Gambit's separate identity gap or classify legitimate installations as malicious.
 - **Licenses:** Scope Sentry remains unresolved; AI-Infra-Guard has additional README attribution instructions alongside Apache-2.0 metadata. AutoHunter and Agent Zero contain MIT texts despite GitHub's NOASSERTION metadata. DeepAudit's closed-version claimed findings must not be assigned to the public release.
@@ -102,7 +103,7 @@ These entries verify software identity. Reported abuse, where available, has its
 | [sapper-v2](https://github.com/N1nEmAn/sapper-v2) | Competition-oriented multi-agent assessment orchestrator; benchmark/championship claims remain maintainer assertions. | v18-champion (2026-11-01) |
 | [HalberdStrike](https://github.com/kuaiyelink/HalberdStrike) | LLM assessment harness; PenTestGPT-inspired design is a maintainer claim, not independently verified code lineage. | No GitHub release found |
 | [Bulwark](https://github.com/bulwark-sec/bulwark) | Pinned LICENSE/top badges say AGPL-3.0; README footer claims Apache-2.0. Conflict unresolved. | v5.26.0 (2026-06-10) |
-| [0security](https://github.com/0sec-labs/0security) | Canonical repository now `0sec-labs/0security`; the old `0` alias verified. Both license files checked; disclosure totals unverified. | v0.32.0 (2026-11-15) |
+| [0security](https://github.com/0sec-labs/0security) | Canonical repository now `0sec-labs/0security`; the old `0` alias verified. Both license files checked; disclosure totals unverified. | [v0.41.0](https://github.com/0sec-labs/0security/releases/tag/v0.41.0) (2026-11-20) |
 | [DarkMoon](https://github.com/ASCIT31/Dark-Moon) | Upstream-described autonomous local-LLM assessment framework and privacy gateway; source/runtime/benchmark claims remain distinct. No malicious use established. | [v1.6.0](https://github.com/ASCIT31/Dark-Moon/releases/tag/v1.6.0) (2026-10-25) |
 
 Acronis [reports HalberdStrike use in BOSSAI operations](https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/). The reported owner/name match the indexed upstream; the exact deployed revision, modifications and bytes remain unknown. The report describes operator-mediated transfers of reconnaissance reports, not direct autonomous communication between those agents.
@@ -156,3 +157,7 @@ Eight independently named source projects add creator and architecture coverage.
 The existing ARTEX entry gains a qualified resource for [bcyw/ARTEX](https://github.com/bcyw/ARTEX), pinned at `47770f3c4038c9b794937ccc4b2d295b57de2f57`. Its README calls it a self-maintained derivative and reports substantive changes, including SQLite and removal of programmatic asset gates. This derivative is not counted as another registry identity. CyHawk's independent static-review post explicitly does not establish deployment or confirmed attacks, and the repository's versioning statements do not establish a published release: the reviewed GitHub release collection was empty.
 
 All 49 earlier source pins and release-review history remain unchanged in this extension. Only ARTEX's `meaningful_fork_resources` list is appended; all its other fields remain intact. The previously reviewed CyberStrikeAI v1.8.1 release metadata and historical source pins are preserved. Deception labs, detection collections, commercial services and papers belong in the research source directory, with their own limitations and licenses.
+
+## Stable release review on 21 November 2026
+
+GitHub release records update nine entries: BaaRai ARTEX, Shannon, RedAmon, Xalgorix, Hermes Agent, Agent Zero, ARL-Next, AI-Infra-Guard and 0security. The registry records publication times in UTC, prior release metadata and the verified tag commits for BaaRai ARTEX and Shannon. The source pins identify the revisions inspected in earlier reviews. Campaign build and deployment status require their own evidence.

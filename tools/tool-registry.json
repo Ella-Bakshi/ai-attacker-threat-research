@@ -22,12 +22,12 @@
     "license_qualification": "Repository license metadata and pinned README; inspect source LICENSE for exact obligations.",
     "license_source_url": "https://github.com/BaaRai/ARTEX/blob/ff75bfaf1ff60ab3c9fa6544bc598c68b49b65d8/LICENSE",
     "latest_release": {
-      "name": "v0.6.0",
-      "tag_name": "v0.6.0",
-      "published_at": "2026-11-11T23:19:53Z",
+      "name": "v0.7.0",
+      "tag_name": "v0.7.0",
+      "published_at": "2026-11-21T08:44:23Z",
       "prerelease": false,
       "draft": false,
-      "html_url": "https://github.com/BaaRai/ARTEX/releases/tag/v0.6.0"
+      "html_url": "https://github.com/BaaRai/ARTEX/releases/tag/v0.7.0"
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Current repository archived flag, pinned default-branch commit and public release list. BaaRai ARTEX is a public English fork/continuation, separate from original upstream closure.",
@@ -158,7 +158,23 @@
         "new_network_iocs": 0,
         "reviewed_at_utc": "2026-11-21T05:41:51.284965+00:00"
       }
-    ]
+    ],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/BaaRai/ARTEX/releases/tag/v0.7.0",
+      "scope": "Latest stable release of the BaaRai English translation and continuation of Autumn-27 ARTEX. GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v0.6.0",
+        "tag_name": "v0.6.0",
+        "published_at": "2026-11-11T23:19:53Z",
+        "prerelease": false,
+        "draft": false,
+        "html_url": "https://github.com/BaaRai/ARTEX/releases/tag/v0.6.0"
+      },
+      "tag_commit": "22ae88afabf66e47e73644a0528d8b427c4c80b8"
+    }
   },
   {
     "name": "CyberStrikeAI",
@@ -895,12 +911,12 @@
     "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
     "license_source_url": "https://api.github.com/repos/owl234/ARL-Next",
     "latest_release": {
-      "name": "v1.4.6",
-      "tag_name": "v1.4.6",
-      "published_at": "2026-11-14T05:05:04Z",
-      "html_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.6",
+      "name": "v1.5.1",
+      "tag_name": "v1.5.1",
+      "published_at": "2026-11-21T09:15:55Z",
       "prerelease": false,
-      "draft": false
+      "draft": false,
+      "html_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.5.1"
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
@@ -966,11 +982,26 @@
     "tool_id": "owl234--arl-next",
     "source_identification_hypotheses": [],
     "release_review": {
-      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
-      "source_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.6",
-      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
-      "maintainer_reported_changes": "Maintainer reports worker/task lifecycle, fingerprint-cache, interface and configuration fixes; traditional recon classification remains.",
-      "retrieved_at_utc": "2026-11-15T09:35:26.856Z"
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.5.1",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v1.4.6",
+        "tag_name": "v1.4.6",
+        "published_at": "2026-11-14T05:05:04Z",
+        "html_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.6",
+        "prerelease": false,
+        "draft": false
+      },
+      "previous_release_review": {
+        "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+        "source_url": "https://github.com/owl234/ARL-Next/releases/tag/v1.4.6",
+        "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+        "maintainer_reported_changes": "Maintainer reports worker/task lifecycle, fingerprint-cache, interface and configuration fixes; traditional recon classification remains.",
+        "retrieved_at_utc": "2026-11-15T09:35:26.856Z"
+      }
     }
   },
   {
@@ -1633,10 +1664,12 @@
     "license_qualification": "Apache-2.0 repository metadata and README licensing statement. Pinned README License & Attribution additionally instructs retention of LICENSE/NOTICE, product-origin acknowledgement and research/article citation. Review these declared attribution instructions alongside the source license.",
     "license_source_url": "https://api.github.com/repos/Tencent/AI-Infra-Guard",
     "latest_release": {
-      "tag_name": "v4.6.10",
-      "published_at": "2026-11-12T04:08:34Z",
-      "html_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.10",
-      "prerelease": false
+      "name": "AI-Infra-Guard v4.6.11",
+      "tag_name": "v4.6.11",
+      "published_at": "2026-11-19T04:02:57Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.11"
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
@@ -1703,9 +1736,22 @@
     "tool_id": "tencent--ai-infra-guard",
     "source_identification_hypotheses": [],
     "release_review": {
-      "reviewed_at_utc": "2026-11-13T02:22:37.752954+00:00",
-      "source_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.10",
-      "scope": "New release metadata; previous pinned README/source fingerprint retained as its historical inspected revision."
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.11",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "tag_name": "v4.6.10",
+        "published_at": "2026-11-12T04:08:34Z",
+        "html_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.10",
+        "prerelease": false
+      },
+      "previous_release_review": {
+        "reviewed_at_utc": "2026-11-13T02:22:37.752954+00:00",
+        "source_url": "https://github.com/Tencent/AI-Infra-Guard/releases/tag/v4.6.10",
+        "scope": "New release metadata; previous pinned README/source fingerprint retained as its historical inspected revision."
+      }
     }
   },
   {
@@ -1883,12 +1929,12 @@
     "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
     "license_source_url": "https://api.github.com/repos/KeygraphHQ/shannon",
     "latest_release": {
-      "name": "v3.5.1",
-      "tag_name": "v3.5.1",
-      "published_at": "2026-11-11T21:20:17Z",
+      "name": "v3.6.1",
+      "tag_name": "v3.6.1",
+      "published_at": "2026-11-20T21:41:18Z",
       "prerelease": false,
       "draft": false,
-      "html_url": "https://github.com/KeygraphHQ/shannon/releases/tag/v3.5.1"
+      "html_url": "https://github.com/KeygraphHQ/shannon/releases/tag/v3.6.1"
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
@@ -1957,7 +2003,23 @@
         "path": "source-identification-hypotheses.json",
         "status": "source-reviewed; runtime untested; not a malicious IOC"
       }
-    ]
+    ],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/KeygraphHQ/shannon/releases/tag/v3.6.1",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v3.5.1",
+        "tag_name": "v3.5.1",
+        "published_at": "2026-11-11T21:20:17Z",
+        "prerelease": false,
+        "draft": false,
+        "html_url": "https://github.com/KeygraphHQ/shannon/releases/tag/v3.5.1"
+      },
+      "tag_commit": "892fda0282d66e8d9190025893d1b494ccefb19f"
+    }
   },
   {
     "name": "Agent Zero",
@@ -1981,12 +2043,12 @@
     "license_qualification": "Pinned MIT LICENSE verified despite GitHub NOASSERTION metadata.",
     "license_source_url": "https://github.com/agent0ai/agent-zero/blob/ba9b67df0f54ac78106ae85c552ef5d2458f7c9a/LICENSE",
     "latest_release": {
-      "name": "v2.15",
-      "tag_name": "v2.15",
-      "published_at": "2026-11-01T23:52:00Z",
+      "name": "v2.16",
+      "tag_name": "v2.16",
+      "published_at": "2026-11-17T18:33:53Z",
       "prerelease": false,
       "draft": false,
-      "html_url": "https://github.com/agent0ai/agent-zero/releases/tag/v2.15"
+      "html_url": "https://github.com/agent0ai/agent-zero/releases/tag/v2.16"
     },
     "lifecycle_stage": "released; runtime quality unassessed",
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
@@ -2051,7 +2113,22 @@
     "reviewed_at_utc": "2026-11-12T02:50:20.994780+00:00",
     "global_novelty_claimed": false,
     "tool_id": "agent0ai--agent-zero",
-    "source_identification_hypotheses": []
+    "source_identification_hypotheses": [],
+    "release_review": {
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/agent0ai/agent-zero/releases/tag/v2.16",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v2.15",
+        "tag_name": "v2.15",
+        "published_at": "2026-11-01T23:52:00Z",
+        "prerelease": false,
+        "draft": false,
+        "html_url": "https://github.com/agent0ai/agent-zero/releases/tag/v2.15"
+      }
+    }
   },
   {
     "name": "Hermes Agent",
@@ -2075,12 +2152,12 @@
     "license_qualification": "GitHub repository license metadata; inspect pinned license for exact obligations.",
     "license_source_url": "https://api.github.com/repos/NousResearch/hermes-agent",
     "latest_release": {
-      "name": "Hermes Agent v0.23.1",
-      "tag_name": "v0.23.1",
-      "published_at": "2026-11-10T01:42:15Z",
+      "name": "Hermes Agent v0.23.3",
+      "tag_name": "v0.23.3",
+      "published_at": "2026-11-20T00:34:38Z",
       "prerelease": false,
       "draft": false,
-      "html_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1"
+      "html_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3"
     },
     "lifecycle_stage": "released adjacent general-purpose agent",
     "lifecycle_basis": "Latest visible GitHub release and pinned default-branch source snapshot; release status is not a production-readiness assessment.",
@@ -2168,7 +2245,22 @@
     },
     "tool_id": "nousresearch--hermes-agent",
     "source_identification_hypotheses": [],
-    "observed_abuse_reviewed_at_utc": "2026-11-13T11:19:17.970291+00:00"
+    "observed_abuse_reviewed_at_utc": "2026-11-13T11:19:17.970291+00:00",
+    "release_review": {
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "Hermes Agent v0.23.1",
+        "tag_name": "v0.23.1",
+        "published_at": "2026-11-10T01:42:15Z",
+        "prerelease": false,
+        "draft": false,
+        "html_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1"
+      }
+    }
   },
   {
     "name": "RedAmon",
@@ -2190,12 +2282,12 @@
     "license_qualification": "GitHub license metadata and upstream README; no legal interpretation or third-party-component coverage implied.",
     "license_source_url": "https://github.com/samugit83/redamon/blob/442debbf95ff6f4cace7f9f8e134780aa3eb7d60/LICENSE",
     "latest_release": {
-      "name": "v7.8.0 - Project sharing, the IAM console, RBAC on by default",
-      "tag_name": "v7.8.0",
-      "published_at": "2026-11-14T15:34:24Z",
-      "html_url": "https://github.com/samugit83/redamon/releases/tag/v7.8.0",
+      "name": "v7.9.0 - AI Navigator, Tradecraft 2.0, tenant-filter fixes",
+      "tag_name": "v7.9.0",
+      "published_at": "2026-11-19T19:03:22Z",
       "prerelease": false,
-      "draft": false
+      "draft": false,
+      "html_url": "https://github.com/samugit83/redamon/releases/tag/v7.9.0"
     },
     "lifecycle_stage": "released; not executed or benchmarked",
     "lifecycle_basis": "Pinned README badge says v7.7.2; latest visible GitHub release object is v7.5.1. Keep source/badge/release versions distinct.",
@@ -2255,11 +2347,26 @@
     "tool_id": "samugit83--redamon",
     "source_identification_hypotheses": [],
     "release_review": {
-      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
-      "source_url": "https://github.com/samugit83/redamon/releases/tag/v7.8.0",
-      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
-      "maintainer_reported_changes": "Maintainer reports multi-user identity/access management and scoped project sharing.",
-      "retrieved_at_utc": "2026-11-15T09:35:27.491Z"
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/samugit83/redamon/releases/tag/v7.9.0",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v7.8.0 - Project sharing, the IAM console, RBAC on by default",
+        "tag_name": "v7.8.0",
+        "published_at": "2026-11-14T15:34:24Z",
+        "html_url": "https://github.com/samugit83/redamon/releases/tag/v7.8.0",
+        "prerelease": false,
+        "draft": false
+      },
+      "previous_release_review": {
+        "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+        "source_url": "https://github.com/samugit83/redamon/releases/tag/v7.8.0",
+        "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+        "maintainer_reported_changes": "Maintainer reports multi-user identity/access management and scoped project sharing.",
+        "retrieved_at_utc": "2026-11-15T09:35:27.491Z"
+      }
     }
   },
   {
@@ -2525,12 +2632,12 @@
     "license_qualification": "GitHub license metadata and upstream README; no legal interpretation or third-party-component coverage implied.",
     "license_source_url": "https://github.com/xalgorix/xalgorix/blob/d65abaa50a1668344d0c148a5af0417c986ee768/LICENSE",
     "latest_release": {
-      "name": "v4.6.193",
-      "tag_name": "v4.6.193",
-      "published_at": "2026-11-15T00:26:03Z",
-      "html_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193",
+      "name": "v4.6.200",
+      "tag_name": "v4.6.200",
+      "published_at": "2026-11-21T05:33:13Z",
       "prerelease": false,
-      "draft": false
+      "draft": false,
+      "html_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.200"
     },
     "lifecycle_stage": "released; not executed or benchmarked",
     "lifecycle_basis": "Latest visible GitHub release is separate from source commit and any README version label.",
@@ -2582,11 +2689,26 @@
     "tool_id": "xalgorix--xalgorix",
     "source_identification_hypotheses": [],
     "release_review": {
-      "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
-      "source_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193",
-      "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
-      "maintainer_reported_changes": "Maintainer reports scope-guard refinements and safeguards for scan-output directories.",
-      "retrieved_at_utc": "2026-11-15T09:35:27.509Z"
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.200",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v4.6.193",
+        "tag_name": "v4.6.193",
+        "published_at": "2026-11-15T00:26:03Z",
+        "html_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193",
+        "prerelease": false,
+        "draft": false
+      },
+      "previous_release_review": {
+        "reviewed_at_utc": "2026-11-15T09:37:30.945347+00:00",
+        "source_url": "https://github.com/xalgorix/xalgorix/releases/tag/v4.6.193",
+        "scope": "Latest public stable-release metadata. Historical pinned README/source fingerprint retained; no campaign/deployed version inference.",
+        "maintainer_reported_changes": "Maintainer reports scope-guard refinements and safeguards for scan-output directories.",
+        "retrieved_at_utc": "2026-11-15T09:35:27.509Z"
+      }
     }
   },
   {
@@ -3807,12 +3929,12 @@
     "license_qualification": "Canonical repository now0sec-labs/0security; old0 alias verified. Both license files checked; disclosure totals unverified.",
     "license_source_url": "https://github.com/0sec-labs/0security/blob/4688f26c19e5d3e927e336b588dd66510133ed82/LICENSE-APACHE",
     "latest_release": {
-      "name": "v0.32.0",
-      "tag_name": "v0.32.0",
-      "published_at": "2026-11-15T08:44:14Z",
+      "name": "v0.41.0",
+      "tag_name": "v0.41.0",
+      "published_at": "2026-11-20T02:46:52Z",
       "prerelease": false,
       "draft": false,
-      "html_url": "https://github.com/0sec-labs/0security/releases/tag/v0.32.0"
+      "html_url": "https://github.com/0sec-labs/0security/releases/tag/v0.41.0"
     },
     "reviewed_at_utc": "2026-11-15T16:54:32.404901+00:00",
     "tool_id": "0sec-labs--0security",
@@ -3905,6 +4027,21 @@
       "earlier_repository_alias": "0sec-labs/0",
       "canonical_repository": "0sec-labs/0security",
       "scope": "GitHub API canonical full_name/redirect plus pinned README links."
+    },
+    "release_review": {
+      "reviewed_at_utc": "2026-11-21T17:09:11.439785+00:00",
+      "source_url": "https://github.com/0sec-labs/0security/releases/tag/v0.41.0",
+      "scope": "GitHub latest stable release metadata. The inspected source revisions are historical references. Campaign version and deployment claims require separate evidence.",
+      "retrieved_at_utc": "",
+      "retrieval_time_scope": "Release and latest metadata retrieved through the GitHub connector during this review. The connector supplies no transport timestamp.",
+      "previous_latest_release": {
+        "name": "v0.32.0",
+        "tag_name": "v0.32.0",
+        "published_at": "2026-11-15T08:44:14Z",
+        "prerelease": false,
+        "draft": false,
+        "html_url": "https://github.com/0sec-labs/0security/releases/tag/v0.32.0"
+      }
     }
   },
   {

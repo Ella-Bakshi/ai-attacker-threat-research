@@ -1,0 +1,29 @@
+{
+  "reviewed_at_utc": "2026-11-21T17:12:01.465592+00:00",
+  "new_canonical_memberships": 17,
+  "new_master_values": 17,
+  "additional_memberships": 0,
+  "classes": {
+    "campaign-context": 3,
+    "sourced-iocs": 14
+  },
+  "canonical_records": 13964,
+  "compact_records": 13734,
+  "master_values": 17378,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5088,
+    "historical_provider": 8340,
+    "artifact_supported": 501,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 0,
+  "external_memberships": 17,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "tool_release_updates": 9,
+  "scope": "Original public reporting and passive software observations. No new independent malicious IOC or current-operation claim."
+}
