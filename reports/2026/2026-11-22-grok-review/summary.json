@@ -1,0 +1,33 @@
+{
+  "reviewed_at_utc": "2026-11-22T10:16:11.962387+00:00",
+  "new_canonical_memberships": 35,
+  "new_master_values": 32,
+  "additional_memberships": 3,
+  "classes": {
+    "campaign-context": 20,
+    "report-artifact-observables": 5,
+    "supporting-tools": 1,
+    "supporting-context": 1,
+    "software-fingerprints": 8
+  },
+  "canonical_records": 14048,
+  "compact_records": 13818,
+  "master_values": 17455,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5149,
+    "historical_provider": 8340,
+    "artifact_supported": 524,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 8,
+  "external_memberships": 27,
+  "unchanged_prior_unverified": 35,
+  "qualified_maliciousness_summary_corrections": 1,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "newly_selected_literal_IPs": 0,
+  "scope": "Primary-source reconciliation of submitted candidates, qualified incident attribution and independently reproduced software fingerprints."
+}
