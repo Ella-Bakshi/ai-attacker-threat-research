@@ -6,6 +6,8 @@ The [interactive map](index.html) contains the complete unique-IP inventory, evi
 
 All evidence categories are selected initially. Numbered markers aggregate nearby estimated locations and count unique addresses. Some IPs have several roles or memberships; a shared marker is not a claim that its members belong to the same campaign. Addresses without coordinates remain in the total, table and CSV. Zero latitude/longitude is retained only when actually present in the source data.
 
+Overview shows the map IP count alongside the catalog's evidence records and distinct master values. Latest Changes uses the newest dated review indexed in `data/index.json`. Selecting a listed IP opens its evidence details. The Small islands picker and enlarged map targets work with the existing India-view boundaries.
+
 The India C2 shortcut requires `india_campaign_c2_supported=true`, computed from C2 and India campaign evidence in the **same** original source record. Other address membership filters can combine associations from different original records and do not establish that those observations came from one campaign.
 
 Filters cover evidence category, framework/research corpus, India targeting scope, estimated hosting country, C2 role, our derivations and minimum confidence rubric score. Presets provide all addresses, source-reported membership, our analysis and same-record India C2. A search also matches IP, ASN, network name, city, campaign and source record IDs. Country and framework bar charts filter the same population; framework memberships may overlap. Active filter chips can be removed individually.
@@ -34,7 +36,7 @@ From the repository root, with Python 3.12 or later:
 python scripts/render_ip_map.py --root . --geometry maps/assets/world-india-view.geojson
 ```
 
-The renderer uses only the Python standard library. It reads the canonical flat list in `data/ip-overview.json` and the locally reviewed GeoJSON, then writes `maps/index.html`, `maps/world.svg` and `maps/render-metadata.json`. No network access occurs. To reproduce byte-identical output, provide the same inputs and the prior UTC render timestamp:
+The renderer uses only the Python standard library. It reads `data/ip-overview.json`, the catalog summary, indexed review data, and the locally reviewed GeoJSON. It then writes `maps/index.html`, `maps/world.svg` and `maps/render-metadata.json`. The Pages workflow rebuilds these outputs on `main` when map sources or the underlying data and review files change. To reproduce byte-identical output, provide the same inputs and the prior UTC render timestamp:
 
 ```text
 python scripts/render_ip_map.py --root . --geometry maps/assets/world-india-view.geojson --rendered-at 2026-11-10T18:00:00Z

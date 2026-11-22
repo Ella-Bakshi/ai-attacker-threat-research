@@ -8,6 +8,8 @@ on:
       - independent-enrichment/**
       - india/additional-ai-campaigns/records.json
       - research/first-party/**
+      - reports/**/*.json
+      - reports/**/README.md
       - scripts/ip_enrichment.py
       - scripts/refresh_ip_overview.py
       - scripts/download_enrichment_data.py

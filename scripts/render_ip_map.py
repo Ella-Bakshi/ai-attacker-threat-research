@@ -140,6 +140,97 @@ def normalize_records(records):
     return sorted(output, key=lambda r: (ipaddress.ip_address(r['ip']).version, int(ipaddress.ip_address(r['ip']))))
 
 
+def read_json(path):
+    return json.loads(path.read_text(encoding='utf-8-sig'))
+
+
+def count(value):
+    return value if type(value) is int and value >= 0 else None
+
+
+def observation_date(value):
+    try:
+        return dt.date.fromisoformat(value[:10]).isoformat()
+    except (TypeError, ValueError):
+        return None
+
+
+def latest_changes(root, records):
+    index_path = root / 'data/index.json'
+    if not index_path.is_file():
+        return None
+    index = read_json(index_path)
+    sources = [(root / path).resolve() for path in index.get('record_files', []) + index.get('supplementary_record_files', [])]
+    candidates = []
+    for source in sources:
+        if not source.is_relative_to(root / 'reports') or len(source.relative_to(root).parts) != 4:
+            continue
+        summary_path = source.with_name('summary.json')
+        if not summary_path.is_file():
+            continue
+        summary = read_json(summary_path)
+        reviewed = summary.get('reviewed_at_utc')
+        if not isinstance(reviewed, str) or count(summary.get('new_canonical_memberships')) is None:
+            continue
+        try:
+            reviewed_at = dt.datetime.fromisoformat(reviewed.replace('Z', '+00:00'))
+        except ValueError:
+            continue
+        if reviewed_at.tzinfo is not None:
+            candidates.append((reviewed_at, source, summary))
+    if not candidates:
+        return None
+
+    reviewed_at, source, summary = max(candidates, key=lambda candidate: (candidate[0], candidate[1]))
+    additions = read_json(source)
+    added_ids = {row['record_id'] for row in additions}
+    mapped = {record_id: row for row in records for record_id in row['record_ids']}
+    dated = []
+    previous_ids = set()
+    for row in additions:
+        address = mapped.get(row['record_id'])
+        first = observation_date(row.get('first_seen'))
+        last = observation_date(row.get('last_seen'))
+        if address and (first or last):
+            prior = set(address['record_ids']) - added_ids
+            if prior:
+                previous_ids.update(prior)
+                dated.append((row, address, first, last, prior))
+
+    # An observation date is new to this record set only if earlier evidence for
+    # the same selected address does not already carry it.
+    previous_dates = {}
+    if previous_ids:
+        for path in sources:
+            if path != source and path.is_relative_to(root):
+                for row in read_json(path):
+                    record_id = row['record_id']
+                    if record_id in previous_ids:
+                        previous_dates[record_id] = {observation_date(row.get(key)) for key in ('first_seen', 'last_seen')}
+                if previous_ids <= previous_dates.keys():
+                    break
+    observations = {}
+    for row, address, first, last, prior in dated:
+        if not prior <= previous_dates.keys():
+            continue
+        known = set().union(*(previous_dates[record_id] for record_id in prior))
+        if {first, last} - {None} - known:
+            ip = address['ip']
+            observations.setdefault(ip, dict(ip=ip, display_ip=ip.replace('.', '[.]'), first_seen=first,
+                                             last_seen=last, description=row.get('role', ''),
+                                             source_url=row.get('primary_source_url', '')))
+
+    report = source.with_name('README.md')
+    report_url = ('https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/'
+                  + report.relative_to(root).as_posix()) if report.is_file() else None
+    return dict(date=reviewed_at.astimezone(dt.timezone.utc).date().isoformat(), report_url=report_url,
+                new_evidence_records=count(summary.get('new_canonical_memberships')),
+                new_distinct_values=count(summary.get('new_master_values', summary.get('new_type_value_pairs'))),
+                new_map_ips=count(summary.get('newly_selected_literal_IPs')),
+                dated_ips=len(observations) if previous_ids <= previous_dates.keys() else None,
+                observations=list(observations.values())[:2])
+
+
 def static_svg(records, world, metadata, font_data=''):
     bins = collections.defaultdict(list)
     for row in records:
@@ -187,7 +278,8 @@ def static_svg(records, world, metadata, font_data=''):
 UI_DIR = Path(__file__).resolve().with_name('map-ui')
 STYLE = (UI_DIR / 'atlas.css').read_text(encoding='utf8')
 BODY = (UI_DIR / 'atlas.html').read_text(encoding='utf8')
-SCRIPT = (UI_DIR / 'map-math.js').read_text(encoding='utf8') + '\n' + (UI_DIR / 'atlas.js').read_text(encoding='utf8')
+SCRIPT = '\n'.join((UI_DIR / name).read_text(encoding='utf8')
+                   for name in ('map-math.js', 'atlas.js', 'island-controls.js'))
 
 
 def main():
@@ -223,6 +315,11 @@ def main():
     font_data = base64.b64encode(font_bytes).decode('ascii')
     metadata['ui_reference'] = 'https://github.com/Ella-Bakshi/cctv-scanner-result/tree/b234b7533d7d10933c43727e4f858500c88d587b'
     metadata['embedded_font_sha256'] = hashlib.sha256(font_bytes).hexdigest()
+    summary_path = root / 'data/summary.json'
+    summary = read_json(summary_path) if summary_path.is_file() else {}
+    metadata['overview'] = dict(evidence_records=count(summary.get('all_categorized_records_including_supplement')),
+                                distinct_master_values=count(summary.get('master_distinct_type_value')))
+    metadata['latest_changes'] = latest_changes(root, records)
     substitutions = dict(STYLE=STYLE.replace('__FONT_DATA__',font_data), WORLD=world, SCRIPT=SCRIPT, DATA=safe_json(records), META=safe_json(metadata))
     rendered = re.sub(r'__(STYLE|WORLD|SCRIPT|DATA|META)__', lambda match: substitutions[match.group(1)], BODY)
     out = root / 'maps'
