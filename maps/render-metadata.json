@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "renderer": "scripts/render_ip_map.py",
-  "rendered_at_utc": "2026-11-22T06:48:30.620803+00:00",
+  "rendered_at_utc": "2026-11-22T07:03:10.599629+00:00",
   "input": "data/ip-overview.json",
-  "input_sha256": "cf9936881502a2d066ed5988d2ba1bd2c7f20fb7c982049d738f1ff68debcbb3",
+  "input_sha256": "3b205815131e09b783af9ac960c19a5ba7127eba6e34145f5e9b0937f93d10d7",
   "geometry_source": "Natural Earth public-domain data via AshKyd/geojson-regions India POV; see maps/assets geometry provenance",
   "geometry_asset": "maps/assets/world-india-view.geojson",
   "geometry_sha256": "f16fb034333f7c07f0821cc63eeb7dd3f0818f656f0ba31ed0adcfae2c6240c8",
@@ -14,8 +14,8 @@
     "displayed_vertices": 51270,
     "simplification_degrees": 0
   },
-  "input_unique_ips": 6693,
-  "mapped_unique_ips": 6693,
+  "input_unique_ips": 6704,
+  "mapped_unique_ips": 6704,
   "unmapped_unique_ips": 0,
   "all_categories_default": true,
   "external_runtime_requests_required": false,
@@ -25,33 +25,16 @@
   "ui_reference": "https://github.com/Ella-Bakshi/cctv-scanner-result/tree/b234b7533d7d10933c43727e4f858500c88d587b",
   "embedded_font_sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
   "overview": {
-    "evidence_records": 13983,
-    "distinct_master_values": 17394
+    "evidence_records": 14013,
+    "distinct_master_values": 17423
   },
   "latest_changes": {
-    "date": "2026-11-21",
-    "report_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-21-peer-review/README.md",
-    "new_evidence_records": 19,
-    "new_distinct_values": 16,
-    "new_map_ips": 0,
-    "dated_ips": 2,
-    "observations": [
-      {
-        "ip": "154.64.252.77",
-        "display_ip": "154[.]64[.]252[.]77",
-        "first_seen": "2026-10-26",
-        "last_seen": "2026-10-27",
-        "description": "Source of a rise in Cognito activity in Datadog’s cluster 2 on October 26 and 27.",
-        "source_url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/"
-      },
-      {
-        "ip": "144.172.64.128",
-        "display_ip": "144[.]172[.]64[.]128",
-        "first_seen": null,
-        "last_seen": "2026-10-13",
-        "description": "Darktrace observed failed authentication attempts from this address.",
-        "source_url": "https://www.darktrace.com/blog/vulnerability-discovery-to-active-attacks-ai-in-cyber-operations"
-      }
-    ]
+    "date": "2026-11-22",
+    "report_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-22-daily-hunt/README.md",
+    "new_evidence_records": 30,
+    "new_distinct_values": 29,
+    "new_map_ips": 11,
+    "dated_ips": 0,
+    "observations": []
   }
 }

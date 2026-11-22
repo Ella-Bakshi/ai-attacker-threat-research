@@ -44,7 +44,8 @@
     "reports/2026/2026-11-19-payload-hunt/records.json",
     "reports/2026/2026-11-21-daily-hunt/records.json",
     "reports/2026/2026-11-21-followup/records.json",
-    "reports/2026/2026-11-21-peer-review/records.json"
+    "reports/2026/2026-11-21-peer-review/records.json",
+    "reports/2026/2026-11-22-daily-hunt/records.json"
   ],
   "supplementary_scope": "Separate India AI-campaign, independent public-artifact, and dated global AI-tool/campaign research; evidence classes and attribution remain distinct."
 }
