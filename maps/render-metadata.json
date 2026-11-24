@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "renderer": "scripts/render_ip_map.py",
-  "rendered_at_utc": "2026-11-22T10:19:34.054962+00:00",
+  "rendered_at_utc": "2026-11-24T04:53:06.638407+00:00",
   "input": "data/ip-overview.json",
-  "input_sha256": "35c2edb14ad091a04c3ebda596ed5cc4669493233540ecc8a1c9596948542f34",
+  "input_sha256": "6eee3bf3766a069c9d52a74f6a36f28acb85f01c579e5e3d48b08d562c56ff88",
   "geometry_source": "Natural Earth public-domain data via AshKyd/geojson-regions India POV; see maps/assets geometry provenance",
   "geometry_asset": "maps/assets/world-india-view.geojson",
   "geometry_sha256": "f16fb034333f7c07f0821cc63eeb7dd3f0818f656f0ba31ed0adcfae2c6240c8",
@@ -14,8 +14,8 @@
     "displayed_vertices": 51270,
     "simplification_degrees": 0
   },
-  "input_unique_ips": 6704,
-  "mapped_unique_ips": 6704,
+  "input_unique_ips": 6707,
+  "mapped_unique_ips": 6707,
   "unmapped_unique_ips": 0,
   "all_categories_default": true,
   "external_runtime_requests_required": false,
@@ -25,15 +25,15 @@
   "ui_reference": "https://github.com/Ella-Bakshi/cctv-scanner-result/tree/b234b7533d7d10933c43727e4f858500c88d587b",
   "embedded_font_sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
   "overview": {
-    "evidence_records": 14048,
-    "distinct_master_values": 17455
+    "evidence_records": 14064,
+    "distinct_master_values": 17470
   },
   "latest_changes": {
-    "date": "2026-11-22",
-    "report_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-22-grok-review/README.md",
-    "new_evidence_records": 35,
-    "new_distinct_values": 32,
-    "new_map_ips": 0,
+    "date": "2026-11-24",
+    "report_url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research/blob/main/reports/2026/2026-11-24-daily-hunt/README.md",
+    "new_evidence_records": 16,
+    "new_distinct_values": 15,
+    "new_map_ips": 3,
     "dated_ips": 0,
     "observations": []
   }

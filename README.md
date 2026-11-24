@@ -1,6 +1,6 @@
 # AI Attacker Threat Research
 
-Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **22 November 2026**.
+Research into the abuse of AI offensive frameworks and AI-assisted malware development, with sources, dates, scoped confidence and reproducible static evidence. Snapshot: **24 November 2026**.
 
 ## IP overview and map
 
@@ -12,13 +12,15 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **14,048 canonical source records**; the master has **17,455 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **14,064 canonical source records**; the master has **17,470 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
 [**57 verified project identities and resources**](tools/README.md), including fourteen added on 21 November, with earlier additions retained: capabilities, official sources/fork lineage, releases, license qualifications, AI features and scoped abuse evidence. Early releases and adjacent general agents remain labeled. [Our two source identification hypotheses](tools/source-identification-hypotheses.json) are runtime-untested software research, separate from admitted IOCs.
 
 ## Our findings
+
+On 24 November, we independently verified three upstream software assets. The same review adds 13 source-reported observations and 3 selected map IPs. [24 November hunt](reports/2026/2026-11-24-daily-hunt/README.md).
 
 On 22 November, we independently verified 8 software artifact fingerprints. The same review adds 22 source-reported memberships and 11 historical IPs to the inventory. The 35 unresolved relationships and 25 private leads retain their previous status. [22 November hunt](reports/2026/2026-11-22-daily-hunt/README.md).
 
@@ -73,7 +75,7 @@ The original main-record cohorts contain **18 ARTEX-associated** and **9 CyberSt
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,455 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,470 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -88,6 +90,10 @@ CERT-In confirms CRAFTY FALCON targeting Indian BFSI organizations and names ART
 The separate [India AI campaign supplement](india/additional-ai-campaigns/README.md) adds **171 externally sourced IOC records** from APT36 vibeware, Sheet Attack and Gopher Strike, plus **5 independently verified/derived observations**. These campaigns have primary-source India targeting evidence and vendor-assessed AI involvement; no ARTEX/CyberStrikeAI link is established. [Sourced IOCs](india/additional-ai-campaigns/sourced-iocs.csv), [our observations](india/additional-ai-campaigns/analyst-derived.csv), [report artifacts](india/additional-ai-campaigns/report-artifacts.csv), and [supporting context](india/additional-ai-campaigns/supporting-context.csv) remain separate.
 
 ## Browse dated reports
+
+### 2026-11-24
+
+- [Public-source and artifact hunt](reports/2026/2026-11-24-daily-hunt/README.md) adds 16 records, with Wiz incident roles and three independent asset identities.
 
 ### 2026-11-22
 

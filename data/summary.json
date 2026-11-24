@@ -1,8 +1,8 @@
 {
   "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
-  "date_user_timezone": "2026-11-22 Asia/Calcutta",
+  "date_user_timezone": "2026-11-24 Asia/Calcutta",
   "categorized_records": 9053,
-  "master_distinct_type_value": 17455,
+  "master_distinct_type_value": 17470,
   "new_native_patterns": 10,
   "analyst_derived_records": 342,
   "main_artex_records": 18,
@@ -21,26 +21,26 @@
   "supplementary_india_analyst_derived_records": 5,
   "supplementary_india_report_artifact_records": 32,
   "supplementary_india_context_records": 6,
-  "all_categorized_records_including_supplement": 14048,
+  "all_categorized_records_including_supplement": 14064,
   "framework_report_folders": 20,
-  "supplementary_report_folders": 22,
-  "report_folders_total": 42,
+  "supplementary_report_folders": 23,
+  "report_folders_total": 43,
   "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement.",
   "independent_public_artifact_records": 16,
   "independent_public_artifact_derived_facts": 6,
   "independent_public_artifact_software_fingerprints": 2,
   "independent_public_artifact_unverified_siblings": 2,
   "independent_public_artifact_shared_contexts": 6,
-  "latest_review_date": "2026-11-22",
+  "latest_review_date": "2026-11-24",
   "first_party_seed_observations": 2,
   "first_party_http_requests": 2,
-  "compact_catalog_records": 13818,
-  "daily_global_records": 4765,
+  "compact_catalog_records": 13834,
+  "daily_global_records": 4781,
   "daily_global_own_source_fingerprints": 9,
   "daily_global_source_campaign_observables": 259,
   "daily_global_record_classes": {
-    "sourced-iocs": 473,
-    "software-fingerprints": 365,
+    "sourced-iocs": 478,
+    "software-fingerprints": 368,
     "deployment-leads": 2980,
     "supporting-context": 32,
     "report-host-network-artifacts": 24,
@@ -50,7 +50,7 @@
     "artifact-derived-observables": 15,
     "sample-derived-observables": 128,
     "unverified-findings": 1,
-    "campaign-context": 336,
+    "campaign-context": 344,
     "analyst-derived": 4,
     "legitimate-service-context": 6
   },
@@ -114,28 +114,28 @@
     }
   },
   "source_review": {
-    "canonical_records": 14048,
-    "master_values": 17455,
+    "canonical_records": 14064,
+    "master_values": 17470,
     "new_values": 0,
     "new_ips": 0,
     "review_states": {
-      "source_supported": 5149,
+      "source_supported": 5162,
       "historical_provider": 8340,
-      "artifact_supported": 524,
+      "artifact_supported": 527,
       "unverified": 35
     },
     "categories": {
-      "campaign-context": 394,
+      "campaign-context": 402,
       "deployment-leads": 11395,
       "main-iocs": 27,
       "shared-services-and-generic-markers": 141,
-      "software-fingerprints": 751,
+      "software-fingerprints": 754,
       "supporting-tools": 92,
       "supporting-context": 45,
       "unverified-findings": 35,
       "report-artifact-observables": 285,
       "sample-derived-observables": 140,
-      "sourced-iocs": 646,
+      "sourced-iocs": 651,
       "analyst-derived": 15,
       "report-host-network-artifacts": 56,
       "legitimate-service-context": 7,
@@ -540,6 +540,36 @@
       "new_tool_identities": 0,
       "newly_selected_literal_IPs": 0,
       "scope": "Primary-source reconciliation of submitted candidates, qualified incident attribution and independently reproduced software fingerprints."
+    },
+    "latest_nov24_daily_hunt": {
+      "reviewed_at_utc": "2026-11-24T04:52:46.309957+00:00",
+      "new_canonical_memberships": 16,
+      "new_master_values": 15,
+      "additional_memberships": 1,
+      "classes": {
+        "campaign-context": 8,
+        "sourced-iocs": 5,
+        "software-fingerprints": 3
+      },
+      "canonical_records": 14064,
+      "compact_records": 13834,
+      "master_values": 17470,
+      "master_only_values": 3733,
+      "review_states": {
+        "source_supported": 5162,
+        "historical_provider": 8340,
+        "artifact_supported": 527,
+        "unverified": 35
+      },
+      "remaining_unverified": 35,
+      "new_independently_verified_malicious_C2_IPs": 0,
+      "own_memberships": 3,
+      "external_memberships": 13,
+      "unchanged_prior_unverified": 35,
+      "private_leads_unresolved": 25,
+      "new_tool_identities": 0,
+      "newly_selected_literal_IPs": 3,
+      "scope": "Original public reports and independently hashed benign public artifacts. Map additions are literal source-reported historical campaign addresses."
     }
   },
   "latest_resolution_review": {
@@ -652,7 +682,7 @@
     "new_independently_derived_malicious_iocs": 0,
     "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim."
   },
-  "indexed_supplementary_report_folders": 21,
+  "indexed_supplementary_report_folders": 22,
   "report_folder_count_scope": "Physical dated report directories, including review snapshots; 20 original framework report folders remain a separate historical cohort.",
   "latest_deeper_additions": 19,
   "latest_deeper_new_master_values": 12,
@@ -933,5 +963,35 @@
     "new_tool_identities": 0,
     "newly_selected_literal_IPs": 0,
     "scope": "Primary-source reconciliation of submitted candidates, qualified incident attribution and independently reproduced software fingerprints."
+  },
+  "latest_nov24_daily_hunt": {
+    "reviewed_at_utc": "2026-11-24T04:52:46.309957+00:00",
+    "new_canonical_memberships": 16,
+    "new_master_values": 15,
+    "additional_memberships": 1,
+    "classes": {
+      "campaign-context": 8,
+      "sourced-iocs": 5,
+      "software-fingerprints": 3
+    },
+    "canonical_records": 14064,
+    "compact_records": 13834,
+    "master_values": 17470,
+    "master_only_values": 3733,
+    "review_states": {
+      "source_supported": 5162,
+      "historical_provider": 8340,
+      "artifact_supported": 527,
+      "unverified": 35
+    },
+    "remaining_unverified": 35,
+    "new_independently_verified_malicious_C2_IPs": 0,
+    "own_memberships": 3,
+    "external_memberships": 13,
+    "unchanged_prior_unverified": 35,
+    "private_leads_unresolved": 25,
+    "new_tool_identities": 0,
+    "newly_selected_literal_IPs": 3,
+    "scope": "Original public reports and independently hashed benign public artifacts. Map additions are literal source-reported historical campaign addresses."
   }
 }

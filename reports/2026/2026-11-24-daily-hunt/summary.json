@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-11-24T04:52:46.309957+00:00",
+  "new_canonical_memberships": 16,
+  "new_master_values": 15,
+  "additional_memberships": 1,
+  "classes": {
+    "campaign-context": 8,
+    "sourced-iocs": 5,
+    "software-fingerprints": 3
+  },
+  "canonical_records": 14064,
+  "compact_records": 13834,
+  "master_values": 17470,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5162,
+    "historical_provider": 8340,
+    "artifact_supported": 527,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 3,
+  "external_memberships": 13,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "newly_selected_literal_IPs": 3,
+  "scope": "Original public reports and independently hashed benign public artifacts. Map additions are literal source-reported historical campaign addresses."
+}
