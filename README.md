@@ -12,7 +12,7 @@ The main CSV contains IP, source-observation timestamp, ASN, hosting/network org
 
 **This is a research inventory, not an automatic block list.** Review the [evidence classes and reliability limits](docs/indicator-reliability.md) before enforcement.
 
-The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **14,064 canonical source records**; the master has **17,470 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
+The inventory total counts unique IP addresses across evidence classes. It does not count active AI agents, successful attacks or systems targeting a particular country. The current catalog has **14,070 canonical source records**; the master has **17,476 distinct type/value pairs**, including **3,733 master-only historical values**. These counts include hashes, domains, paths, patterns and multiple source memberships for one IP. They differ from the map's selected unique-IP count.
 
 ## Tool index
 
@@ -75,7 +75,7 @@ The original main-record cohorts contain **18 ARTEX-associated** and **9 CyberSt
 - [ARTEX incident indicators](frameworks/ARTEX/README.md)
 - [CyberStrikeAI incident indicators](frameworks/CyberStrikeAI/README.md)
 - [Research appendices](research/README.md)
-- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,470 distinct type/value records across evidence classes, not a count of malicious systems
+- [Compact research catalog](data/catalog.csv) and [master union](data/ALL-FOUND-master.csv): 17,476 distinct type/value records across evidence classes, not a count of malicious systems
 
 ## India-related evidence
 
@@ -93,6 +93,7 @@ The separate [India AI campaign supplement](india/additional-ai-campaigns/README
 
 ### 2026-11-24
 
+- [ZQAgent follow-up and first-party sensor selection](reports/2026/2026-11-24-followup/README.md) adds six original-report records and one selected historical IP.
 - [Public-source and artifact hunt](reports/2026/2026-11-24-daily-hunt/README.md) adds 16 records, with Wiz incident roles and three independent asset identities.
 
 ### 2026-11-22

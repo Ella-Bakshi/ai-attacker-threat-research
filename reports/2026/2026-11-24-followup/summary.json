@@ -1,0 +1,29 @@
+{
+  "reviewed_at_utc": "2026-11-24T17:09:44.178479+00:00",
+  "new_canonical_memberships": 6,
+  "new_master_values": 6,
+  "additional_memberships": 0,
+  "classes": {
+    "sourced-iocs": 5,
+    "report-artifact-observables": 1
+  },
+  "canonical_records": 14070,
+  "compact_records": 13840,
+  "master_values": 17476,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5168,
+    "historical_provider": 8340,
+    "artifact_supported": 527,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 0,
+  "external_memberships": 6,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "newly_selected_literal_IPs": 1,
+  "scope": "Source-reported ARTEX-linked ZQAgent configuration and incident artifacts."
+}

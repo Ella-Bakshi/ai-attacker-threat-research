@@ -2,7 +2,7 @@
   "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
   "date_user_timezone": "2026-11-24 Asia/Calcutta",
   "categorized_records": 9053,
-  "master_distinct_type_value": 17470,
+  "master_distinct_type_value": 17476,
   "new_native_patterns": 10,
   "analyst_derived_records": 342,
   "main_artex_records": 18,
@@ -21,10 +21,10 @@
   "supplementary_india_analyst_derived_records": 5,
   "supplementary_india_report_artifact_records": 32,
   "supplementary_india_context_records": 6,
-  "all_categorized_records_including_supplement": 14064,
+  "all_categorized_records_including_supplement": 14070,
   "framework_report_folders": 20,
-  "supplementary_report_folders": 23,
-  "report_folders_total": 43,
+  "supplementary_report_folders": 24,
+  "report_folders_total": 44,
   "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement.",
   "independent_public_artifact_records": 16,
   "independent_public_artifact_derived_facts": 6,
@@ -34,19 +34,19 @@
   "latest_review_date": "2026-11-24",
   "first_party_seed_observations": 2,
   "first_party_http_requests": 2,
-  "compact_catalog_records": 13834,
-  "daily_global_records": 4781,
+  "compact_catalog_records": 13840,
+  "daily_global_records": 4787,
   "daily_global_own_source_fingerprints": 9,
   "daily_global_source_campaign_observables": 259,
   "daily_global_record_classes": {
-    "sourced-iocs": 478,
+    "sourced-iocs": 483,
     "software-fingerprints": 368,
     "deployment-leads": 2980,
     "supporting-context": 32,
     "report-host-network-artifacts": 24,
     "shared-services-and-generic-markers": 87,
     "supporting-tools": 31,
-    "report-artifact-observables": 283,
+    "report-artifact-observables": 284,
     "artifact-derived-observables": 15,
     "sample-derived-observables": 128,
     "unverified-findings": 1,
@@ -114,12 +114,12 @@
     }
   },
   "source_review": {
-    "canonical_records": 14064,
-    "master_values": 17470,
+    "canonical_records": 14070,
+    "master_values": 17476,
     "new_values": 0,
     "new_ips": 0,
     "review_states": {
-      "source_supported": 5162,
+      "source_supported": 5168,
       "historical_provider": 8340,
       "artifact_supported": 527,
       "unverified": 35
@@ -133,9 +133,9 @@
       "supporting-tools": 92,
       "supporting-context": 45,
       "unverified-findings": 35,
-      "report-artifact-observables": 285,
+      "report-artifact-observables": 286,
       "sample-derived-observables": 140,
-      "sourced-iocs": 651,
+      "sourced-iocs": 656,
       "analyst-derived": 15,
       "report-host-network-artifacts": 56,
       "legitimate-service-context": 7,
@@ -570,6 +570,35 @@
       "new_tool_identities": 0,
       "newly_selected_literal_IPs": 3,
       "scope": "Original public reports and independently hashed benign public artifacts. Map additions are literal source-reported historical campaign addresses."
+    },
+    "latest_nov24_followup": {
+      "reviewed_at_utc": "2026-11-24T17:09:44.178479+00:00",
+      "new_canonical_memberships": 6,
+      "new_master_values": 6,
+      "additional_memberships": 0,
+      "classes": {
+        "sourced-iocs": 5,
+        "report-artifact-observables": 1
+      },
+      "canonical_records": 14070,
+      "compact_records": 13840,
+      "master_values": 17476,
+      "master_only_values": 3733,
+      "review_states": {
+        "source_supported": 5168,
+        "historical_provider": 8340,
+        "artifact_supported": 527,
+        "unverified": 35
+      },
+      "remaining_unverified": 35,
+      "new_independently_verified_malicious_C2_IPs": 0,
+      "own_memberships": 0,
+      "external_memberships": 6,
+      "unchanged_prior_unverified": 35,
+      "private_leads_unresolved": 25,
+      "new_tool_identities": 0,
+      "newly_selected_literal_IPs": 1,
+      "scope": "Source-reported ARTEX-linked ZQAgent configuration and incident artifacts."
     }
   },
   "latest_resolution_review": {
@@ -682,7 +711,7 @@
     "new_independently_derived_malicious_iocs": 0,
     "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim."
   },
-  "indexed_supplementary_report_folders": 22,
+  "indexed_supplementary_report_folders": 23,
   "report_folder_count_scope": "Physical dated report directories, including review snapshots; 20 original framework report folders remain a separate historical cohort.",
   "latest_deeper_additions": 19,
   "latest_deeper_new_master_values": 12,
@@ -993,5 +1022,34 @@
     "new_tool_identities": 0,
     "newly_selected_literal_IPs": 3,
     "scope": "Original public reports and independently hashed benign public artifacts. Map additions are literal source-reported historical campaign addresses."
+  },
+  "latest_nov24_followup": {
+    "reviewed_at_utc": "2026-11-24T17:09:44.178479+00:00",
+    "new_canonical_memberships": 6,
+    "new_master_values": 6,
+    "additional_memberships": 0,
+    "classes": {
+      "sourced-iocs": 5,
+      "report-artifact-observables": 1
+    },
+    "canonical_records": 14070,
+    "compact_records": 13840,
+    "master_values": 17476,
+    "master_only_values": 3733,
+    "review_states": {
+      "source_supported": 5168,
+      "historical_provider": 8340,
+      "artifact_supported": 527,
+      "unverified": 35
+    },
+    "remaining_unverified": 35,
+    "new_independently_verified_malicious_C2_IPs": 0,
+    "own_memberships": 0,
+    "external_memberships": 6,
+    "unchanged_prior_unverified": 35,
+    "private_leads_unresolved": 25,
+    "new_tool_identities": 0,
+    "newly_selected_literal_IPs": 1,
+    "scope": "Source-reported ARTEX-linked ZQAgent configuration and incident artifacts."
   }
 }
