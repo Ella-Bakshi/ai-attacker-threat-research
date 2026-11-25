@@ -1,0 +1,31 @@
+{
+  "reviewed_at_utc": "2026-11-25T14:17:01.795170+00:00",
+  "new_canonical_memberships": 30,
+  "new_master_values": 29,
+  "additional_memberships": 1,
+  "classes": {
+    "sourced-iocs": 16,
+    "report-artifact-observables": 4,
+    "campaign-context": 5,
+    "software-fingerprints": 5
+  },
+  "canonical_records": 14100,
+  "compact_records": 13870,
+  "master_values": 17505,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5193,
+    "historical_provider": 8340,
+    "artifact_supported": 532,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 5,
+  "external_memberships": 25,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "newly_selected_literal_IPs": 5,
+  "scope": "Original campaign reports, historical infrastructure roles and pinned software artifacts."
+}
