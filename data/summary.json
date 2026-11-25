@@ -2,7 +2,7 @@
   "prepared_at_utc": "2026-11-10T16:41:21.558809+00:00",
   "date_user_timezone": "2026-11-25 Asia/Calcutta",
   "categorized_records": 9053,
-  "master_distinct_type_value": 17505,
+  "master_distinct_type_value": 20673,
   "new_native_patterns": 10,
   "analyst_derived_records": 342,
   "main_artex_records": 18,
@@ -21,10 +21,10 @@
   "supplementary_india_analyst_derived_records": 5,
   "supplementary_india_report_artifact_records": 32,
   "supplementary_india_context_records": 6,
-  "all_categorized_records_including_supplement": 14100,
+  "all_categorized_records_including_supplement": 19170,
   "framework_report_folders": 20,
-  "supplementary_report_folders": 25,
-  "report_folders_total": 45,
+  "supplementary_report_folders": 26,
+  "report_folders_total": 46,
   "india_exact_public_IOCs_scope": "Original ARTEX/CyberStrikeAI framework-linked collection; additional India AI campaigns have campaign-scope associations in a separate supplement.",
   "independent_public_artifact_records": 16,
   "independent_public_artifact_derived_facts": 6,
@@ -34,14 +34,14 @@
   "latest_review_date": "2026-11-25",
   "first_party_seed_observations": 2,
   "first_party_http_requests": 2,
-  "compact_catalog_records": 13870,
-  "daily_global_records": 4817,
+  "compact_catalog_records": 18940,
+  "daily_global_records": 9887,
   "daily_global_own_source_fingerprints": 9,
   "daily_global_source_campaign_observables": 259,
   "daily_global_record_classes": {
     "sourced-iocs": 499,
     "software-fingerprints": 373,
-    "deployment-leads": 2980,
+    "deployment-leads": 8050,
     "supporting-context": 32,
     "report-host-network-artifacts": 24,
     "shared-services-and-generic-markers": 87,
@@ -114,19 +114,19 @@
     }
   },
   "source_review": {
-    "canonical_records": 14100,
-    "master_values": 17505,
+    "canonical_records": 19170,
+    "master_values": 20673,
     "new_values": 0,
     "new_ips": 0,
     "review_states": {
-      "source_supported": 5193,
-      "historical_provider": 8340,
+      "source_supported": 5197,
+      "historical_provider": 13406,
       "artifact_supported": 532,
       "unverified": 35
     },
     "categories": {
       "campaign-context": 407,
-      "deployment-leads": 11395,
+      "deployment-leads": 16465,
       "main-iocs": 27,
       "shared-services-and-generic-markers": 141,
       "software-fingerprints": 759,
@@ -630,6 +630,34 @@
       "new_tool_identities": 0,
       "newly_selected_literal_IPs": 5,
       "scope": "Original campaign reports, historical infrastructure roles and pinned software artifacts."
+    },
+    "latest_nov25_provider_review": {
+      "reviewed_at_utc": "2026-11-25T17:40:59.174223+00:00",
+      "new_canonical_memberships": 5070,
+      "new_master_values": 3168,
+      "additional_memberships": 1902,
+      "classes": {
+        "deployment-leads": 5070
+      },
+      "canonical_records": 19170,
+      "compact_records": 18940,
+      "master_values": 20673,
+      "master_only_values": 3733,
+      "review_states": {
+        "source_supported": 5197,
+        "historical_provider": 13406,
+        "artifact_supported": 532,
+        "unverified": 35
+      },
+      "remaining_unverified": 35,
+      "new_independently_verified_malicious_C2_IPs": 0,
+      "own_memberships": 0,
+      "external_memberships": 5070,
+      "unchanged_prior_unverified": 35,
+      "private_leads_unresolved": 25,
+      "new_tool_identities": 0,
+      "newly_selected_literal_IPs": 2695,
+      "scope": "Provider-confirmed passive software deployments and four sourced historical console observations."
     }
   },
   "latest_resolution_review": {
@@ -742,7 +770,7 @@
     "new_independently_derived_malicious_iocs": 0,
     "scope": "Append-only source/software/artifact evidence; no current-operation or blanket maliciousness claim."
   },
-  "indexed_supplementary_report_folders": 24,
+  "indexed_supplementary_report_folders": 25,
   "report_folder_count_scope": "Physical dated report directories, including review snapshots; 20 original framework report folders remain a separate historical cohort.",
   "latest_deeper_additions": 19,
   "latest_deeper_new_master_values": 12,
@@ -1113,5 +1141,33 @@
     "new_tool_identities": 0,
     "newly_selected_literal_IPs": 5,
     "scope": "Original campaign reports, historical infrastructure roles and pinned software artifacts."
+  },
+  "latest_nov25_provider_review": {
+    "reviewed_at_utc": "2026-11-25T17:40:59.174223+00:00",
+    "new_canonical_memberships": 5070,
+    "new_master_values": 3168,
+    "additional_memberships": 1902,
+    "classes": {
+      "deployment-leads": 5070
+    },
+    "canonical_records": 19170,
+    "compact_records": 18940,
+    "master_values": 20673,
+    "master_only_values": 3733,
+    "review_states": {
+      "source_supported": 5197,
+      "historical_provider": 13406,
+      "artifact_supported": 532,
+      "unverified": 35
+    },
+    "remaining_unverified": 35,
+    "new_independently_verified_malicious_C2_IPs": 0,
+    "own_memberships": 0,
+    "external_memberships": 5070,
+    "unchanged_prior_unverified": 35,
+    "private_leads_unresolved": 25,
+    "new_tool_identities": 0,
+    "newly_selected_literal_IPs": 2695,
+    "scope": "Provider-confirmed passive software deployments and four sourced historical console observations."
   }
 }

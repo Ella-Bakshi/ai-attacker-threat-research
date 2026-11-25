@@ -1,0 +1,28 @@
+{
+  "reviewed_at_utc": "2026-11-25T17:40:59.174223+00:00",
+  "new_canonical_memberships": 5070,
+  "new_master_values": 3168,
+  "additional_memberships": 1902,
+  "classes": {
+    "deployment-leads": 5070
+  },
+  "canonical_records": 19170,
+  "compact_records": 18940,
+  "master_values": 20673,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5197,
+    "historical_provider": 13406,
+    "artifact_supported": 532,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 0,
+  "external_memberships": 5070,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 0,
+  "newly_selected_literal_IPs": 2695,
+  "scope": "Provider-confirmed passive software deployments and four sourced historical console observations."
+}

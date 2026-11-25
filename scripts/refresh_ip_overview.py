@@ -21,7 +21,16 @@ def source_dates(records,field):
 def artifact_date_context(records):
     """Preserve artifact times without turning submission/validity into attack time."""
     out=set()
-    keys={'submitted_at_utc':'sandbox submission','sample_submitted_at_utc':'sandbox submission','sandbox_submitted_at_utc':'sandbox submission','urlscan_task_time_utc':'public scan','not_before':'certificate validity start','not_after':'certificate validity end'}
+    keys={
+        'submitted_at_utc':'sandbox submission',
+        'sample_submitted_at_utc':'sandbox submission',
+        'sandbox_submitted_at_utc':'sandbox submission',
+        'urlscan_task_time_utc':'public scan',
+        'not_before':'certificate validity start',
+        'not_after':'certificate validity end',
+        'provider_host_first_seen_date':'provider host first seen',
+        'provider_host_last_seen_date':'provider host last seen',
+    }
     def visit(node,rid):
         if isinstance(node,dict):
             for key,value in node.items():

@@ -13,6 +13,14 @@ Updated 12 November 2026 in India. Our contribution includes independent analysi
 
 See [independent enrichment](../independent-enrichment/README.md), [normalized CSV](../independent-enrichment/observations.csv), [source receipts](../independent-enrichment/source-receipts.json), [sanitized evidence](../independent-enrichment/sanitized-evidence.json) and [first-party observations](../research/first-party/README.md). Original sample configuration, public sandbox behavior and our current HTTP response are separate claims.
 
+## Current collection and publication flow
+
+1. Check each established source at most once per Asia/Kolkata date using a shared private ledger. Retain the last successful window when a source fails. Discover new primary reports between checks and track access gaps.
+2. Compare exact typed values against the catalog, preserving ports, URLs and source memberships. Treat mirrored reports as one underlying observation when their provenance supports that relationship.
+3. Review the underlying evidence before publication. Keep publisher incident roles, our own artifact derivations and passive deployment matches separately scoped. Record the source, dates, review basis and limitations. Keep ambiguous provider rows and restricted inputs in private review.
+4. Add accepted values to the index and update the selected literal IP CSV deliberately. Enrich the addresses from local IPtoASN and DB-IP Lite snapshots. Use the evidence for the score and geolocation for the map.
+5. Check the counts, categories, attribution and map before pushing. The existing GitHub workflow rebuilds the generated data and deploys Pages. Verify the published map and retain the private source checkpoints.
+
 ## Reproduce collection locally
 
 Create a local Python environment. The artifact parser uses `cryptography` only for X.509 parsing; the seed observer uses the standard library. Keep raw captures outside publication.
