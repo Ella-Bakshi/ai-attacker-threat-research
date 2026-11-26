@@ -5939,5 +5939,65 @@
       "runtime_capability": "Unvalidated",
       "malicious_use": "Not established"
     }
+  },
+  {
+    "name": "T3MP3ST",
+    "aliases": [
+      "T3MP3ST Dashboard"
+    ],
+    "category": "multi-agent security assessment platform",
+    "what_it_does_reported": "Maintainer describes a multi-agent red-team assessment harness and dashboard.",
+    "capability_validation": "Official repository metadata and publisher descriptions reviewed. Runtime behavior has not been measured.",
+    "ai_feature_assessment": "Maintainer-described multi-agent security assessment platform. Role is software identity only.",
+    "official_repository": "https://github.com/elder-plinius/T3MP3ST",
+    "repository_full_name": "elder-plinius/T3MP3ST",
+    "upstream_identity_qualification": "Shadowserver links directly to the owning repository for the T3MP3ST Dashboard name.",
+    "pinned_revision": "29824d5625ede419ac8cdae418c8f4c72c6270f7",
+    "last_activity_utc": "2026-09-08T03:04:14Z",
+    "last_activity_meaning": "GitHub default-branch committer timestamp.",
+    "repository_last_push_utc": "2026-09-08T16:37:44Z",
+    "repository_created_at_utc": "2026-07-02T17:53:55Z",
+    "archived": false,
+    "license": "AGPL-3.0",
+    "license_qualification": "GitHub repository metadata identifies the AGPL-3.0 license.",
+    "license_source_url": "https://api.github.com/repos/elder-plinius/T3MP3ST",
+    "latest_release": {
+      "name": "v1.0.0",
+      "tag_name": "v1.0.0",
+      "published_at": "2026-09-08T03:14:21Z",
+      "html_url": "https://github.com/elder-plinius/T3MP3ST/releases/tag/v1.0.0",
+      "prerelease": false
+    },
+    "lifecycle_stage": "Public GitHub release",
+    "lifecycle_basis": "Maintainer released v1.0.0 in September. Indexed here in November.",
+    "resources": [
+      {
+        "url": "https://github.com/elder-plinius/T3MP3ST/commit/29824d5625ede419ac8cdae418c8f4c72c6270f7",
+        "kind": "pinned-commit"
+      },
+      {
+        "url": "https://github.com/elder-plinius/T3MP3ST/releases/tag/v1.0.0",
+        "kind": "release"
+      },
+      {
+        "url": "https://www.shadowserver.org/news/agentic-ai-attack-frameworks-in-the-wild-what-our-scans-and-honeypots-show/",
+        "kind": "publisher deployment context"
+      }
+    ],
+    "observed_abuse": "unestablished",
+    "observed_abuse_basis": "Public Shadowserver reporting supports an exposure fingerprint in an aggregate report.",
+    "observed_abuse_primary_sources": [],
+    "ioc_status": "Tool identity and public deployment context.",
+    "new_network_iocs": 0,
+    "sources": [
+      "https://github.com/elder-plinius/T3MP3ST",
+      "https://github.com/elder-plinius/T3MP3ST/commit/29824d5625ede419ac8cdae418c8f4c72c6270f7",
+      "https://github.com/elder-plinius/T3MP3ST/releases/tag/v1.0.0",
+      "https://www.shadowserver.org/news/agentic-ai-attack-frameworks-in-the-wild-what-our-scans-and-honeypots-show/"
+    ],
+    "global_novelty_claimed": false,
+    "baseline_entry": false,
+    "tool_id": "elder-plinius--t3mp3st",
+    "reviewed_at_utc": "2026-11-26T18:19:30+00:00"
   }
 ]

@@ -1,10 +1,14 @@
 # AI security tooling index
 
-Updated **21 November 2026**. This registry covers **57 project identities**, including fourteen added on 21 November, one on 16 November, nine on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
+Updated **26 November 2026**. This registry covers **58 project identities**, including fourteen added on 21 November, one on 16 November, nine on 15 November and ten on 13 November. Earlier pinned source revisions remain historical inspected references. It includes dedicated security agents, AI-assisted auditing, conventional reconnaissance and adjacent general agents. A project's presence here does not establish maliciousness or a hostile deployment. Capabilities are upstream descriptions, not executed or independently benchmarked results.
 
 [Full JSON](tool-registry.json) · [Importable CSV](tool-registry.csv) · [Our source identification hypotheses](source-identification-hypotheses.json)
 
 Each entry records its owner, aliases, pinned revision, documentation/resources, latest visible release, activity date and meaning, license qualifications, AI-feature assessment, lifecycle evidence and narrowly scoped abuse reporting. Documentation byte hashes identify the inspected source; they are not malware hashes or runtime deployment detectors. This registry is separate from IOC totals and does not add map locations.
+
+## Indexed on 26 November 2026
+
+[T3MP3ST](https://github.com/elder-plinius/T3MP3ST) is a maintainer-described multi-agent assessment platform. The index pins the current inspected source revision and records the September [v1.0.0 release](https://github.com/elder-plinius/T3MP3ST/releases/tag/v1.0.0). Shadowserver's report provides aggregate exposure context. [Shadowserver observations](https://www.shadowserver.org/news/agentic-ai-attack-frameworks-in-the-wild-what-our-scans-and-honeypots-show/)
 
 ## Established projects
 

@@ -1,0 +1,32 @@
+{
+  "reviewed_at_utc": "2026-11-26T18:19:32.172380+00:00",
+  "new_canonical_memberships": 474,
+  "new_master_values": 426,
+  "additional_memberships": 48,
+  "classes": {
+    "campaign-context": 23,
+    "sourced-iocs": 23,
+    "deployment-leads": 416,
+    "report-artifact-observables": 5,
+    "software-fingerprints": 7
+  },
+  "canonical_records": 19644,
+  "compact_records": 19414,
+  "master_values": 21099,
+  "master_only_values": 3733,
+  "review_states": {
+    "source_supported": 5249,
+    "historical_provider": 13821,
+    "artifact_supported": 539,
+    "unverified": 35
+  },
+  "remaining_unverified": 35,
+  "new_independently_verified_malicious_C2_IPs": 0,
+  "own_memberships": 7,
+  "external_memberships": 467,
+  "unchanged_prior_unverified": 35,
+  "private_leads_unresolved": 25,
+  "new_tool_identities": 1,
+  "newly_selected_literal_IPs": 366,
+  "scope": "Passive deployment delta, primary incident evidence, pinned static asset identities, and one tool identity."
+}
